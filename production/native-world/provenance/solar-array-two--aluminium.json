@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 236,
+  "triangles": 416,
+  "bytes": 113080,
+  "source_bytes": 25488,
+  "id": "solar-array-two--aluminium",
+  "original_sha256": "b2487024a41ac6936895502dceecc0be68615dd0ca99eb46433b1b14c35b1f38",
+  "source_sha256": "1aac272fa75da97fd6fa51a67ff2da0c5fea762f925632ea1b7ae1cfa459b235",
+  "attested_sha256": "b24d54169993b011271508f894b521874e11ff98977f89f4b569aa19da08b90e",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

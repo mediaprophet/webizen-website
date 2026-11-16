@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "id": "living-catchment-v2",
+  "environment": "living-catchment",
+  "exhibits": [
+    {
+      "id": "river",
+      "position": [
+        0,
+        2,
+        16
+      ],
+      "camera": [
+        12,
+        8,
+        14
+      ],
+      "kind": "terrain",
+      "modules": [
+        "QualiaDB",
+        "Hypermedia",
+        "Synth"
+      ],
+      "links": [
+        "domains-solvers.html",
+        "playground/living-world-showcase.html"
+      ]
+    },
+    {
+      "id": "canopy",
+      "position": [
+        -20,
+        6,
+        -16
+      ],
+      "camera": [
+        10,
+        8,
+        12
+      ],
+      "kind": "relationships",
+      "modules": [
+        "Ecopunk",
+        "QualiaDB",
+        "Hypermedia"
+      ],
+      "links": [
+        "playground/living-world-showcase.html",
+        "graph.html"
+      ]
+    },
+    {
+      "id": "commons",
+      "position": [
+        -17,
+        5,
+        6
+      ],
+      "camera": [
+        9,
+        6,
+        9
+      ],
+      "kind": "rights",
+      "modules": [
+        "Webizen",
+        "QualiaDB",
+        "Web Civics",
+        "Webizen Host"
+      ],
+      "links": [
+        "agreement-instruments.html",
+        "agreement-ledger.html"
+      ]
+    },
+    {
+      "id": "atelier",
+      "position": [
+        20,
+        4,
+        -7
+      ],
+      "camera": [
+        10,
+        5,
+        11
+      ],
+      "kind": "sound",
+      "modules": [
+        "Synth",
+        "Poet",
+        "VibeScript",
+        "Hypermedia"
+      ],
+      "links": [
+        "hypermedia-studio.html",
+        "audio-showcase.html"
+      ]
+    },
+    {
+      "id": "observatory",
+      "position": [
+        -15,
+        7,
+        -32
+      ],
+      "camera": [
+        11,
+        7,
+        13
+      ],
+      "kind": "light",
+      "modules": [
+        "Etalon",
+        "QualiaDB",
+        "Anvil",
+        "Synth"
+      ],
+      "links": [
+        "emf-qac-showcase.html",
+        "vision-showcase.html",
+        "benchmark.html"
+      ]
+    },
+    {
+      "id": "biology",
+      "position": [
+        17,
+        6,
+        -37
+      ],
+      "camera": [
+        9,
+        5,
+        10
+      ],
+      "kind": "biology",
+      "modules": [
+        "Anatomy",
+        "QualiaDB",
+        "Hypermedia",
+        "Etalon"
+      ],
+      "links": [
+        "playground/anatomy.html",
+        "playground/living-world-showcase.html"
+      ]
+    },
+    {
+      "id": "field-studio",
+      "position": [
+        -22,
+        2,
+        28
+      ],
+      "camera": [
+        11,
+        3.3,
+        15
+      ],
+      "kind": "campsite",
+      "modules": [
+        "Webizen",
+        "Synth",
+        "Hypermedia",
+        "VibeScript"
+      ],
+      "links": [
+        "hypermedia-studio.html"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "river",
+      "to": "canopy",
+      "kind": "knowledge"
+    },
+    {
+      "from": "canopy",
+      "to": "biology",
+      "kind": "knowledge"
+    },
+    {
+      "from": "river",
+      "to": "observatory",
+      "kind": "information"
+    },
+    {
+      "from": "observatory",
+      "to": "biology",
+      "kind": "information"
+    },
+    {
+      "from": "commons",
+      "to": "river",
+      "kind": "socioeconomic"
+    },
+    {
+      "from": "commons",
+      "to": "atelier",
+      "kind": "socioeconomic"
+    },
+    {
+      "from": "atelier",
+      "to": "canopy",
+      "kind": "knowledge"
+    },
+    {
+      "from": "commons",
+      "to": "observatory",
+      "kind": "information"
+    },
+    {
+      "from": "field-studio",
+      "to": "atelier",
+      "kind": "knowledge"
+    },
+    {
+      "from": "field-studio",
+      "to": "commons",
+      "kind": "socioeconomic"
+    },
+    {
+      "from": "river",
+      "to": "field-studio",
+      "kind": "information"
+    }
+  ],
+  "rendering": "QualiaPortal native WebGPU via Rust/WASM; actual Q42 and VibeScript; generated browser loader only. Preserved legacy laboratory instruments are awaiting native UI migration.",
+  "locale_policy": "BCP 47; per-message language fallback; no canvas text for essential content"
+}

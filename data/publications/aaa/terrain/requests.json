@@ -1,0 +1,18 @@
+{
+  "adapter": "DemAdapter::terrarium",
+  "bbox_wsen": [
+    149.06,
+    -35.3,
+    149.08,
+    -35.28
+  ],
+  "consent_without_registry_refused": true,
+  "purpose": "Public Canberra reference terrain; not a personal campsite",
+  "urls": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7487/4954.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7488/4954.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7487/4955.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/7488/4955.png"
+  ],
+  "zoom": 13
+}

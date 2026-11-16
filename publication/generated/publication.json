@@ -1,0 +1,1177 @@
+{
+  "schema": "webizen.publication/v1",
+  "id": "living-world",
+  "stage": "draft",
+  "default_locale": "en-AU",
+  "created_at": "2026-11-16T03:55:36.969543+00:00",
+  "sources": [
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "data/world.json",
+      "sha256": "e638c60d34c770a6f59e571d991bb1044b3c6b9f4339c822d29e599fefc96afc"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "site/locales/en-AU.json",
+      "sha256": "1bff769e882004440c4c573a572458d1960277b48c74aaceef17195e59574428"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "migration/baseline/modules.json",
+      "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "data/journey.json",
+      "sha256": "66289dccc49b615c7c246c8bdc3b97478426f6a61d2acf06e0078b0e231380c6"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "data/native-world-layout.json",
+      "sha256": "2ea418bf8e23f5df8a6366beb75cd581acdcda9c5bb35efe8232b185e76999ca"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "site/world/living-world.vibe",
+      "sha256": "1b7842fbba396723a10467c3c5bcf87e4f04f017fd8c21a720dbcb917446f999"
+    }
+  ],
+  "runtimes": [
+    {
+      "id": "native-q42",
+      "profile": "native",
+      "version": "qualia-core-db/0.0.41; adapter 548fde84a89bc174",
+      "device": null,
+      "backend": "native Q42 writer/reader"
+    }
+  ],
+  "modules": [
+    {
+      "schema": "webizen.module/v1",
+      "id": "qualiadb",
+      "name": "QualiaDB",
+      "purpose": "Contextual knowledge, reasoning, resource codecs and scientific foundations",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "webizen",
+      "name": "Webizen applications and runtime",
+      "purpose": "Human-facing tools, application lifecycle and authorised host capabilities",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "poet",
+      "name": "Poet",
+      "purpose": "Composition and editing of authored works; reconcile app/source ownership",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "vibescript",
+      "name": "VibeScript",
+      "purpose": "Checked language, authoring tools and explicit host contracts; engine in QualiaDB",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "synth",
+      "name": "Synth",
+      "purpose": "Reproducible media production, strict replay and HMC packaging",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "hypermedia",
+      "name": "Hypermedia production",
+      "purpose": "150 composable media production operations",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "etalon",
+      "name": "Etalon",
+      "purpose": "Rendering, computation, inference, signals and sensing",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "anvil",
+      "name": "Anvil",
+      "purpose": "Device capability facts and execution routing information",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "aether",
+      "name": "Aether",
+      "purpose": "Application framework, reactive and native interfaces",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "chora",
+      "name": "Chora",
+      "purpose": "Embedded web and spatial document engine",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "webizen-host",
+      "name": "Webizen Host",
+      "purpose": "Hosting, namespaces, deployment and shared stewardship",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "web-civics",
+      "name": "Web Civics / semantic instruments",
+      "purpose": "Vocabularies, structured instruments and shared meaning",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "cooperation",
+      "name": "Wellfare, cooperation and work graph",
+      "purpose": "Care, participation, shared work and cooperative primitives",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "anatomy",
+      "name": "Anatomy",
+      "purpose": "Authored spatial biological and welfare educational works",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "ecopunk",
+      "name": "Ecopunk and living-world work",
+      "purpose": "Environmental systems and living-world experiences",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    },
+    {
+      "schema": "webizen.module/v1",
+      "id": "qdnf",
+      "name": "QDNF and identifier fabric",
+      "purpose": "Identifier, naming and network fabric; public subsystem explicitly reconciled with the module atlas",
+      "difference": "Module-specific comparison awaits source-qualified editorial review.",
+      "human_significance": "Part of the human-centric computing ecosystem; detailed human-facing profile is in editorial development.",
+      "qualification": "not-yet-qualified",
+      "sources": [
+        {
+          "repository": "webizen-website",
+          "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+          "path": "migration/baseline/modules.json",
+          "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+        }
+      ],
+      "capabilities": [],
+      "runtime_ids": [],
+      "related_modules": [],
+      "evidence": []
+    }
+  ],
+  "exhibits": [
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "river",
+      "title_key": "river",
+      "body_key": "riverBody",
+      "module_ids": [
+        "hypermedia",
+        "qualiadb",
+        "synth"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        0.0,
+        3.3569028586758782,
+        16.0
+      ],
+      "camera": [
+        12.0,
+        11.356902858675879,
+        30.0
+      ],
+      "reading_route": "/publication/reading.html#river",
+      "asset_ids": [],
+      "related_exhibits": [
+        "canopy",
+        "field-studio",
+        "observatory"
+      ]
+    },
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "canopy",
+      "title_key": "canopy",
+      "body_key": "canopyBody",
+      "module_ids": [
+        "ecopunk",
+        "hypermedia",
+        "qualiadb"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        -20.0,
+        3.9784226191161283,
+        -16.0
+      ],
+      "camera": [
+        -10.0,
+        11.978422619116127,
+        -4.0
+      ],
+      "reading_route": "/publication/reading.html#canopy",
+      "asset_ids": [],
+      "related_exhibits": [
+        "biology"
+      ]
+    },
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "commons",
+      "title_key": "commons",
+      "body_key": "commonsBody",
+      "module_ids": [
+        "qualiadb",
+        "web-civics",
+        "webizen",
+        "webizen-host"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        -17.0,
+        3.688931231681775,
+        6.0
+      ],
+      "camera": [
+        -8.0,
+        9.688931231681774,
+        15.0
+      ],
+      "reading_route": "/publication/reading.html#commons",
+      "asset_ids": [],
+      "related_exhibits": [
+        "atelier",
+        "observatory",
+        "river"
+      ]
+    },
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "atelier",
+      "title_key": "atelier",
+      "body_key": "atelierBody",
+      "module_ids": [
+        "hypermedia",
+        "poet",
+        "synth",
+        "vibescript"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        20.0,
+        5.666177230070194,
+        -7.0
+      ],
+      "camera": [
+        30.0,
+        10.666177230070193,
+        4.0
+      ],
+      "reading_route": "/publication/reading.html#atelier",
+      "asset_ids": [],
+      "related_exhibits": [
+        "canopy"
+      ]
+    },
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "observatory",
+      "title_key": "observatory",
+      "body_key": "observatoryBody",
+      "module_ids": [
+        "anvil",
+        "etalon",
+        "qualiadb",
+        "synth"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        -15.0,
+        2.16498867324049,
+        -32.0
+      ],
+      "camera": [
+        -4.0,
+        9.16498867324049,
+        -19.0
+      ],
+      "reading_route": "/publication/reading.html#observatory",
+      "asset_ids": [],
+      "related_exhibits": [
+        "biology"
+      ]
+    },
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "biology",
+      "title_key": "biology",
+      "body_key": "biologyBody",
+      "module_ids": [
+        "anatomy",
+        "etalon",
+        "hypermedia",
+        "qualiadb"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        17.0,
+        4.825541311079283,
+        -37.0
+      ],
+      "camera": [
+        26.0,
+        9.825541311079283,
+        -27.0
+      ],
+      "reading_route": "/publication/reading.html#biology",
+      "asset_ids": [],
+      "related_exhibits": []
+    },
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "field-studio",
+      "title_key": "field-studio",
+      "body_key": "field-studioBody",
+      "module_ids": [
+        "hypermedia",
+        "synth",
+        "vibescript",
+        "webizen"
+      ],
+      "experiment_id": null,
+      "environment": "living-catchment",
+      "position": [
+        -22.0,
+        5.4909216892549235,
+        28.0
+      ],
+      "camera": [
+        -32.0,
+        8.900000000254924,
+        44.0
+      ],
+      "reading_route": "/publication/reading.html#field-studio",
+      "asset_ids": [],
+      "related_exhibits": [
+        "atelier",
+        "commons"
+      ]
+    }
+  ],
+  "experiments": [],
+  "test_runs": [],
+  "benchmarks": [],
+  "locales": [
+    {
+      "schema": "webizen.locale/v1",
+      "id": "locale-en-au",
+      "locale": "en-AU",
+      "default": true,
+      "source_locale": "en-AU",
+      "source_revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "direction": "ltr",
+      "messages": {
+        "brand": {
+          "value": "HUMAN-CENTRIC COMPUTING",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "worldMap": {
+          "value": "Explore the world",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "demos": {
+          "value": "Technical demonstrations",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "about": {
+          "value": "About this world",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "eyebrow": {
+          "value": "NATURE · KNOWLEDGE · HUMAN LIFE",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "headline": {
+          "value": "A living world.\nA human future.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "intro": {
+          "value": "Follow a river. Enter a forest. Discover how a computing ecosystem can serve the people and living world it belongs to.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "enter": {
+          "value": "Begin exploring",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "read": {
+          "value": "Choose a reading path",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "inspect": {
+          "value": "Investigate this place",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "lens": {
+          "value": "See the relationships",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "natural": {
+          "value": "Natural world",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "information": {
+          "value": "Information geometry",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "knowledge": {
+          "value": "Knowledge geometry",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "socioeconomic": {
+          "value": "Socioeconomic geometry",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "allRelations": {
+          "value": "All relationships",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "hint": {
+          "value": "Drag to look · Scroll to move closer · Choose a place to travel",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "pause": {
+          "value": "Pause motion",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "resume": {
+          "value": "Resume motion",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "support": {
+          "value": "Your path & support",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "loading": {
+          "value": "Opening the living world…",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "close": {
+          "value": "Close",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "river": {
+          "value": "The living river",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "canopy": {
+          "value": "The forest canopy",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "commons": {
+          "value": "The commons",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "atelier": {
+          "value": "The atelier",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "observatory": {
+          "value": "The field station",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "biology": {
+          "value": "The living body",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "riverShort": {
+          "value": "Water, landscape and the information that helps us understand a place.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "canopyShort": {
+          "value": "Life is relationship. Explore nature, knowledge and shared understanding.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "commonsShort": {
+          "value": "People, purposes, responsibilities and practical support.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "atelierShort": {
+          "value": "Creative expression, sound and the origins of a work.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "observatoryShort": {
+          "value": "Light, measurement, computation and evidence.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "biologyShort": {
+          "value": "Biology across scales, with sources and uncertainty intact.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "run": {
+          "value": "Run through Synth",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "running": {
+          "value": "Producing with the local platform…",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "source": {
+          "value": "Inspect source & execution evidence",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "live": {
+          "value": "Live native execution",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "references": {
+          "value": "Explore existing technical demonstrations",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "height": {
+          "value": "Terrain brush strength",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "wavelength": {
+          "value": "Wavelength (nm)",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "frequency": {
+          "value": "Frequency (Hz)",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "purpose": {
+          "value": "What would you like to do?",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "learn": {
+          "value": "Learn and explore",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "research": {
+          "value": "Investigate the evidence",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "create": {
+          "value": "Create a work",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "participate": {
+          "value": "Participate and cooperate",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "applyPath": {
+          "value": "Find my path",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "largeText": {
+          "value": "Larger text",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "reduceMotion": {
+          "value": "Reduce motion",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "readingMode": {
+          "value": "Quiet reading background",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "language": {
+          "value": "Language",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "localeCode": {
+          "value": "Another language or locale (BCP 47)",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "applyLanguage": {
+          "value": "Apply language",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "fallback": {
+          "value": "Untranslated passages are shown in English and marked with their language. Translation packs can be added without changing the world.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "languageNote": {
+          "value": "These are review translations. Language coverage and cultural suitability require native-language review.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "rightsAction": {
+          "value": "A synthetic community request",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "summary": {
+          "value": "Read a community summary",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "individual": {
+          "value": "Request individual records",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "evaluate": {
+          "value": "Evaluate the request",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "permitted": {
+          "value": "Permitted: synthetic summary returned",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "refused": {
+          "value": "Refused: individual records were not returned",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "rightsLimit": {
+          "value": "A real QualiaDB evaluation of authored synthetic norms. This demonstrates a bounded mechanism, not universal rights compliance.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "noResults": {
+          "value": "No matching source pages.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "findDemo": {
+          "value": "Find a capability, page or demonstration",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "mapIntro": {
+          "value": "One connected catchment. Many ways to understand, create and participate.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "pathStatus": {
+          "value": "Your chosen purpose changes the sequence. It does not grant access to private information.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "package": {
+          "value": "Download HMC package",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "receipt": {
+          "value": "Production receipt",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "reset": {
+          "value": "Return to overview",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "native": {
+          "value": "Inspect native .10d in QualiaPortal",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "inventory": {
+          "value": "Complete page & demo inventory",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "opening": {
+          "value": "Opening…",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "error": {
+          "value": "The operation could not complete. Its error is shown below.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "runtime": {
+          "value": "Current Synth catalog: {count} operations",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "graphResult": {
+          "value": "Graph matches: {count}",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "aboutTitle": {
+          "value": "A world to explore.\nAn ecosystem to understand.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "aboutCopy": {
+          "value": "This revised review scene is a continuous, authored natural landscape. The landscape presentation uses Three.js; the local demonstration host executes the current Synth/QualiaDB operations and returns their actual resources and receipts. The terrain is also imported and sealed as a native .10d asset through Synth.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "aboutGraph": {
+          "value": "The public website graph is published as a genuine .q42 volume and verified by the native QualiaDB reader. Declared-purpose anchors and typed relationships select the route; Vibe packages the resulting sequence. Authentication, private graph views, delegation and contestability remain separate host integration work.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "aboutLimits": {
+          "value": "The landscape and helix are artistic explanatory representations, not ecological or medical measurements. The existing demo index preserves all 202 source routes; those pages have individual qualification requirements.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "supportIntro": {
+          "value": "Choose the purpose and support that fit this visit. Preferences stay in this browser. Explore the same entities through a different sequence or presentation.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "riverBody": {
+          "value": "A river connects geology, soil, plants and human life. Information becomes useful when it remains connected to a place, a question and the conditions under which it was gathered. Change the bounded terrain brush below to run a real production operation and inspect its output.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "canopyBody": {
+          "value": "A tree is part of biological, ecological, cultural and informational relationships. Switch the relationship lens to see how these connections cross the landscape. The world is an authored model; the linked biology, geometry and knowledge demonstrations expose their own inputs and scope.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "commonsBody": {
+          "value": "Sharing knowledge should support people and their purposes. Try a synthetic community request below. The actual QualiaDB deontic evaluator processes the authored norms, and the local host returns the summary only when the selected norm permits it. Individual records are never included in the response.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "atelierBody": {
+          "value": "A sound, a model or a written work carries human intention. Synth connects a production recipe to its output, so a creator can inspect, repeat and share the work. Generate a tone, listen deliberately, then inspect the source and package.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "observatoryBody": {
+          "value": "How can we inspect information about the physical world? Change the amplitude of a synthetic emitter, compile an electromagnetic field, and inspect its magnitude preview. The current preview is greyscale. This is a model estimate, not a sensor measurement or a complete Maxwell solver.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "biologyBody": {
+          "value": "Understanding a living body requires relationships across scale, purpose, evidence and uncertainty. The garden helix is a spatial invitation into the existing anatomy and biological demonstrations, not a biological dataset in itself.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "fieldStrength": {
+          "value": "Electric field amplitude (V/m)",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "field-studio": {
+          "value": "The field studio",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "field-studioShort": {
+          "value": "Living, working and making from a campsite.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        },
+        "field-studioBody": {
+          "value": "A gold 2012–13 Volkswagen Passat wagon with a streamlined charcoal roof box, a 1980 Jayco wind-up camper, two three-panel solar arrays and one two-panel array on the ground, and a Starlink Mini on the camper roof. This campsite reflects the circumstances in which this ecosystem has been developed: living, working, making and staying connected. The vehicle and camper are authored interpretations of the described models.",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        }
+      },
+      "fallbacks": [],
+      "evidence": []
+    }
+  ],
+  "assets": [],
+  "observers": [],
+  "migrations": [],
+  "graph": {
+    "uri": "/publication/world-d8d19492c1e6e4a0.q42",
+    "sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+    "format": "q42",
+    "reader_identity": "qualia_core_db::q42_volume::Q42Volume",
+    "roundtrip_evidence": {
+      "kind": "runtime",
+      "uri": "/publication/q42-receipt.json",
+      "sha256": "c17856236556b13cc0bb69bce0beee5e76667de05690b6c2a8436eda1f2df90a",
+      "observed_at": "2026-11-16T03:55:36.969543+00:00"
+    }
+  }
+}

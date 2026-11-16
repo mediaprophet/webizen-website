@@ -1,0 +1,103 @@
+{
+  "schema": "webizen.production-recipes/v1",
+  "default_locale": "en-AU",
+  "recipes": [
+    {
+      "id": "catchment",
+      "title": "Draw a catchment",
+      "description": "Change the width of a river corridor and regenerate an illustrative catchment map. This is authored geometry, not a measured boundary.",
+      "parameters": [
+        {
+          "key": "width",
+          "label": "River corridor width (drawing units)",
+          "kind": "number",
+          "default": 12,
+          "min": 2,
+          "max": 40,
+          "step": 1
+        }
+      ],
+      "source": "requires [capability(\"capability.invoke\")];\nlet land = capability.invoke(\"hypermedia.locus.construct\", {shape:\"polygon\",points:[[-180,-110],[-90,-180],[70,-160],[180,-60],[160,120],[30,185],[-130,140]]});\nlet river = capability.invoke(\"hypermedia.locus.stroke_to_locus\", {points:[[-30,-180],[20,-100],[-15,-20],[40,65],[10,185]],width:__width__});\nlet boundary = capability.invoke(\"hypermedia.locus.project_svg\", {profile:land,fill:[72,112,77,255],padding:15});\nlet map = capability.invoke(\"hypermedia.radiance.rasterize_loci\", {width:512,height:512,background:[238,231,208,255],layers:[{profile:land,fill:[100,135,91,255],matrix:[1,0,0,1,256,256]},{profile:river,fill:[55,126,158,255],matrix:[1,0,0,1,256,256]}]});\nlet png = capability.invoke(\"hypermedia.radiance.encode_rgb_png\", {image:map});\nlet asset = {files:[{key:\"catchment.png\",resource:png},{key:\"boundary.svg\",resource:boundary}]};\n",
+      "source_sha256": "a6f5f68e35e5cb026c56ae4d761fe603943b285464b741b3e0ba434a68f1e348"
+    },
+    {
+      "id": "lettering",
+      "title": "Give an idea a voice in type",
+      "description": "Turn your words into standalone vector outlines. Change the title or letter size and inspect the exact SVG you made.",
+      "parameters": [
+        {
+          "key": "words",
+          "label": "Words to draw",
+          "kind": "text",
+          "default": "Human centric computing",
+          "max_length": 80
+        },
+        {
+          "key": "size",
+          "label": "Letter size",
+          "kind": "number",
+          "default": 42,
+          "min": 12,
+          "max": 96,
+          "step": 1
+        }
+      ],
+      "source": "requires [capability(\"capability.invoke\")];\nlet title = capability.invoke(\"hypermedia.glyph.project_svg\", {text:__words__,font_size:__size__,max_width:760,color:[35,67,61,255],background:[243,235,214,255],padding:24});\nlet asset = {files:[{key:\"lettering.svg\",resource:title}]};\n",
+      "source_sha256": "0fdac92ba6456d643d47c8680f37a507ffd48744a74a802583a4330d684533ef"
+    },
+    {
+      "id": "tone",
+      "title": "Hear a frequency",
+      "description": "Create one second of a pure tone, then choose Play to listen. Frequency is cycles per second; this sound is synthesised, not a recording or a conversion of the field model.",
+      "parameters": [
+        {
+          "key": "frequency",
+          "label": "Frequency (Hz)",
+          "kind": "number",
+          "default": 440,
+          "min": 110,
+          "max": 1760,
+          "step": 10
+        },
+        {
+          "key": "amplitude",
+          "label": "Normalised amplitude",
+          "kind": "number",
+          "default": 0.12,
+          "min": 0.01,
+          "max": 0.3,
+          "step": 0.01
+        }
+      ],
+      "source": "requires [capability(\"capability.invoke\")];\nlet tone = capability.invoke(\"hypermedia.acoustics.synthesize_tone\", {frequency:__frequency__,sample_rate:48000,frames:48000,amplitude:__amplitude__});\nlet wav = capability.invoke(\"hypermedia.acoustics.encode_wav\", {audio:tone});\nlet asset = {files:[{key:\"tone.wav\",resource:wav}]};\n",
+      "source_sha256": "5a1c210304b697936af8026be7c3b153efc45d7e5e3a3e3441145ff3c49e4946"
+    },
+    {
+      "id": "surface",
+      "title": "Make a material",
+      "description": "Generate a reproducible colour, normal and ORM texture set. Colour describes appearance; normals describe surface direction; ORM stores occlusion, roughness and metalness.",
+      "parameters": [
+        {
+          "key": "seed",
+          "label": "Pattern seed",
+          "kind": "number",
+          "default": 42,
+          "min": 0,
+          "max": 65535,
+          "step": 1
+        },
+        {
+          "key": "roughness",
+          "label": "Roughness",
+          "kind": "number",
+          "default": 0.72,
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        }
+      ],
+      "source": "requires [capability(\"capability.invoke\")];\nlet maps = capability.invoke(\"hypermedia.surface.synthesize_maps\", {side:256,seed:__seed__,tint:[0.38,0.51,0.31],contrast:0.35,relief:0.003,bands:[0,0],roughness:__roughness__,metallic:0.0});\nlet packed = capability.invoke(\"hypermedia.surface.pack_pbr_set\", {colour:maps.colour,normal:maps.normal,orm:maps.orm});\nlet asset = {files:[{key:\"colour.png\",resource:packed.colour},{key:\"normal.png\",resource:packed.normal},{key:\"orm.png\",resource:packed.orm}]};\n",
+      "source_sha256": "e7fe502461965d6dee4b320a90203229c55e59f952f6c72292ffd04c1dc0d67f"
+    }
+  ]
+}

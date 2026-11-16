@@ -1,0 +1,41 @@
+{
+  "compiled_bytes": 11,
+  "count": 6,
+  "execution": "native compile_ntriples_to_bytecode + execute_program_with_stats, same core path as WASM execute_ntriples_query",
+  "query": "?s <urn:webizen:proof:fixtureKind> ?o .",
+  "rows": [
+    [
+      "<urn:webizen:proof:withdrawn-aggregate-permit>",
+      "<urn:webizen:proof:fixtureKind>",
+      "<urn:webizen:type:PublicNormFixture>"
+    ],
+    [
+      "<urn:webizen:proof:legacy-auditor-exception>",
+      "<urn:webizen:proof:fixtureKind>",
+      "<urn:webizen:type:PublicNormFixture>"
+    ],
+    [
+      "<urn:webizen:proof:legacy-expiry>",
+      "<urn:webizen:proof:fixtureKind>",
+      "<urn:webizen:type:PublicNormFixture>"
+    ],
+    [
+      "<urn:webizen:proof:public-aggregate-permit>",
+      "<urn:webizen:proof:fixtureKind>",
+      "<urn:webizen:type:PublicNormFixture>"
+    ],
+    [
+      "<urn:webizen:proof:individual-disclosure-forbid>",
+      "<urn:webizen:proof:fixtureKind>",
+      "<urn:webizen:type:PublicNormFixture>"
+    ],
+    [
+      "<urn:webizen:proof:legacy-active-obligation>",
+      "<urn:webizen:proof:fixtureKind>",
+      "<urn:webizen:type:PublicNormFixture>"
+    ]
+  ],
+  "total_quins": 153,
+  "version": 4,
+  "vm_cycles": 312
+}

@@ -1,0 +1,111 @@
+{
+  "repositories": [
+    {
+      "commit": "d5ccce3bb9d6cab2aa5d7ef185d57ad786737c27",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\Aether",
+      "repository": "Aether",
+      "revision_error": "fatal: cannot change to 'C:\\github\\Aether': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0",
+      "exists": true,
+      "local_path": "C:\\github\\anatomy",
+      "repository": "anatomy",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "b5e0466c1800577c2075db0919eab6250b16f723",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\anvil",
+      "repository": "anvil",
+      "revision_error": "fatal: cannot change to 'C:\\github\\anvil': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "f42e01c686ba24aa6f25d24ad308a6c004077220",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\chora",
+      "repository": "chora",
+      "revision_error": "fatal: cannot change to 'C:\\github\\chora': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "f28235135f98df7d6b81a2f12ba341cc9e13a403",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\ecopunk",
+      "repository": "ecopunk",
+      "revision_error": "fatal: cannot change to 'C:\\github\\ecopunk': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "057545fc14bc1202a167b9a76a8f82e246c1738f",
+      "exists": true,
+      "local_path": "C:\\github\\etalon",
+      "repository": "etalon",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "8321792cb700cdac90adf1b1ef8accdc039597f1",
+      "exists": true,
+      "local_path": "C:\\github\\hypermedia-production",
+      "repository": "hypermedia-production",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "a0ef9c74a1242f1fc0c67045f08cfad081521d69",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\ns",
+      "repository": "ns",
+      "revision_error": "fatal: cannot change to 'C:\\github\\ns': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "7f6057a743937173260c1d62d670283214a1d09a",
+      "exists": true,
+      "local_path": "C:\\github\\qualiaDB",
+      "repository": "qualiaDB",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "0d08884612f387685eb96e5ddd0a2085c1f1ff02",
+      "exists": true,
+      "local_path": "C:\\github\\synth",
+      "repository": "synth",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "07a4b85ab9ac910bbcc7fe91de976f8fa5c85950",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\vibe-script",
+      "repository": "vibe-script",
+      "revision_error": "fatal: cannot change to 'C:\\github\\vibe-script': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": "436cd68e4b7e5d74a76e44b8db2c7c7c64686f8f",
+      "exists": true,
+      "identity_method": "read-only Git HEAD/ref metadata",
+      "local_path": "C:\\github\\webizen-host",
+      "repository": "webizen-host",
+      "revision_error": "fatal: cannot change to 'C:\\github\\webizen-host': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    },
+    {
+      "commit": null,
+      "exists": true,
+      "local_path": "C:\\github\\webizen-website",
+      "repository": "webizen-website",
+      "revision_error": "fatal: cannot change to 'C:\\github\\webizen-website': Permission denied",
+      "working_tree": "not assumed clean; individual captured source hashes identify observed bytes"
+    }
+  ],
+  "schema": "webizen.repository-baseline/v1"
+}

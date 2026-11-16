@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 1290,
+  "triangles": 2664,
+  "bytes": 258648,
+  "source_bytes": 61288,
+  "id": "car-passat-b7--lamp",
+  "original_sha256": "3ef3b420182ea4f5621c47e228267129a184176ea3dd10815ec9ab3a7a7f3199",
+  "source_sha256": "4a5e643735060af9a04706e23cf06f111e3e652d01514dbb04eba8d306b92d00",
+  "attested_sha256": "fbf113ca06776e709d2961aeba2ec539607dc2e277233bb3c72addbf11f8af0a",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

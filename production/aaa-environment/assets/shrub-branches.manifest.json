@@ -1,0 +1,969 @@
+{
+  "id": "shrub-branches",
+  "epistemic_class": "authored-artwork",
+  "description": "Native authored shape study, not species or measured geology claim",
+  "native": {
+    "bytes": 232592,
+    "key": "shrub-branches.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\shrub-branches.10d",
+    "sha256": "9b849ac2b85c0cbfef777a4f0a4ebb5285be4d4a03655d1e07f2d37fd576de82",
+    "url": "/artifacts/shrub-branches-surface-418a27b27bf4/shrub-branches.10d"
+  },
+  "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\shrub-branches.mesh.json",
+  "mesh_sha256": "1a96d686362535239da5fbae7d797df65beec399c013c2f30a5777a5229cfa7f",
+  "textures": {
+    "colour": {
+      "bytes": 41152,
+      "key": "colour.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\colour.png",
+      "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+      "url": "/artifacts/shrub-branches-surface-418a27b27bf4/colour.png"
+    },
+    "normal": {
+      "bytes": 33910,
+      "key": "normal.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\normal.png",
+      "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+      "url": "/artifacts/shrub-branches-surface-418a27b27bf4/normal.png"
+    },
+    "orm": {
+      "bytes": 16374,
+      "key": "orm.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\orm.png",
+      "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+      "url": "/artifacts/shrub-branches-surface-418a27b27bf4/orm.png"
+    }
+  },
+  "geometry_recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-branches.vibe",
+  "surface_recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-branches-surface.vibe",
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "928dfda4a8745b146c0a498ed9243a63ed74d4a8c1f75d017489adee9933b7e3",
+    "package_sha256": "3ce8d1cabe2a44267c766671867aabcc2f539ae07e562a5b13374223aa11145e",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 661114,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a.hmc",
+        "sha256": "3ce8d1cabe2a44267c766671867aabcc2f539ae07e562a5b13374223aa11145e"
+      },
+      "inputs": [],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499841436,
+        "effective_host_bytes": 263361408,
+        "evaluation_steps": 158564,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097152,
+        "source_bytes": 39641,
+        "source_reservation_bytes": 5074048,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 158564,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 26794,
+          "key": "shrub-stem-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-0.dxf",
+          "sha256": "aaa74a659c2ac607f0b5843614a394cfa381d7ec9a738618b92ff0c2ec3d9f45",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-0.dxf"
+        },
+        {
+          "bytes": 26992,
+          "key": "shrub-stem-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-1.dxf",
+          "sha256": "35e0b2242d6f833c1162f64aa56427537cc15bff97dbb17e9777a99beaf20605",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-1.dxf"
+        },
+        {
+          "bytes": 27557,
+          "key": "shrub-stem-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-2.dxf",
+          "sha256": "3c51f4d5726804c38bcc382baaccad61ca1dfde6a32c871631b7464416023ffc",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-2.dxf"
+        },
+        {
+          "bytes": 26634,
+          "key": "shrub-stem-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-3.dxf",
+          "sha256": "8e6e0443ae07f583045419940ee6fcf87de2625c49e47e59362cddcf529348b3",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-3.dxf"
+        },
+        {
+          "bytes": 27729,
+          "key": "shrub-stem-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-4.dxf",
+          "sha256": "535d2a5f7e676395581c6f2a1313fbb69ff0423c80f5b7568cef8362ed62ab18",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-4.dxf"
+        },
+        {
+          "bytes": 27105,
+          "key": "shrub-stem-5.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-5.dxf",
+          "sha256": "aa189b6bb50f0982ebc50591d4edeaa266d3f453836f3b4721ab932c84154b81",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-5.dxf"
+        },
+        {
+          "bytes": 27113,
+          "key": "shrub-stem-6.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-stem-6.dxf",
+          "sha256": "a34479c31d24105429ce061eb72d11797f29d1685d84bfbde09e8c4792be634c",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-stem-6.dxf"
+        },
+        {
+          "bytes": 12054,
+          "key": "shrub-twig-0-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-0-0.dxf",
+          "sha256": "f06e0fe8bae8968f1c57a228835bc3278e9d99c01ae6eb049cf1903c8b8a9110",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-0-0.dxf"
+        },
+        {
+          "bytes": 12116,
+          "key": "shrub-twig-0-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-0-1.dxf",
+          "sha256": "08b1601a1ccd3130909c93c359934c95bb7ad6af332bba7aef0fe917475f7765",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-0-1.dxf"
+        },
+        {
+          "bytes": 11871,
+          "key": "shrub-twig-0-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-0-2.dxf",
+          "sha256": "d77134827d4a3947c82c308233fe66cd5974b9fd565953fd01dcc2d443f3f3ca",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-0-2.dxf"
+        },
+        {
+          "bytes": 12184,
+          "key": "shrub-twig-0-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-0-3.dxf",
+          "sha256": "866a788f867b6af5521cc167664997a750bad0f0b395b3d0092b08a77ccfc948",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-0-3.dxf"
+        },
+        {
+          "bytes": 12014,
+          "key": "shrub-twig-0-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-0-4.dxf",
+          "sha256": "2c93398600dd7a38bcf577d409a404a8932ab1eec6512b7aeed8111103b80e0c",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-0-4.dxf"
+        },
+        {
+          "bytes": 12150,
+          "key": "shrub-twig-1-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-1-0.dxf",
+          "sha256": "c3c5377b8257ab924d2b5df5e80aaff6e6a8d6696818ca8d1a71c5a9a92005b7",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-1-0.dxf"
+        },
+        {
+          "bytes": 12126,
+          "key": "shrub-twig-1-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-1-1.dxf",
+          "sha256": "d76f63f8de871f00deec54a129a29077227f1c132dc9848cf9ef35b2738103fc",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-1-1.dxf"
+        },
+        {
+          "bytes": 12134,
+          "key": "shrub-twig-1-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-1-2.dxf",
+          "sha256": "e15be47118882673766fdb22b1b432560cf05df39baa97c06bc49726b60a7077",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-1-2.dxf"
+        },
+        {
+          "bytes": 12122,
+          "key": "shrub-twig-1-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-1-3.dxf",
+          "sha256": "dc4c00d82596c5ecc84734e880f671e797d76f2689e28c4d800e6f3820b7647a",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-1-3.dxf"
+        },
+        {
+          "bytes": 12035,
+          "key": "shrub-twig-1-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-1-4.dxf",
+          "sha256": "2c00d951da6e93e944d3aa73be647464c36f23c43e4e66fca0151977d60bf3da",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-1-4.dxf"
+        },
+        {
+          "bytes": 12233,
+          "key": "shrub-twig-2-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-2-0.dxf",
+          "sha256": "cd2b45c86c49c67001a31e279612ba362b72a6791129dd1ae4c0c97b650d3f22",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-2-0.dxf"
+        },
+        {
+          "bytes": 12465,
+          "key": "shrub-twig-2-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-2-1.dxf",
+          "sha256": "822888ca242f51a651cd7eb00a4a28a6f17492b372d5a269a6000e4ed6f15c61",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-2-1.dxf"
+        },
+        {
+          "bytes": 12144,
+          "key": "shrub-twig-2-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-2-2.dxf",
+          "sha256": "f2cea192aed3ad2d29a6cd4384aae9dfbf2f4dc703538c40f33683b33bcd53d8",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-2-2.dxf"
+        },
+        {
+          "bytes": 12403,
+          "key": "shrub-twig-2-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-2-3.dxf",
+          "sha256": "f41d38daa4309c4c65541a9350acc29fefa4e991f8f73d8c622fb2595dc12239",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-2-3.dxf"
+        },
+        {
+          "bytes": 12072,
+          "key": "shrub-twig-2-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-2-4.dxf",
+          "sha256": "8a6b22723050c6615fc5b5cac58f41439a5b2c77afa6a2d42b8ff1072c0f7b8b",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-2-4.dxf"
+        },
+        {
+          "bytes": 11975,
+          "key": "shrub-twig-3-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-3-0.dxf",
+          "sha256": "0a41f1a0e713c94e0592ae3ef3307ae39a6d15abbeddcb457bfc74096944c49f",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-3-0.dxf"
+        },
+        {
+          "bytes": 11850,
+          "key": "shrub-twig-3-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-3-1.dxf",
+          "sha256": "c3924471826d8fb097a71e1d77e9a98f7ea80e7ee50f80934fa2d8defc5c47ba",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-3-1.dxf"
+        },
+        {
+          "bytes": 11835,
+          "key": "shrub-twig-3-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-3-2.dxf",
+          "sha256": "2a43c2b09d41d0cf074c607354b4d26438ba6019bdd8640cfc8ded15d70af259",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-3-2.dxf"
+        },
+        {
+          "bytes": 11834,
+          "key": "shrub-twig-3-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-3-3.dxf",
+          "sha256": "eb88daeb33aa7ebddcde7bc67cc16bcfe584bf400ce0f59765cf16d04d48a612",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-3-3.dxf"
+        },
+        {
+          "bytes": 11758,
+          "key": "shrub-twig-3-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-3-4.dxf",
+          "sha256": "1d8767465f4054bf487fbc81787c8709abf73c4bc915cccc39b819e80806a147",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-3-4.dxf"
+        },
+        {
+          "bytes": 12510,
+          "key": "shrub-twig-4-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-4-0.dxf",
+          "sha256": "5e268fed1a2e7e51373a4f29358482483d16a0b6cf58aac425b848de60fe9304",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-4-0.dxf"
+        },
+        {
+          "bytes": 12140,
+          "key": "shrub-twig-4-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-4-1.dxf",
+          "sha256": "c3f868071a9d9b38e0a91cd6a3743d4b05bbc4a8bb516985b8bf2c4b312bb763",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-4-1.dxf"
+        },
+        {
+          "bytes": 12429,
+          "key": "shrub-twig-4-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-4-2.dxf",
+          "sha256": "319f443cdd541dd94fc7aa76427b394a82207e1fb84397e9d39c1fbf90e27236",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-4-2.dxf"
+        },
+        {
+          "bytes": 12201,
+          "key": "shrub-twig-4-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-4-3.dxf",
+          "sha256": "0bf5e02710a79dc900d7d1c2ada1352477e02b96bcb37ee8c6cac650dea5d2bc",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-4-3.dxf"
+        },
+        {
+          "bytes": 12396,
+          "key": "shrub-twig-4-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-4-4.dxf",
+          "sha256": "dce4b042206b762847c3f512dfd4725c3c4544bf4a7ca628eed0e4202f3bd451",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-4-4.dxf"
+        },
+        {
+          "bytes": 12170,
+          "key": "shrub-twig-5-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-5-0.dxf",
+          "sha256": "3e512e02e03a802defd7d94aa0da5847f9a7ab65d6a53620ed76b73c01d8a03c",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-5-0.dxf"
+        },
+        {
+          "bytes": 12195,
+          "key": "shrub-twig-5-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-5-1.dxf",
+          "sha256": "bacb7e57148ae13be26232bdd0abb3c488eedd3b536d5e348546f07f61243f9c",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-5-1.dxf"
+        },
+        {
+          "bytes": 12116,
+          "key": "shrub-twig-5-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-5-2.dxf",
+          "sha256": "fd9d97dc0aa5f38c1946509e4ca370e3400b6973bfe6c68c36a7e0326c23a2cf",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-5-2.dxf"
+        },
+        {
+          "bytes": 12010,
+          "key": "shrub-twig-5-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-5-3.dxf",
+          "sha256": "e2af84267be95fc2a72ea415b84c2c064d77cac9c76dfccee117ff699dbad0d5",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-5-3.dxf"
+        },
+        {
+          "bytes": 12079,
+          "key": "shrub-twig-5-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-5-4.dxf",
+          "sha256": "f37aa495ab94e54ded1b85c9ec03d14f21ffcccae581d59dbf1daf72dfa37538",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-5-4.dxf"
+        },
+        {
+          "bytes": 12148,
+          "key": "shrub-twig-6-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-6-0.dxf",
+          "sha256": "41e67250f843a7595ee4dcf0986ac0e1ab2ee28d87a53fe42332f142f109f1e1",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-6-0.dxf"
+        },
+        {
+          "bytes": 11839,
+          "key": "shrub-twig-6-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-6-1.dxf",
+          "sha256": "98d38973522022f8f7822a22ec3b6debeeecde74745500ded7001ff406c76e4d",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-6-1.dxf"
+        },
+        {
+          "bytes": 12225,
+          "key": "shrub-twig-6-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-6-2.dxf",
+          "sha256": "8d05e7bcc17c0d02eb815ad6c014c17cc872fedf191a95caf1a7ff409ee91b3f",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-6-2.dxf"
+        },
+        {
+          "bytes": 11935,
+          "key": "shrub-twig-6-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-6-3.dxf",
+          "sha256": "074a501f47719bbb3a5f74b1af16603a559c35f256e2a2280b86dc8fb6b42581",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-6-3.dxf"
+        },
+        {
+          "bytes": 12078,
+          "key": "shrub-twig-6-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a\\shrub-twig-6-4.dxf",
+          "sha256": "d70787d04a5500bd2586fcdeb9694572eeae26007eebcfc1dbac141179fbfce4",
+          "url": "/artifacts/shrub-branches-539c4f234c3a/shrub-twig-6-4.dxf"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "62703e2b68843a4588123a6bca6c71255e5d00dea58a75c0d370f55fef0012bb",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 26794,
+        "key": "shrub-stem-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "aaa74a659c2ac607f0b5843614a394cfa381d7ec9a738618b92ff0c2ec3d9f45"
+      },
+      {
+        "bytes": 26992,
+        "key": "shrub-stem-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "35e0b2242d6f833c1162f64aa56427537cc15bff97dbb17e9777a99beaf20605"
+      },
+      {
+        "bytes": 27557,
+        "key": "shrub-stem-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3c51f4d5726804c38bcc382baaccad61ca1dfde6a32c871631b7464416023ffc"
+      },
+      {
+        "bytes": 26634,
+        "key": "shrub-stem-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "8e6e0443ae07f583045419940ee6fcf87de2625c49e47e59362cddcf529348b3"
+      },
+      {
+        "bytes": 27729,
+        "key": "shrub-stem-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "535d2a5f7e676395581c6f2a1313fbb69ff0423c80f5b7568cef8362ed62ab18"
+      },
+      {
+        "bytes": 27105,
+        "key": "shrub-stem-5.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "aa189b6bb50f0982ebc50591d4edeaa266d3f453836f3b4721ab932c84154b81"
+      },
+      {
+        "bytes": 27113,
+        "key": "shrub-stem-6.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "a34479c31d24105429ce061eb72d11797f29d1685d84bfbde09e8c4792be634c"
+      },
+      {
+        "bytes": 12054,
+        "key": "shrub-twig-0-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f06e0fe8bae8968f1c57a228835bc3278e9d99c01ae6eb049cf1903c8b8a9110"
+      },
+      {
+        "bytes": 12116,
+        "key": "shrub-twig-0-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "08b1601a1ccd3130909c93c359934c95bb7ad6af332bba7aef0fe917475f7765"
+      },
+      {
+        "bytes": 11871,
+        "key": "shrub-twig-0-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d77134827d4a3947c82c308233fe66cd5974b9fd565953fd01dcc2d443f3f3ca"
+      },
+      {
+        "bytes": 12184,
+        "key": "shrub-twig-0-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "866a788f867b6af5521cc167664997a750bad0f0b395b3d0092b08a77ccfc948"
+      },
+      {
+        "bytes": 12014,
+        "key": "shrub-twig-0-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2c93398600dd7a38bcf577d409a404a8932ab1eec6512b7aeed8111103b80e0c"
+      },
+      {
+        "bytes": 12150,
+        "key": "shrub-twig-1-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c3c5377b8257ab924d2b5df5e80aaff6e6a8d6696818ca8d1a71c5a9a92005b7"
+      },
+      {
+        "bytes": 12126,
+        "key": "shrub-twig-1-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d76f63f8de871f00deec54a129a29077227f1c132dc9848cf9ef35b2738103fc"
+      },
+      {
+        "bytes": 12134,
+        "key": "shrub-twig-1-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e15be47118882673766fdb22b1b432560cf05df39baa97c06bc49726b60a7077"
+      },
+      {
+        "bytes": 12122,
+        "key": "shrub-twig-1-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "dc4c00d82596c5ecc84734e880f671e797d76f2689e28c4d800e6f3820b7647a"
+      },
+      {
+        "bytes": 12035,
+        "key": "shrub-twig-1-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2c00d951da6e93e944d3aa73be647464c36f23c43e4e66fca0151977d60bf3da"
+      },
+      {
+        "bytes": 12233,
+        "key": "shrub-twig-2-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "cd2b45c86c49c67001a31e279612ba362b72a6791129dd1ae4c0c97b650d3f22"
+      },
+      {
+        "bytes": 12465,
+        "key": "shrub-twig-2-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "822888ca242f51a651cd7eb00a4a28a6f17492b372d5a269a6000e4ed6f15c61"
+      },
+      {
+        "bytes": 12144,
+        "key": "shrub-twig-2-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f2cea192aed3ad2d29a6cd4384aae9dfbf2f4dc703538c40f33683b33bcd53d8"
+      },
+      {
+        "bytes": 12403,
+        "key": "shrub-twig-2-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f41d38daa4309c4c65541a9350acc29fefa4e991f8f73d8c622fb2595dc12239"
+      },
+      {
+        "bytes": 12072,
+        "key": "shrub-twig-2-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "8a6b22723050c6615fc5b5cac58f41439a5b2c77afa6a2d42b8ff1072c0f7b8b"
+      },
+      {
+        "bytes": 11975,
+        "key": "shrub-twig-3-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0a41f1a0e713c94e0592ae3ef3307ae39a6d15abbeddcb457bfc74096944c49f"
+      },
+      {
+        "bytes": 11850,
+        "key": "shrub-twig-3-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c3924471826d8fb097a71e1d77e9a98f7ea80e7ee50f80934fa2d8defc5c47ba"
+      },
+      {
+        "bytes": 11835,
+        "key": "shrub-twig-3-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2a43c2b09d41d0cf074c607354b4d26438ba6019bdd8640cfc8ded15d70af259"
+      },
+      {
+        "bytes": 11834,
+        "key": "shrub-twig-3-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "eb88daeb33aa7ebddcde7bc67cc16bcfe584bf400ce0f59765cf16d04d48a612"
+      },
+      {
+        "bytes": 11758,
+        "key": "shrub-twig-3-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "1d8767465f4054bf487fbc81787c8709abf73c4bc915cccc39b819e80806a147"
+      },
+      {
+        "bytes": 12510,
+        "key": "shrub-twig-4-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "5e268fed1a2e7e51373a4f29358482483d16a0b6cf58aac425b848de60fe9304"
+      },
+      {
+        "bytes": 12140,
+        "key": "shrub-twig-4-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c3f868071a9d9b38e0a91cd6a3743d4b05bbc4a8bb516985b8bf2c4b312bb763"
+      },
+      {
+        "bytes": 12429,
+        "key": "shrub-twig-4-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "319f443cdd541dd94fc7aa76427b394a82207e1fb84397e9d39c1fbf90e27236"
+      },
+      {
+        "bytes": 12201,
+        "key": "shrub-twig-4-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0bf5e02710a79dc900d7d1c2ada1352477e02b96bcb37ee8c6cac650dea5d2bc"
+      },
+      {
+        "bytes": 12396,
+        "key": "shrub-twig-4-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "dce4b042206b762847c3f512dfd4725c3c4544bf4a7ca628eed0e4202f3bd451"
+      },
+      {
+        "bytes": 12170,
+        "key": "shrub-twig-5-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3e512e02e03a802defd7d94aa0da5847f9a7ab65d6a53620ed76b73c01d8a03c"
+      },
+      {
+        "bytes": 12195,
+        "key": "shrub-twig-5-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "bacb7e57148ae13be26232bdd0abb3c488eedd3b536d5e348546f07f61243f9c"
+      },
+      {
+        "bytes": 12116,
+        "key": "shrub-twig-5-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "fd9d97dc0aa5f38c1946509e4ca370e3400b6973bfe6c68c36a7e0326c23a2cf"
+      },
+      {
+        "bytes": 12010,
+        "key": "shrub-twig-5-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e2af84267be95fc2a72ea415b84c2c064d77cac9c76dfccee117ff699dbad0d5"
+      },
+      {
+        "bytes": 12079,
+        "key": "shrub-twig-5-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f37aa495ab94e54ded1b85c9ec03d14f21ffcccae581d59dbf1daf72dfa37538"
+      },
+      {
+        "bytes": 12148,
+        "key": "shrub-twig-6-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "41e67250f843a7595ee4dcf0986ac0e1ab2ee28d87a53fe42332f142f109f1e1"
+      },
+      {
+        "bytes": 11839,
+        "key": "shrub-twig-6-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "98d38973522022f8f7822a22ec3b6debeeecde74745500ded7001ff406c76e4d"
+      },
+      {
+        "bytes": 12225,
+        "key": "shrub-twig-6-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "8d05e7bcc17c0d02eb815ad6c014c17cc872fedf191a95caf1a7ff409ee91b3f"
+      },
+      {
+        "bytes": 11935,
+        "key": "shrub-twig-6-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "074a501f47719bbb3a5f74b1af16603a559c35f256e2a2280b86dc8fb6b42581"
+      },
+      {
+        "bytes": 12078,
+        "key": "shrub-twig-6-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d70787d04a5500bd2586fcdeb9694572eeae26007eebcfc1dbac141179fbfce4"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-539c4f234c3a.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/shrub-branches-539c4f234c3a.hmc",
+    "receipt_url": "/artifacts/shrub-branches-539c4f234c3a.json"
+  },
+  "surface_production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "938712eaa42e87102df723374128e8d7ed5a80349995f4ac5043da55e99f28c7",
+    "package_sha256": "be44ad93e7e7f0431decdfabbc6e9d3e0a677e5c16203ecb663187f350e7849b",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 963762,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4.hmc",
+        "sha256": "be44ad93e7e7f0431decdfabbc6e9d3e0a677e5c16203ecb663187f350e7849b"
+      },
+      "inputs": [
+        {
+          "bytes": 117863,
+          "key": "geometry.obj",
+          "kind": "obj",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\shrub-branches.obj",
+          "sha256": "996ab0450a965d3a0f13161495fce04a5209ebc20c0b0a78b1231e32aa6f7152"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499994540,
+        "effective_host_bytes": 268260736,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096231,
+        "source_bytes": 1365,
+        "source_reservation_bytes": 174720,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 5460,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 726,
+          "key": "bsdf.json",
+          "kind": "json",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\bsdf.json",
+          "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/bsdf.json"
+        },
+        {
+          "bytes": 41152,
+          "key": "colour.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\colour.png",
+          "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/colour.png"
+        },
+        {
+          "bytes": 33910,
+          "key": "normal.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\normal.png",
+          "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/normal.png"
+        },
+        {
+          "bytes": 16374,
+          "key": "orm.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\orm.png",
+          "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/orm.png"
+        },
+        {
+          "bytes": 232592,
+          "key": "shrub-branches.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\shrub-branches.10d",
+          "sha256": "9b849ac2b85c0cbfef777a4f0a4ebb5285be4d4a03655d1e07f2d37fd576de82",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/shrub-branches.10d"
+        },
+        {
+          "bytes": 41152,
+          "key": "textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\textures\\sha256\\0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+        },
+        {
+          "bytes": 33910,
+          "key": "textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\textures\\sha256\\29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+        },
+        {
+          "bytes": 16374,
+          "key": "textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\textures\\sha256\\e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+        },
+        {
+          "bytes": 426192,
+          "key": "uv.svg",
+          "kind": "svg",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\uv.svg",
+          "sha256": "caea6be21900d52af1d916f50c5fc9baf7440148df14833e3d5c83960db26553",
+          "url": "/artifacts/shrub-branches-surface-418a27b27bf4/uv.svg"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "684f42e627f2a03a6190970fdc527bbc3ac1b4b7ab9e2d12668884ebfb18f18f",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 726,
+        "key": "bsdf.json",
+        "kind": "json",
+        "modality": "data",
+        "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109"
+      },
+      {
+        "bytes": 41152,
+        "key": "colour.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+      },
+      {
+        "bytes": 33910,
+        "key": "normal.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+      },
+      {
+        "bytes": 16374,
+        "key": "orm.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+      },
+      {
+        "bytes": 232592,
+        "key": "shrub-branches.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "9b849ac2b85c0cbfef777a4f0a4ebb5285be4d4a03655d1e07f2d37fd576de82"
+      },
+      {
+        "bytes": 41152,
+        "key": "textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+      },
+      {
+        "bytes": 33910,
+        "key": "textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+      },
+      {
+        "bytes": 16374,
+        "key": "textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+      },
+      {
+        "bytes": 426192,
+        "key": "uv.svg",
+        "kind": "svg",
+        "modality": "vector",
+        "sha256": "caea6be21900d52af1d916f50c5fc9baf7440148df14833e3d5c83960db26553"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/shrub-branches-surface-418a27b27bf4.hmc",
+    "receipt_url": "/artifacts/shrub-branches-surface-418a27b27bf4.json"
+  },
+  "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\previews\\shrub-branches-1794798976552367900",
+  "triangles": 3528,
+  "vertices": 1848,
+  "bounds": {
+    "min": [
+      -0.732593,
+      -0.006148,
+      -0.761799
+    ],
+    "max": [
+      0.853753,
+      1.35992,
+      0.759702
+    ]
+  },
+  "strict_replay_verified": true,
+  "review_status": "pending actual image inspection"
+}

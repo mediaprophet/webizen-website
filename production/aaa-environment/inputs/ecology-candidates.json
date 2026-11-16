@@ -1,0 +1,5362 @@
+[
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-0",
+    "x": -65.1962,
+    "z": -56.8162,
+    "radius": 5,
+    "scale": 1.0141,
+    "yaw": 5.3915,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-1",
+    "x": -69.2487,
+    "z": -45.481,
+    "radius": 5,
+    "scale": 1.006,
+    "yaw": 5.092,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-2",
+    "x": -68.3587,
+    "z": -27.3549,
+    "radius": 5,
+    "scale": 0.8342,
+    "yaw": 5.6153,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-3",
+    "x": -66.6622,
+    "z": -17.1654,
+    "radius": 5,
+    "scale": 0.9848,
+    "yaw": 2.9801,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-4",
+    "x": -68.1984,
+    "z": 21.5847,
+    "radius": 5,
+    "scale": 0.963,
+    "yaw": 3.288,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-5",
+    "x": -66.248,
+    "z": 40.5088,
+    "radius": 5,
+    "scale": 0.8328,
+    "yaw": 4.2322,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-6",
+    "x": -68.343,
+    "z": 53.5807,
+    "radius": 5,
+    "scale": 0.9026,
+    "yaw": 5.9456,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-7",
+    "x": -69.2589,
+    "z": 61.4613,
+    "radius": 5,
+    "scale": 0.7171,
+    "yaw": 4.5999,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-8",
+    "x": -58.2406,
+    "z": -55.6555,
+    "radius": 5,
+    "scale": 0.7482,
+    "yaw": 6.2691,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-9",
+    "x": -57.9665,
+    "z": -49.0417,
+    "radius": 5,
+    "scale": 0.8721,
+    "yaw": 1.5936,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-10",
+    "x": -56.0349,
+    "z": -26.5883,
+    "radius": 5,
+    "scale": 0.9633,
+    "yaw": 4.8153,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-11",
+    "x": -60.4865,
+    "z": -16.6069,
+    "radius": 5,
+    "scale": 0.8621,
+    "yaw": 1.4697,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-12",
+    "x": -61.2036,
+    "z": -7.0392,
+    "radius": 5,
+    "scale": 0.9576,
+    "yaw": 1.7682,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-13",
+    "x": -56.1625,
+    "z": 1.9455,
+    "radius": 5,
+    "scale": 0.9779,
+    "yaw": 0.8248,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-14",
+    "x": -61.5362,
+    "z": 14.0747,
+    "radius": 5,
+    "scale": 0.7715,
+    "yaw": 2.7387,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-15",
+    "x": -59.4414,
+    "z": 32.0301,
+    "radius": 5,
+    "scale": 0.8225,
+    "yaw": 0.8143,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-16",
+    "x": -58.0696,
+    "z": 44.3955,
+    "radius": 5,
+    "scale": 0.796,
+    "yaw": 1.9549,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-17",
+    "x": -52.1594,
+    "z": -60.0092,
+    "radius": 5,
+    "scale": 0.7947,
+    "yaw": 1.8956,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-18",
+    "x": -50.6414,
+    "z": -6.6787,
+    "radius": 5,
+    "scale": 0.7877,
+    "yaw": 0.1449,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-19",
+    "x": -51.5876,
+    "z": 44.0407,
+    "radius": 5,
+    "scale": 0.7437,
+    "yaw": 5.2597,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-20",
+    "x": -47.7379,
+    "z": 52.9701,
+    "radius": 5,
+    "scale": 0.9599,
+    "yaw": 5.3711,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-21",
+    "x": -52.6807,
+    "z": 62.8429,
+    "radius": 5,
+    "scale": 0.837,
+    "yaw": 3.0102,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-22",
+    "x": -39.1863,
+    "z": -45.4245,
+    "radius": 5,
+    "scale": 0.7499,
+    "yaw": 4.9456,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-23",
+    "x": -40.8765,
+    "z": -6.9187,
+    "radius": 5,
+    "scale": 1.0975,
+    "yaw": 2.5044,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-24",
+    "x": -40.1997,
+    "z": 4.669,
+    "radius": 5,
+    "scale": 0.8447,
+    "yaw": 1.621,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-25",
+    "x": -38.7195,
+    "z": 13.2909,
+    "radius": 5,
+    "scale": 0.713,
+    "yaw": 1.0935,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-26",
+    "x": -41.3263,
+    "z": 23.3258,
+    "radius": 5,
+    "scale": 0.7526,
+    "yaw": 5.3354,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-27",
+    "x": -43.8893,
+    "z": 44.9667,
+    "radius": 5,
+    "scale": 1.0819,
+    "yaw": 2.5061,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-28",
+    "x": -39.3796,
+    "z": 51.3041,
+    "radius": 5,
+    "scale": 1.0555,
+    "yaw": 4.3358,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-29",
+    "x": -42.8015,
+    "z": 62.7508,
+    "radius": 5,
+    "scale": 0.9417,
+    "yaw": 2.8777,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-30",
+    "x": -33.1259,
+    "z": -56.3593,
+    "radius": 5,
+    "scale": 0.8462,
+    "yaw": 3.8992,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-31",
+    "x": -31.394,
+    "z": -27.9416,
+    "radius": 5,
+    "scale": 0.7528,
+    "yaw": 2.774,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-32",
+    "x": -29.4186,
+    "z": -18.2566,
+    "radius": 5,
+    "scale": 1.0134,
+    "yaw": 0.6361,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-33",
+    "x": -29.9629,
+    "z": -10.9073,
+    "radius": 5,
+    "scale": 0.9368,
+    "yaw": 0.4899,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-34",
+    "x": -33.0987,
+    "z": 10.9556,
+    "radius": 5,
+    "scale": 0.7529,
+    "yaw": 2.1907,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-35",
+    "x": -31.2681,
+    "z": 20.1996,
+    "radius": 5,
+    "scale": 0.7485,
+    "yaw": 0.2357,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-36",
+    "x": -34.4324,
+    "z": 33.1403,
+    "radius": 5,
+    "scale": 0.8636,
+    "yaw": 2.8197,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-37",
+    "x": -33.5704,
+    "z": 43.4841,
+    "radius": 5,
+    "scale": 0.8025,
+    "yaw": 2.1389,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-38",
+    "x": -33.5116,
+    "z": 51.8527,
+    "radius": 5,
+    "scale": 0.855,
+    "yaw": 5.947,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-39",
+    "x": -34.8369,
+    "z": 64.7246,
+    "radius": 5,
+    "scale": 1.0149,
+    "yaw": 3.3233,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-40",
+    "x": -20.9528,
+    "z": -56.9804,
+    "radius": 5,
+    "scale": 0.7551,
+    "yaw": 6.1287,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-41",
+    "x": -24.1515,
+    "z": -36.7876,
+    "radius": 5,
+    "scale": 0.6961,
+    "yaw": 5.288,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-42",
+    "x": -23.3793,
+    "z": -28.3813,
+    "radius": 5,
+    "scale": 1.0161,
+    "yaw": 2.5289,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-43",
+    "x": -24.7139,
+    "z": -16.3415,
+    "radius": 5,
+    "scale": 0.757,
+    "yaw": 1.8162,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-44",
+    "x": -24.3651,
+    "z": -5.6007,
+    "radius": 5,
+    "scale": 0.6832,
+    "yaw": 5.0164,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-45",
+    "x": -23.901,
+    "z": 3.9154,
+    "radius": 5,
+    "scale": 0.7857,
+    "yaw": 2.1998,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-46",
+    "x": -24.2015,
+    "z": 10.4576,
+    "radius": 5,
+    "scale": 0.9788,
+    "yaw": 4.5156,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-47",
+    "x": -25.3866,
+    "z": 22.5361,
+    "radius": 5,
+    "scale": 1.0415,
+    "yaw": 5.5251,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-48",
+    "x": -22.8862,
+    "z": 30.6361,
+    "radius": 5,
+    "scale": 0.8946,
+    "yaw": 5.0742,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-49",
+    "x": -21.6164,
+    "z": 44.0248,
+    "radius": 5,
+    "scale": 1.0606,
+    "yaw": 4.1708,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-50",
+    "x": -20.4769,
+    "z": 63.7726,
+    "radius": 5,
+    "scale": 0.7137,
+    "yaw": 4.8361,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-51",
+    "x": -16.7054,
+    "z": -60.8953,
+    "radius": 5,
+    "scale": 1.033,
+    "yaw": 1.7466,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-52",
+    "x": -14.0494,
+    "z": -48.2398,
+    "radius": 5,
+    "scale": 1.0268,
+    "yaw": 5.4673,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-53",
+    "x": -11.1104,
+    "z": -35.9799,
+    "radius": 5,
+    "scale": 0.8405,
+    "yaw": 5.4125,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-54",
+    "x": -15.7038,
+    "z": 22.7341,
+    "radius": 5,
+    "scale": 0.8767,
+    "yaw": 2.8116,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-55",
+    "x": -16.0435,
+    "z": 33.0273,
+    "radius": 5,
+    "scale": 0.8144,
+    "yaw": 2.3873,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-56",
+    "x": -12.0355,
+    "z": 52.846,
+    "radius": 5,
+    "scale": 0.7729,
+    "yaw": 1.2956,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-57",
+    "x": -12.8841,
+    "z": 64.1653,
+    "radius": 5,
+    "scale": 0.7485,
+    "yaw": 5.1663,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-58",
+    "x": -6.6559,
+    "z": -55.4841,
+    "radius": 5,
+    "scale": 1.0659,
+    "yaw": 3.0368,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-59",
+    "x": -5.556,
+    "z": -15.3359,
+    "radius": 5,
+    "scale": 0.7497,
+    "yaw": 3.7267,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-60",
+    "x": -2.2784,
+    "z": -7.825,
+    "radius": 5,
+    "scale": 0.8519,
+    "yaw": 6.0305,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-61",
+    "x": -3.8252,
+    "z": 1.7649,
+    "radius": 5,
+    "scale": 1.0524,
+    "yaw": 4.514,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-62",
+    "x": -7.4333,
+    "z": 9.3053,
+    "radius": 5,
+    "scale": 0.7855,
+    "yaw": 0.1289,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-63",
+    "x": -6.4323,
+    "z": 20.0009,
+    "radius": 5,
+    "scale": 1.0347,
+    "yaw": 5.9138,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-64",
+    "x": -7.2746,
+    "z": 30.4393,
+    "radius": 5,
+    "scale": 0.9611,
+    "yaw": 2.8462,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-65",
+    "x": -5.4088,
+    "z": 41.2984,
+    "radius": 5,
+    "scale": 0.7209,
+    "yaw": 2.5983,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-66",
+    "x": 1.0727,
+    "z": -6.28,
+    "radius": 5,
+    "scale": 1.0665,
+    "yaw": 4.6954,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-67",
+    "x": 1.47,
+    "z": -0.0892,
+    "radius": 5,
+    "scale": 0.856,
+    "yaw": 2.3113,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-68",
+    "x": 6.4063,
+    "z": 14.7254,
+    "radius": 5,
+    "scale": 0.7954,
+    "yaw": 2.5527,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-69",
+    "x": 3.5612,
+    "z": 31.8519,
+    "radius": 5,
+    "scale": 0.9202,
+    "yaw": 1.2925,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-70",
+    "x": 12.7559,
+    "z": -56.3967,
+    "radius": 5,
+    "scale": 0.9864,
+    "yaw": 1.1487,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-71",
+    "x": 13.4981,
+    "z": -36.4004,
+    "radius": 5,
+    "scale": 1.0706,
+    "yaw": 5.9198,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-72",
+    "x": 10.7963,
+    "z": -15.4445,
+    "radius": 5,
+    "scale": 0.9475,
+    "yaw": 1.9246,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-73",
+    "x": 15.7398,
+    "z": 3.5325,
+    "radius": 5,
+    "scale": 0.9717,
+    "yaw": 2.8933,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-74",
+    "x": 11.0162,
+    "z": 11.3686,
+    "radius": 5,
+    "scale": 0.7134,
+    "yaw": 2.0794,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-75",
+    "x": 10.2494,
+    "z": 24.1216,
+    "radius": 5,
+    "scale": 0.7855,
+    "yaw": 3.8897,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-76",
+    "x": 12.9067,
+    "z": 30.3203,
+    "radius": 5,
+    "scale": 0.9031,
+    "yaw": 1.0784,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-77",
+    "x": 13.1142,
+    "z": 41.3039,
+    "radius": 5,
+    "scale": 0.7988,
+    "yaw": 1.9727,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-78",
+    "x": 15.0818,
+    "z": 50.6544,
+    "radius": 5,
+    "scale": 0.8488,
+    "yaw": 3.2043,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-79",
+    "x": 20.1636,
+    "z": -46.4549,
+    "radius": 5,
+    "scale": 0.9954,
+    "yaw": 0.2813,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-80",
+    "x": 21.7796,
+    "z": -37.7097,
+    "radius": 5,
+    "scale": 0.8531,
+    "yaw": 0.9248,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-81",
+    "x": 23.149,
+    "z": -15.947,
+    "radius": 5,
+    "scale": 0.8484,
+    "yaw": 2.2108,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-82",
+    "x": 20.258,
+    "z": 3.397,
+    "radius": 5,
+    "scale": 0.9707,
+    "yaw": 0.599,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-83",
+    "x": 23.7524,
+    "z": 12.6352,
+    "radius": 5,
+    "scale": 0.8995,
+    "yaw": 2.2306,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-84",
+    "x": 24.316,
+    "z": 20.33,
+    "radius": 5,
+    "scale": 0.7897,
+    "yaw": 1.9561,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-85",
+    "x": 22.4205,
+    "z": 34.1152,
+    "radius": 5,
+    "scale": 1.0977,
+    "yaw": 0.3627,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-86",
+    "x": 22.3129,
+    "z": 40.8751,
+    "radius": 5,
+    "scale": 0.9765,
+    "yaw": 0.9087,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-87",
+    "x": 24.6903,
+    "z": 49.4562,
+    "radius": 5,
+    "scale": 1.0413,
+    "yaw": 2.1039,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-88",
+    "x": 30.1049,
+    "z": -49.8628,
+    "radius": 5,
+    "scale": 1.0543,
+    "yaw": 6.1083,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-89",
+    "x": 29.0082,
+    "z": -36.2669,
+    "radius": 5,
+    "scale": 1.0295,
+    "yaw": 0.2765,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-90",
+    "x": 32.109,
+    "z": -28.0758,
+    "radius": 5,
+    "scale": 0.7548,
+    "yaw": 4.1411,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-91",
+    "x": 30.9847,
+    "z": -18.3565,
+    "radius": 5,
+    "scale": 0.8575,
+    "yaw": 1.8123,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-92",
+    "x": 29.0378,
+    "z": -9.3768,
+    "radius": 5,
+    "scale": 0.9642,
+    "yaw": 2.7939,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-93",
+    "x": 33.6679,
+    "z": -0.6363,
+    "radius": 5,
+    "scale": 1.0516,
+    "yaw": 1.4622,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-94",
+    "x": 29.5892,
+    "z": 12.9006,
+    "radius": 5,
+    "scale": 0.8282,
+    "yaw": 1.7185,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-95",
+    "x": 28.208,
+    "z": 32.0138,
+    "radius": 5,
+    "scale": 0.7008,
+    "yaw": 2.144,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-96",
+    "x": 32.3243,
+    "z": 39.6513,
+    "radius": 5,
+    "scale": 0.8324,
+    "yaw": 1.4744,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-97",
+    "x": 33.8952,
+    "z": 59.2555,
+    "radius": 5,
+    "scale": 0.8558,
+    "yaw": 5.5068,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-98",
+    "x": 42.3046,
+    "z": -57.9466,
+    "radius": 5,
+    "scale": 1.0603,
+    "yaw": 4.1723,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-99",
+    "x": 40.5592,
+    "z": -50.9745,
+    "radius": 5,
+    "scale": 0.7131,
+    "yaw": 3.1926,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-100",
+    "x": 42.5761,
+    "z": -36.158,
+    "radius": 5,
+    "scale": 0.7415,
+    "yaw": 4.2609,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-101",
+    "x": 40.0811,
+    "z": -27.6321,
+    "radius": 5,
+    "scale": 0.8842,
+    "yaw": 3.3265,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-102",
+    "x": 38.576,
+    "z": 3.0752,
+    "radius": 5,
+    "scale": 0.7919,
+    "yaw": 1.511,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-103",
+    "x": 37.4409,
+    "z": 23.4734,
+    "radius": 5,
+    "scale": 0.792,
+    "yaw": 2.983,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-104",
+    "x": 41.1009,
+    "z": 31.4908,
+    "radius": 5,
+    "scale": 0.9041,
+    "yaw": 1.704,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-105",
+    "x": 42.6964,
+    "z": 39.2693,
+    "radius": 5,
+    "scale": 0.8513,
+    "yaw": 5.1454,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-106",
+    "x": 38.5665,
+    "z": 50.4814,
+    "radius": 5,
+    "scale": 0.784,
+    "yaw": 0.3877,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-107",
+    "x": 41.6607,
+    "z": 62.5986,
+    "radius": 5,
+    "scale": 0.9425,
+    "yaw": 1.4686,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-108",
+    "x": 46.6648,
+    "z": -47.5687,
+    "radius": 5,
+    "scale": 1.0468,
+    "yaw": 2.4722,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-109",
+    "x": 50.7402,
+    "z": -36.0594,
+    "radius": 5,
+    "scale": 0.8878,
+    "yaw": 4.4836,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-110",
+    "x": 49.3671,
+    "z": -16.0514,
+    "radius": 5,
+    "scale": 0.8296,
+    "yaw": 2.963,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-111",
+    "x": 50.0603,
+    "z": -6.9794,
+    "radius": 5,
+    "scale": 1.0337,
+    "yaw": 0.1428,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-112",
+    "x": 47.2541,
+    "z": 3.5833,
+    "radius": 5,
+    "scale": 0.68,
+    "yaw": 5.595,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-113",
+    "x": 46.9124,
+    "z": 14.88,
+    "radius": 5,
+    "scale": 0.8117,
+    "yaw": 2.0973,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-114",
+    "x": 46.0684,
+    "z": 22.7174,
+    "radius": 5,
+    "scale": 1.0235,
+    "yaw": 6.2344,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-115",
+    "x": 48.4554,
+    "z": 30.4816,
+    "radius": 5,
+    "scale": 0.97,
+    "yaw": 2.785,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-116",
+    "x": 51.8504,
+    "z": 42.9739,
+    "radius": 5,
+    "scale": 0.8173,
+    "yaw": 4.9313,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-117",
+    "x": 46.2973,
+    "z": 49.7749,
+    "radius": 5,
+    "scale": 0.9156,
+    "yaw": 1.7958,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-118",
+    "x": 58.7839,
+    "z": -60.6642,
+    "radius": 5,
+    "scale": 0.7795,
+    "yaw": 3.8432,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-119",
+    "x": 55.8925,
+    "z": -47.0015,
+    "radius": 5,
+    "scale": 0.995,
+    "yaw": 1.4245,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-120",
+    "x": 59.6414,
+    "z": -35.9096,
+    "radius": 5,
+    "scale": 0.8687,
+    "yaw": 4.9521,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-121",
+    "x": 56.2079,
+    "z": -25.8521,
+    "radius": 5,
+    "scale": 0.8325,
+    "yaw": 2.7587,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-122",
+    "x": 59.4904,
+    "z": -19.7382,
+    "radius": 5,
+    "scale": 0.8048,
+    "yaw": 3.9227,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-123",
+    "x": 59.3904,
+    "z": -8.173,
+    "radius": 5,
+    "scale": 0.866,
+    "yaw": 3.809,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-124",
+    "x": 60.0576,
+    "z": 19.663,
+    "radius": 5,
+    "scale": 0.8495,
+    "yaw": 5.3165,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-mid",
+    "id": "eucalyptus-mid-125",
+    "x": 55.5443,
+    "z": 34.0567,
+    "radius": 5,
+    "scale": 0.9774,
+    "yaw": 5.5021,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-near",
+    "id": "eucalyptus-near-126",
+    "x": -39,
+    "z": 15,
+    "radius": 5,
+    "scale": 0.85,
+    "yaw": 1.2,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-near",
+    "id": "eucalyptus-near-127",
+    "x": -38,
+    "z": 41,
+    "radius": 5,
+    "scale": 0.85,
+    "yaw": 1.2,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-near",
+    "id": "eucalyptus-near-128",
+    "x": -30,
+    "z": 2,
+    "radius": 5,
+    "scale": 0.85,
+    "yaw": 1.2,
+    "offset": 0
+  },
+  {
+    "asset": "eucalyptus-near",
+    "id": "eucalyptus-near-129",
+    "x": -10,
+    "z": 2,
+    "radius": 5,
+    "scale": 0.85,
+    "yaw": 1.2,
+    "offset": 0
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-130",
+    "x": -0.4368,
+    "z": 56.4153,
+    "radius": 0.5,
+    "scale": 0.3589,
+    "yaw": 3.962,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-131",
+    "x": -6.3758,
+    "z": -23.5433,
+    "radius": 0.5,
+    "scale": 0.405,
+    "yaw": 4.1007,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-132",
+    "x": -9.7621,
+    "z": -5.496,
+    "radius": 0.5,
+    "scale": 0.3043,
+    "yaw": 2.0274,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-133",
+    "x": 11.5227,
+    "z": 48.0649,
+    "radius": 0.5,
+    "scale": 0.322,
+    "yaw": 2.688,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-134",
+    "x": 0.0924,
+    "z": 6.4889,
+    "radius": 0.5,
+    "scale": 0.4342,
+    "yaw": 5.8277,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-135",
+    "x": -3.553,
+    "z": -40.9587,
+    "radius": 0.5,
+    "scale": 0.387,
+    "yaw": 2.5259,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-136",
+    "x": 1.6381,
+    "z": 43.9604,
+    "radius": 0.5,
+    "scale": 0.4838,
+    "yaw": 2.7969,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-137",
+    "x": 8.4593,
+    "z": 57.0766,
+    "radius": 0.5,
+    "scale": 0.4709,
+    "yaw": 4.0811,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-138",
+    "x": -14.4891,
+    "z": -34.4281,
+    "radius": 0.5,
+    "scale": 0.5675,
+    "yaw": 1.5754,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-139",
+    "x": -2.8378,
+    "z": -41.1163,
+    "radius": 0.5,
+    "scale": 0.4761,
+    "yaw": 5.0414,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-140",
+    "x": 4.9977,
+    "z": 17.9826,
+    "radius": 0.5,
+    "scale": 0.6396,
+    "yaw": 0.4661,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-141",
+    "x": 9.3572,
+    "z": 54.261,
+    "radius": 0.5,
+    "scale": 0.7101,
+    "yaw": 6.0267,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-142",
+    "x": -1.06,
+    "z": 6.6674,
+    "radius": 0.5,
+    "scale": 0.6267,
+    "yaw": 1.2646,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-143",
+    "x": 13.029,
+    "z": 12.8217,
+    "radius": 0.5,
+    "scale": 0.5512,
+    "yaw": 3.2818,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-144",
+    "x": 4.7755,
+    "z": 29.6079,
+    "radius": 0.5,
+    "scale": 0.7151,
+    "yaw": 0.9061,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-145",
+    "x": 10.6588,
+    "z": 51.8463,
+    "radius": 0.5,
+    "scale": 0.3889,
+    "yaw": 3.224,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-146",
+    "x": -0.8452,
+    "z": 5.9751,
+    "radius": 0.5,
+    "scale": 0.3917,
+    "yaw": 4.735,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-147",
+    "x": 16.0034,
+    "z": 22.5361,
+    "radius": 0.5,
+    "scale": 0.6175,
+    "yaw": 0.1323,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-148",
+    "x": -0.3057,
+    "z": 54.771,
+    "radius": 0.5,
+    "scale": 0.601,
+    "yaw": 0.3848,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-149",
+    "x": 11.9699,
+    "z": 47.3424,
+    "radius": 0.5,
+    "scale": 0.5072,
+    "yaw": 4.79,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-150",
+    "x": 3.043,
+    "z": 11.4696,
+    "radius": 0.5,
+    "scale": 0.5329,
+    "yaw": 1.0369,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-151",
+    "x": 7.2013,
+    "z": 1.918,
+    "radius": 0.5,
+    "scale": 0.4479,
+    "yaw": 3.3542,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-152",
+    "x": 4.5972,
+    "z": 33.7968,
+    "radius": 0.5,
+    "scale": 0.29,
+    "yaw": 4.3008,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-153",
+    "x": -0.9401,
+    "z": -42.9992,
+    "radius": 0.5,
+    "scale": 0.375,
+    "yaw": 0.0275,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-154",
+    "x": -6.7282,
+    "z": -2.2942,
+    "radius": 0.5,
+    "scale": 0.3914,
+    "yaw": 2.5858,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-155",
+    "x": 11.6018,
+    "z": 46.3476,
+    "radius": 0.5,
+    "scale": 0.4331,
+    "yaw": 4.4838,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-156",
+    "x": -1.9454,
+    "z": 59.5584,
+    "radius": 0.5,
+    "scale": 0.6476,
+    "yaw": 3.6775,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-157",
+    "x": 5.6996,
+    "z": 0.7972,
+    "radius": 0.5,
+    "scale": 0.2639,
+    "yaw": 2.0951,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-158",
+    "x": -15.5828,
+    "z": -19.4662,
+    "radius": 0.5,
+    "scale": 0.7164,
+    "yaw": 5.622,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-159",
+    "x": 10.6697,
+    "z": 6.8781,
+    "radius": 0.5,
+    "scale": 0.5584,
+    "yaw": 2.492,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-160",
+    "x": -12.1892,
+    "z": -42.8164,
+    "radius": 0.5,
+    "scale": 0.2872,
+    "yaw": 0.7712,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-161",
+    "x": 10.5909,
+    "z": 47.4576,
+    "radius": 0.5,
+    "scale": 0.5458,
+    "yaw": 3.7023,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-162",
+    "x": 3.8222,
+    "z": 34.3024,
+    "radius": 0.5,
+    "scale": 0.4394,
+    "yaw": 0.1463,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-163",
+    "x": 10.058,
+    "z": 53.7059,
+    "radius": 0.5,
+    "scale": 0.3948,
+    "yaw": 0.2156,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-164",
+    "x": -1.7438,
+    "z": 60.2398,
+    "radius": 0.5,
+    "scale": 0.6779,
+    "yaw": 1.1305,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-165",
+    "x": -4.1054,
+    "z": -15.7882,
+    "radius": 0.5,
+    "scale": 0.299,
+    "yaw": 6.2158,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-166",
+    "x": 2.7282,
+    "z": 38.3787,
+    "radius": 0.5,
+    "scale": 0.3993,
+    "yaw": 2.2198,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-167",
+    "x": 14.3015,
+    "z": 14.8756,
+    "radius": 0.5,
+    "scale": 0.5676,
+    "yaw": 4.7486,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-168",
+    "x": -6.7905,
+    "z": -0.9554,
+    "radius": 0.5,
+    "scale": 0.2576,
+    "yaw": 4.7509,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-169",
+    "x": 2.2374,
+    "z": -2.9461,
+    "radius": 0.5,
+    "scale": 0.6504,
+    "yaw": 0.6186,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-170",
+    "x": -11.7769,
+    "z": -42.1358,
+    "radius": 0.5,
+    "scale": 0.7016,
+    "yaw": 1.4992,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-171",
+    "x": -3.1731,
+    "z": -42.0128,
+    "radius": 0.5,
+    "scale": 0.6601,
+    "yaw": 2.9202,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-172",
+    "x": -0.4648,
+    "z": 51.843,
+    "radius": 0.5,
+    "scale": 0.4898,
+    "yaw": 0.2866,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-173",
+    "x": -5.7851,
+    "z": -29.1394,
+    "radius": 0.5,
+    "scale": 0.4348,
+    "yaw": 1.922,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-174",
+    "x": 6.1304,
+    "z": 22.1643,
+    "radius": 0.5,
+    "scale": 0.3819,
+    "yaw": 3.8608,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-175",
+    "x": 6.3168,
+    "z": 0.6399,
+    "radius": 0.5,
+    "scale": 0.699,
+    "yaw": 0.9641,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-176",
+    "x": -10.2981,
+    "z": -7.4138,
+    "radius": 0.5,
+    "scale": 0.5873,
+    "yaw": 0.5243,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-177",
+    "x": 13.9376,
+    "z": 37.9007,
+    "radius": 0.5,
+    "scale": 0.6387,
+    "yaw": 3.5579,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-178",
+    "x": -14.4839,
+    "z": -14.1412,
+    "radius": 0.5,
+    "scale": 0.3544,
+    "yaw": 0.7446,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-179",
+    "x": -3.4247,
+    "z": -13.2902,
+    "radius": 0.5,
+    "scale": 0.7147,
+    "yaw": 4.6198,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-180",
+    "x": 1.2369,
+    "z": 9.598,
+    "radius": 0.5,
+    "scale": 0.4494,
+    "yaw": 5.0822,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-181",
+    "x": -5.796,
+    "z": -21.3593,
+    "radius": 0.5,
+    "scale": 0.4324,
+    "yaw": 6.0045,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-182",
+    "x": -16.541,
+    "z": -22.4037,
+    "radius": 0.5,
+    "scale": 0.4376,
+    "yaw": 3.4992,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-183",
+    "x": 15.1125,
+    "z": 20.0795,
+    "radius": 0.5,
+    "scale": 0.368,
+    "yaw": 4.8813,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-184",
+    "x": -2.8014,
+    "z": 60.2058,
+    "radius": 0.5,
+    "scale": 0.5514,
+    "yaw": 6.0393,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-185",
+    "x": -4.6074,
+    "z": -18.0041,
+    "radius": 0.5,
+    "scale": 0.4863,
+    "yaw": 3.2282,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-186",
+    "x": -2.1422,
+    "z": 4.1301,
+    "radius": 0.5,
+    "scale": 0.3536,
+    "yaw": 4.2936,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-187",
+    "x": -4.3519,
+    "z": -38.0079,
+    "radius": 0.5,
+    "scale": 0.6236,
+    "yaw": 1.5073,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-188",
+    "x": -11.1878,
+    "z": -9.0592,
+    "radius": 0.5,
+    "scale": 0.697,
+    "yaw": 5.5224,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-189",
+    "x": 4.6822,
+    "z": 0.2966,
+    "radius": 0.5,
+    "scale": 0.4229,
+    "yaw": 5.6579,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-190",
+    "x": -8.5947,
+    "z": -5.5649,
+    "radius": 0.5,
+    "scale": 0.4996,
+    "yaw": 5.8848,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-191",
+    "x": 1.14,
+    "z": -5.1096,
+    "radius": 0.5,
+    "scale": 0.3853,
+    "yaw": 1.9637,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-192",
+    "x": -4.2538,
+    "z": 1.7064,
+    "radius": 0.5,
+    "scale": 0.5262,
+    "yaw": 0.1726,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-193",
+    "x": 13.0712,
+    "z": 37.8494,
+    "radius": 0.5,
+    "scale": 0.333,
+    "yaw": 5.5847,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-194",
+    "x": 4.4964,
+    "z": 30.5665,
+    "radius": 0.5,
+    "scale": 0.6224,
+    "yaw": 4.3957,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-195",
+    "x": -0.1227,
+    "z": -6.2164,
+    "radius": 0.5,
+    "scale": 0.4787,
+    "yaw": 2.5942,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-196",
+    "x": -11.3382,
+    "z": -44.1912,
+    "radius": 0.5,
+    "scale": 0.4589,
+    "yaw": 2.2154,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-197",
+    "x": 11.1557,
+    "z": 43.4909,
+    "radius": 0.5,
+    "scale": 0.6873,
+    "yaw": 4.1746,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-198",
+    "x": 2.8605,
+    "z": 42.1774,
+    "radius": 0.5,
+    "scale": 0.6394,
+    "yaw": 3.0992,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-199",
+    "x": 12.9179,
+    "z": 12.9897,
+    "radius": 0.5,
+    "scale": 0.3453,
+    "yaw": 5.2461,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-200",
+    "x": -11.4202,
+    "z": -10.0926,
+    "radius": 0.5,
+    "scale": 0.6375,
+    "yaw": 5.103,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-201",
+    "x": 12.6435,
+    "z": 12.7399,
+    "radius": 0.5,
+    "scale": 0.7366,
+    "yaw": 3.5027,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-202",
+    "x": 0.571,
+    "z": 7.1885,
+    "radius": 0.5,
+    "scale": 0.3234,
+    "yaw": 0.9826,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-203",
+    "x": 12.696,
+    "z": 42.1455,
+    "radius": 0.5,
+    "scale": 0.4122,
+    "yaw": 3.5957,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-204",
+    "x": -1.3317,
+    "z": 58.3374,
+    "radius": 0.5,
+    "scale": 0.591,
+    "yaw": 0.8719,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-205",
+    "x": 12.766,
+    "z": 42.5134,
+    "radius": 0.5,
+    "scale": 0.5599,
+    "yaw": 0.7612,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-206",
+    "x": -11.58,
+    "z": -43.7601,
+    "radius": 0.5,
+    "scale": 0.4252,
+    "yaw": 1.1054,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-207",
+    "x": 8.856,
+    "z": 55.5643,
+    "radius": 0.5,
+    "scale": 0.2977,
+    "yaw": 3.7567,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-208",
+    "x": 4.7849,
+    "z": 16.3198,
+    "radius": 0.5,
+    "scale": 0.4653,
+    "yaw": 5.5481,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-209",
+    "x": 15.1292,
+    "z": 18.9332,
+    "radius": 0.5,
+    "scale": 0.7455,
+    "yaw": 6.0534,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-210",
+    "x": -15.2994,
+    "z": -27.2055,
+    "radius": 0.5,
+    "scale": 0.62,
+    "yaw": 0.9738,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-211",
+    "x": -1.4904,
+    "z": -9.3601,
+    "radius": 0.5,
+    "scale": 0.4753,
+    "yaw": 1.1645,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-212",
+    "x": -0.6389,
+    "z": 56.2479,
+    "radius": 0.5,
+    "scale": 0.3391,
+    "yaw": 4.0252,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-213",
+    "x": 13.1715,
+    "z": 40.7415,
+    "radius": 0.5,
+    "scale": 0.6585,
+    "yaw": 0.8804,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-214",
+    "x": -1.1889,
+    "z": 52.5115,
+    "radius": 0.5,
+    "scale": 0.3447,
+    "yaw": 3.4937,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-215",
+    "x": -3.5615,
+    "z": -38.7735,
+    "radius": 0.5,
+    "scale": 0.522,
+    "yaw": 1.6219,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-216",
+    "x": -1.3379,
+    "z": 5.0042,
+    "radius": 0.5,
+    "scale": 0.2972,
+    "yaw": 3.6341,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-217",
+    "x": 14.9502,
+    "z": 17.2896,
+    "radius": 0.5,
+    "scale": 0.6613,
+    "yaw": 4.5548,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-near",
+    "id": "bank-rock-near-218",
+    "x": 2.3435,
+    "z": 12.3782,
+    "radius": 0.5,
+    "scale": 0.4266,
+    "yaw": 5.818,
+    "offset": -0.1
+  },
+  {
+    "asset": "bank-rock-mid",
+    "id": "bank-rock-mid-219",
+    "x": 13.3436,
+    "z": 37.4711,
+    "radius": 0.5,
+    "scale": 0.6828,
+    "yaw": 0.1458,
+    "offset": -0.1
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-220",
+    "x": 5.849,
+    "z": 24.0151,
+    "radius": 0.3,
+    "scale": 0.6999,
+    "yaw": 3.4273,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-221",
+    "x": 20.6144,
+    "z": 8.427,
+    "radius": 0.3,
+    "scale": 0.5912,
+    "yaw": 0.6884,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-222",
+    "x": 29.3954,
+    "z": 28.7653,
+    "radius": 0.3,
+    "scale": 0.5051,
+    "yaw": 1.6578,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-223",
+    "x": -29.7847,
+    "z": 48.2196,
+    "radius": 0.3,
+    "scale": 0.6328,
+    "yaw": 4.5289,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-224",
+    "x": -12.5077,
+    "z": 29.4528,
+    "radius": 0.3,
+    "scale": 0.6204,
+    "yaw": 0.1111,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-225",
+    "x": -40.5528,
+    "z": 11.0938,
+    "radius": 0.3,
+    "scale": 0.5677,
+    "yaw": 4.2946,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-226",
+    "x": -2.8596,
+    "z": -23.5093,
+    "radius": 0.3,
+    "scale": 0.8227,
+    "yaw": 4.7731,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-227",
+    "x": 6.7547,
+    "z": -1.6776,
+    "radius": 0.3,
+    "scale": 0.6504,
+    "yaw": 2.7196,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-228",
+    "x": -22.878,
+    "z": -18.8122,
+    "radius": 0.3,
+    "scale": 0.677,
+    "yaw": 0.0329,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-229",
+    "x": 8.1137,
+    "z": 33.6707,
+    "radius": 0.3,
+    "scale": 0.5955,
+    "yaw": 3.9275,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-230",
+    "x": -18.3622,
+    "z": 53.0343,
+    "radius": 0.3,
+    "scale": 0.7474,
+    "yaw": 5.6178,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-231",
+    "x": -8.8673,
+    "z": 37.4706,
+    "radius": 0.3,
+    "scale": 0.7393,
+    "yaw": 2.5583,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-232",
+    "x": -16.8294,
+    "z": 6.0966,
+    "radius": 0.3,
+    "scale": 0.4618,
+    "yaw": 1.0146,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-233",
+    "x": -24.5672,
+    "z": -22.5484,
+    "radius": 0.3,
+    "scale": 0.5469,
+    "yaw": 1.7567,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-234",
+    "x": -25.8274,
+    "z": 50.5013,
+    "radius": 0.3,
+    "scale": 0.7118,
+    "yaw": 5.5619,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-235",
+    "x": -27.2688,
+    "z": 47.1794,
+    "radius": 0.3,
+    "scale": 0.5748,
+    "yaw": 4.6667,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-236",
+    "x": -29.2082,
+    "z": 31.1742,
+    "radius": 0.3,
+    "scale": 0.5743,
+    "yaw": 4.1509,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-237",
+    "x": 21.7908,
+    "z": 11.3871,
+    "radius": 0.3,
+    "scale": 0.8735,
+    "yaw": 4.2979,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-238",
+    "x": -16.1705,
+    "z": 31.4957,
+    "radius": 0.3,
+    "scale": 0.4854,
+    "yaw": 3.7938,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-239",
+    "x": 0.9529,
+    "z": -18.9791,
+    "radius": 0.3,
+    "scale": 0.7904,
+    "yaw": 4.6863,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-240",
+    "x": -29.5472,
+    "z": 0.5685,
+    "radius": 0.3,
+    "scale": 0.5994,
+    "yaw": 5.3664,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-241",
+    "x": -32.1902,
+    "z": 16.0585,
+    "radius": 0.3,
+    "scale": 0.7305,
+    "yaw": 0.5784,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-242",
+    "x": -46.7533,
+    "z": 12.2612,
+    "radius": 0.3,
+    "scale": 0.8682,
+    "yaw": 3.3458,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-243",
+    "x": -5.1311,
+    "z": 6.2271,
+    "radius": 0.3,
+    "scale": 0.8165,
+    "yaw": 0.3846,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-244",
+    "x": 26.7618,
+    "z": 42.0122,
+    "radius": 0.3,
+    "scale": 0.6429,
+    "yaw": 0.9917,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-245",
+    "x": -38.4189,
+    "z": 26.1751,
+    "radius": 0.3,
+    "scale": 0.7184,
+    "yaw": 0.616,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-246",
+    "x": 5.5775,
+    "z": 3.2526,
+    "radius": 0.3,
+    "scale": 0.6955,
+    "yaw": 3.0018,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-247",
+    "x": -25.2005,
+    "z": -26.2504,
+    "radius": 0.3,
+    "scale": 0.5716,
+    "yaw": 1.2234,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-248",
+    "x": 2.0457,
+    "z": 39.683,
+    "radius": 0.3,
+    "scale": 0.5223,
+    "yaw": 3.4863,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-249",
+    "x": 24.6949,
+    "z": -22.2491,
+    "radius": 0.3,
+    "scale": 0.9097,
+    "yaw": 3.549,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-250",
+    "x": -34.9595,
+    "z": 11.2513,
+    "radius": 0.3,
+    "scale": 0.6111,
+    "yaw": 4.1231,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-251",
+    "x": 18.5854,
+    "z": 29.982,
+    "radius": 0.3,
+    "scale": 0.6301,
+    "yaw": 4.8849,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-252",
+    "x": 4.3693,
+    "z": -16.2476,
+    "radius": 0.3,
+    "scale": 0.6828,
+    "yaw": 0.7849,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-253",
+    "x": 14.4331,
+    "z": -26.3539,
+    "radius": 0.3,
+    "scale": 0.7637,
+    "yaw": 5.2422,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-254",
+    "x": -12.5855,
+    "z": 33.182,
+    "radius": 0.3,
+    "scale": 0.6964,
+    "yaw": 4.3461,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-255",
+    "x": 18.1037,
+    "z": -27.2261,
+    "radius": 0.3,
+    "scale": 0.7932,
+    "yaw": 1.2488,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-256",
+    "x": 21.0426,
+    "z": 15.1607,
+    "radius": 0.3,
+    "scale": 0.4574,
+    "yaw": 5.8674,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-257",
+    "x": 17.7931,
+    "z": -5.8979,
+    "radius": 0.3,
+    "scale": 0.833,
+    "yaw": 3.1572,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-258",
+    "x": 7.4025,
+    "z": 17.639,
+    "radius": 0.3,
+    "scale": 0.73,
+    "yaw": 3.4908,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-259",
+    "x": -13.8929,
+    "z": -21.9217,
+    "radius": 0.3,
+    "scale": 0.5625,
+    "yaw": 4.721,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-260",
+    "x": 27.9287,
+    "z": 7.7012,
+    "radius": 0.3,
+    "scale": 0.8636,
+    "yaw": 0.3664,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-261",
+    "x": 1.8595,
+    "z": 21.759,
+    "radius": 0.3,
+    "scale": 0.5353,
+    "yaw": 2.1336,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-262",
+    "x": 25.2493,
+    "z": 10.2619,
+    "radius": 0.3,
+    "scale": 0.5425,
+    "yaw": 4.9476,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-263",
+    "x": -5.0808,
+    "z": 14.4548,
+    "radius": 0.3,
+    "scale": 0.6853,
+    "yaw": 5.9005,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-264",
+    "x": -38.5108,
+    "z": -9.4217,
+    "radius": 0.3,
+    "scale": 0.4575,
+    "yaw": 3.2052,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-265",
+    "x": -3.8775,
+    "z": 49.3653,
+    "radius": 0.3,
+    "scale": 0.873,
+    "yaw": 0.2181,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-266",
+    "x": -43.4009,
+    "z": 21.1079,
+    "radius": 0.3,
+    "scale": 0.9046,
+    "yaw": 1.7094,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-267",
+    "x": -39.5233,
+    "z": -11.7205,
+    "radius": 0.3,
+    "scale": 0.7244,
+    "yaw": 5.4553,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-268",
+    "x": -14.7605,
+    "z": 38.7805,
+    "radius": 0.3,
+    "scale": 0.472,
+    "yaw": 5.948,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-269",
+    "x": -19.7024,
+    "z": 50.6463,
+    "radius": 0.3,
+    "scale": 0.5734,
+    "yaw": 1.4948,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-270",
+    "x": -44.1851,
+    "z": 14.8945,
+    "radius": 0.3,
+    "scale": 0.5809,
+    "yaw": 0.1607,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-271",
+    "x": 22.5536,
+    "z": 22.5888,
+    "radius": 0.3,
+    "scale": 0.5264,
+    "yaw": 2.0638,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-272",
+    "x": -44.8231,
+    "z": -6.4106,
+    "radius": 0.3,
+    "scale": 0.4756,
+    "yaw": 1.3835,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-273",
+    "x": 25.1865,
+    "z": 41.0083,
+    "radius": 0.3,
+    "scale": 0.6318,
+    "yaw": 3.6849,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-274",
+    "x": -0.8229,
+    "z": -28.4234,
+    "radius": 0.3,
+    "scale": 0.5815,
+    "yaw": 5.2318,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-275",
+    "x": 30.3127,
+    "z": 38.3085,
+    "radius": 0.3,
+    "scale": 0.8894,
+    "yaw": 0.9127,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-276",
+    "x": -12.2902,
+    "z": 2.0635,
+    "radius": 0.3,
+    "scale": 0.5574,
+    "yaw": 4.6547,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-277",
+    "x": -42.5367,
+    "z": 30.17,
+    "radius": 0.3,
+    "scale": 0.5048,
+    "yaw": 5.0977,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-278",
+    "x": -14.5021,
+    "z": 30.3664,
+    "radius": 0.3,
+    "scale": 0.9188,
+    "yaw": 2.4251,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-279",
+    "x": -35.5455,
+    "z": -15.3706,
+    "radius": 0.3,
+    "scale": 0.5701,
+    "yaw": 4.3536,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-280",
+    "x": 6.9499,
+    "z": -11.9844,
+    "radius": 0.3,
+    "scale": 0.5054,
+    "yaw": 0.3968,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-281",
+    "x": -42.3013,
+    "z": -7.3732,
+    "radius": 0.3,
+    "scale": 0.8278,
+    "yaw": 0.9215,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-282",
+    "x": -33.6486,
+    "z": 15.0696,
+    "radius": 0.3,
+    "scale": 0.7176,
+    "yaw": 1.05,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-283",
+    "x": -2.0186,
+    "z": 28.7229,
+    "radius": 0.3,
+    "scale": 0.663,
+    "yaw": 5.8409,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-284",
+    "x": -12.0706,
+    "z": 36.1022,
+    "radius": 0.3,
+    "scale": 0.5305,
+    "yaw": 6.1848,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-285",
+    "x": -3.2734,
+    "z": 15.1317,
+    "radius": 0.3,
+    "scale": 0.7467,
+    "yaw": 3.7984,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-286",
+    "x": 24.691,
+    "z": 20.3039,
+    "radius": 0.3,
+    "scale": 0.8069,
+    "yaw": 5.6511,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-287",
+    "x": -36.4951,
+    "z": 12.1854,
+    "radius": 0.3,
+    "scale": 0.9039,
+    "yaw": 5.9105,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-288",
+    "x": 7.594,
+    "z": -21.2585,
+    "radius": 0.3,
+    "scale": 0.7851,
+    "yaw": 1.6644,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-289",
+    "x": -5.1997,
+    "z": -13.2831,
+    "radius": 0.3,
+    "scale": 0.4951,
+    "yaw": 2.4115,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-290",
+    "x": -25.3219,
+    "z": 8.9892,
+    "radius": 0.3,
+    "scale": 0.7719,
+    "yaw": 6.0394,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-291",
+    "x": 7.5656,
+    "z": 36.2979,
+    "radius": 0.3,
+    "scale": 0.4632,
+    "yaw": 3.8095,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-292",
+    "x": -13.3977,
+    "z": -13.0649,
+    "radius": 0.3,
+    "scale": 0.6708,
+    "yaw": 0.801,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-293",
+    "x": -29.8409,
+    "z": -17.0065,
+    "radius": 0.3,
+    "scale": 0.7128,
+    "yaw": 3.4533,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-294",
+    "x": -44.6669,
+    "z": 39.0978,
+    "radius": 0.3,
+    "scale": 0.7353,
+    "yaw": 5.9715,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-295",
+    "x": -23.4315,
+    "z": 19.2753,
+    "radius": 0.3,
+    "scale": 0.6328,
+    "yaw": 2.9464,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-296",
+    "x": -17.6613,
+    "z": -12.8313,
+    "radius": 0.3,
+    "scale": 0.8564,
+    "yaw": 5.2536,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-297",
+    "x": 23.3583,
+    "z": -16.1663,
+    "radius": 0.3,
+    "scale": 0.8864,
+    "yaw": 5.8833,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-298",
+    "x": -6.7393,
+    "z": -21.6629,
+    "radius": 0.3,
+    "scale": 0.8095,
+    "yaw": 2.5071,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-299",
+    "x": 12.5515,
+    "z": 46.3534,
+    "radius": 0.3,
+    "scale": 0.8922,
+    "yaw": 4.8671,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-300",
+    "x": -45.6503,
+    "z": -25.7671,
+    "radius": 0.3,
+    "scale": 0.5971,
+    "yaw": 0.2166,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-301",
+    "x": 22.4865,
+    "z": 31.3118,
+    "radius": 0.3,
+    "scale": 0.7329,
+    "yaw": 0.5971,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-302",
+    "x": 26.0349,
+    "z": -1.9118,
+    "radius": 0.3,
+    "scale": 0.6287,
+    "yaw": 4.9663,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-303",
+    "x": -7.8198,
+    "z": -20.8887,
+    "radius": 0.3,
+    "scale": 0.7082,
+    "yaw": 3.1,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-304",
+    "x": -0.4431,
+    "z": 40.1278,
+    "radius": 0.3,
+    "scale": 0.8884,
+    "yaw": 1.3901,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-305",
+    "x": 21.4043,
+    "z": 52.4246,
+    "radius": 0.3,
+    "scale": 0.8882,
+    "yaw": 0.0175,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-306",
+    "x": 3.7049,
+    "z": -12.6736,
+    "radius": 0.3,
+    "scale": 0.9342,
+    "yaw": 4.8401,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-307",
+    "x": -11.0751,
+    "z": -21.2029,
+    "radius": 0.3,
+    "scale": 0.8657,
+    "yaw": 0.9533,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-308",
+    "x": 23.1925,
+    "z": -17.7961,
+    "radius": 0.3,
+    "scale": 0.6733,
+    "yaw": 2.3302,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-309",
+    "x": 24.8663,
+    "z": 21.1903,
+    "radius": 0.3,
+    "scale": 0.5557,
+    "yaw": 2.3869,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-310",
+    "x": -12.1965,
+    "z": 17.6145,
+    "radius": 0.3,
+    "scale": 0.5966,
+    "yaw": 1.576,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-311",
+    "x": 1.7336,
+    "z": -2.158,
+    "radius": 0.3,
+    "scale": 0.4981,
+    "yaw": 0.7873,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-312",
+    "x": 13.7516,
+    "z": 37.9277,
+    "radius": 0.3,
+    "scale": 0.6936,
+    "yaw": 5.1963,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-313",
+    "x": 27.9966,
+    "z": 43.1688,
+    "radius": 0.3,
+    "scale": 0.5962,
+    "yaw": 5.2461,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-314",
+    "x": 30.1339,
+    "z": -24.5164,
+    "radius": 0.3,
+    "scale": 0.4767,
+    "yaw": 5.4734,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-315",
+    "x": 25.6608,
+    "z": 5.5215,
+    "radius": 0.3,
+    "scale": 0.9469,
+    "yaw": 4.6605,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-316",
+    "x": 8.6389,
+    "z": 20.1131,
+    "radius": 0.3,
+    "scale": 0.5537,
+    "yaw": 5.6863,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-317",
+    "x": -18.3285,
+    "z": 22.9816,
+    "radius": 0.3,
+    "scale": 0.7855,
+    "yaw": 0.9761,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-318",
+    "x": 27.6816,
+    "z": -8.0091,
+    "radius": 0.3,
+    "scale": 0.59,
+    "yaw": 5.3586,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-319",
+    "x": 21.4783,
+    "z": 50.5297,
+    "radius": 0.3,
+    "scale": 0.7495,
+    "yaw": 2.0798,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-320",
+    "x": 12.279,
+    "z": 22.4027,
+    "radius": 0.3,
+    "scale": 0.9263,
+    "yaw": 5.5326,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-321",
+    "x": -2.3617,
+    "z": -0.0251,
+    "radius": 0.3,
+    "scale": 0.734,
+    "yaw": 2.5928,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-322",
+    "x": -17.3439,
+    "z": 31.7497,
+    "radius": 0.3,
+    "scale": 0.6667,
+    "yaw": 3.54,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-323",
+    "x": -14.2291,
+    "z": 15.4076,
+    "radius": 0.3,
+    "scale": 0.7473,
+    "yaw": 4.9695,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-324",
+    "x": 8.1724,
+    "z": 47.4407,
+    "radius": 0.3,
+    "scale": 0.4717,
+    "yaw": 2.1659,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-325",
+    "x": -19.6142,
+    "z": -24.5237,
+    "radius": 0.3,
+    "scale": 0.8229,
+    "yaw": 3.6982,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-326",
+    "x": -32.6717,
+    "z": 37.4464,
+    "radius": 0.3,
+    "scale": 0.7054,
+    "yaw": 4.9229,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-327",
+    "x": 21.4245,
+    "z": 38.6781,
+    "radius": 0.3,
+    "scale": 0.737,
+    "yaw": 1.0074,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-328",
+    "x": -11.4176,
+    "z": 10.0087,
+    "radius": 0.3,
+    "scale": 0.5904,
+    "yaw": 1.0527,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-329",
+    "x": 4.8391,
+    "z": 52.9035,
+    "radius": 0.3,
+    "scale": 0.5231,
+    "yaw": 3.9459,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-330",
+    "x": -21.5234,
+    "z": 22.1947,
+    "radius": 0.3,
+    "scale": 0.5492,
+    "yaw": 3.1432,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-331",
+    "x": 9.6101,
+    "z": 54.2823,
+    "radius": 0.3,
+    "scale": 0.9152,
+    "yaw": 5.8715,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-332",
+    "x": -11.4612,
+    "z": 41.955,
+    "radius": 0.3,
+    "scale": 0.8197,
+    "yaw": 4.4925,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-333",
+    "x": -32.595,
+    "z": 42.9415,
+    "radius": 0.3,
+    "scale": 0.6147,
+    "yaw": 1.9425,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-334",
+    "x": -16.855,
+    "z": 8.2436,
+    "radius": 0.3,
+    "scale": 0.7556,
+    "yaw": 3.2637,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-335",
+    "x": 18.188,
+    "z": 24.4039,
+    "radius": 0.3,
+    "scale": 0.8362,
+    "yaw": 4.4633,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-336",
+    "x": 14.634,
+    "z": -23.5328,
+    "radius": 0.3,
+    "scale": 0.5295,
+    "yaw": 3.7917,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-337",
+    "x": -2.4504,
+    "z": 51.429,
+    "radius": 0.3,
+    "scale": 0.8044,
+    "yaw": 0.9843,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-338",
+    "x": 0.6536,
+    "z": 30.4055,
+    "radius": 0.3,
+    "scale": 0.5904,
+    "yaw": 1.0921,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-339",
+    "x": -36.8229,
+    "z": 34.5505,
+    "radius": 0.3,
+    "scale": 0.7253,
+    "yaw": 2.1972,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-340",
+    "x": -34.2363,
+    "z": 15.9092,
+    "radius": 0.3,
+    "scale": 0.7751,
+    "yaw": 5.6612,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-341",
+    "x": 24.7873,
+    "z": 32.7576,
+    "radius": 0.3,
+    "scale": 0.5872,
+    "yaw": 0.8655,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-342",
+    "x": -21.7207,
+    "z": -20.3981,
+    "radius": 0.3,
+    "scale": 0.5821,
+    "yaw": 6.1606,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-343",
+    "x": 16.6859,
+    "z": -17.9465,
+    "radius": 0.3,
+    "scale": 0.8888,
+    "yaw": 4.1635,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-344",
+    "x": -1.1723,
+    "z": 34.8775,
+    "radius": 0.3,
+    "scale": 0.5298,
+    "yaw": 3.9246,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-345",
+    "x": 2.8771,
+    "z": -12.0576,
+    "radius": 0.3,
+    "scale": 0.7196,
+    "yaw": 5.0128,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-346",
+    "x": -13.134,
+    "z": -9.5447,
+    "radius": 0.3,
+    "scale": 0.8522,
+    "yaw": 0.201,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-347",
+    "x": -22.2411,
+    "z": -12.3178,
+    "radius": 0.3,
+    "scale": 0.8381,
+    "yaw": 0.1242,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-348",
+    "x": -26.3367,
+    "z": 2.0196,
+    "radius": 0.3,
+    "scale": 0.4702,
+    "yaw": 1.8387,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-349",
+    "x": -40.4906,
+    "z": -29.428,
+    "radius": 0.3,
+    "scale": 0.7419,
+    "yaw": 3.6682,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-350",
+    "x": -8.1858,
+    "z": -19.0232,
+    "radius": 0.3,
+    "scale": 0.6668,
+    "yaw": 3.0004,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-351",
+    "x": -17.0048,
+    "z": -18.1762,
+    "radius": 0.3,
+    "scale": 0.6074,
+    "yaw": 4.79,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-352",
+    "x": 21.9141,
+    "z": 23.0015,
+    "radius": 0.3,
+    "scale": 0.7631,
+    "yaw": 3.4821,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-353",
+    "x": -25.7882,
+    "z": 40.8216,
+    "radius": 0.3,
+    "scale": 0.7233,
+    "yaw": 2.5171,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-354",
+    "x": -1.2114,
+    "z": 4.6018,
+    "radius": 0.3,
+    "scale": 0.9238,
+    "yaw": 1.7132,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-355",
+    "x": 17.8025,
+    "z": 5.4078,
+    "radius": 0.3,
+    "scale": 0.6592,
+    "yaw": 3.6261,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-356",
+    "x": -22.9614,
+    "z": 0.9989,
+    "radius": 0.3,
+    "scale": 0.513,
+    "yaw": 4.6868,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-357",
+    "x": -7.597,
+    "z": 19.5373,
+    "radius": 0.3,
+    "scale": 0.8307,
+    "yaw": 2.0673,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-358",
+    "x": -45.315,
+    "z": 18.9406,
+    "radius": 0.3,
+    "scale": 0.6314,
+    "yaw": 2.248,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-359",
+    "x": -2.7151,
+    "z": 46.1754,
+    "radius": 0.3,
+    "scale": 0.7405,
+    "yaw": 4.9004,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-360",
+    "x": 24.8973,
+    "z": 45.136,
+    "radius": 0.3,
+    "scale": 0.7628,
+    "yaw": 1.613,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-361",
+    "x": -33.8292,
+    "z": -25.3491,
+    "radius": 0.3,
+    "scale": 0.5571,
+    "yaw": 5.7309,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-362",
+    "x": -7.3392,
+    "z": -7.2178,
+    "radius": 0.3,
+    "scale": 0.8321,
+    "yaw": 5.3541,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-363",
+    "x": -33.7445,
+    "z": -26.9291,
+    "radius": 0.3,
+    "scale": 0.6762,
+    "yaw": 3.7914,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-364",
+    "x": 10.0527,
+    "z": 34.337,
+    "radius": 0.3,
+    "scale": 0.8743,
+    "yaw": 5.6453,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-365",
+    "x": 27.0845,
+    "z": 23.798,
+    "radius": 0.3,
+    "scale": 0.9238,
+    "yaw": 1.158,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-366",
+    "x": -30.8877,
+    "z": 23.5344,
+    "radius": 0.3,
+    "scale": 0.9486,
+    "yaw": 2.3645,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-367",
+    "x": 3.8393,
+    "z": 22.481,
+    "radius": 0.3,
+    "scale": 0.7133,
+    "yaw": 3.6464,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-368",
+    "x": -40.3934,
+    "z": -16.8523,
+    "radius": 0.3,
+    "scale": 0.7542,
+    "yaw": 5.3092,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-369",
+    "x": 8.2873,
+    "z": -10.1684,
+    "radius": 0.3,
+    "scale": 0.6846,
+    "yaw": 0.6904,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-370",
+    "x": 4.5585,
+    "z": -10.6697,
+    "radius": 0.3,
+    "scale": 0.7944,
+    "yaw": 5.5334,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-371",
+    "x": -9.7213,
+    "z": 15.9617,
+    "radius": 0.3,
+    "scale": 0.6547,
+    "yaw": 5.3176,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-372",
+    "x": -4.3335,
+    "z": 23.8574,
+    "radius": 0.3,
+    "scale": 0.6336,
+    "yaw": 1.0932,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-373",
+    "x": 0.4191,
+    "z": 9.4501,
+    "radius": 0.3,
+    "scale": 0.767,
+    "yaw": 4.0969,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-374",
+    "x": 1.302,
+    "z": 21.8471,
+    "radius": 0.3,
+    "scale": 0.5988,
+    "yaw": 5.1232,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-375",
+    "x": -29.7277,
+    "z": 3.7191,
+    "radius": 0.3,
+    "scale": 0.5002,
+    "yaw": 6.0725,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-376",
+    "x": 30.5811,
+    "z": 46.1543,
+    "radius": 0.3,
+    "scale": 0.85,
+    "yaw": 1.951,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-377",
+    "x": -21.9502,
+    "z": 19.9217,
+    "radius": 0.3,
+    "scale": 0.6756,
+    "yaw": 1.891,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-378",
+    "x": -1.4352,
+    "z": -6.3277,
+    "radius": 0.3,
+    "scale": 0.5754,
+    "yaw": 4.522,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-379",
+    "x": -22.5179,
+    "z": -11.0134,
+    "radius": 0.3,
+    "scale": 0.6832,
+    "yaw": 1.6604,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-380",
+    "x": -17.5127,
+    "z": 39.4407,
+    "radius": 0.3,
+    "scale": 0.4528,
+    "yaw": 3.0725,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-381",
+    "x": -41.8245,
+    "z": -16.2281,
+    "radius": 0.3,
+    "scale": 0.7653,
+    "yaw": 0.9445,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-382",
+    "x": -39.5205,
+    "z": 44.0773,
+    "radius": 0.3,
+    "scale": 0.7679,
+    "yaw": 0.9274,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-383",
+    "x": -21.7673,
+    "z": 12.2567,
+    "radius": 0.3,
+    "scale": 0.9161,
+    "yaw": 2.0063,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-384",
+    "x": 4.7364,
+    "z": -16.601,
+    "radius": 0.3,
+    "scale": 0.6969,
+    "yaw": 5.5252,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-385",
+    "x": -41.681,
+    "z": 8.4999,
+    "radius": 0.3,
+    "scale": 0.5605,
+    "yaw": 0.1927,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-386",
+    "x": -35.7463,
+    "z": 3.553,
+    "radius": 0.3,
+    "scale": 0.5289,
+    "yaw": 3.6982,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-387",
+    "x": 10.4568,
+    "z": 36.1689,
+    "radius": 0.3,
+    "scale": 0.6415,
+    "yaw": 1.3327,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-388",
+    "x": 23.4132,
+    "z": 47.5722,
+    "radius": 0.3,
+    "scale": 0.6088,
+    "yaw": 3.9591,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-389",
+    "x": 9.2895,
+    "z": 0.24,
+    "radius": 0.3,
+    "scale": 0.796,
+    "yaw": 1.9804,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-390",
+    "x": -29.5642,
+    "z": 31.8165,
+    "radius": 0.3,
+    "scale": 0.8312,
+    "yaw": 4.3952,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-391",
+    "x": 25.6681,
+    "z": 28.686,
+    "radius": 0.3,
+    "scale": 0.9087,
+    "yaw": 2.7382,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-392",
+    "x": 30.2259,
+    "z": -0.1333,
+    "radius": 0.3,
+    "scale": 0.5698,
+    "yaw": 4.131,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-393",
+    "x": -31.8332,
+    "z": 7.6077,
+    "radius": 0.3,
+    "scale": 0.8113,
+    "yaw": 5.2585,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-394",
+    "x": -44.3489,
+    "z": 16.5741,
+    "radius": 0.3,
+    "scale": 0.9397,
+    "yaw": 5.2459,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-395",
+    "x": -6.7437,
+    "z": 52.862,
+    "radius": 0.3,
+    "scale": 0.9482,
+    "yaw": 1.403,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-396",
+    "x": -25.3604,
+    "z": 3.5587,
+    "radius": 0.3,
+    "scale": 0.8654,
+    "yaw": 2.205,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-397",
+    "x": 16.3059,
+    "z": 17.79,
+    "radius": 0.3,
+    "scale": 0.6267,
+    "yaw": 3.3204,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-398",
+    "x": -38.014,
+    "z": -0.1362,
+    "radius": 0.3,
+    "scale": 0.4962,
+    "yaw": 1.5555,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-399",
+    "x": -20.8245,
+    "z": -12.1577,
+    "radius": 0.3,
+    "scale": 0.8409,
+    "yaw": 3.4641,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-400",
+    "x": -19.5582,
+    "z": 39.3819,
+    "radius": 0.3,
+    "scale": 0.4982,
+    "yaw": 1.7164,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-401",
+    "x": -34.6794,
+    "z": -23.802,
+    "radius": 0.3,
+    "scale": 0.6541,
+    "yaw": 2.4335,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-402",
+    "x": 19.6542,
+    "z": 47.5585,
+    "radius": 0.3,
+    "scale": 0.747,
+    "yaw": 3.7621,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-403",
+    "x": 29.507,
+    "z": -10.6654,
+    "radius": 0.3,
+    "scale": 0.4743,
+    "yaw": 3.5519,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-404",
+    "x": -27.6905,
+    "z": 11.9134,
+    "radius": 0.3,
+    "scale": 0.5246,
+    "yaw": 2.8143,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-405",
+    "x": -34.0228,
+    "z": -15.8394,
+    "radius": 0.3,
+    "scale": 0.8121,
+    "yaw": 6.2646,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-406",
+    "x": -9.4584,
+    "z": -18.7719,
+    "radius": 0.3,
+    "scale": 0.8813,
+    "yaw": 4.039,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-407",
+    "x": 18.3813,
+    "z": 49.1103,
+    "radius": 0.3,
+    "scale": 0.4845,
+    "yaw": 0.7075,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-408",
+    "x": -16.8733,
+    "z": 53.7029,
+    "radius": 0.3,
+    "scale": 0.6608,
+    "yaw": 3.1541,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-409",
+    "x": -10.3186,
+    "z": 22.7002,
+    "radius": 0.3,
+    "scale": 0.4618,
+    "yaw": 6.0451,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-410",
+    "x": 3.7635,
+    "z": 6.0541,
+    "radius": 0.3,
+    "scale": 0.7725,
+    "yaw": 0.789,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-411",
+    "x": -19.4766,
+    "z": 44.514,
+    "radius": 0.3,
+    "scale": 0.5818,
+    "yaw": 1.3894,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-412",
+    "x": 22.6193,
+    "z": 15.004,
+    "radius": 0.3,
+    "scale": 0.4598,
+    "yaw": 3.3163,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-413",
+    "x": -6.7017,
+    "z": 42.5777,
+    "radius": 0.3,
+    "scale": 0.7529,
+    "yaw": 0.3428,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-414",
+    "x": 6.2445,
+    "z": 37.4358,
+    "radius": 0.3,
+    "scale": 0.7911,
+    "yaw": 4.5911,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-415",
+    "x": -35.6794,
+    "z": 44.4694,
+    "radius": 0.3,
+    "scale": 0.8913,
+    "yaw": 1.7526,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-416",
+    "x": 6.0711,
+    "z": -7.1292,
+    "radius": 0.3,
+    "scale": 0.8061,
+    "yaw": 1.8754,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-417",
+    "x": -46.1112,
+    "z": 51.9584,
+    "radius": 0.3,
+    "scale": 0.8714,
+    "yaw": 2.6178,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-418",
+    "x": 14.0893,
+    "z": -0.6243,
+    "radius": 0.3,
+    "scale": 0.6107,
+    "yaw": 0.2845,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-419",
+    "x": -11.7499,
+    "z": -12.8693,
+    "radius": 0.3,
+    "scale": 0.7929,
+    "yaw": 0.2516,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-420",
+    "x": 11.8009,
+    "z": -16.1351,
+    "radius": 0.3,
+    "scale": 0.8226,
+    "yaw": 5.38,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-421",
+    "x": 11.4684,
+    "z": -12.0572,
+    "radius": 0.3,
+    "scale": 0.5108,
+    "yaw": 1.0056,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-422",
+    "x": -14.9743,
+    "z": 18.6923,
+    "radius": 0.3,
+    "scale": 0.4553,
+    "yaw": 0.7112,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-423",
+    "x": -33.7991,
+    "z": 27.984,
+    "radius": 0.3,
+    "scale": 0.8763,
+    "yaw": 1.1708,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-424",
+    "x": -23.1166,
+    "z": 33.3681,
+    "radius": 0.3,
+    "scale": 0.8891,
+    "yaw": 1.4686,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-425",
+    "x": -31.6388,
+    "z": -3.6025,
+    "radius": 0.3,
+    "scale": 0.8483,
+    "yaw": 3.4526,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-426",
+    "x": -9.7612,
+    "z": -24.5979,
+    "radius": 0.3,
+    "scale": 0.6596,
+    "yaw": 1.7273,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-427",
+    "x": 22.6651,
+    "z": 41.9213,
+    "radius": 0.3,
+    "scale": 0.5338,
+    "yaw": 1.7818,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-428",
+    "x": 20.6075,
+    "z": 43.8057,
+    "radius": 0.3,
+    "scale": 0.6408,
+    "yaw": 3.6365,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-429",
+    "x": -12.7696,
+    "z": 40.0011,
+    "radius": 0.3,
+    "scale": 0.7061,
+    "yaw": 3.7557,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-430",
+    "x": -20.9548,
+    "z": 18.7511,
+    "radius": 0.3,
+    "scale": 0.4571,
+    "yaw": 1.103,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-431",
+    "x": 28.3239,
+    "z": 45.8806,
+    "radius": 0.3,
+    "scale": 0.7333,
+    "yaw": 5.5306,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-432",
+    "x": -36.8723,
+    "z": -26.8453,
+    "radius": 0.3,
+    "scale": 0.5544,
+    "yaw": 1.3247,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-433",
+    "x": -11.577,
+    "z": -26.2552,
+    "radius": 0.3,
+    "scale": 0.8176,
+    "yaw": 3.4172,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-434",
+    "x": -4.9228,
+    "z": 39.2633,
+    "radius": 0.3,
+    "scale": 0.8753,
+    "yaw": 2.463,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-435",
+    "x": -18.344,
+    "z": 51.9907,
+    "radius": 0.3,
+    "scale": 0.8099,
+    "yaw": 3.6234,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-436",
+    "x": 4.5671,
+    "z": 37.2637,
+    "radius": 0.3,
+    "scale": 0.6326,
+    "yaw": 3.8439,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-437",
+    "x": -17.3896,
+    "z": 42.4574,
+    "radius": 0.3,
+    "scale": 0.9027,
+    "yaw": 3.9335,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-438",
+    "x": -31.4585,
+    "z": 28.5882,
+    "radius": 0.3,
+    "scale": 0.8698,
+    "yaw": 5.7191,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-439",
+    "x": 30.7036,
+    "z": -1.2101,
+    "radius": 0.3,
+    "scale": 0.6573,
+    "yaw": 0.5564,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-440",
+    "x": -35.3581,
+    "z": 28.5752,
+    "radius": 0.3,
+    "scale": 0.8661,
+    "yaw": 5.3879,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-441",
+    "x": 26.5971,
+    "z": -22.1718,
+    "radius": 0.3,
+    "scale": 0.7776,
+    "yaw": 4.202,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-442",
+    "x": -40.3362,
+    "z": 18.5177,
+    "radius": 0.3,
+    "scale": 0.5298,
+    "yaw": 3.2059,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-443",
+    "x": 24.4579,
+    "z": 32.2412,
+    "radius": 0.3,
+    "scale": 0.757,
+    "yaw": 0.0121,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-444",
+    "x": -11.9882,
+    "z": 47.9645,
+    "radius": 0.3,
+    "scale": 0.6402,
+    "yaw": 3.8202,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-445",
+    "x": -1.2419,
+    "z": 35.8132,
+    "radius": 0.3,
+    "scale": 0.7912,
+    "yaw": 3.2103,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-446",
+    "x": 30.1337,
+    "z": -11.232,
+    "radius": 0.3,
+    "scale": 0.6902,
+    "yaw": 1.0624,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-447",
+    "x": -36.0426,
+    "z": 4.5593,
+    "radius": 0.3,
+    "scale": 0.8734,
+    "yaw": 0.7696,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-near",
+    "id": "grass-near-448",
+    "x": 25.3118,
+    "z": 9.6241,
+    "radius": 0.3,
+    "scale": 0.5889,
+    "yaw": 0.3193,
+    "offset": -0.015
+  },
+  {
+    "asset": "grass-mid",
+    "id": "grass-mid-449",
+    "x": 17.9338,
+    "z": 28.3088,
+    "radius": 0.3,
+    "scale": 0.8926,
+    "yaw": 4.3242,
+    "offset": -0.015
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-450",
+    "x": 26.0294,
+    "z": 48.3442,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 0.0,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-451",
+    "x": 26.0294,
+    "z": 48.3442,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 0.0,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-452",
+    "x": -31.9088,
+    "z": 24.1774,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 0.7,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-453",
+    "x": -31.9088,
+    "z": 24.1774,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 0.7,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-454",
+    "x": -19.6851,
+    "z": 27.4033,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 1.4,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-455",
+    "x": -19.6851,
+    "z": 27.4033,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 1.4,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-456",
+    "x": -10.3587,
+    "z": 1.7622,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 2.1,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-457",
+    "x": -10.3587,
+    "z": 1.7622,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 2.1,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-458",
+    "x": -1.9001,
+    "z": 42.9448,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 2.8,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-459",
+    "x": -1.9001,
+    "z": 42.9448,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 2.8,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-460",
+    "x": 25.8614,
+    "z": 31.0957,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 3.5,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-461",
+    "x": 25.8614,
+    "z": 31.0957,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 3.5,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-462",
+    "x": 15.2531,
+    "z": 3.1822,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 4.2,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-463",
+    "x": 15.2531,
+    "z": 3.1822,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 4.2,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-464",
+    "x": 24.2537,
+    "z": -26.2491,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 4.9,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-465",
+    "x": 24.2537,
+    "z": -26.2491,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 4.9,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-466",
+    "x": -20.9146,
+    "z": -8.2927,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 5.6,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-467",
+    "x": -20.9146,
+    "z": -8.2927,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 5.6,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-468",
+    "x": 8.5423,
+    "z": 20.9226,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 6.3,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-469",
+    "x": 8.5423,
+    "z": 20.9226,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 6.3,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-470",
+    "x": 7.3453,
+    "z": -7.7472,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 7.0,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-471",
+    "x": 7.3453,
+    "z": -7.7472,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 7.0,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-472",
+    "x": 17.3493,
+    "z": -6.0177,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 7.7,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-473",
+    "x": 17.3493,
+    "z": -6.0177,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 7.7,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-474",
+    "x": -8.9879,
+    "z": -13.9752,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 8.4,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-475",
+    "x": -8.9879,
+    "z": -13.9752,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 8.4,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-476",
+    "x": -5.5956,
+    "z": 42.7976,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 9.1,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-477",
+    "x": -5.5956,
+    "z": 42.7976,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 9.1,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-478",
+    "x": -21.6522,
+    "z": -7.861,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 9.8,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-479",
+    "x": -21.6522,
+    "z": -7.861,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 9.8,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-480",
+    "x": -33.3243,
+    "z": -17.3857,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 10.5,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-481",
+    "x": -33.3243,
+    "z": -17.3857,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 10.5,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-482",
+    "x": -30.3404,
+    "z": 17.6604,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 11.2,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-483",
+    "x": -30.3404,
+    "z": 17.6604,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 11.2,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-484",
+    "x": -5.2678,
+    "z": 47.6496,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 11.9,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-485",
+    "x": -5.2678,
+    "z": 47.6496,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 11.9,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-486",
+    "x": 5.3425,
+    "z": 46.4469,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 12.6,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-487",
+    "x": 5.3425,
+    "z": 46.4469,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 12.6,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-488",
+    "x": -3.3523,
+    "z": -22.8189,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 13.3,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-489",
+    "x": -3.3523,
+    "z": -22.8189,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 13.3,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-490",
+    "x": 9.5228,
+    "z": -18.2754,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 14.0,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-491",
+    "x": 9.5228,
+    "z": -18.2754,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 14.0,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-492",
+    "x": -14.608,
+    "z": -25.7525,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 14.7,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-493",
+    "x": -14.608,
+    "z": -25.7525,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 14.7,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-494",
+    "x": 19.2578,
+    "z": 6.8599,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 15.4,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-495",
+    "x": 19.2578,
+    "z": 6.8599,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 15.4,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-496",
+    "x": -27.7969,
+    "z": 37.7373,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 16.1,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-497",
+    "x": -27.7969,
+    "z": 37.7373,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 16.1,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-branches",
+    "id": "shrub-branches-498",
+    "x": -4.3367,
+    "z": -14.9299,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 16.8,
+    "offset": -0.02
+  },
+  {
+    "asset": "shrub-leaves",
+    "id": "shrub-leaves-499",
+    "x": -4.3367,
+    "z": -14.9299,
+    "radius": 1,
+    "scale": 1,
+    "yaw": 16.8,
+    "offset": -0.02
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-500",
+    "x": -31.4241,
+    "z": 14.6553,
+    "radius": 0.3,
+    "scale": 0.91,
+    "yaw": 2.1966,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-501",
+    "x": -14.1985,
+    "z": 26.0955,
+    "radius": 0.3,
+    "scale": 0.9806,
+    "yaw": 2.6582,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-502",
+    "x": -26.5173,
+    "z": 23.5695,
+    "radius": 0.3,
+    "scale": 1.1823,
+    "yaw": 0.633,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-503",
+    "x": -11.2002,
+    "z": 39.9779,
+    "radius": 0.3,
+    "scale": 1.031,
+    "yaw": 4.4093,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-504",
+    "x": -14.1706,
+    "z": 39.847,
+    "radius": 0.3,
+    "scale": 0.9425,
+    "yaw": 0.3758,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-505",
+    "x": -36.0539,
+    "z": 12.5085,
+    "radius": 0.3,
+    "scale": 1.2958,
+    "yaw": 6.2615,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-506",
+    "x": -22.903,
+    "z": 34.1343,
+    "radius": 0.3,
+    "scale": 1.2376,
+    "yaw": 2.0955,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-507",
+    "x": -11.4371,
+    "z": 41.4154,
+    "radius": 0.3,
+    "scale": 1.1043,
+    "yaw": 2.0785,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-508",
+    "x": -17.6545,
+    "z": 26.1155,
+    "radius": 0.3,
+    "scale": 1.0228,
+    "yaw": 1.1277,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-509",
+    "x": -15.1448,
+    "z": 6.3873,
+    "radius": 0.3,
+    "scale": 1.0307,
+    "yaw": 3.2632,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-510",
+    "x": -37.7929,
+    "z": 28.4525,
+    "radius": 0.3,
+    "scale": 0.8367,
+    "yaw": 1.4085,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-511",
+    "x": -18.7448,
+    "z": 10.928,
+    "radius": 0.3,
+    "scale": 1.2804,
+    "yaw": 2.9162,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-512",
+    "x": -23.1456,
+    "z": 5.0495,
+    "radius": 0.3,
+    "scale": 0.8792,
+    "yaw": 5.7151,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-513",
+    "x": -20.4672,
+    "z": 17.6272,
+    "radius": 0.3,
+    "scale": 0.8663,
+    "yaw": 5.3971,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-514",
+    "x": -28.6542,
+    "z": 38.2923,
+    "radius": 0.3,
+    "scale": 0.8133,
+    "yaw": 0.2514,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-515",
+    "x": -24.7731,
+    "z": 26.2312,
+    "radius": 0.3,
+    "scale": 1.0803,
+    "yaw": 2.7246,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-516",
+    "x": -35.4995,
+    "z": 33.8151,
+    "radius": 0.3,
+    "scale": 0.846,
+    "yaw": 0.5385,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-517",
+    "x": -24.6158,
+    "z": 28.1167,
+    "radius": 0.3,
+    "scale": 0.8908,
+    "yaw": 3.5674,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-518",
+    "x": -38.8328,
+    "z": 30.3317,
+    "radius": 0.3,
+    "scale": 1.1802,
+    "yaw": 0.502,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-519",
+    "x": -13.7845,
+    "z": 21.0065,
+    "radius": 0.3,
+    "scale": 1.2656,
+    "yaw": 0.3349,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-520",
+    "x": -17.0924,
+    "z": 38.1417,
+    "radius": 0.3,
+    "scale": 1.2732,
+    "yaw": 4.232,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-521",
+    "x": -13.7873,
+    "z": 34.5591,
+    "radius": 0.3,
+    "scale": 1.1225,
+    "yaw": 6.1577,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-522",
+    "x": -32.1455,
+    "z": 11.4049,
+    "radius": 0.3,
+    "scale": 1.0196,
+    "yaw": 5.8084,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-523",
+    "x": -27.3449,
+    "z": 33.3518,
+    "radius": 0.3,
+    "scale": 0.9558,
+    "yaw": 0.2418,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-524",
+    "x": -20.658,
+    "z": 12.4968,
+    "radius": 0.3,
+    "scale": 1.1349,
+    "yaw": 5.2119,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-525",
+    "x": -27.8302,
+    "z": 38.0093,
+    "radius": 0.3,
+    "scale": 1.2114,
+    "yaw": 2.7874,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-526",
+    "x": -21.7486,
+    "z": 30.1614,
+    "radius": 0.3,
+    "scale": 0.9825,
+    "yaw": 2.7642,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-527",
+    "x": -16.4484,
+    "z": 12.1117,
+    "radius": 0.3,
+    "scale": 0.9702,
+    "yaw": 0.5947,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-528",
+    "x": -32.743,
+    "z": 41.5171,
+    "radius": 0.3,
+    "scale": 1.1223,
+    "yaw": 6.0758,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-529",
+    "x": -25.6292,
+    "z": 18.9454,
+    "radius": 0.3,
+    "scale": 0.9685,
+    "yaw": 4.2116,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-530",
+    "x": -14.306,
+    "z": 43.2233,
+    "radius": 0.3,
+    "scale": 1.1631,
+    "yaw": 0.0455,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-531",
+    "x": -14.189,
+    "z": 5.7266,
+    "radius": 0.3,
+    "scale": 1.1987,
+    "yaw": 0.7484,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-532",
+    "x": -33.2058,
+    "z": 44.0903,
+    "radius": 0.3,
+    "scale": 0.9877,
+    "yaw": 3.8311,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-533",
+    "x": -22.3162,
+    "z": 43.0743,
+    "radius": 0.3,
+    "scale": 1.2438,
+    "yaw": 6.2054,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-534",
+    "x": -16.2853,
+    "z": 32.1226,
+    "radius": 0.3,
+    "scale": 1.0511,
+    "yaw": 5.2412,
+    "offset": -0.002
+  },
+  {
+    "asset": "leaf-litter",
+    "id": "leaf-litter-535",
+    "x": -21.8864,
+    "z": 27.8372,
+    "radius": 0.3,
+    "scale": 0.9992,
+    "yaw": 2.2256,
+    "offset": -0.002
+  }
+]

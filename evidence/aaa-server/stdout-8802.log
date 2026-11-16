@@ -1,0 +1,3 @@
+Native website: http://127.0.0.1:8802/aaa-proof.html
+Synth Studio & Capabilities Workbench listening on http://127.0.0.1:8802
+(Non-conflicting with Webizen Desktop ports 8080 / 4242 / 9001)

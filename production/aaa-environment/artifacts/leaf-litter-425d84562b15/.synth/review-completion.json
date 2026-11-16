@@ -1,0 +1,318 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 288131,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15.hmc",
+    "sha256": "5ae0979843267d5c1a0b2e1418071cf091dffc6068ac7cb325e0fa5dd408ad91"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499875072,
+    "effective_host_bytes": 264437760,
+    "evaluation_steps": 124928,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 31232,
+    "source_reservation_bytes": 3997696,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 124928,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 6581,
+      "key": "fallen-leaf-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-0.dxf",
+      "sha256": "32b9d0c4c454e71e1511069e737ab5af9966a5042113846647876faa76427d1a"
+    },
+    {
+      "bytes": 6757,
+      "key": "fallen-leaf-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-1.dxf",
+      "sha256": "04f0fd919ebb69fab939344029ed117284d601c02a5e3ce6215293171524ad82"
+    },
+    {
+      "bytes": 6598,
+      "key": "fallen-leaf-10.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-10.dxf",
+      "sha256": "6084744df4f6214711a77f5fea5b3b72fd1391136bb93f8b29960a50cf9445de"
+    },
+    {
+      "bytes": 6575,
+      "key": "fallen-leaf-11.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-11.dxf",
+      "sha256": "26a4e3a4718d346f57e463d62d08e091afe6d798da5818016d9aef669651f02b"
+    },
+    {
+      "bytes": 6533,
+      "key": "fallen-leaf-12.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-12.dxf",
+      "sha256": "1c1075a814efd9a449bad87da9d3ce3cbc3c5d6187cf3d88c83847e12c23e500"
+    },
+    {
+      "bytes": 6733,
+      "key": "fallen-leaf-13.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-13.dxf",
+      "sha256": "274edba76edad16ea4dd80059145ce50dfcc0509bf44e70b74861f0614d22c53"
+    },
+    {
+      "bytes": 6554,
+      "key": "fallen-leaf-14.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-14.dxf",
+      "sha256": "e3cc7a29da8df18cb9ed4a064d1cead47430d39dcf3d281bb4e3e2a4220a50a1"
+    },
+    {
+      "bytes": 6543,
+      "key": "fallen-leaf-15.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-15.dxf",
+      "sha256": "02f1b5c09829a85852c270816b59d53fad3126097f95e0bb6c039f4c89b9984a"
+    },
+    {
+      "bytes": 6735,
+      "key": "fallen-leaf-16.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-16.dxf",
+      "sha256": "49e4b87139ace9bfc7e70b529d292bae3b82d553fdba1cb35fdae9abfbee7981"
+    },
+    {
+      "bytes": 6742,
+      "key": "fallen-leaf-17.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-17.dxf",
+      "sha256": "9308f045d5c803f0cae416cc573cf91018efeee4645c7ceb8bed1e37135de643"
+    },
+    {
+      "bytes": 6435,
+      "key": "fallen-leaf-18.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-18.dxf",
+      "sha256": "8139802c4d03dc46c86b324445eb58ddc41152e3c50201f3f01b5979e53e85bf"
+    },
+    {
+      "bytes": 6575,
+      "key": "fallen-leaf-19.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-19.dxf",
+      "sha256": "f2984e5523da02ad8b32e931d9522a35268bf02d2a6e774fc787c3bad33348e9"
+    },
+    {
+      "bytes": 6548,
+      "key": "fallen-leaf-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-2.dxf",
+      "sha256": "a25dfebfd9a46636903eb2f1fe3ed6a32fd150de1a04417130b0532dbee52e41"
+    },
+    {
+      "bytes": 6512,
+      "key": "fallen-leaf-20.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-20.dxf",
+      "sha256": "eeac67396f64e9cab1b1dfed6fe462cd0411cf3de62ba5ed6afd1c251d08b8ae"
+    },
+    {
+      "bytes": 6406,
+      "key": "fallen-leaf-21.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-21.dxf",
+      "sha256": "8899f0776d1ce1abaeb032f7519ff7d702e5e74af837c2400868ff543cd9d047"
+    },
+    {
+      "bytes": 6395,
+      "key": "fallen-leaf-22.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-22.dxf",
+      "sha256": "5bd24a1c20940ac7e6865692b79aa3288a63e33c0871272cc3a470b9c63374ae"
+    },
+    {
+      "bytes": 6530,
+      "key": "fallen-leaf-23.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-23.dxf",
+      "sha256": "54687d7f428011bf7a6c23ad9bd5cd7acfead77b798cb1c81c7436e160b0103f"
+    },
+    {
+      "bytes": 6700,
+      "key": "fallen-leaf-24.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-24.dxf",
+      "sha256": "a8f4bb7dd54ea79fe0ab64a4f5f87739f734f2a161562f7d13731971e2357fa2"
+    },
+    {
+      "bytes": 6720,
+      "key": "fallen-leaf-25.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-25.dxf",
+      "sha256": "6039b2a59d9d018d974105ab72148018c7e779ba3e4812d5aa8230510d07d7f6"
+    },
+    {
+      "bytes": 6421,
+      "key": "fallen-leaf-26.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-26.dxf",
+      "sha256": "30e7b3ad7bb8da4c39ef9835b55306ce02e1ae08e76892caaa9b149a91344b09"
+    },
+    {
+      "bytes": 6697,
+      "key": "fallen-leaf-27.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-27.dxf",
+      "sha256": "bb06ff36f864f5c5fb6bdcc2db97d4fe2396ad3eeff6381883b46b75b6c9d7ae"
+    },
+    {
+      "bytes": 6746,
+      "key": "fallen-leaf-28.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-28.dxf",
+      "sha256": "a903eb585a80e5a962c0261b44a8729aa66a827c394d334042440f3a24f1fdc8"
+    },
+    {
+      "bytes": 6471,
+      "key": "fallen-leaf-29.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-29.dxf",
+      "sha256": "6d2caf8a77a06a71698e1341cf4ef9a93bd4f0c99cc5cd84678aa483f867b6c0"
+    },
+    {
+      "bytes": 6574,
+      "key": "fallen-leaf-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-3.dxf",
+      "sha256": "af0008835b523679c0588d5a9a2b23634fceb44a4339d41140e35d95f7f3e695"
+    },
+    {
+      "bytes": 6565,
+      "key": "fallen-leaf-30.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-30.dxf",
+      "sha256": "1cc814cea8ef709827b882db7c2f3b7fa97f341370a29ae961da37fcda14da9e"
+    },
+    {
+      "bytes": 6558,
+      "key": "fallen-leaf-31.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-31.dxf",
+      "sha256": "f5cb03856c57b61fafc570f4368e0c1f28b9a6a27b7c1dbe0a73580b533d0b5d"
+    },
+    {
+      "bytes": 6351,
+      "key": "fallen-leaf-32.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-32.dxf",
+      "sha256": "ad53740d5e0e2ad552579068f364cfe549ad01f62522ccffe3067d089b0a0cfb"
+    },
+    {
+      "bytes": 6695,
+      "key": "fallen-leaf-33.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-33.dxf",
+      "sha256": "13171b967e0e5c35e81bbf9173760d57519d45431a690748acca60144384ab26"
+    },
+    {
+      "bytes": 6533,
+      "key": "fallen-leaf-34.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-34.dxf",
+      "sha256": "6d4fc214e065fef2bb17a4e44f640b6eaf052aec0469e9b3b86bb0d2f65b660a"
+    },
+    {
+      "bytes": 6574,
+      "key": "fallen-leaf-35.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-35.dxf",
+      "sha256": "20be2ce357b19c8327480fcb2c7ebbd4b3c64581f8e2523b03d66c40a5614512"
+    },
+    {
+      "bytes": 6693,
+      "key": "fallen-leaf-36.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-36.dxf",
+      "sha256": "e46b62e14690d86fb3f0196bd5cbd8b4f778997f07b65962b3ad7db37cb66112"
+    },
+    {
+      "bytes": 6397,
+      "key": "fallen-leaf-37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-37.dxf",
+      "sha256": "ddc81967e2c567e0ad20c110e538c0b4ddc0af2994d965fa6b74f6bc4010f618"
+    },
+    {
+      "bytes": 6647,
+      "key": "fallen-leaf-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-4.dxf",
+      "sha256": "0ad90e61a9276748541adae5123cc102fae5f842730e7b0b2632e80e92f2d6cf"
+    },
+    {
+      "bytes": 6706,
+      "key": "fallen-leaf-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-5.dxf",
+      "sha256": "2ffeaf522da5cf9e8e9fb8f2e4419e56508d1c9e900b053b37a01fdddaa2e27d"
+    },
+    {
+      "bytes": 6411,
+      "key": "fallen-leaf-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-6.dxf",
+      "sha256": "76cd8c8af4d4b77d25bbac24cb0084338fec92bdc9229ca6999478ecd49cad02"
+    },
+    {
+      "bytes": 6713,
+      "key": "fallen-leaf-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-7.dxf",
+      "sha256": "a61f4dec918f62b7724de69ce8929501ab028cc8a4aab70671e68660093ae5c7"
+    },
+    {
+      "bytes": 6391,
+      "key": "fallen-leaf-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-8.dxf",
+      "sha256": "e0b4f8b8b6ab5755d03bf35f0a73aa08ebaea203098865be0b29384ec660f8e4"
+    },
+    {
+      "bytes": 6584,
+      "key": "fallen-leaf-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-425d84562b15\\fallen-leaf-9.dxf",
+      "sha256": "76a11862d4a333d0814120cfb296fe575eef079772e127222ddfc3baf9968ad2"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "57a11a508633fa2d4114bc8faecda13ce3825f021498be07e271ba15cc5d6aa8",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

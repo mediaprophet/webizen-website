@@ -1,0 +1,120 @@
+{
+  "projection": {
+    "bounds_max": [
+      0.9316229820251465,
+      0.9501399993896484,
+      0.855571985244751
+    ],
+    "bounds_min": [
+      -0.8483110070228577,
+      -0.0010000000474974513,
+      -0.8911799788475037
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 3.766303300857544,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      0.04165598750114441,
+      0.47457000613212585,
+      -0.017803996801376343
+    ],
+    "colors": "absent-renderer-default",
+    "lighting": {
+      "ambient_intensity": 0.44999998807907104,
+      "clear_color": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "direct_intensity": 1.7999999523162842,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        0.40824830532073975,
+        0.8164966106414795,
+        0.40824830532073975
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 3.766303300857544,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.75,
+    "shadows_available": true,
+    "tangents": "authored",
+    "texture_coordinates": "authored-UV01",
+    "triangle_count": 6404,
+    "vertex_count": 3430,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "renderer": "QualiaDB webizen-render::VolumetricRenderer / PortalGpu native offscreen path",
+  "schema": "synth.native-10d-preview/v1",
+  "scope": "native readback PNG projection; not model acceptance or an adapter capability receipt",
+  "source": {
+    "bytes": 441312,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\grass-tuft.10d",
+    "sha256": "2bb7cb93286bc5addb1aecc41d8c672ae2f44bff9158422cc14632dd14ef1be3"
+  },
+  "textures": {
+    "asset_key": "outputs/grass-tuft.10d",
+    "hmc_sha256": "f5145f9d4d00dfe6fd37414c86d14412293dd0605e7e970eccf3793eab7cc9cf",
+    "requested": 3,
+    "resident": 3
+  },
+  "views": [
+    {
+      "bytes": 311031,
+      "camera_distance_applied": 3.766303300857544,
+      "camera_distance_requested": 3.766303300857544,
+      "camera_pitch": 0.2800000011920929,
+      "camera_target": [
+        0.04165598750114441,
+        0.47457000613212585,
+        -0.017803996801376343
+      ],
+      "camera_yaw": 0.7200000286102295,
+      "file": "three-quarter-view-assumed.png",
+      "height": 2048,
+      "sha256": "a3e4edbe6a8db583ca3ffe3962a586d3297b3edc83aea5e4aa62653d975d397e",
+      "width": 2048
+    },
+    {
+      "bytes": 293346,
+      "camera_distance_applied": 3.766303300857544,
+      "camera_distance_requested": 3.766303300857544,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.04165598750114441,
+        0.47457000613212585,
+        -0.017803996801376343
+      ],
+      "camera_yaw": 1.5707963705062866,
+      "file": "side-view-assumed.png",
+      "height": 2048,
+      "sha256": "caf82b53da20b6ca86a0f285c49dd39de1e5fd613df287c11fe2c1b0cee121ea",
+      "width": 2048
+    },
+    {
+      "bytes": 299797,
+      "camera_distance_applied": 3.766303300857544,
+      "camera_distance_requested": 3.766303300857544,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.04165598750114441,
+        0.47457000613212585,
+        -0.017803996801376343
+      ],
+      "camera_yaw": 0.0,
+      "file": "front-view-assumed.png",
+      "height": 2048,
+      "sha256": "cf9786ff97315f0d18661c1b52b855196d63d2360e4842c951b145569537d71f",
+      "width": 2048
+    }
+  ]
+}

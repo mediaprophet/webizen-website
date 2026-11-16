@@ -1,0 +1,18 @@
+{
+  "schema": "webizen.native-habitat-assembled-review/v1",
+  "image": "C:\\github\\synth\\production\\webizen-swarm\\evidence\\aaa-art\\habitat-world-20261116T042809.png",
+  "sha256": "11211d9605613cff6727109263d4cbcc05e60ddffda2817070c3ff005aaa6724",
+  "observed_capture": "2026-11-16T04:28:09Z",
+  "colour_sha256": "6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d",
+  "native_resident_verified": true,
+  "decision": "Keep candidate atlas for continued development. Final artwork/AAA acceptance withheld.",
+  "findings": [
+    "The replacement colour atlas removes the known repeating directional waves. Its quieter broad habitat variation is a better foundation for the catchment.",
+    "The closer three-quarter campsite composition remains a clear improvement: car/roofbox, camper sides and solar layout are recognisable.",
+    "Dark wavy shapes in the foreground and on the left slope remain substantially similar despite the quiet new colour map. They must not be blamed on the removed albedo pattern; shadow projection and repeated normal response remain plausible contributors.",
+    "This frame does not establish a renderer defect. A controlled native comparison is necessary to isolate geometry, normals and shadows.",
+    "The main remaining art weaknesses are bare foreground, thin isolated groundcover, repeated tree form and bark, flat vehicle/canvas materials and weak atmospheric separation.",
+    "The contextual panel still covers part of the solar/river area and the bottom navigation hides nearby litter. Root is addressing panel visibility separately."
+  ],
+  "diagnostic_scope": "No shared runtime or scene edited. Do not substitute counters or an HTTP success for the outstanding art judgement."
+}

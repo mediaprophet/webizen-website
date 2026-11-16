@@ -1,0 +1,24 @@
+{
+  "field_path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-terrain\\material-field.vibe",
+  "field_sha256": "455317eef38731a6e87c525773dde56e19b99e2738f6d9447b94d0be79753007",
+  "before_png": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\review\\habitat-field\\before.png",
+  "candidate_png": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\review\\habitat-field\\candidate.png",
+  "receipt": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\review\\habitat-field\\comparison.json",
+  "strict_replay_verified": true,
+  "review": {
+    "status": "Native before/after colour PNGs visually inspected; recommended for next bounded native world comparison only.",
+    "before": "Strong repeating diagonal patch/checker pattern, unrelated to coherent local habitat.",
+    "candidate": "No visible directional repetition. Broad irregular muted habitat zones, warmer clearing and narrow exposed banks follow the existing catchment. Small authored patches are restrained.",
+    "limitation": "This is a large-scale colour decision atlas, not fine soil/litter texture or measured ecology. It is quieter and less saturated and still requires an assembled world image under current light.",
+    "integrated": false,
+    "field_semantics": "Authored artwork; existing coordinate frame, function API and integer0..31index/32RGBApalette contracts preserved.",
+    "native_ranges": {
+      "index_min": 8.0,
+      "index_max": 23.0,
+      "finite_rgba_0_1": true
+    },
+    "build_integration": "Use32-cell batches. Existing128-cell generic evaluator calls exhaust its instruction budget; bounded32-cell evaluation completed4096samples. No build.py or integrated assets modified.",
+    "before_sha256": "4ba9ee4e326d06142b94e6bfbcd2b6b16e25aad2e2e17ad009f25cde6e6bc0f1",
+    "candidate_sha256": "6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d"
+  }
+}

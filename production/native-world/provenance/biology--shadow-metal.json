@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 44,
+  "triangles": 80,
+  "bytes": 55640,
+  "source_bytes": 14476,
+  "id": "biology--shadow-metal",
+  "original_sha256": "f18b9660059e630d99648976d539dece3172d6e4b67972c441932c354ffabad6",
+  "source_sha256": "139b0ae9ea8c1b63df0b59cfd3dec4fe45ab0a1ba3d51265aed1369e08a3f25e",
+  "attested_sha256": "65de3b882e409896874ea426267cd5fbed071c10a4bef5b64506099987d0b98e",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

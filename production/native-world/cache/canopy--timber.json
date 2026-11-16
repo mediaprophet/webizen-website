@@ -1,0 +1,118 @@
+{
+  "key": "5d3d95e6d303a2906ba77f9d746f929d2a8642072298126017acd9d6d90aaa29",
+  "id": "canopy--timber",
+  "native": {
+    "bytes": 2043384,
+    "key": "canopy--timber.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-canopy--timber-59d613a19f3c\\canopy--timber.10d",
+    "sha256": "dc696ea8a88b70f353e7cc8a72e020dc27a80712b9e389519604ec23c11f8452",
+    "url": "/artifacts/world-canopy--timber-59d613a19f3c/canopy--timber.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "a429e9bd897ee71a50adbbdfe5be0f098222509f5fab634a0d4ed8020176cf54",
+    "package_sha256": "e5046b901227111552b9bbcf8f1dde2ae0df70e732614a9289e2f511d3f37667",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 2340092,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-canopy--timber-59d613a19f3c.hmc",
+        "sha256": "e5046b901227111552b9bbcf8f1dde2ae0df70e732614a9289e2f511d3f37667"
+      },
+      "inputs": [
+        {
+          "bytes": 295476,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\canopy--timber.glb",
+          "sha256": "003aab1b6a67c78efe03351471a3f5d99bb283f5efa53f79ea01121d090359cb"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998068,
+        "effective_host_bytes": 268373632,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2094843,
+        "source_bytes": 483,
+        "source_reservation_bytes": 61824,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1932,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 2043384,
+          "key": "canopy--timber.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-canopy--timber-59d613a19f3c\\canopy--timber.10d",
+          "sha256": "dc696ea8a88b70f353e7cc8a72e020dc27a80712b9e389519604ec23c11f8452",
+          "url": "/artifacts/world-canopy--timber-59d613a19f3c/canopy--timber.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "96a1c3d1e62cc1112146f38476a2468e35e4d9dceb870d5964ea16e0ae120770",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 2043384,
+        "key": "canopy--timber.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "dc696ea8a88b70f353e7cc8a72e020dc27a80712b9e389519604ec23c11f8452"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-canopy--timber-59d613a19f3c.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-canopy--timber-59d613a19f3c.hmc",
+    "receipt_url": "/artifacts/world-canopy--timber-59d613a19f3c.json"
+  },
+  "vertices": 7632,
+  "triangles": 15168,
+  "instances": 1,
+  "material": 50,
+  "url": "/production/native-world/assets/canopy--timber.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "dc696ea8a88b70f353e7cc8a72e020dc27a80712b9e389519604ec23c11f8452",
+  "bytes": 2043384,
+  "recipe": "/production/native-world/recipes/canopy--timber.vibe",
+  "input_sha256": "003aab1b6a67c78efe03351471a3f5d99bb283f5efa53f79ea01121d090359cb"
+}

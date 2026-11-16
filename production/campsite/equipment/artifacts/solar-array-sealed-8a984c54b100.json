@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 331961,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-sealed-8a984c54b100.hmc",
+    "sha256": "3c715787365435a89e859d57fcc9d992d2c0b24e45bd8e6214ffa7d171b0490b"
+  },
+  "inputs": [
+    {
+      "bytes": 61840,
+      "key": "assembly.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\solar-array.obj",
+      "sha256": "7d19b5598f89bac575e4724687c82216c6916b721ed55bcb19ff07ce992b03dc"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499998816,
+    "effective_host_bytes": 268397568,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096668,
+    "source_bytes": 296,
+    "source_reservation_bytes": 37888,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1184,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 269032,
+      "key": "solar-array.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-sealed-8a984c54b100\\solar-array.10d",
+      "sha256": "d38898b8fef2ccbb1100b4a95b95511242886a81b6378501d832509ad7a45036"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "88c4652b17df3f4bbd326a82378c7088d449052fd878b216d18945aa4be80716",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

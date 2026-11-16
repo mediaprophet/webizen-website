@@ -1,0 +1,118 @@
+{
+  "key": "dd7fbf2d870d09372c4369cbfd1542e1128fd3fd8a24737d8c369acbfdbf8514",
+  "id": "terrain--upland",
+  "native": {
+    "bytes": 4077616,
+    "key": "terrain--upland.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-terrain--upland-d5cdbc0a6a26\\terrain--upland.10d",
+    "sha256": "67598660daa037e695b6e9d8ff8ab298e277ff00a2339d6a426869dba1d38dcb",
+    "url": "/artifacts/world-terrain--upland-d5cdbc0a6a26/terrain--upland.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "cae4013cd12f1cd863dfa67ae9c19d967334187a88bc6d420b10bfdd532d367b",
+    "package_sha256": "626c70c0f874796ac7d3fab1483a8aeb7d6d48a71fb6a55e13004871ac04f10e",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 4695107,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-terrain--upland-d5cdbc0a6a26.hmc",
+        "sha256": "626c70c0f874796ac7d3fab1483a8aeb7d6d48a71fb6a55e13004871ac04f10e"
+      },
+      "inputs": [
+        {
+          "bytes": 616260,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\terrain--upland.glb",
+          "sha256": "b28b332f73ff7eb991e6da6f13e1774adc4b0ffd2f13f4f6ac7be6b00d0bd38e"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998176,
+        "effective_host_bytes": 268377088,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2092337,
+        "source_bytes": 456,
+        "source_reservation_bytes": 58368,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1824,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 4077616,
+          "key": "terrain--upland.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-terrain--upland-d5cdbc0a6a26\\terrain--upland.10d",
+          "sha256": "67598660daa037e695b6e9d8ff8ab298e277ff00a2339d6a426869dba1d38dcb",
+          "url": "/artifacts/world-terrain--upland-d5cdbc0a6a26/terrain--upland.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "7799aea15637866b32df4ba18d78007256cf04440db0d606a2c67157712d315f",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 4077616,
+        "key": "terrain--upland.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "67598660daa037e695b6e9d8ff8ab298e277ff00a2339d6a426869dba1d38dcb"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-terrain--upland-d5cdbc0a6a26.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-terrain--upland-d5cdbc0a6a26.hmc",
+    "receipt_url": "/artifacts/world-terrain--upland-d5cdbc0a6a26.json"
+  },
+  "vertices": 25921,
+  "triangles": 24385,
+  "instances": 1,
+  "material": 1,
+  "url": "/production/native-world/assets/terrain--upland.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "67598660daa037e695b6e9d8ff8ab298e277ff00a2339d6a426869dba1d38dcb",
+  "bytes": 4077616,
+  "recipe": "/production/native-world/recipes/terrain--upland.vibe",
+  "input_sha256": "b28b332f73ff7eb991e6da6f13e1774adc4b0ffd2f13f4f6ac7be6b00d0bd38e"
+}

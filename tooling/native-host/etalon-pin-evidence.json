@@ -1,0 +1,85 @@
+{
+  "schema": "webizen.provider-pin-evidence/v1",
+  "repository": "https://github.com/mediaprophet/etalon.git",
+  "branch": "codex/production-integration-20261113",
+  "previous_revision": "057545fc14bc1202a167b9a76a8f82e246c1738f",
+  "pushed_revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "remote_revision_verified": true,
+  "commit_files": [
+    "CHANGELOG.md",
+    "crates/etalon-render/src/emf.rs",
+    "crates/etalon-render/src/shaders/emf_volumetric.wgsl",
+    "crates/etalon-render/src/emf_gain_tests.rs"
+  ],
+  "resolved_wasm_provider_crates": 23,
+  "local_etalon_overrides": false,
+  "tests": {
+    "renderer_unit_tests": {
+      "passed": 583,
+      "failed": 0,
+      "log": "etalon-render-cargo-tests.log"
+    },
+    "focused_cpu_shader_checks": {
+      "passed": 7,
+      "failed": 0,
+      "log": "emf-gain-tests.txt"
+    },
+    "full_gpu_xtask": {
+      "status": "official nextest and MSVC ATL now installed; user-approved full suite rerun active",
+      "reason": "After the earlier cancelled elevation request, the user authorised retry; official ATL installation returned exit0 and formerly failing link targets now link.",
+      "log": "etalon-full-nextest-run.log"
+    }
+  },
+  "browser_pixel_validation": "pending rebuilt WASM",
+  "qualia_pin_files": [
+    {
+      "path": "C:\\github\\qualiaDB\\Cargo.toml",
+      "sha256": "ab1934e6319de065c44faf4dc9ec9a6a3fa8cdc88737f274ea20705e23fab13f"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\Cargo.lock",
+      "sha256": "bd8ca366a0bae343fb2f5d573681779d6cd4c1cbdfcd097c8ce757d6822764e5"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\tools\\accelerator-harness\\Cargo.toml",
+      "sha256": "35dc04705105f26d7343799267fd12d4e1ff7ea64625ccc911b3cbbacf8d3d20"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\tools\\accelerator-harness\\Cargo.lock",
+      "sha256": "4c60cc838016a89beeb3a9265d3db398706802605f3294825b7bc6d1e1f993e3"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\tools\\accelerator-harness\\etalon-revision.txt",
+      "sha256": "bb9bf8f77bc7a1a721d7650338ec4c82f9e385fa8c8ffa9db22461f58c7fb738"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-etalon-sensing-bridge\\Cargo.toml",
+      "sha256": "d6ed1b38b37bf47117438c1965b0826edc0afa4a85a36c2f9e19a7b0cd3eaacc"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-etalon-sensing-bridge\\Cargo.lock",
+      "sha256": "7647223f1e7b05edcdd802898450aecb9eb439cbb8ecd07433337d0741372a97"
+    }
+  ],
+  "locked_metadata_validation": [
+    "QualiaDB workspace",
+    "accelerator-harness",
+    "qualia-etalon-sensing-bridge",
+    "webizen-world-host"
+  ],
+  "host_lock_provider_packages": 30,
+  "harness_pin_regression": "passed; C:/github/qualiaDB/target/qualification/harness-cli-test-880432a7733b472d86b2ea316b235af2",
+  "build": {
+    "wasm": {
+      "url": "/pkg/native-world/webizen_world_bg.wasm",
+      "bytes": 16501165,
+      "sha256": "6f508880c0b696c4a92d5fe91410bd137f8aec093c4c9ab6d6102c1b4698f2cf"
+    },
+    "qualified_bundle": {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\qualified\\de3e21c88344a4e13b3b75c89d0eefc949feabd366068e4b62a7c8ca77703b61",
+      "identity_sha256": "de3e21c88344a4e13b3b75c89d0eefc949feabd366068e4b62a7c8ca77703b61",
+      "publication": "complete directory renamed into place after checksum verification"
+    },
+    "render_provider_revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e"
+  }
+}

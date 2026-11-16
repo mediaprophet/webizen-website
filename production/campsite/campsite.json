@@ -1,0 +1,86 @@
+{
+  "schema": "webizen.campsite/v1",
+  "title": "The field studio",
+  "default_locale": "en-AU",
+  "description": "A working campsite: shelter, energy and connection in a living landscape. Authored from the creator’s description, with broad journey chapters drawn from a private timeline.",
+  "geometry": "Native Synth loft/revolve geometry, exported losslessly for the browser and sealed as .10d. Three.js presents the scene.",
+  "coordinates": "Metres in a fictional scene; these are not geographic coordinates.",
+  "assets": [
+    {
+      "id": "car-passat-b7",
+      "title": "Gold 2013 Volkswagen Passat wagon",
+      "mesh_url": "/production/campsite/car/assets/car.json",
+      "mesh_sha256": "32bd116a4ceda613efc9ced128bab381a41c1b060185d6a19a87d6c3be015057",
+      "native_url": "/production/campsite/car/artifacts/car-passat-sealed-abdcdba98c88/passat-b7.10d",
+      "native_sha256": "4a67a010558eed70b4b9c7185cad1f667041f2a10d5652ab4317961041b21090",
+      "recipe_url": "/production/campsite/car/recipes/passat-b7.vibe",
+      "receipt_url": "/production/campsite/car/artifacts/car-passat-sealed-abdcdba98c88.json",
+      "position": [
+        -3.5,
+        0,
+        1.3
+      ],
+      "rotation_y": -0.12,
+      "anchor": "ground",
+      "qualification": "Authored dimensional interpretation; not scanned manufacturer CAD.",
+      "strict_replay_verified": true
+    },
+    {
+      "id": "vintage-windup-camper",
+      "title": "1980-era Jayco wind-up camper",
+      "mesh_url": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json",
+      "mesh_sha256": "6ef2da5cccedea35e2bb779071c46773432d9461dbd84aea9b17bc400664162e",
+      "native_url": "/production/campsite/camper/artifacts/vintage-windup-camper-sealed-0e351813e46a/vintage-windup-camper.10d",
+      "native_sha256": "ef94a5253e087db6e4a0a24678cb2ec493dca32c6ff1d9ac37e4a35dc3bd8a9d",
+      "recipe_url": "/production/campsite/camper/recipes/vintage-windup-camper.vibe",
+      "receipt_url": "/production/campsite/camper/artifacts/vintage-windup-camper-sealed-0e351813e46a.json",
+      "position": [
+        1,
+        0,
+        0
+      ],
+      "rotation_y": 0,
+      "anchor": "ground",
+      "qualification": "Original authored reconstruction of an approximately 1980 Jayco wind-up camper; specific model/serial dimensions not asserted. Deployed canvas sides, raised roof and slide-out beds follow user description.",
+      "strict_replay_verified": true
+    },
+    {
+      "id": "solar-array",
+      "title": "Ground solar array",
+      "mesh_url": "/production/campsite/equipment/assets/solar-array.mesh.json",
+      "mesh_sha256": "906d6a994b1febb77e3f7828cac61ac4960f4790e36affe35329689202c10f4e",
+      "native_url": "/production/campsite/equipment/artifacts/solar-array-sealed-8a984c54b100/solar-array.10d",
+      "native_sha256": "d38898b8fef2ccbb1100b4a95b95511242886a81b6378501d832509ad7a45036",
+      "recipe_url": "/production/campsite/equipment/recipes/solar-array.vibe",
+      "receipt_url": "/production/campsite/equipment/artifacts/solar-array-sealed-8a984c54b100.json",
+      "position": [
+        4.3,
+        0,
+        4.1
+      ],
+      "rotation_y": -0.25,
+      "anchor": "ground",
+      "qualification": "Authored visual reconstruction; not a certified engineering installation or equipment performance simulation.",
+      "strict_replay_verified": true
+    },
+    {
+      "id": "starlink-mini",
+      "title": "Starlink Mini roof connection",
+      "mesh_url": "/production/campsite/equipment/assets/starlink-mini.mesh.json",
+      "mesh_sha256": "bf27f9a683b2fb02a7cb739b057640507cac7fd0170c29efd8f52440b7625a16",
+      "native_url": "/production/campsite/equipment/artifacts/starlink-mini-sealed-2e2d2fdc9891/starlink-mini.10d",
+      "native_sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820",
+      "recipe_url": "/production/campsite/equipment/recipes/starlink-mini.vibe",
+      "receipt_url": "/production/campsite/equipment/artifacts/starlink-mini-sealed-2e2d2fdc9891.json",
+      "position": [
+        1.7,
+        2.72,
+        -0.65
+      ],
+      "rotation_y": 0,
+      "anchor": "camper",
+      "qualification": "Authored visual reconstruction; not a certified engineering installation or equipment performance simulation.",
+      "strict_replay_verified": true
+    }
+  ]
+}

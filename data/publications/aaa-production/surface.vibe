@@ -1,0 +1,4 @@
+requires [capability("capability.invoke")];
+let maps = capability.invoke("hypermedia.surface.synthesize_maps", {side:256,seed:42,tint:[0.38,0.51,0.31],contrast:0.35,relief:0.003,bands:[0,0],roughness:0.72,metallic:0.0});
+let packed = capability.invoke("hypermedia.surface.pack_pbr_set", {colour:maps.colour,normal:maps.normal,orm:maps.orm});
+let asset = {files:[{key:"colour.png",resource:packed.colour},{key:"normal.png",resource:packed.normal},{key:"orm.png",resource:packed.orm}]};

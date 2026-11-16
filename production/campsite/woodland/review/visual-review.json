@@ -1,0 +1,28 @@
+{
+  "schema": "webizen.native-visual-review/v1",
+  "reviewed_at": "2026-11-16T01:13:26.186516+00:00",
+  "status": "accepted-for-clearing-margin-integration",
+  "native_views_inspected": [
+    "front-view-assumed.png",
+    "side-view-assumed.png",
+    "three-quarter-view-assumed.png"
+  ],
+  "browser_views_inspected": [
+    "browser-front.png",
+    "browser-side.png",
+    "browser-quarter.png",
+    "browser-rear.png"
+  ],
+  "model_sha256": "5b3656a5b08fd868ba63a6177764c4d8dda2e790b403d2768ddfe3e20417666d",
+  "observations": [
+    "Pale branching trunk is legible through the open irregular crown.",
+    "Elongated hanging leaves are actual individual Synth realised geometry, not cone crowns, billboards or ellipsoid clumps.",
+    "No missing DXF faces or unsupported browser geometry replacement; seven material batches retain exact source-part ranges.",
+    "Root flare extends 0.11 m below y=0 intentionally for ground contact."
+  ],
+  "limitations": [
+    "Authored eucalyptus-inspired woodland study, not species-identification evidence.",
+    "Terminal sprays are stylised; this is not a botanical scan.",
+    "Optional native topology and spatial-index sections are disabled in this visual asset seal. The mesh and strict replay are preserved."
+  ]
+}

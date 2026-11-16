@@ -1,0 +1,42 @@
+{
+  "schema": "webizen.native-world/v1",
+  "prototype": true,
+  "description": "Native loader proof only: six photovoltaic faces, all other world components intentionally excluded.",
+  "units": "metres",
+  "up": "+Y",
+  "authored_frame": true,
+  "ground_y": 4.4909216892549235,
+  "assets": [
+    {
+      "id": "solar-array-three--panel",
+      "url": "/production/native-world/assets/solar-array-three--panel.10d",
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994",
+      "bytes": 57976,
+      "vertices": 60,
+      "triangles": 96,
+      "instances": 2,
+      "material": 35,
+      "recipe": "/production/native-world/recipes/solar-array-three--panel.vibe",
+      "input_sha256": "14e4d4a58936b14816901fd93fabfd714647f7c2e157c3057800f9b165c0a88b",
+      "original_native_sha256": "fe9c9c03a343729a83704f0fc9a9c3da8b67962da4f841e6031979a2b83adefc",
+      "provenance_receipt": "/production/native-world/provenance/solar-array-three--panel.json"
+    }
+  ],
+  "totals": {
+    "assets": 1,
+    "bytes": 57976,
+    "vertices": 60,
+    "triangles": 96,
+    "vertex_count": 60,
+    "triangle_count": 96
+  },
+  "vertex_count": 60,
+  "triangle_count": 96,
+  "provenance": "Native QualiaDB ProvenanceSidecar binds actual GLB source bytes and scoped project permission; no VC asserted; original sections and header policy preserved."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "webizen.native-terrain-review/v1",
+  "asset_sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+  "views": [
+    "front-view-assumed.png",
+    "side-view-assumed.png",
+    "three-quarter-view-assumed.png"
+  ],
+  "geometry_review": "All3nativePNGviews show upright low-relief height sheet; hillside/ridge contours and surface shading visible afternativewindingfix. Noartisticlandcover or satellitecolourclaim.",
+  "source_correctness": "Original16,992positions exact; all33,462triangles windingreversed bynativefixedfunction; sourceheights541\u2013677m preserved.",
+  "native_build_revision": "QualiaDBdem.rs currentlivefile + Synthimportmesh/compile10dpbr, strictreplaytrue",
+  "browser_visual_acceptance": "pendingrootintegration",
+  "aaa_artwork_completion": false
+}

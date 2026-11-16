@@ -1,0 +1,1613 @@
+{
+  "schema": "webizen.native-world-authoring/v1",
+  "units": "metres",
+  "up": "+Y",
+  "material_binding": "Shared ordered glTF material table imported by Synth into native MAT1; no browser-side material geometry generation",
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3613067797835095,
+          0.4072402119017367,
+          0.35153259950043936,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09084171118340768,
+          0.13286832155381798,
+          0.08437621154414882,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.12743768043564743,
+          0.19120168274079138,
+          0.0953074666309647,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2831487404299921,
+          0.26635560480286247,
+          0.14412847085805777,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4969329950608704,
+          0.3762621229909065,
+          0.162029375639111,
+          1
+        ],
+        "metallicFactor": 0.62,
+        "roughnessFactor": 0.29
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.00972121732023785,
+          0.0295568344378088,
+          0.03954623527673284,
+          1
+        ],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.17
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4793201831008268,
+          0.5520114015120001,
+          0.5583403896342679,
+          1
+        ],
+        "metallicFactor": 0.85,
+        "roughnessFactor": 0.23
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.014443843596092545,
+          0.0202885630566524,
+          0.021219010376003555,
+          1
+        ],
+        "metallicFactor": 0.05,
+        "roughnessFactor": 0.5
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.008568125618069307,
+          0.010960094006488246,
+          0.010960094006488246,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0595112381629812,
+          0.06662593864377289,
+          0.06847816984440017,
+          1
+        ],
+        "metallicFactor": 0.6,
+        "roughnessFactor": 0.65
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.39157247774972326,
+          0.4286904966139066,
+          0.43415363617474895,
+          1
+        ],
+        "metallicFactor": 0.75,
+        "roughnessFactor": 0.32
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.386429433787049,
+          0.013702083047289686,
+          0.017641954488384078,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.24
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7529422167760779,
+          0.7758222183174236,
+          0.6866853124353135,
+          1
+        ],
+        "metallicFactor": 0.25,
+        "roughnessFactor": 0.24
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7758222183174236,
+          0.7758222183174236,
+          0.6866853124353135,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.55
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.02217388479338738,
+          0.033104766570885055,
+          0.04091519690685319,
+          1
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.3
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.007499032043226175,
+          0.019382360956935723,
+          0.0295568344378088,
+          1
+        ],
+        "metallicFactor": 0.4,
+        "roughnessFactor": 0.13
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.012983032342173012,
+          0.018500220128379697,
+          0.02217388479338738,
+          1
+        ],
+        "metallicFactor": 0.05,
+        "roughnessFactor": 0.55
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0295568344378088,
+          0.03954623527673284,
+          0.046665086336880095,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.29
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05126945837404324,
+          0.06301001765316767,
+          0.05780543019106723,
+          1
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.8
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.018500220128379697,
+          0.021219010376003555,
+          0.017641954488384078,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7758222183174236,
+          0.7083757798916868,
+          0.5332764040105052,
+          1
+        ],
+        "metallicFactor": 0.08,
+        "roughnessFactor": 0.68
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.45078578283822346,
+          0.4851499400560704,
+          0.4396571738409188,
+          1
+        ],
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.3
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5028864580325687,
+          0.2788942634768104,
+          0.042311410620809675,
+          1
+        ],
+        "metallicFactor": 0.02,
+        "roughnessFactor": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09758734714186246,
+          0.14412847085805777,
+          0.04518620438567554,
+          1
+        ],
+        "metallicFactor": 0.02,
+        "roughnessFactor": 0.75
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8549926081242338,
+          0.7912979403326302,
+          0.6444796819705821,
+          1
+        ],
+        "metallicFactor": 0.08,
+        "roughnessFactor": 0.62
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5583403896342679,
+          0.4793201831008268,
+          0.2704977910130658,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.04518620438567554,
+          0.07036009569659588,
+          0.04817182422688942,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2581828529215958,
+          0.21586050011389926,
+          0.1119324278369056,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.24228112246555486,
+          0.2874408377269175,
+          0.19806931955994886,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.11697066775851084,
+          0.13286832155381798,
+          0.10946171077829933,
+          1
+        ],
+        "metallicFactor": 0.4,
+        "roughnessFactor": 0.9
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1714411007328226,
+          0.19806931955994886,
+          0.184474994500441,
+          1
+        ],
+        "metallicFactor": 0.65,
+        "roughnessFactor": 0.55
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6724431569576875,
+          0.5906188409193369,
+          0.386429433787049,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.38132601143253014,
+          0.028426039504420793,
+          0.018500220128379697,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.35
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6239603916750761,
+          0.23074004852434915,
+          0.027320891639074894,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.35
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.03560131487502034,
+          0.046665086336880095,
+          0.046665086336880095,
+          1
+        ],
+        "metallicFactor": 0.25,
+        "roughnessFactor": 0.65
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.006995410187265387,
+          0.028426039504420793,
+          0.07036009569659588,
+          1
+        ],
+        "metallicFactor": 0.48,
+        "roughnessFactor": 0.27
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.467783796112159,
+          0.5088813208549338,
+          0.4969329950608704,
+          1
+        ],
+        "metallicFactor": 0.9,
+        "roughnessFactor": 0.28
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.12477181756095049,
+          0.1946178304415758,
+          0.26635560480286247,
+          1
+        ],
+        "metallicFactor": 0.6,
+        "roughnessFactor": 0.4
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.014443843596092545,
+          0.017641954488384078,
+          0.01599629336550963,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.84
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4232676699860717,
+          0.45641102318040466,
+          0.43415363617474895,
+          1
+        ],
+        "metallicFactor": 0.12,
+        "roughnessFactor": 0.68
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8148465722161012,
+          0.8148465722161012,
+          0.7379104087727308,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.68
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.19120168274079138,
+          0.21223075741405523,
+          0.19806931955994886,
+          1
+        ],
+        "metallicFactor": 0.75,
+        "roughnessFactor": 0.45
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5209955732043543,
+          0.5520114015120001,
+          0.44520119451622786,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.91
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1651321945016676,
+          0.14995978981060856,
+          0.0953074666309647,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.98
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6307571363461468,
+          0.5271151257058131,
+          0.38132601143253014,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.21586050011389926,
+          0.19120168274079138,
+          0.10702310297826761,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.06847816984440017,
+          0.13843161503245183,
+          0.07421356838014963,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.08865558628577294,
+          0.18782077230067787,
+          0.15292615199615017,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.79
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.19806931955994886,
+          0.2788942634768104,
+          0.12477181756095049,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.83
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5583403896342679,
+          0.47353149614800955,
+          0.3005437944157765,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3277780980565422,
+          0.14995978981060856,
+          0.05448027644244237,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4620769996544071,
+          0.2831487404299921,
+          0.08437621154414882,
+          1
+        ],
+        "metallicFactor": 0.75,
+        "roughnessFactor": 0.3
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.043735029256973465,
+          0.19120168274079138,
+          0.162029375639111,
+          1
+        ],
+        "metallicFactor": 0.65,
+        "roughnessFactor": 0.4
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09084171118340768,
+          0.17788841598362912,
+          0.10461648409110419,
+          1
+        ],
+        "metallicFactor": 0.08,
+        "roughnessFactor": 0.6
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4019777798321958,
+          0.2195261997292692,
+          0.09305896284668745,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.83
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2232279573168085,
+          0.11697066775851084,
+          0.05780543019106723,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.84
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.386429433787049,
+          0.26635560480286247,
+          0.09758734714186246,
+          1
+        ],
+        "metallicFactor": 0.7,
+        "roughnessFactor": 0.36
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5088813208549338,
+          0.4851499400560704,
+          0.3277780980565422,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.94
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.03560131487502034,
+          0.06480326669290577,
+          0.06662593864377289,
+          1
+        ],
+        "metallicFactor": 0.6,
+        "roughnessFactor": 0.48
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6514056374198242,
+          0.6724431569576875,
+          0.5711248294648731,
+          1
+        ],
+        "metallicFactor": 0.38,
+        "roughnessFactor": 0.33
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.07227185068231748,
+          0.25015828472995344,
+          0.19806931955994886,
+          1
+        ],
+        "metallicFactor": 0.45,
+        "roughnessFactor": 0.36
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5332764040105052,
+          0.3564001441459435,
+          0.11953842798834562,
+          1
+        ],
+        "metallicFactor": 0.55,
+        "roughnessFactor": 0.34
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "placements": [
+    {
+      "asset": "terrain",
+      "instances": [
+        {
+          "id": "terrain",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "car-passat-b7",
+      "instances": [
+        {
+          "id": "car-passat-b7",
+          "rotation": [
+            0.0,
+            -0.059964006479444595,
+            0.0,
+            0.9982005399352042
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -25.5,
+            4.4909216892549235,
+            29.3
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "vintage-windup-camper",
+      "instances": [
+        {
+          "id": "vintage-windup-camper",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -21.0,
+            4.4909216892549235,
+            28.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "solar-array-three",
+      "instances": [
+        {
+          "id": "solar-three-a",
+          "rotation": [
+            0.0,
+            -0.03998933418663416,
+            0.0,
+            0.9992001066609779
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -22.5,
+            4.4909216892549235,
+            33.1
+          ]
+        },
+        {
+          "id": "solar-three-b",
+          "rotation": [
+            0.0,
+            0.024997395914712332,
+            0.0,
+            0.9996875162757026
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -19.8,
+            4.4909216892549235,
+            33.1
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "solar-array-two",
+      "instances": [
+        {
+          "id": "solar-two",
+          "rotation": [
+            0.0,
+            0.08987854919801104,
+            0.0,
+            0.9959527330119943
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -17.4,
+            4.4909216892549235,
+            32.7
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "starlink-mini",
+      "instances": [
+        {
+          "id": "starlink-mini",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -20.3,
+            7.210921689254924,
+            27.35
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "eucalyptus",
+      "instances": [
+        {
+          "id": "eucalyptus-1",
+          "rotation": [
+            0.0,
+            0.14943813247359922,
+            0.0,
+            0.9887710779360422
+          ],
+          "scale": [
+            0.95,
+            0.95,
+            0.95
+          ],
+          "translation": [
+            -35.0,
+            6.744310466242921,
+            19.0
+          ]
+        },
+        {
+          "id": "eucalyptus-2",
+          "rotation": [
+            0.0,
+            0.7512804051402927,
+            0.0,
+            0.6599831458849822
+          ],
+          "scale": [
+            1.05,
+            1.05,
+            1.05
+          ],
+          "translation": [
+            -24.0,
+            4.02690476808803,
+            11.0
+          ]
+        },
+        {
+          "id": "eucalyptus-3",
+          "rotation": [
+            0.0,
+            0.9320390859672263,
+            0.0,
+            0.3623577544766736
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ],
+          "translation": [
+            -10.0,
+            2.9529051681823124,
+            16.0
+          ]
+        },
+        {
+          "id": "eucalyptus-4",
+          "rotation": [
+            0.0,
+            0.9995736030415051,
+            0.0,
+            -0.029199522301288815
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -38.0,
+            7.135853378164618,
+            32.0
+          ]
+        },
+        {
+          "id": "eucalyptus-5",
+          "rotation": [
+            0.0,
+            0.8084964038195901,
+            0.0,
+            -0.5885011172553458
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "translation": [
+            -35.0,
+            6.884187261482769,
+            44.0
+          ]
+        },
+        {
+          "id": "eucalyptus-6",
+          "rotation": [
+            0.0,
+            0.5155013718214642,
+            0.0,
+            -0.8568887533689473
+          ],
+          "scale": [
+            0.9,
+            0.9,
+            0.9
+          ],
+          "translation": [
+            -18.0,
+            2.8698169921190693,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "eucalyptus-far",
+      "instances": [
+        {
+          "id": "west-woodland-0-0",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "translation": [
+            -50.0,
+            17.474989355364748,
+            -55.0
+          ]
+        },
+        {
+          "id": "west-woodland-0-2",
+          "rotation": [
+            0.0,
+            0.361615431964962,
+            0.0,
+            0.9323273456060345
+          ],
+          "scale": [
+            0.94,
+            0.94,
+            0.94
+          ],
+          "translation": [
+            -50.0,
+            10.6312890238868,
+            -5.0
+          ]
+        },
+        {
+          "id": "west-woodland-0-4",
+          "rotation": [
+            0.0,
+            0.674287911628145,
+            0.0,
+            0.7384685587295879
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "translation": [
+            -50.0,
+            9.6682521671164,
+            50.0
+          ]
+        },
+        {
+          "id": "west-woodland-2-0",
+          "rotation": [
+            0.0,
+            0.9612752029752999,
+            0.0,
+            -0.27559024682451294
+          ],
+          "scale": [
+            0.94,
+            0.94,
+            0.94
+          ],
+          "translation": [
+            -75.0,
+            19.105655926882033,
+            -55.0
+          ]
+        },
+        {
+          "id": "west-woodland-2-2",
+          "rotation": [
+            0.0,
+            0.7965654722360865,
+            0.0,
+            -0.6045522710579296
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "translation": [
+            -75.0,
+            15.014668998777598,
+            -5.0
+          ]
+        },
+        {
+          "id": "west-woodland-2-4",
+          "rotation": [
+            0.0,
+            0.5240443416872761,
+            0.0,
+            -0.8516909814865655
+          ],
+          "scale": [
+            0.94,
+            0.94,
+            0.94
+          ],
+          "translation": [
+            -75.0,
+            16.87256427337128,
+            50.0
+          ]
+        },
+        {
+          "id": "east-woodland-0-0",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "translation": [
+            35.0,
+            9.90603028505285,
+            -60.0
+          ]
+        },
+        {
+          "id": "east-woodland-0-2",
+          "rotation": [
+            0.0,
+            0.361615431964962,
+            0.0,
+            0.9323273456060345
+          ],
+          "scale": [
+            0.94,
+            0.94,
+            0.94
+          ],
+          "translation": [
+            35.0,
+            6.732657657863125,
+            -10.0
+          ]
+        },
+        {
+          "id": "east-woodland-0-4",
+          "rotation": [
+            0.0,
+            0.674287911628145,
+            0.0,
+            0.7384685587295879
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "translation": [
+            35.0,
+            8.063269603093458,
+            50.0
+          ]
+        },
+        {
+          "id": "east-woodland-2-0",
+          "rotation": [
+            0.0,
+            0.9612752029752999,
+            0.0,
+            -0.27559024682451294
+          ],
+          "scale": [
+            0.94,
+            0.94,
+            0.94
+          ],
+          "translation": [
+            70.0,
+            21.152870478480757,
+            -60.0
+          ]
+        },
+        {
+          "id": "east-woodland-2-2",
+          "rotation": [
+            0.0,
+            0.7965654722360865,
+            0.0,
+            -0.6045522710579296
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "translation": [
+            70.0,
+            15.45735606820716,
+            -10.0
+          ]
+        },
+        {
+          "id": "east-woodland-2-4",
+          "rotation": [
+            0.0,
+            0.5240443416872761,
+            0.0,
+            -0.8516909814865655
+          ],
+          "scale": [
+            0.94,
+            0.94,
+            0.94
+          ],
+          "translation": [
+            70.0,
+            13.82295821164372,
+            50.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "canopy",
+      "instances": [
+        {
+          "id": "canopy",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            0.45,
+            0.45,
+            0.45
+          ],
+          "translation": [
+            -17.0,
+            2.981431231681775,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "tidal-vessel",
+      "instances": [
+        {
+          "id": "tidal-vessel",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "translation": [
+            20.0,
+            5.186177230070195,
+            -7.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "memory-frond",
+      "instances": [
+        {
+          "id": "memory-frond",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "translation": [
+            -20.0,
+            3.3684226191161284,
+            -16.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "footbridge",
+      "instances": [
+        {
+          "id": "footbridge",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            2.8636891773821302,
+            1.1,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "observatory",
+      "instances": [
+        {
+          "id": "observatory",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            -15.0,
+            1.1649886732404902,
+            -32.0
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "biology",
+      "instances": [
+        {
+          "id": "biology",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            17.0,
+            3.825541311079282,
+            -37.0
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "terrain",
+      "path": "campsite/terrain/assets/catchment-clearing.mesh.json",
+      "sha256": "b87da1d87c626e278fe88a7ebec647b07e4a37e1a3dd7966611b4c9d64126500"
+    },
+    {
+      "id": "car-passat-b7",
+      "path": "campsite/car/assets/car.json",
+      "sha256": "ccea856c9d2d08bd2313490fea7787018229f9480848f8e359cfc13ae4243688"
+    },
+    {
+      "id": "vintage-windup-camper",
+      "path": "campsite/camper/assets/vintage-windup-camper.mesh.json",
+      "sha256": "6ef2da5cccedea35e2bb779071c46773432d9461dbd84aea9b17bc400664162e"
+    },
+    {
+      "id": "solar-array-three",
+      "path": "campsite/equipment/assets/solar-array.mesh.json",
+      "sha256": "906d6a994b1febb77e3f7828cac61ac4960f4790e36affe35329689202c10f4e"
+    },
+    {
+      "id": "solar-array-two",
+      "path": "campsite/equipment/assets/solar-array-two.mesh.json",
+      "sha256": "f07dcb3fb1d6204a7d229e4c6079895928a80fc67468f29845adcd20f72e10ad"
+    },
+    {
+      "id": "starlink-mini",
+      "path": "campsite/equipment/assets/starlink-mini.mesh.json",
+      "sha256": "bf27f9a683b2fb02a7cb739b057640507cac7fd0170c29efd8f52440b7625a16"
+    },
+    {
+      "id": "eucalyptus-original",
+      "path": "campsite/woodland/assets/eucalyptus.json",
+      "sha256": "fcdcbf859f892bea91b027a4d2d0e42281787dfc0b9080d293faa9d91c3ebae8",
+      "native_lod_targets": [
+        40000,
+        8000
+      ]
+    },
+    {
+      "id": "canopy",
+      "path": "assets/canopy.mesh.json",
+      "sha256": "c4c33219a05109d34765ae3d1ee3ebcf92b4b721c8270bf09a543dbf7e4b9c46"
+    },
+    {
+      "id": "tidal-vessel",
+      "path": "assets/tidal-vessel.mesh.json",
+      "sha256": "485ec2e859b532d957128d54ca0ef79ef22d6512cbd9bfbf716e137c81fb2ce1"
+    },
+    {
+      "id": "memory-frond",
+      "path": "assets/memory-frond.mesh.json",
+      "sha256": "43c30005800f900b28af0c23ac19d766c0fcc45d3eaa93a49e9830f90dba6638"
+    },
+    {
+      "id": "footbridge",
+      "path": "native-world-props/assets/footbridge.mesh.json",
+      "sha256": "ed4f4999cffe95b6aeea1928cfd191dabee4b7964108a6139594747874cc24d6"
+    },
+    {
+      "id": "observatory",
+      "path": "native-world-props/assets/observatory-receiver.mesh.json",
+      "sha256": "b43d2838bc5acca456528417b324282b53f4086860b9961fe4c22d1308d52f17"
+    },
+    {
+      "id": "biology",
+      "path": "native-world-props/assets/biological-helix.mesh.json",
+      "sha256": "e769324321741cae9403d37e63abefa0ff773b709cf2d66c6005cc325ea0b61d"
+    }
+  ],
+  "solar_configuration": [
+    3,
+    3,
+    2
+  ]
+}

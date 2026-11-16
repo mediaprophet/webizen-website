@@ -1,0 +1,8 @@
+{
+  "component": "Microsoft.VisualStudio.Component.VC.ATL",
+  "started_utc": "2026-11-16T05:04:26.1335479Z",
+  "installer": "C:/Program Files (x86)/Microsoft Visual Studio/Installer/setup.exe",
+  "finished_utc": "2026-11-16T05:04:28.5451609Z",
+  "scope": "Existing VS2022 BuildTools ATL only; no restart, no installer update",
+  "exit_code": 5007
+}

@@ -1,0 +1,19 @@
+{
+  "first_installer_exit": 5007,
+  "installer_reason": "Quiet/passive requires administrator-elevated process; standard Windows RunAs elevation requested",
+  "schema": "webizen.test-build-failure/v1",
+  "log": "tooling/native-host/etalon-full-nextest-run.log",
+  "runner": "cargo-nextest 0.9.152 installed and operational",
+  "phase": "test executable linking, before GPU inventory or tests",
+  "command": "cargo xtask test",
+  "no_test_pass_claim": true,
+  "affected": [
+    "etalon-vibe lib test",
+    "etalon-tensor shader_validation"
+  ],
+  "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "error": "MSVC LNK1104 cannot open file atls.lib",
+  "atl_inventory": "No atls.lib in installed MSVC14.44.35207 tree",
+  "final_dependency_status": "ATL not installed; standard Windows administrator elevation cancelled; no retry or bypass performed.",
+  "no_tracked_source_changes": true
+}

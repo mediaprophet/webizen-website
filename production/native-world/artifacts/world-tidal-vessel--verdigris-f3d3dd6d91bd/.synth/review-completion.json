@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 2998537,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-tidal-vessel--verdigris-f3d3dd6d91bd.hmc",
+    "sha256": "02237b9fba587c345baa643eb25aae65f5039ca0e32fc0453c37d108253401f9"
+  },
+  "inputs": [
+    {
+      "bytes": 352488,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\tidal-vessel--verdigris.glb",
+      "sha256": "22f4cba9bf062a46ff0683a5a82a9cac878b622e390583b4dcbc76cac0c76b15"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499997960,
+    "effective_host_bytes": 268370176,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2094398,
+    "source_bytes": 510,
+    "source_reservation_bytes": 65280,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2040,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 2644752,
+      "key": "tidal-vessel--verdigris.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-tidal-vessel--verdigris-f3d3dd6d91bd\\tidal-vessel--verdigris.10d",
+      "sha256": "d50d37de5ce0376bd432d9da35f980f177eefbd20d39a3f4ab7d5c14e136b13e"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "621ccd084d1706830a6349591fc5b4684448eb0cc94e4607ae78733b0a062657",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

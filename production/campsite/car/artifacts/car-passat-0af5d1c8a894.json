@@ -1,0 +1,1011 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 5670108,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894.hmc",
+    "sha256": "cd7bf2e20ad14279bba0ddc2e8d99c4c4eb566ff8ed90bd952d8c3e823ba98f5"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 498716516,
+    "effective_host_bytes": 227363968,
+    "evaluation_steps": 1283484,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 320871,
+    "source_reservation_bytes": 41071488,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1283484,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 2076,
+      "key": "blank-front-numberplate.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\blank-front-numberplate.dxf",
+      "sha256": "c86136b004aebce4abcb35428de6d8139e025c17f8cd736ee68bd4139614ac20"
+    },
+    {
+      "bytes": 2012,
+      "key": "blank-rear-numberplate.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\blank-rear-numberplate.dxf",
+      "sha256": "c773994cfe1ab0af38c50941dc900cb79548ffcfe5b1fcd032c140e01f1ab07f"
+    },
+    {
+      "bytes": 41823,
+      "key": "estate-roof-and-pillars.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\estate-roof-and-pillars.dxf",
+      "sha256": "2397e954b83619cbe36752a3789dbd50b05e74266a7a6345f984c7e4bfb2d77f"
+    },
+    {
+      "bytes": 12024,
+      "key": "front-bumper-chrome.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\front-bumper-chrome.dxf",
+      "sha256": "24b80b138f8758d557f9cecea04d9333cfb70139510a04ad41febad571755cb1"
+    },
+    {
+      "bytes": 8960,
+      "key": "front-roundel-v.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\front-roundel-v.dxf",
+      "sha256": "b36c1a4bbf9d0bd0a7f1ad0a6f146eeb59ed33f3ad22666404fa5a5a6653e295"
+    },
+    {
+      "bytes": 16464,
+      "key": "front-roundel-w.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\front-roundel-w.dxf",
+      "sha256": "56001a9a7b87447cdcdf63635ec8f1a5113fbeb51f9f843465cfae437daac46e"
+    },
+    {
+      "bytes": 170604,
+      "key": "front-roundel.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\front-roundel.dxf",
+      "sha256": "8b7aa590c35fdec1450859e11c05a2c15c71ed35939a88fa534e2dcb20980dc9"
+    },
+    {
+      "bytes": 4376,
+      "key": "grille-chrome-0.65.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\grille-chrome-0.65.dxf",
+      "sha256": "f825abf93104cf97a4b77cf28b2828e106d5bef9e0ed4f060d8e83f4260aa407"
+    },
+    {
+      "bytes": 4420,
+      "key": "grille-chrome-0.694.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\grille-chrome-0.694.dxf",
+      "sha256": "0133941ff30b290a77a93004163230b26a0788e92841ad91e3ac847f592b6a19"
+    },
+    {
+      "bytes": 4420,
+      "key": "grille-chrome-0.738.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\grille-chrome-0.738.dxf",
+      "sha256": "0b6a61cacba47b75e87b886010ce76b0ea33af140778974125afe6d0618359bc"
+    },
+    {
+      "bytes": 4420,
+      "key": "grille-chrome-0.782.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\grille-chrome-0.782.dxf",
+      "sha256": "ebfbbbc4f21c2a98bde8e7634533dd418bdfdc7f3602960c7874e51e78762e9e"
+    },
+    {
+      "bytes": 6580,
+      "key": "left-door-handle--0.92.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-door-handle--0.92.dxf",
+      "sha256": "197659c1986bfbd916a8452ffecbe37a9ac8bfb8ce677ed6a1e7ef7a0f0d96dc"
+    },
+    {
+      "bytes": 6420,
+      "key": "left-door-handle-0.6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-door-handle-0.6.dxf",
+      "sha256": "405a676b4c21a92fca0ff78350c43a646942a8871b68cf283801b1e757591d3a"
+    },
+    {
+      "bytes": 14502,
+      "key": "left-door-seam--0.37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-door-seam--0.37.dxf",
+      "sha256": "046a72f0dda64ccb48b83bff2fdde632ad22803e0ca4bd2434c666c1d446e00a"
+    },
+    {
+      "bytes": 14406,
+      "key": "left-door-seam--1.25.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-door-seam--1.25.dxf",
+      "sha256": "9a57a49b391bad4cea4dee7f43cd7418cfe32db915982e4b2c495159028dfb75"
+    },
+    {
+      "bytes": 14150,
+      "key": "left-door-seam-0.96.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-door-seam-0.96.dxf",
+      "sha256": "14892e178bd2b213059cc2fafbac025053e96da90371c6aace31e7bbf8a01195"
+    },
+    {
+      "bytes": 2846,
+      "key": "left-estate-quarter-glazing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-estate-quarter-glazing.dxf",
+      "sha256": "bddb586a55d049d7b1efe71c39f798c9f31e6c0a86f505eccd8e0cc52f96a7ed"
+    },
+    {
+      "bytes": 2040,
+      "key": "left-fog-lamp.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-fog-lamp.dxf",
+      "sha256": "fb392ddfa02c4606e0ad0314e52967e163f59a087ae03f90c7415297a8cd33e9"
+    },
+    {
+      "bytes": 169196,
+      "key": "left-front-arch-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-arch-lip.dxf",
+      "sha256": "b8a3a3ca9484f0d1ffed5bc03b3fa61673ae39e7bf0e93026962f44be587cd87"
+    },
+    {
+      "bytes": 37006,
+      "key": "left-front-brake-disc.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-brake-disc.dxf",
+      "sha256": "702d33781e9ced5861678d1cb58c98da0b350feefd9586b9140d4ca2e67525aa"
+    },
+    {
+      "bytes": 2240,
+      "key": "left-front-door-glazing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-door-glazing.dxf",
+      "sha256": "cdbd9fb1873659fb4491a031d72fdf63a8f531c26b3c5c05d12de9f12572b79a"
+    },
+    {
+      "bytes": 13440,
+      "key": "left-front-hub-badge.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-hub-badge.dxf",
+      "sha256": "6a688c115a8c1039f348725a507e15e39ab34bd246f5cc79c73efc051a85cbef"
+    },
+    {
+      "bytes": 13660,
+      "key": "left-front-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-hub.dxf",
+      "sha256": "e4aae84a513ac57867cf423be6a2bb96771e9361e57316d98396eca37ab09120"
+    },
+    {
+      "bytes": 338880,
+      "key": "left-front-rim-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-rim-lip.dxf",
+      "sha256": "0cc21ffb4ebbbbde0f972f9247ab6917290cab847b8a5e2e75adc33a4370ad75"
+    },
+    {
+      "bytes": 9670,
+      "key": "left-front-spoke-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-0.dxf",
+      "sha256": "e92c81699db99502fb3ec96b66fcd060851f6ca67bb79befb4362205a4544c37"
+    },
+    {
+      "bytes": 9642,
+      "key": "left-front-spoke-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-1.dxf",
+      "sha256": "1d32a8acc380bf0dc814e218402eae79e8a93ad0e5a8982331ecc0c6a8329522"
+    },
+    {
+      "bytes": 9680,
+      "key": "left-front-spoke-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-2.dxf",
+      "sha256": "b86dda238a59b9ed249ab7b4ed389f89661ede7b529a2212b72b6e5c1b4b6ee4"
+    },
+    {
+      "bytes": 9702,
+      "key": "left-front-spoke-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-3.dxf",
+      "sha256": "a3735b851f8601aac68ed31ef90faf0251036654135a7e0b712873581b75d74a"
+    },
+    {
+      "bytes": 9696,
+      "key": "left-front-spoke-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-4.dxf",
+      "sha256": "a9e4d3481563fd97955eea025baf0ca0d3e74807e3823ac520914b883c2e068f"
+    },
+    {
+      "bytes": 9718,
+      "key": "left-front-spoke-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-5.dxf",
+      "sha256": "534a20c2bb51fdda80721fad6ad51b944fb620deb798d082702dae803126f6ce"
+    },
+    {
+      "bytes": 9642,
+      "key": "left-front-spoke-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-6.dxf",
+      "sha256": "676decf71c800fed9642b0db25ed39943aebc9003dfb0f128308aec8410c4778"
+    },
+    {
+      "bytes": 9680,
+      "key": "left-front-spoke-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-7.dxf",
+      "sha256": "2c250ae0e5c93f96278f6b1cea493b4653d48a55588806e0d5ffde2e80b578b2"
+    },
+    {
+      "bytes": 9756,
+      "key": "left-front-spoke-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-8.dxf",
+      "sha256": "ab5a346e012afbce3710e0d3da66a5090dd69f8cf4296966ddbef54e7568b32e"
+    },
+    {
+      "bytes": 9728,
+      "key": "left-front-spoke-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-spoke-9.dxf",
+      "sha256": "3ce361a6963de0a478ef830438a0fcf2208ac383248719995c43f117422e6f8d"
+    },
+    {
+      "bytes": 226597,
+      "key": "left-front-tyre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-front-tyre.dxf",
+      "sha256": "6f067c3b434aa3fe21423b509702cbc2e14e8ec0f971afc9a62ede278a6316ff"
+    },
+    {
+      "bytes": 33580,
+      "key": "left-gold-mirror.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-gold-mirror.dxf",
+      "sha256": "2680020cb358b95e8add082a1933099270a31e27221322281062c81acc8d4a04"
+    },
+    {
+      "bytes": 3400,
+      "key": "left-headlamp-divider.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-headlamp-divider.dxf",
+      "sha256": "fae7e8b3ef9ec4a359c1c99a240620e1021776c52ae766bcd9c62cbc4dd6fae9"
+    },
+    {
+      "bytes": 2080,
+      "key": "left-headlamp-housing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-headlamp-housing.dxf",
+      "sha256": "7e7952a6e4b6d2855a401e8d44441a3e0bd0fbdb548e3afb8a4b34deb65c4bbe"
+    },
+    {
+      "bytes": 2124,
+      "key": "left-headlamp-lens.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-headlamp-lens.dxf",
+      "sha256": "5e18f736d795b8b78906c26a196a870934b6845bc06b8bf2922df215772bab09"
+    },
+    {
+      "bytes": 2112,
+      "key": "left-mirror-glass.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-mirror-glass.dxf",
+      "sha256": "f2637ebe4658cb7175bccd04a28b599f355eb7da79494bf227ba9bda65e93c57"
+    },
+    {
+      "bytes": 6362,
+      "key": "left-mirror-stalk.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-mirror-stalk.dxf",
+      "sha256": "e28be7884eb834fb9f8641c027d2cf8738c0f9d62c43971a6b3d75156bb49a81"
+    },
+    {
+      "bytes": 4480,
+      "key": "left-rail-foot--1.7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rail-foot--1.7.dxf",
+      "sha256": "fb5d2be52ac29d24e16d9e6e7272169098255903a0d3ff2d333d518163874a32"
+    },
+    {
+      "bytes": 4396,
+      "key": "left-rail-foot-0.08.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rail-foot-0.08.dxf",
+      "sha256": "5cdcce298c559d1343569b90863ed8b3635ad082df667249bca37e247d9d72c5"
+    },
+    {
+      "bytes": 173548,
+      "key": "left-rear-arch-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-arch-lip.dxf",
+      "sha256": "7e753b6c0b5df6329d04a4241cff84eda438271baa9bb55b570b3ec306d5acf8"
+    },
+    {
+      "bytes": 38342,
+      "key": "left-rear-brake-disc.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-brake-disc.dxf",
+      "sha256": "9ddbc3f91db75abf1b978a22191b43773ad914c7679253ada11081912c9987fa"
+    },
+    {
+      "bytes": 2262,
+      "key": "left-rear-door-glazing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-door-glazing.dxf",
+      "sha256": "85178eeb3038591b0242db7964c94905521fa8a0b7b33fa41cf3af211d5dab75"
+    },
+    {
+      "bytes": 13962,
+      "key": "left-rear-hub-badge.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-hub-badge.dxf",
+      "sha256": "9383de0e6daad59ebd6d66f5acba925af1ddad277f2bbf5e590c00f0d3311c01"
+    },
+    {
+      "bytes": 14182,
+      "key": "left-rear-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-hub.dxf",
+      "sha256": "bf014a9a3de40ce784c530d9e40351faf553e10170dca90f1310d8b65d0083d7"
+    },
+    {
+      "bytes": 347252,
+      "key": "left-rear-rim-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-rim-lip.dxf",
+      "sha256": "4b5c550bbe3539503d923f159ac8504193540588ba835760e74aa90c85bd1d95"
+    },
+    {
+      "bytes": 9910,
+      "key": "left-rear-spoke-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-0.dxf",
+      "sha256": "740ec09ffe5d984cca7075372a53c3ece35bcc88a2da868a4a448f9d28bde01c"
+    },
+    {
+      "bytes": 9882,
+      "key": "left-rear-spoke-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-1.dxf",
+      "sha256": "1e6a9faad8c53f4c07b784046ec9c5c83eb19b1638980586e7b6fa10240f3a80"
+    },
+    {
+      "bytes": 9920,
+      "key": "left-rear-spoke-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-2.dxf",
+      "sha256": "2a9a78dab3b2e877d8bbeb58582f99b5a4ca2592180087cadf1074f784bb1968"
+    },
+    {
+      "bytes": 9958,
+      "key": "left-rear-spoke-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-3.dxf",
+      "sha256": "8b73c6f750ec32eafdeb97f252bf5c28f2656a5d43c78d6e02c61ed0374e95fc"
+    },
+    {
+      "bytes": 9936,
+      "key": "left-rear-spoke-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-4.dxf",
+      "sha256": "90f2c1947fe40830d07fd3248b22f630f86def1b13530f1e8234879518393f33"
+    },
+    {
+      "bytes": 9958,
+      "key": "left-rear-spoke-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-5.dxf",
+      "sha256": "4c17f47faee65e2305d3215ccaddaf57c7e219364342c2d04a55b0155bd101cb"
+    },
+    {
+      "bytes": 9882,
+      "key": "left-rear-spoke-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-6.dxf",
+      "sha256": "8f77b3c3951269941b214c538fbebf9191a4bf52b6f5979c901bd31fd8415509"
+    },
+    {
+      "bytes": 9920,
+      "key": "left-rear-spoke-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-7.dxf",
+      "sha256": "bbdfd9187361e1e9fa8862cbea0038895711dec8999318f65bf7fa91f680a256"
+    },
+    {
+      "bytes": 9996,
+      "key": "left-rear-spoke-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-8.dxf",
+      "sha256": "f0a2fb24a64e56df6035566ed64991995ef8248a66f5d4c041e5062d8b629c9c"
+    },
+    {
+      "bytes": 9968,
+      "key": "left-rear-spoke-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-spoke-9.dxf",
+      "sha256": "45489bc8bdb3ecc6744943a58a4d82887c3dab5e7d8245ff4d2641cb3b60bfbb"
+    },
+    {
+      "bytes": 232942,
+      "key": "left-rear-tyre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-rear-tyre.dxf",
+      "sha256": "1e3a328d38925b627778a1e9be62b478070e6c7d7809b9d08d5d1c380fbc340c"
+    },
+    {
+      "bytes": 2148,
+      "key": "left-reverse-lamp.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-reverse-lamp.dxf",
+      "sha256": "b510ee229c59d2e8406221a18137b05ae240e045749a1e34efe2b340564959b1"
+    },
+    {
+      "bytes": 30608,
+      "key": "left-roof-rail.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-roof-rail.dxf",
+      "sha256": "5168da0504712663f4493a8b04a5a7ba85f1fbf2fb6f0a5fb4a36b8535a84a4a"
+    },
+    {
+      "bytes": 16056,
+      "key": "left-sill-moulding.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-sill-moulding.dxf",
+      "sha256": "f5faa6698c0bb707037e82991a31d5f542ce23bd633fcae963731e105fbd1a9e"
+    },
+    {
+      "bytes": 2084,
+      "key": "left-tail-lamp.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-tail-lamp.dxf",
+      "sha256": "bc98c499f9e844bef6975748e7dc495308a6f30811c9b64944bc68402c941471"
+    },
+    {
+      "bytes": 30098,
+      "key": "left-window-chrome-crown.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-window-chrome-crown.dxf",
+      "sha256": "1e225a64be15edf304f7fcdd04f3e6edaf01602fbc41e3e89f404cb2fcddcc9c"
+    },
+    {
+      "bytes": 21012,
+      "key": "left-window-chrome-waist.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\left-window-chrome-waist.dxf",
+      "sha256": "fc9b3315f264bb10ddd97ff4c8d6537fe3319c0398aecce9b79a44da6b9b8034"
+    },
+    {
+      "bytes": 3356,
+      "key": "lower-grille-0.395.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\lower-grille-0.395.dxf",
+      "sha256": "e2e0f9f659b3b3b97b6ae9d63c9271a4fe9e4146b6d05d59f383271757491749"
+    },
+    {
+      "bytes": 3356,
+      "key": "lower-grille-0.445.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\lower-grille-0.445.dxf",
+      "sha256": "aa3d989624859b1911f9d8860360c928b54a36d0914ffa55f96e12aca4341d86"
+    },
+    {
+      "bytes": 3356,
+      "key": "lower-grille-0.493.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\lower-grille-0.493.dxf",
+      "sha256": "2f70e98c8ee1ec1d8d3da05eda9e04b09fd6f435313ad73704c3e3687306ec30"
+    },
+    {
+      "bytes": 2024,
+      "key": "lower-intake.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\lower-intake.dxf",
+      "sha256": "9ed23b693713e9ebadd37c7f585484ebe749e12ceedf015dba577fa8fae3171f"
+    },
+    {
+      "bytes": 12336,
+      "key": "rear-bumper-chrome.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\rear-bumper-chrome.dxf",
+      "sha256": "07f7f04651deca8022f3a405cd0114df21f59fbee9316b7998bd7fe977d609ef"
+    },
+    {
+      "bytes": 2080,
+      "key": "rear-estate-glass.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\rear-estate-glass.dxf",
+      "sha256": "5bc249cb6554e0996eb0cbb27d0472fbfb272c793a7ecfec315b7306c3da18c5"
+    },
+    {
+      "bytes": 9200,
+      "key": "rear-roundel-v.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\rear-roundel-v.dxf",
+      "sha256": "b39469eeca26ca055605f2e2d37fd8fb4269c59b27ce8274c0e830f7c0eb068e"
+    },
+    {
+      "bytes": 16952,
+      "key": "rear-roundel-w.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\rear-roundel-w.dxf",
+      "sha256": "697111d04249906a744e551c2179a7d8e5765cdaa9ee3fa12f645b33f861aa9d"
+    },
+    {
+      "bytes": 174380,
+      "key": "rear-roundel.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\rear-roundel.dxf",
+      "sha256": "aad67f59a7faacf07fb324c7fab3c1e4015b4e9f315e8135f07a8786654954f8"
+    },
+    {
+      "bytes": 3774,
+      "key": "rear-wiper.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\rear-wiper.dxf",
+      "sha256": "e40b28f857fad7d6b325ab0554aeae2aa703a0d5c497b6259cd1d300734b891d"
+    },
+    {
+      "bytes": 6420,
+      "key": "right-door-handle--0.92.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-door-handle--0.92.dxf",
+      "sha256": "8b74057c437cc04bc701a23a87fb3c1ad16c970a78d1b3e32db75c6bc0fbbcda"
+    },
+    {
+      "bytes": 6260,
+      "key": "right-door-handle-0.6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-door-handle-0.6.dxf",
+      "sha256": "1d2f5da13aeb3b670f0b9bef340cac7c493ec28cc8ac06d9ec6c345c8ed186b2"
+    },
+    {
+      "bytes": 14166,
+      "key": "right-door-seam--0.37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-door-seam--0.37.dxf",
+      "sha256": "5a5700eca39d8c611be5a33ea8b0c486c989fb58517e53faf93f1a1eb4b81484"
+    },
+    {
+      "bytes": 14070,
+      "key": "right-door-seam--1.25.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-door-seam--1.25.dxf",
+      "sha256": "b301d199c57e07560c7eb6a521f4cb22834dc6ec7d44271eb05c7384935f12c7"
+    },
+    {
+      "bytes": 13814,
+      "key": "right-door-seam-0.96.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-door-seam-0.96.dxf",
+      "sha256": "79237bfd898abc834e81146275d394174ac59141020095e312985b6c3f796b3b"
+    },
+    {
+      "bytes": 2766,
+      "key": "right-estate-quarter-glazing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-estate-quarter-glazing.dxf",
+      "sha256": "0067e3bd6c94273b0b1e997c6e60a26d3c0925cdb069908fed091f655f21a9b7"
+    },
+    {
+      "bytes": 1976,
+      "key": "right-fog-lamp.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-fog-lamp.dxf",
+      "sha256": "93b04c43623eae751f0b7256796b655b46bc0bd7dfd252988dd78fe2f2a9aaf5"
+    },
+    {
+      "bytes": 165036,
+      "key": "right-front-arch-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-arch-lip.dxf",
+      "sha256": "7946963ba6d41f8710bdd5644aa24f4c292252db2cfafa0a9bfaa819a628de41"
+    },
+    {
+      "bytes": 35982,
+      "key": "right-front-brake-disc.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-brake-disc.dxf",
+      "sha256": "60abc566767689b5bc080d0b9aa1a5ab148287ce861c62375ee30bd17a3116b2"
+    },
+    {
+      "bytes": 2176,
+      "key": "right-front-door-glazing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-door-glazing.dxf",
+      "sha256": "5bb0c670352cdf7a5579f7452b64ae605e3c0ac2d32463f4e2695c68eee7a866"
+    },
+    {
+      "bytes": 13056,
+      "key": "right-front-hub-badge.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-hub-badge.dxf",
+      "sha256": "6808f45879b5cde7101e1ea3f7b8b2b92b66fce96a290c83218f2fbce72f1f67"
+    },
+    {
+      "bytes": 13276,
+      "key": "right-front-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-hub.dxf",
+      "sha256": "2c56ba4930e7e9b05c8c9e99f10a4c81f586d63f36720f57957b3315f2367dcf"
+    },
+    {
+      "bytes": 330624,
+      "key": "right-front-rim-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-rim-lip.dxf",
+      "sha256": "2f30b2ac6c3fbec28bbde9f955a6019e2c512f3db820185c5313df7d8e959909"
+    },
+    {
+      "bytes": 9430,
+      "key": "right-front-spoke-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-0.dxf",
+      "sha256": "d0be903d9766c981821bcb208a2bb92edb7755a782bd0ab46d3aa980ba2c6c84"
+    },
+    {
+      "bytes": 9402,
+      "key": "right-front-spoke-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-1.dxf",
+      "sha256": "1a363053d3647dc82b3c5c2368bad56df5dd857793b992c62be0733aa4d52af6"
+    },
+    {
+      "bytes": 9440,
+      "key": "right-front-spoke-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-2.dxf",
+      "sha256": "3916437aa1ee2d0b8855b4abc4163b8c458722554097410870a55dbaa423a587"
+    },
+    {
+      "bytes": 9462,
+      "key": "right-front-spoke-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-3.dxf",
+      "sha256": "aa517c904fe889292186f504fe4d25ecb7bf82b839698293267e781833a902bf"
+    },
+    {
+      "bytes": 9456,
+      "key": "right-front-spoke-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-4.dxf",
+      "sha256": "a08c7ef8b8ec1d0119b9d8060408997b3c928b08cff1e9d879f19b71a369adae"
+    },
+    {
+      "bytes": 9478,
+      "key": "right-front-spoke-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-5.dxf",
+      "sha256": "da2e2b2af24bbec691d6fc51dcedba359c8e2895a15cfb43a8af583527975480"
+    },
+    {
+      "bytes": 9402,
+      "key": "right-front-spoke-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-6.dxf",
+      "sha256": "be8368730270f82737622dc7e334ec3b00bc90be1e859de6b899530b7937d6e1"
+    },
+    {
+      "bytes": 9440,
+      "key": "right-front-spoke-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-7.dxf",
+      "sha256": "87a44ee0d6e99fe0fc92837cb1614c34e42cc240d7834ced8e85e5ddb6cee6a1"
+    },
+    {
+      "bytes": 9516,
+      "key": "right-front-spoke-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-8.dxf",
+      "sha256": "dc19da8d407fe6b1b4b9e1933ee98e28f99b028f1f33461fd3c37f699d3cd334"
+    },
+    {
+      "bytes": 9488,
+      "key": "right-front-spoke-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-spoke-9.dxf",
+      "sha256": "c6413664bfb60e9d6a13c3407a59552ec53647a781f71b50175c6ccae5bb6968"
+    },
+    {
+      "bytes": 220965,
+      "key": "right-front-tyre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-front-tyre.dxf",
+      "sha256": "33a28523ba4ac7fe05eaf342e26a155bd5d891b24cca89db31880d8e7326c71c"
+    },
+    {
+      "bytes": 32684,
+      "key": "right-gold-mirror.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-gold-mirror.dxf",
+      "sha256": "e0394fd5af8f5140a3c5b801cc3bdcfedace492f0b190922e89d99b915cf0bef"
+    },
+    {
+      "bytes": 3304,
+      "key": "right-headlamp-divider.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-headlamp-divider.dxf",
+      "sha256": "c58006b26ab7630fda9d3e0b1cb40e9ef5018bf4e652aac1308eb82e39cc7745"
+    },
+    {
+      "bytes": 2016,
+      "key": "right-headlamp-housing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-headlamp-housing.dxf",
+      "sha256": "60b508a17ab33f37692a80eb6721775bb5ca1278182366386b4f367ee2b5d7fd"
+    },
+    {
+      "bytes": 2060,
+      "key": "right-headlamp-lens.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-headlamp-lens.dxf",
+      "sha256": "fa1a9303e44dcd2dd52e1702a00abe1a41dacff1e7f01b29277bb2c7076a0ccd"
+    },
+    {
+      "bytes": 2048,
+      "key": "right-mirror-glass.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-mirror-glass.dxf",
+      "sha256": "1c598dd9cb931b3579d1adc6e8c2d1f35f07c5aa1fbc833f771efd0e6cee95ed"
+    },
+    {
+      "bytes": 6202,
+      "key": "right-mirror-stalk.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-mirror-stalk.dxf",
+      "sha256": "b69ba265190e86bd74979e5cd7bc26df958c41452071fe6699e51e426948ef46"
+    },
+    {
+      "bytes": 4352,
+      "key": "right-rail-foot--1.7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rail-foot--1.7.dxf",
+      "sha256": "f1044a2bd0024b84bcdbd5693d5d80f3de756dca7526f4136152e6aae952c3d1"
+    },
+    {
+      "bytes": 4268,
+      "key": "right-rail-foot-0.08.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rail-foot-0.08.dxf",
+      "sha256": "6226a2bdf1ad0794da0bbccece9ffd734387aead3d30cbcb90c1de302f87d824"
+    },
+    {
+      "bytes": 169388,
+      "key": "right-rear-arch-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-arch-lip.dxf",
+      "sha256": "8074f17381db8f45eebf5b23ce56ee07aeb4f7b946103449e2988df0b555ab8c"
+    },
+    {
+      "bytes": 37318,
+      "key": "right-rear-brake-disc.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-brake-disc.dxf",
+      "sha256": "6ef3ea562bef22212cf1731154126f04fb82ee2be4130e99822529fefa7b0c70"
+    },
+    {
+      "bytes": 2198,
+      "key": "right-rear-door-glazing.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-door-glazing.dxf",
+      "sha256": "f4df685a4b4e74489fcadd501c92d39bf79951cecd4da7c27d46162acead7073"
+    },
+    {
+      "bytes": 13578,
+      "key": "right-rear-hub-badge.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-hub-badge.dxf",
+      "sha256": "5ec957d1b6af02cf92d7fd644662b2da33753f33d0a0bc81950099ac1b4c7b12"
+    },
+    {
+      "bytes": 13798,
+      "key": "right-rear-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-hub.dxf",
+      "sha256": "8038dfc4350870d7024d2d03412abcfa4a65e3d2b6ef3cb60c19cbb9ec3221eb"
+    },
+    {
+      "bytes": 338996,
+      "key": "right-rear-rim-lip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-rim-lip.dxf",
+      "sha256": "17ebf5e1432babfeac2e03fd33b8365e524ca130719657bb1e175a20e5cdd9cd"
+    },
+    {
+      "bytes": 9670,
+      "key": "right-rear-spoke-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-0.dxf",
+      "sha256": "529407f2843e75bf6b189fb622c3916002b98d91883859470c189e663c6525fd"
+    },
+    {
+      "bytes": 9642,
+      "key": "right-rear-spoke-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-1.dxf",
+      "sha256": "361b3c7c69226d8726e96274d663de70f9d4c91791fe19c2973d4c44fd6c5f5d"
+    },
+    {
+      "bytes": 9680,
+      "key": "right-rear-spoke-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-2.dxf",
+      "sha256": "14f5d39c4facfa97d8f02f9eae95af6700f9facf048df20559fad4edaf4063f5"
+    },
+    {
+      "bytes": 9718,
+      "key": "right-rear-spoke-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-3.dxf",
+      "sha256": "3b2341066655ee013713db06053121bf663b54a3cb49387bf3dc0c557c8ff97c"
+    },
+    {
+      "bytes": 9696,
+      "key": "right-rear-spoke-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-4.dxf",
+      "sha256": "c0d54123f73e09356a5af2f7ba97079237b9d6e39963230786444380fd0196c2"
+    },
+    {
+      "bytes": 9718,
+      "key": "right-rear-spoke-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-5.dxf",
+      "sha256": "36121cd0cd099cf00835bb51e0079a9c9168e54bfdb82967cda3e1d1fc56dd33"
+    },
+    {
+      "bytes": 9642,
+      "key": "right-rear-spoke-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-6.dxf",
+      "sha256": "06a77e4b152df6209156ecaefe32869dc38fba48deff43828ef3c8384b024351"
+    },
+    {
+      "bytes": 9680,
+      "key": "right-rear-spoke-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-7.dxf",
+      "sha256": "b92e241208b11ffe36cce443e89fd9e1efd5ae364b0dcd38d037d66f7ae711b8"
+    },
+    {
+      "bytes": 9756,
+      "key": "right-rear-spoke-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-8.dxf",
+      "sha256": "d62a6b5e13721d7ef8d92f165b30051d46bcc6592ad2e7f7a7fcd2156f3654ae"
+    },
+    {
+      "bytes": 9728,
+      "key": "right-rear-spoke-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-spoke-9.dxf",
+      "sha256": "e8f9c26796b24078eb3a690883f025225be023fcb0098c4d88f6f97bc5c988fb"
+    },
+    {
+      "bytes": 227310,
+      "key": "right-rear-tyre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-rear-tyre.dxf",
+      "sha256": "4d39e1a40db524021a550f238ccb98877d6d3488e086a78f1144493968350d82"
+    },
+    {
+      "bytes": 2084,
+      "key": "right-reverse-lamp.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-reverse-lamp.dxf",
+      "sha256": "d8d42bc629c98f2e530279e0fa6a6319baf9950dc3c18eabfcd386b9a003318c"
+    },
+    {
+      "bytes": 29888,
+      "key": "right-roof-rail.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-roof-rail.dxf",
+      "sha256": "1c488579efb235dd0192795238bdb0dc051142ff73b5110d9cb340ac081f7298"
+    },
+    {
+      "bytes": 15608,
+      "key": "right-sill-moulding.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-sill-moulding.dxf",
+      "sha256": "c0dc5fef2b2778df728c173b737a43f60496e10e46e4e0fd5878b2e61662dba5"
+    },
+    {
+      "bytes": 2020,
+      "key": "right-tail-lamp.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-tail-lamp.dxf",
+      "sha256": "9d58135cbb1f0cd099fb22ebb443f593fc50bd1f47490c27c4d8c826998d5a0b"
+    },
+    {
+      "bytes": 29394,
+      "key": "right-window-chrome-crown.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-window-chrome-crown.dxf",
+      "sha256": "9e3867556b17d6d52fefa5be8e1d8ddafbd1b5db4e9ce50108f1598a4334976f"
+    },
+    {
+      "bytes": 20436,
+      "key": "right-window-chrome-waist.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\right-window-chrome-waist.dxf",
+      "sha256": "2b382e2c64ab043d7502428289c9a238e41616b1a0c65b779aebfede1f7654a2"
+    },
+    {
+      "bytes": 773772,
+      "key": "sculpted-gold-coachwork.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\sculpted-gold-coachwork.dxf",
+      "sha256": "04f5c013e551caff0bbb8c98cb7b861113160119ae2dd53d45d0267b1da66610"
+    },
+    {
+      "bytes": 4504,
+      "key": "tailgate-handle.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\tailgate-handle.dxf",
+      "sha256": "030d5541dabdb7dd9d468d55cbce8c6f27a3554f4bcfbc1d577f601b962c1e00"
+    },
+    {
+      "bytes": 2080,
+      "key": "upper-grille.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\upper-grille.dxf",
+      "sha256": "9479bf120dbf3109f7c86929219ee15246538c1a40d9a7cae297d567cf5bfbf2"
+    },
+    {
+      "bytes": 3766,
+      "key": "windscreen-wiper--0.4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\windscreen-wiper--0.4.dxf",
+      "sha256": "c845471275547c04eb984945f12c500142b18551c4fd490b7562f8e1dd538764"
+    },
+    {
+      "bytes": 3670,
+      "key": "windscreen-wiper-0.3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\windscreen-wiper-0.3.dxf",
+      "sha256": "cf0927aeca6eb7ff103a37fcf7068de31ed0ceb4b9f74797bf762fa0dd55b61c"
+    },
+    {
+      "bytes": 2056,
+      "key": "windscreen.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\artifacts\\car-passat-0af5d1c8a894\\windscreen.dxf",
+      "sha256": "d1572fd2cdf3beea7dfd94e4c4435e89eedae7505d7f755e5f8decf1dcf6de4b"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "391ef6a719db655fdf5853102b542393ffe2ee6e927e52177de81a6141032aed",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

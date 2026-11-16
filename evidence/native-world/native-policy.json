@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "q42_sha256": "95adcf4cf2be58dfb00cddd40ec4f038ac11028077feed982c3e2d75837fdab2",
+  "vibe_sha256": "6d0f3a897ca05e7c3f2281dbf73cab88f84ea9cc2b366802ed6c4f68f429ee0a",
+  "reader": "qualia_core_db::q42_volume::Q42Volume",
+  "verified_blocks": true,
+  "evaluator": "actual Synth vibe_eval",
+  "routes": {
+    "learn": [
+      "river",
+      "canopy",
+      "observatory",
+      "field-studio",
+      "biology",
+      "atelier",
+      "commons"
+    ],
+    "research": [
+      "observatory",
+      "biology",
+      "river",
+      "canopy",
+      "commons",
+      "atelier",
+      "field-studio"
+    ],
+    "create": [
+      "atelier",
+      "canopy",
+      "biology",
+      "river",
+      "commons",
+      "observatory",
+      "field-studio"
+    ],
+    "participate": [
+      "commons",
+      "river",
+      "atelier",
+      "observatory",
+      "canopy",
+      "field-studio",
+      "biology"
+    ]
+  },
+  "changed_policy_route": [
+    "canopy",
+    "biology",
+    "river",
+    "commons",
+    "atelier",
+    "observatory",
+    "field-studio"
+  ],
+  "camera_upper_bound": 150.0
+}

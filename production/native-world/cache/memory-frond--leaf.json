@@ -1,0 +1,118 @@
+{
+  "key": "e9d700ab0a6fbbb3b2a79c2a618c36bab3ef70bc8e354793da27918c1c8b3b47",
+  "id": "memory-frond--leaf",
+  "native": {
+    "bytes": 1691256,
+    "key": "memory-frond--leaf.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-memory-frond--leaf-c2aa8cc5e152\\memory-frond--leaf.10d",
+    "sha256": "b4ecebea00a187c0ffa92e6d03d0adbbed2ba5caa7119b0d3fcdf9f80890d746",
+    "url": "/artifacts/world-memory-frond--leaf-c2aa8cc5e152/memory-frond--leaf.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "b17e7138dc6d9387566bb302b66f93232315ea6d2edb3d69f1d5aab68b7d84c2",
+    "package_sha256": "a7f0cd5490fa5c41e928ce6d1126a340dead78dbc762cf7b4011f31e13c26dd6",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 1929221,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-memory-frond--leaf-c2aa8cc5e152.hmc",
+        "sha256": "a7f0cd5490fa5c41e928ce6d1126a340dead78dbc762cf7b4011f31e13c26dd6"
+      },
+      "inputs": [
+        {
+          "bytes": 236704,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\memory-frond--leaf.glb",
+          "sha256": "2f20962f6d114a7171e796983ed679473801c44ddf82d5373eedc696395014f0"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997992,
+        "effective_host_bytes": 268371200,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095302,
+        "source_bytes": 502,
+        "source_reservation_bytes": 64256,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2008,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 1691256,
+          "key": "memory-frond--leaf.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-memory-frond--leaf-c2aa8cc5e152\\memory-frond--leaf.10d",
+          "sha256": "b4ecebea00a187c0ffa92e6d03d0adbbed2ba5caa7119b0d3fcdf9f80890d746",
+          "url": "/artifacts/world-memory-frond--leaf-c2aa8cc5e152/memory-frond--leaf.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "e5f168e3dc0cb73a77b2f2cd5cc4e28801d9a2a37b28f32dbb0cf9d89801f3e7",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 1691256,
+        "key": "memory-frond--leaf.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "b4ecebea00a187c0ffa92e6d03d0adbbed2ba5caa7119b0d3fcdf9f80890d746"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-memory-frond--leaf-c2aa8cc5e152.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-memory-frond--leaf-c2aa8cc5e152.hmc",
+    "receipt_url": "/artifacts/world-memory-frond--leaf-c2aa8cc5e152.json"
+  },
+  "vertices": 6040,
+  "triangles": 12000,
+  "instances": 1,
+  "material": 53,
+  "url": "/production/native-world/assets/memory-frond--leaf.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "b4ecebea00a187c0ffa92e6d03d0adbbed2ba5caa7119b0d3fcdf9f80890d746",
+  "bytes": 1691256,
+  "recipe": "/production/native-world/recipes/memory-frond--leaf.vibe",
+  "input_sha256": "2f20962f6d114a7171e796983ed679473801c44ddf82d5373eedc696395014f0"
+}

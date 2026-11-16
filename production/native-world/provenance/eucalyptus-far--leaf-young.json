@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 17508,
+  "triangles": 19896,
+  "bytes": 3276744,
+  "source_bytes": 51876,
+  "id": "eucalyptus-far--leaf-young",
+  "original_sha256": "3658a42e14b17d51e4845b95f3ee6086709d6eda6033e4d8d4c46cf191824fd1",
+  "source_sha256": "7aa2e9adbe37fe9d12e763a5b90cf8ac773fce0d62daf5e1b896a7b2b53e6050",
+  "attested_sha256": "4e886dfac2b7241404cee33a0c87a65c5122a78ed2026a4ad5d3e45c87923546",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

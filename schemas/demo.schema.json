@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Website demo inventory item",
+  "type": "object",
+  "required": [
+    "id",
+    "source_route",
+    "title",
+    "disposition",
+    "verification",
+    "runtime_profile",
+    "capability_ids",
+    "owner_module_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source_route": {
+      "type": "string"
+    },
+    "runtime_profile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification": {
+      "type": "string"
+    },
+    "capability_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owner_module_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

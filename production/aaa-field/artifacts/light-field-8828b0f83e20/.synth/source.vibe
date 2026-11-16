@@ -1,0 +1,27 @@
+requires [capability("capability.invoke")];
+// Authored local Cartesian frame in metres; instantaneous model, not measured data.
+let emf_data = capability.invoke("hypermedia.electromagnetics.compile_emf", {
+ origin: [0.0, 0.0, 0.0], voxel_size: 0.000000125, grid_dims: [3,3,3], epoch_s: 1794787200.0,
+ sources: [
+  {position:[0.0000005,0.0000015,0.0000015],e_amplitude:[1.4,0.0,0.0],wavelength_nm:450.0,phase:0.0},
+  {position:[0.0000025,0.0000015,0.0000015],e_amplitude:[0.0,1.1,0.0],wavelength_nm:530.0,phase:1.2},
+  {position:[0.0000015,0.0000005,0.0000025],e_amplitude:[0.0,0.0,0.9],wavelength_nm:650.0,phase:2.4}
+ ]
+});
+let verification = capability.invoke("hypermedia.electromagnetics.verify_emf", {emf:emf_data});
+let x = capability.invoke("hypermedia.electromagnetics.render_spectral_slice", {emf:emf_data,axis:"x",slice_index:12,width:384,height:384,exposure:1.4});
+let y = capability.invoke("hypermedia.electromagnetics.render_spectral_slice", {emf:emf_data,axis:"y",slice_index:12,width:384,height:384,exposure:1.4});
+let z = capability.invoke("hypermedia.electromagnetics.render_spectral_slice", {emf:emf_data,axis:"z",slice_index:12,width:384,height:384,exposure:1.4});
+let volume = capability.invoke("hypermedia.electromagnetics.raymarch_vox0_dda", {emf:emf_data,width:384,height:384,step_limit:96,deflection_mass:0.0});
+let px=capability.invoke("hypermedia.radiance.encode_rgba_png",{image:x});
+let py=capability.invoke("hypermedia.radiance.encode_rgba_png",{image:y});
+let pz=capability.invoke("hypermedia.radiance.encode_rgba_png",{image:z});
+let pv=capability.invoke("hypermedia.radiance.encode_rgba_png",{image:volume.image});
+let mut asset={files:[
+ {key:"light-field.emf",resource:emf_data},
+ {key:"slice-x.png",resource:px},
+ {key:"slice-y.png",resource:py},
+ {key:"slice-z.png",resource:pz},
+ {key:"magnitude-volume.png",resource:pv}
+]};
+

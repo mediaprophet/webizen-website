@@ -1,0 +1,43 @@
+{
+  "schema": "webizen.native-world/v1",
+  "authored_frame": true,
+  "units": "display metres,1:30 source metres",
+  "up": "+Y",
+  "assets": [
+    {
+      "id": "canberra-reference-terrain",
+      "url": "/data/publications/aaa/terrain-model-v2/reference-terrain-model.10d",
+      "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+      "bytes": 1946992,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vertices": 16992,
+      "triangles": 33462
+    }
+  ],
+  "vertex_count": 16992,
+  "triangle_count": 33462,
+  "totals": {
+    "assets": 1,
+    "bytes": 1946992,
+    "vertices": 16992,
+    "triangles": 33462
+  },
+  "camera": {
+    "position": [
+      60,
+      55,
+      74
+    ],
+    "target": [
+      0,
+      2,
+      0
+    ]
+  },
+  "data_source": "Canberra reference landscape,1:30 scale model"
+}

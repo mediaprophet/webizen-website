@@ -1,0 +1,5 @@
+requires [capability("capability.invoke")];
+let landscape=capability.invoke("hypermedia.manifold.import_mesh",{input:"landscape.obj",format:"obj"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:landscape});
+let exchange=capability.invoke("hypermedia.manifold.project_dxf",{mesh:landscape,layer:"catchment"});
+let mut asset={files:[{key:"catchment-clearing.10d",resource:native},{key:"catchment-clearing.dxf",resource:exchange}]};

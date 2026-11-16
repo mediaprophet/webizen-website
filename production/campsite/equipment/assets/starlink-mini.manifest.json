@@ -1,0 +1,460 @@
+{
+  "id": "starlink-mini",
+  "title": "Starlink Mini with short roof-edge mount",
+  "epistemic_class": "authored-artwork",
+  "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+  "parts": 15,
+  "vertices": 412,
+  "triangles": 764,
+  "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\assets\\starlink-mini.mesh.json",
+  "native": {
+    "bytes": 107096,
+    "key": "starlink-mini.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891\\starlink-mini.10d",
+    "sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820",
+    "url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891/starlink-mini.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "d8a122b155bda31614bc259efc489724f9660b15885577fb199709c2587bb15a",
+    "package_sha256": "250b52d64ac336ef25748aaf9ab52d17e6c50bf5cb038cc06ea265a1c44ea661",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 139464,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42.hmc",
+        "sha256": "250b52d64ac336ef25748aaf9ab52d17e6c50bf5cb038cc06ea265a1c44ea661"
+      },
+      "inputs": [],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499943996,
+        "effective_host_bytes": 266643328,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097152,
+        "source_bytes": 14001,
+        "source_reservation_bytes": 1792128,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 56004,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 4836,
+          "key": "base-fastener--0.037--0.034.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener--0.037--0.034.dxf",
+          "sha256": "4f30c2700e0efb5a0aa3da8502b82704159285a8cab4e8d13d1d3494247c9f2e",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener--0.037--0.034.dxf"
+        },
+        {
+          "bytes": 4708,
+          "key": "base-fastener--0.037-0.034.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener--0.037-0.034.dxf",
+          "sha256": "ce80acd9ddd699a2b86a7ed8bf350d863220eaeccb0e758b0a7685c12bf10911",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener--0.037-0.034.dxf"
+        },
+        {
+          "bytes": 4708,
+          "key": "base-fastener-0.037--0.034.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener-0.037--0.034.dxf",
+          "sha256": "6d8377e874956cdfebbf0f8e4ec97c3b18848bf1e968a05feb1e13f79cf5ad77",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener-0.037--0.034.dxf"
+        },
+        {
+          "bytes": 4580,
+          "key": "base-fastener-0.037-0.034.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener-0.037-0.034.dxf",
+          "sha256": "3a0a24e8a387e335ffd87bd1e72f87b929bc9c5b92283915e82cd5ae91d5cf03",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener-0.037-0.034.dxf"
+        },
+        {
+          "bytes": 6964,
+          "key": "dish-pivot.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\dish-pivot.dxf",
+          "sha256": "fd3151a9cd82e06cf9fdb843efff4e385a49aed5660d1925e367de0b31477e01",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/dish-pivot.dxf"
+        },
+        {
+          "bytes": 15462,
+          "key": "mini-dc-cable.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-dc-cable.dxf",
+          "sha256": "443c3d4d628ec887d5a3b007a8ab52a87f336643e5f99d44432fcff04c93640d",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-dc-cable.dxf"
+        },
+        {
+          "bytes": 21996,
+          "key": "mini-rear-housing.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-housing.dxf",
+          "sha256": "e48d57df3e1ddda9da04e3ccbe913d37e02b324aefbaaf4942d4aa8835fc2f80",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-housing.dxf"
+        },
+        {
+          "bytes": 2524,
+          "key": "mini-rear-recess.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-recess.dxf",
+          "sha256": "bec2cfd754fd1dfb5818d5ff90bff560d0fc395534519068c3ed20e9c59e0a77",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-recess.dxf"
+        },
+        {
+          "bytes": 5417,
+          "key": "mini-rear-rib-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-3.dxf",
+          "sha256": "cfde680925e28b2f0bcd700de8655bc056d0d806c1f6505aaef05c8dd32b9dc0",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-3.dxf"
+        },
+        {
+          "bytes": 5353,
+          "key": "mini-rear-rib-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-4.dxf",
+          "sha256": "e581f09c5e88f0c3295010a44171f6e96db7a464fa96bdeb4b7c16c1ae6ced4e",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-4.dxf"
+        },
+        {
+          "bytes": 5588,
+          "key": "mini-rear-rib-5.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-5.dxf",
+          "sha256": "f1744bf4f909d3b6aeea0807588087f7a09a8b67ed89361cc822455f9d3ef0f7",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-5.dxf"
+        },
+        {
+          "bytes": 5524,
+          "key": "mini-rear-rib-6.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-6.dxf",
+          "sha256": "e2ef59f9b9125451ceb47d97a00b2193ef9257b53e62c0d9d047c55404c8b449",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-6.dxf"
+        },
+        {
+          "bytes": 22096,
+          "key": "mini-white-radome.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-white-radome.dxf",
+          "sha256": "c6f3f244c5e8cbb6e779c392709434c7984c15b0aeff35209ce6f4eaf2565b4d",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/mini-white-radome.dxf"
+        },
+        {
+          "bytes": 1908,
+          "key": "roof-mount-base.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\roof-mount-base.dxf",
+          "sha256": "f3cd56cff192ec0a76bb948a1bcf6d24c403ad464f38395106eb8692dcf6c502",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/roof-mount-base.dxf"
+        },
+        {
+          "bytes": 10794,
+          "key": "short-roof-edge-pole.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\short-roof-edge-pole.dxf",
+          "sha256": "09212ef2e763cfa893b587d5760ca0aac262efa3e18c811e8e5cc1be022f26cd",
+          "url": "/artifacts/starlink-mini-6174a74cdd42/short-roof-edge-pole.dxf"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "5c041bfc24de9e22726656be35df3decc6826af76dca7908108c1ab20736e498",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 4836,
+        "key": "base-fastener--0.037--0.034.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "4f30c2700e0efb5a0aa3da8502b82704159285a8cab4e8d13d1d3494247c9f2e"
+      },
+      {
+        "bytes": 4708,
+        "key": "base-fastener--0.037-0.034.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "ce80acd9ddd699a2b86a7ed8bf350d863220eaeccb0e758b0a7685c12bf10911"
+      },
+      {
+        "bytes": 4708,
+        "key": "base-fastener-0.037--0.034.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "6d8377e874956cdfebbf0f8e4ec97c3b18848bf1e968a05feb1e13f79cf5ad77"
+      },
+      {
+        "bytes": 4580,
+        "key": "base-fastener-0.037-0.034.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3a0a24e8a387e335ffd87bd1e72f87b929bc9c5b92283915e82cd5ae91d5cf03"
+      },
+      {
+        "bytes": 6964,
+        "key": "dish-pivot.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "fd3151a9cd82e06cf9fdb843efff4e385a49aed5660d1925e367de0b31477e01"
+      },
+      {
+        "bytes": 15462,
+        "key": "mini-dc-cable.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "443c3d4d628ec887d5a3b007a8ab52a87f336643e5f99d44432fcff04c93640d"
+      },
+      {
+        "bytes": 21996,
+        "key": "mini-rear-housing.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e48d57df3e1ddda9da04e3ccbe913d37e02b324aefbaaf4942d4aa8835fc2f80"
+      },
+      {
+        "bytes": 2524,
+        "key": "mini-rear-recess.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "bec2cfd754fd1dfb5818d5ff90bff560d0fc395534519068c3ed20e9c59e0a77"
+      },
+      {
+        "bytes": 5417,
+        "key": "mini-rear-rib-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "cfde680925e28b2f0bcd700de8655bc056d0d806c1f6505aaef05c8dd32b9dc0"
+      },
+      {
+        "bytes": 5353,
+        "key": "mini-rear-rib-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e581f09c5e88f0c3295010a44171f6e96db7a464fa96bdeb4b7c16c1ae6ced4e"
+      },
+      {
+        "bytes": 5588,
+        "key": "mini-rear-rib-5.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f1744bf4f909d3b6aeea0807588087f7a09a8b67ed89361cc822455f9d3ef0f7"
+      },
+      {
+        "bytes": 5524,
+        "key": "mini-rear-rib-6.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e2ef59f9b9125451ceb47d97a00b2193ef9257b53e62c0d9d047c55404c8b449"
+      },
+      {
+        "bytes": 22096,
+        "key": "mini-white-radome.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c6f3f244c5e8cbb6e779c392709434c7984c15b0aeff35209ce6f4eaf2565b4d"
+      },
+      {
+        "bytes": 1908,
+        "key": "roof-mount-base.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f3cd56cff192ec0a76bb948a1bcf6d24c403ad464f38395106eb8692dcf6c502"
+      },
+      {
+        "bytes": 10794,
+        "key": "short-roof-edge-pole.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "09212ef2e763cfa893b587d5760ca0aac262efa3e18c811e8e5cc1be022f26cd"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/starlink-mini-6174a74cdd42.hmc",
+    "receipt_url": "/artifacts/starlink-mini-6174a74cdd42.json"
+  },
+  "sealing": {
+    "antigravity_embed_hint": null,
+    "document_digest": "046e1ef8b0dad4895b88e9b91bf38cb17c247d9fbd5ee6cee54b0ce9993a019f",
+    "package_sha256": "08c3d3b7bacc73603c2c15cc363e7d7e9c361be9a0ccceb9d47af23f87f3eebe",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 130685,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891.hmc",
+        "sha256": "08c3d3b7bacc73603c2c15cc363e7d7e9c361be9a0ccceb9d47af23f87f3eebe"
+      },
+      "inputs": [
+        {
+          "bytes": 22465,
+          "key": "assembly.obj",
+          "kind": "obj",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\starlink-mini.obj",
+          "sha256": "d88a11c908ac7cd9146fa7ee9b63d339c8ec66820f164b6cb4a78ecae5e929b9"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998808,
+        "effective_host_bytes": 268397312,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096976,
+        "source_bytes": 298,
+        "source_reservation_bytes": 38144,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1192,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 107096,
+          "key": "starlink-mini.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891\\starlink-mini.10d",
+          "sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820",
+          "url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891/starlink-mini.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "ccb1838a5d1530c13f34f1f4658bd813d7b28b95639a570ccf4af5a633fb98f1",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 107096,
+        "key": "starlink-mini.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891.hmc",
+    "receipt_url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891.json"
+  },
+  "recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\starlink-mini.vibe",
+  "palette": {
+    "aluminium": {
+      "color": "#b6bdbb",
+      "roughness": 0.28,
+      "metalness": 0.9
+    },
+    "panel": {
+      "color": "#142f4b",
+      "roughness": 0.27,
+      "metalness": 0.48
+    },
+    "cell-line": {
+      "color": "#637a8d",
+      "roughness": 0.4,
+      "metalness": 0.6
+    },
+    "rubber": {
+      "color": "#202422",
+      "roughness": 0.84,
+      "metalness": 0
+    },
+    "backing": {
+      "color": "#353d3d",
+      "roughness": 0.65,
+      "metalness": 0.25
+    },
+    "dish-front": {
+      "color": "#e9e9df",
+      "roughness": 0.68,
+      "metalness": 0
+    },
+    "dish-back": {
+      "color": "#aeb4b0",
+      "roughness": 0.68,
+      "metalness": 0.12
+    },
+    "mount": {
+      "color": "#797f7b",
+      "roughness": 0.45,
+      "metalness": 0.75
+    }
+  },
+  "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\previews\\starlink-mini-1794789764",
+  "scale": {
+    "units": "metres",
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "mounting": {
+    "origin": "bottom of mount foot",
+    "camper_local_position": [
+      0.7,
+      2.72,
+      -0.65
+    ]
+  },
+  "qualification": "Authored visual reconstruction; not a certified engineering installation or equipment performance simulation."
+}

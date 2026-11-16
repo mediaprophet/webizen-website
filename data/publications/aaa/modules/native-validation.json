@@ -1,0 +1,93 @@
+{
+  "schema": "webizen.native-module-data-acceptance/v1",
+  "passed": true,
+  "module_count": 16,
+  "source_repository_count": 12,
+  "source_reference_count": 25,
+  "build": {
+    "lexicon_terms": 268,
+    "passed": true,
+    "quins": 402,
+    "roundtrip_equal": true,
+    "version": 4,
+    "writer": "UnifiedVolumeBuilder"
+  },
+  "native_file_sha256": "3a73abe1f8cc7c8774f030946468e3efd7582b9eb4e6efa1b48476843c8bacce",
+  "native_binary_sha256": "b584d2128e57c736776ac7d11ca02e7a93216a5b41f908f628093cccd18a1692",
+  "input_sha256": "88f0124a7a2d585527dec3633dbfa4b9e74ca76de957fa48a3d24a2402b5b29b",
+  "all_rows_roundtrip": {
+    "passed": true,
+    "count": 402,
+    "lexicon_values_equal": true,
+    "native_block_verification": true
+  },
+  "queries": [
+    {
+      "id": "all-modules",
+      "passed": true,
+      "count": 16,
+      "vm_cycles": 820,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "human-purpose",
+      "passed": true,
+      "count": 16,
+      "vm_cycles": 820,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "rights-and-agency",
+      "passed": true,
+      "count": 16,
+      "vm_cycles": 820,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "demo-status",
+      "passed": true,
+      "count": 16,
+      "vm_cycles": 820,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "module-relationships",
+      "passed": true,
+      "count": 48,
+      "vm_cycles": 852,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "poet-boundary",
+      "passed": true,
+      "count": 16,
+      "vm_cycles": 820,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "qdnf-boundary",
+      "passed": true,
+      "count": 16,
+      "vm_cycles": 820,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "unmigrated",
+      "passed": true,
+      "count": 9,
+      "vm_cycles": 845,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    },
+    {
+      "id": "missing-module",
+      "passed": true,
+      "count": 0,
+      "vm_cycles": 804,
+      "expected_results_source": "independently selected exact authored input triples; native decoded rows compared as sets"
+    }
+  ],
+  "prior_catalogue_sha256": "b300748c39d1d6490e6000b7833caa38156b497cf430fc6f55979d718787d143",
+  "catalogue_sha256": "e6a89e03ebc385f08f94c2fe4885df249b9683b593de1a9eb89afc5859312145",
+  "prior_datasets_preserved": true,
+  "scope": "Narratives and native queryable graph only; no additional module UI/demo completion, no benchmark rerun."
+}

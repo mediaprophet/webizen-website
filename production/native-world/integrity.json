@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "schema": "webizen.native-world-integrity/v1",
+  "assets": 85,
+  "vertices": 433225,
+  "triangles": 597854,
+  "bytes": 96072464,
+  "all_native_sha256_verified": true,
+  "all_native_provenance_validated": true,
+  "all_original_sections_and_policy_flags_preserved": true,
+  "all_production_strict_replay_verified": true,
+  "all_material_tables_identical": true,
+  "all_node_transforms_match_native_vibe_evaluation": true,
+  "solar_configuration": [
+    3,
+    3,
+    2
+  ],
+  "water_native_top_triangles": 256,
+  "woodland": {
+    "near": 6,
+    "near_triangles_each": 39994,
+    "far": 12,
+    "far_triangles_each": 7992
+  },
+  "counts_scope": "Exact source primitive counts sent to native static GLB importer; host additionally verifies resident native counts."
+}

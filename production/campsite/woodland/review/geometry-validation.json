@@ -1,0 +1,10 @@
+{
+  "schema": "webizen.native-art-validation/v1",
+  "validated_at": "2026-11-16T01:12:41.890929+00:00",
+  "triangles": 112424,
+  "batches": 7,
+  "source_parts": 200,
+  "exact_dxf_faces": true,
+  "hashes_match": true,
+  "strict_replay_verified": true
+}

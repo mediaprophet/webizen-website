@@ -1,0 +1,8 @@
+warning: patch `imap-proto v0.10.2 (C:\github\qualiaDB\vendor\imap-proto)` was not used in the crate graph
+help: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+   Compiling webizen-world-host v0.1.0 (C:\github\synth\production\webizen-swarm\native\world-host)
+    Finished `release` profile [optimized] target(s) in 10.68s
+{"wasm_bytes": 16133063, "wasm_sha256": "fa319757acc6084ddbd615e80f57d4bda83fec282721d5737498f09e6a005ed3", "generated_loader": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\webizen_world.js"}

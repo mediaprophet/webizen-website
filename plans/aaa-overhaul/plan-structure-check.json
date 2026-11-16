@@ -1,0 +1,12 @@
+{
+  "work_packages": 28,
+  "dependency_graph": "acyclic",
+  "milestones": 43,
+  "milestone_graph": "acyclic",
+  "expansion_requires_reviewed_proofs": true,
+  "proof_requires_actual_benchmark": true,
+  "canonical_operations": 150,
+  "unique_operation_ids": 150,
+  "all_have_native_instrument_owner": true,
+  "status": "planning structure verified; not implementation verification"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 3092,
+  "triangles": 6144,
+  "bytes": 1000184,
+  "source_bytes": 123836,
+  "id": "canopy--bronze",
+  "original_sha256": "1dcacdf967aa9d127e075a38c9b6d0a896c6f6a8b44f64b58c99499f018922ff",
+  "source_sha256": "a59eee05c2ba20f29bfcf97a0158f16057d4dc2ef04d5ab53ef5e996f6c1328a",
+  "attested_sha256": "97422e8b70694ac7b0f9c23097ac000117c90827325925db94a77da8e553586d",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

@@ -1,0 +1,28 @@
+// Authored habitat material field. This is artwork, not a measured land-cover map.
+// Coordinates share the existing Vibe catchment frame, metres, +Y up.
+pure fn habitat_cells(samples: List) budget(steps: 3000000) -> List {
+    let mut cells = [];
+    for sample in samples {
+        let x = sample[0];
+        let z = sample[1];
+        let distance = math.abs(x - river_x(z));
+        let moisture = math.exp(-distance * distance / 65.0);
+        let patch = 0.5 + 0.20 * math.sin(x * 0.21 + z * 0.16)
+            + 0.16 * math.sin(x * 0.43 - z * 0.31)
+            + 0.10 * math.cos(x * 0.79 + z * 0.51);
+        let clearing = math.exp(-((x + 22.0) * (x + 22.0) + (z - 28.0) * (z - 28.0)) / 75.0);
+        let exposure = clamp(patch * 0.65 + moisture * 0.6 + clearing * 0.45, 0.0, 1.0);
+        cells = cells.push(math.floor(exposure * 31.0));
+    }
+    return cells;
+}
+
+pure fn habitat_palette() budget(steps: 10000) -> List {
+    let mut colours = [];
+    for index in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31] {
+        let t = index / 31.0;
+        // Muted eucalyptus litter, moss and exposed warm mineral soil.
+        colours = colours.push([0.22 + t * 0.30, 0.29 + t * 0.18, 0.15 + t * 0.19, 1.0]);
+    }
+    return colours;
+}

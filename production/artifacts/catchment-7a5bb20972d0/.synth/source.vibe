@@ -1,0 +1,7 @@
+requires [capability("capability.invoke")];
+let landform=capability.invoke("hypermedia.manifold.import_mesh",{input:"terrain.obj",format:"obj"});
+let meshfile=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:landform});
+let faces=capability.invoke("hypermedia.manifold.project_dxf",{mesh:landform,layer:"catchment"});
+let surfacemaps=capability.invoke("hypermedia.surface.synthesize_maps",{side:256,seed:2317,tint:[0.55,0.59,0.43],contrast:0.22,relief:0.003,bands:[7,3],band_strength:0.12,roughness:0.94,metallic:0.0});
+let maps=capability.invoke("hypermedia.surface.pack_pbr_set",{colour:surfacemaps.colour,normal:surfacemaps.normal,orm:surfacemaps.orm});
+let mut asset={files:[{key:"catchment.10d",resource:meshfile},{key:"catchment.dxf",resource:faces},{key:"ground-colour.png",resource:maps.colour},{key:"ground-normal.png",resource:maps.normal},{key:"ground-orm.png",resource:maps.orm}]};

@@ -1,0 +1,687 @@
+{
+  "schema": "webizen.module-narratives/v1",
+  "locale": "en-AU",
+  "review_date": "2026-11-16",
+  "scope": "All 16 module groups explained; editorial and graph-data migration only. This does not complete their outstanding interactive demonstrations.",
+  "rights_interpretation": "Human significance and safeguard explanations are editorial design reasoning, not legal advice, clinical validation or an assertion of compliance.",
+  "modules": [
+    {
+      "id": "qualiadb",
+      "locale": "en-AU",
+      "title": "QualiaDB",
+      "what": "QualiaDB stores information with its relationships and supplies the query, reasoning and scientific libraries used across Webizen. A document, a source measurement and a permission can be examined together without treating them as interchangeable facts.",
+      "distinctive": "A result can stay connected to the source, circumstances and permissions that give it meaning. The same foundation supports storing those relationships, asking questions about them and applying an explicit rule before an action.",
+      "importance": "People need to understand why a result appeared, question its sources and correct mistakes. Those same capabilities help a developer trace a fault and help an organisation explain a decision.",
+      "rights": "Context, provenance and permission checks support informed use of information. They are tools for implementing safeguards, not a blanket guarantee that every application meets human rights obligations.",
+      "example": "A council investigating creek restoration could compare a terrain source with its description and provenance before using it in planning. The current public terrain dataset provides a small, inspectable starting point; it is not a restoration assessment.",
+      "status": "partial-native-proof",
+      "demo": "Native Q42 inspection and flat-pattern queries, selected deontic fixtures, source-backed terrain and typed field inspection are present. The full graph, inference, privacy and scientific catalogue is not yet migrated.",
+      "related_modules": [
+        "vibescript",
+        "synth",
+        "qdnf"
+      ],
+      "source_refs": [
+        "qualiaDB:README.md",
+        "qualiaDB:crates/qualia-core-db/src/query/mini_parser.rs"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "partial-native-proof",
+      "native_demo_scope": "Native Q42 inspection and flat-pattern queries, selected deontic fixtures, source-backed terrain and typed field inspection are present. The full graph, inference, privacy and scientific catalogue is not yet migrated.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "webizen",
+      "locale": "en-AU",
+      "title": "Webizen applications and runtime",
+      "what": "Webizen is the human-facing application environment built around QualiaDB. Desktop, Studio and application interfaces bring knowledge, creative work and authorised actions into places where a person can use them.",
+      "distinctive": "Looking at a tool, adding its resources and allowing it to act are separate choices. That distinction gives a person a chance to understand an application before giving it access to information or capabilities.",
+      "importance": "A useful computing environment should make the next action understandable and let people work towards their own purposes. It should make room for assistance, review and changing circumstances.",
+      "rights": "Application controls must preserve the difference between a person's choices and another party's authority. An accessible explanation and a visible result are part of meaningful control, not merely visual decoration.",
+      "example": "A person preparing a community presentation can choose a public dataset, check where it came from and keep the actual query result with their notes.",
+      "status": "partial-native-proof",
+      "demo": "The new native website host supplies dataset, query and selected proof instruments. It is not a qualification of all Webizen Desktop, Studio or QApp workflows.",
+      "related_modules": [
+        "webizen-host",
+        "aether",
+        "poet"
+      ],
+      "source_refs": [
+        "qualiaDB:README.md",
+        "qualiaDB:crates/webizen-studio/src/semantic_instruments.rs"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "partial-native-proof",
+      "native_demo_scope": "The new native website host supplies dataset, query and selected proof instruments. It is not a qualification of all Webizen Desktop, Studio or QApp workflows.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "poet",
+      "locale": "en-AU",
+      "title": "Poet",
+      "what": "Poet is the authoring application associated with projects, documents and creative work in the ecosystem. Its role is to help people shape a work, while shared libraries supply the underlying language, knowledge and production services.",
+      "distinctive": "Poet is the place for shaping and revising a work; Synth is the producer that turns its recipes into deliverable resources. Keeping editing and production distinct lets a creator revisit the work without losing the account of how an earlier version was made.",
+      "importance": "Creators should be able to revise a work while keeping its sources and meaning available. A project should remain understandable to its collaborators and future maintainers.",
+      "rights": "Authorship, attribution and permission to use a source need to survive editing and export. The website must show these relationships in a real workflow before claiming the authoring experience complete.",
+      "example": "A planned exhibit will follow a creator changing one scene while keeping its sources, attribution and earlier version available to collaborators.",
+      "status": "not-yet-migrated",
+      "demo": "Shared host implementation is source-mapped in QualiaDB. The separate Poet application repository and current application release still require owner reconciliation; no complete Poet UI demo is claimed.",
+      "related_modules": [
+        "synth",
+        "vibescript",
+        "hypermedia"
+      ],
+      "source_refs": [
+        "synth:README.md",
+        "qualiaDB:crates/qualia-core-db/src/poet_host/mod.rs"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Shared host implementation is source-mapped in QualiaDB. The separate Poet application repository and current application release still require owner reconciliation; no complete Poet UI demo is claimed.",
+      "application_owner_status": "separate Poet application owner not reconciled; shared QualiaDB host mapped"
+    },
+    {
+      "id": "vibescript",
+      "locale": "en-AU",
+      "title": "VibeScript",
+      "what": "VibeScript expresses a piece of work as checked source: calculations, authored resources and the capabilities a host is asked to provide. The language engine lives in QualiaDB; the separate vibe-script repository supplies editing and language tools.",
+      "distinctive": "The instructions for a work are kept as source that can be checked and run again. They name what the host is asked to do, so a change to the work can be reviewed rather than disappearing into a sequence of clicks.",
+      "importance": "A person can revisit how a result was produced, and a developer can reproduce or repair it. That helps creative work remain editable and makes technical explanations more concrete.",
+      "rights": "Naming a capability does not itself grant authority to use personal information or a device. Host admission and a person's permission remain separate responsibilities.",
+      "example": "Using a native production recipe, a creator can change a source wavelength and compare the resulting data while keeping the units and model assumptions visible. This is a production workflow, not a live wavelength-editing control in the current website.",
+      "status": "partial-native-proof",
+      "demo": "Native Vibe recipes produce this proof's assets and control the world. The editor, language-service and complete family catalogue have not all been recreated as website instruments.",
+      "related_modules": [
+        "synth",
+        "etalon",
+        "qualiadb"
+      ],
+      "source_refs": [
+        "vibe-script:README.md",
+        "qualiaDB:crates/vibe/Cargo.toml"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "partial-native-proof",
+      "native_demo_scope": "Native Vibe recipes produce this proof's assets and control the world. The editor, language-service and complete family catalogue have not all been recreated as website instruments.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "synth",
+      "locale": "en-AU",
+      "title": "Synth",
+      "what": "Synth turns VibeScript recipes and retained inputs into resources such as geometry, images and field data. It packages the source and outputs so that a work can be reopened and checked.",
+      "distinctive": "Synth keeps the instructions and retained inputs with the produced resources, and checks that recorded production can be replayed. A creator or reviewer can trace an output back to the work that made it.",
+      "importance": "An impressive picture is more useful when its underlying work is inspectable and reproducible. Creators can continue editing; reviewers can distinguish a generated illustration from an acquired measurement.",
+      "rights": "Keeping source and provenance with a work helps preserve attribution and permitted use. A successful replay proves reproducibility of the recorded production, not ownership of every possible input.",
+      "example": "A filmmaker or educator can revise a scene, retain its inputs and compare the new output with an earlier version. The current proof exposes that production trail for its authored field and assets.",
+      "status": "partial-native-proof",
+      "demo": "Real asset production, strict replay and native resource outputs are exercised by this proof. All available production operations are not yet individual interactive instruments.",
+      "related_modules": [
+        "hypermedia",
+        "vibescript",
+        "etalon"
+      ],
+      "source_refs": [
+        "synth:README.md",
+        "synth:src/production/files.rs"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "partial-native-proof",
+      "native_demo_scope": "Real asset production, strict replay and native resource outputs are exercised by this proof. All available production operations are not yet individual interactive instruments.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "hypermedia",
+      "locale": "en-AU",
+      "title": "Hypermedia production",
+      "what": "Hypermedia production supplies composable authoring libraries for geometry, surfaces, images, typography, layout, motion, sound and other media. Synth and other applications use these libraries to build editable works.",
+      "distinctive": "The shared libraries let a model, its materials, movement, sound and written explanation be authored as related parts of a work. Their transformations can retain inspectable sources instead of reducing the whole work to a finished picture.",
+      "importance": "The same underlying work can support an illustration, an accessible explanation and an inspectable technical instrument. It need not become a disconnected promotional image each time it changes form.",
+      "rights": "A composition must retain source terms and the meaning of its data across transformations. Availability of an operation is separate from permission to publish its inputs or from artistic acceptance of its output.",
+      "example": "An educator could use the same authored subject for a spatial view, a written explanation and an interactive lesson, keeping clear which parts are illustrations and which come from evidence.",
+      "status": "partial-native-proof",
+      "demo": "Selected genuine geometry, material and electromagnetic operations are used. The source catalogue contains 150 operations; catalogue coverage is not150 completed website demos.",
+      "related_modules": [
+        "synth",
+        "etalon",
+        "anatomy"
+      ],
+      "source_refs": [
+        "hypermedia-production:README.md",
+        "hypermedia-production:crates/asset-production-vibe/src/operations_catalog.rs"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "partial-native-proof",
+      "native_demo_scope": "Selected genuine geometry, material and electromagnetic operations are used. The source catalogue contains 150 operations; catalogue coverage is not150 completed website demos.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "etalon",
+      "locale": "en-AU",
+      "title": "Etalon",
+      "what": "Etalon helps Webizen use graphics and specialist processors to calculate, handle signals and present results. Its direction includes light and other electromagnetic fields; visual rendering is one use of those foundations.",
+      "distinctive": "A calculation or sensor reading needs both a dependable execution path and an account of what the result means. Etalon supplies execution building blocks; QualiaDB connects their results to context, permissions and evidence.",
+      "importance": "People should be able to see what was computed and what an observation can support. Device limits and uncertain measurements matter when a visualisation is used to understand the physical world.",
+      "rights": "Access to a sensor or accelerator does not confer permission to observe a person. Sensing needs a declared purpose and appropriate authority; technical output must not be mistaken for consent.",
+      "example": "An educator examining how light is represented can compare the authored field values with their visual display. The present instrument shows a modelled snapshot, not a reading from a sensor.",
+      "status": "source-mapped-not-standalone-qualified",
+      "demo": "The proof uses the ecosystem's native field and rendering path. It does not establish a general Etalon waveform generator, RF transmitter or complete sensing/inference demonstration.",
+      "related_modules": [
+        "anvil",
+        "qualiadb",
+        "synth"
+      ],
+      "source_refs": [
+        "etalon:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "source-mapped-not-standalone-qualified",
+      "native_demo_scope": "The proof uses the ecosystem's native field and rendering path. It does not establish a general Etalon waveform generator, RF transmitter or complete sensing/inference demonstration.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "anvil",
+      "locale": "en-AU",
+      "title": "Anvil",
+      "what": "Anvil describes what a device can actually do, so an application can choose work that suits the available hardware and explain its limits. It supplies hardware facts used by other parts of the ecosystem.",
+      "distinctive": "It separates what a device reports from what a person permits. The hardware report can guide an execution choice without being treated as authority to access a vault or as a description of the person using the device.",
+      "importance": "Software should respond honestly to the computer someone has. Reporting a limit or choosing a qualified path is more useful than displaying a control that silently does something else.",
+      "rights": "A device identifier is not a person. Hardware observations can inform a policy decision, but must not replace a person's agency or become an undeclared tracking mechanism.",
+      "example": "A planned demonstration will show why the same creative task takes a different execution path on a laptop and a more capable workstation, using actual device reports and measurements.",
+      "status": "not-yet-migrated",
+      "demo": "Repository ownership and public interfaces are source-mapped. No independent Anvil capability-routing instrument is qualified in this website slice.",
+      "related_modules": [
+        "etalon",
+        "aether",
+        "webizen-host"
+      ],
+      "source_refs": [
+        "anvil:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Repository ownership and public interfaces are source-mapped. No independent Anvil capability-routing instrument is qualified in this website slice.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "aether",
+      "locale": "en-AU",
+      "title": "Aether",
+      "what": "Aether is the application framework being developed for native Webizen interfaces. It brings components, state changes and rendering together so that applications can respond to the person using them.",
+      "distinctive": "Its native application direction brings interface components, rendering and VibeScript together through shared ecosystem interfaces. The aim is for changes to a work and the controls a person uses to stay connected across presentations.",
+      "importance": "People need interfaces that explain changes, remain usable under real device constraints and offer more than one way to reach a task. That work belongs in the application framework as well as individual pages.",
+      "rights": "Supporting different needs requires tested navigation, understandable state and accessible alternatives. A framework's architectural intention is not proof that every application already provides them.",
+      "example": "A future exhibit will exercise the same task through keyboard, readable controls and a spatial presentation, with observable state changes.",
+      "status": "not-yet-migrated",
+      "demo": "The repository and native production limits are documented. The current website host is not a demonstration that Aether's complete QualiaDB/Vibe application bridge is finished.",
+      "related_modules": [
+        "webizen",
+        "chora",
+        "etalon"
+      ],
+      "source_refs": [
+        "Aether:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "The repository and native production limits are documented. The current website host is not a demonstration that Aether's complete QualiaDB/Vibe application bridge is finished.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "chora",
+      "locale": "en-AU",
+      "title": "Chora",
+      "what": "Chora is an embeddable web and spatial document engine. It gives a host application a way to render traditional web content and documents while exposing explicit interfaces to the surrounding application.",
+      "distinctive": "A document can be rendered inside an application while its permissions and security-sensitive actions remain under the host’s control. That boundary matters when ordinary web content appears beside a person’s local tools or records.",
+      "importance": "A human centric ecosystem still needs to read and use the existing web. Clear boundaries help people move between documents and applications without making every embedded page equally trusted.",
+      "rights": "Origin isolation and delegated permissions are practical places to enforce boundaries. The website must demonstrate actual refusal and authorised access before claiming a particular guardianship or privacy outcome.",
+      "example": "A planned exhibit will compare an ordinary embedded document with an explicitly authorised host action.",
+      "status": "not-yet-migrated",
+      "demo": "Library interfaces are source-mapped. The proof runs in the user's browser and does not constitute an embedded Chora engine qualification.",
+      "related_modules": [
+        "aether",
+        "webizen",
+        "qualiadb"
+      ],
+      "source_refs": [
+        "chora:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Library interfaces are source-mapped. The proof runs in the user's browser and does not constitute an embedded Chora engine qualification.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "webizen-host",
+      "locale": "en-AU",
+      "title": "Webizen Host",
+      "what": "Webizen Host is being developed to run applications and shared services on Linux servers, with records of who maintains them, what resources they use and which responsibilities are shared.",
+      "distinctive": "Its design separates publishing a name, running an application, limiting its resources and deciding who may act for a group. An account name or domain is treated as a technical handle, not as the entirety of a person.",
+      "importance": "People and communities need understandable choices about where a service runs, who maintains it and how shared costs and responsibilities are handled.",
+      "rights": "A hosting account must not be treated as the whole person. Isolation, delegated authority and accountability need end-to-end evidence, especially when a service acts for a family or cooperative.",
+      "example": "A future instrument will inspect a bounded deployment's namespace, resource limits and stewardship record before an authorised action.",
+      "status": "not-yet-migrated",
+      "demo": "This local website review is not a Webizen Host deployment or a completed VPS service. Product acceptance gates remain separate.",
+      "related_modules": [
+        "webizen",
+        "web-civics",
+        "qdnf"
+      ],
+      "source_refs": [
+        "webizen-host:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "This local website review is not a Webizen Host deployment or a completed VPS service. Product acceptance gates remain separate.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "web-civics",
+      "locale": "en-AU",
+      "title": "Web Civics and semantic instruments",
+      "what": "Web Civics supplies shared terms for describing human agency, agreements and normative instruments: documents stating rights, duties or agreed rules. People and software can trace those terms to definitions and sources, and validate how an application uses them.",
+      "distinctive": "Its terms are organised around people, shared agreements and the sources of normative instruments. Keeping an instrument’s wording and provenance available helps someone check what a rule actually refers to before relying on it.",
+      "importance": "A shared term is useful only if people can discover what it means and where it came from. Clear definitions help communities, developers and institutions discuss the same subject without silently changing it.",
+      "rights": "Encoding an instrument is not the same as resolving a legal question or enforcing a right. Preserve its source and scope, and show exactly which authored rule an evaluator applied.",
+      "example": "A planned instrument will let a community group inspect the terms used in an agreement and distinguish the source text from the particular rule an application evaluates. The present proof exercises only selected authored rule fixtures.",
+      "status": "not-yet-migrated",
+      "demo": "Selected authored deontic fixtures run natively, but the full Web Civics namespace and instrument corpus have not been imported and qualified here.",
+      "related_modules": [
+        "cooperation",
+        "qualiadb",
+        "webizen-host"
+      ],
+      "source_refs": [
+        "ns:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Selected authored deontic fixtures run natively, but the full Web Civics namespace and instrument corpus have not been imported and qualified here.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "cooperation",
+      "locale": "en-AU",
+      "title": "Wellfare, cooperation and the work graph",
+      "what": "These QualiaDB libraries describe welfare support, shared projects, contributions, records and delegated assistance. They provide structures for cooperation without reducing a person to their account or a single task.",
+      "distinctive": "A correction can preserve the earlier record rather than erase it. Assistance can be limited to a purpose, time and authority, with consent and revocation kept explicit; permission to help with one task is not permission to take over someone’s life.",
+      "importance": "Care and shared work involve changing needs and relationships. Keeping who may do what, for whom and under which conditions visible helps people cooperate without losing their own voice.",
+      "rights": "Support should preserve agency rather than assume unlimited substitute authority. Real consent, revocation and consequential-decision evidence need to be exercised in the eventual native workflow.",
+      "example": "A planned public scenario will delegate one limited task, revoke it and show the actual evaluator refusing the later action.",
+      "status": "not-yet-migrated",
+      "demo": "Relevant native domain structures are source-mapped. Current generic deontic proof cases are not a completed Wellfare, clinical or cooperative delegation workflow.",
+      "related_modules": [
+        "web-civics",
+        "webizen",
+        "qualiadb"
+      ],
+      "source_refs": [
+        "qualiaDB:crates/qualia-cooperative-core/src/lib.rs",
+        "qualiaDB:crates/qualia-cooperative-core/src/agency_delegation.rs",
+        "qualiaDB:crates/wellfare-core/src/lib.rs"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Relevant native domain structures are source-mapped. Current generic deontic proof cases are not a completed Wellfare, clinical or cooperative delegation workflow.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "anatomy",
+      "locale": "en-AU",
+      "title": "Anatomy",
+      "what": "Anatomy develops spatial models to help people explore bodies and discuss care and support needs. Its current distributed bodies are welfare schematics, with fuller anatomical work described in the modelling requirements.",
+      "distinctive": "The modelling requirements keep named structures, their sources and their relationships available for inspection. That makes the accuracy of a particular part something a reviewer can examine, rather than judge only from the appearance of a whole body.",
+      "importance": "Spatial explanations can help people understand a body and discuss support needs. Their usefulness depends on recognisable structure and clear limits, not just on producing a renderable file.",
+      "rights": "Educational models should support comprehension and dignity. They must not imply a diagnosis, a personal body measurement or clinical validation that the source does not establish.",
+      "example": "A future native anatomy exhibit will let a person select a named structure and inspect both its geometry and modelling evidence.",
+      "status": "not-yet-migrated",
+      "demo": "Existing source and distributed schematic assets are identified. No complete anatomical atlas or all 63 historical anatomy previews is claimed as migrated by this dataset.",
+      "related_modules": [
+        "hypermedia",
+        "qualiadb",
+        "etalon"
+      ],
+      "source_refs": [
+        "anatomy:README.md",
+        "anatomy:master/research/modelling-requirements.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Existing source and distributed schematic assets are identified. No complete anatomical atlas or all 63 historical anatomy previews is claimed as migrated by this dataset.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "ecopunk",
+      "locale": "en-AU",
+      "title": "Ecopunk and living-world work",
+      "what": "Ecopunk connects environmental source registers, biological knowledge and authored living-world experiences. Its current sources include Australian, Earth-space and socioeconomic discovery registers and procedural botanical studies.",
+      "distinctive": "It keeps a discovered source separate from material that has been reviewed for publication, retaining licence, sensitivity and provenance along the way. An artist’s tree remains an illustration rather than becoming an unsupported claim that the species was observed there.",
+      "importance": "Understanding a place means relating living things, physical conditions and human activity. Keeping those relationships inspectable helps an attractive landscape become a place to learn and investigate.",
+      "rights": "Sensitive ecological and community knowledge needs appropriate authority and careful disclosure. A public scene should not expose private travel or imply that a species was observed where an artist placed it.",
+      "example": "Compare the public elevation data for Canberra with the separately labelled authored woodland and inspect each source’s provenance.",
+      "status": "source-mapped-not-standalone-qualified",
+      "demo": "The proof draws on the source-register method and labels reference terrain separately from artwork. It does not qualify the full Ecopunk data pipeline or its botanical model suite.",
+      "related_modules": [
+        "anatomy",
+        "qualiadb",
+        "cooperation"
+      ],
+      "source_refs": [
+        "ecopunk:README.md",
+        "ecopunk:docs/planning/data-sources/README.md",
+        "ecopunk:assets/models/corymbia-aparrerinja/README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "source-mapped-not-standalone-qualified",
+      "native_demo_scope": "The proof draws on the source-register method and labels reference terrain separately from artwork. It does not qualify the full Ecopunk data pipeline or its botanical model suite.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    },
+    {
+      "id": "qdnf",
+      "locale": "en-AU",
+      "title": "QDNF and the identifier fabric",
+      "what": "QDNF supplies native protocol libraries for exchanging information between devices: establishing sessions, routing messages and recognising the authority attached to an exchange. Related identifier policy remains within QualiaDB.",
+      "distinctive": "The rules for an exchange are kept separate from the particular connection carrying it. That allows authority and disclosure conditions to be examined alongside a message path, rather than assuming that being connected is enough.",
+      "importance": "People need to know where information can travel and what authority accompanies an exchange. Naming, transport and permission should be inspectable instead of being collapsed into a single login.",
+      "rights": "A cryptographic handle identifies a particular technical relationship, not the entirety of a person. Human agency and disclosure limits must survive changes of device, network and institution.",
+      "example": "A planned exhibit will follow a limited exchange between devices and show a real refusal when the requested action falls outside the stated authority.",
+      "status": "not-yet-migrated",
+      "demo": "Native protocol sources are mapped. No public relay mesh, raw-Ethernet path or full QDNF website experiment is claimed by this module catalogue.",
+      "related_modules": [
+        "webizen-host",
+        "qualiadb",
+        "webizen"
+      ],
+      "source_refs": [
+        "qualiaDB:crates/qualia-core-db/src/net/qdnf/mod.rs",
+        "anvil:README.md"
+      ],
+      "narrative_status": "source-reviewed editorial explanation",
+      "native_demo_status": "not-yet-migrated",
+      "native_demo_scope": "Native protocol sources are mapped. No public relay mesh, raw-Ethernet path or full QDNF website experiment is claimed by this module catalogue.",
+      "application_owner_status": "source repositories identified; runtime scope separately qualified"
+    }
+  ],
+  "sources": {
+    "qualiaDB:README.md": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "README.md",
+      "sha256": "0eddc00413554d1548579ec97a9eb840ecbcfda6cd9703ee17e7d5ad3cb491f9",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/qualia-core-db/src/query/mini_parser.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/qualia-core-db/src/query/mini_parser.rs",
+      "sha256": "8ae4b72eda21999c536be4afa9716011ad0a227b327c8b019f6f8a1610a0e39c",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/qualia-core-db/src/query/mini_parser.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/webizen-studio/src/semantic_instruments.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/webizen-studio/src/semantic_instruments.rs",
+      "sha256": "114e909860b2f0d6ded68831d6107b6c937877324f64756bfc4cc53f4621a37e",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/webizen-studio/src/semantic_instruments.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "synth:README.md": {
+      "repository": "synth",
+      "revision": "0d08884612f387685eb96e5ddd0a2085c1f1ff02",
+      "repository_url": "https://github.com/mediaprophet/synth",
+      "path": "README.md",
+      "sha256": "5fdfc2b495fca45f4a108d11514616b68bf12f35d70064778d6c3814ef12cef8",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/synth/blob/0d08884612f387685eb96e5ddd0a2085c1f1ff02/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/qualia-core-db/src/poet_host/mod.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/qualia-core-db/src/poet_host/mod.rs",
+      "sha256": "5a3b7930271593cb2587ed1bb6f8ab5aeb507183fee0a44ea106de58b313445a",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/qualia-core-db/src/poet_host/mod.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "vibe-script:README.md": {
+      "repository": "vibe-script",
+      "revision": "07a4b85ab9ac910bbcc7fe91de976f8fa5c85950",
+      "repository_url": "https://github.com/mediaprophet/vibe-script",
+      "path": "README.md",
+      "sha256": "c7507935b18f94d14317fe81d551f1b32c42bf6582135dc6374d1b95bb2923ee",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/vibe-script/blob/07a4b85ab9ac910bbcc7fe91de976f8fa5c85950/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/vibe/Cargo.toml": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/vibe/Cargo.toml",
+      "sha256": "42296516ff966e4888f541074c1cc0638253c9b06a75a2afc96f7472fed038e9",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/vibe/Cargo.toml",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "synth:src/production/files.rs": {
+      "repository": "synth",
+      "revision": "0d08884612f387685eb96e5ddd0a2085c1f1ff02",
+      "repository_url": "https://github.com/mediaprophet/synth",
+      "path": "src/production/files.rs",
+      "sha256": "2b6844e7b9f50c5e68ee379cf176d189f827ef001bf2a4be10127d63cb69bba1",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/synth/blob/0d08884612f387685eb96e5ddd0a2085c1f1ff02/src/production/files.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "hypermedia-production:README.md": {
+      "repository": "hypermedia-production",
+      "revision": "8321792cb700cdac90adf1b1ef8accdc039597f1",
+      "repository_url": "https://github.com/mediaprophet/hypermedia-production",
+      "path": "README.md",
+      "sha256": "984d16ffb40d41fb13fc05ee16f00f3487a9b87970d427cacbb3ace16c10a96c",
+      "working_tree_modified_or_untracked": false,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/hypermedia-production/blob/8321792cb700cdac90adf1b1ef8accdc039597f1/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "hypermedia-production:crates/asset-production-vibe/src/operations_catalog.rs": {
+      "repository": "hypermedia-production",
+      "revision": "8321792cb700cdac90adf1b1ef8accdc039597f1",
+      "repository_url": "https://github.com/mediaprophet/hypermedia-production",
+      "path": "crates/asset-production-vibe/src/operations_catalog.rs",
+      "sha256": "f2100fbbe1a6b89247031ffedac07f4730e1c44061c0289cbbca3052b8f610cd",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/hypermedia-production/blob/8321792cb700cdac90adf1b1ef8accdc039597f1/crates/asset-production-vibe/src/operations_catalog.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "etalon:README.md": {
+      "repository": "etalon",
+      "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+      "repository_url": "https://github.com/mediaprophet/etalon",
+      "path": "README.md",
+      "sha256": "17fac8c6db1a4915c31c7925f0baacba09ff6530ca0b982d12797dc4c0ae5e2a",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/etalon/blob/785ab9c1b7d729db9afcd9b0f3fd70344b37be1e/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "anvil:README.md": {
+      "repository": "anvil",
+      "revision": "b5e0466c1800577c2075db0919eab6250b16f723",
+      "repository_url": "https://github.com/mediaprophet/anvil",
+      "path": "README.md",
+      "sha256": "ecbd18c9e212a52bf7197bc8658736f8e9b3637ffa21f21fb6b5dfcd2900a705",
+      "working_tree_modified_or_untracked": false,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/anvil/blob/b5e0466c1800577c2075db0919eab6250b16f723/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "Aether:README.md": {
+      "repository": "Aether",
+      "revision": "d5ccce3bb9d6cab2aa5d7ef185d57ad786737c27",
+      "repository_url": "https://github.com/mediaprophet/Aether",
+      "path": "README.md",
+      "sha256": "69001cac301bec9d187127cd1453b028a7f46fd51bb877fc70b9f9ff3b20ffeb",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/Aether/blob/d5ccce3bb9d6cab2aa5d7ef185d57ad786737c27/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "chora:README.md": {
+      "repository": "chora",
+      "revision": "f42e01c686ba24aa6f25d24ad308a6c004077220",
+      "repository_url": "https://github.com/mediaprophet/chora",
+      "path": "README.md",
+      "sha256": "25a9c7925449ca3f3ab44d0051264e8d6317f96d9ec593a3a824cbf387520164",
+      "working_tree_modified_or_untracked": false,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/chora/blob/f42e01c686ba24aa6f25d24ad308a6c004077220/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "webizen-host:README.md": {
+      "repository": "webizen-host",
+      "revision": "436cd68e4b7e5d74a76e44b8db2c7c7c64686f8f",
+      "repository_url": "https://github.com/mediaprophet/webizen-host",
+      "path": "README.md",
+      "sha256": "533cbc0397c32943f550636daaa816491aa2442284cf6cfd640bfa0fa1c2dd9c",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/webizen-host/blob/436cd68e4b7e5d74a76e44b8db2c7c7c64686f8f/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "ns:README.md": {
+      "repository": "ns",
+      "revision": "a0ef9c74a1242f1fc0c67045f08cfad081521d69",
+      "repository_url": "https://github.com/WebCivics/ns",
+      "path": "README.md",
+      "sha256": "ba853b00669f7f92d5faf3fd67c92bc2047adaf2e3c272594180149cac9ff886",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/WebCivics/ns/blob/a0ef9c74a1242f1fc0c67045f08cfad081521d69/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/qualia-cooperative-core/src/lib.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/qualia-cooperative-core/src/lib.rs",
+      "sha256": "0d28dcda9c7c7f11db7750baa5e7f3dbc51cf0bd753ab046fd91a6b24b7b68de",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/qualia-cooperative-core/src/lib.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/qualia-cooperative-core/src/agency_delegation.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/qualia-cooperative-core/src/agency_delegation.rs",
+      "sha256": "51bb3e5a15faa4336e8e007aeaa99eb43880927b98a16a5f37f3cd06bbc33d93",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/qualia-cooperative-core/src/agency_delegation.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/wellfare-core/src/lib.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/wellfare-core/src/lib.rs",
+      "sha256": "cbd831de7ff61cefa2466e7ec0e21ac1231b50061b113098255541ba39ca6689",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/wellfare-core/src/lib.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "anatomy:README.md": {
+      "repository": "anatomy",
+      "revision": "43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0",
+      "repository_url": "https://github.com/mediaprophet/anatomy",
+      "path": "README.md",
+      "sha256": "467ef0ef0cb9efe8d0c659abbcbbce2f4b915e5dfdd2504afe18e6b070d69aa7",
+      "working_tree_modified_or_untracked": false,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/anatomy/blob/43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "anatomy:master/research/modelling-requirements.md": {
+      "repository": "anatomy",
+      "revision": "43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0",
+      "repository_url": "https://github.com/mediaprophet/anatomy",
+      "path": "master/research/modelling-requirements.md",
+      "sha256": "af5def8332d83298e7118cabe0b2974f5288380f3b4086db8e851d339fbb7199",
+      "working_tree_modified_or_untracked": false,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/anatomy/blob/43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0/master/research/modelling-requirements.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "ecopunk:README.md": {
+      "repository": "ecopunk",
+      "revision": "f28235135f98df7d6b81a2f12ba341cc9e13a403",
+      "repository_url": "https://github.com/mediaprophet/ecopunk",
+      "path": "README.md",
+      "sha256": "19f7d1f9caca8900eee5ec843e1e3507ef7970af9fc9089a10ebebc8aa161c93",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/ecopunk/blob/f28235135f98df7d6b81a2f12ba341cc9e13a403/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "ecopunk:docs/planning/data-sources/README.md": {
+      "repository": "ecopunk",
+      "revision": "f28235135f98df7d6b81a2f12ba341cc9e13a403",
+      "repository_url": "https://github.com/mediaprophet/ecopunk",
+      "path": "docs/planning/data-sources/README.md",
+      "sha256": "8e46b05d72cc4ec0d0199123569b97929b8b5f08636c100d85e0486d325dc682",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/ecopunk/blob/f28235135f98df7d6b81a2f12ba341cc9e13a403/docs/planning/data-sources/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "ecopunk:assets/models/corymbia-aparrerinja/README.md": {
+      "repository": "ecopunk",
+      "revision": "f28235135f98df7d6b81a2f12ba341cc9e13a403",
+      "repository_url": "https://github.com/mediaprophet/ecopunk",
+      "path": "assets/models/corymbia-aparrerinja/README.md",
+      "sha256": "1861998c09912c74ed223730630887d900d33502f6968dbbc05a4650d1f05806",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/ecopunk/blob/f28235135f98df7d6b81a2f12ba341cc9e13a403/assets/models/corymbia-aparrerinja/README.md",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    },
+    "qualiaDB:crates/qualia-core-db/src/net/qdnf/mod.rs": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "repository_url": "https://github.com/mediaprophet/qualiaDB",
+      "path": "crates/qualia-core-db/src/net/qdnf/mod.rs",
+      "sha256": "e467f154176ea19452c180150a6160f8c99ff58b5bde8c365729d3fe3e5379df",
+      "working_tree_modified_or_untracked": true,
+      "evidence_kind": "inspected current local source",
+      "reference_url": "https://github.com/mediaprophet/qualiaDB/blob/7f6057a743937173260c1d62d670283214a1d09a/crates/qualia-core-db/src/net/qdnf/mod.rs",
+      "reference_scope": "Revision link identifies repository baseline; recorded SHA256 identifies inspected working bytes. Local changes may not be in the linked revision."
+    }
+  },
+  "inventory_source": {
+    "url": "/plans/aaa-overhaul/CAPABILITY-AND-DEMO-COVERAGE.json",
+    "module_inventory_sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+  },
+  "working_tree_policy": "Current source bytes are identified by SHA256 as well as repository revision; a dirty source is never represented as the clean commit."
+}

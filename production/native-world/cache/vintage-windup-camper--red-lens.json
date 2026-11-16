@@ -1,0 +1,118 @@
+{
+  "key": "56cceeb1341770188b6665b7a4f9cecfa927c990d69569e81e88573fa6bb2bba",
+  "id": "vintage-windup-camper--red-lens",
+  "native": {
+    "bytes": 33528,
+    "key": "vintage-windup-camper--red-lens.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--red-lens-4c1d8a1723fe\\vintage-windup-camper--red-lens.10d",
+    "sha256": "8b8a3f2f9e35eaa7720c661d10202d9294ddc5e16d6bb0767ba35f5cf95d41b5",
+    "url": "/artifacts/world-vintage-windup-camper--red-lens-4c1d8a1723fe/vintage-windup-camper--red-lens.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "d6ae0f81723de4e691e7d47396ecbd5e7152073040aaeca973130f7526ead20e",
+    "package_sha256": "397512c76c9580bd1cf8514b34ad2b494e01976d49168da83a7b5c6ffe842bdb",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 48397,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--red-lens-4c1d8a1723fe.hmc",
+        "sha256": "397512c76c9580bd1cf8514b34ad2b494e01976d49168da83a7b5c6ffe842bdb"
+      },
+      "inputs": [
+        {
+          "bytes": 13616,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--red-lens.glb",
+          "sha256": "86df91dc9dcb57245c10e2aad7dbe9dc8bdb75890f598b9cef7c505a1fac7a9b"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997820,
+        "effective_host_bytes": 268365696,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097045,
+        "source_bytes": 545,
+        "source_reservation_bytes": 69760,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2180,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 33528,
+          "key": "vintage-windup-camper--red-lens.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--red-lens-4c1d8a1723fe\\vintage-windup-camper--red-lens.10d",
+          "sha256": "8b8a3f2f9e35eaa7720c661d10202d9294ddc5e16d6bb0767ba35f5cf95d41b5",
+          "url": "/artifacts/world-vintage-windup-camper--red-lens-4c1d8a1723fe/vintage-windup-camper--red-lens.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "643381095873d542c54107fc6d5f091fe358ba1956ee3f1c8d48267f1bcb1c1b",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 33528,
+        "key": "vintage-windup-camper--red-lens.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "8b8a3f2f9e35eaa7720c661d10202d9294ddc5e16d6bb0767ba35f5cf95d41b5"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--red-lens-4c1d8a1723fe.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-vintage-windup-camper--red-lens-4c1d8a1723fe.hmc",
+    "receipt_url": "/artifacts/world-vintage-windup-camper--red-lens-4c1d8a1723fe.json"
+  },
+  "vertices": 20,
+  "triangles": 32,
+  "instances": 1,
+  "material": 32,
+  "url": "/production/native-world/assets/vintage-windup-camper--red-lens.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "8b8a3f2f9e35eaa7720c661d10202d9294ddc5e16d6bb0767ba35f5cf95d41b5",
+  "bytes": 33528,
+  "recipe": "/production/native-world/recipes/vintage-windup-camper--red-lens.vibe",
+  "input_sha256": "86df91dc9dcb57245c10e2aad7dbe9dc8bdb75890f598b9cef7c505a1fac7a9b"
+}

@@ -1,0 +1,319 @@
+{
+  "schema": "webizen.aaa-native-environment/v1",
+  "frame": "existing fictional catchment, Y-up metres",
+  "epistemic_class": "authored-artwork",
+  "assets": [
+    {
+      "id": "ecology-eucalyptus-mid-0",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-0.10d",
+      "sha256": "e6f216391a55c376885655e1a866324bbb7a0f57c812e55efd4772220bef3e13",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-0.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-1",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-1.10d",
+      "sha256": "8e08b3a2ccc4d8b28945cfd6d58f22dea1322c7e1950692ab860af3044bc6223",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-1.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-1.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-2",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-2.10d",
+      "sha256": "a1235e4d9c232f5dd0b2806dc072b6903944a1d28fa622ef949f6e96dbe79ea7",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-2.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-2.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-3",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-3.10d",
+      "sha256": "072a5e77f6c23cc07c3524613cff40d1f90daee68b3a06ed9a2941a4832549e9",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-3.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-3.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-4",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-4.10d",
+      "sha256": "53758c40f0286612e26ff4e2ffe5499c1ee598201406f90bc9634c2427332049",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-4.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-4.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-5",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-5.10d",
+      "sha256": "38556bbfa2411ebdfc6b8ea16b2ff24aa013e02bd5801a5fb36851c03c4ec4ac",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-5.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-5.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-6",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-6.10d",
+      "sha256": "500aabcae22273ed2fae5c4da97798b6882f6b9740979642fa6c8bf3f1fb8d65",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-6.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-6.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-7",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-7.10d",
+      "sha256": "cc3505e616839fb40423a3ed7df841f3e765984bb463fccfca315fbf627d7542",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-7.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-7.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-8",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-8.10d",
+      "sha256": "3519f12d6c3e3703b95adc9954dbe2ed521aa6e66f042c83a708399b9a335c17",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-8.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-8.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-9",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-9.10d",
+      "sha256": "e01c4afa509afc3e326c57806a2b86b09daf19bd4293f90fdc66e1d722c17ba8",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-9.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-9.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-10",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-10.10d",
+      "sha256": "d0e92ce222f038b13344382c980f967ca6b02d75209e11da8d39e3e4a1a626b6",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-10.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-10.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-11",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-11.10d",
+      "sha256": "955411f6d2fd007a099ce0e7d18e72867562eeb124c8f4fc4a01653a56db2c9a",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-11.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-11.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-12",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-12.10d",
+      "sha256": "d3e82d434db174ea940218e17142010c865fdb657db2ca02f6f537fe21adedd0",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-12.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-12.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-13",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-13.10d",
+      "sha256": "d5bad7eae098501d2297e482657e186b2400fa50749ccfedbee28699fa917124",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-13.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-13.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-mid-14",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-14.10d",
+      "sha256": "3611a8352173caf7c2fbb936e134479b8ead3e88e923daa9382c74aa400d0357",
+      "bytes": 3757576,
+      "vertices": 38772,
+      "triangles": 47952,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 6,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-14.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-14.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-near-0",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-near-0.10d",
+      "sha256": "7368cf1a1be773221226aec93d61097480decce1625f35c4b7788efb3c465d3b",
+      "bytes": 3525840,
+      "vertices": 24205,
+      "triangles": 39994,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 1,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-near-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-near-0.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-near-1",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-near-1.10d",
+      "sha256": "c69051b3d73077ebbd01f58413ff515a43a8c83404b7a48ab97a4bc5f47f2908",
+      "bytes": 3525840,
+      "vertices": 24205,
+      "triangles": 39994,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 1,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-near-1.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-near-1.vibe"
+    },
+    {
+      "id": "ecology-eucalyptus-near-2",
+      "url": "/production/aaa-environment/assets/ecology-eucalyptus-near-2.10d",
+      "sha256": "6f3302a92082f3684794c5a19a01e0ca8ebb34891f6a86a8aa19660d412c0fe4",
+      "bytes": 3525840,
+      "vertices": 24205,
+      "triangles": 39994,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 1,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-near-2.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-near-2.vibe"
+    }
+  ],
+  "textures": [],
+  "placements": "/production/aaa-environment/assets/placement-evaluation.json",
+  "review_status": "native prototype views inspected; assembled review pending",
+  "triangles": 839262,
+  "vertices": 654195,
+  "instances": 93
+}

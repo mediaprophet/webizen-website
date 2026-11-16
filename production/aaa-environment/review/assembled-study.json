@@ -1,0 +1,477 @@
+{
+  "preview": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\previews\\understorey-study-1794799841879897300",
+  "asset": {
+    "id": "understorey-study",
+    "url": "/production/aaa-environment/assets/understorey-study.10d",
+    "sha256": "4c212da7c7f0ddff437d0b90b0ea324538e9831bd603525d5b7339cc706d845e",
+    "bytes": 5961792,
+    "vertices": 45871,
+    "source_vertices": 27156,
+    "native_attribute_policy": "Native GLB MikkTSpace corner splits retained; exact triangle count preserved",
+    "triangles": 50924,
+    "colour": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "instances": 10,
+    "textures": [
+      {
+        "url": "/production/aaa-environment/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png",
+        "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+        "mime_type": "image/png",
+        "role": 0,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png",
+        "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+        "mime_type": "image/png",
+        "role": 1,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png",
+        "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+        "mime_type": "image/png",
+        "role": 2,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png",
+        "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+        "mime_type": "image/png",
+        "role": 0,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png",
+        "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+        "mime_type": "image/png",
+        "role": 1,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png",
+        "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+        "mime_type": "image/png",
+        "role": 2,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png",
+        "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+        "mime_type": "image/png",
+        "role": 0,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png",
+        "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+        "mime_type": "image/png",
+        "role": 1,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png",
+        "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+        "mime_type": "image/png",
+        "role": 2,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png",
+        "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+        "mime_type": "image/png",
+        "role": 0,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png",
+        "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+        "mime_type": "image/png",
+        "role": 1,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png",
+        "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+        "mime_type": "image/png",
+        "role": 2,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png",
+        "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+        "mime_type": "image/png",
+        "role": 0,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png",
+        "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+        "mime_type": "image/png",
+        "role": 1,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png",
+        "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+        "mime_type": "image/png",
+        "role": 2,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png",
+        "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+        "mime_type": "image/png",
+        "role": 0,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png",
+        "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+        "mime_type": "image/png",
+        "role": 1,
+        "cutoff": 0.5
+      },
+      {
+        "url": "/production/aaa-environment/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png",
+        "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+        "mime_type": "image/png",
+        "role": 2,
+        "cutoff": 0.5
+      }
+    ],
+    "provenance_receipt": "/production/aaa-environment/provenance/understorey-study.json",
+    "native": {
+      "bytes": 4667328,
+      "key": "understorey-study.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\understorey-study.10d",
+      "sha256": "75b1d9ffda184dde8f19c483858b9070f75a5e489476be1f3905da88119d05fa",
+      "url": "/artifacts/understorey-study-2d79421624b7/understorey-study.10d"
+    },
+    "production": {
+      "antigravity_embed_hint": null,
+      "document_digest": "2d24a2acc5df78c6347e82f61ac3d0c644a5d4ab6e260b0c83e06fc3341d9e00",
+      "package_sha256": "b9b25318aaa0ac03a0d8ea8140f6755454a4161776db283458cb1bb3bb42628e",
+      "presentation_html": null,
+      "producer": "files",
+      "producer_version": "2",
+      "receipt": {
+        "binary": {
+          "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+          "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+          "version": "0.1.0"
+        },
+        "catalog": {
+          "count": 150,
+          "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+        },
+        "execution_host": "synth.production",
+        "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+        "hmc": {
+          "bytes": 6410405,
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7.hmc",
+          "sha256": "b9b25318aaa0ac03a0d8ea8140f6755454a4161776db283458cb1bb3bb42628e"
+        },
+        "inputs": [
+          {
+            "bytes": 1294148,
+            "key": "batch.glb",
+            "kind": "glb",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\understorey-study.glb",
+            "sha256": "4ea332f9b9347e3ea2ec7304a576785c1821f0df22dc9a5dd748b4f252ffd2f5"
+          }
+        ],
+        "limits": {
+          "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+          "asset_work_units": 500000000,
+          "combined_logical_budget_bytes": 312475648,
+          "effective_asset_work_units": 499998668,
+          "effective_host_bytes": 268392832,
+          "evaluation_steps": 100000,
+          "evaluation_workspace_bytes": 44040192,
+          "package_bytes": 335544320,
+          "resource_bytes": 67108864,
+          "source_available_bytes": 2087041,
+          "source_bytes": 333,
+          "source_reservation_bytes": 42624,
+          "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+          "source_work_units": 1332,
+          "standalone_wire_bytes": 4194304,
+          "total_resource_bytes": 268435456
+        },
+        "native_reviews": [],
+        "presentation_path": null,
+        "producer": {
+          "id": "files",
+          "version": "2"
+        },
+        "quality_profile": "production16",
+        "requested_reviews": [],
+        "resources": [
+          {
+            "bytes": 17703,
+            "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+            "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+          },
+          {
+            "bytes": 41152,
+            "key": "textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+            "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+          },
+          {
+            "bytes": 40837,
+            "key": "textures/sha256/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+            "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e"
+          },
+          {
+            "bytes": 16285,
+            "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+            "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+          },
+          {
+            "bytes": 33910,
+            "key": "textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+            "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+          },
+          {
+            "bytes": 41434,
+            "key": "textures/sha256/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+            "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7"
+          },
+          {
+            "bytes": 45718,
+            "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+            "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+          },
+          {
+            "bytes": 24560,
+            "key": "textures/sha256/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+            "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4"
+          },
+          {
+            "bytes": 15927,
+            "key": "textures/sha256/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+            "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32"
+          },
+          {
+            "bytes": 17220,
+            "key": "textures/sha256/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+            "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda"
+          },
+          {
+            "bytes": 59852,
+            "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+            "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+          },
+          {
+            "bytes": 16374,
+            "key": "textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+            "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+          },
+          {
+            "bytes": 15829,
+            "key": "textures/sha256/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+            "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352"
+          },
+          {
+            "bytes": 15539,
+            "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+            "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+          },
+          {
+            "bytes": 42157,
+            "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+            "kind": "image/png",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\textures\\sha256\\fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+            "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+            "url": "/artifacts/understorey-study-2d79421624b7/textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+          },
+          {
+            "bytes": 4667328,
+            "key": "understorey-study.10d",
+            "kind": "10d",
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\understorey-study.10d",
+            "sha256": "75b1d9ffda184dde8f19c483858b9070f75a5e489476be1f3905da88119d05fa",
+            "url": "/artifacts/understorey-study-2d79421624b7/understorey-study.10d"
+          }
+        ],
+        "review_status": "not_requested",
+        "schema": "synth.production-receipt/v1",
+        "source_sha256": "b0bd3032cc13f01495ddeff0b09980cbc2f4432d18b867fa4a797cfaf5a7ee9a",
+        "strict_replay_verified": true,
+        "visual_acceptance": "pending inspection"
+      },
+      "resources": [
+        {
+          "bytes": 17703,
+          "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+        },
+        {
+          "bytes": 41152,
+          "key": "textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+        },
+        {
+          "bytes": 40837,
+          "key": "textures/sha256/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e"
+        },
+        {
+          "bytes": 16285,
+          "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+        },
+        {
+          "bytes": 33910,
+          "key": "textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+        },
+        {
+          "bytes": 41434,
+          "key": "textures/sha256/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7"
+        },
+        {
+          "bytes": 45718,
+          "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+        },
+        {
+          "bytes": 24560,
+          "key": "textures/sha256/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4"
+        },
+        {
+          "bytes": 15927,
+          "key": "textures/sha256/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32"
+        },
+        {
+          "bytes": 17220,
+          "key": "textures/sha256/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda"
+        },
+        {
+          "bytes": 59852,
+          "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+        },
+        {
+          "bytes": 16374,
+          "key": "textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+        },
+        {
+          "bytes": 15829,
+          "key": "textures/sha256/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352"
+        },
+        {
+          "bytes": 15539,
+          "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+        },
+        {
+          "bytes": 42157,
+          "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "kind": "image/png",
+          "modality": "data",
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+        },
+        {
+          "bytes": 4667328,
+          "key": "understorey-study.10d",
+          "kind": "10d",
+          "modality": "spatial",
+          "sha256": "75b1d9ffda184dde8f19c483858b9070f75a5e489476be1f3905da88119d05fa"
+        }
+      ],
+      "revision": 1,
+      "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7.hmc",
+      "schema": "synth.presentation-html/v1",
+      "strict_replay_verified": true,
+      "package_url": "/artifacts/understorey-study-2d79421624b7.hmc",
+      "receipt_url": "/artifacts/understorey-study-2d79421624b7.json"
+    },
+    "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\understorey-study.glb",
+    "cache_key": "e4f6681d50f15117e233806d963394c7d19cc40324dd550ddf7c6033a8776b73",
+    "recipe": "/production/aaa-environment/recipes/understorey-study.vibe"
+  },
+  "purpose": "Native multi-material assembled plant/rock study, no floor or full world quality claim"
+}

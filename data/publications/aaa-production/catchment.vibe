@@ -1,0 +1,7 @@
+requires [capability("capability.invoke")];
+let land = capability.invoke("hypermedia.locus.construct", {shape:"polygon",points:[[-180,-110],[-90,-180],[70,-160],[180,-60],[160,120],[30,185],[-130,140]]});
+let river = capability.invoke("hypermedia.locus.stroke_to_locus", {points:[[-30,-180],[20,-100],[-15,-20],[40,65],[10,185]],width:12});
+let boundary = capability.invoke("hypermedia.locus.project_svg", {profile:land,fill:[72,112,77,255],padding:15});
+let map = capability.invoke("hypermedia.radiance.rasterize_loci", {width:512,height:512,background:[238,231,208,255],layers:[{profile:land,fill:[100,135,91,255],matrix:[1,0,0,1,256,256]},{profile:river,fill:[55,126,158,255],matrix:[1,0,0,1,256,256]}]});
+let png = capability.invoke("hypermedia.radiance.encode_rgb_png", {image:map});
+let asset = {files:[{key:"catchment.png",resource:png},{key:"boundary.svg",resource:boundary}]};

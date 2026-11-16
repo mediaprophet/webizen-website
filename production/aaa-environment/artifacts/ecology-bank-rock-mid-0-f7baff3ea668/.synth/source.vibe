@@ -1,0 +1,5 @@
+requires [capability("capability.invoke")];
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:"batch.glb",format:"glb"});
+let tangent=capability.invoke("hypermedia.surface.compute_mikktspace",{mesh:geometry});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry,topology:false,spatial_index:true,tangents:tangent.tangents});
+let mut asset={files:[{key:"ecology-bank-rock-mid-0.10d",resource:native}]};

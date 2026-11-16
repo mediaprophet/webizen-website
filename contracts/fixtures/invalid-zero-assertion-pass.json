@@ -1,0 +1,267 @@
+{
+  "schema": "webizen.publication/v1",
+  "id": "contract-fixture",
+  "stage": "draft",
+  "default_locale": "en-AU",
+  "created_at": "2026-11-16T00:00:00Z",
+  "sources": [
+    {
+      "repository": "contract-fixtures",
+      "revision": "test-fixture-only",
+      "path": "fixtures/README.md",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "runtimes": [
+    {
+      "id": "browser-fixture",
+      "profile": "browser",
+      "version": "test-fixture",
+      "device": null,
+      "backend": null
+    }
+  ],
+  "modules": [
+    {
+      "schema": "webizen.module/v1",
+      "id": "example-module",
+      "name": "Contract fixture",
+      "purpose": "Exercise validation",
+      "difference": "Not a product claim",
+      "human_significance": "Prevent unsupported public claims",
+      "qualification": "source-indexed",
+      "sources": [
+        {
+          "repository": "contract-fixtures",
+          "revision": "test-fixture-only",
+          "path": "fixtures/README.md",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "capabilities": [
+        "fixture-only"
+      ],
+      "runtime_ids": [
+        "browser-fixture"
+      ],
+      "related_modules": [],
+      "evidence": [
+        {
+          "kind": "test-fixture",
+          "uri": "/contracts/fixtures/README.md",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "observed_at": null
+        }
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "schema": "webizen.exhibit/v1",
+      "id": "example-exhibit",
+      "title_key": "exhibit.title",
+      "body_key": "exhibit.body",
+      "module_ids": [
+        "example-module"
+      ],
+      "experiment_id": "example-experiment",
+      "environment": "example-environment",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "camera": [
+        1,
+        2,
+        3
+      ],
+      "reading_route": "/read/example",
+      "asset_ids": [
+        "example-asset"
+      ],
+      "related_exhibits": []
+    }
+  ],
+  "experiments": [
+    {
+      "schema": "webizen.experiment/v1",
+      "id": "example-experiment",
+      "module_ids": [
+        "example-module"
+      ],
+      "runner_id": "fixture-runner",
+      "runner_version": "fixture-v1",
+      "execution": "browser",
+      "source": {
+        "repository": "contract-fixtures",
+        "revision": "test-fixture-only",
+        "path": "fixtures/README.md",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "inputs": [
+        {
+          "id": "count",
+          "type": "integer",
+          "label_key": "count",
+          "unit": "items",
+          "minimum": 1,
+          "maximum": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "result",
+          "media_type": "application/json",
+          "unit": "items",
+          "description": "Fixture output"
+        }
+      ],
+      "epistemic_class": "executable-logic",
+      "runtime_ids": [
+        "browser-fixture"
+      ],
+      "max_duration_ms": 1000,
+      "max_input_bytes": 128,
+      "supports_cancel": true,
+      "supports_reset": true,
+      "evidence": [
+        {
+          "kind": "test-fixture",
+          "uri": "/contracts/fixtures/README.md",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "observed_at": null
+        }
+      ]
+    }
+  ],
+  "test_runs": [
+    {
+      "schema": "webizen.test-run/v1",
+      "id": "example-test",
+      "suite_id": "fixture-suite",
+      "runtime_id": "browser-fixture",
+      "source": {
+        "repository": "contract-fixtures",
+        "revision": "test-fixture-only",
+        "path": "fixtures/README.md",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "status": "passed",
+      "assertion_count": 0,
+      "duration_ms": null,
+      "executed_at": null,
+      "reason": "Contract fixture; no execution claimed",
+      "evidence": []
+    }
+  ],
+  "benchmarks": [
+    {
+      "schema": "webizen.benchmark/v1",
+      "id": "example-benchmark",
+      "workload_id": "fixture-workload",
+      "runtime_id": "browser-fixture",
+      "source": {
+        "repository": "contract-fixtures",
+        "revision": "test-fixture-only",
+        "path": "fixtures/README.md",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "classification": "not-run",
+      "correctness": "not-checked",
+      "dataset_id": "fixture-dataset",
+      "dataset_sha256": null,
+      "method": "Schema fixture, not a benchmark result",
+      "sample_unit": "ms",
+      "samples": null,
+      "sample_count": 0,
+      "warmup_count": 0,
+      "summary": null,
+      "executed_at": null,
+      "exclusions": [],
+      "evidence": []
+    }
+  ],
+  "locales": [
+    {
+      "schema": "webizen.locale/v1",
+      "id": "locale-en-au",
+      "locale": "en-AU",
+      "default": true,
+      "source_locale": "en-AU",
+      "source_revision": "fixture-v1",
+      "direction": "ltr",
+      "messages": {
+        "exhibit.title": {
+          "value": "Example",
+          "language": "en-AU",
+          "review_state": "draft",
+          "reviewer": null
+        }
+      },
+      "fallbacks": [],
+      "evidence": []
+    }
+  ],
+  "assets": [
+    {
+      "schema": "webizen.asset/v1",
+      "id": "example-asset",
+      "uri": "/contracts/fixtures/example.svg",
+      "media_type": "image/svg+xml",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "origin": "source-generated",
+      "recipe": null,
+      "receipt": null,
+      "preview_uri": null,
+      "visual_acceptance": "pending",
+      "evidence": []
+    }
+  ],
+  "observers": [
+    {
+      "schema": "webizen.observer/v1",
+      "id": "public-visitor",
+      "purpose": "learn",
+      "locale": "en-AU",
+      "support_preferences": [
+        "reduced-motion"
+      ],
+      "authority": {
+        "status": "anonymous",
+        "grant_refs": [],
+        "evidence": []
+      },
+      "graph_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "policy_version": "fixture-v1",
+      "selected_exhibits": [
+        "example-exhibit"
+      ],
+      "reasons": [
+        "Declared learning purpose"
+      ],
+      "authority_from_purpose": false
+    }
+  ],
+  "migrations": [
+    {
+      "schema": "webizen.migration/v1",
+      "id": "example-route",
+      "legacy_route": "/legacy/example.html",
+      "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "destination": "/read/example",
+      "disposition": "recreate",
+      "module_ids": [
+        "example-module"
+      ],
+      "experiment_ids": [
+        "example-experiment"
+      ],
+      "qualification": "source-only",
+      "reason": null,
+      "evidence": []
+    }
+  ],
+  "graph": null
+}

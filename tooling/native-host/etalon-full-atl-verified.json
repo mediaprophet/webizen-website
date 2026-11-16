@@ -1,0 +1,11 @@
+{
+  "file": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/atlmfc/lib/x64/atls.lib",
+  "sha256": "bd162c7a998225a3524471cfc1889b0fdc48d0ff2bcc26177e56c47a137ace5c",
+  "verification_utc": "2026-11-16T05:23:11.1959884Z",
+  "schema": "webizen.test-dependency/v1",
+  "status": "installed_exit_0",
+  "bytes": 815728,
+  "installer_result": "etalon-full-atl-install-retry.json",
+  "source": "Microsoft signed existing Visual Studio2022 installer",
+  "component": "Microsoft.VisualStudio.Component.VC.ATL"
+}

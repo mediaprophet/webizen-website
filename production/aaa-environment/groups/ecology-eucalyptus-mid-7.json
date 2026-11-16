@@ -1,0 +1,119 @@
+{
+  "id": "ecology-eucalyptus-mid-7",
+  "url": "/production/aaa-environment/assets/ecology-eucalyptus-mid-7.10d",
+  "sha256": "cc3505e616839fb40423a3ed7df841f3e765984bb463fccfca315fbf627d7542",
+  "bytes": 3757576,
+  "vertices": 38772,
+  "triangles": 47952,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 6,
+  "textures": [],
+  "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-mid-7.json",
+  "native": {
+    "bytes": 3578312,
+    "key": "ecology-eucalyptus-mid-7.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-mid-7-cd2525f3147a\\ecology-eucalyptus-mid-7.10d",
+    "sha256": "ceeacdc17cd6467d20aeb492f4a436518fffd89286b4c842f74b7522ab32918b",
+    "url": "/artifacts/ecology-eucalyptus-mid-7-cd2525f3147a/ecology-eucalyptus-mid-7.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "8313fcae4349a55bc1ef27c325e1b19b4ef5c5686674bb5dab074c6b0f72f3da",
+    "package_sha256": "d8432db5c8fd537da8d79b2859e742c958777dfb37a66f529b11d548e6870d7f",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 3758412,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-mid-7-cd2525f3147a.hmc",
+        "sha256": "d8432db5c8fd537da8d79b2859e742c958777dfb37a66f529b11d548e6870d7f"
+      },
+      "inputs": [
+        {
+          "bytes": 178972,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-eucalyptus-mid-7.glb",
+          "sha256": "75b795f7ba58ab32217a07f275102a2a2c569571f6819fe2644414030a176ad5"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998640,
+        "effective_host_bytes": 268391936,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095753,
+        "source_bytes": 340,
+        "source_reservation_bytes": 43520,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1360,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 3578312,
+          "key": "ecology-eucalyptus-mid-7.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-mid-7-cd2525f3147a\\ecology-eucalyptus-mid-7.10d",
+          "sha256": "ceeacdc17cd6467d20aeb492f4a436518fffd89286b4c842f74b7522ab32918b",
+          "url": "/artifacts/ecology-eucalyptus-mid-7-cd2525f3147a/ecology-eucalyptus-mid-7.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "3808114386da74c99e08d564e8e07d4a920b66b85a0c3857b84118d6bf60a6b4",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 3578312,
+        "key": "ecology-eucalyptus-mid-7.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "ceeacdc17cd6467d20aeb492f4a436518fffd89286b4c842f74b7522ab32918b"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-mid-7-cd2525f3147a.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/ecology-eucalyptus-mid-7-cd2525f3147a.hmc",
+    "receipt_url": "/artifacts/ecology-eucalyptus-mid-7-cd2525f3147a.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-eucalyptus-mid-7.glb",
+  "cache_key": "088d37c2725b596dbcd1c9a11dba01d6f2794912c327cc10ae3753414241a459",
+  "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-mid-7.vibe"
+}

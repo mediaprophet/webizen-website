@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "72CA45D173BEE7EEA6C4B7539CFF55DB4F240C78928FEFD578C49BB4F807AA0C",
+    "Path": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\etalon_gpu-4405d1164bc21cd6.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "CC646B0B6AB11E8900DA9E40CFB2E12244CAFE16E1E562D7545B6D32FE848825",
+    "Path": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\etalon_benchmark-7dadce70023a7b1c.exe"
+  }
+]

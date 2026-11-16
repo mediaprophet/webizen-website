@@ -1,0 +1,8 @@
+{
+  "source": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\domains\\geospatial\\adapters\\dem_adapter.rs",
+  "before_sha256": "88a8fe386582392f6d8df2d603879becea10de5b1b126a25511e1640e55ced52",
+  "after_sha256": "d24b32ebc86d5900def31b125c79aefe6bb712569c9c39faf381c0cbf898c28e",
+  "rejected_acquisition": "data/acquisition/aaa/canberra-reference",
+  "reason": "Constant Mercator Y offset fetched ocean tiles; all elevations zero. Rejected, not valid Canberra terrain.",
+  "method": "Remove erroneous0.25 inside log; test equator, north/south and inverse latitude, Canberra tile locality."
+}

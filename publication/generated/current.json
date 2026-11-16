@@ -1,0 +1,8 @@
+{
+  "q42": "world-d8d19492c1e6e4a0.q42",
+  "sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+  "entities": "entities.json",
+  "publication": "publication.json",
+  "receipt": "q42-receipt.json",
+  "journey": "journey.json"
+}

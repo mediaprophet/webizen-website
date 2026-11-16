@@ -1,0 +1,36 @@
+{
+  "schema": "webizen.art-integration-review/v1",
+  "date": "2026-11-16",
+  "screenshot": "C:/github/webizen-website/evidence/lab-desktop.png",
+  "checks": [
+    {
+      "id": "canopy",
+      "native_hash_matches_gallery_and_corrected_source": true,
+      "mesh_hash_matches": true,
+      "receipt_matches": true
+    },
+    {
+      "id": "memory-frond",
+      "native_hash_matches_gallery_and_corrected_source": true,
+      "mesh_hash_matches": true,
+      "receipt_matches": true
+    },
+    {
+      "id": "tidal-vessel",
+      "native_hash_matches_gallery_and_corrected_source": true,
+      "mesh_hash_matches": true,
+      "receipt_matches": true
+    }
+  ],
+  "visual_status": "initial scene requires revision",
+  "findings": [
+    "Flat disk and hard horizon do not meet natural-world brief",
+    "Camera too elevated; lower towards human scale",
+    "Heading overlaps defining architecture; reserve left text space",
+    "Ambient illumination flattens material form; reduce and preserve directional shadow",
+    "Use native catchment and actual procedural material maps; avoid isolated pedestal presentation"
+  ],
+  "new_environment": "/production/assets/environment.json",
+  "environment_review": "Front, side, three-quarter and colour/normal/ORM maps visually inspected; native replay passed",
+  "pending": "Review assembled revised browser scene and mobile composition after integration"
+}

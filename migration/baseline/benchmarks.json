@@ -1,0 +1,79 @@
+{
+  "artifacts": [
+    {
+      "bytes": 18086,
+      "evidence_state": "existing-recorded-artifact; not-rerun-or-independently-qualified",
+      "original_engine_labels": [
+        "comunica",
+        "oxigraph",
+        "qualia",
+        "qualia_nt",
+        "qualia_wasm",
+        "surrealdb",
+        "wasm_prolog"
+      ],
+      "preserved_file": "benchmarks/a2c2337c24e3571ba3d35c7f40867830e1de0cec67ae25c14b77ac3818d77042/comparative_benchmark_results.json",
+      "schema_version": 2,
+      "source_route": "comparative_benchmark_results.json",
+      "source_sha256": "a2c2337c24e3571ba3d35c7f40867830e1de0cec67ae25c14b77ac3818d77042",
+      "source_timestamp": "2026-11-15T14:32:56.206719Z"
+    },
+    {
+      "bytes": 7659,
+      "evidence_state": "existing-recorded-artifact; not-rerun-or-independently-qualified",
+      "original_engine_labels": [
+        "oxigraph",
+        "qualia_q42"
+      ],
+      "preserved_file": "benchmarks/bbeb4d9da4c244108a84adac3fbb8bba32fe10f18e7d6815e9c49a0923b96ae2/comparative_benchmark_results.schemaorg-30-current-https-q42.json",
+      "schema_version": 2,
+      "source_route": "comparative_benchmark_results.schemaorg-30-current-https-q42.json",
+      "source_sha256": "bbeb4d9da4c244108a84adac3fbb8bba32fe10f18e7d6815e9c49a0923b96ae2",
+      "source_timestamp": "2026-06-07T16:19:45.559248Z"
+    },
+    {
+      "bytes": 21281,
+      "evidence_state": "existing-recorded-artifact; not-rerun-or-independently-qualified",
+      "original_engine_labels": [
+        "comunica",
+        "oxigraph",
+        "qualia_nt",
+        "qualia_q42",
+        "qualia_wasm",
+        "surrealdb",
+        "wasm_prolog"
+      ],
+      "preserved_file": "benchmarks/a705c0400c9305d0bccd3c4e7fc56c66ee910a528e89954482c8c6e5a05e48cc/comparative_benchmark_results.schemaorg-30-current-https.json",
+      "schema_version": 2,
+      "source_route": "comparative_benchmark_results.schemaorg-30-current-https.json",
+      "source_sha256": "a705c0400c9305d0bccd3c4e7fc56c66ee910a528e89954482c8c6e5a05e48cc",
+      "source_timestamp": "2026-11-15T14:44:38.423261Z"
+    },
+    {
+      "bytes": 6758,
+      "evidence_state": "existing-recorded-artifact; not-rerun-or-independently-qualified",
+      "original_engine_labels": [
+        "comunica",
+        "oxigraph",
+        "qualia_q42",
+        "wasm_prolog"
+      ],
+      "preserved_file": "benchmarks/50e7c15bdebfcf5864a32de9cef12c938d0cb35cd8d6f4202e945d9bfe809143/comparative_benchmark_results.wordnet-31.json",
+      "schema_version": 2,
+      "source_route": "comparative_benchmark_results.wordnet-31.json",
+      "source_sha256": "50e7c15bdebfcf5864a32de9cef12c938d0cb35cd8d6f4202e945d9bfe809143",
+      "source_timestamp": null
+    },
+    {
+      "bytes": 11358,
+      "evidence_state": "existing-recorded-artifact; not-rerun-or-independently-qualified",
+      "original_engine_labels": [],
+      "preserved_file": "benchmarks/55d1ca5ff672927e0a434717e8b9356eb49ec1626e8a40c2b2f42d1f77d85e6b/llm_benchmark_results.json",
+      "schema_version": 2,
+      "source_route": "llm_benchmark_results.json",
+      "source_sha256": "55d1ca5ff672927e0a434717e8b9356eb49ec1626e8a40c2b2f42d1f77d85e6b",
+      "source_timestamp": "2026-11-15T14:32:48.181069630+00:00"
+    }
+  ],
+  "schema": "webizen.benchmark-preservation/v1"
+}

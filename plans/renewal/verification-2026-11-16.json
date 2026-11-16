@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-16",
+  "scope": "Four existing local documentation contract tests; no core build or deployed browser qualification",
+  "results": [
+    {
+      "test": "docs/tests/release-version-consistency.test.mjs",
+      "exit_code": 0,
+      "messages": [
+        "Release version consistency passed for 31 crates at 0.0.41."
+      ],
+      "source_sha256": "9206d3c80178614c1ab2999507606911f91c71d3acb038b4964f1be8560ebfa6"
+    },
+    {
+      "test": "docs/tests/qdnf-pages.test.mjs",
+      "exit_code": 0,
+      "messages": [
+        "qdnf Pages chrome checks passed."
+      ],
+      "source_sha256": "04c7e67974f9f309fe3eac1d729ffe40974aae6c2e94ebf3e67b8442a8e020be"
+    },
+    {
+      "test": "docs/tests/vibe-dev-docs.test.mjs",
+      "exit_code": 0,
+      "messages": [
+        "Vibe dev-docs tests passed (133 modules, wasm 26 exports)."
+      ],
+      "source_sha256": "851c3752272e9d932e0b50cd4e6450c1015f569f9944ff7a422be272416bae1d"
+    },
+    {
+      "test": "docs/tests/anatomy-mobile-fallback.test.mjs",
+      "exit_code": 0,
+      "messages": [
+        "Anatomy mobile WebGL2 fallback contract tests passed."
+      ],
+      "source_sha256": "7235f021c34d0e19f695d789337f50157739219e218dfdd128cd0e31224a6d08"
+    }
+  ]
+}

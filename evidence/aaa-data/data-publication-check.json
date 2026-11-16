@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "datasets": 2,
+  "native_q42_rows": [
+    17949,
+    153
+  ],
+  "rights_cases": 6,
+  "jpl_vector_rows": 4,
+  "historical_results": 5,
+  "dem_source_triangles": 33462,
+  "scope": "Bounded proofsubset only; nofullwebsitecompletion claim",
+  "no_personal_timeline_used": true
+}

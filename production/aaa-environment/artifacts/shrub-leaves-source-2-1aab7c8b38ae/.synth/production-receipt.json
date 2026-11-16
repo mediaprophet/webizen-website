@@ -1,0 +1,822 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 870172,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae.hmc",
+    "sha256": "10515361310ac1c715450c4956df3576d92f9b75cd7abedc4831eba17ad3e2ef"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499628144,
+    "effective_host_bytes": 256536064,
+    "evaluation_steps": 371856,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 92964,
+    "source_reservation_bytes": 11899392,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 371856,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 7060,
+      "key": "leaf-4-4-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-0--1.dxf",
+      "sha256": "f9b43fea9c749e27b38e6668bbb21c9a9a09f7bd6fe02c77590ca2e0e2261cbf"
+    },
+    {
+      "bytes": 7052,
+      "key": "leaf-4-4-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-0-1.dxf",
+      "sha256": "b6c6ddf6b7042ff0f98e3865814c19f5f07deb287d383df8c05ce5865cfcca6d"
+    },
+    {
+      "bytes": 7047,
+      "key": "leaf-4-4-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-1--1.dxf",
+      "sha256": "47a6d2f5dbaf2ddc66f8c95639a79c04d80f1b51891cbfb1fc0e825b07bde5bf"
+    },
+    {
+      "bytes": 7053,
+      "key": "leaf-4-4-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-1-1.dxf",
+      "sha256": "a522db769c9b56da22c180079429f27fc42dafcbd2f371d655c667582f85198e"
+    },
+    {
+      "bytes": 6988,
+      "key": "leaf-4-4-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-2--1.dxf",
+      "sha256": "f148d9dea3fb7e4c503dbc6e921cebfcdd984352e3858284b99ee4890fbc1b9c"
+    },
+    {
+      "bytes": 7100,
+      "key": "leaf-4-4-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-2-1.dxf",
+      "sha256": "60bba2a99a681a6d9ed6e4928bd5e7ace474d8e5938927c89c40f99b7e7990af"
+    },
+    {
+      "bytes": 7014,
+      "key": "leaf-4-4-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-3--1.dxf",
+      "sha256": "8b1d89bb2d7933519a48408eabfd0cb29b0fe80943789a5a2889a4c1fa002a92"
+    },
+    {
+      "bytes": 7000,
+      "key": "leaf-4-4-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-3-1.dxf",
+      "sha256": "b416d4a1352628367179e732341e24eb5e03d4eec79d9e3e61d04fcc71b65e5c"
+    },
+    {
+      "bytes": 7044,
+      "key": "leaf-4-4-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-4--1.dxf",
+      "sha256": "1d3c08dd2d53fb5bbb35211481dd2fd21a1c5e79a3a607e5f06555a3b4bba38f"
+    },
+    {
+      "bytes": 7012,
+      "key": "leaf-4-4-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-4-4-4-1.dxf",
+      "sha256": "e8f17affdf3668e8a188e071e8e8f7778b1cd58366edf188b2a4888c3cc08d0b"
+    },
+    {
+      "bytes": 6819,
+      "key": "leaf-5-0-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-0--1.dxf",
+      "sha256": "d1997c800951b9f2759f46680b3094ea3b8c56824bb0f1a7379c98e337299270"
+    },
+    {
+      "bytes": 6770,
+      "key": "leaf-5-0-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-0-1.dxf",
+      "sha256": "8132a68f5a032f0c235ae8d38ea5b26849f2c49303a90c4c730ca4a005fa7853"
+    },
+    {
+      "bytes": 6908,
+      "key": "leaf-5-0-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-1--1.dxf",
+      "sha256": "1f9d289b9d78c1e90e23c7df7c14fd6d0bdc6cc1af4bf90db6d32df035590165"
+    },
+    {
+      "bytes": 6812,
+      "key": "leaf-5-0-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-1-1.dxf",
+      "sha256": "a341c8fded262b701f0e8050a0e508dc5a01188fdff77f7f2f3a495926fc5a84"
+    },
+    {
+      "bytes": 6918,
+      "key": "leaf-5-0-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-2--1.dxf",
+      "sha256": "335874ca2133261adb76cefe89e7d1d1b0b00af4c0687fe6cd2970f2eda734d6"
+    },
+    {
+      "bytes": 6814,
+      "key": "leaf-5-0-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-2-1.dxf",
+      "sha256": "395cb70e1793b73f9603844f66489c67acc2ca01f2166be82bb6c1ebe196c1e4"
+    },
+    {
+      "bytes": 6919,
+      "key": "leaf-5-0-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-3--1.dxf",
+      "sha256": "455cdbc156ca47d5a64da34a9f7313f3957da769e0efd43d648176e6c49b0925"
+    },
+    {
+      "bytes": 6797,
+      "key": "leaf-5-0-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-3-1.dxf",
+      "sha256": "57f30d0b95e46e1af28b3cedf60f5df8cf36af30b1740f45233d2e1d23004cd4"
+    },
+    {
+      "bytes": 6894,
+      "key": "leaf-5-0-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-4--1.dxf",
+      "sha256": "ea04cd2d439d0fde9ec9ebdc7448d10826cc692f8bfe71125bde1ef3bda29556"
+    },
+    {
+      "bytes": 6771,
+      "key": "leaf-5-0-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-0-4-1.dxf",
+      "sha256": "3df19715f3da35a25b229ff7ac4bc47e6bbc43699f89c34018ef4eddd5ea3654"
+    },
+    {
+      "bytes": 6912,
+      "key": "leaf-5-1-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-0--1.dxf",
+      "sha256": "250031fd72e4c49b0d6b3c3bfc92a0c5d5d8cfd0f0d1f796b44940f7aac82ee5"
+    },
+    {
+      "bytes": 6934,
+      "key": "leaf-5-1-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-0-1.dxf",
+      "sha256": "1551b77d6876035fcb2e1a16ba81e682f70f2a7affdd6b7ccc06efa9ac6cc0ef"
+    },
+    {
+      "bytes": 6879,
+      "key": "leaf-5-1-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-1--1.dxf",
+      "sha256": "2795277581ed92fb0da4c3e5f1f21d36fdcef990a4caca9b1f633bc77307be4b"
+    },
+    {
+      "bytes": 6902,
+      "key": "leaf-5-1-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-1-1.dxf",
+      "sha256": "222e26ff446a50f480bf4bf92035b5f108ff39cb55a08d88b59cf0ee52bb7fe0"
+    },
+    {
+      "bytes": 6902,
+      "key": "leaf-5-1-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-2--1.dxf",
+      "sha256": "a952769d8ddc54457b5caaa6ba4d86d335b64a5d77e20f2bb0d8331e81fb1d11"
+    },
+    {
+      "bytes": 6884,
+      "key": "leaf-5-1-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-2-1.dxf",
+      "sha256": "d68679f9ff321dd5069f2f59874362fb7ec06f87d1aa89d83b4513dd14c036ab"
+    },
+    {
+      "bytes": 6869,
+      "key": "leaf-5-1-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-3--1.dxf",
+      "sha256": "1f05587c198d56001d01d9f4d1e74fcacf05a0ac4e39e49f37d109706a651043"
+    },
+    {
+      "bytes": 6901,
+      "key": "leaf-5-1-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-3-1.dxf",
+      "sha256": "b88a72faf3fb02c48c5eb223c68a98a93281a120f52ddcc56de5a1d293ff843a"
+    },
+    {
+      "bytes": 6924,
+      "key": "leaf-5-1-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-4--1.dxf",
+      "sha256": "d7568d892f272fef5a19199351aaf4511a6278700974ce44581eeefd364a292e"
+    },
+    {
+      "bytes": 6924,
+      "key": "leaf-5-1-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-1-4-1.dxf",
+      "sha256": "17cb00e8dbb8bc107dc627a503dece718d4e04eeb24c036ddc0527c6d010ef26"
+    },
+    {
+      "bytes": 6914,
+      "key": "leaf-5-2-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-0--1.dxf",
+      "sha256": "64a35eaad3e3016eb8a5d65ff0f50c9dff928ea5df1b6388f3cac7ccce8d552e"
+    },
+    {
+      "bytes": 6883,
+      "key": "leaf-5-2-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-0-1.dxf",
+      "sha256": "2ef7490f0486b68c2ce6e3ffd4a578ea3aad1654291046b5d12c855f32cacf70"
+    },
+    {
+      "bytes": 6894,
+      "key": "leaf-5-2-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-1--1.dxf",
+      "sha256": "75eeb6227bff556d4c511500e6b38c102342638cbd38b406ea43b71a1c332e17"
+    },
+    {
+      "bytes": 6865,
+      "key": "leaf-5-2-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-1-1.dxf",
+      "sha256": "e6bec2ffa411842a45e12c23aa342ec07ab7b1a33c9d990c89b46e9eb43fbc7b"
+    },
+    {
+      "bytes": 6877,
+      "key": "leaf-5-2-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-2--1.dxf",
+      "sha256": "4eb80776794693da1f4c77c44f849bd780d0d5538e4ab5723a1b94b7f8d370d2"
+    },
+    {
+      "bytes": 6884,
+      "key": "leaf-5-2-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-2-1.dxf",
+      "sha256": "2f72775bf2611a7782e121a7d0603448c53b87ad2d1aeb7234e6e3ac8442fa9c"
+    },
+    {
+      "bytes": 6907,
+      "key": "leaf-5-2-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-3--1.dxf",
+      "sha256": "9022bb96a652105bf75a3786f98bd8db1bb274ac0ba92ed24cb7a3c14e6f7528"
+    },
+    {
+      "bytes": 6918,
+      "key": "leaf-5-2-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-3-1.dxf",
+      "sha256": "4c83c9ca8e17e342284ec4119fd6c483ae9ce00960fd41ff70b74271d00465be"
+    },
+    {
+      "bytes": 6860,
+      "key": "leaf-5-2-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-4--1.dxf",
+      "sha256": "461c197b4737b399977b610ff316a21b1cce2664b1d784b6ce5e65a8b074373b"
+    },
+    {
+      "bytes": 6884,
+      "key": "leaf-5-2-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-2-4-1.dxf",
+      "sha256": "4dfec878ff956f4aeadfc7304b1263a7150349c6e7c29d12c6adb77688f3234d"
+    },
+    {
+      "bytes": 6901,
+      "key": "leaf-5-3-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-0--1.dxf",
+      "sha256": "ce8c8b45dc6232b8d87354fdf6d62927adc14c1f9f8d9344f90c4b2f3299eba2"
+    },
+    {
+      "bytes": 6897,
+      "key": "leaf-5-3-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-0-1.dxf",
+      "sha256": "6f3be0f2ac9fdbe0ef8d162a93575bae4e91c49bdd9423da374170200fcabb3b"
+    },
+    {
+      "bytes": 6909,
+      "key": "leaf-5-3-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-1--1.dxf",
+      "sha256": "33246cc37fecb9a4b5062884129e5020926a4ddd50d4eca8f95abf44cff0a41c"
+    },
+    {
+      "bytes": 6908,
+      "key": "leaf-5-3-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-1-1.dxf",
+      "sha256": "e8f8425552b0be09928af69eca045f43f456dc06d7a958d0cb5c845646a057e4"
+    },
+    {
+      "bytes": 6885,
+      "key": "leaf-5-3-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-2--1.dxf",
+      "sha256": "d9e8b767e33d86dfcec941863870e6bad264ef872ec075eb5f5f75aff8dcb793"
+    },
+    {
+      "bytes": 6894,
+      "key": "leaf-5-3-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-2-1.dxf",
+      "sha256": "94665db3ec8e8b0be6e1c8d17c70c0979977601f65bec697e12318307f396b55"
+    },
+    {
+      "bytes": 6886,
+      "key": "leaf-5-3-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-3--1.dxf",
+      "sha256": "743ca9cb88f964d8c00934b2ed01bfa9888c876dfc5a737f3cf993fff91756e4"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-5-3-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-3-1.dxf",
+      "sha256": "51beedf0e854d9a193d9e701658a625fb765fafac9f05e58ef680ca9304fe4dd"
+    },
+    {
+      "bytes": 6904,
+      "key": "leaf-5-3-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-4--1.dxf",
+      "sha256": "ac2d75de3a6ceca3f7391eb6b1d774213edd8604cc1053b1d394495218fa7e3a"
+    },
+    {
+      "bytes": 6932,
+      "key": "leaf-5-3-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-3-4-1.dxf",
+      "sha256": "e6542ea63c5d0e4af75db252d3b1101f727a5465c3ae397b881e9e6b3edbc330"
+    },
+    {
+      "bytes": 6879,
+      "key": "leaf-5-4-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-0--1.dxf",
+      "sha256": "73e36429813f7200899976c3ebc8315a57c282c0c5d56bc0defd3a01421f653e"
+    },
+    {
+      "bytes": 6883,
+      "key": "leaf-5-4-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-0-1.dxf",
+      "sha256": "d25a417d9f3868c578908ccdf17cc36ef94e54b7bebd97018f6807f935f459e9"
+    },
+    {
+      "bytes": 6861,
+      "key": "leaf-5-4-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-1--1.dxf",
+      "sha256": "ab7cc8e5b905113f65de4e703991651dbd0f9f2b81e4238f6b458cd7d8f9407e"
+    },
+    {
+      "bytes": 6885,
+      "key": "leaf-5-4-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-1-1.dxf",
+      "sha256": "cf59353dfaa6e7a3f3f49338f9dfd481a9f61ef2dcb08fab513a9192f10de6bb"
+    },
+    {
+      "bytes": 6884,
+      "key": "leaf-5-4-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-2--1.dxf",
+      "sha256": "667e7661e4ec74ef67b6892776aef27e8fcc2fecf078fe1a7698a6ad7ef79f2c"
+    },
+    {
+      "bytes": 6878,
+      "key": "leaf-5-4-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-2-1.dxf",
+      "sha256": "236f1b9d3773a1c9ff5cf9227c229c8e5b2eb5743ba07e45972984104f4f035d"
+    },
+    {
+      "bytes": 6900,
+      "key": "leaf-5-4-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-3--1.dxf",
+      "sha256": "15540df50ca174806b785ab53f1157d7c526d73399061ed606554408bddfb1c2"
+    },
+    {
+      "bytes": 6912,
+      "key": "leaf-5-4-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-3-1.dxf",
+      "sha256": "037fee8f1afb5f7b86beb8fd5c9e50c15870fa8a6d2a3f6af8afa5f97d44588f"
+    },
+    {
+      "bytes": 6893,
+      "key": "leaf-5-4-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-4--1.dxf",
+      "sha256": "d5c184611f3e277505ec7a209dfcd86c32fdd9b2f0cd0553cdb12f5b084a565c"
+    },
+    {
+      "bytes": 6894,
+      "key": "leaf-5-4-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-5-4-4-1.dxf",
+      "sha256": "6a842ada9311827548cfc0e2d46d7b929fb8fa0e84e3fd511ec715f4bdd8be34"
+    },
+    {
+      "bytes": 6828,
+      "key": "leaf-6-0-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-0--1.dxf",
+      "sha256": "8988a4eac69d708321d1757babda4d9a02bd5b5c506f89b1e76c7ec4741eb7a7"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-0-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-0-1.dxf",
+      "sha256": "63c88088372bd4221d8d41a229e334349cc7774d75bdc38e6735bef94c9e5c7c"
+    },
+    {
+      "bytes": 6903,
+      "key": "leaf-6-0-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-1--1.dxf",
+      "sha256": "2bf90470318f6fc8f86450fe3013b511e1e0dba7ca65a99406d9bad63aaf42af"
+    },
+    {
+      "bytes": 6941,
+      "key": "leaf-6-0-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-1-1.dxf",
+      "sha256": "3ef63ae760c8efd8efc167c980178453e2096ee13c38eb8f38c862044af271cd"
+    },
+    {
+      "bytes": 6909,
+      "key": "leaf-6-0-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-2--1.dxf",
+      "sha256": "8de6fbda4b39e9172cdbba5400dc731820951eecaf19a370d60249f98ec34797"
+    },
+    {
+      "bytes": 6900,
+      "key": "leaf-6-0-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-2-1.dxf",
+      "sha256": "20bcba130674af69dafec78ff9b44ffe0edd4ad25d65b802b1cffd5dbb59f1ef"
+    },
+    {
+      "bytes": 6917,
+      "key": "leaf-6-0-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-3--1.dxf",
+      "sha256": "7f1f7c437a6d7e3c20d0d1483d21078a67d5b2d549ffe28b2e2d8f550e25fe72"
+    },
+    {
+      "bytes": 6892,
+      "key": "leaf-6-0-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-3-1.dxf",
+      "sha256": "cbf760f4d7a8ce84268381c7498c2fa297d7806db17ec5ec0b63b6ec52871ac2"
+    },
+    {
+      "bytes": 6890,
+      "key": "leaf-6-0-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-4--1.dxf",
+      "sha256": "feebf45c9a3a0475908933dabdf35748d7f3d11277b8c8b44859ace18d6d3912"
+    },
+    {
+      "bytes": 6948,
+      "key": "leaf-6-0-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-0-4-1.dxf",
+      "sha256": "80914a61ddc5bd69a7cc512495d8760eb7d6c2d6106454df8015a545ce4f6406"
+    },
+    {
+      "bytes": 6813,
+      "key": "leaf-6-1-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-0--1.dxf",
+      "sha256": "759e1478788ba8da9589f724a2e747526d673c5eff16b99105e4cf9038d6d3bd"
+    },
+    {
+      "bytes": 6934,
+      "key": "leaf-6-1-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-0-1.dxf",
+      "sha256": "4a1358bed048c99f7f2efa41179359734bc8c46dc67c3bc4aeb8b96f9105314d"
+    },
+    {
+      "bytes": 6742,
+      "key": "leaf-6-1-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-1--1.dxf",
+      "sha256": "2a7177ff4597363ae42301826285a9718c54b58a8591d9ac86b2ac6df3c1d16f"
+    },
+    {
+      "bytes": 6852,
+      "key": "leaf-6-1-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-1-1.dxf",
+      "sha256": "4897fc598beab7b118ad01100ee4f5e2ea7ad9c57a81f72b61cb2bfb38dde52b"
+    },
+    {
+      "bytes": 6642,
+      "key": "leaf-6-1-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-2--1.dxf",
+      "sha256": "e841cef1939aa14377e8ca826e99c58eb75349460fb5efd1af41feac99d84471"
+    },
+    {
+      "bytes": 6805,
+      "key": "leaf-6-1-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-2-1.dxf",
+      "sha256": "bd467a6fd1fcaa2cf38a1c318fe7e96ab7eebf7491d8fb6646fe06222b8b5140"
+    },
+    {
+      "bytes": 6690,
+      "key": "leaf-6-1-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-3--1.dxf",
+      "sha256": "c27a2ccf069e042fdd21d83cbcc18e35e75dc6cddb0e706e18003ae8b0c603a2"
+    },
+    {
+      "bytes": 6682,
+      "key": "leaf-6-1-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-3-1.dxf",
+      "sha256": "3cd05662beeb2486eeabdee76a121d126964c53da50a28efba1538fc85ba1ecd"
+    },
+    {
+      "bytes": 6660,
+      "key": "leaf-6-1-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-4--1.dxf",
+      "sha256": "1149497c848d3be00c820824429e70b5f69beef9d5bd7774b7600c4b47bcfdd5"
+    },
+    {
+      "bytes": 6724,
+      "key": "leaf-6-1-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-1-4-1.dxf",
+      "sha256": "9d6cd4fc508666407c6aed914b2cb1400a9dfcdad67e32ba866d13a7dd0516e7"
+    },
+    {
+      "bytes": 6909,
+      "key": "leaf-6-2-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-0--1.dxf",
+      "sha256": "996032b0328a7ab30a70958384774b4d7bd07b76501ebbe6c3faef442a403575"
+    },
+    {
+      "bytes": 6908,
+      "key": "leaf-6-2-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-0-1.dxf",
+      "sha256": "088a3c4d139fbb70f7f75d8aaaa4b493c23cb94a045cc1657a9d874a7765dc61"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-2-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-1--1.dxf",
+      "sha256": "01c8d21bf1add3a1700860d9479066c2d54dedbb606f8276b8c07eab54aad255"
+    },
+    {
+      "bytes": 6940,
+      "key": "leaf-6-2-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-1-1.dxf",
+      "sha256": "f06f00754640f865eca6f0c64ca59ee6bb8192f74fdc1676add4184b0929190c"
+    },
+    {
+      "bytes": 6918,
+      "key": "leaf-6-2-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-2--1.dxf",
+      "sha256": "c1ab1b2e1abdce695ab4332c883bee8e8497585dad300586757ffcb14b2ef709"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-2-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-2-1.dxf",
+      "sha256": "05ae638ed586f602872da035f6b56c1f36b8f181d81a2d0ce8acdc51046380cb"
+    },
+    {
+      "bytes": 6908,
+      "key": "leaf-6-2-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-3--1.dxf",
+      "sha256": "fd614eabefd4a09df21f5e5cd22d6d976f4ff286c4fb6df8e6457fdfc2db342c"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-2-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-3-1.dxf",
+      "sha256": "63818db0fe2be7be33a17eeb854f1600b994f0298b86ea761f9dfea90151f326"
+    },
+    {
+      "bytes": 6911,
+      "key": "leaf-6-2-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-4--1.dxf",
+      "sha256": "e23647aa5d48e864815ceb8a34c00d5213ef08344e20c9215de8812f5caa2c81"
+    },
+    {
+      "bytes": 6903,
+      "key": "leaf-6-2-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-2-4-1.dxf",
+      "sha256": "994a0dba87ab1c9081527b3929093cc9f51a4901bba083d512f2c652beaea0ab"
+    },
+    {
+      "bytes": 6802,
+      "key": "leaf-6-3-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-0--1.dxf",
+      "sha256": "8ded227764ecd81a5d5427699e0ca293e3ed755170bd9036738047d2452bfa4c"
+    },
+    {
+      "bytes": 6877,
+      "key": "leaf-6-3-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-0-1.dxf",
+      "sha256": "ab8b88e4e91ff5a51bdc257e2b37ffbd60c266f45f516e4f84cb2b74fd618913"
+    },
+    {
+      "bytes": 6815,
+      "key": "leaf-6-3-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-1--1.dxf",
+      "sha256": "035b241646717302e1c6948386f3cb5f23268c9faa4a3dd37b2f54fb1248be5f"
+    },
+    {
+      "bytes": 6886,
+      "key": "leaf-6-3-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-1-1.dxf",
+      "sha256": "6ce94857465f0cbe158a42b4941a500fc93264af0b68684a0368b31c348e67da"
+    },
+    {
+      "bytes": 6758,
+      "key": "leaf-6-3-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-2--1.dxf",
+      "sha256": "f22daa8e37336f017a0632f8638297d7e96a04adae531bf29780b228f555b245"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-3-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-2-1.dxf",
+      "sha256": "723afc4ddb2a30f9794ec796a1e9eb5c4c0b0fb3f07a5d331a659e6aba804519"
+    },
+    {
+      "bytes": 6696,
+      "key": "leaf-6-3-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-3--1.dxf",
+      "sha256": "7a6bc641dbae2d87f94a1b8bd692722fe436d2e19b7d405c74c6c3e7fd7d499a"
+    },
+    {
+      "bytes": 6860,
+      "key": "leaf-6-3-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-3-1.dxf",
+      "sha256": "ba00325ff928a09bb12c910451186c9e127b461e3c1c4c24b11e93dec5561186"
+    },
+    {
+      "bytes": 6716,
+      "key": "leaf-6-3-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-4--1.dxf",
+      "sha256": "f34959c95031efa27e58b629836da03fe1ae73ab107fb6484b5c03c49023e1c4"
+    },
+    {
+      "bytes": 6772,
+      "key": "leaf-6-3-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-3-4-1.dxf",
+      "sha256": "af7a57994dd5454e1d502c999e78bfe7504e3f39c3546038296846940f9315b7"
+    },
+    {
+      "bytes": 6852,
+      "key": "leaf-6-4-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-0--1.dxf",
+      "sha256": "10e185d2b86000e80c218e3b1d1cf8441521ef0932c2f9bec04084a6fee26156"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-4-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-0-1.dxf",
+      "sha256": "d1b59ede111e8cfd6d3672fe96495d22d681f289ce747b1f697241105b9583af"
+    },
+    {
+      "bytes": 6916,
+      "key": "leaf-6-4-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-1--1.dxf",
+      "sha256": "5a2bc1eb9d61b1283475272b6b96ba7c3899b6f5b576484cbe049ee988dd3613"
+    },
+    {
+      "bytes": 6908,
+      "key": "leaf-6-4-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-1-1.dxf",
+      "sha256": "0ad9f5e5cacccbb56ca17038cb9a351f4face7d774a2d56d41481e3ae186403b"
+    },
+    {
+      "bytes": 6899,
+      "key": "leaf-6-4-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-2--1.dxf",
+      "sha256": "ddda8ed940fd027aeb79dcce5211aa97a6e50320dc436f8d9f955d1ccb2149b7"
+    },
+    {
+      "bytes": 6948,
+      "key": "leaf-6-4-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-2-1.dxf",
+      "sha256": "af752158c8b722e406284f67e9b70464a91e65dff6f0872c3f14b77e089b938a"
+    },
+    {
+      "bytes": 6913,
+      "key": "leaf-6-4-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-3--1.dxf",
+      "sha256": "561508e3078932463bb8b9f407c68f026d5653ace374f2e7b2d721f93db4396a"
+    },
+    {
+      "bytes": 6884,
+      "key": "leaf-6-4-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-3-1.dxf",
+      "sha256": "907f88c5903869042f6492f38ce4f67ee048f2cd8f2795a56227422de6b736fc"
+    },
+    {
+      "bytes": 6872,
+      "key": "leaf-6-4-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-4--1.dxf",
+      "sha256": "04711e315b10dac2b23ee03e6b2d5dcf45c4a6f1d3f44d641beaf5ef5f529dfd"
+    },
+    {
+      "bytes": 6897,
+      "key": "leaf-6-4-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-source-2-1aab7c8b38ae\\leaf-6-4-4-1.dxf",
+      "sha256": "432e4b5413f6b5664df017163b8b5514e1b1609d8feba86793affa31892b9017"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "da4883f2ea1f85e839a82ce3704840594d938d148d08453615a3d15df48b1747",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

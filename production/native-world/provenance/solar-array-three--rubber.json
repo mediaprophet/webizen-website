@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 644,
+  "triangles": 1168,
+  "bytes": 223896,
+  "source_bytes": 29040,
+  "id": "solar-array-three--rubber",
+  "original_sha256": "8a4fab30d8975f2f914ebc63b02c5ad2687046ab975b0acdfeafc34d481ace57",
+  "source_sha256": "5800ee79a1099ff3d1c4db6085c62d5bb99a2623d02c6724242b097f6464288d",
+  "attested_sha256": "028a155587fbe10bfcefedd1e5acf13c0a77529e4e9e220411c32f76a0c85f96",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

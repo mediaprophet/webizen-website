@@ -1,0 +1,206 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 2488570,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da.hmc",
+    "sha256": "46549fc68274b5659badd8e78b90e44f2559944688f3f210f11d9cefe1888e10"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499589704,
+    "effective_host_bytes": 255305984,
+    "evaluation_steps": 410296,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 102574,
+    "source_reservation_bytes": 13129472,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 410296,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 171065,
+      "key": "living-spine.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\living-spine.dxf",
+      "sha256": "3287fd453f1507ba765a10846baa96977abf76528af0318d4c5dc81e53139016"
+    },
+    {
+      "bytes": 103441,
+      "key": "pinna-0--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-0--1.dxf",
+      "sha256": "e51bce0feef66ec6cf47adeac829d1c1799f877a17501c02e8e4bf593c1ae95a"
+    },
+    {
+      "bytes": 101041,
+      "key": "pinna-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-0-1.dxf",
+      "sha256": "e71857d4c89390118a5e3b80f8a7c65862394d623f59926c1514fe1e920d400b"
+    },
+    {
+      "bytes": 103861,
+      "key": "pinna-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-1--1.dxf",
+      "sha256": "64bfc785b30ad1dbb0055caf3976738c26c44cae4b35f453b34832252104d21c"
+    },
+    {
+      "bytes": 101461,
+      "key": "pinna-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-1-1.dxf",
+      "sha256": "3cb69f42d66a27b293d386918600daee5e87983abe0e04eb0b695f171defb81b"
+    },
+    {
+      "bytes": 103101,
+      "key": "pinna-2--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-2--1.dxf",
+      "sha256": "9826222884334b722ecaf517043f18edea4915c97b39a283cc5186683a12a94d"
+    },
+    {
+      "bytes": 100701,
+      "key": "pinna-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-2-1.dxf",
+      "sha256": "b9e13c8fe852702435bb9f8c2d89285f33da2df5664d3bf033d5015ad5a43c45"
+    },
+    {
+      "bytes": 103281,
+      "key": "pinna-3--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-3--1.dxf",
+      "sha256": "cc7c129cc6c59be547951331cb86edac60ca7b53ec90f7687b74435813f8fca5"
+    },
+    {
+      "bytes": 100881,
+      "key": "pinna-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-3-1.dxf",
+      "sha256": "716ba49c78bbd2a8833226683213b49c9465f3e29e747baa8cc274eab4d78f55"
+    },
+    {
+      "bytes": 102957,
+      "key": "pinna-4--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-4--1.dxf",
+      "sha256": "90c8325499490a563493ff5dc2b0ea0e06737054ba64d166483d4b804802ada9"
+    },
+    {
+      "bytes": 100557,
+      "key": "pinna-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-4-1.dxf",
+      "sha256": "7a9c8fdc3d4365b99b2e466ff8bf4a4654d33a6eb840a67805386f9f44a4a4fe"
+    },
+    {
+      "bytes": 101733,
+      "key": "pinna-5--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-5--1.dxf",
+      "sha256": "42da7ee15a65c94e802d7dbf01bc4d910c936feba88cfd326d2333b5f28782e4"
+    },
+    {
+      "bytes": 99333,
+      "key": "pinna-5-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-5-1.dxf",
+      "sha256": "42c24c0e54c066b643a359335c07d449fdb75b7cd7471f9c275c1e2e503b8922"
+    },
+    {
+      "bytes": 103373,
+      "key": "pinna-6--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-6--1.dxf",
+      "sha256": "27bcf48032f6f042df967a4024cf925042d81887d17014771b8d138b049f8d7d"
+    },
+    {
+      "bytes": 100973,
+      "key": "pinna-6-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-6-1.dxf",
+      "sha256": "dc8b689ea9102909f442e36f5ae25a8353eb7b316b6d10ec048cd2a19c570ce5"
+    },
+    {
+      "bytes": 103001,
+      "key": "pinna-7--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-7--1.dxf",
+      "sha256": "3ba436ae43357865bb9f5092f8e57903e2e87b7ad402785d8bfd91fc896541a2"
+    },
+    {
+      "bytes": 100601,
+      "key": "pinna-7-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-7-1.dxf",
+      "sha256": "70c197ee0e96e614d59c32a2d96d2cc5dd749ab0430b22d409d553a533ac1760"
+    },
+    {
+      "bytes": 102245,
+      "key": "pinna-8--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-8--1.dxf",
+      "sha256": "148a86bd93d8fdf3e216f16fc7ecd843c41459672c90358aa0e174fc193c15dd"
+    },
+    {
+      "bytes": 99845,
+      "key": "pinna-8-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-8-1.dxf",
+      "sha256": "11e1c56f20458a79fef28aa867f601a985d9754a070002faed1ca5df68db5f9b"
+    },
+    {
+      "bytes": 102761,
+      "key": "pinna-9--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-9--1.dxf",
+      "sha256": "c7b72dee5d81cb99353f1706159f57c1711ee9c873749597644d2b7d608e85c3"
+    },
+    {
+      "bytes": 100361,
+      "key": "pinna-9-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\pinna-9-1.dxf",
+      "sha256": "66569d82c7d68302fd3390e405da95dc67fa9291e68214c8cbeb7625751fec40"
+    },
+    {
+      "bytes": 175292,
+      "key": "specimen-base.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-eced1a72d9da\\specimen-base.dxf",
+      "sha256": "08e0356e5e2d19e9ebfe46547560cc737f2ba65c76bde86f71028a2464d92b55"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "dfe2e33b775a76361b457f15974c3f785d4c64b6b3e41d6aa3a409e40ff8d049",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

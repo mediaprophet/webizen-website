@@ -1,0 +1,20 @@
+pure fn ecology_clear(x:f64,z:f64,r:f64) -> bool {
+ let camp=math.sqrt((x+22.0)*(x+22.0)+(z-28.0)*(z-28.0));
+ if camp < 10.5+r { return false; }
+ if x > -21.0-r && x < -5.0+r && z > 32.0-r && z < 55.0+r { return false; }
+ if math.abs(z - 4.0) < 3.0 + r && math.abs(x - river_x(4.0)) < 10.0 + r { return false; }
+ for stop in [[-17.0,6.0],[-20.0,-16.0],[20.0,-7.0],[-15.0,-32.0],[17.0,-37.0]] {
+  if math.sqrt((x-stop[0])*(x-stop[0])+(z-stop[1])*(z-stop[1])) < 5.0+r { return false; }
+ }
+ return true;
+}
+pure fn ecology_placements(candidates: List) budget(steps:2000000) -> List {
+ let mut result=[];
+ for p in candidates {
+  let d=math.abs(p.x-river_x(p.z));
+  if ecology_clear(p.x,p.z,p.radius) && d > 3.8+p.radius {
+   result=result.push({asset:p.asset,id:p.id,translation:[p.x,terrain_height(p.x,p.z)+p.offset,p.z],rotation:[0.0,math.sin(p.yaw/2.0),0.0,math.cos(p.yaw/2.0)],scale:[p.scale,p.scale,p.scale]});
+  }
+ }
+ return result;
+}

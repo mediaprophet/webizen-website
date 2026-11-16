@@ -1,0 +1,42 @@
+{
+  "id": "habitat-terrain",
+  "url": "/production/aaa-terrain/assets/habitat-terrain.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "943e1673baf44134db33ea5a9132d46a1c898b1fb417be97c547da8ada7cc9d5",
+  "bytes": 8723576,
+  "vertices": 25921,
+  "triangles": 51200,
+  "instances": 1,
+  "recipe": "/production/aaa-terrain/recipes/terrain.vibe",
+  "input_sha256": "d7f861fafaab188c5a983ffe257995590ee18bf446c8bca82429cf1b7af37650",
+  "epistemic_class": "authored-artwork",
+  "description": "Vibe habitat material field; fictional catchment, not measured land cover",
+  "textures": [
+    {
+      "url": "/production/aaa-terrain/assets/habitat-colour.png",
+      "sha256": "6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-terrain/assets/soil-normal.png",
+      "sha256": "7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-terrain/assets/soil-orm.png",
+      "sha256": "ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ]
+}

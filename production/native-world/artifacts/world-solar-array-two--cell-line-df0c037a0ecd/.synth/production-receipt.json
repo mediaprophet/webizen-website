@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 125706,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-two--cell-line-df0c037a0ecd.hmc",
+    "sha256": "4bdfc9c49dfe0b0a9c21bfc98b112a39807fb80bd150880b410a816e5f1642de"
+  },
+  "inputs": [
+    {
+      "bytes": 31920,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\solar-array-two--cell-line.glb",
+      "sha256": "0327ac631e5225c4c3c0b108054b40017c669ed4a7cda189d99e415c5875c351"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499997892,
+    "effective_host_bytes": 268368000,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096902,
+    "source_bytes": 527,
+    "source_reservation_bytes": 67456,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2108,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 92536,
+      "key": "solar-array-two--cell-line.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-two--cell-line-df0c037a0ecd\\solar-array-two--cell-line.10d",
+      "sha256": "a3748707c6821c7a6320a7c1856e3fea6ec606f6c7d5c42bcb3a3cb9ab81ef62"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "33410ec2455869fee0ff11b870dd9c55d02639aaf390675e8e6e18fb8ab08b80",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

@@ -1,0 +1,85 @@
+{
+  "side": 1024,
+  "camera_yaw": 0.65,
+  "camera_pitch": 0.28,
+  "camera_distance": 8,
+  "camera_target": [
+    0,
+    0.45,
+    0.4
+  ],
+  "sun_direction": [
+    -0.4,
+    0.8,
+    0.6
+  ],
+  "direct_intensity": 2.4,
+  "ambient_intensity": 0.5,
+  "clear_color": [
+    0.1,
+    0.13,
+    0.14,
+    1
+  ],
+  "shadows": true,
+  "ao_enabled": true,
+  "ao_radius": 0.05,
+  "ao_strength": 0.3,
+  "ao_bias": 0.005,
+  "ao_samples": 12,
+  "environment_fallback_rgb": [
+    0,
+    0,
+    0
+  ],
+  "environment_probes": [
+    {
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "radius": 50,
+      "irradiance": [
+        0.22,
+        0.24,
+        0.2
+      ],
+      "specular_levels": [
+        [
+          0.15,
+          0.16,
+          0.14
+        ],
+        [
+          0.12,
+          0.13,
+          0.11
+        ],
+        [
+          0.1,
+          0.11,
+          0.09
+        ],
+        [
+          0.08,
+          0.09,
+          0.07
+        ],
+        [
+          0.06,
+          0.07,
+          0.05
+        ]
+      ],
+      "dominant_direction": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "times": [
+    0
+  ]
+}

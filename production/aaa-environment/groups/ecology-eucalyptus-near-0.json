@@ -1,0 +1,119 @@
+{
+  "id": "ecology-eucalyptus-near-0",
+  "url": "/production/aaa-environment/assets/ecology-eucalyptus-near-0.10d",
+  "sha256": "7368cf1a1be773221226aec93d61097480decce1625f35c4b7788efb3c465d3b",
+  "bytes": 3525840,
+  "vertices": 24205,
+  "triangles": 39994,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 1,
+  "textures": [],
+  "provenance_receipt": "/production/aaa-environment/provenance/ecology-eucalyptus-near-0.json",
+  "native": {
+    "bytes": 2750544,
+    "key": "ecology-eucalyptus-near-0.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-near-0-fdd3c104990f\\ecology-eucalyptus-near-0.10d",
+    "sha256": "e9a0d96b032dbe3ffa55996fa644c625256ef8dd82af9daf533ff52b5c8e6106",
+    "url": "/artifacts/ecology-eucalyptus-near-0-fdd3c104990f/ecology-eucalyptus-near-0.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "5335f1754ea2ead697b824d9b4dc16b72df132677e76b655dfcc272bfe716046",
+    "package_sha256": "7c2088d9a9abb03ad6d92fa9b7707d2371df4131cf49ebe80a7c738995f22b22",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 3526672,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-near-0-fdd3c104990f.hmc",
+        "sha256": "7c2088d9a9abb03ad6d92fa9b7707d2371df4131cf49ebe80a7c738995f22b22"
+      },
+      "inputs": [
+        {
+          "bytes": 775012,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-eucalyptus-near-0.glb",
+          "sha256": "d9959e1635d62ac098894f984773d82ad75124806c5ee2bdb9c90bdbc3af0a77"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998636,
+        "effective_host_bytes": 268391808,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2091097,
+        "source_bytes": 341,
+        "source_reservation_bytes": 43648,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1364,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 2750544,
+          "key": "ecology-eucalyptus-near-0.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-near-0-fdd3c104990f\\ecology-eucalyptus-near-0.10d",
+          "sha256": "e9a0d96b032dbe3ffa55996fa644c625256ef8dd82af9daf533ff52b5c8e6106",
+          "url": "/artifacts/ecology-eucalyptus-near-0-fdd3c104990f/ecology-eucalyptus-near-0.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "3aff9cb7f49b32a5672733735a9255ec28569c18e03626b6f902cffe1696f64b",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 2750544,
+        "key": "ecology-eucalyptus-near-0.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "e9a0d96b032dbe3ffa55996fa644c625256ef8dd82af9daf533ff52b5c8e6106"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-eucalyptus-near-0-fdd3c104990f.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/ecology-eucalyptus-near-0-fdd3c104990f.hmc",
+    "receipt_url": "/artifacts/ecology-eucalyptus-near-0-fdd3c104990f.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-eucalyptus-near-0.glb",
+  "cache_key": "bb3e84011bb1e7c03913861684a7f512975f259516675305a905833e94a47e81",
+  "recipe": "/production/aaa-environment/recipes/ecology-eucalyptus-near-0.vibe"
+}

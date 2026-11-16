@@ -1,0 +1,47 @@
+{
+  "schema": "webizen.campsite-native-asset/v1",
+  "id": "car-passat-b7",
+  "title": "Gold 2013 Volkswagen Passat B7 wagon",
+  "description": "Authored dimensional B7 Variant interpretation. Gold finish per owner; wheel design and exact trim details are illustrative, not an asserted scan of their vehicle. Blank numberplates.",
+  "mesh_url": "/production/campsite/car/assets/car.json",
+  "model_url": "/production/campsite/car/artifacts/car-passat-sealed-abdcdba98c88/passat-b7.10d",
+  "receipt_url": "/production/campsite/car/artifacts/car-passat-sealed-abdcdba98c88.json",
+  "production_receipt_url": "/production/campsite/car/artifacts/car-passat-4d22b837c45f.json",
+  "recipe_url": "/production/campsite/car/recipes/passat-b7.vibe",
+  "package_url": "/production/campsite/car/artifacts/car-passat-sealed-abdcdba98c88.hmc",
+  "source_package_url": "/production/campsite/car/artifacts/car-passat-4d22b837c45f.hmc",
+  "validation_url": "/production/campsite/car/review/geometry-validation.json",
+  "colour": "#bba570",
+  "role": "campsite-vehicle",
+  "units": "metres",
+  "up": "+Y",
+  "forward": "+Z",
+  "ground_y": 0,
+  "bounds": {
+    "min": [
+      -1.12625,
+      -0.0010625,
+      -2.4164374
+    ],
+    "max": [
+      1.12625,
+      1.5661807,
+      2.426
+    ]
+  },
+  "parts": 141,
+  "triangles": 51930,
+  "mesh_sha256": "32bd116a4ceda613efc9ced128bab381a41c1b060185d6a19a87d6c3be015057",
+  "model_sha256": "4a67a010558eed70b4b9c7185cad1f667041f2a10d5652ab4317961041b21090",
+  "reference_dimensions": {
+    "length": 4.771,
+    "width_excluding_mirrors": 1.82,
+    "height": 1.508,
+    "wheelbase": 2.712
+  },
+  "references": [
+    "https://www.volkswagen-newsroom.com/en/vehicle-data-passat-b7-profile-20037",
+    "https://www.volkswagen-newsroom.com/en/passat-b7-20102014-20036"
+  ],
+  "epistemic_class": "authored-representation"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "webizen.etalon-gl-wait-candidate/v1",
+  "base_commit": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "state": "local candidate, not yet pushed or pinned",
+  "files": [
+    {
+      "path": "etalon-hal/src/gles/device.rs",
+      "sha256": "0d5e584412635e3a179c5fb206ab431ceb7948809dcac2c3462f6128ee409891"
+    },
+    {
+      "path": "etalon-hal/src/gles/fence.rs",
+      "sha256": "c1dcce5cc0116fa2a459a999c9186f6b62f0db096a862bd3520fbba617cbb0e3"
+    },
+    {
+      "path": "etalon-hal/src/gles/fence_wait.rs",
+      "sha256": "27ae001be1b5156d02fbb0a5703f63742da87ec369c796208306fc15c124b592"
+    },
+    {
+      "path": "etalon-hal/src/gles/fence_wait_tests.rs",
+      "sha256": "8c15b7cd9fa3bd017ba5d3284c14c1a71cd3ba3f46952e7b238df9ebc9c7eee8"
+    }
+  ],
+  "unit_tests": {
+    "source": "actual fence_wait.rs via isolated rustc test harness",
+    "passed": 10,
+    "failed": 0,
+    "log": "gl-candidate-unit-tests.txt"
+  },
+  "cargo_check": {
+    "status": "passed",
+    "target": "C:/github/etalon/target-webizen-gl-check",
+    "features": "gles only",
+    "log": "gl-candidate-check.log",
+    "exit_code": 0,
+    "duration": "5m06s"
+  },
+  "gpu_candidate_reproduction": "pending, no candidate GPU run yet",
+  "original_isolated_reproduction": "passed; full-run timeout is load-sensitive, while code truncation of indefinite waits is directly established",
+  "website_lag": "separate BrowserWebGPU diagnosis; this GL fix does not establish its cause"
+}

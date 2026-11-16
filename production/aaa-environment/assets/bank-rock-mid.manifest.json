@@ -1,0 +1,354 @@
+{
+  "id": "bank-rock-mid",
+  "epistemic_class": "authored-artwork",
+  "description": "Native authored shape study, not species or measured geology claim",
+  "native": {
+    "bytes": 26912,
+    "key": "bank-rock-mid.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\bank-rock-mid.10d",
+    "sha256": "4391835caf0cab1495b2370473b24f4f0f152e1672f02488f2a655422f12869e",
+    "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/bank-rock-mid.10d"
+  },
+  "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\bank-rock-mid.mesh.json",
+  "mesh_sha256": "dc24491ad74c33f42f99fb1dd2764859b32215e9de4d295a7f8e6caa885446da",
+  "textures": {
+    "colour": {
+      "bytes": 45718,
+      "key": "colour.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\colour.png",
+      "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+      "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/colour.png"
+    },
+    "normal": {
+      "bytes": 59852,
+      "key": "normal.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\normal.png",
+      "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+      "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/normal.png"
+    },
+    "orm": {
+      "bytes": 15539,
+      "key": "orm.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\orm.png",
+      "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+      "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/orm.png"
+    }
+  },
+  "geometry_recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\bank-rock-mid.vibe",
+  "surface_recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\bank-rock-mid-surface.vibe",
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "bb6ef2aab7ae89a88f8ae53a88a5bd9fca3a7c9d661075997dce816a76d40a89",
+    "package_sha256": "3b1b35d048bd5900f7aa39e2b6896f3ca06056653c9eb2c232fbc06f0a74fcdb",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 70147,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-a707d9df8b3b.hmc",
+        "sha256": "3b1b35d048bd5900f7aa39e2b6896f3ca06056653c9eb2c232fbc06f0a74fcdb"
+      },
+      "inputs": [],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499975844,
+        "effective_host_bytes": 267662464,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097152,
+        "source_bytes": 6039,
+        "source_reservation_bytes": 772992,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 24156,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 63567,
+          "key": "weathered-bedding.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-a707d9df8b3b\\weathered-bedding.dxf",
+          "sha256": "c251353fe8cdb7d46308672658bc17b3af22903e6a0e03405c89c00312681083",
+          "url": "/artifacts/bank-rock-mid-a707d9df8b3b/weathered-bedding.dxf"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "5dda524cda81e8b67e2d586e4dd7cb89d45e6f038457edbd7150962611056662",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 63567,
+        "key": "weathered-bedding.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c251353fe8cdb7d46308672658bc17b3af22903e6a0e03405c89c00312681083"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-a707d9df8b3b.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/bank-rock-mid-a707d9df8b3b.hmc",
+    "receipt_url": "/artifacts/bank-rock-mid-a707d9df8b3b.json"
+  },
+  "surface_production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "c9f94735d04ff70126d99cac2a04e1b6e0acd6cea2d0c06622adf386ec520350",
+    "package_sha256": "05bb5bb8824cc696829310f7922fa39e6735b5a6ca9ab0170909d000bf3048c4",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 331305,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2.hmc",
+        "sha256": "05bb5bb8824cc696829310f7922fa39e6735b5a6ca9ab0170909d000bf3048c4"
+      },
+      "inputs": [
+        {
+          "bytes": 11163,
+          "key": "geometry.obj",
+          "kind": "obj",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\bank-rock-mid.obj",
+          "sha256": "e26192d480f2f3b46b388bc9b911264d175545bdf42c94d275cf45c0be3b472f"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499994540,
+        "effective_host_bytes": 268260736,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097064,
+        "source_bytes": 1365,
+        "source_reservation_bytes": 174720,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 5460,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 26912,
+          "key": "bank-rock-mid.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\bank-rock-mid.10d",
+          "sha256": "4391835caf0cab1495b2370473b24f4f0f152e1672f02488f2a655422f12869e",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/bank-rock-mid.10d"
+        },
+        {
+          "bytes": 726,
+          "key": "bsdf.json",
+          "kind": "json",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\bsdf.json",
+          "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/bsdf.json"
+        },
+        {
+          "bytes": 45718,
+          "key": "colour.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\colour.png",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/colour.png"
+        },
+        {
+          "bytes": 59852,
+          "key": "normal.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\normal.png",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/normal.png"
+        },
+        {
+          "bytes": 15539,
+          "key": "orm.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\orm.png",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/orm.png"
+        },
+        {
+          "bytes": 45718,
+          "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\textures\\sha256\\4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+        },
+        {
+          "bytes": 59852,
+          "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\textures\\sha256\\c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+        },
+        {
+          "bytes": 15539,
+          "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\textures\\sha256\\f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+        },
+        {
+          "bytes": 46602,
+          "key": "uv.svg",
+          "kind": "svg",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\uv.svg",
+          "sha256": "9bbdb2429a0fb9f0bdc1066832c604ff606122cd96c9a951ec4c4c3ca87773e1",
+          "url": "/artifacts/bank-rock-mid-surface-b18c148202e2/uv.svg"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "60f29710857eb160df40a49c7b33ae6b728cb39587b0ede41d42b4ca8a76999e",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 26912,
+        "key": "bank-rock-mid.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "4391835caf0cab1495b2370473b24f4f0f152e1672f02488f2a655422f12869e"
+      },
+      {
+        "bytes": 726,
+        "key": "bsdf.json",
+        "kind": "json",
+        "modality": "data",
+        "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109"
+      },
+      {
+        "bytes": 45718,
+        "key": "colour.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+      },
+      {
+        "bytes": 59852,
+        "key": "normal.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+      },
+      {
+        "bytes": 15539,
+        "key": "orm.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+      },
+      {
+        "bytes": 45718,
+        "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+      },
+      {
+        "bytes": 59852,
+        "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+      },
+      {
+        "bytes": 15539,
+        "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+      },
+      {
+        "bytes": 46602,
+        "key": "uv.svg",
+        "kind": "svg",
+        "modality": "vector",
+        "sha256": "9bbdb2429a0fb9f0bdc1066832c604ff606122cd96c9a951ec4c4c3ca87773e1"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/bank-rock-mid-surface-b18c148202e2.hmc",
+    "receipt_url": "/artifacts/bank-rock-mid-surface-b18c148202e2.json"
+  },
+  "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\previews\\bank-rock-mid-1794798834273684200",
+  "triangles": 384,
+  "vertices": 194,
+  "bounds": {
+    "min": [
+      -1.26125,
+      -0.153437,
+      -0.905708
+    ],
+    "max": [
+      1.506386,
+      0.965928,
+      0.855318
+    ]
+  },
+  "strict_replay_verified": true,
+  "review_status": "pending actual image inspection"
+}

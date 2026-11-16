@@ -1,0 +1,120 @@
+{
+  "projection": {
+    "bounds_max": [
+      0.8537529706954956,
+      1.3599200248718262,
+      0.7597020268440247
+    ],
+    "bounds_min": [
+      -0.7325929999351501,
+      -0.006147999782115221,
+      -0.7617989778518677
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 3.6518564224243164,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      0.06057998538017273,
+      0.6768860220909119,
+      -0.0010484755039215088
+    ],
+    "colors": "absent-renderer-default",
+    "lighting": {
+      "ambient_intensity": 0.44999998807907104,
+      "clear_color": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "direct_intensity": 1.7999999523162842,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        0.40824830532073975,
+        0.8164966106414795,
+        0.40824830532073975
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 3.6518564224243164,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.75,
+    "shadows_available": true,
+    "tangents": "authored",
+    "texture_coordinates": "authored-UV01",
+    "triangle_count": 3528,
+    "vertex_count": 1848,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "renderer": "QualiaDB webizen-render::VolumetricRenderer / PortalGpu native offscreen path",
+  "schema": "synth.native-10d-preview/v1",
+  "scope": "native readback PNG projection; not model acceptance or an adapter capability receipt",
+  "source": {
+    "bytes": 232592,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\shrub-branches.10d",
+    "sha256": "9b849ac2b85c0cbfef777a4f0a4ebb5285be4d4a03655d1e07f2d37fd576de82"
+  },
+  "textures": {
+    "asset_key": "outputs/shrub-branches.10d",
+    "hmc_sha256": "be44ad93e7e7f0431decdfabbc6e9d3e0a677e5c16203ecb663187f350e7849b",
+    "requested": 3,
+    "resident": 3
+  },
+  "views": [
+    {
+      "bytes": 210634,
+      "camera_distance_applied": 3.6518564224243164,
+      "camera_distance_requested": 3.6518564224243164,
+      "camera_pitch": 0.2800000011920929,
+      "camera_target": [
+        0.06057998538017273,
+        0.6768860220909119,
+        -0.0010484755039215088
+      ],
+      "camera_yaw": 0.7200000286102295,
+      "file": "three-quarter-view-assumed.png",
+      "height": 2048,
+      "sha256": "1f2ac8c0b7ff90210547f3292fa440f366e50548a16d3f0e5d2fbaae80fe951b",
+      "width": 2048
+    },
+    {
+      "bytes": 207628,
+      "camera_distance_applied": 3.6518564224243164,
+      "camera_distance_requested": 3.6518564224243164,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.06057998538017273,
+        0.6768860220909119,
+        -0.0010484755039215088
+      ],
+      "camera_yaw": 1.5707963705062866,
+      "file": "side-view-assumed.png",
+      "height": 2048,
+      "sha256": "75485d727fc33f393761d63baf6a95459bd49518453698798712ce61ae2c9221",
+      "width": 2048
+    },
+    {
+      "bytes": 229366,
+      "camera_distance_applied": 3.6518564224243164,
+      "camera_distance_requested": 3.6518564224243164,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.06057998538017273,
+        0.6768860220909119,
+        -0.0010484755039215088
+      ],
+      "camera_yaw": 0.0,
+      "file": "front-view-assumed.png",
+      "height": 2048,
+      "sha256": "42700972954e4227989a80f3183193961903588601c4389382d08c67e77b7bde",
+      "width": 2048
+    }
+  ]
+}

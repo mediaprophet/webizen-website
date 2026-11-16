@@ -1,0 +1,9 @@
+requires [capability("capability.invoke")];
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:"geometry.obj",format:"obj"});
+let uv=capability.invoke("hypermedia.surface.unwrap_slim",{mesh:geometry,mode:"slim",iterations:8});
+let tangent=capability.invoke("hypermedia.surface.compute_mikktspace",{mesh:geometry,uvs:uv.uvs});
+let texfield=capability.invoke("hypermedia.surface.synthesize_maps",{seed:318,tint:[0.59,0.56,0.47],relief:0.012,bands:[15,2],band_strength:0.22,side:256,contrast:0.25,roughness:0.94,metallic:0});
+let maps=capability.invoke("hypermedia.surface.pack_pbr_set",{colour:texfield.colour,normal:texfield.normal,orm:texfield.orm});
+let bsdf=capability.invoke("hypermedia.surface.compile_bsdf_graph",{closure:"principled_v2",base_color:[1.0,1.0,1.0],roughness:1.0,metallic:0.0,coat_weight:0.0,ior:1.5});
+let model=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry,source_10d:uv.container_10d,tangents:tangent.tangents,bsdf_graph:bsdf.bsdf_json,colour_map:maps.colour,normal_map:maps.normal,orm_map:maps.orm,topology:false,spatial_index:true});
+let mut asset={files:[{key:"bank-rock-mid.10d",resource:model},{key:"colour.png",resource:maps.colour},{key:"normal.png",resource:maps.normal},{key:"orm.png",resource:maps.orm},{key:"uv.svg",resource:uv.uv_chart_svg},{key:"bsdf.json",resource:bsdf.bsdf_json}]};

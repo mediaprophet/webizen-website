@@ -1,0 +1,27 @@
+{
+  "schema": "webizen.source-terms-review/v1",
+  "reviewed_date": "2026-11-16",
+  "records": [
+    {
+      "id": "schemaorg30",
+      "source": "https://schema.org/docs/terms.html",
+      "licence": "CC BY-SA3.0",
+      "application": "Original graph vocabulary attribution/source and sourceNT retained; no newlicence claim."
+    },
+    {
+      "id": "terrarium",
+      "registry": "https://registry.opendata.aws/terrain-tiles/",
+      "source": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "licence": "Provider-specific; Australian LiDAR DEM linkedCCBY4.0; complete native compositeattribution retained",
+      "ecopunk_register": "docs/planning/tech/engine-capabilities.md:197 and docs/planning/data-sources/australia.md",
+      "application": "Boundedpublicreference;4XYZPNGs; noprivategeocoding, actualsourcebundleembedded."
+    },
+    {
+      "id": "jpl",
+      "source": "https://ssd.jpl.nasa.gov/faq.html",
+      "documentation": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "rights": "SSDFAQ identifiesprovideddata aspublicdomain; NASA/JPL Horizons credited",
+      "application": "ActualAPIresponses reportversion1.2 (retainactualsignature, notdocumentationversion1.3),4vectors total; noendorsement."
+    }
+  ]
+}

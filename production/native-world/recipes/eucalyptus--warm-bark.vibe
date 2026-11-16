@@ -1,0 +1,5 @@
+requires [capability("capability.invoke")];
+let world={id:"eucalyptus--warm-bark",asset:"eucalyptus",material:44,instances:[{id:"eucalyptus-1",rotation:[0.0,0.149438,0.0,0.988771],scale:[0.95,0.95,0.95],translation:[-35.0,6.74431,19.0]},{id:"eucalyptus-2",rotation:[0.0,0.75128,0.0,0.659983],scale:[1.05,1.05,1.05],translation:[-24.0,4.026905,11.0]},{id:"eucalyptus-3",rotation:[0.0,0.932039,0.0,0.362358],scale:[0.85,0.85,0.85],translation:[-10.0,2.952905,16.0]},{id:"eucalyptus-4",rotation:[0.0,0.999574,0.0,-0.0292],scale:[1.0,1.0,1.0],translation:[-38.0,7.135853,32.0]},{id:"eucalyptus-5",rotation:[0.0,0.808496,0.0,-0.588501],scale:[0.8,0.8,0.8],translation:[-35.0,6.884187,44.0]},{id:"eucalyptus-6",rotation:[0.0,0.515501,0.0,-0.856889],scale:[0.9,0.9,0.9],translation:[-18.0,2.869817,4.0]}],input:"world.glb"};
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:world.input,format:"glb"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry});
+let mut asset={files:[{key:"eucalyptus--warm-bark.10d",resource:native}]};

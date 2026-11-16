@@ -1,0 +1,871 @@
+{
+  "schema": "webizen.native-prototype-inventory/v1",
+  "purpose": "Concrete native per-prototype instancing integration input; not completed GPU batch support or performance acceptance.",
+  "frame": "local prototype Y-up metres; placement transforms in existing fictional catchment metres",
+  "placements": {
+    "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\placement-evaluation.json",
+    "sha256": "e7fe47bea1f4d2a3c35960e76396da82007e6210886a0680e267e96288c38859",
+    "quaternion_order": "xyzw",
+    "matrix_convention": "compose translation * rotation * scale, then common scene orbit frame exactly once"
+  },
+  "prototype_count": 9,
+  "instance_count": 367,
+  "abi_version_observed": 2,
+  "instance_record_bytes_observed": 128,
+  "instance_bytes_arithmetic": 46976,
+  "prototypes": [
+    {
+      "id": "eucalyptus-mid",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-8000.json",
+        "sha256": "63bcdd013b7b772d9261ecf33aea9470a281e573f830cc6d6c1925c172ade225"
+      },
+      "native_prototype": null,
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-8000.vibe",
+        "sha256": "32192658ad57d9331b5a0c33d952da2ed462bce340612dce3ce6a80f2b6cdef1"
+      },
+      "strict_replay_verified": true,
+      "triangles": 7992,
+      "source_vertices": 6462,
+      "material_names": [
+        "pale-bark",
+        "warm-bark",
+        "old-bark",
+        "twig",
+        "leaf-olive",
+        "leaf-blue",
+        "leaf-young"
+      ],
+      "textures": [],
+      "local_bounds": {
+        "min": [
+          -6.1178527,
+          -0.110919885,
+          -5.184638
+        ],
+        "max": [
+          6.123888,
+          14.31479,
+          5.931613
+        ]
+      },
+      "placement_asset_key": "eucalyptus-mid",
+      "placement_ids": [
+        "eucalyptus-mid-0",
+        "eucalyptus-mid-1",
+        "eucalyptus-mid-2",
+        "eucalyptus-mid-3",
+        "eucalyptus-mid-4",
+        "eucalyptus-mid-5",
+        "eucalyptus-mid-6",
+        "eucalyptus-mid-7",
+        "eucalyptus-mid-8",
+        "eucalyptus-mid-9",
+        "eucalyptus-mid-10",
+        "eucalyptus-mid-11",
+        "eucalyptus-mid-12",
+        "eucalyptus-mid-13",
+        "eucalyptus-mid-14",
+        "eucalyptus-mid-15",
+        "eucalyptus-mid-16",
+        "eucalyptus-mid-17",
+        "eucalyptus-mid-18",
+        "eucalyptus-mid-19",
+        "eucalyptus-mid-20",
+        "eucalyptus-mid-21",
+        "eucalyptus-mid-22",
+        "eucalyptus-mid-23",
+        "eucalyptus-mid-24",
+        "eucalyptus-mid-25",
+        "eucalyptus-mid-26",
+        "eucalyptus-mid-27",
+        "eucalyptus-mid-28",
+        "eucalyptus-mid-29",
+        "eucalyptus-mid-30",
+        "eucalyptus-mid-31",
+        "eucalyptus-mid-33",
+        "eucalyptus-mid-34",
+        "eucalyptus-mid-37",
+        "eucalyptus-mid-38",
+        "eucalyptus-mid-39",
+        "eucalyptus-mid-40",
+        "eucalyptus-mid-41",
+        "eucalyptus-mid-44",
+        "eucalyptus-mid-50",
+        "eucalyptus-mid-51",
+        "eucalyptus-mid-57",
+        "eucalyptus-mid-63",
+        "eucalyptus-mid-70",
+        "eucalyptus-mid-72",
+        "eucalyptus-mid-78",
+        "eucalyptus-mid-82",
+        "eucalyptus-mid-83",
+        "eucalyptus-mid-84",
+        "eucalyptus-mid-85",
+        "eucalyptus-mid-86",
+        "eucalyptus-mid-87",
+        "eucalyptus-mid-88",
+        "eucalyptus-mid-89",
+        "eucalyptus-mid-90",
+        "eucalyptus-mid-91",
+        "eucalyptus-mid-93",
+        "eucalyptus-mid-94",
+        "eucalyptus-mid-95",
+        "eucalyptus-mid-96",
+        "eucalyptus-mid-97",
+        "eucalyptus-mid-98",
+        "eucalyptus-mid-99",
+        "eucalyptus-mid-100",
+        "eucalyptus-mid-101",
+        "eucalyptus-mid-102",
+        "eucalyptus-mid-103",
+        "eucalyptus-mid-104",
+        "eucalyptus-mid-105",
+        "eucalyptus-mid-106",
+        "eucalyptus-mid-107",
+        "eucalyptus-mid-108",
+        "eucalyptus-mid-109",
+        "eucalyptus-mid-110",
+        "eucalyptus-mid-111",
+        "eucalyptus-mid-112",
+        "eucalyptus-mid-113",
+        "eucalyptus-mid-114",
+        "eucalyptus-mid-115",
+        "eucalyptus-mid-116",
+        "eucalyptus-mid-117",
+        "eucalyptus-mid-118",
+        "eucalyptus-mid-119",
+        "eucalyptus-mid-120",
+        "eucalyptus-mid-121",
+        "eucalyptus-mid-122",
+        "eucalyptus-mid-123",
+        "eucalyptus-mid-124",
+        "eucalyptus-mid-125"
+      ],
+      "instance_count": 90,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native simplified exact face source available; standalone attributed prototype must be sealed and attested for new batch admission."
+    },
+    {
+      "id": "eucalyptus-near",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000.json",
+        "sha256": "dffd465957009c587064029d001885ce276b1a8e27204682fb9010d638005538"
+      },
+      "native_prototype": null,
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000.vibe",
+        "sha256": "da0868d085c917ec08d9fc7ff32caf2d11d441639c09855e660c5ea65ba0fb8c"
+      },
+      "strict_replay_verified": true,
+      "triangles": 39994,
+      "source_vertices": 24205,
+      "material_names": [
+        "pale-bark",
+        "warm-bark",
+        "old-bark",
+        "twig",
+        "leaf-olive",
+        "leaf-blue",
+        "leaf-young"
+      ],
+      "textures": [],
+      "local_bounds": {
+        "min": [
+          -6.128244,
+          -0.11007708,
+          -5.195251
+        ],
+        "max": [
+          6.1262884,
+          14.318154,
+          5.931548
+        ]
+      },
+      "placement_asset_key": "eucalyptus-near",
+      "placement_ids": [
+        "eucalyptus-near-126",
+        "eucalyptus-near-127",
+        "eucalyptus-near-128"
+      ],
+      "instance_count": 3,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native simplified exact face source available; standalone attributed prototype must be sealed and attested for new batch admission."
+    },
+    {
+      "id": "bank-rock-mid",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\bank-rock-mid.mesh.json",
+        "sha256": "dc24491ad74c33f42f99fb1dd2764859b32215e9de4d295a7f8e6caa885446da"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\bank-rock-mid.10d",
+        "sha256": "4391835caf0cab1495b2370473b24f4f0f152e1672f02488f2a655422f12869e",
+        "bytes": 26912
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\bank-rock-mid-surface.vibe",
+        "sha256": "7e1a341de5c9da72d7ba64beadcbf74490d08ba7d22c19c8f8de3ef065deb0bc"
+      },
+      "strict_replay_verified": true,
+      "triangles": 384,
+      "source_vertices": 194,
+      "material_names": [
+        "stone"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\colour.png",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\normal.png",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-mid-surface-b18c148202e2\\orm.png",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -1.26125,
+          -0.153437,
+          -0.905708
+        ],
+        "max": [
+          1.506386,
+          0.965928,
+          0.855318
+        ]
+      },
+      "placement_asset_key": "bank-rock-mid",
+      "placement_ids": [
+        "bank-rock-mid-131",
+        "bank-rock-mid-132",
+        "bank-rock-mid-133",
+        "bank-rock-mid-136",
+        "bank-rock-mid-137",
+        "bank-rock-mid-139",
+        "bank-rock-mid-140",
+        "bank-rock-mid-141",
+        "bank-rock-mid-143",
+        "bank-rock-mid-144",
+        "bank-rock-mid-145",
+        "bank-rock-mid-147",
+        "bank-rock-mid-148",
+        "bank-rock-mid-149",
+        "bank-rock-mid-152",
+        "bank-rock-mid-153",
+        "bank-rock-mid-155",
+        "bank-rock-mid-156",
+        "bank-rock-mid-160",
+        "bank-rock-mid-161",
+        "bank-rock-mid-163",
+        "bank-rock-mid-164",
+        "bank-rock-mid-165",
+        "bank-rock-mid-167",
+        "bank-rock-mid-168",
+        "bank-rock-mid-169",
+        "bank-rock-mid-172",
+        "bank-rock-mid-173",
+        "bank-rock-mid-176",
+        "bank-rock-mid-177",
+        "bank-rock-mid-179",
+        "bank-rock-mid-180",
+        "bank-rock-mid-181",
+        "bank-rock-mid-183",
+        "bank-rock-mid-184",
+        "bank-rock-mid-185",
+        "bank-rock-mid-188",
+        "bank-rock-mid-189",
+        "bank-rock-mid-191",
+        "bank-rock-mid-193",
+        "bank-rock-mid-196",
+        "bank-rock-mid-199",
+        "bank-rock-mid-200",
+        "bank-rock-mid-201",
+        "bank-rock-mid-203",
+        "bank-rock-mid-204",
+        "bank-rock-mid-205",
+        "bank-rock-mid-207",
+        "bank-rock-mid-208",
+        "bank-rock-mid-209",
+        "bank-rock-mid-211",
+        "bank-rock-mid-212",
+        "bank-rock-mid-213",
+        "bank-rock-mid-215",
+        "bank-rock-mid-217",
+        "bank-rock-mid-219"
+      ],
+      "instance_count": 56,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    },
+    {
+      "id": "bank-rock-near",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\bank-rock-near.mesh.json",
+        "sha256": "5023bc753c10b8c4adf4982c47d03ae7f8e4fff0a9fbc1da35d64f5ad22af135"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-near-surface-e4601d0b8ac7\\bank-rock-near.10d",
+        "sha256": "84e388be79be8d0e537c3227c5eb99b155248e44c8ada60e3e83c7d00f18aecc",
+        "bytes": 141344
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\bank-rock-near-surface.vibe",
+        "sha256": "35b93c1d59aeb735f5cdbc16dcd38c6b43fe92dd59e7f91e58dda35a426fea8b"
+      },
+      "strict_replay_verified": true,
+      "triangles": 2176,
+      "source_vertices": 1090,
+      "material_names": [
+        "stone"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-near-surface-e4601d0b8ac7\\colour.png",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-near-surface-e4601d0b8ac7\\normal.png",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-near-surface-e4601d0b8ac7\\orm.png",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -1.2150664,
+          -0.1431,
+          -0.99999064
+        ],
+        "max": [
+          1.4374058,
+          0.90085,
+          0.87403977
+        ]
+      },
+      "placement_asset_key": "bank-rock-near",
+      "placement_ids": [
+        "bank-rock-near-150",
+        "bank-rock-near-154",
+        "bank-rock-near-158",
+        "bank-rock-near-162",
+        "bank-rock-near-166",
+        "bank-rock-near-170",
+        "bank-rock-near-174",
+        "bank-rock-near-178",
+        "bank-rock-near-182",
+        "bank-rock-near-190",
+        "bank-rock-near-194",
+        "bank-rock-near-198",
+        "bank-rock-near-206",
+        "bank-rock-near-214",
+        "bank-rock-near-218"
+      ],
+      "instance_count": 15,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    },
+    {
+      "id": "grass-near",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\grass-near.mesh.json",
+        "sha256": "efe29c6ce979424560d3843fce8aa0563e333931781c7aa13e8f677231054265"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-near-surface-259ba85b8d01\\grass-near.10d",
+        "sha256": "42bdbac990bd4ef06a2fc6b6a597772e23e4d1045830a016e63e3aefb19afd49",
+        "bytes": 633664
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\grass-near-surface.vibe",
+        "sha256": "a623e2605237b30c01e327db3db618674b419d1654af6734f524190575816253"
+      },
+      "strict_replay_verified": true,
+      "triangles": 9188,
+      "source_vertices": 4798,
+      "material_names": [
+        "grass"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-near-surface-259ba85b8d01\\colour.png",
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-near-surface-259ba85b8d01\\normal.png",
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-near-surface-259ba85b8d01\\orm.png",
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -0.848311,
+          -0.001,
+          -0.89118
+        ],
+        "max": [
+          0.931623,
+          0.95014,
+          0.729839
+        ]
+      },
+      "placement_asset_key": "grass-near",
+      "placement_ids": [
+        "grass-near-220",
+        "grass-near-226",
+        "grass-near-244",
+        "grass-near-250",
+        "grass-near-256",
+        "grass-near-262",
+        "grass-near-274",
+        "grass-near-280",
+        "grass-near-286",
+        "grass-near-292",
+        "grass-near-304",
+        "grass-near-310",
+        "grass-near-328",
+        "grass-near-340",
+        "grass-near-346",
+        "grass-near-352",
+        "grass-near-358",
+        "grass-near-370",
+        "grass-near-376",
+        "grass-near-382",
+        "grass-near-388",
+        "grass-near-394",
+        "grass-near-412",
+        "grass-near-418",
+        "grass-near-436",
+        "grass-near-442",
+        "grass-near-448"
+      ],
+      "instance_count": 27,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    },
+    {
+      "id": "grass-mid",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\grass-mid.mesh.json",
+        "sha256": "9f20914d5b0f933c41c26e4f29ed59e5e6da693b734a167937c16b9a887c4eaa"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\grass-mid.10d",
+        "sha256": "bd47e8305d97569c34fc7caa762c647c9bcd7ba83de0478128548c49c6440528",
+        "bytes": 223904
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\grass-mid-surface.vibe",
+        "sha256": "86b3634c6a2b296f99022d2dbf5528975c425536516a6575ab2f85770117564c"
+      },
+      "strict_replay_verified": true,
+      "triangles": 3268,
+      "source_vertices": 1750,
+      "material_names": [
+        "grass"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\colour.png",
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\normal.png",
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\orm.png",
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -0.825253,
+          -0.001,
+          -0.89118
+        ],
+        "max": [
+          0.931623,
+          0.95014,
+          0.697955
+        ]
+      },
+      "placement_asset_key": "grass-mid",
+      "placement_ids": [
+        "grass-mid-221",
+        "grass-mid-222",
+        "grass-mid-223",
+        "grass-mid-225",
+        "grass-mid-227",
+        "grass-mid-233",
+        "grass-mid-234",
+        "grass-mid-235",
+        "grass-mid-237",
+        "grass-mid-239",
+        "grass-mid-240",
+        "grass-mid-241",
+        "grass-mid-242",
+        "grass-mid-245",
+        "grass-mid-247",
+        "grass-mid-248",
+        "grass-mid-249",
+        "grass-mid-251",
+        "grass-mid-252",
+        "grass-mid-253",
+        "grass-mid-255",
+        "grass-mid-260",
+        "grass-mid-261",
+        "grass-mid-263",
+        "grass-mid-264",
+        "grass-mid-265",
+        "grass-mid-266",
+        "grass-mid-267",
+        "grass-mid-270",
+        "grass-mid-271",
+        "grass-mid-272",
+        "grass-mid-273",
+        "grass-mid-275",
+        "grass-mid-276",
+        "grass-mid-277",
+        "grass-mid-279",
+        "grass-mid-281",
+        "grass-mid-282",
+        "grass-mid-283",
+        "grass-mid-285",
+        "grass-mid-287",
+        "grass-mid-288",
+        "grass-mid-290",
+        "grass-mid-293",
+        "grass-mid-294",
+        "grass-mid-297",
+        "grass-mid-299",
+        "grass-mid-300",
+        "grass-mid-301",
+        "grass-mid-302",
+        "grass-mid-305",
+        "grass-mid-306",
+        "grass-mid-308",
+        "grass-mid-309",
+        "grass-mid-312",
+        "grass-mid-313",
+        "grass-mid-314",
+        "grass-mid-315",
+        "grass-mid-318",
+        "grass-mid-319",
+        "grass-mid-323",
+        "grass-mid-325",
+        "grass-mid-326",
+        "grass-mid-327",
+        "grass-mid-331",
+        "grass-mid-333",
+        "grass-mid-335",
+        "grass-mid-336",
+        "grass-mid-337",
+        "grass-mid-338",
+        "grass-mid-339",
+        "grass-mid-341",
+        "grass-mid-343",
+        "grass-mid-344",
+        "grass-mid-345",
+        "grass-mid-348",
+        "grass-mid-349",
+        "grass-mid-353",
+        "grass-mid-355",
+        "grass-mid-356",
+        "grass-mid-357",
+        "grass-mid-359",
+        "grass-mid-360",
+        "grass-mid-361",
+        "grass-mid-363",
+        "grass-mid-365",
+        "grass-mid-367",
+        "grass-mid-368",
+        "grass-mid-369",
+        "grass-mid-371",
+        "grass-mid-372",
+        "grass-mid-373",
+        "grass-mid-374",
+        "grass-mid-375",
+        "grass-mid-379",
+        "grass-mid-381",
+        "grass-mid-383",
+        "grass-mid-384",
+        "grass-mid-385",
+        "grass-mid-386",
+        "grass-mid-389",
+        "grass-mid-391",
+        "grass-mid-392",
+        "grass-mid-393",
+        "grass-mid-396",
+        "grass-mid-397",
+        "grass-mid-398",
+        "grass-mid-401",
+        "grass-mid-402",
+        "grass-mid-403",
+        "grass-mid-404",
+        "grass-mid-405",
+        "grass-mid-407",
+        "grass-mid-409",
+        "grass-mid-415",
+        "grass-mid-416",
+        "grass-mid-417",
+        "grass-mid-420",
+        "grass-mid-421",
+        "grass-mid-422",
+        "grass-mid-423",
+        "grass-mid-425",
+        "grass-mid-427",
+        "grass-mid-428",
+        "grass-mid-431",
+        "grass-mid-432",
+        "grass-mid-439",
+        "grass-mid-440",
+        "grass-mid-441",
+        "grass-mid-443",
+        "grass-mid-445",
+        "grass-mid-446",
+        "grass-mid-447",
+        "grass-mid-449"
+      ],
+      "instance_count": 134,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    },
+    {
+      "id": "shrub-branches",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\shrub-branches.mesh.json",
+        "sha256": "1a96d686362535239da5fbae7d797df65beec399c013c2f30a5777a5229cfa7f"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\shrub-branches.10d",
+        "sha256": "9b849ac2b85c0cbfef777a4f0a4ebb5285be4d4a03655d1e07f2d37fd576de82",
+        "bytes": 232592
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-branches-surface.vibe",
+        "sha256": "96b53209b9f80735fb92ba2d816b30427a47939952292eafb1f41a43efaa017d"
+      },
+      "strict_replay_verified": true,
+      "triangles": 3528,
+      "source_vertices": 1848,
+      "material_names": [
+        "twig"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\colour.png",
+          "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\normal.png",
+          "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-branches-surface-418a27b27bf4\\orm.png",
+          "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -0.732593,
+          -0.006148,
+          -0.761799
+        ],
+        "max": [
+          0.853753,
+          1.35992,
+          0.759702
+        ]
+      },
+      "placement_asset_key": "shrub-branches",
+      "placement_ids": [
+        "shrub-branches-450",
+        "shrub-branches-456",
+        "shrub-branches-458",
+        "shrub-branches-460",
+        "shrub-branches-462",
+        "shrub-branches-464",
+        "shrub-branches-466",
+        "shrub-branches-470",
+        "shrub-branches-478",
+        "shrub-branches-480",
+        "shrub-branches-482",
+        "shrub-branches-488",
+        "shrub-branches-490",
+        "shrub-branches-494"
+      ],
+      "instance_count": 14,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    },
+    {
+      "id": "shrub-leaves",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\shrub-leaves.mesh.json",
+        "sha256": "8cb299862075152009dc6e11815c248edcb338221be28f066d7f4cbea25f6473"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\shrub-leaves.10d",
+        "sha256": "c8cf563369cd6e61b1e8b3199f7af28df1de68806c2309d10d929a533f7fafc4",
+        "bytes": 945856
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-leaves-surface.vibe",
+        "sha256": "fb93686c511abbb944c7f7625e3a7a53b519dafdfaaf7984f80491aa764bc51e"
+      },
+      "strict_replay_verified": true,
+      "triangles": 14000,
+      "source_vertices": 7700,
+      "material_names": [
+        "shrub-leaf"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\colour.png",
+          "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\normal.png",
+          "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\orm.png",
+          "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -0.763918,
+          0.335394,
+          -0.857726
+        ],
+        "max": [
+          0.9184,
+          1.285535,
+          0.748904
+        ]
+      },
+      "placement_asset_key": "shrub-leaves",
+      "placement_ids": [
+        "shrub-leaves-451",
+        "shrub-leaves-457",
+        "shrub-leaves-459",
+        "shrub-leaves-461",
+        "shrub-leaves-463",
+        "shrub-leaves-465",
+        "shrub-leaves-467",
+        "shrub-leaves-471",
+        "shrub-leaves-479",
+        "shrub-leaves-481",
+        "shrub-leaves-483",
+        "shrub-leaves-489",
+        "shrub-leaves-491",
+        "shrub-leaves-495"
+      ],
+      "instance_count": 14,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    },
+    {
+      "id": "leaf-litter",
+      "source_mesh": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\leaf-litter.mesh.json",
+        "sha256": "54f84fb5ab00c15aa4d923b5b246bd10da26f6a516459be5cbbda9f98184c84e"
+      },
+      "native_prototype": {
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-surface-96421d645457\\leaf-litter.10d",
+        "sha256": "2f28d903971644812cb312907b5dbd7b2047fa642440608d962de650de3aba0c",
+        "bytes": 108800
+      },
+      "source_recipe": {
+        "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\leaf-litter-surface.vibe",
+        "sha256": "ce2a416ef39f832def3db504763ac40bb2b82b560b693d310ceb9621e366db20"
+      },
+      "strict_replay_verified": true,
+      "triangles": 1520,
+      "source_vertices": 836,
+      "material_names": [
+        "litter"
+      ],
+      "textures": [
+        {
+          "role": "colour",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-surface-96421d645457\\colour.png",
+          "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7"
+        },
+        {
+          "role": "normal",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-surface-96421d645457\\normal.png",
+          "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4"
+        },
+        {
+          "role": "orm",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-surface-96421d645457\\orm.png",
+          "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352"
+        }
+      ],
+      "local_bounds": {
+        "min": [
+          -0.914639,
+          0.011,
+          -0.749692
+        ],
+        "max": [
+          0.930321,
+          0.054999,
+          0.716633
+        ]
+      },
+      "placement_asset_key": "leaf-litter",
+      "placement_ids": [
+        "leaf-litter-500",
+        "leaf-litter-505",
+        "leaf-litter-510",
+        "leaf-litter-512",
+        "leaf-litter-514",
+        "leaf-litter-516",
+        "leaf-litter-518",
+        "leaf-litter-522",
+        "leaf-litter-524",
+        "leaf-litter-525",
+        "leaf-litter-527",
+        "leaf-litter-528",
+        "leaf-litter-532",
+        "leaf-litter-533"
+      ],
+      "instance_count": 14,
+      "epistemic_class": "authored-artwork",
+      "admission_status": "Native UV/PBR prototype sealed; existing standalone prototype requires provenance admission attestation, as already applied to grouped derivatives."
+    }
+  ],
+  "blocker": "A21 production-readiness: current merged static payload duplicates native geometry. Existing GPU instancing providers need native per-prototype draw lifecycle wiring and measured acceptance."
+}

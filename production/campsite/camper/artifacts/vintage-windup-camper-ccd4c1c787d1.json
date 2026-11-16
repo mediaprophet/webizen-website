@@ -1,0 +1,1235 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 1775735,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1.hmc",
+    "sha256": "33a5f25dd8efdfc88a757fa760f7e7b4130f961f59fe5e565a5cc82d28872f70"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499292804,
+    "effective_host_bytes": 245805184,
+    "evaluation_steps": 707196,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 176799,
+    "source_reservation_bytes": 22630272,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 707196,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 2138,
+      "key": "a-frame-drawbar--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\a-frame-drawbar--1.dxf",
+      "sha256": "25b0511d264cc067d2117e577b23daa1f96e3dd7ea10f5644b4615bf3fe1e407"
+    },
+    {
+      "bytes": 2106,
+      "key": "a-frame-drawbar-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\a-frame-drawbar-1.dxf",
+      "sha256": "61422809ae737f34776e47a124cb9007a9b8a3c9d38cb56214690c6a69f9d62a"
+    },
+    {
+      "bytes": 3844,
+      "key": "canvas-window--1--0.91-mesh--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-mesh--1.dxf",
+      "sha256": "a3a25ee04ef6977fffe5020dfe25b3bbc5857317fa7b8ead8441390fc98877ad"
+    },
+    {
+      "bytes": 3764,
+      "key": "canvas-window--1--0.91-mesh-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-mesh-0.dxf",
+      "sha256": "cf62fffccf1725a9acc0c543da4cd886c42190301c3ae74e379ddc4f5d5a2308"
+    },
+    {
+      "bytes": 3844,
+      "key": "canvas-window--1--0.91-mesh-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-mesh-1.dxf",
+      "sha256": "34d03f024c668f57ad9a288bf1fdb54dbdfc1fcf921e6e0a272a3600cd07dec0"
+    },
+    {
+      "bytes": 3860,
+      "key": "canvas-window--1--0.91-mesh-cross.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-mesh-cross.dxf",
+      "sha256": "cb6cbb5a5a4c4ae089c32bbd5574a9b0ab0af35aad14504ab426f329e42ea6b2"
+    },
+    {
+      "bytes": 2172,
+      "key": "canvas-window--1--0.91-screen.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-screen.dxf",
+      "sha256": "009281d8beaf9bdf96301e665cea6c2ea73688d55fe453ab21be444a56b1c206"
+    },
+    {
+      "bytes": 5000,
+      "key": "canvas-window--1--0.91-seam-y-1.5899999999999999.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-seam-y-1.5899999999999999.dxf",
+      "sha256": "2cd9eba969478e13fba89187e65abf37083ccaa594b1d2ee39b485f8238b342f"
+    },
+    {
+      "bytes": 5000,
+      "key": "canvas-window--1--0.91-seam-y-2.37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-seam-y-2.37.dxf",
+      "sha256": "69019e069e5ba9c4e61344456545dacf4d53afa9ee441b4c83faccf9a27abd13"
+    },
+    {
+      "bytes": 4916,
+      "key": "canvas-window--1--0.91-seam-z--0.395.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-seam-z--0.395.dxf",
+      "sha256": "3452ccc8b7a1a0319efccca679e49e9d45d98c6a71b58f62a52b33e5c6d8ac92"
+    },
+    {
+      "bytes": 4916,
+      "key": "canvas-window--1--0.91-seam-z--1.425.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1--0.91-seam-z--1.425.dxf",
+      "sha256": "d4ac0493b827a301cd69704302fd42496caa5b41d4f9832d79d7bb57b545bca4"
+    },
+    {
+      "bytes": 3748,
+      "key": "canvas-window--1-0.91-mesh--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-mesh--1.dxf",
+      "sha256": "87f739598196fc268d3cf73663173ce2b50d3ca593d79350a5c4b48dc2db178a"
+    },
+    {
+      "bytes": 3668,
+      "key": "canvas-window--1-0.91-mesh-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-mesh-0.dxf",
+      "sha256": "5419445a85ec40a9e849561c17b20a918896d1139d88285a8bcfc7e31271b88b"
+    },
+    {
+      "bytes": 3748,
+      "key": "canvas-window--1-0.91-mesh-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-mesh-1.dxf",
+      "sha256": "07fc32c4d524a44cc6add5c28aa813d105aa8d999744728602e0c096b1548b32"
+    },
+    {
+      "bytes": 3764,
+      "key": "canvas-window--1-0.91-mesh-cross.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-mesh-cross.dxf",
+      "sha256": "1b4aee06ae1354b23e12916ce28ec0d63d75a4d8eaf0667bd7aa0099b66b6e47"
+    },
+    {
+      "bytes": 2108,
+      "key": "canvas-window--1-0.91-screen.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-screen.dxf",
+      "sha256": "ac745325b06d0736198c6293dc8fef30a0acddcca5f7709b8ca3a987d648a7ad"
+    },
+    {
+      "bytes": 4872,
+      "key": "canvas-window--1-0.91-seam-y-1.5899999999999999.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-seam-y-1.5899999999999999.dxf",
+      "sha256": "4f4cdd82272692080892d6fcb4a7506e50852bd66a3dc98dfabb4bef8da6492b"
+    },
+    {
+      "bytes": 4872,
+      "key": "canvas-window--1-0.91-seam-y-2.37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-seam-y-2.37.dxf",
+      "sha256": "c8aa8a709d37d4db968482684ffae9827b3d380256ce6e0c9726f3bb967bcd79"
+    },
+    {
+      "bytes": 4788,
+      "key": "canvas-window--1-0.91-seam-z-0.395.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-seam-z-0.395.dxf",
+      "sha256": "f634515500ee564b283d111eeae6e32fc6f9f4d2af786ada34774971a093d60a"
+    },
+    {
+      "bytes": 4788,
+      "key": "canvas-window--1-0.91-seam-z-1.425.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window--1-0.91-seam-z-1.425.dxf",
+      "sha256": "bab9b6d224327d7ad8ad27903a46415039bfd3c97b7d3073a6d9619b606696e5"
+    },
+    {
+      "bytes": 3748,
+      "key": "canvas-window-1--0.91-mesh--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-mesh--1.dxf",
+      "sha256": "cb24f7f4ade098ee22b95f56d346d1c1e580c09059c4657f4c422ba55d6ca67f"
+    },
+    {
+      "bytes": 3668,
+      "key": "canvas-window-1--0.91-mesh-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-mesh-0.dxf",
+      "sha256": "990dccfb9d07ad98a2e49c8f00a0fa10b64e5f4cd08a6f0a66b0be58c79622e0"
+    },
+    {
+      "bytes": 3748,
+      "key": "canvas-window-1--0.91-mesh-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-mesh-1.dxf",
+      "sha256": "7244720af5833dd70154a134a20517a5a8571ee37fd738137ef1b5ea538824e7"
+    },
+    {
+      "bytes": 3764,
+      "key": "canvas-window-1--0.91-mesh-cross.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-mesh-cross.dxf",
+      "sha256": "e5aaaa91c82f83c1768b9201213090e1d3d86fb346aea377fbd55f36bfad257c"
+    },
+    {
+      "bytes": 2108,
+      "key": "canvas-window-1--0.91-screen.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-screen.dxf",
+      "sha256": "c4411c3a9685fc79d505fc28fc1d079e2bcdb176be7f3dcf0d671a91ab5671c2"
+    },
+    {
+      "bytes": 4872,
+      "key": "canvas-window-1--0.91-seam-y-1.5899999999999999.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-seam-y-1.5899999999999999.dxf",
+      "sha256": "fdf892ca9249d5932e37a66b4e7edb7b9d2c519535fd092001d94e2b306d5039"
+    },
+    {
+      "bytes": 4872,
+      "key": "canvas-window-1--0.91-seam-y-2.37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-seam-y-2.37.dxf",
+      "sha256": "20644e02184e4337ff418c361ff9991f1cda5b4f02cb5bfdde0d47a864ee724d"
+    },
+    {
+      "bytes": 4788,
+      "key": "canvas-window-1--0.91-seam-z--0.395.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-seam-z--0.395.dxf",
+      "sha256": "2ce27fe6e859282bbead81ba3cc51da08e30112663c7d6434e98161748b14cd8"
+    },
+    {
+      "bytes": 4788,
+      "key": "canvas-window-1--0.91-seam-z--1.425.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1--0.91-seam-z--1.425.dxf",
+      "sha256": "33077d24108b7fbb3ea66980184f07ede9ee2a839f1441c5826967e93c5fb77a"
+    },
+    {
+      "bytes": 3652,
+      "key": "canvas-window-1-0.91-mesh--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-mesh--1.dxf",
+      "sha256": "c1d5f11abd5c77a4d657f900c3501f9694d7794f28250253dd395755ca93a5a8"
+    },
+    {
+      "bytes": 3572,
+      "key": "canvas-window-1-0.91-mesh-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-mesh-0.dxf",
+      "sha256": "14d5540053c3337a7c08df86fe7b2743ea01bf9cff290f4a58036d18782e6ce3"
+    },
+    {
+      "bytes": 3652,
+      "key": "canvas-window-1-0.91-mesh-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-mesh-1.dxf",
+      "sha256": "f6038a8d1f22321e7bbf24b4eeadde2c4fd74f2abbd950337191ce13d812412a"
+    },
+    {
+      "bytes": 3668,
+      "key": "canvas-window-1-0.91-mesh-cross.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-mesh-cross.dxf",
+      "sha256": "5c6177096498aa35b481bd681634db7b68c56aff80cb15a10f13195bf47dcc44"
+    },
+    {
+      "bytes": 2044,
+      "key": "canvas-window-1-0.91-screen.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-screen.dxf",
+      "sha256": "d1e69012b95a0dd0b02616da7cf13afd924453fa089845a8407d1ee073be561f"
+    },
+    {
+      "bytes": 4744,
+      "key": "canvas-window-1-0.91-seam-y-1.5899999999999999.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-seam-y-1.5899999999999999.dxf",
+      "sha256": "dc301e4a24e45de430c9f9ef4d9a8460572187f6f15b2b35fa59e86257117f0a"
+    },
+    {
+      "bytes": 4744,
+      "key": "canvas-window-1-0.91-seam-y-2.37.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-seam-y-2.37.dxf",
+      "sha256": "9010e0272019204b265582d0497e9c4e88082b68bfb9f9721c2fa6b4387bded7"
+    },
+    {
+      "bytes": 4660,
+      "key": "canvas-window-1-0.91-seam-z-0.395.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-seam-z-0.395.dxf",
+      "sha256": "369ba02c586705af0f204d3d2d2dc14b27235301840fb7c686b80c359af09f31"
+    },
+    {
+      "bytes": 4660,
+      "key": "canvas-window-1-0.91-seam-z-1.425.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\canvas-window-1-0.91-seam-z-1.425.dxf",
+      "sha256": "6f5802d6fbab785593c064c853adb4086f44e0fa0e073def534534f10639608e"
+    },
+    {
+      "bytes": 2128,
+      "key": "chassis-crossmember--0.15.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\chassis-crossmember--0.15.dxf",
+      "sha256": "1c51531785befee3cdcc3b0ddef3900b838ca6a680febda51057508bab557f6e"
+    },
+    {
+      "bytes": 2128,
+      "key": "chassis-crossmember--1.45.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\chassis-crossmember--1.45.dxf",
+      "sha256": "01b8ef2c79d7a1287a66c75120d5aac16362739b79cd6925d1be5d044be3ef10"
+    },
+    {
+      "bytes": 2064,
+      "key": "chassis-crossmember-1.45.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\chassis-crossmember-1.45.dxf",
+      "sha256": "8baf61ac41be03b1a30ce143049627c0e7543d8f703982b707f8afd7fd42e1bf"
+    },
+    {
+      "bytes": 2120,
+      "key": "chassis-rail--0.74.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\chassis-rail--0.74.dxf",
+      "sha256": "171d125d4a8c6f63abc1bae4ca2f31dd3b167de09a29990fa2566a9cd3bbb903"
+    },
+    {
+      "bytes": 2056,
+      "key": "chassis-rail-0.74.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\chassis-rail-0.74.dxf",
+      "sha256": "b5a37db932110dfb62e647ef2f1c08e1129186cb9628f09868a5d5224a6c65b5"
+    },
+    {
+      "bytes": 1976,
+      "key": "coupler-latch.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\coupler-latch.dxf",
+      "sha256": "7bd307c3ca74794127356b9b6c89016bea25cc76e78496ce3634ea55695562c9"
+    },
+    {
+      "bytes": 28732,
+      "key": "cream-lower-body.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\cream-lower-body.dxf",
+      "sha256": "887b83080107b8003368478dbcd9953c0a76137c2755551c7c9406062de95be5"
+    },
+    {
+      "bytes": 2072,
+      "key": "door-aluminium-frame.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\door-aluminium-frame.dxf",
+      "sha256": "f49f73154f169ffb5d7334fe194b23e2a6ebf5d39ccc03251db9c0c9be9f8a8b"
+    },
+    {
+      "bytes": 2120,
+      "key": "door-central-rail.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\door-central-rail.dxf",
+      "sha256": "88516c7376b2a73f48c0367e239b4312700cd1c99d49c1e54c84038ac6910762"
+    },
+    {
+      "bytes": 6320,
+      "key": "door-handle.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\door-handle.dxf",
+      "sha256": "271d73d37e990c9098bcac05aaf8cbd2bfe58e23fafdcc8a25f8fdb80da659dd"
+    },
+    {
+      "bytes": 2104,
+      "key": "door-lower-panel.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\door-lower-panel.dxf",
+      "sha256": "9a5058574df16392f0100ad00b9352074f5ebc5ef382238c93403bf68454636a"
+    },
+    {
+      "bytes": 2048,
+      "key": "door-upper-screen.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\door-upper-screen.dxf",
+      "sha256": "4879364e3aa8eba8fac554ac2985b5aac4dadd52f5c4ae577533bf28e63fe049"
+    },
+    {
+      "bytes": 2032,
+      "key": "drawbar-crossplate.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\drawbar-crossplate.dxf",
+      "sha256": "2ea774fb7979936e156cdc19f29ad510f91375cb9f8192f5c57ceb8ce00c66a0"
+    },
+    {
+      "bytes": 1996,
+      "key": "fold-down-step.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\fold-down-step.dxf",
+      "sha256": "f843d9bf08bd5e3d331cdb8415ab0187abda6d7fafbb48af7c7c2547ce170692"
+    },
+    {
+      "bytes": 2172,
+      "key": "front-amber-marker--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-amber-marker--1.dxf",
+      "sha256": "aa999022715949fac3a7f14ca2787d846de617835fda036e307b6a6a88f9e096"
+    },
+    {
+      "bytes": 2108,
+      "key": "front-amber-marker-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-amber-marker-1.dxf",
+      "sha256": "a9aea9d445f94296ce780d18580165c25c96002610b27c31f99633bdaa3781ef"
+    },
+    {
+      "bytes": 3354,
+      "key": "front-bed-end-mesh-window.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-end-mesh-window.dxf",
+      "sha256": "a68a5378685125c10cc32d4898ab8cf5d4c054410ad62fb48e10bc76f0cf1f1a"
+    },
+    {
+      "bytes": 4536,
+      "key": "front-bed-screen-seam-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-seam-0.dxf",
+      "sha256": "1defe74a9885a350f0f0f76b4e7f1662c8afcb64e45aa795a645fe50ae37a5d1"
+    },
+    {
+      "bytes": 4472,
+      "key": "front-bed-screen-seam-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-seam-1.dxf",
+      "sha256": "5cfbc15f7228da0902b4bb50960d3f57ed82a648c6c64163d495d4248f1e1d6f"
+    },
+    {
+      "bytes": 4892,
+      "key": "front-bed-screen-seam-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-seam-2.dxf",
+      "sha256": "e02e3c0ac6510a03cc67bc01718e5eed731cc9be4ba1a7ff950bed27d0f51c84"
+    },
+    {
+      "bytes": 4536,
+      "key": "front-bed-screen-seam-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-seam-3.dxf",
+      "sha256": "ea7bead120cffaea304761ea998daaf614b55a73177fd2e2a62a42e1a6f223c9"
+    },
+    {
+      "bytes": 5020,
+      "key": "front-bed-screen-seam-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-seam-4.dxf",
+      "sha256": "2cf4ecbb12d622d608f799758e3ca5f3f5b01ea11e1e99eb4757176463622914"
+    },
+    {
+      "bytes": 4600,
+      "key": "front-bed-screen-seam-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-seam-5.dxf",
+      "sha256": "2578f85715d8904ab0387c8ff2c81efe3e75967de7a0e0a1b51bfffd8b052f75"
+    },
+    {
+      "bytes": 3452,
+      "key": "front-bed-screen-weave--0.4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-weave--0.4.dxf",
+      "sha256": "a9c4db36857e31fdefbb5fc76051ccdc67d4a128269526cc1c2569ddadbded15"
+    },
+    {
+      "bytes": 3356,
+      "key": "front-bed-screen-weave-0.4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-weave-0.4.dxf",
+      "sha256": "7585af0b0e2498822379db9c1b836913a59e948cc14664e4d14a057d82a6028f"
+    },
+    {
+      "bytes": 3698,
+      "key": "front-bed-screen-weave-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-bed-screen-weave-0.dxf",
+      "sha256": "8588c1047877f871b68d9c1f7ca5ec20bca10f482f6b734756116f32b3809054"
+    },
+    {
+      "bytes": 3120,
+      "key": "front-deployed-canvas-bed-tent.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-deployed-canvas-bed-tent.dxf",
+      "sha256": "580199a663a5a651eb4c240e0866a94a80bcad09c393828751ad290a75b2372d"
+    },
+    {
+      "bytes": 4762,
+      "key": "front-diagonal-bed-support--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-diagonal-bed-support--1.dxf",
+      "sha256": "44cc20ea3203e50dcf965937e15d24e39f8ec9d6ba69d024baee88c240f45443"
+    },
+    {
+      "bytes": 4634,
+      "key": "front-diagonal-bed-support-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-diagonal-bed-support-1.dxf",
+      "sha256": "6661620cd6b73cd264af8e7f4705f590c9d9a123f2124ab1b6cdd22d57576ef2"
+    },
+    {
+      "bytes": 2048,
+      "key": "front-side-mesh--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-side-mesh--1.dxf",
+      "sha256": "94ab5057fa5f9060d881db5b3296226593a2d5493f1bfb116198603f93ea13d6"
+    },
+    {
+      "bytes": 1984,
+      "key": "front-side-mesh-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-side-mesh-1.dxf",
+      "sha256": "ebae50462caee8130e3bb6f0494d94d370ac351f011c5bcc929f5c51a6b0cfbc"
+    },
+    {
+      "bytes": 2104,
+      "key": "front-slide-out-bed-platform.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-slide-out-bed-platform.dxf",
+      "sha256": "cbaab69a1f5904d36d80ca7f1c330ea10a319208a1a7b4e18cf2370c10a32727"
+    },
+    {
+      "bytes": 4380,
+      "key": "front-sliding-bed-rail--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-sliding-bed-rail--1.dxf",
+      "sha256": "620518dc5f406a3336653508ba5deb65c850a750450b71bd265aea2f1028b5ab"
+    },
+    {
+      "bytes": 4252,
+      "key": "front-sliding-bed-rail-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-sliding-bed-rail-1.dxf",
+      "sha256": "6d1b6f67844b721b68c23ab8e607d77a246666d63bd2f7e5025ff6ad59ba90a0"
+    },
+    {
+      "bytes": 5256,
+      "key": "front-upper-canvas-seam--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-upper-canvas-seam--1.dxf",
+      "sha256": "817f6741fa349d56acfc1489b86d4908d594256081e4d7fe7844c36fbd41fb88"
+    },
+    {
+      "bytes": 5128,
+      "key": "front-upper-canvas-seam-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\front-upper-canvas-seam-1.dxf",
+      "sha256": "603c29db939edded09a04d7c910a74553e8bef973d0dcc29b4c499010decec74"
+    },
+    {
+      "bytes": 37970,
+      "key": "gas-bottle.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\gas-bottle.dxf",
+      "sha256": "cf276d7ffc185c13f0288ddea60917e7e51ee0400755cb3ca3ab26e715caf894"
+    },
+    {
+      "bytes": 4300,
+      "key": "gas-valve-guard.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\gas-valve-guard.dxf",
+      "sha256": "3bdd1fe51610f87155fbb2944d9ef861560db85ecf5bc305955c233c222da01d"
+    },
+    {
+      "bytes": 6260,
+      "key": "gas-valve.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\gas-valve.dxf",
+      "sha256": "ef13261042125983b05ad5f940a571d420f24540a67309717d26c5068aa3d800"
+    },
+    {
+      "bytes": 3140,
+      "key": "jayco-badge-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-0-0.dxf",
+      "sha256": "bc471c468335fc31abcb0f5525610ec4d8946e418da6768adda43b73bfd9cb7d"
+    },
+    {
+      "bytes": 3228,
+      "key": "jayco-badge-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-0-1.dxf",
+      "sha256": "2bf62b6d0a166656d968a0492211441f6fb787055c9caaddc9211ae370d8bb74"
+    },
+    {
+      "bytes": 3424,
+      "key": "jayco-badge-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-0-2.dxf",
+      "sha256": "f57b6a6715589b928165d9410d83620a4ee9a81d0a7ceee709895b95cec283a0"
+    },
+    {
+      "bytes": 3424,
+      "key": "jayco-badge-0-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-0-3.dxf",
+      "sha256": "217d6bf163d1aea60fded26daccee46abed2c69047bfa47966a5b992815fb1bd"
+    },
+    {
+      "bytes": 3328,
+      "key": "jayco-badge-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-1-0.dxf",
+      "sha256": "08ca322c9e067c9202805b0b48ff9b15f98ac9b9a4946f3f6cabb2cde4489e6b"
+    },
+    {
+      "bytes": 3328,
+      "key": "jayco-badge-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-1-1.dxf",
+      "sha256": "6550de45cbb873e1e145c92344c7c7f201a41c857fd854b5557aa8d707387ccd"
+    },
+    {
+      "bytes": 3372,
+      "key": "jayco-badge-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-1-2.dxf",
+      "sha256": "44481fc65e2a84fbb89d649457fc31e26dfc0f4051b22ad391f37399c6304465"
+    },
+    {
+      "bytes": 3384,
+      "key": "jayco-badge-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-2-0.dxf",
+      "sha256": "8da7e8d1aaae1e8ed26131b7bed92fc113d61fe66e102e675c1422e42abaf22c"
+    },
+    {
+      "bytes": 3384,
+      "key": "jayco-badge-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-2-1.dxf",
+      "sha256": "7f8f283566b88c1c9e269d4a3aa434b7c0cd8da8906348311a89bd4fad6ad261"
+    },
+    {
+      "bytes": 3180,
+      "key": "jayco-badge-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-2-2.dxf",
+      "sha256": "59eed98368925dde95f813c836b1182d63c04bd5acf88f0742377d81920e0960"
+    },
+    {
+      "bytes": 3188,
+      "key": "jayco-badge-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-3-0.dxf",
+      "sha256": "fda19ece8d5d72a4650dd0e57eda0b1864531bdbd3cae3d66002338a8fb9e0d9"
+    },
+    {
+      "bytes": 3404,
+      "key": "jayco-badge-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-3-1.dxf",
+      "sha256": "ce896e84abc528028c1099c56f900d9c4205ca97a51f98f177ec58b83799d4f0"
+    },
+    {
+      "bytes": 3236,
+      "key": "jayco-badge-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-3-2.dxf",
+      "sha256": "45aeeb3f1f0dd1bc1b840e8a5ddd62571732520a9193ea2f20d9adbcf77e9325"
+    },
+    {
+      "bytes": 3404,
+      "key": "jayco-badge-3-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-3-3.dxf",
+      "sha256": "bc4f8a9ec613a4819eb69cf3540c83298fc3e094b310d8d4fe2d4eea16df4491"
+    },
+    {
+      "bytes": 3188,
+      "key": "jayco-badge-3-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-3-4.dxf",
+      "sha256": "19ef04f39676d16936e1f47823455985f71f1c4c620deb724e05855816310547"
+    },
+    {
+      "bytes": 3236,
+      "key": "jayco-badge-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-0.dxf",
+      "sha256": "449d03e7a4f8823f1d5f341f75c3237e02c78ae137f843e4c6171d7943aa7fc0"
+    },
+    {
+      "bytes": 3384,
+      "key": "jayco-badge-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-1.dxf",
+      "sha256": "30b53579d587f2cc6ffd8614faa925a8f2a19cf139ef89a3346edc77e93f3087"
+    },
+    {
+      "bytes": 3140,
+      "key": "jayco-badge-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-2.dxf",
+      "sha256": "32faea54f9a0c88247a0ada40475c0c85ec73529c11097624afca8b7968a6590"
+    },
+    {
+      "bytes": 3384,
+      "key": "jayco-badge-4-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-3.dxf",
+      "sha256": "30228184c50fb13dbd7e045f929755c6ea8275f04a8a45d3811717e68625c786"
+    },
+    {
+      "bytes": 3236,
+      "key": "jayco-badge-4-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-4.dxf",
+      "sha256": "9b335df032e4ce27be520fb2e26521f3a7bba313e766a5e8dba6858b450c400e"
+    },
+    {
+      "bytes": 3384,
+      "key": "jayco-badge-4-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-5.dxf",
+      "sha256": "27fabf4b4d476064a3d4b214a2f9da44e4bf6a178006f8855820e944f5093fa6"
+    },
+    {
+      "bytes": 3140,
+      "key": "jayco-badge-4-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-6.dxf",
+      "sha256": "ac8725ceb007f582bf5d577fc98b7aca5dce869233489a7e0893d83fbb9a854b"
+    },
+    {
+      "bytes": 3384,
+      "key": "jayco-badge-4-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jayco-badge-4-7.dxf",
+      "sha256": "127497d50d0dbdeebca1ba2aaee32614c2a19861291e5a0e29bd7cdf8e9beed3"
+    },
+    {
+      "bytes": 13636,
+      "key": "jockey-wheel-hubcap.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jockey-wheel-hubcap.dxf",
+      "sha256": "b8f8a6b39179d170c351dd82f7e98203c4438d4eeafcb8671ae22315815105fe"
+    },
+    {
+      "bytes": 18508,
+      "key": "jockey-wheel-painted-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jockey-wheel-painted-hub.dxf",
+      "sha256": "4cef389f45a6aa82040a8a35e203a78ab0705172abb19a41cbba40d4a2a4cb26"
+    },
+    {
+      "bytes": 6236,
+      "key": "jockey-wheel-post.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jockey-wheel-post.dxf",
+      "sha256": "c530733848fe368c86a262f3391799f7ab767c030cb3011bf8b2f48ffe179191"
+    },
+    {
+      "bytes": 172820,
+      "key": "jockey-wheel-rubber.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jockey-wheel-rubber.dxf",
+      "sha256": "42894289073dead82e7cf9bb9aea12b6def723a31b1ba781d194fa1e40d60458"
+    },
+    {
+      "bytes": 4192,
+      "key": "jockey-winder.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\jockey-winder.dxf",
+      "sha256": "fce24e3969917ffbc3b03d2c8de5a2ede50f588659a3b3a039fa0b08debf36da"
+    },
+    {
+      "bytes": 14124,
+      "key": "left-wheel-hubcap.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\left-wheel-hubcap.dxf",
+      "sha256": "31828e2e7e3660465b5b3b096c53b1172730ea2b17fbb67b1641e93770189496"
+    },
+    {
+      "bytes": 19350,
+      "key": "left-wheel-painted-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\left-wheel-painted-hub.dxf",
+      "sha256": "35b7566a42fd8f6d845aa5a4961498564c9e73b6f19b71c813177563d0582f81"
+    },
+    {
+      "bytes": 180220,
+      "key": "left-wheel-rubber.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\left-wheel-rubber.dxf",
+      "sha256": "7269dc75d93044428c0792f5486a7e53409c1e88b410a1361b4fa5173c99d782"
+    },
+    {
+      "bytes": 4504,
+      "key": "lower-aluminium-trim--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\lower-aluminium-trim--1.dxf",
+      "sha256": "1aadd86848c5519a39d8c67f3aab48c8cd6b2176f0060c4bbeca0072f29f7310"
+    },
+    {
+      "bytes": 4376,
+      "key": "lower-aluminium-trim-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\lower-aluminium-trim-1.dxf",
+      "sha256": "c9dac414fcedfcdc5cb46e987b119da9482d85231394199fca722d5df452c93b"
+    },
+    {
+      "bytes": 2100,
+      "key": "main-canvas-cabin.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\main-canvas-cabin.dxf",
+      "sha256": "a0c6d0b00c32ba680293b04c9ea0f1cef890d8e8087ee6ef490cf92947d07508"
+    },
+    {
+      "bytes": 2216,
+      "key": "period-stripe-end--1-ochre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-end--1-ochre.dxf",
+      "sha256": "500dda6fb90ef8233ab11304e73ba5f64635d305ce2e02977aa69eed50bd1fca"
+    },
+    {
+      "bytes": 2152,
+      "key": "period-stripe-end--1-olive.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-end--1-olive.dxf",
+      "sha256": "708ecd827182dca12f2620fed3d8f4e68d3b952e2d2949aa790b1615d89a4ccd"
+    },
+    {
+      "bytes": 2152,
+      "key": "period-stripe-end-1-ochre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-end-1-ochre.dxf",
+      "sha256": "99655846c04cd346f5998b15276f89a3e5f58118279fff34dbeda5bf86759d81"
+    },
+    {
+      "bytes": 2088,
+      "key": "period-stripe-end-1-olive.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-end-1-olive.dxf",
+      "sha256": "35caef2f95f120a2cdc9a65324b198c18897b79dab474474c2c26a53ebd81431"
+    },
+    {
+      "bytes": 2160,
+      "key": "period-stripe-side--1-ochre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-side--1-ochre.dxf",
+      "sha256": "7967269d32503d746fe48681aa9fd750f839b5157e537a308e7a4bdfd3988796"
+    },
+    {
+      "bytes": 2096,
+      "key": "period-stripe-side--1-olive.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-side--1-olive.dxf",
+      "sha256": "3b7f0db361a91e8d1895ca487e4ea7ebdddf75e043cf8ecd0ea42dc6649e5ca8"
+    },
+    {
+      "bytes": 2096,
+      "key": "period-stripe-side-1-ochre.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-side-1-ochre.dxf",
+      "sha256": "62fb02a4af4e91f07897f492a6ac3d4697eecf8fd7c75359d1ef400bc8108eca"
+    },
+    {
+      "bytes": 2032,
+      "key": "period-stripe-side-1-olive.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\period-stripe-side-1-olive.dxf",
+      "sha256": "682bc9cb24d90143c97546df70fbed70d43cbe429cc248492f2fcb0f68f50fbd"
+    },
+    {
+      "bytes": 21836,
+      "key": "raised-roof.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\raised-roof.dxf",
+      "sha256": "6763b8aec4796c1ce7273aa4b70f13fa6ff94542ae1988f4e243196131086313"
+    },
+    {
+      "bytes": 3450,
+      "key": "rear-bed-end-mesh-window.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-end-mesh-window.dxf",
+      "sha256": "c3c0f37dc67c5742f1df71974e31d35a0c35779d7a4acd503ceba2cdfd9d3a83"
+    },
+    {
+      "bytes": 4664,
+      "key": "rear-bed-screen-seam-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-seam-0.dxf",
+      "sha256": "4e7459eafab72926f69992e74cf78ea99fa05b7b4fcc064c36af8ec1a7bbafe7"
+    },
+    {
+      "bytes": 4600,
+      "key": "rear-bed-screen-seam-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-seam-1.dxf",
+      "sha256": "bfcb074ac1b6b083d03960537f2cd383a4f93d3d5a5092f2c72aaaa31f9077ed"
+    },
+    {
+      "bytes": 5020,
+      "key": "rear-bed-screen-seam-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-seam-2.dxf",
+      "sha256": "79fc4b788f8de38cc2e180ad04d9ed0e12a828017960c515fd53f67aae5d798d"
+    },
+    {
+      "bytes": 4664,
+      "key": "rear-bed-screen-seam-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-seam-3.dxf",
+      "sha256": "9db11e8be4c45b46c17c05a6dc3a24015f0144bbe4c82280ab06f9c360ea8f12"
+    },
+    {
+      "bytes": 5148,
+      "key": "rear-bed-screen-seam-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-seam-4.dxf",
+      "sha256": "61905556057b890caa2faea0842f37ef4b47e0cdc7b5011505ac551299cc7dbd"
+    },
+    {
+      "bytes": 4728,
+      "key": "rear-bed-screen-seam-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-seam-5.dxf",
+      "sha256": "4e39a74340e057093b7f5494a980007c3acdc43acb375cd3efab3937bec19149"
+    },
+    {
+      "bytes": 3548,
+      "key": "rear-bed-screen-weave--0.4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-weave--0.4.dxf",
+      "sha256": "d9b2bc205d1cf907ac0a740dfd90048a9798706c0ca965bb6592978d3f8744a1"
+    },
+    {
+      "bytes": 3452,
+      "key": "rear-bed-screen-weave-0.4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-weave-0.4.dxf",
+      "sha256": "800d32023b28a7c87e111fb17476ef78f4811edcb210ca12e61651dfaa04a399"
+    },
+    {
+      "bytes": 3794,
+      "key": "rear-bed-screen-weave-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-bed-screen-weave-0.dxf",
+      "sha256": "3f21593af27d6cebc705f13a703d8a3b1a48547c110ee9017206671e5f34615b"
+    },
+    {
+      "bytes": 3216,
+      "key": "rear-deployed-canvas-bed-tent.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-deployed-canvas-bed-tent.dxf",
+      "sha256": "581107c025d3463c7f201aa1141ecb863ea5f84a1d70dd34c0050e756f0a2fae"
+    },
+    {
+      "bytes": 4890,
+      "key": "rear-diagonal-bed-support--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-diagonal-bed-support--1.dxf",
+      "sha256": "23900bee9cf0a35dff946790b8a8a7f672748d3b8db5c7e81d5f9b87ecd78547"
+    },
+    {
+      "bytes": 4762,
+      "key": "rear-diagonal-bed-support-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-diagonal-bed-support-1.dxf",
+      "sha256": "e91bc7c042fe6486ff235fe1ccf90385093cb4c750e8edb066fa319c5fd66b0d"
+    },
+    {
+      "bytes": 2176,
+      "key": "rear-red-lamp--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-red-lamp--1.dxf",
+      "sha256": "2f3f02d53404cb6d4e9c10bdc00098cb2de7e148cfafd7e51ae3359fccc069a3"
+    },
+    {
+      "bytes": 2112,
+      "key": "rear-red-lamp-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-red-lamp-1.dxf",
+      "sha256": "76e7e5cf6f9f6c46f728a99b61fb8c5adfa1a270a6f794d453490e5d67851262"
+    },
+    {
+      "bytes": 2112,
+      "key": "rear-side-mesh--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-side-mesh--1.dxf",
+      "sha256": "8e2c6adb9d50868e9b7f9a8c336142801f9ebd6b10ea193b1a4a94dc46a98ed5"
+    },
+    {
+      "bytes": 2048,
+      "key": "rear-side-mesh-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-side-mesh-1.dxf",
+      "sha256": "79ffedb0f3d56049e63f22509756e6eaa4465cd675156d4ba1b3a56219a979c2"
+    },
+    {
+      "bytes": 2168,
+      "key": "rear-slide-out-bed-platform.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-slide-out-bed-platform.dxf",
+      "sha256": "d2be3a0c27017f3c60619eabd05dc6117ed436f5bbe1cc2ca3ace2c6ab61ab07"
+    },
+    {
+      "bytes": 4508,
+      "key": "rear-sliding-bed-rail--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-sliding-bed-rail--1.dxf",
+      "sha256": "fc1d3a96011f9bb6731abae5b5c9575a7618bf62da5a78b5026f5fac9ed6509b"
+    },
+    {
+      "bytes": 4380,
+      "key": "rear-sliding-bed-rail-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-sliding-bed-rail-1.dxf",
+      "sha256": "dfa9f6f8f7865257d93704fc52bd6d2694faedf2a4d9d06b280e92b26635f8b1"
+    },
+    {
+      "bytes": 15256,
+      "key": "rear-spare-hubcap.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-spare-hubcap.dxf",
+      "sha256": "4580244a8989b296b6e56f1dddab6b68e32d71daa4d8bf92fb431685d889eb05"
+    },
+    {
+      "bytes": 20528,
+      "key": "rear-spare-painted-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-spare-painted-hub.dxf",
+      "sha256": "c2d8a766414d72edaace0ccc2d09f9d71ca573117f79ffc485dafd0c41946823"
+    },
+    {
+      "bytes": 179988,
+      "key": "rear-spare-rubber.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-spare-rubber.dxf",
+      "sha256": "86e0953e0108e9452a007c38f8b896c60171a70bc22b6ca178797460a5adf7c6"
+    },
+    {
+      "bytes": 5384,
+      "key": "rear-upper-canvas-seam--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-upper-canvas-seam--1.dxf",
+      "sha256": "018bd76d2076962a5bfcad796114bffeb11901b0656075d8ccc0026700c3f80d"
+    },
+    {
+      "bytes": 5256,
+      "key": "rear-upper-canvas-seam-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rear-upper-canvas-seam-1.dxf",
+      "sha256": "be855b668f2d99f37727a5768b52d80a0192e132461d49a64d944c5732ec8da9"
+    },
+    {
+      "bytes": 13740,
+      "key": "right-wheel-hubcap.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\right-wheel-hubcap.dxf",
+      "sha256": "a97d3a116cef2a27c32c8a2b2c3b08c15e9b33f1a2e3afd94e59cd7bb582d2e5"
+    },
+    {
+      "bytes": 18838,
+      "key": "right-wheel-painted-hub.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\right-wheel-painted-hub.dxf",
+      "sha256": "369788e157738eaf1cdade7f7ce87fd103944452fd3b24fd6e97f44bf74e05f8"
+    },
+    {
+      "bytes": 175612,
+      "key": "right-wheel-rubber.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\right-wheel-rubber.dxf",
+      "sha256": "053d68eb7b1ddbb2a4755754a682549559f67b167946a3a8f0ebfeceff5cdfa9"
+    },
+    {
+      "bytes": 42766,
+      "key": "rolled-wheel-guard--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rolled-wheel-guard--1.dxf",
+      "sha256": "6b9ce793a7b632d0693cb9728fba3ddde0da8ee6a4cfd6646fee386e90f6f9bd"
+    },
+    {
+      "bytes": 41678,
+      "key": "rolled-wheel-guard-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\rolled-wheel-guard-1.dxf",
+      "sha256": "ddcdde7c593c79f42c2fa424ed12b71dde1e7e07e26e677ff7e87be63d16a213"
+    },
+    {
+      "bytes": 4460,
+      "key": "roof-edge-gutter--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\roof-edge-gutter--1.dxf",
+      "sha256": "5e771dce19c14cd56c3d4bc3baf452d478b0299789e3a58b082b7afd0229f5bb"
+    },
+    {
+      "bytes": 4332,
+      "key": "roof-edge-gutter-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\roof-edge-gutter-1.dxf",
+      "sha256": "635aaf3c13375d2c15e9c622c9d5372887dd6fb4f8ab6f14d2c0a3a265de82a7"
+    },
+    {
+      "bytes": 6668,
+      "key": "single-axle.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\single-axle.dxf",
+      "sha256": "3f6a7ab3714b4e0ac018537c8665ab0de04d90d3d21292422c2f66443f352fe2"
+    },
+    {
+      "bytes": 2260,
+      "key": "stabiliser-foot--1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-foot--1--1.dxf",
+      "sha256": "da94c8e54696fc0f223069854d03f6d7422bbc60e0cc87fa07ee4d97adb26030"
+    },
+    {
+      "bytes": 2196,
+      "key": "stabiliser-foot--1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-foot--1-1.dxf",
+      "sha256": "f5bcfb7212109d3a7a7756be722cd1dac0988919c6790e753ce32d8f2296d31b"
+    },
+    {
+      "bytes": 2196,
+      "key": "stabiliser-foot-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-foot-1--1.dxf",
+      "sha256": "f95336e70c5008a171e218abd66065045b5be44ae02a0dc998e9755c36cf22dc"
+    },
+    {
+      "bytes": 2132,
+      "key": "stabiliser-foot-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-foot-1-1.dxf",
+      "sha256": "c6c96b6723e6ee06ec18e8de467987f3cabf1bfc274d6c2ea52ee7bb9f4fa669"
+    },
+    {
+      "bytes": 5114,
+      "key": "stabiliser-leg--1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-leg--1--1.dxf",
+      "sha256": "3a6d3b7358010de1417118615b02781d6599b52a34a1fa411c114599b2ee2783"
+    },
+    {
+      "bytes": 4986,
+      "key": "stabiliser-leg--1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-leg--1-1.dxf",
+      "sha256": "59bc2ff3c7379620e51fe1c9383f047bf312f014252c8e139c75c02ab0d8e9b7"
+    },
+    {
+      "bytes": 4986,
+      "key": "stabiliser-leg-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-leg-1--1.dxf",
+      "sha256": "0aadec63aadd066147401d0211c9bd7f8701df1e0633d15bb8beb36b7459bb33"
+    },
+    {
+      "bytes": 4858,
+      "key": "stabiliser-leg-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\stabiliser-leg-1-1.dxf",
+      "sha256": "9a0a368780e05f8ba2beb653271ef1044e0e413bd6af981e554b8a02c8e7363d"
+    },
+    {
+      "bytes": 4784,
+      "key": "step-brace--0.23.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\step-brace--0.23.dxf",
+      "sha256": "c4dbb3fd278c020198efd39ad5ba2e756722ed02df44c8521e30278825021912"
+    },
+    {
+      "bytes": 4656,
+      "key": "step-brace-0.23.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\step-brace-0.23.dxf",
+      "sha256": "6cd05dc91dbdf6c5df022220c77c52c8df3f77235163555812a003eaa5775dcd"
+    },
+    {
+      "bytes": 9672,
+      "key": "tow-coupling.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\tow-coupling.dxf",
+      "sha256": "d54ea34c2d51e8035a7e53d354ee93827e7823888af7a4d6f0192f68620bf4e8"
+    },
+    {
+      "bytes": 2340,
+      "key": "wind-up-lift-post--1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\wind-up-lift-post--1--1.dxf",
+      "sha256": "51e0a755c3f153f96afc687c43ef931c4df5c3024fbda6dd693880b66fa052f3"
+    },
+    {
+      "bytes": 2276,
+      "key": "wind-up-lift-post--1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\wind-up-lift-post--1-1.dxf",
+      "sha256": "d797b64da53974128636b9a5b54f245e3cce2fc23e3c5c1b31bb377e309c9f0c"
+    },
+    {
+      "bytes": 2276,
+      "key": "wind-up-lift-post-1--1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\wind-up-lift-post-1--1.dxf",
+      "sha256": "acf5a90cf5f30248f22d1f49cc8d2563867b37e578334e6b5705f204255467c2"
+    },
+    {
+      "bytes": 2212,
+      "key": "wind-up-lift-post-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\wind-up-lift-post-1-1.dxf",
+      "sha256": "ef80270dcbc9fd3810b4a1d91e3066ac0447271270cc73b774eb828416005240"
+    },
+    {
+      "bytes": 4180,
+      "key": "winder-grip.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\camper\\artifacts\\vintage-windup-camper-ccd4c1c787d1\\winder-grip.dxf",
+      "sha256": "269467aeb5b53bc662e1495bb0f8c5435b60e2d1ff00395d01cf8ce2be7ba098"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "8017efb49a1a3708f32967496bc24c818c23f1a012f5bf19a376e17c42110123",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 10872,
+  "triangles": 15984,
+  "bytes": 2316984,
+  "source_bytes": 41324,
+  "id": "eucalyptus-far--twig",
+  "original_sha256": "5f0e169c48406c796ca32c66c8fec1bf73500f3538c78feafba2d3c09b55edc7",
+  "source_sha256": "320d30fdc6294a435e05c5bb705f86e674671a5a7be08cd8e334120881973066",
+  "attested_sha256": "94b5430da2306f4d20bc566c2ab524c6c698b9b16f214289fe7ad6430e5f6281",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

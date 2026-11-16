@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-16",
+  "source_routes": 202,
+  "unique_catalog_operations": 150,
+  "module_groups": 15,
+  "proposed_environments": 6,
+  "inventory_paths_exist": true,
+  "place_module_references_valid": true,
+  "concrete_document_links_checked": 43,
+  "missing_links": [],
+  "design_status": "initial prototype rejected; new natural-world/observer-relative art direction not yet approved",
+  "runtime_qualification": "current Synth fresh stdio MCP: 150 operations and .10d/HMC strict replay passed; complete website demo qualification pending"
+}

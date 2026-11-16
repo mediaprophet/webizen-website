@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "actual_statuses": [
+        "Active"
+      ],
+      "expected_statuses": [
+        "Active"
+      ],
+      "id": "legacy-active-obligation",
+      "passed": true
+    },
+    {
+      "actual_statuses": [
+        "Defeated"
+      ],
+      "expected_statuses": [
+        "Defeated"
+      ],
+      "id": "legacy-auditor-exception",
+      "passed": true
+    },
+    {
+      "actual_statuses": [
+        "Expired"
+      ],
+      "expected_statuses": [
+        "Expired"
+      ],
+      "id": "legacy-expiry",
+      "passed": true
+    },
+    {
+      "actual_statuses": [
+        "Active"
+      ],
+      "expected_statuses": [
+        "Active"
+      ],
+      "id": "public-aggregate-permit",
+      "passed": true
+    },
+    {
+      "actual_statuses": [
+        "Active"
+      ],
+      "expected_statuses": [
+        "Active"
+      ],
+      "id": "individual-disclosure-forbid",
+      "passed": true
+    },
+    {
+      "actual_statuses": [
+        "Defeated"
+      ],
+      "expected_statuses": [
+        "Defeated"
+      ],
+      "id": "withdrawn-aggregate-permit",
+      "passed": true
+    }
+  ],
+  "execution": "native compile_norm_quin + evaluate_deontic_contract",
+  "passed": true,
+  "schema": "webizen.native-rights-proof/v1"
+}

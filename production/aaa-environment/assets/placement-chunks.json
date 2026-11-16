@@ -1,0 +1,72 @@
+[
+  {
+    "source_sha256": "36611aa73783eb48970f06f9000ce4f2d76452fe3d5c09337600c05290e6e898",
+    "input_count": 40,
+    "output_count": 37
+  },
+  {
+    "source_sha256": "ecc0775fda2e38c1354170f20b9c0963c8b7e35de4534911d3a3e1cfb5ad740d",
+    "input_count": 40,
+    "output_count": 10
+  },
+  {
+    "source_sha256": "3705d11cd1643ddddd2fcfef689e72959fe0d448989f73b33dc99f67f84351c6",
+    "input_count": 40,
+    "output_count": 37
+  },
+  {
+    "source_sha256": "e54b6f4d027342a3cfe205207d72ad3ca9fc9e3385aa90569c9e5cb0edae1f0b",
+    "input_count": 40,
+    "output_count": 30
+  },
+  {
+    "source_sha256": "0431b51cee457ef5d29a05e2d0c63a18cf67d2c99de417e09453aaf7a291ca8b",
+    "input_count": 40,
+    "output_count": 33
+  },
+  {
+    "source_sha256": "e67c6e9573ea3957b3ffc0880d0aa54c2080a17bf1da161079fb6d12f9b019eb",
+    "input_count": 40,
+    "output_count": 29
+  },
+  {
+    "source_sha256": "242d2ffaf70e81da104a75996ffc248d365fa57b87051ab6d46894556100d35f",
+    "input_count": 40,
+    "output_count": 31
+  },
+  {
+    "source_sha256": "cc30e243697167c4f42e24b208a96823e223d5fa02eed720616b314757daf2d6",
+    "input_count": 40,
+    "output_count": 29
+  },
+  {
+    "source_sha256": "550b99e89680246f33e597dc7f08332af0970e4273be30d28f1e5175ddd32909",
+    "input_count": 40,
+    "output_count": 27
+  },
+  {
+    "source_sha256": "fce8b2612d4be3726939eb1a477aeee895eb3620b3fd1ffd45bcc02367246ab7",
+    "input_count": 40,
+    "output_count": 30
+  },
+  {
+    "source_sha256": "5dba2b31f318c5c46448b2459b7e3aabca15e4a08a1b34f20b01d152d255953a",
+    "input_count": 40,
+    "output_count": 23
+  },
+  {
+    "source_sha256": "04ba81f6da23a92e6f44dd76a89d7b98235c58c8ff85384f56333feffe4f58c6",
+    "input_count": 40,
+    "output_count": 27
+  },
+  {
+    "source_sha256": "dec3637dc8e20e1490f9407cfdbbe0b8f3707a01ab54b26ab0fd947c4897e733",
+    "input_count": 40,
+    "output_count": 17
+  },
+  {
+    "source_sha256": "eccac43913781aa8128054487b7ab837ee81a17099d81a7738ec1a99f4d32550",
+    "input_count": 16,
+    "output_count": 7
+  }
+]

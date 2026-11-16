@@ -1,0 +1,30 @@
+{
+  "schema": "webizen.native-visual-review/v1",
+  "reviewed_at": "2026-11-16T00:58:47.449997+00:00",
+  "model_sha256": "4a67a010558eed70b4b9c7185cad1f667041f2a10d5652ab4317961041b21090",
+  "native_preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\car\\previews\\car-1794790595",
+  "native_views_inspected": [
+    "front-view-assumed.png",
+    "side-view-assumed.png",
+    "three-quarter-view-assumed.png"
+  ],
+  "browser_views_inspected": [
+    "browser-front.png",
+    "browser-side.png",
+    "browser-quarter.png",
+    "browser-rear.png"
+  ],
+  "status": "accepted-for-campsite-integration-as-authored-study",
+  "observations": [
+    "Estate silhouette, four wheels, long roof, sloped windscreen, rear glass, roof rails and grille read clearly.",
+    "Wheel-arch Boolean fragments were rejected and replaced by smooth authored native arch lofts.",
+    "Glazing and lamp surfaces use fitted dense native ribbons; earlier corner-only fitting was rejected.",
+    "Gold body, black glazing, rubber, chrome and lamp colours have been reviewed with lighting in a separate browser inspection stage.",
+    "No browser JavaScript errors."
+  ],
+  "limitations": [
+    "Stylised authored B7 interpretation, not photogrammetry, manufacturing CAD, or a trim-exact replica of the owner vehicle.",
+    "Lamp housings and body crease treatment remain simplified.",
+    "Final forest placement, contact with terrain, lighting and material response require integration review."
+  ]
+}

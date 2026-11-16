@@ -1,0 +1,19 @@
+{
+  "schema": "webizen.native-material-namespace-acceptance/v1",
+  "passed": true,
+  "unit_tests": 4,
+  "real_asset": "habitat-terrain",
+  "source_sha256": "eb0b6c31c9f1a862239abeeabb2ec6f89ab1d660f4a96eafd7f973d90367beab",
+  "output_sha256": "f2910841dde0f84e1c7c693c0d343738e7386fd9b37c8ce738263f1074581df2",
+  "vertices": 25921,
+  "triangles": 51200,
+  "non_material_payloads_byte_exact": true,
+  "native_decoded_geometry_equal": true,
+  "native_governance_refused": false,
+  "corrupt_real_input_refused": true,
+  "corruption_error": "10d whole-file CRC-32C mismatch: expected 0xc970bcea, got 0x3b1b3fe9",
+  "real_derivative_idempotent": true,
+  "wrapper_cross_asset_collision_refused": true,
+  "wrapper_registry_modified_by_this_check": false,
+  "batch_status": "Root owns serial37-asset integration; this verification used direct native calls only"
+}

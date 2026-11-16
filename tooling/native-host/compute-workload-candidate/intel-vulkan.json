@@ -1,0 +1,28 @@
+{
+  "provider_revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "started_utc": "2026-11-16T05:55:00.0535510Z",
+  "other_gpu_work_held": true,
+  "exit_code": 0,
+  "test": "Computepass Encoding",
+  "schema": "webizen.corrected-workload-test/v1",
+  "adapter": "Intel(R) RaptorLake-S Mobile Graphics Controller",
+  "candidate_workload_sources": [
+    {
+      "sha256": "a226cc26ea8724afab354faf03ca8d9cd1fb940fdd55390dcf88e03ad285fd3a",
+      "path": "benches/benches/etalon-benchmark/computepass.rs"
+    },
+    {
+      "sha256": "61e7e5ec9d34feacd80ce8e52b51851ff39aff4bef5895f0265d27df4382f785",
+      "path": "benches/benches/etalon-benchmark/computepass.wgsl"
+    },
+    {
+      "sha256": "45adf499246f94480f244ca6311346cbb5724cdd028411274037dc0bcfb52920",
+      "path": "benches/benches/etalon-benchmark/computepass-bindless.wgsl"
+    }
+  ],
+  "binary_sha256": "bb20d4bdcf94fdcbeca859c1670b86d42eafe27d3a43983303419f47c6ec48e8",
+  "provider_libraries_rebuilt": false,
+  "seconds": 7.7295719,
+  "finished_utc": "2026-11-16T05:55:08.7442127Z",
+  "backend": "vulkan"
+}

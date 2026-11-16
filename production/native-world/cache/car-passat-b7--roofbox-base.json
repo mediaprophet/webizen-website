@@ -1,0 +1,118 @@
+{
+  "key": "c54d375c7dca113a2261c4222255788f7f47f11a888c80b19884d14a02a414fb",
+  "id": "car-passat-b7--roofbox-base",
+  "native": {
+    "bytes": 162712,
+    "key": "car-passat-b7--roofbox-base.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--roofbox-base-d9c4a57808be\\car-passat-b7--roofbox-base.10d",
+    "sha256": "674fd3cc556fec33992d5e6e5d2f087827f0e913411c0fe45cbb2e6461e153a8",
+    "url": "/artifacts/world-car-passat-b7--roofbox-base-d9c4a57808be/car-passat-b7--roofbox-base.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "3d7d57d1f4a28533a24dd53f4f1b74b7f2c6315d93c93bc7cb46c731266316e6",
+    "package_sha256": "45405f6bd60fb3369f9d6a126fac5158a50e13c17182421fdba061c5487311d7",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 198476,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--roofbox-base-d9c4a57808be.hmc",
+        "sha256": "45405f6bd60fb3369f9d6a126fac5158a50e13c17182421fdba061c5487311d7"
+      },
+      "inputs": [
+        {
+          "bytes": 34496,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\car-passat-b7--roofbox-base.glb",
+          "sha256": "6788605d32020e4ae366d0f36e2988dbb0b8e355f24117de049f37954f26f45b"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997872,
+        "effective_host_bytes": 268367360,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096882,
+        "source_bytes": 532,
+        "source_reservation_bytes": 68096,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2128,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 162712,
+          "key": "car-passat-b7--roofbox-base.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--roofbox-base-d9c4a57808be\\car-passat-b7--roofbox-base.10d",
+          "sha256": "674fd3cc556fec33992d5e6e5d2f087827f0e913411c0fe45cbb2e6461e153a8",
+          "url": "/artifacts/world-car-passat-b7--roofbox-base-d9c4a57808be/car-passat-b7--roofbox-base.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "7e9cd40b6d63b922c68744c98f1f606e14bb845f355fa18a14bed96512cefb27",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 162712,
+        "key": "car-passat-b7--roofbox-base.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "674fd3cc556fec33992d5e6e5d2f087827f0e913411c0fe45cbb2e6461e153a8"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--roofbox-base-d9c4a57808be.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-car-passat-b7--roofbox-base-d9c4a57808be.hmc",
+    "receipt_url": "/artifacts/world-car-passat-b7--roofbox-base-d9c4a57808be.json"
+  },
+  "vertices": 524,
+  "triangles": 1008,
+  "instances": 1,
+  "material": 16,
+  "url": "/production/native-world/assets/car-passat-b7--roofbox-base.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "674fd3cc556fec33992d5e6e5d2f087827f0e913411c0fe45cbb2e6461e153a8",
+  "bytes": 162712,
+  "recipe": "/production/native-world/recipes/car-passat-b7--roofbox-base.vibe",
+  "input_sha256": "6788605d32020e4ae366d0f36e2988dbb0b8e355f24117de049f37954f26f45b"
+}

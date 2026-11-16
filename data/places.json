@@ -1,0 +1,146 @@
+{
+  "schema": "webizen.places/v1",
+  "status": "proposed, not design-approved",
+  "world": "Inhabited coastal catchment across physical, biological, social, cultural and informational scales",
+  "places": [
+    {
+      "id": "coast",
+      "name": "Coast, atmosphere and field station",
+      "disciplines": [
+        "physics",
+        "waves",
+        "energy",
+        "light",
+        "sound",
+        "observation"
+      ],
+      "human_activities": [
+        "observe",
+        "understand"
+      ],
+      "module_ids": [
+        "etalon",
+        "qualiadb",
+        "anvil",
+        "synth",
+        "hypermedia"
+      ]
+    },
+    {
+      "id": "biosphere",
+      "name": "River, forest and living catchment",
+      "disciplines": [
+        "nature",
+        "biosphere",
+        "ecology",
+        "geology",
+        "water",
+        "soil"
+      ],
+      "human_activities": [
+        "learn",
+        "care",
+        "cooperate"
+      ],
+      "module_ids": [
+        "ecopunk",
+        "qualiadb",
+        "hypermedia",
+        "etalon"
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Organisms and biological research",
+      "disciplines": [
+        "biology",
+        "anatomy",
+        "movement",
+        "development"
+      ],
+      "human_activities": [
+        "understand",
+        "care"
+      ],
+      "module_ids": [
+        "anatomy",
+        "qualiadb",
+        "hypermedia",
+        "etalon"
+      ]
+    },
+    {
+      "id": "society",
+      "name": "Settlement, commons and assembly",
+      "disciplines": [
+        "sociology",
+        "human rights",
+        "institutions",
+        "cooperation"
+      ],
+      "human_activities": [
+        "communicate",
+        "decide",
+        "cooperate"
+      ],
+      "module_ids": [
+        "webizen",
+        "webizen-host",
+        "web-civics",
+        "cooperation",
+        "qualiadb"
+      ]
+    },
+    {
+      "id": "arts",
+      "name": "Library, workshop, garden and stage",
+      "disciplines": [
+        "liberal arts",
+        "language",
+        "history",
+        "philosophy",
+        "literature",
+        "music",
+        "visual arts"
+      ],
+      "human_activities": [
+        "create",
+        "express",
+        "remember",
+        "learn"
+      ],
+      "module_ids": [
+        "poet",
+        "synth",
+        "hypermedia",
+        "vibescript",
+        "aether",
+        "chora",
+        "qualiadb"
+      ]
+    },
+    {
+      "id": "inquiry",
+      "name": "Observation and computation throughout the world",
+      "disciplines": [
+        "information",
+        "reasoning",
+        "AI",
+        "computation",
+        "evidence"
+      ],
+      "human_activities": [
+        "investigate",
+        "understand",
+        "build"
+      ],
+      "module_ids": [
+        "qualiadb",
+        "etalon",
+        "anvil",
+        "aether",
+        "chora"
+      ]
+    }
+  ]
+}

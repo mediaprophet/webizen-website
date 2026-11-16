@@ -1,0 +1,34 @@
+{
+  "scope": "Native group/material/transformation inspection, not a substitute for complete native-host scene review",
+  "views": [
+    "front-view-assumed.png",
+    "side-view-assumed.png",
+    "three-quarter-view-assumed.png"
+  ],
+  "groups": [
+    {
+      "id": "solar-array-three--panel",
+      "directory": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\previews\\solar-array-three--panel-1794795036"
+    },
+    {
+      "id": "car-passat-b7--gold",
+      "directory": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\previews\\car-passat-b7--gold-1794795049"
+    },
+    {
+      "id": "terrain--grassland",
+      "directory": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\previews\\terrain--grassland-1794795058"
+    },
+    {
+      "id": "eucalyptus--leaf-olive",
+      "directory": "C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\previews\\eucalyptus--leaf-olive-1794795064"
+    }
+  ],
+  "observations": {
+    "solar-array-three--panel": "Six navy photovoltaic faces remain in two groups of three, with authored rotations. This isolated material excludes frames, grids and supports, present in separate native groups.",
+    "car-passat-b7--gold": "Wagon body contour, wheel arches and body panels retained in native MAT1 gold. Native review lighting is dark; this isolated group intentionally excludes glass, tyres, roof box and trim.",
+    "terrain--grassland": "Meandering channel opening and lowland terrain contour retained. This material band excludes separate riverbank/upland/ridge geometry.",
+    "eucalyptus--leaf-olive": "Six separate tree crowns placed with authored scales and rotations. Hanging lanceolate leaves retained. This material group excludes trunk/twig/other leaf colours."
+  },
+  "complete_asset_reviews": "Original genuine native asset multi-view reviews remain in their production packages. Woodland full coloured native LOD reviews recorded separately in lod-review.json.",
+  "whole_scene_browser_status": "Delegated to native host integration; no browser visual pass asserted by this record."
+}

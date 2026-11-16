@@ -1,0 +1,25 @@
+{
+  "package": "P04",
+  "status": "implemented-awaiting-integrator-review",
+  "default_locale": "en-AU",
+  "q42_uri": "/publication/world-060a4ebc05b75c0d.q42",
+  "q42_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+  "quins": 123,
+  "decoded_triples_equal": true,
+  "canonical_replay_equal": true,
+  "strict_replay_verified": false,
+  "tests": {
+    "passed": 10,
+    "command": "python tests/publication/test_publication.py",
+    "failed": 0
+  },
+  "api": "GraphPaths(ROOT/'publication/generated', ROOT/'adapters/qualiadb/q42_web.exe').select(purpose, locale='en-AU', support_preferences=[])",
+  "public_mapping": "/publication/ -> publication/generated/",
+  "limitations": [
+    "Native DAG/header timestamps make byte replay differ; canonical graph replay equal",
+    "Bounded native Q42 scan queries, not indexed SPARQL performance claim",
+    "Graph-based public presentation routing does not authenticate or grant authority",
+    "Draft editorial module profiles remain unqualified"
+  ],
+  "relationships_api": "GraphPaths(...).relationships(kind='all')"
+}

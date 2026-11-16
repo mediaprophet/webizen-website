@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "browser": "en-US",
+    "supported": [
+      "en-AU"
+    ],
+    "fresh": "en-AU",
+    "legacy": "en-AU",
+    "automaticPreference": null,
+    "explicitFrench": "fr",
+    "explicitUS": "en-US",
+    "invalid": "en-AU"
+  },
+  "actual": {
+    "lang": "en-AU",
+    "label": "English (Australia)",
+    "locale": {
+      "requested": "en-AU",
+      "base": "en",
+      "default": "en-AU",
+      "dir": "ltr",
+      "fallback": false,
+      "translated": 91,
+      "total": 91
+    }
+  }
+}

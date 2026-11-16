@@ -1,0 +1,148 @@
+{
+  "source_sha256": "af3a76743edbb63c721c70e6b5bdc1590e8d75b8b00d9c028c25649af5914c74",
+  "evaluated_source_sha256": "73a0397c104b8282c1dbd918788ddc312211a39371ac39d208b8c16fffd22d57",
+  "runtime": "current native Synth Vibe host",
+  "result": {
+    "bindings": {
+      "positions": [
+        {
+          "camera": [
+            12.0,
+            11.356902858675879,
+            30.0
+          ],
+          "id": "river",
+          "position": [
+            0.0,
+            3.3569028586758782,
+            16.0
+          ]
+        },
+        {
+          "camera": [
+            -10.0,
+            11.978422619116127,
+            -4.0
+          ],
+          "id": "canopy",
+          "position": [
+            -20.0,
+            3.9784226191161283,
+            -16.0
+          ]
+        },
+        {
+          "camera": [
+            -8.0,
+            9.688931231681774,
+            15.0
+          ],
+          "id": "commons",
+          "position": [
+            -17.0,
+            3.688931231681775,
+            6.0
+          ]
+        },
+        {
+          "camera": [
+            30.0,
+            10.666177230070193,
+            4.0
+          ],
+          "id": "atelier",
+          "position": [
+            20.0,
+            5.666177230070194,
+            -7.0
+          ]
+        },
+        {
+          "camera": [
+            -4.0,
+            9.16498867324049,
+            -19.0
+          ],
+          "id": "observatory",
+          "position": [
+            -15.0,
+            2.16498867324049,
+            -32.0
+          ]
+        },
+        {
+          "camera": [
+            26.0,
+            9.825541311079283,
+            -27.0
+          ],
+          "id": "biology",
+          "position": [
+            17.0,
+            4.825541311079283,
+            -37.0
+          ]
+        },
+        {
+          "camera": [
+            -11.0,
+            8.790921689254922,
+            43.0
+          ],
+          "id": "field-studio",
+          "position": [
+            -22.0,
+            5.4909216892549235,
+            28.0
+          ]
+        }
+      ],
+      "settings": {
+        "camera": {
+          "pitch": 0.17555,
+          "target": [
+            -22.0,
+            5.490921689,
+            28.0
+          ],
+          "yaw": 0.63275,
+          "zoom": 18.8915
+        },
+        "default_locale": "en-AU",
+        "environment_fallback": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "exposure_ev": 0.35,
+        "marker_alpha": 1.0,
+        "marker_height": 3.0,
+        "marker_sigma": 0.42,
+        "markers_visible": false,
+        "max_dpr": 1.5,
+        "sky_preset": 1,
+        "sun": [
+          -0.5,
+          0.8,
+          0.35,
+          2.2,
+          0.45
+        ],
+        "water": {
+          "amplitude": 0.035,
+          "colour": [
+            0.055,
+            0.24,
+            0.25,
+            0.88
+          ],
+          "frequency": 1.4,
+          "quality": 1
+        }
+      }
+    },
+    "quin_count": 1,
+    "result": null,
+    "status": "ok"
+  }
+}

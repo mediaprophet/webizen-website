@@ -1,0 +1,150 @@
+{
+  "schema": "webizen.journey/v1",
+  "default_language": "en-AU",
+  "method": "These seven landscape chapters draw on longer visits in a locally held timeline, from mid-November 2025 through mid-November 2026. The available record ends in October 2026. Nearby visits are grouped into broad artistic regions; their names are approximate, not mapped boundaries. Month bands show when a chapter appears, and the reading order follows its first appearance. A visit record is not a campsite. The field studio is a shared artistic setting for exploring these landscapes.",
+  "chapters": [
+    {
+      "id": "southern-tablelands",
+      "title": "Southern Tablelands & Canberra region",
+      "month_bands": [
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10"
+      ],
+      "relative_order": 1,
+      "stay_band": "An extended chapter",
+      "artistic_palette": [
+        "#556856",
+        "#b3b298",
+        "#d9cfa8",
+        "#637b88"
+      ],
+      "landscape_copy": "Open grasslands meet wooded ridges. A chapter of broad skies, cool light and the meeting of country and city."
+    },
+    {
+      "id": "south-coast",
+      "title": "South Coast",
+      "month_bands": [
+        "2025-11",
+        "2025-12"
+      ],
+      "relative_order": 2,
+      "stay_band": "A brief chapter",
+      "artistic_palette": [
+        "#356a68",
+        "#729c8b",
+        "#d7d0ae",
+        "#a5bdc7"
+      ],
+      "landscape_copy": "Forest approaches the shore. Sea light, weathered wood and sheltered waterways bring the living coast into the field studio."
+    },
+    {
+      "id": "high-country",
+      "title": "High country & eastern Victoria",
+      "month_bands": [
+        "2025-11",
+        "2025-12"
+      ],
+      "relative_order": 3,
+      "stay_band": "A brief chapter",
+      "artistic_palette": [
+        "#455e57",
+        "#84917c",
+        "#c6c9b5",
+        "#8a9fab"
+      ],
+      "landscape_copy": "Layered ranges, tall forest and cooler air shape a mountain palette. Distance appears in successive shades of blue and green."
+    },
+    {
+      "id": "riverina",
+      "title": "Riverina",
+      "month_bands": [
+        "2025-12",
+        "2026-01"
+      ],
+      "relative_order": 4,
+      "stay_band": "A brief chapter",
+      "artistic_palette": [
+        "#69724f",
+        "#b29d65",
+        "#d8cba4",
+        "#8faaa7"
+      ],
+      "landscape_copy": "River country and open plains invite a slower view. Muted greens and warm ground colours follow the changing light."
+    },
+    {
+      "id": "central-victoria",
+      "title": "Central Victoria",
+      "month_bands": [
+        "2026-02",
+        "2026-08",
+        "2026-09"
+      ],
+      "relative_order": 5,
+      "stay_band": "A settled chapter",
+      "artistic_palette": [
+        "#626c4c",
+        "#b29262",
+        "#d6c49c",
+        "#81989b"
+      ],
+      "landscape_copy": "Dry woodland and open country carry a quieter palette of straw, bark and stone. Long light draws out the folds of the land."
+    },
+    {
+      "id": "western-slopes",
+      "title": "North-west NSW & western slopes",
+      "month_bands": [
+        "2026-04",
+        "2026-05"
+      ],
+      "relative_order": 6,
+      "stay_band": "A settled chapter",
+      "artistic_palette": [
+        "#756b4c",
+        "#ae8257",
+        "#d4b68b",
+        "#889caa"
+      ],
+      "landscape_copy": "The horizon opens across plains and slopes. Earth, grass and changing skies give this chapter its sense of space."
+    },
+    {
+      "id": "northern-rivers",
+      "title": "Northern Rivers & far north coast",
+      "month_bands": [
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "relative_order": 7,
+      "stay_band": "An extended chapter",
+      "artistic_palette": [
+        "#294e43",
+        "#73926b",
+        "#b7c9a0",
+        "#92b7bd"
+      ],
+      "landscape_copy": "Rain-green hills, river valleys and coastal light suggest a softer, more abundant landscape. Water connects the forest with the sea."
+    }
+  ],
+  "graph": {
+    "format": "q42",
+    "uri": "/publication/world-d8d19492c1e6e4a0.q42",
+    "sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+    "receipt_uri": "/publication/q42-receipt.json",
+    "reader": "qualia_core_db::q42_volume::Q42Volume",
+    "verified_blocks": true
+  },
+  "projection": {
+    "schema": "webizen.journey-q42-projection/v1",
+    "source_sha256": "66289dccc49b615c7c246c8bdc3b97478426f6a61d2acf06e0078b0e231380c6",
+    "semantic_roundtrip_equal": true,
+    "method": "Allowlisted chapter properties decoded from the native Q42 reader; field-studio hasChapter membership, ordered by relative_order."
+  }
+}

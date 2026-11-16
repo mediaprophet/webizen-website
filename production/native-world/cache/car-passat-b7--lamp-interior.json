@@ -1,0 +1,118 @@
+{
+  "key": "2603343f7a290ad4c38846ea601a8f4a5e87418c1a66c0a1d14d39b7491f407c",
+  "id": "car-passat-b7--lamp-interior",
+  "native": {
+    "bytes": 667032,
+    "key": "car-passat-b7--lamp-interior.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--lamp-interior-bfa71ea682f4\\car-passat-b7--lamp-interior.10d",
+    "sha256": "27fd86bd316272b7089c28aead2ff0aa8d0f43ae8cc3e353a08decfe3167e4c6",
+    "url": "/artifacts/world-car-passat-b7--lamp-interior-bfa71ea682f4/car-passat-b7--lamp-interior.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "903aae276aa937992e8a2fb1a4f40f458da99a660440c2ec169a4bf1e984aca4",
+    "package_sha256": "46d26f5bb2d7e41d186172499dda5dfe9ba7e5b52e60dbebca0d8381ba25d144",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 765457,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--lamp-interior-bfa71ea682f4.hmc",
+        "sha256": "46d26f5bb2d7e41d186172499dda5dfe9ba7e5b52e60dbebca0d8381ba25d144"
+      },
+      "inputs": [
+        {
+          "bytes": 97136,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\car-passat-b7--lamp-interior.glb",
+          "sha256": "4d57490f7cfe712c27a80fa53a3dd77d6ee815f0aa8073bf1f66ffbfdc78b84e"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997864,
+        "effective_host_bytes": 268367104,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096393,
+        "source_bytes": 534,
+        "source_reservation_bytes": 68352,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2136,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 667032,
+          "key": "car-passat-b7--lamp-interior.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--lamp-interior-bfa71ea682f4\\car-passat-b7--lamp-interior.10d",
+          "sha256": "27fd86bd316272b7089c28aead2ff0aa8d0f43ae8cc3e353a08decfe3167e4c6",
+          "url": "/artifacts/world-car-passat-b7--lamp-interior-bfa71ea682f4/car-passat-b7--lamp-interior.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "2a1b73b06347e13f80024ad7212047d771dd522cc5d6ecf5be82620284d70a7d",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 667032,
+        "key": "car-passat-b7--lamp-interior.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "27fd86bd316272b7089c28aead2ff0aa8d0f43ae8cc3e353a08decfe3167e4c6"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--lamp-interior-bfa71ea682f4.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-car-passat-b7--lamp-interior-bfa71ea682f4.hmc",
+    "receipt_url": "/artifacts/world-car-passat-b7--lamp-interior-bfa71ea682f4.json"
+  },
+  "vertices": 2320,
+  "triangles": 4624,
+  "instances": 1,
+  "material": 14,
+  "url": "/production/native-world/assets/car-passat-b7--lamp-interior.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "27fd86bd316272b7089c28aead2ff0aa8d0f43ae8cc3e353a08decfe3167e4c6",
+  "bytes": 667032,
+  "recipe": "/production/native-world/recipes/car-passat-b7--lamp-interior.vibe",
+  "input_sha256": "4d57490f7cfe712c27a80fa53a3dd77d6ee815f0aa8073bf1f66ffbfdc78b84e"
+}

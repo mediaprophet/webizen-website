@@ -1,0 +1,37 @@
+{
+  "albedo_luminance": 1.0,
+  "base_color": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "closure": "principled_v2",
+  "coat_weight": 0.0,
+  "energy_conservation_status": "not measured",
+  "energy_conserving": null,
+  "ior": 1.5,
+  "metallic": 0.0,
+  "nodes": [
+    {
+      "inputs": {
+        "Base Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Coat Weight": 0.0,
+        "IOR": 1.5,
+        "Metallic": 0.0,
+        "Roughness": 1.0,
+        "Thin Film Thickness": 0.0
+      },
+      "name": "Cycles BSDF Closure Node",
+      "type": "principled_v2"
+    }
+  ],
+  "preview_model": "principled sphere preview",
+  "roughness": 1.0,
+  "schema": "cycles.bsdf.closure/v2",
+  "thin_film_nm": 0.0
+}

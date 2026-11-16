@@ -1,0 +1,77 @@
+{
+  "schema": "webizen.q42-publication-evidence/v1",
+  "observed_at": "2026-11-16T03:55:36.969543+00:00",
+  "canonical_triples_sha256": "d8d19492c1e6e4a08d94b05c8d3e6355d4f56b7fe26d8f0156e09234e5164eb8",
+  "q42_uri": "/publication/world-d8d19492c1e6e4a0.q42",
+  "q42_sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+  "q42_bytes": 17092,
+  "replay_uri": "/publication/replay-df659ce22376.q42",
+  "replay_sha256": "ae322bd1727c74256eb03c26ce27df3cf3b8f4ad5b8aa73f605d8884c81665fe",
+  "strict_replay_verified": false,
+  "canonical_replay_equal": true,
+  "native_byte_replay_note": "QualiaDB UnifiedVolumeBuilder records current timestamps in the DAG and header; native bytes are not expected to replay identically. No header/DAG bytes are rewritten.",
+  "decoded_triples_equal": true,
+  "native": {
+    "lexicon_terms": 192,
+    "quins": 215,
+    "reader": "qualia_core_db::q42_volume::Q42Volume",
+    "roundtrip_equal": true,
+    "verified_blocks": true,
+    "version": 4,
+    "writer": "qualia_core_db::q42_volume::UnifiedVolumeBuilder"
+  },
+  "readback": {
+    "reader": "qualia_core_db::q42_volume::Q42Volume",
+    "version": 4,
+    "verified_blocks": true,
+    "total_quins": 215
+  },
+  "adapter_binary_sha256": "548fde84a89bc17435c9ce91fe591a5bf60b759f353e843daa494a9ff1c37dca",
+  "scope": "Authored public website entities; no personal data or authority grants; actual QualiaDB codec/reader, native token hashing and embedded lexicon.",
+  "sources": [
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "data/world.json",
+      "sha256": "e638c60d34c770a6f59e571d991bb1044b3c6b9f4339c822d29e599fefc96afc"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "site/locales/en-AU.json",
+      "sha256": "1bff769e882004440c4c573a572458d1960277b48c74aaceef17195e59574428"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "migration/baseline/modules.json",
+      "sha256": "7ed5d505cafafad35af5959a9fbf82c2b720e541c967019097fbc3556e1d10b1"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "data/journey.json",
+      "sha256": "66289dccc49b615c7c246c8bdc3b97478426f6a61d2acf06e0078b0e231380c6"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "data/native-world-layout.json",
+      "sha256": "2ea418bf8e23f5df8a6366beb75cd581acdcda9c5bb35efe8232b185e76999ca"
+    },
+    {
+      "repository": "webizen-website",
+      "revision": "content-sha256:3600db5e2d8c1fda885aac4e7d0ecf47ce590e130e537d77a35c042e87768f9e",
+      "path": "site/world/living-world.vibe",
+      "sha256": "1b7842fbba396723a10467c3c5bcf87e4f04f017fd8c21a720dbcb917446f999"
+    }
+  ],
+  "journey": {
+    "chapters": 7,
+    "source_sha256": "66289dccc49b615c7c246c8bdc3b97478426f6a61d2acf06e0078b0e231380c6",
+    "semantic_roundtrip_equal": true,
+    "projection_uri": "/publication/journey.json",
+    "default_language": "en-AU",
+    "method": "Allowlisted chapter properties decoded from the native Q42 reader; field-studio hasChapter membership, ordered by relative_order."
+  }
+}

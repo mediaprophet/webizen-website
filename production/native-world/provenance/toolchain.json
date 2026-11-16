@@ -1,0 +1,12 @@
+{
+  "native_library": "C:\\github\\synth\\target-prod\\debug\\deps\\libqualia_core_db.rlib",
+  "native_library_sha256": "722a0f0aa20a151d76f86a02a28ae609566096c2e6f5736d7d6f4d9f80aed57d",
+  "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+  "native_codec_source_sha256": {
+    "header": "b5cf5e0db3dd53e8ee6fb1bf495c388e3eccd8ec599695050041943b5791945f",
+    "section": "a2fed80c105563a716416f51faaa5a3c514431fbe70aa35f7e25f8a8116b2b31",
+    "integrity": "13e76495e381377388eb2ea9c7d46b16b5642b615ddcee5dfcabbf9e41aabe8b",
+    "provenance_section": "146d052cac04f5e51135c16802a8117f9a8418c1e0ec3db372fe33d2bafad05f"
+  },
+  "scope": "Actual cached QualiaDB library linked by rustc; native section reseal, CRC and provenance validation, portal decode admission; no codec reimplementation or policy override."
+}

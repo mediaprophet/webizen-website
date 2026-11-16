@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 3526598,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-eucalyptus-near-5fec9dc1f95e.hmc",
+    "sha256": "6528deec953f489da243fe8f9f8955a8088e60db6a4bd509e2985494e1ec6302"
+  },
+  "inputs": [
+    {
+      "bytes": 774944,
+      "key": "batch.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-eucalyptus-near.glb",
+      "sha256": "024bef78d3b53a7cc8340778f8a2811c21e716892f58f72b6a8115792971fd26"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499998636,
+    "effective_host_bytes": 268391808,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2091097,
+    "source_bytes": 341,
+    "source_reservation_bytes": 43648,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1364,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 2750544,
+      "key": "prototype-eucalyptus-near.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-eucalyptus-near-5fec9dc1f95e\\prototype-eucalyptus-near.10d",
+      "sha256": "7421786747946eec1580c61b56815c69c2de47a8270c9c1143712fbf1d13d027"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "c34da29a7da2dde415f8098beb607553a652c5afb2b5cd78768298653d3c81dd",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

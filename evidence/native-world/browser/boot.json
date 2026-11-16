@@ -1,0 +1,14 @@
+{
+  "receipt": null,
+  "status": "anatomy_body_mesh_empty",
+  "language": "en-AU",
+  "body": "Skip to world controls\nW.\nwebizen\nHUMAN CENTRIC COMPUTING\nRead the world\nThe ecosystem\nThe journey\nEnglish · AU\nanatomy_body_mesh_empty\nContinue with the accessible reading view",
+  "scripts": [
+    "http://127.0.0.1:8800/pkg/native-world/webizen_world.js"
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "anatomy_body_mesh_empty",
+    "page.waitForFunction: Timeout 90000ms exceeded."
+  ]
+}

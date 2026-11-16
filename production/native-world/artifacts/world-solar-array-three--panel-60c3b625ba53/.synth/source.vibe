@@ -1,0 +1,5 @@
+requires [capability("capability.invoke")];
+let world={id:"solar-array-three--panel",asset:"solar-array-three",material:36,instances:[{id:"solar-three-a",translation:[-20.4,4.490922,32.2],rotation:[0,-0.039989,0,0.9992],scale:[1,1,1]},{id:"solar-three-b",translation:[-17.8,4.490922,32.2],rotation:[0,0.024997,0,0.999688],scale:[1,1,1]}],input:"world.glb"};
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:world.input,format:"glb"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry});
+let mut asset={files:[{key:"solar-array-three--panel.10d",resource:native}]};

@@ -1,0 +1,118 @@
+{
+  "key": "0d8e2d57680f8aadddcba01b9d4fc1a5d9a90cb3668f62f018b89f52a20fe527",
+  "id": "vintage-windup-camper--chassis",
+  "native": {
+    "bytes": 73560,
+    "key": "vintage-windup-camper--chassis.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--chassis-1729c388f598\\vintage-windup-camper--chassis.10d",
+    "sha256": "858c49ad5e16626988a0d826fa69c8019ef8b73a099f5e67c7059ea1980a4617",
+    "url": "/artifacts/world-vintage-windup-camper--chassis-1729c388f598/vintage-windup-camper--chassis.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "184491755d9365ae10897b2eb862f2fa536c3446fc596e5dd43d193200b2ed37",
+    "package_sha256": "bb834abdd0c5fe3b495059115c882b0358a7d30f3430a145eda9c717a784cef9",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 98186,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--chassis-1729c388f598.hmc",
+        "sha256": "bb834abdd0c5fe3b495059115c882b0358a7d30f3430a145eda9c717a784cef9"
+      },
+      "inputs": [
+        {
+          "bytes": 23312,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--chassis.glb",
+          "sha256": "09167bd1c7ef552124e610645727e9510e24eb9f1f5c141bed872da2a89feb57"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997828,
+        "effective_host_bytes": 268365952,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096969,
+        "source_bytes": 543,
+        "source_reservation_bytes": 69504,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2172,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 73560,
+          "key": "vintage-windup-camper--chassis.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--chassis-1729c388f598\\vintage-windup-camper--chassis.10d",
+          "sha256": "858c49ad5e16626988a0d826fa69c8019ef8b73a099f5e67c7059ea1980a4617",
+          "url": "/artifacts/world-vintage-windup-camper--chassis-1729c388f598/vintage-windup-camper--chassis.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "c3f3c38eb39ae1afefcd5642bbe91616a63331c23b84576729bfab919769ab28",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 73560,
+        "key": "vintage-windup-camper--chassis.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "858c49ad5e16626988a0d826fa69c8019ef8b73a099f5e67c7059ea1980a4617"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--chassis-1729c388f598.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-vintage-windup-camper--chassis-1729c388f598.hmc",
+    "receipt_url": "/artifacts/world-vintage-windup-camper--chassis-1729c388f598.json"
+  },
+  "vertices": 180,
+  "triangles": 304,
+  "instances": 1,
+  "material": 18,
+  "url": "/production/native-world/assets/vintage-windup-camper--chassis.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "858c49ad5e16626988a0d826fa69c8019ef8b73a099f5e67c7059ea1980a4617",
+  "bytes": 73560,
+  "recipe": "/production/native-world/recipes/vintage-windup-camper--chassis.vibe",
+  "input_sha256": "09167bd1c7ef552124e610645727e9510e24eb9f1f5c141bed872da2a89feb57"
+}

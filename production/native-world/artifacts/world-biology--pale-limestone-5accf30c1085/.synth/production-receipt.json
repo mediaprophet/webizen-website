@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 257094,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-biology--pale-limestone-5accf30c1085.hmc",
+    "sha256": "3622b7c23d0ce76b77ed051d907594f9251d6a65e9edfc395e48bd32c8abb521"
+  },
+  "inputs": [
+    {
+      "bytes": 37188,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\biology--pale-limestone.glb",
+      "sha256": "0a955b127c2bae2f3684caaecafbd3f577f72d0011975de139ee677bab8ccc9a"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499997996,
+    "effective_host_bytes": 268371328,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096861,
+    "source_bytes": 501,
+    "source_reservation_bytes": 64128,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2004,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 218576,
+      "key": "biology--pale-limestone.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-biology--pale-limestone-5accf30c1085\\biology--pale-limestone.10d",
+      "sha256": "83be22a4da891e50b74ffbe8def415f9fd8a88ed43a82733580e7cf4b6b53456"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "a2cd4ccc259466fd71f4e25a364b2222c91905d14777341b54a55e3a77438d13",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

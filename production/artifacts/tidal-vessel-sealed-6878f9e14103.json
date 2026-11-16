@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 4977667,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-sealed-6878f9e14103.hmc",
+    "sha256": "97f9962dbf4da6ecebb6a773f09a3ec9bad5bf3ced2b9a4a3957fb9f8af9917e"
+  },
+  "inputs": [
+    {
+      "bytes": 1026173,
+      "key": "assembly.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\tidal-vessel.obj",
+      "sha256": "ee80ad93bfd0a93b40bb122dd725fe0272b78cb89503193ea3c8513552dcdc05"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499998812,
+    "effective_host_bytes": 268397440,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2089135,
+    "source_bytes": 297,
+    "source_reservation_bytes": 38016,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1188,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 3950448,
+      "key": "tidal-vessel.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-sealed-6878f9e14103\\tidal-vessel.10d",
+      "sha256": "943fdbd525b9b0557d62a1d8d47d216b0b2e6cd075544eabfdfe4d7d7180e33b"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "3f1a2677626a1b80c7e88130c3c1f6452ea70b6133581220781fbad2a6ffe1d1",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

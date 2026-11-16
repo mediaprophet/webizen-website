@@ -1,0 +1,4 @@
+requires [capability("capability.invoke")];
+let terrain=capability.invoke("hypermedia.manifold.import_mesh",{input:"terrain.glb",format:"glb"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:terrain});
+let mut asset={files:[{key:"habitat-terrain.10d",resource:native}]};

@@ -1,0 +1,48 @@
+{
+  "benchmark_artifacts": 5,
+  "kind_counts": {
+    "benchmark-entry": 8,
+    "build-template": 1,
+    "generated-preview": 63,
+    "historical-document": 39,
+    "release-document": 11,
+    "source-page": 81,
+    "test-entry": 1
+  },
+  "missing_prior_routes": [],
+  "module_groups": 16,
+  "qualification": "counts describe source coverage; no runtime pass or benchmark rerun inferred",
+  "route_count": 204,
+  "runner_source_files": 15,
+  "runtime_execution_performed": false,
+  "schema": "webizen.baseline-summary/v1",
+  "section_counts": {
+    "AI and compute": 9,
+    "Agency and cooperation": 7,
+    "Anatomy production previews": 63,
+    "Authoring and applications": 5,
+    "Benchmarks": 8,
+    "Developer tools": 7,
+    "Documentation and standards": 4,
+    "Ecosystem entry points": 6,
+    "Fields and acoustic media": 3,
+    "Historical and design material": 39,
+    "Knowledge and reasoning": 14,
+    "Networking and identifiers": 6,
+    "Participation and economics": 3,
+    "Releases": 11,
+    "Shared templates": 1,
+    "Utility and discovery": 3,
+    "VibeScript": 7,
+    "Worlds and science": 8
+  },
+  "source_route_digest_sha256": "806c080f05bd82e7dc8fbf50b0992bdec65423a943ca84463697b208d8282bd6",
+  "suite_mode_counts": {
+    "both": 1,
+    "logic": 24,
+    "native": 5,
+    "wasm": 14
+  },
+  "suite_registrations": 44,
+  "unresolved_source_reference_candidates": 114
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "webizen.native-assembled-visual-review/v1",
+  "image": {
+    "path": "C:\\github\\synth\\production\\webizen-swarm\\evidence\\aaa-browser\\world.png",
+    "sha256": "26990a66f905ed873439646326ffe8373e102aa9cf724f09949a02e42ba19484",
+    "observed_timestamp": "2026-11-16T04:05:00Z"
+  },
+  "verdict": "Improved native review composition; final artwork and AAA acceptance withheld.",
+  "improvements": [
+    "The closer southwest three-quarter viewpoint gives the wagon, roofbox and camper useful apparent size and reveals their sides. It communicates a personal campsite more clearly than the small frontal view.",
+    "The surrounding native trees now provide enclosure and several depth planes. The revised fill reduces the earlier nearly white trunk washout.",
+    "The dominant fine ground rippling is reduced after native material regeneration. The actual updated normal and ORM maps were observed and matched the resident texture receipts."
+  ],
+  "remaining_authored_weaknesses": [
+    {
+      "priority": 1,
+      "finding": "Foreground remains a large continuous olive surface. Groundcover is sparse and isolated; much of the litter is hidden by the bottom navigation.",
+      "next": "Compose near-ground overlapping grass, leaf and rock patches using retained native prototype instances after that integration is ready. Keep the camp access apron clear, but introduce clumped transitions at its margins."
+    },
+    {
+      "priority": 1,
+      "finding": "The same tree architecture repeats strongly: similar trunks, fork angles, heights and leaf density. Pale bark and fine foliage lack convincing close variation.",
+      "next": "Author several age/form variants and source-backed bark/leaf detail; use actual botanical datasets for eventual species selection, without pretending current art is a surveyed woodland."
+    },
+    {
+      "priority": 1,
+      "finding": "The terrain colour pattern is visibly procedural and broad, with diagonal cloudy repetition. It does not yet supply natural soil/litter/vegetation texture at walking distance.",
+      "next": "Separate measured/art-directed large-scale habitat variation from fine local material detail. Replace uniform periodic patches with coherent bank, clearing, leaf-litter and exposed-soil transitions."
+    },
+    {
+      "priority": 2,
+      "finding": "Car paint, glazing, canvas and timber read as relatively flat solid surfaces; the wagon and camper have identifiable silhouettes but lack hero-asset material richness.",
+      "next": "Review these native assets close up under calibrated lighting; add real native material layers, canvas folds/seams and restrained paint/reflection response."
+    },
+    {
+      "priority": 2,
+      "finding": "The right panel obscures some solar panels and river context; the bottom bar covers foreground environmental detail.",
+      "next": "Use a narrower contextual panel/collapsed exploration state and reserve a clear visual area for the camp. Preserve accessible readable controls."
+    },
+    {
+      "priority": 2,
+      "finding": "The dimmer palette now avoids washout but remains mostly olive/grey with little visual hierarchy between terrain, equipment and distance.",
+      "next": "Judge a deliberate warm key/cool sky balance and controlled atmospheric depth after calibrated material contrast. Avoid arbitrary exposure cycling as a substitute for art direction."
+    }
+  ],
+  "ground_diagnostic": {
+    "normal_map": {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-terrain\\assets\\soil-normal.png",
+      "sha256": "7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112",
+      "visual": "Nearly flat purple, subtle low-amplitude variation; no strong authored stripe bands."
+    },
+    "colour_map": {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-terrain\\assets\\habitat-colour.png",
+      "sha256": "4ba9ee4e326d06142b94e6bfbcd2b6b16e25aad2e2e17ad009f25cde6e6bc0f1",
+      "visual": "Visible periodic diagonal patch structure across the green field and a pale river/clearing band."
+    },
+    "source_evidence": [
+      "aaa-terrain/material-field.vibe patch is an authored sum of sin(x*.21+z*.16), sin(x*.43-z*.31), cos(x*.79+z*.51). This explains a periodic component without invoking a renderer defect.",
+      "aaa-terrain/finalise.py:34\u201336 gives normal/ORM KHR_texture_transform scale[30,30], normalTexture.scale.45, base-colour atlas unscaled.",
+      "qualia-core-db/src/render/portal_load_textures.rs:256\u2013257 selects Linear colour space and Normal mip semantic for the material normal digest.",
+      "etalon-render/src/shaders/mesh.wgsl:349\u2013357 decodes normal sample*2-1 and combines the tangent, signed bitangent and geometric normal using material normal scale.",
+      "Revised normal7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112, colour4ba9ee4e326d06142b94e6bfbcd2b6b16e25aad2e2e17ad009f25cde6e6bc0f1 and ORMce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382 are marked native_resident in the inspected receipt."
+    ],
+    "conclusion": "Fine normal-map ridging is reduced. Remaining broad waviness/colour variation is not sufficient evidence of a tangent or colour-space defect. If it remains objectionable after authored material revision, compare the same camera with a native neutral-normal material and then a constant-albedo material to isolate lighting, geometry and texture effects. No shader correctness guarantee is claimed from source reading."
+  },
+  "performance": "The bounded selection is still148.7MB and not a production website payload. The separate instancing handoff remains a required performance correction.",
+  "scope": "Read-only visual/source review. No shared scene, runtime or core code edited."
+}

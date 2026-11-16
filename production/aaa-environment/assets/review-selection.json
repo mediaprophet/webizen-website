@@ -1,0 +1,3896 @@
+{
+  "schema": "webizen.bounded-native-review-selection/v1",
+  "purpose": "Campsite-led visual review within existing tangent regeneration cap; full candidate retained. This selection is not a LOD, public release or performance acceptance.",
+  "source_manifest": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-proof\\scene.json",
+  "source_manifest_sha256": "79d079082373fe7853754c47492afd73592e46473b8084e221b802eac0c7a1b9",
+  "asset_ids": [
+    "habitat-terrain",
+    "car-passat-b7--gold",
+    "car-passat-b7--glass",
+    "car-passat-b7--chrome",
+    "car-passat-b7--trim",
+    "car-passat-b7--rubber",
+    "car-passat-b7--brake",
+    "car-passat-b7--alloy",
+    "car-passat-b7--red",
+    "car-passat-b7--lamp",
+    "car-passat-b7--plate",
+    "car-passat-b7--lamp-interior",
+    "car-passat-b7--projector",
+    "car-passat-b7--roofbox-base",
+    "car-passat-b7--roofbox",
+    "vintage-windup-camper--chassis",
+    "vintage-windup-camper--rubber",
+    "vintage-windup-camper--enamel",
+    "vintage-windup-camper--chrome",
+    "vintage-windup-camper--ochre",
+    "vintage-windup-camper--olive",
+    "vintage-windup-camper--roof",
+    "vintage-windup-camper--canvas",
+    "vintage-windup-camper--screen",
+    "vintage-windup-camper--canvas-seam",
+    "vintage-windup-camper--screen-wire",
+    "vintage-windup-camper--step",
+    "vintage-windup-camper--steel",
+    "vintage-windup-camper--canvas-roof",
+    "vintage-windup-camper--red-lens",
+    "vintage-windup-camper--amber-lens",
+    "solar-array-three--backing",
+    "solar-array-three--panel",
+    "solar-array-three--aluminium",
+    "solar-array-three--cell-line",
+    "solar-array-three--rubber",
+    "solar-array-two--backing",
+    "solar-array-two--panel",
+    "solar-array-two--aluminium",
+    "solar-array-two--cell-line",
+    "solar-array-two--rubber",
+    "starlink-mini--dish-back",
+    "starlink-mini--dish-front",
+    "starlink-mini--backing",
+    "starlink-mini--mount",
+    "starlink-mini--rubber",
+    "starlink-mini--aluminium",
+    "eucalyptus--pale-bark",
+    "eucalyptus--old-bark",
+    "eucalyptus--warm-bark",
+    "eucalyptus--twig",
+    "eucalyptus--leaf-olive",
+    "eucalyptus--leaf-blue",
+    "eucalyptus--leaf-young",
+    "canopy--limestone",
+    "canopy--timber",
+    "canopy--bronze",
+    "tidal-vessel--limestone",
+    "tidal-vessel--verdigris",
+    "tidal-vessel--bronze",
+    "memory-frond--limestone",
+    "memory-frond--bronze",
+    "memory-frond--leaf",
+    "footbridge--bridge-heartwood",
+    "footbridge--bridge-timber",
+    "footbridge--patinated-bronze",
+    "footbridge--pale-limestone",
+    "observatory--pale-limestone",
+    "observatory--patinated-bronze",
+    "observatory--shadow-metal",
+    "observatory--receiver-ceramic",
+    "biology--pale-limestone",
+    "biology--helix-teal",
+    "biology--shadow-metal",
+    "biology--helix-gold",
+    "ecology-eucalyptus-mid-2",
+    "ecology-eucalyptus-mid-3",
+    "ecology-eucalyptus-mid-4",
+    "ecology-eucalyptus-mid-5",
+    "ecology-eucalyptus-mid-6",
+    "ecology-bank-rock-mid-0",
+    "ecology-bank-rock-mid-1",
+    "ecology-bank-rock-mid-2",
+    "ecology-bank-rock-near-0",
+    "ecology-grass-near-1",
+    "ecology-grass-mid-0",
+    "ecology-grass-mid-5",
+    "ecology-shrub-branches-0",
+    "ecology-shrub-leaves-0",
+    "ecology-shrub-leaves-1",
+    "ecology-shrub-leaves-2",
+    "ecology-leaf-litter-0"
+  ],
+  "excluded_asset_ids": [
+    "eucalyptus-far--pale-bark",
+    "eucalyptus-far--old-bark",
+    "eucalyptus-far--warm-bark",
+    "eucalyptus-far--twig",
+    "eucalyptus-far--leaf-olive",
+    "eucalyptus-far--leaf-blue",
+    "eucalyptus-far--leaf-young",
+    "ecology-eucalyptus-mid-0",
+    "ecology-eucalyptus-mid-1",
+    "ecology-eucalyptus-mid-7",
+    "ecology-eucalyptus-mid-8",
+    "ecology-eucalyptus-mid-9",
+    "ecology-eucalyptus-mid-10",
+    "ecology-eucalyptus-mid-11",
+    "ecology-eucalyptus-mid-12",
+    "ecology-eucalyptus-mid-13",
+    "ecology-eucalyptus-mid-14",
+    "ecology-eucalyptus-near-0",
+    "ecology-eucalyptus-near-1",
+    "ecology-eucalyptus-near-2",
+    "ecology-grass-near-0",
+    "ecology-grass-near-2",
+    "ecology-grass-mid-1",
+    "ecology-grass-mid-2",
+    "ecology-grass-mid-3",
+    "ecology-grass-mid-4"
+  ],
+  "totals": {
+    "assets": 92,
+    "vertices": 941987,
+    "triangles": 1269402,
+    "bytes": 148738672,
+    "vertex_budget": 950000,
+    "budget_headroom": 8013
+  },
+  "camera": {
+    "position": [
+      -29,
+      9.71868565242946,
+      56
+    ],
+    "target": [
+      -22,
+      5.840921689254924,
+      27
+    ],
+    "vertical_fov_degrees_recommended": 52,
+    "ground_height_at_camera": 6.46868565242946,
+    "native_height_evidence": "/production/aaa-environment/assets/review-camera-evaluation.json"
+  },
+  "composition": {
+    "entry": "Low south approach to the camp. Gold wagon remains left of camper; solar panels form the readable front apron. Roofbox and Mini stay in view.",
+    "foreground": "Grass-mid-0 places tufts at(-29.8,48.2),(-25.8,50.5),(-27.3,47.2), ahead of the camera. Litter patches near(-22.3,43.1),(-32.7,41.5) connect this foreground to the clearing.",
+    "middle": "The six existing camp trees at(-35,19),(-24,11),(-10,16),(-38,32),(-35,44),(-18,4) retain deliberately composed side and rear silhouettes. Grass-near-1 supplies dense tufts on north/west margins; grass-mid-5 adds camp-edge clusters around(-34,28). The shrub at(-30.3,17.7) sits behind the car, not across its entry.",
+    "distance": "New mid-tree groups2\u20136 add30trees in the west/north woodland: a graduated backdrop behind the original6. Their x positions largely span-61.5to-16.7, z-60.9to64.7. Farther east groups do not contribute enough to this first camp composition to justify their bounded-review cost.",
+    "water": "All71native bank stones retained so alternate river/bridge review views keep an articulated bank rather than losing natural context.",
+    "destinations": "All native bridge, observatory, biology and three artwork assets retained. The review remains navigable to all current landmarks."
+  },
+  "selection_rationale": [
+    {
+      "scope": "all non-forest baseline assets",
+      "reason": "Keep complete personal campsite, all native landmarks, actual terrain and water; never drop individual car/camper material parts."
+    },
+    {
+      "scope": "original eucalyptus-- material groups",
+      "reason": "Keep all7material groups for6near trees; selective material removal would create incomplete trees."
+    },
+    {
+      "scope": "original eucalyptus-far-- groups",
+      "reason": "Remove12broad far trees for this review because selected new west woodland now supplies the backdrop."
+    },
+    {
+      "scope": "new ecology-eucalyptus-near-0..2",
+      "reason": "Remove3additionalnear trees; original6already preserve camp framing and density."
+    },
+    {
+      "scope": "new ecology-eucalyptus-mid-2..6",
+      "reason": "Retain30 west woodland trees selected by actual authored node positions, not every-other arbitrary omission."
+    },
+    {
+      "scope": "grass-near-1,grass-mid-0,grass-mid-5",
+      "reason": "Retain47tufts including visible south-approachforeground and west/northcamp margins. Othergrassgroups largely serve distant/east views."
+    },
+    {
+      "scope": "all shrub branch and leaf groups",
+      "reason": "Keep14completeplants. Branches share one batch, so omitting a leaf batch alone would leave naked unexplained stems."
+    },
+    {
+      "scope": "all rock and litter groups",
+      "reason": "Lowvertexcost compared withfoliage; preserve riverline and ground detail."
+    }
+  ],
+  "selected_native_placement_groups": [
+    {
+      "asset_id": "ecology-eucalyptus-mid-2",
+      "placements": [
+        {
+          "name": "eucalyptus-mid-12",
+          "translation": [
+            -61.2036,
+            12.381759862744902,
+            -7.0392
+          ],
+          "rotation": [
+            0.0,
+            0.7733447132201381,
+            0.0,
+            0.6339857684005709
+          ],
+          "scale": [
+            0.9576,
+            0.9576,
+            0.9576
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-13",
+          "translation": [
+            -56.1625,
+            11.928908914992105,
+            1.9455
+          ],
+          "rotation": [
+            0.0,
+            0.4008092678518234,
+            0.0,
+            0.9161615200411363
+          ],
+          "scale": [
+            0.9779,
+            0.9779,
+            0.9779
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-14",
+          "translation": [
+            -61.5362,
+            13.354156557068112,
+            14.0747
+          ],
+          "rotation": [
+            0.0,
+            0.9797782120835241,
+            0.0,
+            0.2000866190588787
+          ],
+          "scale": [
+            0.7715,
+            0.7715,
+            0.7715
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-15",
+          "translation": [
+            -59.4414,
+            13.304751087824723,
+            32.0301
+          ],
+          "rotation": [
+            0.0,
+            0.3959939183267807,
+            0.0,
+            0.9182531332090312
+          ],
+          "scale": [
+            0.8225,
+            0.8225,
+            0.8225
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-16",
+          "translation": [
+            -58.0696,
+            12.736883825522664,
+            44.3955
+          ],
+          "rotation": [
+            0.0,
+            0.8290742643839701,
+            0.0,
+            0.5591385017472673
+          ],
+          "scale": [
+            0.796,
+            0.796,
+            0.796
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-17",
+          "translation": [
+            -52.1594,
+            19.964047369810412,
+            -60.0092
+          ],
+          "rotation": [
+            0.0,
+            0.8121338345601189,
+            0.0,
+            0.5834711944583704
+          ],
+          "scale": [
+            0.7947,
+            0.7947,
+            0.7947
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-eucalyptus-mid-3",
+      "placements": [
+        {
+          "name": "eucalyptus-mid-18",
+          "translation": [
+            -50.6414,
+            10.781090614664691,
+            -6.6787
+          ],
+          "rotation": [
+            0.0,
+            0.07238663492727018,
+            0.0,
+            0.997376646550292
+          ],
+          "scale": [
+            0.7877,
+            0.7877,
+            0.7877
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-19",
+          "translation": [
+            -51.5876,
+            10.495367874881023,
+            44.0407
+          ],
+          "rotation": [
+            0.0,
+            0.4896973962040626,
+            0.0,
+            -0.8718924590515514
+          ],
+          "scale": [
+            0.7437,
+            0.7437,
+            0.7437
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-20",
+          "translation": [
+            -47.7379,
+            9.186296278430069,
+            52.9701
+          ],
+          "rotation": [
+            0.0,
+            0.44039864984621524,
+            0.0,
+            -0.8978023330408708
+          ],
+          "scale": [
+            0.9599,
+            0.9599,
+            0.9599
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-21",
+          "translation": [
+            -52.6807,
+            10.468402377181645,
+            62.8429
+          ],
+          "rotation": [
+            0.0,
+            0.9978427723744853,
+            0.0,
+            0.06564907935379763
+          ],
+          "scale": [
+            0.837,
+            0.837,
+            0.837
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-22",
+          "translation": [
+            -39.1863,
+            10.601529387597965,
+            -45.4245
+          ],
+          "rotation": [
+            0.0,
+            0.620039190390894,
+            0.0,
+            -0.7845708396183259
+          ],
+          "scale": [
+            0.7499,
+            0.7499,
+            0.7499
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-23",
+          "translation": [
+            -40.8765,
+            9.307800249720232,
+            -6.9187
+          ],
+          "rotation": [
+            0.0,
+            0.9496760314514113,
+            0.0,
+            0.3132338348370081
+          ],
+          "scale": [
+            1.0975,
+            1.0975,
+            1.0975
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-eucalyptus-mid-4",
+      "placements": [
+        {
+          "name": "eucalyptus-mid-24",
+          "translation": [
+            -40.1997,
+            9.128392107890406,
+            4.669
+          ],
+          "rotation": [
+            0.0,
+            0.7246318330363589,
+            0.0,
+            0.6891362031923489
+          ],
+          "scale": [
+            0.8447,
+            0.8447,
+            0.8447
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-25",
+          "translation": [
+            -38.7195,
+            7.770133362200033,
+            13.2909
+          ],
+          "rotation": [
+            0.0,
+            0.5199137686720599,
+            0.0,
+            0.8542187501718842
+          ],
+          "scale": [
+            0.713,
+            0.713,
+            0.713
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-26",
+          "translation": [
+            -41.3263,
+            8.391228356291935,
+            23.3258
+          ],
+          "rotation": [
+            0.0,
+            0.45635341187944833,
+            0.0,
+            -0.8897986083749438
+          ],
+          "scale": [
+            0.7526,
+            0.7526,
+            0.7526
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-27",
+          "translation": [
+            -43.8893,
+            8.164839718137635,
+            44.9667
+          ],
+          "rotation": [
+            0.0,
+            0.9499419371085163,
+            0.0,
+            0.3124264971517617
+          ],
+          "scale": [
+            1.0819,
+            1.0819,
+            1.0819
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-28",
+          "translation": [
+            -39.3796,
+            7.717062939246924,
+            51.3041
+          ],
+          "rotation": [
+            0.0,
+            0.8269675400007525,
+            0.0,
+            -0.5622496667718923
+          ],
+          "scale": [
+            1.0555,
+            1.0555,
+            1.0555
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-29",
+          "translation": [
+            -42.8015,
+            8.542540374245418,
+            62.7508
+          ],
+          "rotation": [
+            0.0,
+            0.9913077053579368,
+            0.0,
+            0.13156379934458406
+          ],
+          "scale": [
+            0.9417,
+            0.9417,
+            0.9417
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-eucalyptus-mid-5",
+      "placements": [
+        {
+          "name": "eucalyptus-mid-30",
+          "translation": [
+            -33.1259,
+            9.279389936859769,
+            -56.3593
+          ],
+          "rotation": [
+            0.0,
+            0.929107713015685,
+            0.0,
+            -0.3698092178607282
+          ],
+          "scale": [
+            0.8462,
+            0.8462,
+            0.8462
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-31",
+          "translation": [
+            -31.394,
+            7.213996441397597,
+            -27.9416
+          ],
+          "rotation": [
+            0.0,
+            0.9831569500370689,
+            0.0,
+            0.18276326653298897
+          ],
+          "scale": [
+            0.7528,
+            0.7528,
+            0.7528
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-33",
+          "translation": [
+            -29.9629,
+            6.381961594567793,
+            -10.9073
+          ],
+          "rotation": [
+            0.0,
+            0.24250781761914822,
+            0.0,
+            0.9701494515761981
+          ],
+          "scale": [
+            0.9368,
+            0.9368,
+            0.9368
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-34",
+          "translation": [
+            -33.0987,
+            6.805403103212831,
+            10.9556
+          ],
+          "rotation": [
+            0.0,
+            0.8890885106496966,
+            0.0,
+            0.45773531678329604
+          ],
+          "scale": [
+            0.7529,
+            0.7529,
+            0.7529
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-37",
+          "translation": [
+            -33.5704,
+            6.547165332856284,
+            43.4841
+          ],
+          "rotation": [
+            0.0,
+            0.8769363032854565,
+            0.0,
+            0.4806066166627733
+          ],
+          "scale": [
+            0.8025,
+            0.8025,
+            0.8025
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-38",
+          "translation": [
+            -33.5116,
+            7.217839835340534,
+            51.8527
+          ],
+          "rotation": [
+            0.0,
+            0.167302190899594,
+            0.0,
+            -0.9859056632965427
+          ],
+          "scale": [
+            0.855,
+            0.855,
+            0.855
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-eucalyptus-mid-6",
+      "placements": [
+        {
+          "name": "eucalyptus-mid-39",
+          "translation": [
+            -34.8369,
+            7.481828210429413,
+            64.7246
+          ],
+          "rotation": [
+            0.0,
+            0.99587564320794,
+            0.0,
+            -0.09072873450661449
+          ],
+          "scale": [
+            1.0149,
+            1.0149,
+            1.0149
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-40",
+          "translation": [
+            -20.9528,
+            6.600223791713355,
+            -56.9804
+          ],
+          "rotation": [
+            0.0,
+            0.0771658660515462,
+            0.0,
+            -0.9970182691989725
+          ],
+          "scale": [
+            0.7551,
+            0.7551,
+            0.7551
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-41",
+          "translation": [
+            -24.1515,
+            5.6578209843338945,
+            -36.7876
+          ],
+          "rotation": [
+            0.0,
+            0.47731150620399665,
+            0.0,
+            -0.8787341611916951
+          ],
+          "scale": [
+            0.6961,
+            0.6961,
+            0.6961
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-44",
+          "translation": [
+            -24.3651,
+            4.913044086111207,
+            -5.6007
+          ],
+          "rotation": [
+            0.0,
+            0.5918827195563072,
+            0.0,
+            -0.8060240978349406
+          ],
+          "scale": [
+            0.6832,
+            0.6832,
+            0.6832
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-50",
+          "translation": [
+            -20.4769,
+            4.457154702811497,
+            63.7726
+          ],
+          "rotation": [
+            0.0,
+            0.6620439159010126,
+            0.0,
+            -0.7494650448276109
+          ],
+          "scale": [
+            0.7137,
+            0.7137,
+            0.7137
+          ]
+        },
+        {
+          "name": "eucalyptus-mid-51",
+          "translation": [
+            -16.7054,
+            6.084459828692656,
+            -60.8953
+          ],
+          "rotation": [
+            0.0,
+            0.7664526990019253,
+            0.0,
+            0.6423007552483994
+          ],
+          "scale": [
+            1.033,
+            1.033,
+            1.033
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-bank-rock-mid-0",
+      "placements": [
+        {
+          "name": "bank-rock-mid-131",
+          "translation": [
+            -6.3758,
+            0.3512853075093304,
+            -23.5433
+          ],
+          "rotation": [
+            0.0,
+            0.8872009388437438,
+            0.0,
+            -0.46138323995869146
+          ],
+          "scale": [
+            0.405,
+            0.405,
+            0.405
+          ]
+        },
+        {
+          "name": "bank-rock-mid-132",
+          "translation": [
+            -9.7621,
+            0.5633208737014798,
+            -5.496
+          ],
+          "rotation": [
+            0.0,
+            0.848793928239683,
+            0.0,
+            0.5287238101158749
+          ],
+          "scale": [
+            0.3043,
+            0.3043,
+            0.3043
+          ]
+        },
+        {
+          "name": "bank-rock-mid-133",
+          "translation": [
+            11.5227,
+            0.7664684691758553,
+            48.0649
+          ],
+          "rotation": [
+            0.0,
+            0.9743917626205755,
+            0.0,
+            0.22485705000548248
+          ],
+          "scale": [
+            0.322,
+            0.322,
+            0.322
+          ]
+        },
+        {
+          "name": "bank-rock-mid-136",
+          "translation": [
+            1.6381,
+            0.612307958020241,
+            43.9604
+          ],
+          "rotation": [
+            0.0,
+            0.9851850972512031,
+            0.0,
+            0.17149438519711835
+          ],
+          "scale": [
+            0.4838,
+            0.4838,
+            0.4838
+          ]
+        },
+        {
+          "name": "bank-rock-mid-137",
+          "translation": [
+            8.4593,
+            0.33522717359362686,
+            57.0766
+          ],
+          "rotation": [
+            0.0,
+            0.8916798191725355,
+            0.0,
+            -0.4526666544825611
+          ],
+          "scale": [
+            0.4709,
+            0.4709,
+            0.4709
+          ]
+        },
+        {
+          "name": "bank-rock-mid-139",
+          "translation": [
+            -2.8378,
+            2.6909185708084387,
+            -41.1163
+          ],
+          "rotation": [
+            0.0,
+            0.5817614404735822,
+            0.0,
+            -0.813359469348026
+          ],
+          "scale": [
+            0.4761,
+            0.4761,
+            0.4761
+          ]
+        },
+        {
+          "name": "bank-rock-mid-140",
+          "translation": [
+            4.9977,
+            0.7400710701288117,
+            17.9826
+          ],
+          "rotation": [
+            0.0,
+            0.23094614105607736,
+            0.0,
+            0.9729665358743365
+          ],
+          "scale": [
+            0.6396,
+            0.6396,
+            0.6396
+          ]
+        },
+        {
+          "name": "bank-rock-mid-141",
+          "translation": [
+            9.3572,
+            0.49352673600109453,
+            54.261
+          ],
+          "rotation": [
+            0.0,
+            0.1278914256098381,
+            0.0,
+            -0.991788174589455
+          ],
+          "scale": [
+            0.7101,
+            0.7101,
+            0.7101
+          ]
+        },
+        {
+          "name": "bank-rock-mid-143",
+          "translation": [
+            13.029,
+            0.7393107385423919,
+            12.8217
+          ],
+          "rotation": [
+            0.0,
+            0.9975437436932294,
+            0.0,
+            -0.07004626627092034
+          ],
+          "scale": [
+            0.5512,
+            0.5512,
+            0.5512
+          ]
+        },
+        {
+          "name": "bank-rock-mid-144",
+          "translation": [
+            4.7755,
+            1.1265665473417372,
+            29.6079
+          ],
+          "rotation": [
+            0.0,
+            0.43770987038352765,
+            0.0,
+            0.899116271329151
+          ],
+          "scale": [
+            0.7151,
+            0.7151,
+            0.7151
+          ]
+        },
+        {
+          "name": "bank-rock-mid-145",
+          "translation": [
+            10.6588,
+            0.7761689895184004,
+            51.8463
+          ],
+          "rotation": [
+            0.0,
+            0.9991512487475,
+            0.0,
+            -0.041192015322284496
+          ],
+          "scale": [
+            0.3889,
+            0.3889,
+            0.3889
+          ]
+        },
+        {
+          "name": "bank-rock-mid-147",
+          "translation": [
+            16.0034,
+            0.7699714658370304,
+            22.5361
+          ],
+          "rotation": [
+            0.0,
+            0.06610176711107504,
+            0.0,
+            0.9978128864595772
+          ],
+          "scale": [
+            0.6175,
+            0.6175,
+            0.6175
+          ]
+        },
+        {
+          "name": "bank-rock-mid-148",
+          "translation": [
+            -0.3057,
+            0.18064669138980224,
+            54.771
+          ],
+          "rotation": [
+            0.0,
+            0.19121515896488844,
+            0.0,
+            0.9815481460336178
+          ],
+          "scale": [
+            0.601,
+            0.601,
+            0.601
+          ]
+        },
+        {
+          "name": "bank-rock-mid-149",
+          "translation": [
+            11.9699,
+            0.8359049719411394,
+            47.3424
+          ],
+          "rotation": [
+            0.0,
+            0.6791416904943406,
+            0.0,
+            -0.7340071963083804
+          ],
+          "scale": [
+            0.5072,
+            0.5072,
+            0.5072
+          ]
+        },
+        {
+          "name": "bank-rock-mid-152",
+          "translation": [
+            4.5972,
+            0.7651974853150195,
+            33.7968
+          ],
+          "rotation": [
+            0.0,
+            0.8366797807862418,
+            0.0,
+            -0.5476923811990508
+          ],
+          "scale": [
+            0.29,
+            0.29,
+            0.29
+          ]
+        },
+        {
+          "name": "bank-rock-mid-153",
+          "translation": [
+            -0.9401,
+            3.7974301391529126,
+            -42.9992
+          ],
+          "rotation": [
+            0.0,
+            0.013749566735866553,
+            0.0,
+            0.9999054702393502
+          ],
+          "scale": [
+            0.375,
+            0.375,
+            0.375
+          ]
+        },
+        {
+          "name": "bank-rock-mid-155",
+          "translation": [
+            11.6018,
+            0.6498948059335518,
+            46.3476
+          ],
+          "rotation": [
+            0.0,
+            0.7831358230409537,
+            0.0,
+            -0.6218506916213634
+          ],
+          "scale": [
+            0.4331,
+            0.4331,
+            0.4331
+          ]
+        },
+        {
+          "name": "bank-rock-mid-156",
+          "translation": [
+            -1.9454,
+            0.5315851883943875,
+            59.5584
+          ],
+          "rotation": [
+            0.0,
+            0.9643146977987649,
+            0.0,
+            -0.2647586893933356
+          ],
+          "scale": [
+            0.6476,
+            0.6476,
+            0.6476
+          ]
+        },
+        {
+          "name": "bank-rock-mid-160",
+          "translation": [
+            -12.1892,
+            2.5126560164912557,
+            -42.8164
+          ],
+          "rotation": [
+            0.0,
+            0.3761151481730978,
+            0.0,
+            0.9265729303809435
+          ],
+          "scale": [
+            0.2872,
+            0.2872,
+            0.2872
+          ]
+        },
+        {
+          "name": "bank-rock-mid-161",
+          "translation": [
+            10.5909,
+            0.4100748199562646,
+            47.4576
+          ],
+          "rotation": [
+            0.0,
+            0.9609576386181502,
+            0.0,
+            -0.2766955308302407
+          ],
+          "scale": [
+            0.5458,
+            0.5458,
+            0.5458
+          ]
+        },
+        {
+          "name": "bank-rock-mid-163",
+          "translation": [
+            10.058,
+            0.6970219628251174,
+            53.7059
+          ],
+          "rotation": [
+            0.0,
+            0.10759133352222953,
+            0.0,
+            0.9941952046509319
+          ],
+          "scale": [
+            0.3948,
+            0.3948,
+            0.3948
+          ]
+        },
+        {
+          "name": "bank-rock-mid-164",
+          "translation": [
+            -1.7438,
+            0.4210501186077119,
+            60.2398
+          ],
+          "rotation": [
+            0.0,
+            0.5356269464273457,
+            0.0,
+            0.8444547200773511
+          ],
+          "scale": [
+            0.6779,
+            0.6779,
+            0.6779
+          ]
+        },
+        {
+          "name": "bank-rock-mid-165",
+          "translation": [
+            -4.1054,
+            0.6272629187666131,
+            -15.7882
+          ],
+          "rotation": [
+            0.0,
+            0.03368627933015178,
+            0.0,
+            -0.9994324562394854
+          ],
+          "scale": [
+            0.299,
+            0.299,
+            0.299
+          ]
+        },
+        {
+          "name": "bank-rock-mid-167",
+          "translation": [
+            14.3015,
+            0.8602777391369446,
+            14.8756
+          ],
+          "rotation": [
+            0.0,
+            0.6941890568892898,
+            0.0,
+            -0.7197927155057616
+          ],
+          "scale": [
+            0.5676,
+            0.5676,
+            0.5676
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-bank-rock-mid-1",
+      "placements": [
+        {
+          "name": "bank-rock-mid-168",
+          "translation": [
+            -6.7905,
+            0.7052580686876336,
+            -0.9554
+          ],
+          "rotation": [
+            0.0,
+            0.6933608364164473,
+            0.0,
+            -0.7205905567823413
+          ],
+          "scale": [
+            0.2576,
+            0.2576,
+            0.2576
+          ]
+        },
+        {
+          "name": "bank-rock-mid-169",
+          "translation": [
+            2.2374,
+            0.41238769126091024,
+            -2.9461
+          ],
+          "rotation": [
+            0.0,
+            0.3043919282596024,
+            0.0,
+            0.9525468775920696
+          ],
+          "scale": [
+            0.6504,
+            0.6504,
+            0.6504
+          ]
+        },
+        {
+          "name": "bank-rock-mid-172",
+          "translation": [
+            -0.4648,
+            0.4970351350150365,
+            51.843
+          ],
+          "rotation": [
+            0.0,
+            0.14281006168927302,
+            0.0,
+            0.9897501130488978
+          ],
+          "scale": [
+            0.4898,
+            0.4898,
+            0.4898
+          ]
+        },
+        {
+          "name": "bank-rock-mid-173",
+          "translation": [
+            -5.7851,
+            0.820449235335985,
+            -29.1394
+          ],
+          "rotation": [
+            0.0,
+            0.819764678595734,
+            0.0,
+            0.5727005078807185
+          ],
+          "scale": [
+            0.4348,
+            0.4348,
+            0.4348
+          ]
+        },
+        {
+          "name": "bank-rock-mid-176",
+          "translation": [
+            -10.2981,
+            0.3944274735808163,
+            -7.4138
+          ],
+          "rotation": [
+            0.0,
+            0.25915769456722365,
+            0.0,
+            0.9658350218057956
+          ],
+          "scale": [
+            0.5873,
+            0.5873,
+            0.5873
+          ]
+        },
+        {
+          "name": "bank-rock-mid-177",
+          "translation": [
+            13.9376,
+            0.4969164458177141,
+            37.9007
+          ],
+          "rotation": [
+            0.0,
+            0.9784141325888345,
+            0.0,
+            -0.20665378087622455
+          ],
+          "scale": [
+            0.6387,
+            0.6387,
+            0.6387
+          ]
+        },
+        {
+          "name": "bank-rock-mid-179",
+          "translation": [
+            -3.4247,
+            0.529884200275094,
+            -13.2902
+          ],
+          "rotation": [
+            0.0,
+            0.7390726443278918,
+            0.0,
+            -0.6736257316983798
+          ],
+          "scale": [
+            0.7147,
+            0.7147,
+            0.7147
+          ]
+        },
+        {
+          "name": "bank-rock-mid-180",
+          "translation": [
+            1.2369,
+            0.7263737403116611,
+            9.598
+          ],
+          "rotation": [
+            0.0,
+            0.56504900941056,
+            0.0,
+            -0.8250573416218686
+          ],
+          "scale": [
+            0.4494,
+            0.4494,
+            0.4494
+          ]
+        },
+        {
+          "name": "bank-rock-mid-181",
+          "translation": [
+            -5.796,
+            0.4789576408808488,
+            -21.3593
+          ],
+          "rotation": [
+            0.0,
+            0.13889216961208484,
+            0.0,
+            -0.9903075104332228
+          ],
+          "scale": [
+            0.4324,
+            0.4324,
+            0.4324
+          ]
+        },
+        {
+          "name": "bank-rock-mid-183",
+          "translation": [
+            15.1125,
+            0.46384701847216603,
+            20.0795
+          ],
+          "rotation": [
+            0.0,
+            0.6449383821398419,
+            0.0,
+            -0.7642345734411937
+          ],
+          "scale": [
+            0.368,
+            0.368,
+            0.368
+          ]
+        },
+        {
+          "name": "bank-rock-mid-184",
+          "translation": [
+            -2.8014,
+            0.8206166047688047,
+            60.2058
+          ],
+          "rotation": [
+            0.0,
+            0.12164066344517203,
+            0.0,
+            -0.9925742032697699
+          ],
+          "scale": [
+            0.5514,
+            0.5514,
+            0.5514
+          ]
+        },
+        {
+          "name": "bank-rock-mid-185",
+          "translation": [
+            -4.6074,
+            0.6367986015264538,
+            -18.0041
+          ],
+          "rotation": [
+            0.0,
+            0.9990625424512093,
+            0.0,
+            -0.04329014057410421
+          ],
+          "scale": [
+            0.4863,
+            0.4863,
+            0.4863
+          ]
+        },
+        {
+          "name": "bank-rock-mid-188",
+          "translation": [
+            -11.1878,
+            0.3669034373155077,
+            -9.0592
+          ],
+          "rotation": [
+            0.0,
+            0.37128508431281293,
+            0.0,
+            -0.9285189207371207
+          ],
+          "scale": [
+            0.697,
+            0.697,
+            0.697
+          ]
+        },
+        {
+          "name": "bank-rock-mid-189",
+          "translation": [
+            4.6822,
+            0.5254366190224761,
+            0.2966
+          ],
+          "rotation": [
+            0.0,
+            0.3075742560354478,
+            0.0,
+            -0.9515240811583493
+          ],
+          "scale": [
+            0.4229,
+            0.4229,
+            0.4229
+          ]
+        },
+        {
+          "name": "bank-rock-mid-191",
+          "translation": [
+            1.14,
+            0.5077355304636152,
+            -5.1096
+          ],
+          "rotation": [
+            0.0,
+            0.8315264404274585,
+            0.0,
+            0.5554851743026453
+          ],
+          "scale": [
+            0.3853,
+            0.3853,
+            0.3853
+          ]
+        },
+        {
+          "name": "bank-rock-mid-193",
+          "translation": [
+            13.0712,
+            0.20697910536353845,
+            37.8494
+          ],
+          "rotation": [
+            0.0,
+            0.3421862786329823,
+            0.0,
+            -0.9396321358464231
+          ],
+          "scale": [
+            0.333,
+            0.333,
+            0.333
+          ]
+        },
+        {
+          "name": "bank-rock-mid-196",
+          "translation": [
+            -11.3382,
+            2.5383524315257215,
+            -44.1912
+          ],
+          "rotation": [
+            0.0,
+            0.8946735959712616,
+            0.0,
+            0.44672044577325054
+          ],
+          "scale": [
+            0.4589,
+            0.4589,
+            0.4589
+          ]
+        },
+        {
+          "name": "bank-rock-mid-199",
+          "translation": [
+            12.9179,
+            0.6458096238572085,
+            12.9897
+          ],
+          "rotation": [
+            0.0,
+            0.49561489747372994,
+            0.0,
+            -0.8685423843440826
+          ],
+          "scale": [
+            0.3453,
+            0.3453,
+            0.3453
+          ]
+        },
+        {
+          "name": "bank-rock-mid-200",
+          "translation": [
+            -11.4202,
+            0.25644107464330246,
+            -10.0926
+          ],
+          "rotation": [
+            0.0,
+            0.5564380101614048,
+            0.0,
+            -0.8308891266875602
+          ],
+          "scale": [
+            0.6375,
+            0.6375,
+            0.6375
+          ]
+        },
+        {
+          "name": "bank-rock-mid-201",
+          "translation": [
+            12.6435,
+            0.5791966887246202,
+            12.7399
+          ],
+          "rotation": [
+            0.0,
+            0.9837444181148441,
+            0.0,
+            -0.17957427384758262
+          ],
+          "scale": [
+            0.7366,
+            0.7366,
+            0.7366
+          ]
+        },
+        {
+          "name": "bank-rock-mid-203",
+          "translation": [
+            12.696,
+            0.5889985054910688,
+            42.1455
+          ],
+          "rotation": [
+            0.0,
+            0.974333864200979,
+            0.0,
+            -0.2251077987791366
+          ],
+          "scale": [
+            0.4122,
+            0.4122,
+            0.4122
+          ]
+        },
+        {
+          "name": "bank-rock-mid-204",
+          "translation": [
+            -1.3317,
+            0.3513914198362379,
+            58.3374
+          ],
+          "rotation": [
+            0.0,
+            0.42227173761581516,
+            0.0,
+            0.9064692932531803
+          ],
+          "scale": [
+            0.591,
+            0.591,
+            0.591
+          ]
+        },
+        {
+          "name": "bank-rock-mid-205",
+          "translation": [
+            12.766,
+            0.6430249510648559,
+            42.5134
+          ],
+          "rotation": [
+            0.0,
+            0.37147760139521413,
+            0.0,
+            0.9284419161485862
+          ],
+          "scale": [
+            0.5599,
+            0.5599,
+            0.5599
+          ]
+        },
+        {
+          "name": "bank-rock-mid-207",
+          "translation": [
+            8.856,
+            0.39299458046123414,
+            55.5643
+          ],
+          "rotation": [
+            0.0,
+            0.9530769926319681,
+            0.0,
+            -0.30272800682395307
+          ],
+          "scale": [
+            0.2977,
+            0.2977,
+            0.2977
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-bank-rock-mid-2",
+      "placements": [
+        {
+          "name": "bank-rock-mid-208",
+          "translation": [
+            4.7849,
+            0.6436977960403595,
+            16.3198
+          ],
+          "rotation": [
+            0.0,
+            0.3593232911987372,
+            0.0,
+            -0.9332131441434521
+          ],
+          "scale": [
+            0.4653,
+            0.4653,
+            0.4653
+          ]
+        },
+        {
+          "name": "bank-rock-mid-209",
+          "translation": [
+            15.1292,
+            0.5871795336847822,
+            18.9332
+          ],
+          "rotation": [
+            0.0,
+            0.11464005036872693,
+            0.0,
+            -0.9934070962357052
+          ],
+          "scale": [
+            0.7455,
+            0.7455,
+            0.7455
+          ]
+        },
+        {
+          "name": "bank-rock-mid-211",
+          "translation": [
+            -1.4904,
+            0.4317751680725085,
+            -9.3601
+          ],
+          "rotation": [
+            0.0,
+            0.5499045889812063,
+            0.0,
+            0.8352274798026047
+          ],
+          "scale": [
+            0.4753,
+            0.4753,
+            0.4753
+          ]
+        },
+        {
+          "name": "bank-rock-mid-212",
+          "translation": [
+            -0.6389,
+            0.20292918892695297,
+            56.2479
+          ],
+          "rotation": [
+            0.0,
+            0.9039819363509725,
+            0.0,
+            -0.42757064767257635
+          ],
+          "scale": [
+            0.3391,
+            0.3391,
+            0.3391
+          ]
+        },
+        {
+          "name": "bank-rock-mid-213",
+          "translation": [
+            13.1715,
+            0.5815797612134556,
+            40.7415
+          ],
+          "rotation": [
+            0.0,
+            0.426120406878648,
+            0.0,
+            0.904666457232485
+          ],
+          "scale": [
+            0.6585,
+            0.6585,
+            0.6585
+          ]
+        },
+        {
+          "name": "bank-rock-mid-215",
+          "translation": [
+            -3.5615,
+            2.1247356048152306,
+            -38.7735
+          ],
+          "rotation": [
+            0.0,
+            0.7249418709483574,
+            0.0,
+            0.6888100491034486
+          ],
+          "scale": [
+            0.522,
+            0.522,
+            0.522
+          ]
+        },
+        {
+          "name": "bank-rock-mid-217",
+          "translation": [
+            14.9502,
+            0.7216667144553731,
+            17.2896
+          ],
+          "rotation": [
+            0.0,
+            0.7605713383752767,
+            0.0,
+            -0.6492543717542766
+          ],
+          "scale": [
+            0.6613,
+            0.6613,
+            0.6613
+          ]
+        },
+        {
+          "name": "bank-rock-mid-219",
+          "translation": [
+            13.3436,
+            0.25542115757546446,
+            37.4711
+          ],
+          "rotation": [
+            0.0,
+            0.07283544707392349,
+            0.0,
+            0.9973439715812904
+          ],
+          "scale": [
+            0.6828,
+            0.6828,
+            0.6828
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-bank-rock-near-0",
+      "placements": [
+        {
+          "name": "bank-rock-near-150",
+          "translation": [
+            3.043,
+            0.46360025451703246,
+            11.4696
+          ],
+          "rotation": [
+            0.0,
+            0.49553442177669854,
+            0.0,
+            0.8685883011153402
+          ],
+          "scale": [
+            0.5329,
+            0.5329,
+            0.5329
+          ]
+        },
+        {
+          "name": "bank-rock-near-154",
+          "translation": [
+            -6.7282,
+            0.36065397219570416,
+            -2.2942
+          ],
+          "rotation": [
+            0.0,
+            0.9616346733086736,
+            0.0,
+            0.2743332919835299
+          ],
+          "scale": [
+            0.3914,
+            0.3914,
+            0.3914
+          ]
+        },
+        {
+          "name": "bank-rock-near-158",
+          "translation": [
+            -15.5828,
+            0.5974973263197555,
+            -19.4662
+          ],
+          "rotation": [
+            0.0,
+            0.32460364684487925,
+            0.0,
+            -0.9458501321324668
+          ],
+          "scale": [
+            0.7164,
+            0.7164,
+            0.7164
+          ]
+        },
+        {
+          "name": "bank-rock-near-162",
+          "translation": [
+            3.8222,
+            1.0491213838786373,
+            34.3024
+          ],
+          "rotation": [
+            0.0,
+            0.07308478078811385,
+            0.0,
+            0.9973257315527126
+          ],
+          "scale": [
+            0.4394,
+            0.4394,
+            0.4394
+          ]
+        },
+        {
+          "name": "bank-rock-near-166",
+          "translation": [
+            2.7282,
+            0.9465144065231087,
+            38.3787
+          ],
+          "rotation": [
+            0.0,
+            0.8956542150499542,
+            0.0,
+            0.4447510843868179
+          ],
+          "scale": [
+            0.3993,
+            0.3993,
+            0.3993
+          ]
+        },
+        {
+          "name": "bank-rock-near-170",
+          "translation": [
+            -11.7769,
+            2.135315931237461,
+            -42.1358
+          ],
+          "rotation": [
+            0.0,
+            0.6813460299524893,
+            0.0,
+            0.7319614658354506
+          ],
+          "scale": [
+            0.7016,
+            0.7016,
+            0.7016
+          ]
+        },
+        {
+          "name": "bank-rock-near-174",
+          "translation": [
+            6.1304,
+            0.49577468899021737,
+            22.1643
+          ],
+          "rotation": [
+            0.0,
+            0.9360363658891162,
+            0.0,
+            -0.35190328462959347
+          ],
+          "scale": [
+            0.3819,
+            0.3819,
+            0.3819
+          ]
+        },
+        {
+          "name": "bank-rock-near-178",
+          "translation": [
+            -14.4839,
+            0.6093614518056901,
+            -14.1412
+          ],
+          "rotation": [
+            0.0,
+            0.363758826496856,
+            0.0,
+            0.9314931648410686
+          ],
+          "scale": [
+            0.3544,
+            0.3544,
+            0.3544
+          ]
+        },
+        {
+          "name": "bank-rock-near-182",
+          "translation": [
+            -16.541,
+            0.9581923789260453,
+            -22.4037
+          ],
+          "rotation": [
+            0.0,
+            0.9840571665754207,
+            0.0,
+            -0.17785244702155414
+          ],
+          "scale": [
+            0.4376,
+            0.4376,
+            0.4376
+          ]
+        },
+        {
+          "name": "bank-rock-near-190",
+          "translation": [
+            -8.5947,
+            0.1958483844815154,
+            -5.5649
+          ],
+          "rotation": [
+            0.0,
+            0.19787801290048637,
+            0.0,
+            -0.9802266533871413
+          ],
+          "scale": [
+            0.4996,
+            0.4996,
+            0.4996
+          ]
+        },
+        {
+          "name": "bank-rock-near-194",
+          "translation": [
+            4.4964,
+            1.1799992810727904,
+            30.5665
+          ],
+          "rotation": [
+            0.0,
+            0.8097598116103052,
+            0.0,
+            -0.58676149115364
+          ],
+          "scale": [
+            0.6224,
+            0.6224,
+            0.6224
+          ]
+        },
+        {
+          "name": "bank-rock-near-198",
+          "translation": [
+            2.8605,
+            0.36587094410590437,
+            42.1774
+          ],
+          "rotation": [
+            0.0,
+            0.9997753662757575,
+            0.0,
+            0.021194739634517564
+          ],
+          "scale": [
+            0.6394,
+            0.6394,
+            0.6394
+          ]
+        },
+        {
+          "name": "bank-rock-near-206",
+          "translation": [
+            -11.58,
+            2.516991031790369,
+            -43.7601
+          ],
+          "rotation": [
+            0.0,
+            0.5249871371497221,
+            0.0,
+            0.8511101608060727
+          ],
+          "scale": [
+            0.4252,
+            0.4252,
+            0.4252
+          ]
+        },
+        {
+          "name": "bank-rock-near-214",
+          "translation": [
+            -1.1889,
+            0.7044002301006836,
+            52.5115
+          ],
+          "rotation": [
+            0.0,
+            0.9845425392244516,
+            0.0,
+            -0.17514562072021458
+          ],
+          "scale": [
+            0.3447,
+            0.3447,
+            0.3447
+          ]
+        },
+        {
+          "name": "bank-rock-near-218",
+          "translation": [
+            2.3435,
+            0.966144018971722,
+            12.3782
+          ],
+          "rotation": [
+            0.0,
+            0.23050113416614693,
+            0.0,
+            -0.973072056503587
+          ],
+          "scale": [
+            0.4266,
+            0.4266,
+            0.4266
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-grass-near-1",
+      "placements": [
+        {
+          "name": "grass-near-292",
+          "translation": [
+            -13.3977,
+            0.5309553151502518,
+            -13.0649
+          ],
+          "rotation": [
+            0.0,
+            0.3898788241091714,
+            0.0,
+            0.9208661697072218
+          ],
+          "scale": [
+            0.6708,
+            0.6708,
+            0.6708
+          ]
+        },
+        {
+          "name": "grass-near-304",
+          "translation": [
+            -0.4431,
+            1.6861403979805736,
+            40.1278
+          ],
+          "rotation": [
+            0.0,
+            0.6404238414157387,
+            0.0,
+            0.7680216815600382
+          ],
+          "scale": [
+            0.8884,
+            0.8884,
+            0.8884
+          ]
+        },
+        {
+          "name": "grass-near-310",
+          "translation": [
+            -12.1965,
+            2.6897307082465596,
+            17.6145
+          ],
+          "rotation": [
+            0.0,
+            0.7089441620186924,
+            0.0,
+            0.7052646135597718
+          ],
+          "scale": [
+            0.5966,
+            0.5966,
+            0.5966
+          ]
+        },
+        {
+          "name": "grass-near-328",
+          "translation": [
+            -11.4176,
+            2.5697684031930392,
+            10.0087
+          ],
+          "rotation": [
+            0.0,
+            0.5023807349098708,
+            0.0,
+            0.8646465157458383
+          ],
+          "scale": [
+            0.5904,
+            0.5904,
+            0.5904
+          ]
+        },
+        {
+          "name": "grass-near-340",
+          "translation": [
+            -34.2363,
+            6.8736708107539775,
+            15.9092
+          ],
+          "rotation": [
+            0.0,
+            0.3060038233285694,
+            0.0,
+            -0.9520302831886692
+          ],
+          "scale": [
+            0.7751,
+            0.7751,
+            0.7751
+          ]
+        },
+        {
+          "name": "grass-near-346",
+          "translation": [
+            -13.134,
+            0.9679250788851884,
+            -9.5447
+          ],
+          "rotation": [
+            0.0,
+            0.1003309062295611,
+            0.0,
+            0.9949541241962642
+          ],
+          "scale": [
+            0.8522,
+            0.8522,
+            0.8522
+          ]
+        },
+        {
+          "name": "grass-near-352",
+          "translation": [
+            21.9141,
+            3.1431467011108483,
+            23.0015
+          ],
+          "rotation": [
+            0.0,
+            0.9855418181700497,
+            0.0,
+            -0.1694323600675875
+          ],
+          "scale": [
+            0.7631,
+            0.7631,
+            0.7631
+          ]
+        },
+        {
+          "name": "grass-near-358",
+          "translation": [
+            -45.315,
+            9.70467201924237,
+            18.9406
+          ],
+          "rotation": [
+            0.0,
+            0.9018359665203999,
+            0.0,
+            0.4320785686541468
+          ],
+          "scale": [
+            0.6314,
+            0.6314,
+            0.6314
+          ]
+        },
+        {
+          "name": "grass-near-370",
+          "translation": [
+            4.5585,
+            2.0506427012095907,
+            -10.6697
+          ],
+          "rotation": [
+            0.0,
+            0.36617264032303165,
+            0.0,
+            -0.9305469345921568
+          ],
+          "scale": [
+            0.7944,
+            0.7944,
+            0.7944
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-grass-mid-0",
+      "placements": [
+        {
+          "name": "grass-mid-221",
+          "translation": [
+            20.6144,
+            3.76883504784063,
+            8.427
+          ],
+          "rotation": [
+            0.0,
+            0.3374437087430802,
+            0.0,
+            0.941345708775323
+          ],
+          "scale": [
+            0.5912,
+            0.5912,
+            0.5912
+          ]
+        },
+        {
+          "name": "grass-mid-222",
+          "translation": [
+            29.3954,
+            5.127064001696836,
+            28.7653
+          ],
+          "rotation": [
+            0.0,
+            0.7371885614751598,
+            0.0,
+            0.6756870761159967
+          ],
+          "scale": [
+            0.5051,
+            0.5051,
+            0.5051
+          ]
+        },
+        {
+          "name": "grass-mid-223",
+          "translation": [
+            -29.7847,
+            6.391751297260325,
+            48.2196
+          ],
+          "rotation": [
+            0.0,
+            0.7689151735225438,
+            0.0,
+            -0.6393508081849872
+          ],
+          "scale": [
+            0.6328,
+            0.6328,
+            0.6328
+          ]
+        },
+        {
+          "name": "grass-mid-225",
+          "translation": [
+            -40.5528,
+            8.47145720577863,
+            11.0938
+          ],
+          "rotation": [
+            0.0,
+            0.838373604205449,
+            0.0,
+            -0.545096046373082
+          ],
+          "scale": [
+            0.5677,
+            0.5677,
+            0.5677
+          ]
+        },
+        {
+          "name": "grass-mid-227",
+          "translation": [
+            6.7547,
+            2.0181379009309173,
+            -1.6776
+          ],
+          "rotation": [
+            0.0,
+            0.9778227351451249,
+            0.0,
+            0.20943423462582939
+          ],
+          "scale": [
+            0.6504,
+            0.6504,
+            0.6504
+          ]
+        },
+        {
+          "name": "grass-mid-233",
+          "translation": [
+            -24.5672,
+            5.045967817979618,
+            -22.5484
+          ],
+          "rotation": [
+            0.0,
+            0.7696865308200078,
+            0.0,
+            0.6384219954499228
+          ],
+          "scale": [
+            0.5469,
+            0.5469,
+            0.5469
+          ]
+        },
+        {
+          "name": "grass-mid-234",
+          "translation": [
+            -25.8274,
+            5.34125240237966,
+            50.5013
+          ],
+          "rotation": [
+            0.0,
+            0.352875617941835,
+            0.0,
+            -0.9356702401285231
+          ],
+          "scale": [
+            0.7118,
+            0.7118,
+            0.7118
+          ]
+        },
+        {
+          "name": "grass-mid-235",
+          "translation": [
+            -27.2688,
+            5.681593390451891,
+            47.1794
+          ],
+          "rotation": [
+            0.0,
+            0.7230743690022342,
+            0.0,
+            -0.6907701910852992
+          ],
+          "scale": [
+            0.5748,
+            0.5748,
+            0.5748
+          ]
+        },
+        {
+          "name": "grass-mid-237",
+          "translation": [
+            21.7908,
+            3.455671920294727,
+            11.3871
+          ],
+          "rotation": [
+            0.0,
+            0.83747305490123,
+            0.0,
+            -0.5464786201805165
+          ],
+          "scale": [
+            0.8735,
+            0.8735,
+            0.8735
+          ]
+        },
+        {
+          "name": "grass-mid-239",
+          "translation": [
+            0.9529,
+            1.8103617563042371,
+            -18.9791
+          ],
+          "rotation": [
+            0.0,
+            0.7162702077336657,
+            0.0,
+            -0.6978230359576642
+          ],
+          "scale": [
+            0.7904,
+            0.7904,
+            0.7904
+          ]
+        },
+        {
+          "name": "grass-mid-240",
+          "translation": [
+            -29.5472,
+            5.805081400537901,
+            0.5685
+          ],
+          "rotation": [
+            0.0,
+            0.4425072673367221,
+            0.0,
+            -0.8967649181107537
+          ],
+          "scale": [
+            0.5994,
+            0.5994,
+            0.5994
+          ]
+        },
+        {
+          "name": "grass-mid-241",
+          "translation": [
+            -32.1902,
+            6.411124801957643,
+            16.0585
+          ],
+          "rotation": [
+            0.0,
+            0.2851855385814884,
+            0.0,
+            0.958472330630356
+          ],
+          "scale": [
+            0.7305,
+            0.7305,
+            0.7305
+          ]
+        },
+        {
+          "name": "grass-mid-242",
+          "translation": [
+            -46.7533,
+            10.076014803661977,
+            12.2612
+          ],
+          "rotation": [
+            0.0,
+            0.9947919468840756,
+            0.0,
+            -0.10192635780106436
+          ],
+          "scale": [
+            0.8682,
+            0.8682,
+            0.8682
+          ]
+        },
+        {
+          "name": "grass-mid-245",
+          "translation": [
+            -38.4189,
+            7.094140530712962,
+            26.1751
+          ],
+          "rotation": [
+            0.0,
+            0.3031533604563804,
+            0.0,
+            0.9529417820853506
+          ],
+          "scale": [
+            0.7184,
+            0.7184,
+            0.7184
+          ]
+        },
+        {
+          "name": "grass-mid-247",
+          "translation": [
+            -25.2005,
+            5.040314697736815,
+            -26.2504
+          ],
+          "rotation": [
+            0.0,
+            0.5742600332663831,
+            0.0,
+            0.818672959241291
+          ],
+          "scale": [
+            0.5716,
+            0.5716,
+            0.5716
+          ]
+        },
+        {
+          "name": "grass-mid-248",
+          "translation": [
+            2.0457,
+            1.1043363710733083,
+            39.683
+          ],
+          "rotation": [
+            0.0,
+            0.9851838373565162,
+            0.0,
+            -0.17150162276634448
+          ],
+          "scale": [
+            0.5223,
+            0.5223,
+            0.5223
+          ]
+        },
+        {
+          "name": "grass-mid-249",
+          "translation": [
+            24.6949,
+            5.035567196839618,
+            -22.2491
+          ],
+          "rotation": [
+            0.0,
+            0.9793240513716989,
+            0.0,
+            -0.20229780622864427
+          ],
+          "scale": [
+            0.9097,
+            0.9097,
+            0.9097
+          ]
+        },
+        {
+          "name": "grass-mid-251",
+          "translation": [
+            18.5854,
+            1.732654294750058,
+            29.982
+          ],
+          "rotation": [
+            0.0,
+            0.6435617158505867,
+            0.0,
+            -0.7653942238424907
+          ],
+          "scale": [
+            0.6301,
+            0.6301,
+            0.6301
+          ]
+        },
+        {
+          "name": "grass-mid-252",
+          "translation": [
+            4.3693,
+            2.0283011794158488,
+            -16.2476
+          ],
+          "rotation": [
+            0.0,
+            0.382453299012931,
+            0.0,
+            0.9239748232901833
+          ],
+          "scale": [
+            0.6828,
+            0.6828,
+            0.6828
+          ]
+        },
+        {
+          "name": "grass-mid-253",
+          "translation": [
+            14.4331,
+            3.0388720246843954,
+            -26.3539
+          ],
+          "rotation": [
+            0.0,
+            0.49730761176232025,
+            0.0,
+            -0.8675742845908109
+          ],
+          "scale": [
+            0.7637,
+            0.7637,
+            0.7637
+          ]
+        },
+        {
+          "name": "grass-mid-255",
+          "translation": [
+            18.1037,
+            3.7572576978462044,
+            -27.2261
+          ],
+          "rotation": [
+            0.0,
+            0.5846105897804477,
+            0.0,
+            0.8113140318745615
+          ],
+          "scale": [
+            0.7932,
+            0.7932,
+            0.7932
+          ]
+        },
+        {
+          "name": "grass-mid-260",
+          "translation": [
+            27.9287,
+            5.2299714527452865,
+            7.7012
+          ],
+          "rotation": [
+            0.0,
+            0.1821769512390168,
+            0.0,
+            0.9832657618554899
+          ],
+          "scale": [
+            0.8636,
+            0.8636,
+            0.8636
+          ]
+        },
+        {
+          "name": "grass-mid-261",
+          "translation": [
+            1.8595,
+            2.1834191435215793,
+            21.759
+          ],
+          "rotation": [
+            0.0,
+            0.875659618101158,
+            0.0,
+            0.4829288076175763
+          ],
+          "scale": [
+            0.5353,
+            0.5353,
+            0.5353
+          ]
+        },
+        {
+          "name": "grass-mid-263",
+          "translation": [
+            -5.0808,
+            2.8815866615490084,
+            14.4548
+          ],
+          "rotation": [
+            0.0,
+            0.19017721586212638,
+            0.0,
+            -0.9817497779816047
+          ],
+          "scale": [
+            0.6853,
+            0.6853,
+            0.6853
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-grass-mid-5",
+      "placements": [
+        {
+          "name": "grass-mid-423",
+          "translation": [
+            -33.7991,
+            5.542796200296721,
+            27.984
+          ],
+          "rotation": [
+            0.0,
+            0.5525328229797395,
+            0.0,
+            0.8334911394430295
+          ],
+          "scale": [
+            0.8763,
+            0.8763,
+            0.8763
+          ]
+        },
+        {
+          "name": "grass-mid-425",
+          "translation": [
+            -31.6388,
+            6.514233811487369,
+            -3.6025
+          ],
+          "rotation": [
+            0.0,
+            0.9879336483354249,
+            0.0,
+            -0.1548777146223986
+          ],
+          "scale": [
+            0.8483,
+            0.8483,
+            0.8483
+          ]
+        },
+        {
+          "name": "grass-mid-427",
+          "translation": [
+            22.6651,
+            3.4564930234837075,
+            41.9213
+          ],
+          "rotation": [
+            0.0,
+            0.7776379035602301,
+            0.0,
+            0.6287124071834834
+          ],
+          "scale": [
+            0.5338,
+            0.5338,
+            0.5338
+          ]
+        },
+        {
+          "name": "grass-mid-428",
+          "translation": [
+            20.6075,
+            2.6852981756662437,
+            43.8057
+          ],
+          "rotation": [
+            0.0,
+            0.9695392512546278,
+            0.0,
+            -0.24493599220330123
+          ],
+          "scale": [
+            0.6408,
+            0.6408,
+            0.6408
+          ]
+        },
+        {
+          "name": "grass-mid-431",
+          "translation": [
+            28.3239,
+            5.784854653931997,
+            45.8806
+          ],
+          "rotation": [
+            0.0,
+            0.36747504675676196,
+            0.0,
+            -0.9300333811273204
+          ],
+          "scale": [
+            0.7333,
+            0.7333,
+            0.7333
+          ]
+        },
+        {
+          "name": "grass-mid-432",
+          "translation": [
+            -36.8723,
+            8.093106938712099,
+            -26.8453
+          ],
+          "rotation": [
+            0.0,
+            0.6149716390405879,
+            0.0,
+            0.7885492268563408
+          ],
+          "scale": [
+            0.5544,
+            0.5544,
+            0.5544
+          ]
+        },
+        {
+          "name": "grass-mid-439",
+          "translation": [
+            30.7036,
+            6.4258961468523665,
+            -1.2101
+          ],
+          "rotation": [
+            0.0,
+            0.2746253020132703,
+            0.0,
+            0.961551321300179
+          ],
+          "scale": [
+            0.6573,
+            0.6573,
+            0.6573
+          ]
+        },
+        {
+          "name": "grass-mid-440",
+          "translation": [
+            -35.3581,
+            6.097281921542376,
+            28.5752
+          ],
+          "rotation": [
+            0.0,
+            0.4328416617638571,
+            0.0,
+            -0.901469963915328
+          ],
+          "scale": [
+            0.8661,
+            0.8661,
+            0.8661
+          ]
+        },
+        {
+          "name": "grass-mid-441",
+          "translation": [
+            26.5971,
+            5.472951575008294,
+            -22.1718
+          ],
+          "rotation": [
+            0.0,
+            0.8627040890237676,
+            0.0,
+            -0.5057090613996068
+          ],
+          "scale": [
+            0.7776,
+            0.7776,
+            0.7776
+          ]
+        },
+        {
+          "name": "grass-mid-443",
+          "translation": [
+            24.4579,
+            4.133639545467806,
+            32.2412
+          ],
+          "rotation": [
+            0.0,
+            0.006049963092546712,
+            0.0,
+            0.9999816988058225
+          ],
+          "scale": [
+            0.757,
+            0.757,
+            0.757
+          ]
+        },
+        {
+          "name": "grass-mid-445",
+          "translation": [
+            -1.2419,
+            2.6172699419018977,
+            35.8132
+          ],
+          "rotation": [
+            0.0,
+            0.9994099706002383,
+            0.0,
+            -0.03434691638023461
+          ],
+          "scale": [
+            0.7912,
+            0.7912,
+            0.7912
+          ]
+        },
+        {
+          "name": "grass-mid-446",
+          "translation": [
+            30.1337,
+            6.2688078710427675,
+            -11.232
+          ],
+          "rotation": [
+            0.0,
+            0.5065683454570142,
+            0.0,
+            0.8621998094298926
+          ],
+          "scale": [
+            0.6902,
+            0.6902,
+            0.6902
+          ]
+        },
+        {
+          "name": "grass-mid-447",
+          "translation": [
+            -36.0426,
+            8.18621826305806,
+            4.5593
+          ],
+          "rotation": [
+            0.0,
+            0.3753737695510196,
+            0.0,
+            0.9268735259640649
+          ],
+          "scale": [
+            0.8734,
+            0.8734,
+            0.8734
+          ]
+        },
+        {
+          "name": "grass-mid-449",
+          "translation": [
+            17.9338,
+            1.4667700511715382,
+            28.3088
+          ],
+          "rotation": [
+            0.0,
+            0.8302146602294209,
+            0.0,
+            -0.5574438249188407
+          ],
+          "scale": [
+            0.8926,
+            0.8926,
+            0.8926
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-shrub-branches-0",
+      "placements": [
+        {
+          "name": "shrub-branches-450",
+          "translation": [
+            26.0294,
+            4.984085322366483,
+            48.3442
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-456",
+          "translation": [
+            -10.3587,
+            1.8191031869618564,
+            1.7622
+          ],
+          "rotation": [
+            0.0,
+            0.867423225594017,
+            0.0,
+            0.49757104789172696
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-458",
+          "translation": [
+            -1.9001,
+            1.710076040355713,
+            42.9448
+          ],
+          "rotation": [
+            0.0,
+            0.9854497299884601,
+            0.0,
+            0.16996714290024104
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-460",
+          "translation": [
+            25.8614,
+            4.478384394961776,
+            31.0957
+          ],
+          "rotation": [
+            0.0,
+            0.9839859468739369,
+            0.0,
+            -0.17824605564949209
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-462",
+          "translation": [
+            15.2531,
+            2.8697762872397456,
+            3.1822
+          ],
+          "rotation": [
+            0.0,
+            0.8632093666488737,
+            0.0,
+            -0.5048461045998576
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-464",
+          "translation": [
+            24.2537,
+            5.19408410319836,
+            -26.2491
+          ],
+          "rotation": [
+            0.0,
+            0.6377647021345036,
+            0.0,
+            -0.7702312540473074
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-466",
+          "translation": [
+            -20.9146,
+            3.936056451842983,
+            -8.2927
+          ],
+          "rotation": [
+            0.0,
+            0.3349881501559051,
+            0.0,
+            -0.9422223406686581
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-470",
+          "translation": [
+            7.3453,
+            2.5588711311699535,
+            -7.7472
+          ],
+          "rotation": [
+            0.0,
+            -0.35078322768961984,
+            0.0,
+            -0.9364566872907963
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-478",
+          "translation": [
+            -21.6522,
+            4.203605381239798,
+            -7.861
+          ],
+          "rotation": [
+            0.0,
+            -0.9824526126243325,
+            0.0,
+            0.18651236942257576
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-480",
+          "translation": [
+            -33.3243,
+            7.494800322931932,
+            -17.3857
+          ],
+          "rotation": [
+            0.0,
+            -0.858934493426592,
+            0.0,
+            0.5120854772418407
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-482",
+          "translation": [
+            -30.3404,
+            5.97259061896172,
+            17.6604
+          ],
+          "rotation": [
+            0.0,
+            -0.6312666378723216,
+            0.0,
+            0.7755658785102496
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-488",
+          "translation": [
+            -3.3523,
+            1.1819670702069298,
+            -22.8189
+          ],
+          "rotation": [
+            0.0,
+            0.35864385349280037,
+            0.0,
+            0.9334744701125118
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-490",
+          "translation": [
+            9.5228,
+            2.4971866935542213,
+            -18.2754
+          ],
+          "rotation": [
+            0.0,
+            0.6569865987187891,
+            0.0,
+            0.7539022543433046
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-branches-494",
+          "translation": [
+            19.2578,
+            3.602689696437895,
+            6.8599
+          ],
+          "rotation": [
+            0.0,
+            0.9881682338770004,
+            0.0,
+            0.15337386203786435
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-shrub-leaves-0",
+      "placements": [
+        {
+          "name": "shrub-leaves-451",
+          "translation": [
+            26.0294,
+            4.984085322366483,
+            48.3442
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-457",
+          "translation": [
+            -10.3587,
+            1.8191031869618564,
+            1.7622
+          ],
+          "rotation": [
+            0.0,
+            0.867423225594017,
+            0.0,
+            0.49757104789172696
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-459",
+          "translation": [
+            -1.9001,
+            1.710076040355713,
+            42.9448
+          ],
+          "rotation": [
+            0.0,
+            0.9854497299884601,
+            0.0,
+            0.16996714290024104
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-461",
+          "translation": [
+            25.8614,
+            4.478384394961776,
+            31.0957
+          ],
+          "rotation": [
+            0.0,
+            0.9839859468739369,
+            0.0,
+            -0.17824605564949209
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-463",
+          "translation": [
+            15.2531,
+            2.8697762872397456,
+            3.1822
+          ],
+          "rotation": [
+            0.0,
+            0.8632093666488737,
+            0.0,
+            -0.5048461045998576
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-shrub-leaves-1",
+      "placements": [
+        {
+          "name": "shrub-leaves-465",
+          "translation": [
+            24.2537,
+            5.19408410319836,
+            -26.2491
+          ],
+          "rotation": [
+            0.0,
+            0.6377647021345036,
+            0.0,
+            -0.7702312540473074
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-467",
+          "translation": [
+            -20.9146,
+            3.936056451842983,
+            -8.2927
+          ],
+          "rotation": [
+            0.0,
+            0.3349881501559051,
+            0.0,
+            -0.9422223406686581
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-471",
+          "translation": [
+            7.3453,
+            2.5588711311699535,
+            -7.7472
+          ],
+          "rotation": [
+            0.0,
+            -0.35078322768961984,
+            0.0,
+            -0.9364566872907963
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-479",
+          "translation": [
+            -21.6522,
+            4.203605381239798,
+            -7.861
+          ],
+          "rotation": [
+            0.0,
+            -0.9824526126243325,
+            0.0,
+            0.18651236942257576
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-481",
+          "translation": [
+            -33.3243,
+            7.494800322931932,
+            -17.3857
+          ],
+          "rotation": [
+            0.0,
+            -0.858934493426592,
+            0.0,
+            0.5120854772418407
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-shrub-leaves-2",
+      "placements": [
+        {
+          "name": "shrub-leaves-483",
+          "translation": [
+            -30.3404,
+            5.97259061896172,
+            17.6604
+          ],
+          "rotation": [
+            0.0,
+            -0.6312666378723216,
+            0.0,
+            0.7755658785102496
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-489",
+          "translation": [
+            -3.3523,
+            1.1819670702069298,
+            -22.8189
+          ],
+          "rotation": [
+            0.0,
+            0.35864385349280037,
+            0.0,
+            0.9334744701125118
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-491",
+          "translation": [
+            9.5228,
+            2.4971866935542213,
+            -18.2754
+          ],
+          "rotation": [
+            0.0,
+            0.6569865987187891,
+            0.0,
+            0.7539022543433046
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "shrub-leaves-495",
+          "translation": [
+            19.2578,
+            3.602689696437895,
+            6.8599
+          ],
+          "rotation": [
+            0.0,
+            0.9881682338770004,
+            0.0,
+            0.15337386203786435
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "asset_id": "ecology-leaf-litter-0",
+      "placements": [
+        {
+          "name": "leaf-litter-500",
+          "translation": [
+            -31.4241,
+            6.281384922861966,
+            14.6553
+          ],
+          "rotation": [
+            0.0,
+            0.8904349592321064,
+            0.0,
+            0.455110517761694
+          ],
+          "scale": [
+            0.91,
+            0.91,
+            0.91
+          ]
+        },
+        {
+          "name": "leaf-litter-505",
+          "translation": [
+            -36.0539,
+            7.378696935383834,
+            12.5085
+          ],
+          "rotation": [
+            0.0,
+            0.010842441141647459,
+            0.0,
+            -0.9999412190074424
+          ],
+          "scale": [
+            1.2958,
+            1.2958,
+            1.2958
+          ]
+        },
+        {
+          "name": "leaf-litter-510",
+          "translation": [
+            -37.7929,
+            6.91113363554466,
+            28.4525
+          ],
+          "rotation": [
+            0.0,
+            0.6474624386658305,
+            0.0,
+            0.7620973628854096
+          ],
+          "scale": [
+            0.8367,
+            0.8367,
+            0.8367
+          ]
+        },
+        {
+          "name": "leaf-litter-512",
+          "translation": [
+            -23.1456,
+            3.4951834638713537,
+            5.0495
+          ],
+          "rotation": [
+            0.0,
+            0.28023859395534706,
+            0.0,
+            -0.9599303779222377
+          ],
+          "scale": [
+            0.8792,
+            0.8792,
+            0.8792
+          ]
+        },
+        {
+          "name": "leaf-litter-514",
+          "translation": [
+            -28.6542,
+            4.976229238645631,
+            38.2923
+          ],
+          "rotation": [
+            0.0,
+            0.12536924115025916,
+            0.0,
+            0.9921101518346681
+          ],
+          "scale": [
+            0.8133,
+            0.8133,
+            0.8133
+          ]
+        },
+        {
+          "name": "leaf-litter-516",
+          "translation": [
+            -35.4995,
+            6.67398722910428,
+            33.8151
+          ],
+          "rotation": [
+            0.0,
+            0.26600853356610876,
+            0.0,
+            0.9639706738641007
+          ],
+          "scale": [
+            0.846,
+            0.846,
+            0.846
+          ]
+        },
+        {
+          "name": "leaf-litter-518",
+          "translation": [
+            -38.8328,
+            7.337384474281412,
+            30.3317
+          ],
+          "rotation": [
+            0.0,
+            0.24837274781277885,
+            0.0,
+            0.9686645333364537
+          ],
+          "scale": [
+            1.1802,
+            1.1802,
+            1.1802
+          ]
+        },
+        {
+          "name": "leaf-litter-522",
+          "translation": [
+            -32.1455,
+            6.531692081426321,
+            11.4049
+          ],
+          "rotation": [
+            0.0,
+            0.2351692067337533,
+            0.0,
+            -0.9719544455396133
+          ],
+          "scale": [
+            1.0196,
+            1.0196,
+            1.0196
+          ]
+        },
+        {
+          "name": "leaf-litter-524",
+          "translation": [
+            -20.658,
+            3.0551401474529234,
+            12.4968
+          ],
+          "rotation": [
+            0.0,
+            0.5103937888303325,
+            0.0,
+            -0.8599408004760665
+          ],
+          "scale": [
+            1.1349,
+            1.1349,
+            1.1349
+          ]
+        },
+        {
+          "name": "leaf-litter-525",
+          "translation": [
+            -27.8302,
+            4.782194529328887,
+            38.0093
+          ],
+          "rotation": [
+            0.0,
+            0.9843593878862609,
+            0.0,
+            0.17617206214433034
+          ],
+          "scale": [
+            1.2114,
+            1.2114,
+            1.2114
+          ]
+        },
+        {
+          "name": "leaf-litter-527",
+          "translation": [
+            -16.4484,
+            2.504483313070362,
+            12.1117
+          ],
+          "rotation": [
+            0.0,
+            0.29298753028351293,
+            0.0,
+            0.9561162623333878
+          ],
+          "scale": [
+            0.9702,
+            0.9702,
+            0.9702
+          ]
+        },
+        {
+          "name": "leaf-litter-528",
+          "translation": [
+            -32.743,
+            6.139738341298992,
+            41.5171
+          ],
+          "rotation": [
+            0.0,
+            0.10350693335153785,
+            0.0,
+            -0.9946287321147325
+          ],
+          "scale": [
+            1.1223,
+            1.1223,
+            1.1223
+          ]
+        },
+        {
+          "name": "leaf-litter-532",
+          "translation": [
+            -33.2058,
+            6.52361043707279,
+            44.0903
+          ],
+          "rotation": [
+            0.0,
+            0.941158730958456,
+            0.0,
+            -0.33796485488977795
+          ],
+          "scale": [
+            0.9877,
+            0.9877,
+            0.9877
+          ]
+        },
+        {
+          "name": "leaf-litter-533",
+          "translation": [
+            -22.3162,
+            4.688667523505357,
+            43.0743
+          ],
+          "rotation": [
+            0.0,
+            0.03888284924379188,
+            0.0,
+            -0.9992437760800337
+          ],
+          "scale": [
+            1.2438,
+            1.2438,
+            1.2438
+          ]
+        }
+      ]
+    }
+  ],
+  "required_review": [
+    "At the proposed camera, check actual grass/litter in foreground and ensure tree trunks do not obscure the vehicle or canvas.",
+    "Inspect low riverbank view for rock contact; wide litter patches still need slope contact review.",
+    "Judge native textures, shadow detail and foliage exposure from actual screenshot. Counts are not art acceptance.",
+    "If full renderer cap is fixed, keep this curated composition as a review camera; do not treat bounded profile as the complete environment."
+  ]
+}

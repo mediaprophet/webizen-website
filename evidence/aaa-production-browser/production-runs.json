@@ -1,0 +1,371 @@
+[
+  {
+    "id": "catchment-default",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "1a88ad94e36245f07b824305910b79f8d8d13121e35e567220c8edb96ef2797c",
+      "package_bytes": 23483,
+      "package_sha256": "57a8cfb851afed7eea8be4f1f38913b9f78b77bbfd997470a38f45dae0bc972c",
+      "recipe": "catchment",
+      "resources": [
+        {
+          "byte_length": 186,
+          "key": "boundary.svg",
+          "kind": "svg",
+          "sha256": "dacc83f22ba35da55d83ffc3717d37f82caf2c15685937a76222542fb1e9249c"
+        },
+        {
+          "byte_length": 21805,
+          "key": "catchment.png",
+          "kind": "png",
+          "sha256": "5cbf5489b600162b0f1b3245b3ee6f5684818c48e6c52d54f204f232b9b763f8"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet land = capability.invoke(\"hypermedia.locus.construct\", {shape:\"polygon\",points:[[-180,-110],[-90,-180],[70,-160],[180,-60],[160,120],[30,185],[-130,140]]});\nlet river = capability.invoke(\"hypermedia.locus.stroke_to_locus\", {points:[[-30,-180],[20,-100],[-15,-20],[40,65],[10,185]],width:12});\nlet boundary = capability.invoke(\"hypermedia.locus.project_svg\", {profile:land,fill:[72,112,77,255],padding:15});\nlet map = capability.invoke(\"hypermedia.radiance.rasterize_loci\", {width:512,height:512,background:[238,231,208,255],layers:[{profile:land,fill:[100,135,91,255],matrix:[1,0,0,1,256,256]},{profile:river,fill:[55,126,158,255],matrix:[1,0,0,1,256,256]}]});\nlet png = capability.invoke(\"hypermedia.radiance.encode_rgb_png\", {image:map});\nlet asset = {files:[{key:\"catchment.png\",resource:png},{key:\"boundary.svg\",resource:boundary}]};\n",
+      "source_sha256": "8f6ef5bae29a7ed932bf13b6cd1351d25588193190289aede78f7a569fe545a2",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "8f6ef5bae29a7ed932bf13b6cd1351d25588193190289aede78f7a569fe545a2",
+    "package_bytes": 23483,
+    "resources": [
+      {
+        "byte_length": 186,
+        "key": "boundary.svg",
+        "kind": "svg",
+        "sha256": "dacc83f22ba35da55d83ffc3717d37f82caf2c15685937a76222542fb1e9249c"
+      },
+      {
+        "byte_length": 21805,
+        "key": "catchment.png",
+        "kind": "png",
+        "sha256": "5cbf5489b600162b0f1b3245b3ee6f5684818c48e6c52d54f204f232b9b763f8"
+      }
+    ]
+  },
+  {
+    "id": "catchment-changed",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "aac0b9f783d8a405efbefc33cde7e25733c511359cf05dc2b2c51df44d95feb6",
+      "package_bytes": 23547,
+      "package_sha256": "177a3c9dbff3c3f57148f5cb87313d6778520f991734f3c1ac4b2afa061ae815",
+      "recipe": "catchment",
+      "resources": [
+        {
+          "byte_length": 186,
+          "key": "boundary.svg",
+          "kind": "svg",
+          "sha256": "dacc83f22ba35da55d83ffc3717d37f82caf2c15685937a76222542fb1e9249c"
+        },
+        {
+          "byte_length": 21885,
+          "key": "catchment.png",
+          "kind": "png",
+          "sha256": "cc8428024fe7aad67759c5542e4cd9641d6287bb0ccd0cd203e49efb8f7663ec"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet land = capability.invoke(\"hypermedia.locus.construct\", {shape:\"polygon\",points:[[-180,-110],[-90,-180],[70,-160],[180,-60],[160,120],[30,185],[-130,140]]});\nlet river = capability.invoke(\"hypermedia.locus.stroke_to_locus\", {points:[[-30,-180],[20,-100],[-15,-20],[40,65],[10,185]],width:40});\nlet boundary = capability.invoke(\"hypermedia.locus.project_svg\", {profile:land,fill:[72,112,77,255],padding:15});\nlet map = capability.invoke(\"hypermedia.radiance.rasterize_loci\", {width:512,height:512,background:[238,231,208,255],layers:[{profile:land,fill:[100,135,91,255],matrix:[1,0,0,1,256,256]},{profile:river,fill:[55,126,158,255],matrix:[1,0,0,1,256,256]}]});\nlet png = capability.invoke(\"hypermedia.radiance.encode_rgb_png\", {image:map});\nlet asset = {files:[{key:\"catchment.png\",resource:png},{key:\"boundary.svg\",resource:boundary}]};\n",
+      "source_sha256": "1e4ee38dff25de141db22a8515d781e29c88c8b46cbeb3041cbc7cc30788989b",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "1e4ee38dff25de141db22a8515d781e29c88c8b46cbeb3041cbc7cc30788989b",
+    "package_bytes": 23547,
+    "resources": [
+      {
+        "byte_length": 186,
+        "key": "boundary.svg",
+        "kind": "svg",
+        "sha256": "dacc83f22ba35da55d83ffc3717d37f82caf2c15685937a76222542fb1e9249c"
+      },
+      {
+        "byte_length": 21885,
+        "key": "catchment.png",
+        "kind": "png",
+        "sha256": "cc8428024fe7aad67759c5542e4cd9641d6287bb0ccd0cd203e49efb8f7663ec"
+      }
+    ]
+  },
+  {
+    "id": "lettering-default",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "b1c0de0aa87f564e9a9ebcaf00e4080f9fe827c990962d724bafedcb21500b36",
+      "package_bytes": 3196,
+      "package_sha256": "fa01c9d7d5b202024d1baebd555e706d0cbc9eeefbfaa8c6e05e0973d51af3c1",
+      "recipe": "lettering",
+      "resources": [
+        {
+          "byte_length": 2420,
+          "key": "lettering.svg",
+          "kind": "svg",
+          "sha256": "bad99c9608e9824c04d94e38b8dffcba70d37a6e1bfec5f1d684ecd8d9651b83"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet title = capability.invoke(\"hypermedia.glyph.project_svg\", {text:\"Human centric computing\",font_size:42,max_width:760,color:[35,67,61,255],background:[243,235,214,255],padding:24});\nlet asset = {files:[{key:\"lettering.svg\",resource:title}]};\n",
+      "source_sha256": "ab93b4cebd45d33bc8aee6500a40afcaef62c19245a0a1b3111fad3cb2b8139a",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "ab93b4cebd45d33bc8aee6500a40afcaef62c19245a0a1b3111fad3cb2b8139a",
+    "package_bytes": 3196,
+    "resources": [
+      {
+        "byte_length": 2420,
+        "key": "lettering.svg",
+        "kind": "svg",
+        "sha256": "bad99c9608e9824c04d94e38b8dffcba70d37a6e1bfec5f1d684ecd8d9651b83"
+      }
+    ]
+  },
+  {
+    "id": "lettering-changed",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "bcefbefa0fc545991756a7124d71ab048761562e8ccf50250292fd0d4babd594",
+      "package_bytes": 2617,
+      "package_sha256": "64d82f2356658ec890ec8161df51a6e33593f394402b28a4618b93b3de441f5f",
+      "recipe": "lettering",
+      "resources": [
+        {
+          "byte_length": 1821,
+          "key": "lettering.svg",
+          "kind": "svg",
+          "sha256": "4dab57997619b6e4e40b1ceb50d07d460215c2bd48c0940f24ad63f3b28d6ff4"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet title = capability.invoke(\"hypermedia.glyph.project_svg\", {text:\"A shared living world\",font_size:42,max_width:760,color:[35,67,61,255],background:[243,235,214,255],padding:24});\nlet asset = {files:[{key:\"lettering.svg\",resource:title}]};\n",
+      "source_sha256": "143b4195a46569b97a2b3d8e94a289714c5c6376f5678d5f8a7eccba17fb5a68",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "143b4195a46569b97a2b3d8e94a289714c5c6376f5678d5f8a7eccba17fb5a68",
+    "package_bytes": 2617,
+    "resources": [
+      {
+        "byte_length": 1821,
+        "key": "lettering.svg",
+        "kind": "svg",
+        "sha256": "4dab57997619b6e4e40b1ceb50d07d460215c2bd48c0940f24ad63f3b28d6ff4"
+      }
+    ]
+  },
+  {
+    "id": "tone-default",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "41ab049f7159f29782427d8a54138c3b7bc0f85c3320dfd447bdadc9eccf4919",
+      "package_bytes": 96824,
+      "package_sha256": "efbbf7d089f25a590c7695a90702a55430f7b6a19f0ca9053c2e56ec9bdea1ec",
+      "recipe": "tone",
+      "resources": [
+        {
+          "byte_length": 96044,
+          "key": "tone.wav",
+          "kind": "wav",
+          "sha256": "32f31f730eec1020db53da98191f3c03a1e150c3009b8358ff5ac38915ca17a1"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet tone = capability.invoke(\"hypermedia.acoustics.synthesize_tone\", {frequency:440,sample_rate:48000,frames:48000,amplitude:0.12});\nlet wav = capability.invoke(\"hypermedia.acoustics.encode_wav\", {audio:tone});\nlet asset = {files:[{key:\"tone.wav\",resource:wav}]};\n",
+      "source_sha256": "8e3b8c4b335aa64e11e07d08e0caf32dcdcf8744d61eae0733c13eb9ecce6e9b",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "8e3b8c4b335aa64e11e07d08e0caf32dcdcf8744d61eae0733c13eb9ecce6e9b",
+    "package_bytes": 96824,
+    "resources": [
+      {
+        "byte_length": 96044,
+        "key": "tone.wav",
+        "kind": "wav",
+        "sha256": "32f31f730eec1020db53da98191f3c03a1e150c3009b8358ff5ac38915ca17a1"
+      }
+    ]
+  },
+  {
+    "id": "tone-changed",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "f3a4f9838814c328004dbe1d622c4df633b10938f117fec41c1b389945797e55",
+      "package_bytes": 96824,
+      "package_sha256": "0e6cd02f8a25aecb42397f0211f243558c2954d6fef04071ddd311106e51e3f7",
+      "recipe": "tone",
+      "resources": [
+        {
+          "byte_length": 96044,
+          "key": "tone.wav",
+          "kind": "wav",
+          "sha256": "3180eca6c9d9b912390dc19d3ec1266e836cdf705395c3a4486d00063c56d291"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet tone = capability.invoke(\"hypermedia.acoustics.synthesize_tone\", {frequency:1760,sample_rate:48000,frames:48000,amplitude:0.12});\nlet wav = capability.invoke(\"hypermedia.acoustics.encode_wav\", {audio:tone});\nlet asset = {files:[{key:\"tone.wav\",resource:wav}]};\n",
+      "source_sha256": "1b9449df10ebcc5e20493c2f37c60b3fc465f6fdb02a92353df63d4ff4516f9a",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "1b9449df10ebcc5e20493c2f37c60b3fc465f6fdb02a92353df63d4ff4516f9a",
+    "package_bytes": 96824,
+    "resources": [
+      {
+        "byte_length": 96044,
+        "key": "tone.wav",
+        "kind": "wav",
+        "sha256": "3180eca6c9d9b912390dc19d3ec1266e836cdf705395c3a4486d00063c56d291"
+      }
+    ]
+  },
+  {
+    "id": "surface-default",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "87138820378606a8815c19486bcec1e9055b7ca6587dacbf0920ab6e02ccb7c4",
+      "package_bytes": 56553,
+      "package_sha256": "705c9a847e2541578a6fa5184648a2479c239a69be2a9a40bc0f14d50de765b6",
+      "recipe": "surface",
+      "resources": [
+        {
+          "byte_length": 31194,
+          "key": "colour.png",
+          "kind": "png",
+          "sha256": "3b3fab7f215954a63ec035e5e4bd3a461bd0542bffc6726134fda9b8239e29d5"
+        },
+        {
+          "byte_length": 15640,
+          "key": "normal.png",
+          "kind": "png",
+          "sha256": "fc96523ed5b2fe1047b4e2bbeb8f2cae94066b09b06acd94ea3310c33204a01e"
+        },
+        {
+          "byte_length": 8396,
+          "key": "orm.png",
+          "kind": "png",
+          "sha256": "5089e10bcd3601d6eab10fd6de0178a675e01161c2d1d81f307e1fe53e911339"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet maps = capability.invoke(\"hypermedia.surface.synthesize_maps\", {side:256,seed:42,tint:[0.38,0.51,0.31],contrast:0.35,relief:0.003,bands:[0,0],roughness:0.72,metallic:0.0});\nlet packed = capability.invoke(\"hypermedia.surface.pack_pbr_set\", {colour:maps.colour,normal:maps.normal,orm:maps.orm});\nlet asset = {files:[{key:\"colour.png\",resource:packed.colour},{key:\"normal.png\",resource:packed.normal},{key:\"orm.png\",resource:packed.orm}]};\n",
+      "source_sha256": "25cc7a41bbb7dd7698c1621054263a2dcc9ab14e5087fb07107104f381db8fd0",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "25cc7a41bbb7dd7698c1621054263a2dcc9ab14e5087fb07107104f381db8fd0",
+    "package_bytes": 56553,
+    "resources": [
+      {
+        "byte_length": 31194,
+        "key": "colour.png",
+        "kind": "png",
+        "sha256": "3b3fab7f215954a63ec035e5e4bd3a461bd0542bffc6726134fda9b8239e29d5"
+      },
+      {
+        "byte_length": 15640,
+        "key": "normal.png",
+        "kind": "png",
+        "sha256": "fc96523ed5b2fe1047b4e2bbeb8f2cae94066b09b06acd94ea3310c33204a01e"
+      },
+      {
+        "byte_length": 8396,
+        "key": "orm.png",
+        "kind": "png",
+        "sha256": "5089e10bcd3601d6eab10fd6de0178a675e01161c2d1d81f307e1fe53e911339"
+      }
+    ]
+  },
+  {
+    "id": "surface-changed",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "9b3380f07a51d12479d52eebd1436d5efd40cfa51fbba9cdd7cf05ab3581bc27",
+      "package_bytes": 54959,
+      "package_sha256": "6e834c91190494ad5e455cbcecc9fc1b02085fe4d4aacf19f24ea8af8f638e70",
+      "recipe": "surface",
+      "resources": [
+        {
+          "byte_length": 30439,
+          "key": "colour.png",
+          "kind": "png",
+          "sha256": "ec208feffb77d1e06659aaa7c970cdc13226f27ce2fa2ba300beba561b2f68d1"
+        },
+        {
+          "byte_length": 15061,
+          "key": "normal.png",
+          "kind": "png",
+          "sha256": "4d29dac24b1b36a3b7bf391f0c03258ce1ee65742939bd7b5346b716464d7143"
+        },
+        {
+          "byte_length": 8179,
+          "key": "orm.png",
+          "kind": "png",
+          "sha256": "0e910b1209d367a86a7f37654c2fb2b4adf955f962c3f7b5102b402247ecfac0"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet maps = capability.invoke(\"hypermedia.surface.synthesize_maps\", {side:256,seed:65535,tint:[0.38,0.51,0.31],contrast:0.35,relief:0.003,bands:[0,0],roughness:0.72,metallic:0.0});\nlet packed = capability.invoke(\"hypermedia.surface.pack_pbr_set\", {colour:maps.colour,normal:maps.normal,orm:maps.orm});\nlet asset = {files:[{key:\"colour.png\",resource:packed.colour},{key:\"normal.png\",resource:packed.normal},{key:\"orm.png\",resource:packed.orm}]};\n",
+      "source_sha256": "6231f5cb7d72f6061565c6043848636f1ad25dbc0ea13eb8dd5bde1619919b91",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "6231f5cb7d72f6061565c6043848636f1ad25dbc0ea13eb8dd5bde1619919b91",
+    "package_bytes": 54959,
+    "resources": [
+      {
+        "byte_length": 30439,
+        "key": "colour.png",
+        "kind": "png",
+        "sha256": "ec208feffb77d1e06659aaa7c970cdc13226f27ce2fa2ba300beba561b2f68d1"
+      },
+      {
+        "byte_length": 15061,
+        "key": "normal.png",
+        "kind": "png",
+        "sha256": "4d29dac24b1b36a3b7bf391f0c03258ce1ee65742939bd7b5346b716464d7143"
+      },
+      {
+        "byte_length": 8179,
+        "key": "orm.png",
+        "kind": "png",
+        "sha256": "0e910b1209d367a86a7f37654c2fb2b4adf955f962c3f7b5102b402247ecfac0"
+      }
+    ]
+  },
+  {
+    "id": "tone-after-discard",
+    "receipt": {
+      "browser_verified_all_digests": true,
+      "document_digest": "41ab049f7159f29782427d8a54138c3b7bc0f85c3320dfd447bdadc9eccf4919",
+      "package_bytes": 96824,
+      "package_sha256": "efbbf7d089f25a590c7695a90702a55430f7b6a19f0ca9053c2e56ec9bdea1ec",
+      "recipe": "tone",
+      "resources": [
+        {
+          "byte_length": 96044,
+          "key": "tone.wav",
+          "kind": "wav",
+          "sha256": "32f31f730eec1020db53da98191f3c03a1e150c3009b8358ff5ac38915ca17a1"
+        }
+      ],
+      "schema": "webizen.production-run/v1",
+      "service": "same-origin Synth /api/produce",
+      "source": "requires [capability(\"capability.invoke\")];\nlet tone = capability.invoke(\"hypermedia.acoustics.synthesize_tone\", {frequency:440,sample_rate:48000,frames:48000,amplitude:0.12});\nlet wav = capability.invoke(\"hypermedia.acoustics.encode_wav\", {audio:tone});\nlet asset = {files:[{key:\"tone.wav\",resource:wav}]};\n",
+      "source_sha256": "8e3b8c4b335aa64e11e07d08e0caf32dcdcf8744d61eae0733c13eb9ecce6e9b",
+      "strict_replay_verified": true
+    },
+    "request_source_sha256": "8e3b8c4b335aa64e11e07d08e0caf32dcdcf8744d61eae0733c13eb9ecce6e9b",
+    "package_bytes": 96824,
+    "resources": [
+      {
+        "byte_length": 96044,
+        "key": "tone.wav",
+        "kind": "wav",
+        "sha256": "32f31f730eec1020db53da98191f3c03a1e150c3009b8358ff5ac38915ca17a1"
+      }
+    ]
+  }
+]

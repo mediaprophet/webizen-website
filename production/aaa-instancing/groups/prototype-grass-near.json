@@ -1,0 +1,188 @@
+{
+  "id": "prototype-grass-near",
+  "url": "/production/aaa-instancing/assets/prototype-grass-near.10d",
+  "sha256": "2b9c0211c3d723f110d29482504f83c1c0f3a00924de95101366cdd2a3ac6ec4",
+  "bytes": 1118280,
+  "vertices": 8027,
+  "source_vertices": 4798,
+  "native_attribute_policy": "Native GLB MikkTSpace corner splits retained; exact triangle count preserved",
+  "triangles": 9188,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 1,
+  "textures": [
+    {
+      "url": "/production/aaa-instancing/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-instancing/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-instancing/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "provenance_receipt": "/production/aaa-instancing/provenance/prototype-grass-near.json",
+  "native": {
+    "bytes": 833864,
+    "key": "prototype-grass-near.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf\\prototype-grass-near.10d",
+    "sha256": "d3be612916a7cf460bbcf1a41579bdd014b2f332c2b2e69a594269a24fbf2a80",
+    "url": "/artifacts/prototype-grass-near-27ff46c5e2cf/prototype-grass-near.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "53752d8aa396b80796b4a173ca14b38a062a394c7dcadce58da26829b8ab2026",
+    "package_sha256": "3433f6cb0cb75a4e8429521d6fea92087f3ca9bce6e8b4bbd226729ce3aac6c9",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 1195788,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf.hmc",
+        "sha256": "3433f6cb0cb75a4e8429521d6fea92087f3ca9bce6e8b4bbd226729ce3aac6c9"
+      },
+      "inputs": [
+        {
+          "bytes": 284008,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-grass-near.glb",
+          "sha256": "6e459f48c6997f02dad2b40d0a0a447c2bab89e4841bb483abd66636c0184ce1"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998656,
+        "effective_host_bytes": 268392448,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2094933,
+        "source_bytes": 336,
+        "source_reservation_bytes": 43008,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1344,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 833864,
+          "key": "prototype-grass-near.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf\\prototype-grass-near.10d",
+          "sha256": "d3be612916a7cf460bbcf1a41579bdd014b2f332c2b2e69a594269a24fbf2a80",
+          "url": "/artifacts/prototype-grass-near-27ff46c5e2cf/prototype-grass-near.10d"
+        },
+        {
+          "bytes": 17703,
+          "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf\\textures\\sha256\\002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "url": "/artifacts/prototype-grass-near-27ff46c5e2cf/textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+        },
+        {
+          "bytes": 16285,
+          "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf\\textures\\sha256\\10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "url": "/artifacts/prototype-grass-near-27ff46c5e2cf/textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+        },
+        {
+          "bytes": 42157,
+          "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf\\textures\\sha256\\fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "url": "/artifacts/prototype-grass-near-27ff46c5e2cf/textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "5251cc7da65e1942acd661b43047173a7bbc9834029c3f49d1a5af34df056b35",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 833864,
+        "key": "prototype-grass-near.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "d3be612916a7cf460bbcf1a41579bdd014b2f332c2b2e69a594269a24fbf2a80"
+      },
+      {
+        "bytes": 17703,
+        "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+      },
+      {
+        "bytes": 16285,
+        "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+      },
+      {
+        "bytes": 42157,
+        "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-grass-near-27ff46c5e2cf.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/prototype-grass-near-27ff46c5e2cf.hmc",
+    "receipt_url": "/artifacts/prototype-grass-near-27ff46c5e2cf.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-grass-near.glb",
+  "cache_key": "13b0278500048992951784eb1ee24830bfae8c8c314cd45ef099d3be1e5fa52a",
+  "recipe": "/production/aaa-instancing/recipes/prototype-grass-near.vibe"
+}

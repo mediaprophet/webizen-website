@@ -1,0 +1,401 @@
+{
+  "schema": "webizen.emf-proof/v1",
+  "title": "Light and fields \u2014 native electromagnetic proof",
+  "default_locale": "en-AU",
+  "status": "qualified proof subset; not production artwork acceptance",
+  "fields": [
+    {
+      "id": "authored-visible-light-snapshot",
+      "title": "Three wavelengths, one field snapshot",
+      "url": "/production/aaa-field/assets/light-field.emf",
+      "sha256": "bf8edb0066eae38bd0db4b58230af7a7a828743c8ab707f8726e2aac0092d89c",
+      "bytes": 1775360,
+      "mime_type": "application/octet-stream",
+      "format": "Q42EMF64",
+      "container_version": 4,
+      "profile": "instantaneous_E_B_v1",
+      "generation_model": "softened_radial_cosine_snapshot_v1",
+      "source_role": "model_estimate",
+      "frame": {
+        "kind": "authored_local_Cartesian",
+        "position_units": "m",
+        "origin_m": [
+          0,
+          0,
+          0
+        ],
+        "axis_order": [
+          "x",
+          "y",
+          "z"
+        ],
+        "georeferenced": false
+      },
+      "grid": {
+        "brick_dimensions": [
+          3,
+          3,
+          3
+        ],
+        "brick_side_cells": 8,
+        "cell_dimensions": [
+          24,
+          24,
+          24
+        ],
+        "voxel_size_m": 1.25e-07,
+        "bounds_metres": [
+          -6.249999984220267e-08,
+          2.937500084954081e-06,
+          -6.249999984220267e-08,
+          2.937500084954081e-06,
+          -6.249999984220267e-08,
+          2.937500084954081e-06
+        ],
+        "bounds_order": [
+          "xmin",
+          "xmax",
+          "ymin",
+          "ymax",
+          "zmin",
+          "zmax"
+        ],
+        "cell_count": 13824
+      },
+      "snapshot": {
+        "epoch_s": 1794787200,
+        "time_ticks": [
+          0
+        ],
+        "clock_id": 1,
+        "stream_id": 1,
+        "time_slices": 1,
+        "time_evolution_solved": false
+      },
+      "units": {
+        "electric_field": "V/m",
+        "magnetic_flux_density": "T",
+        "wavelength": "nm",
+        "phase": "rad",
+        "source_position": "m"
+      },
+      "sources": [
+        {
+          "position_m": [
+            5e-07,
+            1.5e-06,
+            1.5e-06
+          ],
+          "e_amplitude_v_per_m": [
+            1.4,
+            0,
+            0
+          ],
+          "wavelength_nm": 450,
+          "phase_rad": 0
+        },
+        {
+          "position_m": [
+            2.5e-06,
+            1.5e-06,
+            1.5e-06
+          ],
+          "e_amplitude_v_per_m": [
+            0,
+            1.1,
+            0
+          ],
+          "wavelength_nm": 530,
+          "phase_rad": 1.2
+        },
+        {
+          "position_m": [
+            1.5e-06,
+            5e-07,
+            2.5e-06
+          ],
+          "e_amplitude_v_per_m": [
+            0,
+            0,
+            0.9
+          ],
+          "wavelength_nm": 650,
+          "phase_rad": 2.4
+        }
+      ],
+      "native_admission": {
+        "bounds_metres": [
+          -6.249999984220267e-08,
+          2.937500084954081e-06,
+          -6.249999984220267e-08,
+          2.937500084954081e-06,
+          -6.249999984220267e-08,
+          2.937500084954081e-06
+        ],
+        "cell_count": 13824,
+        "corrupt_payload_rejected": true,
+        "decoder": "current-source render::portal_load_emf::decode_emf_scientific",
+        "dimensions": [
+          24,
+          24,
+          24,
+          1
+        ],
+        "exact_source_preserved": true,
+        "maximum_e_magnitude_v_per_m": 1.9899662204257182,
+        "selection": {
+          "clock_id": 1,
+          "descriptor_id": 5,
+          "frame_id": 2,
+          "stream_id": 1
+        },
+        "temporal": true,
+        "time_ticks": [
+          0
+        ],
+        "valid": true,
+        "valid_display_cells": 13824
+      },
+      "source": {
+        "url": "/production/aaa-field/light-field.vibe",
+        "sha256": "ee136ec10e722c0d0de8f09e972a02e0dc792d9130fdc9b0f605d98bdcbe6065",
+        "bytes": 1864
+      },
+      "previews": [
+        {
+          "id": "slice-x",
+          "url": "/production/aaa-field/assets/slice-x.png",
+          "sha256": "8b3e865245a03854b192cb45a797738a6cabadcaf9ae6dc97071fb12b4f72683",
+          "bytes": 3768,
+          "projection": "electric-field vector magnitude grayscale",
+          "calibrated_spectral_colour": false
+        },
+        {
+          "id": "slice-y",
+          "url": "/production/aaa-field/assets/slice-y.png",
+          "sha256": "8924c35a93f3152a272a7e341ddd9b46a27c5fb66798bf741d5b85c9867ddd39",
+          "bytes": 3918,
+          "projection": "electric-field vector magnitude grayscale",
+          "calibrated_spectral_colour": false
+        },
+        {
+          "id": "slice-z",
+          "url": "/production/aaa-field/assets/slice-z.png",
+          "sha256": "2029615f5c102a740c493718c0dc9d5dd93b674bac172844371759f7797e6283",
+          "bytes": 3977,
+          "projection": "electric-field vector magnitude grayscale",
+          "calibrated_spectral_colour": false
+        },
+        {
+          "id": "magnitude-volume",
+          "url": "/production/aaa-field/assets/magnitude-volume.png",
+          "sha256": "0682b469c52520e07ed954be78d74c7531497f5df621ee574921b4f743967740",
+          "bytes": 54625,
+          "projection": "electric-field vector magnitude grayscale",
+          "calibrated_spectral_colour": false
+        }
+      ]
+    }
+  ],
+  "description": "An authored microscopic light-field snapshot stored as physical vectors and inspected through the native typed field reader. The three input wavelengths remain provenance, not a single inferred colour or carrier.",
+  "model_assumptions": [
+    "The existing native softened_radial_cosine_snapshot_v1 synthesiser sums radial cosine source coefficients with 1/(1+r\u00b2) softening; it is not a validated Maxwell, near-field or propagation solver.",
+    "B is the native radial-direction cross E divided by vacuum c. This relationship is the model assumption, not a measured magnetic field.",
+    "The epoch labels one snapshot. The dataset has one tick and does not solve temporal evolution.",
+    "No measured campsite, Wi-Fi, personal location or environmental observations are included.",
+    "No admitted constitutive medium, energy-density estimate, confidence estimate or inferred mixed carrier is claimed.",
+    "Preview values are grayscale display derivatives. They are not measured RGB, calibrated spectral radiance or automatic sonification."
+  ],
+  "display": {
+    "slice_transfer": "1-exp(-exposure*|E|)",
+    "slice_exposure_m_per_v": 1.4,
+    "slice_axis_index": 12,
+    "image_dimensions": [
+      384,
+      384
+    ],
+    "volume_renderer": "native raymarch_vox0_dda, actual emf input, zero deflection mass, step limit96",
+    "visual_review": "All four native PNGs inspected. Coarse24\u00b3 discrete-cell structure is visible; slices have varied magnitude bands, volume is a square, translucent diagnostic projection. Suitable as an honest data instrument proof, not yet cinematic visual art."
+  },
+  "rights": "User-commissioned model for this Webizen website project; local preview and project inclusion authorised. No general reuse licence or third-party endorsement asserted.",
+  "evidence": {
+    "verification_morphism": "hypermedia.electromagnetics.verify_emf invoked in strict-replayed production source",
+    "strict_replay_verified": true,
+    "current_native_admission": {
+      "url": "/production/aaa-field/admission.json",
+      "sha256": "6199a93d2d202116fcf9db584c67b9de8d847d949414903ef6f5a40931ae26f1",
+      "bytes": 526
+    },
+    "source_recipe": {
+      "url": "/production/aaa-field/light-field.vibe",
+      "sha256": "ee136ec10e722c0d0de8f09e972a02e0dc792d9130fdc9b0f605d98bdcbe6065",
+      "bytes": 1864
+    }
+  },
+  "integration_note": "Load the exact .emf with native QualiaPortal.load_emf. Inspect native typed metadata and physical vectors; keep diagnostic transfer labels visible. Original .emf export preserves exact bytes.",
+  "emf": {
+    "url": "/production/aaa-field/assets/light-field.emf",
+    "sha256": "bf8edb0066eae38bd0db4b58230af7a7a828743c8ab707f8726e2aac0092d89c",
+    "bytes": 1775360,
+    "mime_type": "application/octet-stream"
+  },
+  "parameters": {
+    "profile": "instantaneous_E_B_v1",
+    "generation_model": "softened_radial_cosine_snapshot_v1",
+    "source_role": "model_estimate",
+    "frame": {
+      "kind": "authored_local_Cartesian",
+      "position_units": "m",
+      "origin_m": [
+        0,
+        0,
+        0
+      ],
+      "axis_order": [
+        "x",
+        "y",
+        "z"
+      ],
+      "georeferenced": false
+    },
+    "grid": {
+      "brick_dimensions": [
+        3,
+        3,
+        3
+      ],
+      "brick_side_cells": 8,
+      "cell_dimensions": [
+        24,
+        24,
+        24
+      ],
+      "voxel_size_m": 1.25e-07,
+      "bounds_metres": [
+        -6.249999984220267e-08,
+        2.937500084954081e-06,
+        -6.249999984220267e-08,
+        2.937500084954081e-06,
+        -6.249999984220267e-08,
+        2.937500084954081e-06
+      ],
+      "bounds_order": [
+        "xmin",
+        "xmax",
+        "ymin",
+        "ymax",
+        "zmin",
+        "zmax"
+      ],
+      "cell_count": 13824
+    },
+    "snapshot": {
+      "epoch_s": 1794787200,
+      "time_ticks": [
+        0
+      ],
+      "clock_id": 1,
+      "stream_id": 1,
+      "time_slices": 1,
+      "time_evolution_solved": false
+    },
+    "units": {
+      "electric_field": "V/m",
+      "magnetic_flux_density": "T",
+      "wavelength": "nm",
+      "phase": "rad",
+      "source_position": "m"
+    },
+    "sources": [
+      {
+        "position_m": [
+          5e-07,
+          1.5e-06,
+          1.5e-06
+        ],
+        "e_amplitude_v_per_m": [
+          1.4,
+          0,
+          0
+        ],
+        "wavelength_nm": 450,
+        "phase_rad": 0
+      },
+      {
+        "position_m": [
+          2.5e-06,
+          1.5e-06,
+          1.5e-06
+        ],
+        "e_amplitude_v_per_m": [
+          0,
+          1.1,
+          0
+        ],
+        "wavelength_nm": 530,
+        "phase_rad": 1.2
+      },
+      {
+        "position_m": [
+          1.5e-06,
+          5e-07,
+          2.5e-06
+        ],
+        "e_amplitude_v_per_m": [
+          0,
+          0,
+          0.9
+        ],
+        "wavelength_nm": 650,
+        "phase_rad": 2.4
+      }
+    ]
+  },
+  "verification": {
+    "verification_morphism": "hypermedia.electromagnetics.verify_emf invoked in strict-replayed production source",
+    "strict_replay_verified": true,
+    "current_native_admission": {
+      "url": "/production/aaa-field/admission.json",
+      "sha256": "6199a93d2d202116fcf9db584c67b9de8d847d949414903ef6f5a40931ae26f1",
+      "bytes": 526
+    },
+    "source_recipe": {
+      "url": "/production/aaa-field/light-field.vibe",
+      "sha256": "ee136ec10e722c0d0de8f09e972a02e0dc792d9130fdc9b0f605d98bdcbe6065",
+      "bytes": 1864
+    },
+    "native_admission": {
+      "bounds_metres": [
+        -6.249999984220267e-08,
+        2.937500084954081e-06,
+        -6.249999984220267e-08,
+        2.937500084954081e-06,
+        -6.249999984220267e-08,
+        2.937500084954081e-06
+      ],
+      "cell_count": 13824,
+      "corrupt_payload_rejected": true,
+      "decoder": "current-source render::portal_load_emf::decode_emf_scientific",
+      "dimensions": [
+        24,
+        24,
+        24,
+        1
+      ],
+      "exact_source_preserved": true,
+      "maximum_e_magnitude_v_per_m": 1.9899662204257182,
+      "selection": {
+        "clock_id": 1,
+        "descriptor_id": 5,
+        "frame_id": 2,
+        "stream_id": 1
+      },
+      "temporal": true,
+      "time_ticks": [
+        0
+      ],
+      "valid": true,
+      "valid_display_cells": 13824
+    }
+  }
+}

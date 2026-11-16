@@ -1,0 +1,169 @@
+// The world is authored here and in the Q42 graph. Rust hosts this program;
+// the browser's generated WASM loader does not construct or control the scene.
+module living_world;
+import "vibe:0.1/math" as math;
+
+pure fn clamp(v: f64, lo: f64, hi: f64) -> f64 {
+    return math.min(hi, math.max(lo, v));
+}
+
+pure fn river_x(z: f64) -> f64 {
+    return math.sin(z * 0.044) * 10.0 + math.sin(z * 0.095) * 3.0;
+}
+
+pure fn natural_height(x: f64, z: f64) -> f64 {
+    let d = math.abs(x - river_x(z));
+    let bank = 1.0 - math.exp(-math.pow(d / 9.0, 2.0));
+    let noise = math.sin(x * 0.11 + z * 0.07) * 0.5
+        + math.sin(x * 0.28 - z * 0.16) * 0.22
+        + math.cos(z * 0.39 + x * 0.2) * 0.12
+        + math.sin(x * 0.73 + z * 0.61) * 0.05;
+    let valley = 0.35 + bank * (2.4 + math.max(0.0, math.abs(x) - 15.0) * 0.22);
+    let mountain = math.pow(math.max(0.0, (-z - 25.0) / 65.0), 1.4)
+        * (7.0 + 12.0 * math.pow(math.sin(x * 0.055 + 1.2), 2.0));
+    return valley + mountain + noise * bank * (1.4 + mountain * 0.17)
+        - math.exp(-d * d / 16.0) * 1.4;
+}
+
+pure fn terrain_height(x: f64, z: f64) -> f64 {
+    let d = math.sqrt((x + 22.0) * (x + 22.0) + (z - 28.0) * (z - 28.0));
+    let level = natural_height(-22.0, 28.0);
+    let t = clamp((d - 8.0) / 5.0, 0.0, 1.0);
+    return level + (natural_height(x, z) - level) * t * t * (3.0 - 2.0 * t);
+}
+
+pure fn view(id: String, x: f64, z: f64, dx: f64, dy: f64, dz: f64) -> Record {
+    let y = terrain_height(x, z) + 1.0;
+    return {id: id, position: [x, y, z], camera: [x + dx, y + dy, z + dz]};
+}
+
+pure fn scene_positions() -> List {
+    return [
+        view("river", 0.0, 16.0, 12.0, 8.0, 14.0),
+        view("canopy", -20.0, -16.0, 10.0, 8.0, 12.0),
+        view("commons", -17.0, 6.0, 9.0, 6.0, 9.0),
+        view("atelier", 20.0, -7.0, 10.0, 5.0, 11.0),
+        view("observatory", -15.0, -32.0, 11.0, 7.0, 13.0),
+        view("biology", 17.0, -37.0, 9.0, 5.0, 10.0),
+        view("field-studio", -22.0, 28.0, 11.0, 3.3, 15.0)
+    ];
+}
+
+pure fn world_settings() -> Record {
+    return {
+        default_locale: "en-AU",
+        scene_mode: "reference-model",
+        scene_title: "A landscape you can inspect",
+        scene_description: "Real Canberra reference terrain, shown at 1:30 scale with no vertical exaggeration. Source elevations are 541 to 677 metres. This public reference landscape is independent of the personal camping journey. Neutral relief shading is not satellite imagery.",
+        marker_height: 3.0,
+        marker_sigma: 0.42,
+        marker_alpha: 1.0,
+        markers_visible: false,
+        sky_preset: 1,
+        environment_fallback: [0.0, 0.0, 0.0],
+        // Authored skylight probes, not measured environmental observations.
+        // Native IBL multiplies diffuse irradiance by the material albedo.
+        environment_probes: [
+            [0.0,30.0,0.0,260.0, 1.8,2.1,2.25, 0.18,0.23,0.26, 0.16,0.21,0.23, 0.14,0.18,0.19, 0.12,0.15,0.15, 0.09,0.12,0.11, 0.0,1.0,0.0],
+            [-45.0,12.0,40.0,180.0, 1.4,1.55,1.18, 0.11,0.13,0.09, 0.10,0.12,0.08, 0.09,0.11,0.07, 0.08,0.10,0.06, 0.07,0.08,0.05, 0.7,0.5,-0.4],
+            [45.0,16.0,-25.0,200.0, 1.15,1.45,1.65, 0.11,0.15,0.18, 0.10,0.14,0.17, 0.09,0.13,0.15, 0.08,0.11,0.13, 0.07,0.09,0.11, -0.7,0.5,0.4]
+        ],
+        exposure_ev: 0.35,
+        sun: [-0.5, 0.8, 0.35, 2.2, 0.45],
+        camera: {yaw: 0.55, pitch: 0.65, zoom: 105.0, target: [0.0, 1.8, 0.0]},
+        water: {colour: [0.055, 0.24, 0.25, 0.88], amplitude: 0.035, frequency: 1.4, quality: 1},
+        max_dpr: 1.5
+    };
+}
+
+pure fn select_place(places: List, id: String) budget(steps: 10000) -> Record {
+    for place in places {
+        if place.id == id { return place; }
+    }
+    return {id: ""};
+}
+
+pure fn fit_view(camera: Record, aspect: f64) -> Record {
+    let factor = math.max(1.0, 0.9 / math.max(0.25, aspect));
+    return {yaw: camera.yaw, pitch: camera.pitch,
+        zoom: clamp(camera.zoom * factor, 3.0, 500.0), target: camera.target};
+}
+
+pure fn input_camera(camera: Record, event: Record) -> Record {
+    let orbit = event.kind == "orbit";
+    let pan = event.kind == "pan";
+    let zoom = event.kind == "zoom";
+    let yaw = camera.yaw + if orbit { event.dx * 0.005 } else { 0.0 };
+    let pitch = clamp(camera.pitch + if orbit { event.dy * 0.005 } else { 0.0 }, 0.04, 1.45);
+    let distance = clamp(camera.zoom * if zoom { math.exp(event.dy * 0.001) } else { 1.0 }, 3.0, 500.0);
+    let px = if pan { event.dx * camera.zoom * 0.0015 } else { 0.0 };
+    let pz = if pan { event.dy * camera.zoom * 0.0015 } else { 0.0 };
+    return {yaw: yaw, pitch: pitch, zoom: distance, target: [camera.target[0] + px, camera.target[1], camera.target[2] + pz]};
+}
+
+pure fn contains_id(ids: List, id: String) budget(steps: 10000) -> bool {
+    for candidate in ids { if candidate == id { return true; } }
+    return false;
+}
+
+pure fn is_place(places: List, id: String) budget(steps: 10000) -> bool {
+    for place in places { if place.id == id { return true; } }
+    return false;
+}
+
+// Presentation order only. A declared purpose never grants access or authority.
+// Anchors and relation preferences are facts decoded from the actual Q42 volume.
+pure fn observer_path(places: List, edges: List, purpose: String) budget(steps: 200000) -> List {
+    let mut anchor = "";
+    let mut preference = "";
+    let mut relationships = [];
+    for edge in edges {
+        if edge.subject == purpose && edge.predicate == "startsAt" { anchor = edge.object; }
+        if edge.subject == purpose && edge.predicate == "prefersRelation" { preference = edge.object; }
+        if edge.predicate == "knowledge" || edge.predicate == "information" || edge.predicate == "socioeconomic" {
+            relationships = relationships.push(edge);
+        }
+    }
+    if !is_place(places, anchor) { return []; }
+    let mut queue = [anchor];
+    let mut route = [];
+    let mut cursor = 0;
+    for unused in places {
+        if cursor < len(queue) {
+            let current = queue[cursor];
+            cursor = cursor + 1;
+            route = route.push(current);
+            for relation in [preference, "knowledge", "information", "socioeconomic"] {
+                for edge in relationships {
+                    if edge.subject == current && edge.predicate == relation
+                        && is_place(places, edge.object) && !contains_id(queue, edge.object) {
+                        queue = queue.push(edge.object);
+                    }
+                }
+            }
+        }
+    }
+    for place in places {
+        if !contains_id(route, place.id) { route = route.push(place.id); }
+    }
+    return route;
+}
+
+pure fn chapter_settings(chapters: List, id: String) budget(steps: 10000) -> Record {
+    for chapter in chapters {
+        if chapter.id == id {
+            // The native host decodes the Q42 palette's sRGB notation to linear
+            // colour. Atmosphere selection remains part of this authored work.
+            let sky = chapter.palette_linear[3];
+            return {
+                id: chapter.id, title: chapter.title,
+                landscape_copy: chapter.landscape_copy,
+                month_bands: chapter.month_bands,
+                artistic_palette: chapter.artistic_palette,
+                sky_colour: [sky[0], sky[1], sky[2], 1.0],
+                sun: [-0.5, 0.8, 0.35, 2.2, 0.45]
+            };
+        }
+    }
+    return {id: ""};
+}

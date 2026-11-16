@@ -1,0 +1,13 @@
+# Deployed vintage wind-up camper
+
+Original authored reconstruction for the Webizen forest-working campsite. Approximate 1980-era Australian Jayco wind-up form; the user's exact model/serial dimensions have not been supplied. The identifying configuration is a low rigid camper body, raised roof, canvas upper sides and extended front/rear sleeping platforms. No exact catalogue model is asserted.
+
+Every mesh part is produced by actual Synth `hypermedia.manifold.loft`, then exported by `project_dxf`. The existing corrected DXF adapter preserves every native triangle and supplies indexed browser geometry. The same assembly is imported and sealed by Synth as `.10d`. Both production and sealing receipts verify strict replay. Browser material colours are bound through the declared palette; the native review viewer displays untextured geometry.
+
+The artwork includes 169 parts: cream body and roof, ochre/olive stripes, canvas walls and bowed bed tents, dark mesh windows with stitching/weave lines, aluminium lift posts and trim, entry door ahead of the axle with folding step, wheel guards, hubs and tyres, chassis, bed rails/supports, A-frame drawbar/coupling, jockey wheel/winder, stabiliser legs/feet, LPG bottle and rear spare/lights. The small JAYCO badge is plain authored lettering, not a claimed exact historical decal.
+
+Coordinates: metres; +Y up; +Z towards tow hitch. Body 3.3m long ×2.1m wide. Extended beds span about5.64m; roof reaches2.72m. Ground origin is beneath body centre. Reserved Starlink mountfoot is `[0.70,2.72,-0.65]` on the rear/right roof area. The separate equipment agent provides the Mini dish.
+
+Run `python build_camper.py` from any directory; current Synth uses a private stdio session and create-only unique artefacts. No live MCP is replaced. `python validate_camper.py` checks every exported part against original DXF resources, hashes, index bounds and replay receipts. `assets/vintage-windup-camper.manifest.json` records the current output paths and native preview directory. The local colour review is at `preview/index.html`; this is a viewport over the exact native-produced parts, not replacement procedural browser geometry.
+
+Reference context: [Jayco Australia's history](https://www2.jayco.com.au/history) and [Caravan World's archival January1984 Jayswan review](https://caravanworld.com.au/blogs/editorial/looking-back-offroad-adventures-january-1984). These inform period camper construction and deployed silhouette. Their images are not copied into the artwork.

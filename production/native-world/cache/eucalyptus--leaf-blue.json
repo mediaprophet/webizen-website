@@ -1,0 +1,118 @@
+{
+  "key": "17a22c9e208ac6ac92dc9a41ec4e694e42cc7e75a4c4c8fa136875f09bbe0851",
+  "id": "eucalyptus--leaf-blue",
+  "native": {
+    "bytes": 7013768,
+    "key": "eucalyptus--leaf-blue.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--leaf-blue-bf4a4777c684\\eucalyptus--leaf-blue.10d",
+    "sha256": "133618b1b5d0f49fe87eecf75464fd95db01df1720d3eb27a8e6b0fd37d36744",
+    "url": "/artifacts/world-eucalyptus--leaf-blue-bf4a4777c684/eucalyptus--leaf-blue.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "455dd2b809f374c3710ad82d979a5824f959a8872831d9e24e648f11101fbf04",
+    "package_sha256": "0029d736c1d0d4aae9c72d8e001d63876934a4994942ce8b69d43b40efe72b96",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 7186889,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--leaf-blue-bf4a4777c684.hmc",
+        "sha256": "0029d736c1d0d4aae9c72d8e001d63876934a4994942ce8b69d43b40efe72b96"
+      },
+      "inputs": [
+        {
+          "bytes": 171228,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\eucalyptus--leaf-blue.glb",
+          "sha256": "31bbd2b3ab228dec7e59962ab9e22837479c9392eb4f945f146976583cf1613b"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499995692,
+        "effective_host_bytes": 268297600,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095814,
+        "source_bytes": 1077,
+        "source_reservation_bytes": 137856,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 4308,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 7013768,
+          "key": "eucalyptus--leaf-blue.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--leaf-blue-bf4a4777c684\\eucalyptus--leaf-blue.10d",
+          "sha256": "133618b1b5d0f49fe87eecf75464fd95db01df1720d3eb27a8e6b0fd37d36744",
+          "url": "/artifacts/world-eucalyptus--leaf-blue-bf4a4777c684/eucalyptus--leaf-blue.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "4db48d2f70237c03d75c28bb5c3cdb5d598156d11bb118a204af5ef1785f33ef",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 7013768,
+        "key": "eucalyptus--leaf-blue.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "133618b1b5d0f49fe87eecf75464fd95db01df1720d3eb27a8e6b0fd37d36744"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--leaf-blue-bf4a4777c684.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-eucalyptus--leaf-blue-bf4a4777c684.hmc",
+    "receipt_url": "/artifacts/world-eucalyptus--leaf-blue-bf4a4777c684.json"
+  },
+  "vertices": 30792,
+  "triangles": 48072,
+  "instances": 6,
+  "material": 47,
+  "url": "/production/native-world/assets/eucalyptus--leaf-blue.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "133618b1b5d0f49fe87eecf75464fd95db01df1720d3eb27a8e6b0fd37d36744",
+  "bytes": 7013768,
+  "recipe": "/production/native-world/recipes/eucalyptus--leaf-blue.vibe",
+  "input_sha256": "31bbd2b3ab228dec7e59962ab9e22837479c9392eb4f945f146976583cf1613b"
+}

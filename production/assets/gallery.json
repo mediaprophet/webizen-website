@@ -1,0 +1,104 @@
+{
+  "schema": "webizen.art-gallery/v1",
+  "default_locale": "en-AU",
+  "producer": "Synth native asset host",
+  "catalog_count": 150,
+  "assets": [
+    {
+      "id": "canopy",
+      "title": "Canopy of inquiry",
+      "description": "An open timber canopy shaped by twenty flowing ribs, gathered around an oculus. A shared place for inquiry, with limestone terraces and curved seats.",
+      "mesh_url": "/production/assets/canopy.mesh.json",
+      "model_url": "/production/artifacts/canopy-sealed-7a425393816a/canopy.10d",
+      "receipt_url": "/production/assets/canopy.receipt.json",
+      "recipe_url": "/production/recipes/canopy.vibe",
+      "package_url": "/production/artifacts/canopy-sealed-7a425393816a.hmc",
+      "colour": "#b59152",
+      "role": "architecture",
+      "bounds": {
+        "min": [
+          -9.4,
+          -0.65,
+          -9.4
+        ],
+        "max": [
+          9.4,
+          7.549635,
+          9.4
+        ]
+      },
+      "parts": 27,
+      "triangles": 23104,
+      "native_sha256": "0fae702829a8cba92b907eab3835ef02e82a74c1f91d3f4b1e39058fc60c8cfb",
+      "mesh_sha256": "c4c33219a05109d34765ae3d1ee3ebcf92b4b721c8270bf09a543dbf7e4b9c46",
+      "strict_replay_verified": true,
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "preview_dir": "/production/previews/canopy-1794788317"
+    },
+    {
+      "id": "memory-frond",
+      "title": "Botanical memory frond",
+      "description": "An authored botanical frond: a tapering spine and twenty curved pinnae. A study of repeated structure, not a calibrated species model.",
+      "mesh_url": "/production/assets/memory-frond.mesh.json",
+      "model_url": "/production/artifacts/memory-frond-sealed-0cbbcec0a8f7/memory-frond.10d",
+      "receipt_url": "/production/assets/memory-frond.receipt.json",
+      "recipe_url": "/production/recipes/memory-frond.vibe",
+      "package_url": "/production/artifacts/memory-frond-sealed-0cbbcec0a8f7.hmc",
+      "colour": "#b59152",
+      "role": "specimen",
+      "bounds": {
+        "min": [
+          -2.155565,
+          -0.2,
+          -1.1
+        ],
+        "max": [
+          2.75,
+          6.601296,
+          1.1
+        ]
+      },
+      "parts": 22,
+      "triangles": 14008,
+      "native_sha256": "4c3295dc3e95de542fad5b7939972a9be3cf667934f9d76a64d6cbcf4fb77dd8",
+      "mesh_sha256": "43c30005800f900b28af0c23ac19d766c0fcc45d3eaa93a49e9830f90dba6638",
+      "strict_replay_verified": true,
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "preview_dir": "/production/previews/memory-frond-1794788572"
+    },
+    {
+      "id": "tidal-vessel",
+      "title": "Tidal resonance vessel",
+      "description": "A hollow fluted vessel whose folded surface catches light like ripples. Authored sculptural geometry; no acoustic measurement is implied.",
+      "mesh_url": "/production/assets/tidal-vessel.mesh.json",
+      "model_url": "/production/artifacts/tidal-vessel-sealed-6878f9e14103/tidal-vessel.10d",
+      "receipt_url": "/production/assets/tidal-vessel.receipt.json",
+      "recipe_url": "/production/recipes/tidal-vessel.vibe",
+      "package_url": "/production/artifacts/tidal-vessel-sealed-6878f9e14103.hmc",
+      "colour": "#b59152",
+      "role": "specimen",
+      "bounds": {
+        "min": [
+          -2.4281316,
+          -0.2,
+          -2.408878
+        ],
+        "max": [
+          2.4281316,
+          4.3217483,
+          2.408878
+        ]
+      },
+      "parts": 5,
+      "triangles": 29568,
+      "native_sha256": "943fdbd525b9b0557d62a1d8d47d216b0b2e6cd075544eabfdfe4d7d7180e33b",
+      "mesh_sha256": "485ec2e859b532d957128d54ca0ef79ef22d6512cbd9bfbf716e137c81fb2ce1",
+      "strict_replay_verified": true,
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "preview_dir": "/production/previews/tidal-vessel-1794788509"
+    }
+  ]
+}

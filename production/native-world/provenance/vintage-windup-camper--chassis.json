@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 180,
+  "triangles": 304,
+  "bytes": 97240,
+  "source_bytes": 23312,
+  "id": "vintage-windup-camper--chassis",
+  "original_sha256": "858c49ad5e16626988a0d826fa69c8019ef8b73a099f5e67c7059ea1980a4617",
+  "source_sha256": "09167bd1c7ef552124e610645727e9510e24eb9f1f5c141bed872da2a89feb57",
+  "attested_sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

@@ -1,0 +1,1961 @@
+{
+  "schema": "webizen.campsite-equipment/v1",
+  "catalog_count": 150,
+  "assets": [
+    {
+      "id": "solar-array",
+      "title": "Folding ground solar array",
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "parts": 84,
+      "vertices": 1156,
+      "triangles": 1976,
+      "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\assets\\solar-array.mesh.json",
+      "native": {
+        "bytes": 269032,
+        "key": "solar-array.10d",
+        "kind": "10d",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-sealed-8a984c54b100\\solar-array.10d",
+        "sha256": "d38898b8fef2ccbb1100b4a95b95511242886a81b6378501d832509ad7a45036",
+        "url": "/artifacts/solar-array-sealed-8a984c54b100/solar-array.10d"
+      },
+      "production": {
+        "antigravity_embed_hint": null,
+        "document_digest": "5a13b8ddd9d9d6c412f814d18aba19efc9fa5bd144ec2d19d7c88bb12da32324",
+        "package_sha256": "aa66fd189ab9b8f086777f3d7392cc7cbf8f51adf8f8fe4406b9e09abd923b7f",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 374075,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f.hmc",
+            "sha256": "aa66fd189ab9b8f086777f3d7392cc7cbf8f51adf8f8fe4406b9e09abd923b7f"
+          },
+          "inputs": [],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499814080,
+            "effective_host_bytes": 262486016,
+            "evaluation_steps": 185920,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2097152,
+            "source_bytes": 46480,
+            "source_reservation_bytes": 5949440,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 185920,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 7640,
+              "key": "folding-hinge--0.31-0.22.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\folding-hinge--0.31-0.22.dxf",
+              "sha256": "6f8e0bb44d40e2eda1669c9956ade1d312bea0cc382e01b1aa90ec797b505ffb",
+              "url": "/artifacts/solar-array-a991c2ac176f/folding-hinge--0.31-0.22.dxf"
+            },
+            {
+              "bytes": 7904,
+              "key": "folding-hinge--0.31-0.84.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\folding-hinge--0.31-0.84.dxf",
+              "sha256": "604b2c266df6b6b46a3865f62778c0ff4e54f2e1fb58a88ec28e97755f4ed8fa",
+              "url": "/artifacts/solar-array-a991c2ac176f/folding-hinge--0.31-0.84.dxf"
+            },
+            {
+              "bytes": 7448,
+              "key": "folding-hinge-0.31-0.22.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\folding-hinge-0.31-0.22.dxf",
+              "sha256": "9c9db7087ba7c0f718bd4d2977e2803acec55940b80d60f0d447f56d284fe53d",
+              "url": "/artifacts/solar-array-a991c2ac176f/folding-hinge-0.31-0.22.dxf"
+            },
+            {
+              "bytes": 7712,
+              "key": "folding-hinge-0.31-0.84.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\folding-hinge-0.31-0.84.dxf",
+              "sha256": "7a71f5d60d56e6a01bb00785a296609500f859fdb4e01b24b238357936ced206",
+              "url": "/artifacts/solar-array-a991c2ac176f/folding-hinge-0.31-0.84.dxf"
+            },
+            {
+              "bytes": 2844,
+              "key": "panel-1-cell-column-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-column-1.dxf",
+              "sha256": "8dd148a2dda1d26cfc45da0f07854fe2bca8a4a9d56f690f8973b5868d08113f",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-column-1.dxf"
+            },
+            {
+              "bytes": 2844,
+              "key": "panel-1-cell-column-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-column-2.dxf",
+              "sha256": "aee684b90a519315b6c2718269ea906605f6808aa3cf69fa71c54c3556ae1ec7",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-column-2.dxf"
+            },
+            {
+              "bytes": 2700,
+              "key": "panel-1-cell-column-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-column-3.dxf",
+              "sha256": "81930a3f037b210cf8121da2d9860bbae763059815486987d838f3c99fb1947c",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-column-3.dxf"
+            },
+            {
+              "bytes": 2844,
+              "key": "panel-1-cell-column-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-column-4.dxf",
+              "sha256": "ea264a905e4514f6fd345dc21a15a80d965fefe3d010fcd253ef877bc4513f3b",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-column-4.dxf"
+            },
+            {
+              "bytes": 2844,
+              "key": "panel-1-cell-column-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-column-5.dxf",
+              "sha256": "7d87200ba6819d429157dc46c86b9aac421218be371df82f091b00b770ea46d7",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-column-5.dxf"
+            },
+            {
+              "bytes": 2612,
+              "key": "panel-1-cell-row-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-1.dxf",
+              "sha256": "9b3146054efbb4e99bd4323812e50374546397d37359e421118e30cd8aed1ec4",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-1.dxf"
+            },
+            {
+              "bytes": 2604,
+              "key": "panel-1-cell-row-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-2.dxf",
+              "sha256": "6f929d5c782e3e792cea1849851367be75409577c48bb20402749a710d1c41d1",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-2.dxf"
+            },
+            {
+              "bytes": 2588,
+              "key": "panel-1-cell-row-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-3.dxf",
+              "sha256": "44b1d908e5936be85c2f31b5cdc0f5458e9980327985717cf2afbbf08f70de4f",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-3.dxf"
+            },
+            {
+              "bytes": 2602,
+              "key": "panel-1-cell-row-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-4.dxf",
+              "sha256": "2929cf9c1608efac1785b8935251d5b8bee86a3cffdf70719d84c363637a5bfe",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-4.dxf"
+            },
+            {
+              "bytes": 2616,
+              "key": "panel-1-cell-row-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-5.dxf",
+              "sha256": "2b70ecb86243dbd4d0ee5fdbe63c8daa3f8a07af41bd2c95966c2a54a40e4ae6",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-5.dxf"
+            },
+            {
+              "bytes": 2616,
+              "key": "panel-1-cell-row-6.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-6.dxf",
+              "sha256": "c4686eb507fdc0ec6f515217c15be958a50e63bea25494606f65db1356ac17a5",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-6.dxf"
+            },
+            {
+              "bytes": 2676,
+              "key": "panel-1-cell-row-7.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-7.dxf",
+              "sha256": "8678a80553c0cd498ffd295f960f691ddd400708374cab34582a6380a102dd2f",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-7.dxf"
+            },
+            {
+              "bytes": 2676,
+              "key": "panel-1-cell-row-8.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-8.dxf",
+              "sha256": "d81feb8329feb46a9ad61ea0996d260701a0997e47ecf66a69136f13b0490c89",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-8.dxf"
+            },
+            {
+              "bytes": 2666,
+              "key": "panel-1-cell-row-9.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-cell-row-9.dxf",
+              "sha256": "b5ac703005e193ccd7aaf58957ba23f3ca6ca724cb24d75935ea1852e603e779",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-cell-row-9.dxf"
+            },
+            {
+              "bytes": 2628,
+              "key": "panel-1-frame-left.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-frame-left.dxf",
+              "sha256": "90809939cc805d440a93232c70f9f5721c6dd8607bc35e0ca4d711dc0dbe04dd",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-frame-left.dxf"
+            },
+            {
+              "bytes": 2584,
+              "key": "panel-1-frame-lower.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-frame-lower.dxf",
+              "sha256": "8e4edd06a6956607f017c38941dcacd497d1c6877456fb283352dfedb29328fc",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-frame-lower.dxf"
+            },
+            {
+              "bytes": 2628,
+              "key": "panel-1-frame-right.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-frame-right.dxf",
+              "sha256": "6086d84aede06fb59b7f81f065657a393327087e9dc9d6c81677a6e7b90db9b4",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-frame-right.dxf"
+            },
+            {
+              "bytes": 2672,
+              "key": "panel-1-frame-upper.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-frame-upper.dxf",
+              "sha256": "9762985c33c3f13012df0df4ce5d1f75eac3e8b9d8549f37348f5f088481496f",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-frame-upper.dxf"
+            },
+            {
+              "bytes": 2518,
+              "key": "panel-1-junction-box.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-junction-box.dxf",
+              "sha256": "bfe946d4b827645e7a29864f260c0b8871c0a2e5b9be73eb2fc6971ac8eefef6",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-junction-box.dxf"
+            },
+            {
+              "bytes": 7842,
+              "key": "panel-1-kickstand--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-kickstand--1.dxf",
+              "sha256": "f909f68958a20ed150be05ddc29f110c399228a2543ff6b2f93689f099f7e9bb",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-kickstand--1.dxf"
+            },
+            {
+              "bytes": 7790,
+              "key": "panel-1-kickstand-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-kickstand-1.dxf",
+              "sha256": "cd64ade2f08010cdc27dc2fa1e7179b8729b8ccb6aa9816d7ac432a3a4c0ad6e",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-kickstand-1.dxf"
+            },
+            {
+              "bytes": 2548,
+              "key": "panel-1-photovoltaic-face.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-photovoltaic-face.dxf",
+              "sha256": "98ebcbb83d9b1f01a3d90a0bc513a684e4fb8ead37984a01234d6821c56ed796",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-photovoltaic-face.dxf"
+            },
+            {
+              "bytes": 2534,
+              "key": "panel-1-rear.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-rear.dxf",
+              "sha256": "5c2714efcce54736522c344d42848771d991a1b49a0657bf45a60ac363fc20ae",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-rear.dxf"
+            },
+            {
+              "bytes": 6484,
+              "key": "panel-1-stand-crossbar.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-stand-crossbar.dxf",
+              "sha256": "c58bd337b906a03775795f86989d3fe7c3e082fc79200e6665bd295895474353",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-stand-crossbar.dxf"
+            },
+            {
+              "bytes": 2164,
+              "key": "panel-1-stand-foot--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-stand-foot--1.dxf",
+              "sha256": "be7b76a1b63189040758a8de7154767f0e29d8e29aa68f54604f9f644553c6f6",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-stand-foot--1.dxf"
+            },
+            {
+              "bytes": 2156,
+              "key": "panel-1-stand-foot-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-1-stand-foot-1.dxf",
+              "sha256": "1284a98575b4663f97ef3a4d132814ff443a3b1887e938595ec2b64d72dd897e",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-1-stand-foot-1.dxf"
+            },
+            {
+              "bytes": 2844,
+              "key": "panel-2-cell-column-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-column-1.dxf",
+              "sha256": "60d8767de5a726774c5062c38e72ed97d6beda26b8ff9175a383b38a8a13ca31",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-column-1.dxf"
+            },
+            {
+              "bytes": 2844,
+              "key": "panel-2-cell-column-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-column-2.dxf",
+              "sha256": "197b4bdc3f66cffd23396a49c3625126c1c67faae375400e87ce68f4399108f1",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-column-2.dxf"
+            },
+            {
+              "bytes": 2640,
+              "key": "panel-2-cell-column-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-column-3.dxf",
+              "sha256": "ab9ab4c6de44f8649f0de788be4443c5f9db19193481368165808bc30f60ebc1",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-column-3.dxf"
+            },
+            {
+              "bytes": 2780,
+              "key": "panel-2-cell-column-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-column-4.dxf",
+              "sha256": "2e0c96d62b19a2727014e5f3dd46d361122d1321e1a3031bcf1ffb6714a01e43",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-column-4.dxf"
+            },
+            {
+              "bytes": 2780,
+              "key": "panel-2-cell-column-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-column-5.dxf",
+              "sha256": "9ad575d514674effa8eca37f53d22d248c9f94d2464f469095074cbf807d5933",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-column-5.dxf"
+            },
+            {
+              "bytes": 2552,
+              "key": "panel-2-cell-row-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-1.dxf",
+              "sha256": "4c6ed23a757dc4e456761d4f168b93795b38b54b5f040725b8aa84cfdddf7aaa",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-1.dxf"
+            },
+            {
+              "bytes": 2544,
+              "key": "panel-2-cell-row-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-2.dxf",
+              "sha256": "f1dc53dd8ef2670c86e023e0c53ffcd5f1f65b93fdbfbab871c073ce9f797ae7",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-2.dxf"
+            },
+            {
+              "bytes": 2528,
+              "key": "panel-2-cell-row-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-3.dxf",
+              "sha256": "7dd733416a5b68c706cb703fb3104e32b13b4320100f9c8b9b0a5c34788b9db6",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-3.dxf"
+            },
+            {
+              "bytes": 2542,
+              "key": "panel-2-cell-row-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-4.dxf",
+              "sha256": "26e8f8bc9ae2626ccd1e376fcc9d914ae1e5229c755826f81f8d2066d186a9ec",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-4.dxf"
+            },
+            {
+              "bytes": 2556,
+              "key": "panel-2-cell-row-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-5.dxf",
+              "sha256": "0dd1d09b577a67c968f3a6d8adf1a60ed223e63c6564ac2feb468dc4d2f29b3b",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-5.dxf"
+            },
+            {
+              "bytes": 2556,
+              "key": "panel-2-cell-row-6.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-6.dxf",
+              "sha256": "8e6dce2df81099c62848c14d54fde44dee438dc3d3c69a7d2307ae9fab3bd25d",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-6.dxf"
+            },
+            {
+              "bytes": 2616,
+              "key": "panel-2-cell-row-7.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-7.dxf",
+              "sha256": "8cd09295045a13c5d0b9aa40732ffffa29a0aa32e3a88faa5f2543f0bc06b49c",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-7.dxf"
+            },
+            {
+              "bytes": 2616,
+              "key": "panel-2-cell-row-8.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-8.dxf",
+              "sha256": "d0489cf76bbb680de66647df36903f3c00de2da3ab0d06c71962cc4fd3234787",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-8.dxf"
+            },
+            {
+              "bytes": 2606,
+              "key": "panel-2-cell-row-9.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-cell-row-9.dxf",
+              "sha256": "2690c59589d99011c77d042387cc1ece86e57a93b18100ae33a94a89b481ae1d",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-cell-row-9.dxf"
+            },
+            {
+              "bytes": 2600,
+              "key": "panel-2-frame-left.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-frame-left.dxf",
+              "sha256": "c5a33675f5f2e360c8e3a1223ff836ea360ce9a3b468314351bddd4f3e1de4b4",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-frame-left.dxf"
+            },
+            {
+              "bytes": 2524,
+              "key": "panel-2-frame-lower.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-frame-lower.dxf",
+              "sha256": "db1b37587136d92543f21a8e9ed775cf6716a230949d5b0fdaafe8a3e0c1b758",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-frame-lower.dxf"
+            },
+            {
+              "bytes": 2536,
+              "key": "panel-2-frame-right.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-frame-right.dxf",
+              "sha256": "45cfa578f11661fdda1fb7b9a02adcee68e03ea920ea940b91d93ebe0404132a",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-frame-right.dxf"
+            },
+            {
+              "bytes": 2612,
+              "key": "panel-2-frame-upper.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-frame-upper.dxf",
+              "sha256": "fecfa462c160acef67de84b31110bf590cc823c6e74a4b506e9b2f17410eece7",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-frame-upper.dxf"
+            },
+            {
+              "bytes": 2458,
+              "key": "panel-2-junction-box.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-junction-box.dxf",
+              "sha256": "1cdb2ab53bcb6964978617b4016794f23758d793aedd2384131c647ce5a92bec",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-junction-box.dxf"
+            },
+            {
+              "bytes": 7842,
+              "key": "panel-2-kickstand--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-kickstand--1.dxf",
+              "sha256": "6d0eb0b161b39577389400f2bdfc0c176d9539573dda16dcc3d6c86b7dac1298",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-kickstand--1.dxf"
+            },
+            {
+              "bytes": 7650,
+              "key": "panel-2-kickstand-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-kickstand-1.dxf",
+              "sha256": "0e80ebb34b91b16d85e33a965d1d05c0af8744de54fd4aa57eeeac920c3be3f0",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-kickstand-1.dxf"
+            },
+            {
+              "bytes": 2488,
+              "key": "panel-2-photovoltaic-face.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-photovoltaic-face.dxf",
+              "sha256": "759c0421a263f4e89cfbe4161ca1b2da36fea8fedfe74b22163516e87fa66440",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-photovoltaic-face.dxf"
+            },
+            {
+              "bytes": 2418,
+              "key": "panel-2-rear.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-rear.dxf",
+              "sha256": "05d441431baebb2ffc821c6f9f56c4bc078e878c3012a62caee66456db4d055c",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-rear.dxf"
+            },
+            {
+              "bytes": 6484,
+              "key": "panel-2-stand-crossbar.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-stand-crossbar.dxf",
+              "sha256": "1ef8fcffb0bbeddb44ca2d8d884eebe2a0ebf23ab7d13eaf22e319bd8562fede",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-stand-crossbar.dxf"
+            },
+            {
+              "bytes": 2164,
+              "key": "panel-2-stand-foot--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-stand-foot--1.dxf",
+              "sha256": "794fb096144b13e089b83bbaab4e81f2147a44e6f466b06b40d07f786600d0d3",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-stand-foot--1.dxf"
+            },
+            {
+              "bytes": 2100,
+              "key": "panel-2-stand-foot-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-2-stand-foot-1.dxf",
+              "sha256": "ba324e80cf61351f79717f07a86e18d98427bf48b2efb0a2f94a3337b8da55a2",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-2-stand-foot-1.dxf"
+            },
+            {
+              "bytes": 2780,
+              "key": "panel-3-cell-column-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-column-1.dxf",
+              "sha256": "9db55b5af316a988142b7e7fc79f24d4b991f8b079d5f9d104e047393bde211a",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-column-1.dxf"
+            },
+            {
+              "bytes": 2780,
+              "key": "panel-3-cell-column-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-column-2.dxf",
+              "sha256": "19f7c6a213eaf97816d3a671a934e5dc8335970d5ba0b542c3cfb025ebebf095",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-column-2.dxf"
+            },
+            {
+              "bytes": 2636,
+              "key": "panel-3-cell-column-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-column-3.dxf",
+              "sha256": "8d9c59decb4510620acdfdd917a004bf881a67e55e00029fa62a78955988fcf2",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-column-3.dxf"
+            },
+            {
+              "bytes": 2780,
+              "key": "panel-3-cell-column-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-column-4.dxf",
+              "sha256": "0ebcc410b83df0409622dce72d6ea294fcebd038d144b7b3348c9991ce52038d",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-column-4.dxf"
+            },
+            {
+              "bytes": 2780,
+              "key": "panel-3-cell-column-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-column-5.dxf",
+              "sha256": "66076b4d7de93478dfebfabfbbe4e5fef50e5081b7dd63350ca6ef544f21e693",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-column-5.dxf"
+            },
+            {
+              "bytes": 2548,
+              "key": "panel-3-cell-row-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-1.dxf",
+              "sha256": "2e5d619ae3e058e41ea030a1aa616ca0c3ca5f716004b0e0a5b71d41bb623b6c",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-1.dxf"
+            },
+            {
+              "bytes": 2540,
+              "key": "panel-3-cell-row-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-2.dxf",
+              "sha256": "ac52918e170cbc6b32b146f681b40143cd05024d027014cf8fe13e22e2eb68d3",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-2.dxf"
+            },
+            {
+              "bytes": 2524,
+              "key": "panel-3-cell-row-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-3.dxf",
+              "sha256": "593c7aa90a855664b68b4fc5a78398a1a61be2c35ad47a03ddb08682e943ae81",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-3.dxf"
+            },
+            {
+              "bytes": 2538,
+              "key": "panel-3-cell-row-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-4.dxf",
+              "sha256": "f6d3455eda596bb0f16edfd36accdaff875022597739dc6750b17bedffb703ca",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-4.dxf"
+            },
+            {
+              "bytes": 2552,
+              "key": "panel-3-cell-row-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-5.dxf",
+              "sha256": "64d48c3891fc570c2f0889a2f92548411e8fbd97cac9059d3eed606d8478d879",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-5.dxf"
+            },
+            {
+              "bytes": 2552,
+              "key": "panel-3-cell-row-6.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-6.dxf",
+              "sha256": "bbdc294f542430fcb7fbd458541783855033c72014b8c9aea19f9d9766aa7566",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-6.dxf"
+            },
+            {
+              "bytes": 2612,
+              "key": "panel-3-cell-row-7.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-7.dxf",
+              "sha256": "e714e834891f8168fc5fa15198a809439679efdefb41268b1fc2b758831b3497",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-7.dxf"
+            },
+            {
+              "bytes": 2612,
+              "key": "panel-3-cell-row-8.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-8.dxf",
+              "sha256": "a6b0efa90ae9890e15ae9ffd03b61c332093922ebaa712ab12d3c2804cc4be17",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-8.dxf"
+            },
+            {
+              "bytes": 2602,
+              "key": "panel-3-cell-row-9.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-cell-row-9.dxf",
+              "sha256": "c5e6e5560b3dc55058bc78ff7c0aa37e8e807d2448a72bcd8ba065d761a499d3",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-cell-row-9.dxf"
+            },
+            {
+              "bytes": 2564,
+              "key": "panel-3-frame-left.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-frame-left.dxf",
+              "sha256": "00e2a1e99bb5a060c0c25a015e684b98afc655ac4066da56304115a7ec53b1b6",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-frame-left.dxf"
+            },
+            {
+              "bytes": 2520,
+              "key": "panel-3-frame-lower.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-frame-lower.dxf",
+              "sha256": "124b66229fb228e44c0fcbe1762948ae7c95419144a756af368ccbb99275d8c9",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-frame-lower.dxf"
+            },
+            {
+              "bytes": 2564,
+              "key": "panel-3-frame-right.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-frame-right.dxf",
+              "sha256": "d54054f324954a2a2bd63358c9d5bf40c6973fa1d2df2c6add0d7f25571cb652",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-frame-right.dxf"
+            },
+            {
+              "bytes": 2608,
+              "key": "panel-3-frame-upper.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-frame-upper.dxf",
+              "sha256": "943844da630cae118e93c69ef0130bad1d181fa043d797a44932508d2599817f",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-frame-upper.dxf"
+            },
+            {
+              "bytes": 2454,
+              "key": "panel-3-junction-box.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-junction-box.dxf",
+              "sha256": "8522da7a7d10e38657b4caaec7d26c2feb749a8d03d8561fc3d52f012357a7ae",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-junction-box.dxf"
+            },
+            {
+              "bytes": 7598,
+              "key": "panel-3-kickstand--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-kickstand--1.dxf",
+              "sha256": "878cf5461a97713395d6787292e222b90607460c35e9a0bc6aea85df2aead8ed",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-kickstand--1.dxf"
+            },
+            {
+              "bytes": 7650,
+              "key": "panel-3-kickstand-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-kickstand-1.dxf",
+              "sha256": "c85b6c4ba8b2d7ed822a53e51aea1e7ccd223672d42678a01fdf627bc179e173",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-kickstand-1.dxf"
+            },
+            {
+              "bytes": 2484,
+              "key": "panel-3-photovoltaic-face.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-photovoltaic-face.dxf",
+              "sha256": "fc9e564489731c26d0d5c4ff0c957f2779ee75f3e206ed78ba40f1f5f3234b19",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-photovoltaic-face.dxf"
+            },
+            {
+              "bytes": 2470,
+              "key": "panel-3-rear.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-rear.dxf",
+              "sha256": "8e7e558fcb2fac702a2a9ecbec9e72047d435c3524bb26a9c61d2a60ebad2aba",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-rear.dxf"
+            },
+            {
+              "bytes": 6292,
+              "key": "panel-3-stand-crossbar.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-stand-crossbar.dxf",
+              "sha256": "12e7afd869d1fb19928092722eba78cf596433c3afeed4be839189ab6554b098",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-stand-crossbar.dxf"
+            },
+            {
+              "bytes": 2092,
+              "key": "panel-3-stand-foot--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-stand-foot--1.dxf",
+              "sha256": "b97eabb1288aa61dcd62c7387410953299eeac92f2e79497e46b2c48b8f5e83c",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-stand-foot--1.dxf"
+            },
+            {
+              "bytes": 2100,
+              "key": "panel-3-stand-foot-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\panel-3-stand-foot-1.dxf",
+              "sha256": "02e4863f0c58419a07c3d7c275a4ec6997657c85f0a8cce06d7d0ecc24b1361c",
+              "url": "/artifacts/solar-array-a991c2ac176f/panel-3-stand-foot-1.dxf"
+            },
+            {
+              "bytes": 6384,
+              "key": "solar-lead-connector.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\solar-lead-connector.dxf",
+              "sha256": "44ce67e16a98511ece4385f5adc68c88c089adcd2d655f8465430f0195a797d8",
+              "url": "/artifacts/solar-array-a991c2ac176f/solar-lead-connector.dxf"
+            },
+            {
+              "bytes": 31858,
+              "key": "solar-power-lead.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f\\solar-power-lead.dxf",
+              "sha256": "41fe932c5c700832bdd774a6090a1cfb4f6fe7d30455e8e26126746ef95ff40f",
+              "url": "/artifacts/solar-array-a991c2ac176f/solar-power-lead.dxf"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "1620f48dc3e722799bc28c5cac10a618bf86239c6e04b31c68d0f7004911696e",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 7640,
+            "key": "folding-hinge--0.31-0.22.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "6f8e0bb44d40e2eda1669c9956ade1d312bea0cc382e01b1aa90ec797b505ffb"
+          },
+          {
+            "bytes": 7904,
+            "key": "folding-hinge--0.31-0.84.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "604b2c266df6b6b46a3865f62778c0ff4e54f2e1fb58a88ec28e97755f4ed8fa"
+          },
+          {
+            "bytes": 7448,
+            "key": "folding-hinge-0.31-0.22.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "9c9db7087ba7c0f718bd4d2977e2803acec55940b80d60f0d447f56d284fe53d"
+          },
+          {
+            "bytes": 7712,
+            "key": "folding-hinge-0.31-0.84.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "7a71f5d60d56e6a01bb00785a296609500f859fdb4e01b24b238357936ced206"
+          },
+          {
+            "bytes": 2844,
+            "key": "panel-1-cell-column-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8dd148a2dda1d26cfc45da0f07854fe2bca8a4a9d56f690f8973b5868d08113f"
+          },
+          {
+            "bytes": 2844,
+            "key": "panel-1-cell-column-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "aee684b90a519315b6c2718269ea906605f6808aa3cf69fa71c54c3556ae1ec7"
+          },
+          {
+            "bytes": 2700,
+            "key": "panel-1-cell-column-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "81930a3f037b210cf8121da2d9860bbae763059815486987d838f3c99fb1947c"
+          },
+          {
+            "bytes": 2844,
+            "key": "panel-1-cell-column-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "ea264a905e4514f6fd345dc21a15a80d965fefe3d010fcd253ef877bc4513f3b"
+          },
+          {
+            "bytes": 2844,
+            "key": "panel-1-cell-column-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "7d87200ba6819d429157dc46c86b9aac421218be371df82f091b00b770ea46d7"
+          },
+          {
+            "bytes": 2612,
+            "key": "panel-1-cell-row-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "9b3146054efbb4e99bd4323812e50374546397d37359e421118e30cd8aed1ec4"
+          },
+          {
+            "bytes": 2604,
+            "key": "panel-1-cell-row-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "6f929d5c782e3e792cea1849851367be75409577c48bb20402749a710d1c41d1"
+          },
+          {
+            "bytes": 2588,
+            "key": "panel-1-cell-row-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "44b1d908e5936be85c2f31b5cdc0f5458e9980327985717cf2afbbf08f70de4f"
+          },
+          {
+            "bytes": 2602,
+            "key": "panel-1-cell-row-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "2929cf9c1608efac1785b8935251d5b8bee86a3cffdf70719d84c363637a5bfe"
+          },
+          {
+            "bytes": 2616,
+            "key": "panel-1-cell-row-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "2b70ecb86243dbd4d0ee5fdbe63c8daa3f8a07af41bd2c95966c2a54a40e4ae6"
+          },
+          {
+            "bytes": 2616,
+            "key": "panel-1-cell-row-6.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c4686eb507fdc0ec6f515217c15be958a50e63bea25494606f65db1356ac17a5"
+          },
+          {
+            "bytes": 2676,
+            "key": "panel-1-cell-row-7.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8678a80553c0cd498ffd295f960f691ddd400708374cab34582a6380a102dd2f"
+          },
+          {
+            "bytes": 2676,
+            "key": "panel-1-cell-row-8.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "d81feb8329feb46a9ad61ea0996d260701a0997e47ecf66a69136f13b0490c89"
+          },
+          {
+            "bytes": 2666,
+            "key": "panel-1-cell-row-9.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "b5ac703005e193ccd7aaf58957ba23f3ca6ca724cb24d75935ea1852e603e779"
+          },
+          {
+            "bytes": 2628,
+            "key": "panel-1-frame-left.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "90809939cc805d440a93232c70f9f5721c6dd8607bc35e0ca4d711dc0dbe04dd"
+          },
+          {
+            "bytes": 2584,
+            "key": "panel-1-frame-lower.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8e4edd06a6956607f017c38941dcacd497d1c6877456fb283352dfedb29328fc"
+          },
+          {
+            "bytes": 2628,
+            "key": "panel-1-frame-right.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "6086d84aede06fb59b7f81f065657a393327087e9dc9d6c81677a6e7b90db9b4"
+          },
+          {
+            "bytes": 2672,
+            "key": "panel-1-frame-upper.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "9762985c33c3f13012df0df4ce5d1f75eac3e8b9d8549f37348f5f088481496f"
+          },
+          {
+            "bytes": 2518,
+            "key": "panel-1-junction-box.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "bfe946d4b827645e7a29864f260c0b8871c0a2e5b9be73eb2fc6971ac8eefef6"
+          },
+          {
+            "bytes": 7842,
+            "key": "panel-1-kickstand--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f909f68958a20ed150be05ddc29f110c399228a2543ff6b2f93689f099f7e9bb"
+          },
+          {
+            "bytes": 7790,
+            "key": "panel-1-kickstand-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "cd64ade2f08010cdc27dc2fa1e7179b8729b8ccb6aa9816d7ac432a3a4c0ad6e"
+          },
+          {
+            "bytes": 2548,
+            "key": "panel-1-photovoltaic-face.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "98ebcbb83d9b1f01a3d90a0bc513a684e4fb8ead37984a01234d6821c56ed796"
+          },
+          {
+            "bytes": 2534,
+            "key": "panel-1-rear.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "5c2714efcce54736522c344d42848771d991a1b49a0657bf45a60ac363fc20ae"
+          },
+          {
+            "bytes": 6484,
+            "key": "panel-1-stand-crossbar.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c58bd337b906a03775795f86989d3fe7c3e082fc79200e6665bd295895474353"
+          },
+          {
+            "bytes": 2164,
+            "key": "panel-1-stand-foot--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "be7b76a1b63189040758a8de7154767f0e29d8e29aa68f54604f9f644553c6f6"
+          },
+          {
+            "bytes": 2156,
+            "key": "panel-1-stand-foot-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "1284a98575b4663f97ef3a4d132814ff443a3b1887e938595ec2b64d72dd897e"
+          },
+          {
+            "bytes": 2844,
+            "key": "panel-2-cell-column-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "60d8767de5a726774c5062c38e72ed97d6beda26b8ff9175a383b38a8a13ca31"
+          },
+          {
+            "bytes": 2844,
+            "key": "panel-2-cell-column-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "197b4bdc3f66cffd23396a49c3625126c1c67faae375400e87ce68f4399108f1"
+          },
+          {
+            "bytes": 2640,
+            "key": "panel-2-cell-column-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "ab9ab4c6de44f8649f0de788be4443c5f9db19193481368165808bc30f60ebc1"
+          },
+          {
+            "bytes": 2780,
+            "key": "panel-2-cell-column-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "2e0c96d62b19a2727014e5f3dd46d361122d1321e1a3031bcf1ffb6714a01e43"
+          },
+          {
+            "bytes": 2780,
+            "key": "panel-2-cell-column-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "9ad575d514674effa8eca37f53d22d248c9f94d2464f469095074cbf807d5933"
+          },
+          {
+            "bytes": 2552,
+            "key": "panel-2-cell-row-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "4c6ed23a757dc4e456761d4f168b93795b38b54b5f040725b8aa84cfdddf7aaa"
+          },
+          {
+            "bytes": 2544,
+            "key": "panel-2-cell-row-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f1dc53dd8ef2670c86e023e0c53ffcd5f1f65b93fdbfbab871c073ce9f797ae7"
+          },
+          {
+            "bytes": 2528,
+            "key": "panel-2-cell-row-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "7dd733416a5b68c706cb703fb3104e32b13b4320100f9c8b9b0a5c34788b9db6"
+          },
+          {
+            "bytes": 2542,
+            "key": "panel-2-cell-row-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "26e8f8bc9ae2626ccd1e376fcc9d914ae1e5229c755826f81f8d2066d186a9ec"
+          },
+          {
+            "bytes": 2556,
+            "key": "panel-2-cell-row-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "0dd1d09b577a67c968f3a6d8adf1a60ed223e63c6564ac2feb468dc4d2f29b3b"
+          },
+          {
+            "bytes": 2556,
+            "key": "panel-2-cell-row-6.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8e6dce2df81099c62848c14d54fde44dee438dc3d3c69a7d2307ae9fab3bd25d"
+          },
+          {
+            "bytes": 2616,
+            "key": "panel-2-cell-row-7.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8cd09295045a13c5d0b9aa40732ffffa29a0aa32e3a88faa5f2543f0bc06b49c"
+          },
+          {
+            "bytes": 2616,
+            "key": "panel-2-cell-row-8.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "d0489cf76bbb680de66647df36903f3c00de2da3ab0d06c71962cc4fd3234787"
+          },
+          {
+            "bytes": 2606,
+            "key": "panel-2-cell-row-9.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "2690c59589d99011c77d042387cc1ece86e57a93b18100ae33a94a89b481ae1d"
+          },
+          {
+            "bytes": 2600,
+            "key": "panel-2-frame-left.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c5a33675f5f2e360c8e3a1223ff836ea360ce9a3b468314351bddd4f3e1de4b4"
+          },
+          {
+            "bytes": 2524,
+            "key": "panel-2-frame-lower.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "db1b37587136d92543f21a8e9ed775cf6716a230949d5b0fdaafe8a3e0c1b758"
+          },
+          {
+            "bytes": 2536,
+            "key": "panel-2-frame-right.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "45cfa578f11661fdda1fb7b9a02adcee68e03ea920ea940b91d93ebe0404132a"
+          },
+          {
+            "bytes": 2612,
+            "key": "panel-2-frame-upper.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "fecfa462c160acef67de84b31110bf590cc823c6e74a4b506e9b2f17410eece7"
+          },
+          {
+            "bytes": 2458,
+            "key": "panel-2-junction-box.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "1cdb2ab53bcb6964978617b4016794f23758d793aedd2384131c647ce5a92bec"
+          },
+          {
+            "bytes": 7842,
+            "key": "panel-2-kickstand--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "6d0eb0b161b39577389400f2bdfc0c176d9539573dda16dcc3d6c86b7dac1298"
+          },
+          {
+            "bytes": 7650,
+            "key": "panel-2-kickstand-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "0e80ebb34b91b16d85e33a965d1d05c0af8744de54fd4aa57eeeac920c3be3f0"
+          },
+          {
+            "bytes": 2488,
+            "key": "panel-2-photovoltaic-face.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "759c0421a263f4e89cfbe4161ca1b2da36fea8fedfe74b22163516e87fa66440"
+          },
+          {
+            "bytes": 2418,
+            "key": "panel-2-rear.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "05d441431baebb2ffc821c6f9f56c4bc078e878c3012a62caee66456db4d055c"
+          },
+          {
+            "bytes": 6484,
+            "key": "panel-2-stand-crossbar.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "1ef8fcffb0bbeddb44ca2d8d884eebe2a0ebf23ab7d13eaf22e319bd8562fede"
+          },
+          {
+            "bytes": 2164,
+            "key": "panel-2-stand-foot--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "794fb096144b13e089b83bbaab4e81f2147a44e6f466b06b40d07f786600d0d3"
+          },
+          {
+            "bytes": 2100,
+            "key": "panel-2-stand-foot-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "ba324e80cf61351f79717f07a86e18d98427bf48b2efb0a2f94a3337b8da55a2"
+          },
+          {
+            "bytes": 2780,
+            "key": "panel-3-cell-column-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "9db55b5af316a988142b7e7fc79f24d4b991f8b079d5f9d104e047393bde211a"
+          },
+          {
+            "bytes": 2780,
+            "key": "panel-3-cell-column-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "19f7c6a213eaf97816d3a671a934e5dc8335970d5ba0b542c3cfb025ebebf095"
+          },
+          {
+            "bytes": 2636,
+            "key": "panel-3-cell-column-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8d9c59decb4510620acdfdd917a004bf881a67e55e00029fa62a78955988fcf2"
+          },
+          {
+            "bytes": 2780,
+            "key": "panel-3-cell-column-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "0ebcc410b83df0409622dce72d6ea294fcebd038d144b7b3348c9991ce52038d"
+          },
+          {
+            "bytes": 2780,
+            "key": "panel-3-cell-column-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "66076b4d7de93478dfebfabfbbe4e5fef50e5081b7dd63350ca6ef544f21e693"
+          },
+          {
+            "bytes": 2548,
+            "key": "panel-3-cell-row-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "2e5d619ae3e058e41ea030a1aa616ca0c3ca5f716004b0e0a5b71d41bb623b6c"
+          },
+          {
+            "bytes": 2540,
+            "key": "panel-3-cell-row-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "ac52918e170cbc6b32b146f681b40143cd05024d027014cf8fe13e22e2eb68d3"
+          },
+          {
+            "bytes": 2524,
+            "key": "panel-3-cell-row-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "593c7aa90a855664b68b4fc5a78398a1a61be2c35ad47a03ddb08682e943ae81"
+          },
+          {
+            "bytes": 2538,
+            "key": "panel-3-cell-row-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f6d3455eda596bb0f16edfd36accdaff875022597739dc6750b17bedffb703ca"
+          },
+          {
+            "bytes": 2552,
+            "key": "panel-3-cell-row-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "64d48c3891fc570c2f0889a2f92548411e8fbd97cac9059d3eed606d8478d879"
+          },
+          {
+            "bytes": 2552,
+            "key": "panel-3-cell-row-6.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "bbdc294f542430fcb7fbd458541783855033c72014b8c9aea19f9d9766aa7566"
+          },
+          {
+            "bytes": 2612,
+            "key": "panel-3-cell-row-7.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "e714e834891f8168fc5fa15198a809439679efdefb41268b1fc2b758831b3497"
+          },
+          {
+            "bytes": 2612,
+            "key": "panel-3-cell-row-8.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "a6b0efa90ae9890e15ae9ffd03b61c332093922ebaa712ab12d3c2804cc4be17"
+          },
+          {
+            "bytes": 2602,
+            "key": "panel-3-cell-row-9.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c5e6e5560b3dc55058bc78ff7c0aa37e8e807d2448a72bcd8ba065d761a499d3"
+          },
+          {
+            "bytes": 2564,
+            "key": "panel-3-frame-left.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "00e2a1e99bb5a060c0c25a015e684b98afc655ac4066da56304115a7ec53b1b6"
+          },
+          {
+            "bytes": 2520,
+            "key": "panel-3-frame-lower.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "124b66229fb228e44c0fcbe1762948ae7c95419144a756af368ccbb99275d8c9"
+          },
+          {
+            "bytes": 2564,
+            "key": "panel-3-frame-right.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "d54054f324954a2a2bd63358c9d5bf40c6973fa1d2df2c6add0d7f25571cb652"
+          },
+          {
+            "bytes": 2608,
+            "key": "panel-3-frame-upper.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "943844da630cae118e93c69ef0130bad1d181fa043d797a44932508d2599817f"
+          },
+          {
+            "bytes": 2454,
+            "key": "panel-3-junction-box.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8522da7a7d10e38657b4caaec7d26c2feb749a8d03d8561fc3d52f012357a7ae"
+          },
+          {
+            "bytes": 7598,
+            "key": "panel-3-kickstand--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "878cf5461a97713395d6787292e222b90607460c35e9a0bc6aea85df2aead8ed"
+          },
+          {
+            "bytes": 7650,
+            "key": "panel-3-kickstand-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c85b6c4ba8b2d7ed822a53e51aea1e7ccd223672d42678a01fdf627bc179e173"
+          },
+          {
+            "bytes": 2484,
+            "key": "panel-3-photovoltaic-face.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "fc9e564489731c26d0d5c4ff0c957f2779ee75f3e206ed78ba40f1f5f3234b19"
+          },
+          {
+            "bytes": 2470,
+            "key": "panel-3-rear.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8e7e558fcb2fac702a2a9ecbec9e72047d435c3524bb26a9c61d2a60ebad2aba"
+          },
+          {
+            "bytes": 6292,
+            "key": "panel-3-stand-crossbar.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "12e7afd869d1fb19928092722eba78cf596433c3afeed4be839189ab6554b098"
+          },
+          {
+            "bytes": 2092,
+            "key": "panel-3-stand-foot--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "b97eabb1288aa61dcd62c7387410953299eeac92f2e79497e46b2c48b8f5e83c"
+          },
+          {
+            "bytes": 2100,
+            "key": "panel-3-stand-foot-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "02e4863f0c58419a07c3d7c275a4ec6997657c85f0a8cce06d7d0ecc24b1361c"
+          },
+          {
+            "bytes": 6384,
+            "key": "solar-lead-connector.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "44ce67e16a98511ece4385f5adc68c88c089adcd2d655f8465430f0195a797d8"
+          },
+          {
+            "bytes": 31858,
+            "key": "solar-power-lead.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "41fe932c5c700832bdd774a6090a1cfb4f6fe7d30455e8e26126746ef95ff40f"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-a991c2ac176f.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/solar-array-a991c2ac176f.hmc",
+        "receipt_url": "/artifacts/solar-array-a991c2ac176f.json"
+      },
+      "sealing": {
+        "antigravity_embed_hint": null,
+        "document_digest": "450d6a400777c77909b465f49d0120431c0373dc8b4fda8bdd5dbf488c1b9115",
+        "package_sha256": "3c715787365435a89e859d57fcc9d992d2c0b24e45bd8e6214ffa7d171b0490b",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 331961,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-sealed-8a984c54b100.hmc",
+            "sha256": "3c715787365435a89e859d57fcc9d992d2c0b24e45bd8e6214ffa7d171b0490b"
+          },
+          "inputs": [
+            {
+              "bytes": 61840,
+              "key": "assembly.obj",
+              "kind": "obj",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\solar-array.obj",
+              "sha256": "7d19b5598f89bac575e4724687c82216c6916b721ed55bcb19ff07ce992b03dc"
+            }
+          ],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499998816,
+            "effective_host_bytes": 268397568,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2096668,
+            "source_bytes": 296,
+            "source_reservation_bytes": 37888,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 1184,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 269032,
+              "key": "solar-array.10d",
+              "kind": "10d",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-sealed-8a984c54b100\\solar-array.10d",
+              "sha256": "d38898b8fef2ccbb1100b4a95b95511242886a81b6378501d832509ad7a45036",
+              "url": "/artifacts/solar-array-sealed-8a984c54b100/solar-array.10d"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "88c4652b17df3f4bbd326a82378c7088d449052fd878b216d18945aa4be80716",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 269032,
+            "key": "solar-array.10d",
+            "kind": "10d",
+            "modality": "spatial",
+            "sha256": "d38898b8fef2ccbb1100b4a95b95511242886a81b6378501d832509ad7a45036"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\solar-array-sealed-8a984c54b100.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/solar-array-sealed-8a984c54b100.hmc",
+        "receipt_url": "/artifacts/solar-array-sealed-8a984c54b100.json"
+      },
+      "recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\solar-array.vibe",
+      "palette": {
+        "aluminium": {
+          "color": "#b6bdbb",
+          "roughness": 0.28,
+          "metalness": 0.9
+        },
+        "panel": {
+          "color": "#142f4b",
+          "roughness": 0.27,
+          "metalness": 0.48
+        },
+        "cell-line": {
+          "color": "#637a8d",
+          "roughness": 0.4,
+          "metalness": 0.6
+        },
+        "rubber": {
+          "color": "#202422",
+          "roughness": 0.84,
+          "metalness": 0
+        },
+        "backing": {
+          "color": "#353d3d",
+          "roughness": 0.65,
+          "metalness": 0.25
+        },
+        "dish-front": {
+          "color": "#e9e9df",
+          "roughness": 0.68,
+          "metalness": 0
+        },
+        "dish-back": {
+          "color": "#aeb4b0",
+          "roughness": 0.68,
+          "metalness": 0.12
+        },
+        "mount": {
+          "color": "#797f7b",
+          "roughness": 0.45,
+          "metalness": 0.75
+        }
+      },
+      "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\previews\\solar-array-1794789731",
+      "scale": {
+        "units": "metres",
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "mounting": {
+        "origin": "array centreline at ground",
+        "approximate_panel_width": 0.6,
+        "panel_length": 1.12,
+        "panel_count": 3,
+        "inclination_degrees": 55
+      },
+      "qualification": "Authored visual reconstruction; not a certified engineering installation or equipment performance simulation."
+    },
+    {
+      "id": "starlink-mini",
+      "title": "Starlink Mini with short roof-edge mount",
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "parts": 15,
+      "vertices": 412,
+      "triangles": 764,
+      "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\assets\\starlink-mini.mesh.json",
+      "native": {
+        "bytes": 107096,
+        "key": "starlink-mini.10d",
+        "kind": "10d",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891\\starlink-mini.10d",
+        "sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820",
+        "url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891/starlink-mini.10d"
+      },
+      "production": {
+        "antigravity_embed_hint": null,
+        "document_digest": "d8a122b155bda31614bc259efc489724f9660b15885577fb199709c2587bb15a",
+        "package_sha256": "250b52d64ac336ef25748aaf9ab52d17e6c50bf5cb038cc06ea265a1c44ea661",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 139464,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42.hmc",
+            "sha256": "250b52d64ac336ef25748aaf9ab52d17e6c50bf5cb038cc06ea265a1c44ea661"
+          },
+          "inputs": [],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499943996,
+            "effective_host_bytes": 266643328,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2097152,
+            "source_bytes": 14001,
+            "source_reservation_bytes": 1792128,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 56004,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 4836,
+              "key": "base-fastener--0.037--0.034.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener--0.037--0.034.dxf",
+              "sha256": "4f30c2700e0efb5a0aa3da8502b82704159285a8cab4e8d13d1d3494247c9f2e",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener--0.037--0.034.dxf"
+            },
+            {
+              "bytes": 4708,
+              "key": "base-fastener--0.037-0.034.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener--0.037-0.034.dxf",
+              "sha256": "ce80acd9ddd699a2b86a7ed8bf350d863220eaeccb0e758b0a7685c12bf10911",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener--0.037-0.034.dxf"
+            },
+            {
+              "bytes": 4708,
+              "key": "base-fastener-0.037--0.034.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener-0.037--0.034.dxf",
+              "sha256": "6d8377e874956cdfebbf0f8e4ec97c3b18848bf1e968a05feb1e13f79cf5ad77",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener-0.037--0.034.dxf"
+            },
+            {
+              "bytes": 4580,
+              "key": "base-fastener-0.037-0.034.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\base-fastener-0.037-0.034.dxf",
+              "sha256": "3a0a24e8a387e335ffd87bd1e72f87b929bc9c5b92283915e82cd5ae91d5cf03",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/base-fastener-0.037-0.034.dxf"
+            },
+            {
+              "bytes": 6964,
+              "key": "dish-pivot.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\dish-pivot.dxf",
+              "sha256": "fd3151a9cd82e06cf9fdb843efff4e385a49aed5660d1925e367de0b31477e01",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/dish-pivot.dxf"
+            },
+            {
+              "bytes": 15462,
+              "key": "mini-dc-cable.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-dc-cable.dxf",
+              "sha256": "443c3d4d628ec887d5a3b007a8ab52a87f336643e5f99d44432fcff04c93640d",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-dc-cable.dxf"
+            },
+            {
+              "bytes": 21996,
+              "key": "mini-rear-housing.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-housing.dxf",
+              "sha256": "e48d57df3e1ddda9da04e3ccbe913d37e02b324aefbaaf4942d4aa8835fc2f80",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-housing.dxf"
+            },
+            {
+              "bytes": 2524,
+              "key": "mini-rear-recess.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-recess.dxf",
+              "sha256": "bec2cfd754fd1dfb5818d5ff90bff560d0fc395534519068c3ed20e9c59e0a77",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-recess.dxf"
+            },
+            {
+              "bytes": 5417,
+              "key": "mini-rear-rib-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-3.dxf",
+              "sha256": "cfde680925e28b2f0bcd700de8655bc056d0d806c1f6505aaef05c8dd32b9dc0",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-3.dxf"
+            },
+            {
+              "bytes": 5353,
+              "key": "mini-rear-rib-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-4.dxf",
+              "sha256": "e581f09c5e88f0c3295010a44171f6e96db7a464fa96bdeb4b7c16c1ae6ced4e",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-4.dxf"
+            },
+            {
+              "bytes": 5588,
+              "key": "mini-rear-rib-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-5.dxf",
+              "sha256": "f1744bf4f909d3b6aeea0807588087f7a09a8b67ed89361cc822455f9d3ef0f7",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-5.dxf"
+            },
+            {
+              "bytes": 5524,
+              "key": "mini-rear-rib-6.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-rear-rib-6.dxf",
+              "sha256": "e2ef59f9b9125451ceb47d97a00b2193ef9257b53e62c0d9d047c55404c8b449",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-rear-rib-6.dxf"
+            },
+            {
+              "bytes": 22096,
+              "key": "mini-white-radome.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\mini-white-radome.dxf",
+              "sha256": "c6f3f244c5e8cbb6e779c392709434c7984c15b0aeff35209ce6f4eaf2565b4d",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/mini-white-radome.dxf"
+            },
+            {
+              "bytes": 1908,
+              "key": "roof-mount-base.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\roof-mount-base.dxf",
+              "sha256": "f3cd56cff192ec0a76bb948a1bcf6d24c403ad464f38395106eb8692dcf6c502",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/roof-mount-base.dxf"
+            },
+            {
+              "bytes": 10794,
+              "key": "short-roof-edge-pole.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42\\short-roof-edge-pole.dxf",
+              "sha256": "09212ef2e763cfa893b587d5760ca0aac262efa3e18c811e8e5cc1be022f26cd",
+              "url": "/artifacts/starlink-mini-6174a74cdd42/short-roof-edge-pole.dxf"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "5c041bfc24de9e22726656be35df3decc6826af76dca7908108c1ab20736e498",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 4836,
+            "key": "base-fastener--0.037--0.034.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "4f30c2700e0efb5a0aa3da8502b82704159285a8cab4e8d13d1d3494247c9f2e"
+          },
+          {
+            "bytes": 4708,
+            "key": "base-fastener--0.037-0.034.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "ce80acd9ddd699a2b86a7ed8bf350d863220eaeccb0e758b0a7685c12bf10911"
+          },
+          {
+            "bytes": 4708,
+            "key": "base-fastener-0.037--0.034.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "6d8377e874956cdfebbf0f8e4ec97c3b18848bf1e968a05feb1e13f79cf5ad77"
+          },
+          {
+            "bytes": 4580,
+            "key": "base-fastener-0.037-0.034.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3a0a24e8a387e335ffd87bd1e72f87b929bc9c5b92283915e82cd5ae91d5cf03"
+          },
+          {
+            "bytes": 6964,
+            "key": "dish-pivot.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "fd3151a9cd82e06cf9fdb843efff4e385a49aed5660d1925e367de0b31477e01"
+          },
+          {
+            "bytes": 15462,
+            "key": "mini-dc-cable.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "443c3d4d628ec887d5a3b007a8ab52a87f336643e5f99d44432fcff04c93640d"
+          },
+          {
+            "bytes": 21996,
+            "key": "mini-rear-housing.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "e48d57df3e1ddda9da04e3ccbe913d37e02b324aefbaaf4942d4aa8835fc2f80"
+          },
+          {
+            "bytes": 2524,
+            "key": "mini-rear-recess.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "bec2cfd754fd1dfb5818d5ff90bff560d0fc395534519068c3ed20e9c59e0a77"
+          },
+          {
+            "bytes": 5417,
+            "key": "mini-rear-rib-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "cfde680925e28b2f0bcd700de8655bc056d0d806c1f6505aaef05c8dd32b9dc0"
+          },
+          {
+            "bytes": 5353,
+            "key": "mini-rear-rib-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "e581f09c5e88f0c3295010a44171f6e96db7a464fa96bdeb4b7c16c1ae6ced4e"
+          },
+          {
+            "bytes": 5588,
+            "key": "mini-rear-rib-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f1744bf4f909d3b6aeea0807588087f7a09a8b67ed89361cc822455f9d3ef0f7"
+          },
+          {
+            "bytes": 5524,
+            "key": "mini-rear-rib-6.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "e2ef59f9b9125451ceb47d97a00b2193ef9257b53e62c0d9d047c55404c8b449"
+          },
+          {
+            "bytes": 22096,
+            "key": "mini-white-radome.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c6f3f244c5e8cbb6e779c392709434c7984c15b0aeff35209ce6f4eaf2565b4d"
+          },
+          {
+            "bytes": 1908,
+            "key": "roof-mount-base.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f3cd56cff192ec0a76bb948a1bcf6d24c403ad464f38395106eb8692dcf6c502"
+          },
+          {
+            "bytes": 10794,
+            "key": "short-roof-edge-pole.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "09212ef2e763cfa893b587d5760ca0aac262efa3e18c811e8e5cc1be022f26cd"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-6174a74cdd42.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/starlink-mini-6174a74cdd42.hmc",
+        "receipt_url": "/artifacts/starlink-mini-6174a74cdd42.json"
+      },
+      "sealing": {
+        "antigravity_embed_hint": null,
+        "document_digest": "046e1ef8b0dad4895b88e9b91bf38cb17c247d9fbd5ee6cee54b0ce9993a019f",
+        "package_sha256": "08c3d3b7bacc73603c2c15cc363e7d7e9c361be9a0ccceb9d47af23f87f3eebe",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 130685,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891.hmc",
+            "sha256": "08c3d3b7bacc73603c2c15cc363e7d7e9c361be9a0ccceb9d47af23f87f3eebe"
+          },
+          "inputs": [
+            {
+              "bytes": 22465,
+              "key": "assembly.obj",
+              "kind": "obj",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\starlink-mini.obj",
+              "sha256": "d88a11c908ac7cd9146fa7ee9b63d339c8ec66820f164b6cb4a78ecae5e929b9"
+            }
+          ],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499998808,
+            "effective_host_bytes": 268397312,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2096976,
+            "source_bytes": 298,
+            "source_reservation_bytes": 38144,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 1192,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 107096,
+              "key": "starlink-mini.10d",
+              "kind": "10d",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891\\starlink-mini.10d",
+              "sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820",
+              "url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891/starlink-mini.10d"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "ccb1838a5d1530c13f34f1f4658bd813d7b28b95639a570ccf4af5a633fb98f1",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 107096,
+            "key": "starlink-mini.10d",
+            "kind": "10d",
+            "modality": "spatial",
+            "sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\artifacts\\starlink-mini-sealed-2e2d2fdc9891.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891.hmc",
+        "receipt_url": "/artifacts/starlink-mini-sealed-2e2d2fdc9891.json"
+      },
+      "recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\recipes\\starlink-mini.vibe",
+      "palette": {
+        "aluminium": {
+          "color": "#b6bdbb",
+          "roughness": 0.28,
+          "metalness": 0.9
+        },
+        "panel": {
+          "color": "#142f4b",
+          "roughness": 0.27,
+          "metalness": 0.48
+        },
+        "cell-line": {
+          "color": "#637a8d",
+          "roughness": 0.4,
+          "metalness": 0.6
+        },
+        "rubber": {
+          "color": "#202422",
+          "roughness": 0.84,
+          "metalness": 0
+        },
+        "backing": {
+          "color": "#353d3d",
+          "roughness": 0.65,
+          "metalness": 0.25
+        },
+        "dish-front": {
+          "color": "#e9e9df",
+          "roughness": 0.68,
+          "metalness": 0
+        },
+        "dish-back": {
+          "color": "#aeb4b0",
+          "roughness": 0.68,
+          "metalness": 0.12
+        },
+        "mount": {
+          "color": "#797f7b",
+          "roughness": 0.45,
+          "metalness": 0.75
+        }
+      },
+      "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\equipment\\previews\\starlink-mini-1794789764",
+      "scale": {
+        "units": "metres",
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "mounting": {
+        "origin": "bottom of mount foot",
+        "camper_local_position": [
+          0.7,
+          2.72,
+          -0.65
+        ]
+      },
+      "qualification": "Authored visual reconstruction; not a certified engineering installation or equipment performance simulation."
+    }
+  ],
+  "reference": "https://starlink.com/public-files/specification_sheet_mini.pdf"
+}

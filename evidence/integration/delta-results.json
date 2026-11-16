@@ -1,0 +1,1762 @@
+{
+  "headers": {
+    "cache-control": "no-store",
+    "content-length": "8808",
+    "content-type": "text/html",
+    "cross-origin-embedder-policy": "require-corp",
+    "cross-origin-opener-policy": "same-origin",
+    "cross-origin-resource-policy": "same-origin",
+    "date": "Mon, 16 Nov 2026 00:37:25 GMT",
+    "last-modified": "Mon, 16 Nov 2026 00:25:23 GMT",
+    "server": "SimpleHTTP/0.6 Python/3.13.17"
+  },
+  "layout": {
+    "width": 390,
+    "scroll": 390,
+    "motion": false,
+    "label": "Resume movement",
+    "pressed": "true"
+  },
+  "paths": {
+    "learn": {
+      "status": 200,
+      "data": {
+        "purpose": "learn",
+        "places": [
+          "river",
+          "canopy",
+          "observatory",
+          "biology",
+          "atelier",
+          "commons"
+        ],
+        "graph": {
+          "returned": 6,
+          "stats": {
+            "matchCount": 6
+          },
+          "total_quins": 123
+        },
+        "selection_receipt": {
+          "schema": "webizen.path-selection/v1",
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42",
+          "reader_binary_sha256": "548fde84a89bc17435c9ce91fe591a5bf60b759f353e843daa494a9ff1c37dca",
+          "policy": "public-graph-breadth-first/v1",
+          "preferred_relation": "knowledge",
+          "locale": "en-AU",
+          "support_preferences": [],
+          "authority": "anonymous-public",
+          "authority_from_purpose": false,
+          "queries": [
+            {
+              "predicate": "https://webizen.au/relation/startsAt",
+              "subject": "https://webizen.au/purpose/learn",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/learn",
+                  "https://webizen.au/relation/startsAt",
+                  "https://webizen.au/world/river"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/prefersRelation",
+              "subject": "https://webizen.au/purpose/learn",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/learn",
+                  "https://webizen.au/relation/prefersRelation",
+                  "https://webizen.au/relation/knowledge"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/kind",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/terrain"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/sound"
+                ],
+                [
+                  "https://webizen.au/world/biology",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/relationships"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/light"
+                ],
+                [
+                  "https://webizen.au/module/qdnf",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/vibescript",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/aether",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anvil",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/chora",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/cooperation",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/poet",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/web-civics",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/ecopunk",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen-host",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anatomy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/hypermedia",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/qualiadb",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/synth",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/etalon",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/rights"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/knowledge",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/information",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/biology"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/river"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/atelier"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            }
+          ],
+          "decisions": [
+            {
+              "entity": "river",
+              "reason": "Graph purpose anchor"
+            },
+            {
+              "entity": "canopy",
+              "reason": "knowledge relation from river"
+            },
+            {
+              "entity": "observatory",
+              "reason": "information relation from river"
+            },
+            {
+              "entity": "biology",
+              "reason": "knowledge relation from canopy"
+            },
+            {
+              "entity": "atelier",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            },
+            {
+              "entity": "commons",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            }
+          ]
+        },
+        "method": "Native QualiaDB Q42 predicate queries select the declared-purpose anchor and relationship priority. The website traverses those returned edges; remaining public places stay reachable. This changes presentation, never authority.",
+        "production": {
+          "antigravity_embed_hint": null,
+          "document_digest": "78de0928c172be680c797fc7f62c17bdd471a6403678003a51175e6e75ed7097",
+          "package_sha256": "80e6053d60f7a9b6b91dbcc96b1ecc64ab52431f347c65d50414ce70bdaf245d",
+          "presentation_html": null,
+          "producer": "files",
+          "producer_version": "2",
+          "receipt": {
+            "binary": {
+              "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+              "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+              "version": "0.1.0"
+            },
+            "catalog": {
+              "count": 150,
+              "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+            },
+            "execution_host": "synth.production",
+            "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+            "hmc": {
+              "bytes": 951,
+              "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-eba0da36ef50.hmc",
+              "sha256": "80e6053d60f7a9b6b91dbcc96b1ecc64ab52431f347c65d50414ce70bdaf245d"
+            },
+            "inputs": [],
+            "limits": {
+              "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+              "asset_work_units": 500000000,
+              "combined_logical_budget_bytes": 312475648,
+              "effective_asset_work_units": 499998972,
+              "effective_host_bytes": 268402560,
+              "evaluation_steps": 100000,
+              "evaluation_workspace_bytes": 44040192,
+              "package_bytes": 335544320,
+              "resource_bytes": 67108864,
+              "source_available_bytes": 2097152,
+              "source_bytes": 257,
+              "source_reservation_bytes": 32896,
+              "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+              "source_work_units": 1028,
+              "standalone_wire_bytes": 4194304,
+              "total_resource_bytes": 268435456
+            },
+            "native_reviews": [],
+            "presentation_path": null,
+            "producer": {
+              "id": "files",
+              "version": "2"
+            },
+            "quality_profile": "production16",
+            "requested_reviews": [],
+            "resources": [
+              {
+                "bytes": 173,
+                "key": "path.json",
+                "kind": "json",
+                "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-eba0da36ef50\\path.json",
+                "sha256": "5a0d4d4505e04b40b89c29418d42e234d0d142b1a1e3da6097399638640a6cec",
+                "url": "/artifacts/path-eba0da36ef50/path.json"
+              }
+            ],
+            "review_status": "not_requested",
+            "schema": "synth.production-receipt/v1",
+            "source_sha256": "839d8922c8842ad999b918f16f96beb8c1bda5d2f40b5a53306967d042b0a9a3",
+            "strict_replay_verified": true,
+            "visual_acceptance": "pending inspection"
+          },
+          "resources": [
+            {
+              "bytes": 173,
+              "key": "path.json",
+              "kind": "json",
+              "modality": "data",
+              "sha256": "5a0d4d4505e04b40b89c29418d42e234d0d142b1a1e3da6097399638640a6cec"
+            }
+          ],
+          "revision": 1,
+          "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-eba0da36ef50.hmc",
+          "schema": "synth.presentation-html/v1",
+          "strict_replay_verified": true,
+          "package_url": "/artifacts/path-eba0da36ef50.hmc",
+          "receipt_url": "/artifacts/path-eba0da36ef50.json"
+        }
+      }
+    },
+    "research": {
+      "status": 200,
+      "data": {
+        "purpose": "research",
+        "places": [
+          "observatory",
+          "biology",
+          "atelier",
+          "canopy",
+          "commons",
+          "river"
+        ],
+        "graph": {
+          "returned": 6,
+          "stats": {
+            "matchCount": 6
+          },
+          "total_quins": 123
+        },
+        "selection_receipt": {
+          "schema": "webizen.path-selection/v1",
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42",
+          "reader_binary_sha256": "548fde84a89bc17435c9ce91fe591a5bf60b759f353e843daa494a9ff1c37dca",
+          "policy": "public-graph-breadth-first/v1",
+          "preferred_relation": "information",
+          "locale": "en-AU",
+          "support_preferences": [],
+          "authority": "anonymous-public",
+          "authority_from_purpose": false,
+          "queries": [
+            {
+              "predicate": "https://webizen.au/relation/startsAt",
+              "subject": "https://webizen.au/purpose/research",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/research",
+                  "https://webizen.au/relation/startsAt",
+                  "https://webizen.au/world/observatory"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/prefersRelation",
+              "subject": "https://webizen.au/purpose/research",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/research",
+                  "https://webizen.au/relation/prefersRelation",
+                  "https://webizen.au/relation/information"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/kind",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/terrain"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/sound"
+                ],
+                [
+                  "https://webizen.au/world/biology",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/relationships"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/light"
+                ],
+                [
+                  "https://webizen.au/module/qdnf",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/vibescript",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/aether",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anvil",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/chora",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/cooperation",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/poet",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/web-civics",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/ecopunk",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen-host",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anatomy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/hypermedia",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/qualiadb",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/synth",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/etalon",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/rights"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/information",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/biology"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/knowledge",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/river"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/atelier"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            }
+          ],
+          "decisions": [
+            {
+              "entity": "observatory",
+              "reason": "Graph purpose anchor"
+            },
+            {
+              "entity": "biology",
+              "reason": "information relation from observatory"
+            },
+            {
+              "entity": "atelier",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            },
+            {
+              "entity": "canopy",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            },
+            {
+              "entity": "commons",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            },
+            {
+              "entity": "river",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            }
+          ]
+        },
+        "method": "Native QualiaDB Q42 predicate queries select the declared-purpose anchor and relationship priority. The website traverses those returned edges; remaining public places stay reachable. This changes presentation, never authority.",
+        "production": {
+          "antigravity_embed_hint": null,
+          "document_digest": "adc5c417f92bfe24796b0152404ab94060d01df17a8e126fc59acf8c1af6e68f",
+          "package_sha256": "c9f1732828d0136f28fc86ef70aa389018f22990cf9c2822c45605bf904909c9",
+          "presentation_html": null,
+          "producer": "files",
+          "producer_version": "2",
+          "receipt": {
+            "binary": {
+              "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+              "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+              "version": "0.1.0"
+            },
+            "catalog": {
+              "count": 150,
+              "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+            },
+            "execution_host": "synth.production",
+            "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+            "hmc": {
+              "bytes": 954,
+              "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-07aac4292123.hmc",
+              "sha256": "c9f1732828d0136f28fc86ef70aa389018f22990cf9c2822c45605bf904909c9"
+            },
+            "inputs": [],
+            "limits": {
+              "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+              "asset_work_units": 500000000,
+              "combined_logical_budget_bytes": 312475648,
+              "effective_asset_work_units": 499998960,
+              "effective_host_bytes": 268402176,
+              "evaluation_steps": 100000,
+              "evaluation_workspace_bytes": 44040192,
+              "package_bytes": 335544320,
+              "resource_bytes": 67108864,
+              "source_available_bytes": 2097152,
+              "source_bytes": 260,
+              "source_reservation_bytes": 33280,
+              "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+              "source_work_units": 1040,
+              "standalone_wire_bytes": 4194304,
+              "total_resource_bytes": 268435456
+            },
+            "native_reviews": [],
+            "presentation_path": null,
+            "producer": {
+              "id": "files",
+              "version": "2"
+            },
+            "quality_profile": "production16",
+            "requested_reviews": [],
+            "resources": [
+              {
+                "bytes": 176,
+                "key": "path.json",
+                "kind": "json",
+                "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-07aac4292123\\path.json",
+                "sha256": "71eb1e6185d0ddbc84c067f9a48b45ad35181b85b4a7027a588bafe9ed13c6d6",
+                "url": "/artifacts/path-07aac4292123/path.json"
+              }
+            ],
+            "review_status": "not_requested",
+            "schema": "synth.production-receipt/v1",
+            "source_sha256": "f10cef3cd16481584809eb5d82966ebf52eef74ecafd4e6494cdab3dba047b0a",
+            "strict_replay_verified": true,
+            "visual_acceptance": "pending inspection"
+          },
+          "resources": [
+            {
+              "bytes": 176,
+              "key": "path.json",
+              "kind": "json",
+              "modality": "data",
+              "sha256": "71eb1e6185d0ddbc84c067f9a48b45ad35181b85b4a7027a588bafe9ed13c6d6"
+            }
+          ],
+          "revision": 1,
+          "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-07aac4292123.hmc",
+          "schema": "synth.presentation-html/v1",
+          "strict_replay_verified": true,
+          "package_url": "/artifacts/path-07aac4292123.hmc",
+          "receipt_url": "/artifacts/path-07aac4292123.json"
+        }
+      }
+    },
+    "create": {
+      "status": 200,
+      "data": {
+        "purpose": "create",
+        "places": [
+          "atelier",
+          "canopy",
+          "biology",
+          "commons",
+          "observatory",
+          "river"
+        ],
+        "graph": {
+          "returned": 6,
+          "stats": {
+            "matchCount": 6
+          },
+          "total_quins": 123
+        },
+        "selection_receipt": {
+          "schema": "webizen.path-selection/v1",
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42",
+          "reader_binary_sha256": "548fde84a89bc17435c9ce91fe591a5bf60b759f353e843daa494a9ff1c37dca",
+          "policy": "public-graph-breadth-first/v1",
+          "preferred_relation": "knowledge",
+          "locale": "en-AU",
+          "support_preferences": [],
+          "authority": "anonymous-public",
+          "authority_from_purpose": false,
+          "queries": [
+            {
+              "predicate": "https://webizen.au/relation/startsAt",
+              "subject": "https://webizen.au/purpose/create",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/create",
+                  "https://webizen.au/relation/startsAt",
+                  "https://webizen.au/world/atelier"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/prefersRelation",
+              "subject": "https://webizen.au/purpose/create",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/create",
+                  "https://webizen.au/relation/prefersRelation",
+                  "https://webizen.au/relation/knowledge"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/kind",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/terrain"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/sound"
+                ],
+                [
+                  "https://webizen.au/world/biology",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/relationships"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/light"
+                ],
+                [
+                  "https://webizen.au/module/qdnf",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/vibescript",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/aether",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anvil",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/chora",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/cooperation",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/poet",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/web-civics",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/ecopunk",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen-host",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anatomy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/hypermedia",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/qualiadb",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/synth",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/etalon",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/rights"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/knowledge",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/information",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/biology"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/river"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/atelier"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            }
+          ],
+          "decisions": [
+            {
+              "entity": "atelier",
+              "reason": "Graph purpose anchor"
+            },
+            {
+              "entity": "canopy",
+              "reason": "knowledge relation from atelier"
+            },
+            {
+              "entity": "biology",
+              "reason": "knowledge relation from canopy"
+            },
+            {
+              "entity": "commons",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            },
+            {
+              "entity": "observatory",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            },
+            {
+              "entity": "river",
+              "reason": "Other public exhibit; no directed path from this purpose anchor"
+            }
+          ]
+        },
+        "method": "Native QualiaDB Q42 predicate queries select the declared-purpose anchor and relationship priority. The website traverses those returned edges; remaining public places stay reachable. This changes presentation, never authority.",
+        "production": {
+          "antigravity_embed_hint": null,
+          "document_digest": "e5decb312d3f7b0e213181bd6df05850b7be7c729d1e590e24f45d57490e13e8",
+          "package_sha256": "7162427223d1663b2cd271108c63563c5f46ab67ecc1683bb4ab61791a396f49",
+          "presentation_html": null,
+          "producer": "files",
+          "producer_version": "2",
+          "receipt": {
+            "binary": {
+              "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+              "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+              "version": "0.1.0"
+            },
+            "catalog": {
+              "count": 150,
+              "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+            },
+            "execution_host": "synth.production",
+            "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+            "hmc": {
+              "bytes": 952,
+              "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-faa9655d1673.hmc",
+              "sha256": "7162427223d1663b2cd271108c63563c5f46ab67ecc1683bb4ab61791a396f49"
+            },
+            "inputs": [],
+            "limits": {
+              "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+              "asset_work_units": 500000000,
+              "combined_logical_budget_bytes": 312475648,
+              "effective_asset_work_units": 499998968,
+              "effective_host_bytes": 268402432,
+              "evaluation_steps": 100000,
+              "evaluation_workspace_bytes": 44040192,
+              "package_bytes": 335544320,
+              "resource_bytes": 67108864,
+              "source_available_bytes": 2097152,
+              "source_bytes": 258,
+              "source_reservation_bytes": 33024,
+              "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+              "source_work_units": 1032,
+              "standalone_wire_bytes": 4194304,
+              "total_resource_bytes": 268435456
+            },
+            "native_reviews": [],
+            "presentation_path": null,
+            "producer": {
+              "id": "files",
+              "version": "2"
+            },
+            "quality_profile": "production16",
+            "requested_reviews": [],
+            "resources": [
+              {
+                "bytes": 174,
+                "key": "path.json",
+                "kind": "json",
+                "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-faa9655d1673\\path.json",
+                "sha256": "bc4d7ddc0ef5a2ef543a580351b5032cc276303655f1731a9c5cf1a5d1917f7f",
+                "url": "/artifacts/path-faa9655d1673/path.json"
+              }
+            ],
+            "review_status": "not_requested",
+            "schema": "synth.production-receipt/v1",
+            "source_sha256": "2d7d50068f8877b82842cb1ec8ef926e1a636eee41b792146c337a80ef72a1e0",
+            "strict_replay_verified": true,
+            "visual_acceptance": "pending inspection"
+          },
+          "resources": [
+            {
+              "bytes": 174,
+              "key": "path.json",
+              "kind": "json",
+              "modality": "data",
+              "sha256": "bc4d7ddc0ef5a2ef543a580351b5032cc276303655f1731a9c5cf1a5d1917f7f"
+            }
+          ],
+          "revision": 1,
+          "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-faa9655d1673.hmc",
+          "schema": "synth.presentation-html/v1",
+          "strict_replay_verified": true,
+          "package_url": "/artifacts/path-faa9655d1673.hmc",
+          "receipt_url": "/artifacts/path-faa9655d1673.json"
+        }
+      }
+    },
+    "participate": {
+      "status": 200,
+      "data": {
+        "purpose": "participate",
+        "places": [
+          "commons",
+          "atelier",
+          "river",
+          "observatory",
+          "canopy",
+          "biology"
+        ],
+        "graph": {
+          "returned": 6,
+          "stats": {
+            "matchCount": 6
+          },
+          "total_quins": 123
+        },
+        "selection_receipt": {
+          "schema": "webizen.path-selection/v1",
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42",
+          "reader_binary_sha256": "548fde84a89bc17435c9ce91fe591a5bf60b759f353e843daa494a9ff1c37dca",
+          "policy": "public-graph-breadth-first/v1",
+          "preferred_relation": "socioeconomic",
+          "locale": "en-AU",
+          "support_preferences": [],
+          "authority": "anonymous-public",
+          "authority_from_purpose": false,
+          "queries": [
+            {
+              "predicate": "https://webizen.au/relation/startsAt",
+              "subject": "https://webizen.au/purpose/participate",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/participate",
+                  "https://webizen.au/relation/startsAt",
+                  "https://webizen.au/world/commons"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/prefersRelation",
+              "subject": "https://webizen.au/purpose/participate",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/purpose/participate",
+                  "https://webizen.au/relation/prefersRelation",
+                  "https://webizen.au/relation/socioeconomic"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/kind",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/terrain"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/sound"
+                ],
+                [
+                  "https://webizen.au/world/biology",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/relationships"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/light"
+                ],
+                [
+                  "https://webizen.au/module/qdnf",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/vibescript",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/aether",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anvil",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/chora",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/cooperation",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/poet",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/web-civics",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/ecopunk",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/webizen-host",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/anatomy",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/hypermedia",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/qualiadb",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/synth",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/module/etalon",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/module/module"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/kind",
+                  "https://webizen.au/world/rights"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/river"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/socioeconomic",
+                  "https://webizen.au/world/atelier"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/information",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/commons",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/observatory"
+                ],
+                [
+                  "https://webizen.au/world/observatory",
+                  "https://webizen.au/relation/information",
+                  "https://webizen.au/world/biology"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            },
+            {
+              "predicate": "https://webizen.au/relation/knowledge",
+              "subject": "*",
+              "object": "*",
+              "rows": [
+                [
+                  "https://webizen.au/world/canopy",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/biology"
+                ],
+                [
+                  "https://webizen.au/world/river",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ],
+                [
+                  "https://webizen.au/world/atelier",
+                  "https://webizen.au/relation/knowledge",
+                  "https://webizen.au/world/canopy"
+                ]
+              ],
+              "reader": "qualia_core_db::q42_volume::Q42Volume",
+              "verified_blocks": true,
+              "total_quins": 123
+            }
+          ],
+          "decisions": [
+            {
+              "entity": "commons",
+              "reason": "Graph purpose anchor"
+            },
+            {
+              "entity": "atelier",
+              "reason": "socioeconomic relation from commons"
+            },
+            {
+              "entity": "river",
+              "reason": "socioeconomic relation from commons"
+            },
+            {
+              "entity": "observatory",
+              "reason": "information relation from commons"
+            },
+            {
+              "entity": "canopy",
+              "reason": "knowledge relation from atelier"
+            },
+            {
+              "entity": "biology",
+              "reason": "information relation from observatory"
+            }
+          ]
+        },
+        "method": "Native QualiaDB Q42 predicate queries select the declared-purpose anchor and relationship priority. The website traverses those returned edges; remaining public places stay reachable. This changes presentation, never authority.",
+        "production": {
+          "antigravity_embed_hint": null,
+          "document_digest": "77eb8e41082a272beaad4fe3447b7a7f0ad37c495bea0efd84b74a7309b43c5c",
+          "package_sha256": "2d19c34fc631c4f0de1a45338839786120aa3117b19a94d1d8d73bf885365c72",
+          "presentation_html": null,
+          "producer": "files",
+          "producer_version": "2",
+          "receipt": {
+            "binary": {
+              "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+              "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+              "version": "0.1.0"
+            },
+            "catalog": {
+              "count": 150,
+              "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+            },
+            "execution_host": "synth.production",
+            "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+            "hmc": {
+              "bytes": 953,
+              "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-15c1e9d79a73.hmc",
+              "sha256": "2d19c34fc631c4f0de1a45338839786120aa3117b19a94d1d8d73bf885365c72"
+            },
+            "inputs": [],
+            "limits": {
+              "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+              "asset_work_units": 500000000,
+              "combined_logical_budget_bytes": 312475648,
+              "effective_asset_work_units": 499998948,
+              "effective_host_bytes": 268401792,
+              "evaluation_steps": 100000,
+              "evaluation_workspace_bytes": 44040192,
+              "package_bytes": 335544320,
+              "resource_bytes": 67108864,
+              "source_available_bytes": 2097152,
+              "source_bytes": 263,
+              "source_reservation_bytes": 33664,
+              "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+              "source_work_units": 1052,
+              "standalone_wire_bytes": 4194304,
+              "total_resource_bytes": 268435456
+            },
+            "native_reviews": [],
+            "presentation_path": null,
+            "producer": {
+              "id": "files",
+              "version": "2"
+            },
+            "quality_profile": "production16",
+            "requested_reviews": [],
+            "resources": [
+              {
+                "bytes": 179,
+                "key": "path.json",
+                "kind": "json",
+                "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-15c1e9d79a73\\path.json",
+                "sha256": "9f42be87bf1e7547ec06f097a841aa39a1cf5ea560fd8b0265b3848b3bbb3c28",
+                "url": "/artifacts/path-15c1e9d79a73/path.json"
+              }
+            ],
+            "review_status": "not_requested",
+            "schema": "synth.production-receipt/v1",
+            "source_sha256": "c781ee4e61cc73f40d823ecbd6b9d14dd874eb2164a687d33051c00da55e993e",
+            "strict_replay_verified": true,
+            "visual_acceptance": "pending inspection"
+          },
+          "resources": [
+            {
+              "bytes": 179,
+              "key": "path.json",
+              "kind": "json",
+              "modality": "data",
+              "sha256": "9f42be87bf1e7547ec06f097a841aa39a1cf5ea560fd8b0265b3848b3bbb3c28"
+            }
+          ],
+          "revision": 1,
+          "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-15c1e9d79a73.hmc",
+          "schema": "synth.presentation-html/v1",
+          "strict_replay_verified": true,
+          "package_url": "/artifacts/path-15c1e9d79a73.hmc",
+          "receipt_url": "/artifacts/path-15c1e9d79a73.json"
+        }
+      }
+    }
+  },
+  "queries": {
+    "all": {
+      "status": 200,
+      "data": {
+        "query": "Native Q42 relationship selection: all",
+        "result": {
+          "returned": 8
+        },
+        "readable": [
+          {
+            "subject": "https://webizen.au/world/atelier",
+            "predicate": "https://webizen.au/relation/knowledge",
+            "object": "https://webizen.au/world/canopy"
+          },
+          {
+            "subject": "https://webizen.au/world/canopy",
+            "predicate": "https://webizen.au/relation/knowledge",
+            "object": "https://webizen.au/world/biology"
+          },
+          {
+            "subject": "https://webizen.au/world/commons",
+            "predicate": "https://webizen.au/relation/information",
+            "object": "https://webizen.au/world/observatory"
+          },
+          {
+            "subject": "https://webizen.au/world/commons",
+            "predicate": "https://webizen.au/relation/socioeconomic",
+            "object": "https://webizen.au/world/atelier"
+          },
+          {
+            "subject": "https://webizen.au/world/commons",
+            "predicate": "https://webizen.au/relation/socioeconomic",
+            "object": "https://webizen.au/world/river"
+          },
+          {
+            "subject": "https://webizen.au/world/observatory",
+            "predicate": "https://webizen.au/relation/information",
+            "object": "https://webizen.au/world/biology"
+          },
+          {
+            "subject": "https://webizen.au/world/river",
+            "predicate": "https://webizen.au/relation/information",
+            "object": "https://webizen.au/world/observatory"
+          },
+          {
+            "subject": "https://webizen.au/world/river",
+            "predicate": "https://webizen.au/relation/knowledge",
+            "object": "https://webizen.au/world/canopy"
+          }
+        ],
+        "receipt": {
+          "kind": "all",
+          "rows": [
+            {
+              "subject": "https://webizen.au/world/atelier",
+              "predicate": "https://webizen.au/relation/knowledge",
+              "object": "https://webizen.au/world/canopy"
+            },
+            {
+              "subject": "https://webizen.au/world/canopy",
+              "predicate": "https://webizen.au/relation/knowledge",
+              "object": "https://webizen.au/world/biology"
+            },
+            {
+              "subject": "https://webizen.au/world/commons",
+              "predicate": "https://webizen.au/relation/information",
+              "object": "https://webizen.au/world/observatory"
+            },
+            {
+              "subject": "https://webizen.au/world/commons",
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "object": "https://webizen.au/world/atelier"
+            },
+            {
+              "subject": "https://webizen.au/world/commons",
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "object": "https://webizen.au/world/river"
+            },
+            {
+              "subject": "https://webizen.au/world/observatory",
+              "predicate": "https://webizen.au/relation/information",
+              "object": "https://webizen.au/world/biology"
+            },
+            {
+              "subject": "https://webizen.au/world/river",
+              "predicate": "https://webizen.au/relation/information",
+              "object": "https://webizen.au/world/observatory"
+            },
+            {
+              "subject": "https://webizen.au/world/river",
+              "predicate": "https://webizen.au/relation/knowledge",
+              "object": "https://webizen.au/world/canopy"
+            }
+          ],
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "reader": "qualia_core_db::q42_volume::Q42Volume",
+          "verified_blocks": true,
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42"
+        },
+        "execution": "Native QualiaDB Q42 reader",
+        "source_graph": "/publication/world-060a4ebc05b75c0d.q42"
+      }
+    },
+    "information": {
+      "status": 200,
+      "data": {
+        "query": "Native Q42 relationship selection: information",
+        "result": {
+          "returned": 3
+        },
+        "readable": [
+          {
+            "subject": "https://webizen.au/world/commons",
+            "predicate": "https://webizen.au/relation/information",
+            "object": "https://webizen.au/world/observatory"
+          },
+          {
+            "subject": "https://webizen.au/world/observatory",
+            "predicate": "https://webizen.au/relation/information",
+            "object": "https://webizen.au/world/biology"
+          },
+          {
+            "subject": "https://webizen.au/world/river",
+            "predicate": "https://webizen.au/relation/information",
+            "object": "https://webizen.au/world/observatory"
+          }
+        ],
+        "receipt": {
+          "kind": "information",
+          "rows": [
+            {
+              "subject": "https://webizen.au/world/commons",
+              "predicate": "https://webizen.au/relation/information",
+              "object": "https://webizen.au/world/observatory"
+            },
+            {
+              "subject": "https://webizen.au/world/observatory",
+              "predicate": "https://webizen.au/relation/information",
+              "object": "https://webizen.au/world/biology"
+            },
+            {
+              "subject": "https://webizen.au/world/river",
+              "predicate": "https://webizen.au/relation/information",
+              "object": "https://webizen.au/world/observatory"
+            }
+          ],
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "reader": "qualia_core_db::q42_volume::Q42Volume",
+          "verified_blocks": true,
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42"
+        },
+        "execution": "Native QualiaDB Q42 reader",
+        "source_graph": "/publication/world-060a4ebc05b75c0d.q42"
+      }
+    },
+    "knowledge": {
+      "status": 200,
+      "data": {
+        "query": "Native Q42 relationship selection: knowledge",
+        "result": {
+          "returned": 3
+        },
+        "readable": [
+          {
+            "subject": "https://webizen.au/world/atelier",
+            "predicate": "https://webizen.au/relation/knowledge",
+            "object": "https://webizen.au/world/canopy"
+          },
+          {
+            "subject": "https://webizen.au/world/canopy",
+            "predicate": "https://webizen.au/relation/knowledge",
+            "object": "https://webizen.au/world/biology"
+          },
+          {
+            "subject": "https://webizen.au/world/river",
+            "predicate": "https://webizen.au/relation/knowledge",
+            "object": "https://webizen.au/world/canopy"
+          }
+        ],
+        "receipt": {
+          "kind": "knowledge",
+          "rows": [
+            {
+              "subject": "https://webizen.au/world/atelier",
+              "predicate": "https://webizen.au/relation/knowledge",
+              "object": "https://webizen.au/world/canopy"
+            },
+            {
+              "subject": "https://webizen.au/world/canopy",
+              "predicate": "https://webizen.au/relation/knowledge",
+              "object": "https://webizen.au/world/biology"
+            },
+            {
+              "subject": "https://webizen.au/world/river",
+              "predicate": "https://webizen.au/relation/knowledge",
+              "object": "https://webizen.au/world/canopy"
+            }
+          ],
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "reader": "qualia_core_db::q42_volume::Q42Volume",
+          "verified_blocks": true,
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42"
+        },
+        "execution": "Native QualiaDB Q42 reader",
+        "source_graph": "/publication/world-060a4ebc05b75c0d.q42"
+      }
+    },
+    "socioeconomic": {
+      "status": 200,
+      "data": {
+        "query": "Native Q42 relationship selection: socioeconomic",
+        "result": {
+          "returned": 2
+        },
+        "readable": [
+          {
+            "subject": "https://webizen.au/world/commons",
+            "predicate": "https://webizen.au/relation/socioeconomic",
+            "object": "https://webizen.au/world/atelier"
+          },
+          {
+            "subject": "https://webizen.au/world/commons",
+            "predicate": "https://webizen.au/relation/socioeconomic",
+            "object": "https://webizen.au/world/river"
+          }
+        ],
+        "receipt": {
+          "kind": "socioeconomic",
+          "rows": [
+            {
+              "subject": "https://webizen.au/world/commons",
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "object": "https://webizen.au/world/atelier"
+            },
+            {
+              "subject": "https://webizen.au/world/commons",
+              "predicate": "https://webizen.au/relation/socioeconomic",
+              "object": "https://webizen.au/world/river"
+            }
+          ],
+          "graph_sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+          "reader": "qualia_core_db::q42_volume::Q42Volume",
+          "verified_blocks": true,
+          "graph_uri": "/publication/world-060a4ebc05b75c0d.q42"
+        },
+        "execution": "Native QualiaDB Q42 reader",
+        "source_graph": "/publication/world-060a4ebc05b75c0d.q42"
+      }
+    }
+  },
+  "pointer": {
+    "status": 200,
+    "data": {
+      "q42": "world-060a4ebc05b75c0d.q42",
+      "sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+      "entities": "entities.json",
+      "publication": "publication.json",
+      "receipt": "q42-receipt.json"
+    }
+  },
+  "native_download": {
+    "status": 200,
+    "bytes": 9759,
+    "sha256": "cc773f2bf3a8803d5402da9896882ef6d532c91c0409b9606b83689b7935c551",
+    "headers": {
+      "server": "SimpleHTTP/0.6 Python/3.13.17",
+      "date": "Mon, 16 Nov 2026 00:37:46 GMT",
+      "content-type": "application/octet-stream",
+      "content-length": "9759",
+      "last-modified": "Mon, 16 Nov 2026 00:27:26 GMT",
+      "cache-control": "no-store",
+      "cross-origin-resource-policy": "same-origin",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-embedder-policy": "require-corp"
+    }
+  },
+  "digest_matches_pointer": true,
+  "digest_matches_paths": true,
+  "distinct_paths": 4,
+  "failures": []
+}

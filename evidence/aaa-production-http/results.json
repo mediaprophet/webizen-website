@@ -1,0 +1,116 @@
+{
+  "schema": "webizen.native-production-http/v1",
+  "base": "http://127.0.0.1:8802",
+  "static_checks": [
+    {
+      "route": "/aaa-instanced-proof.html",
+      "bytes": 1540,
+      "sha256": "6ee6bb320c6c948fb029d4ba9c999edc909c1748429f57d06443dfc6039469ef"
+    },
+    {
+      "route": "/atlas/",
+      "bytes": 66591,
+      "sha256": "895b8ee87693bd7cad42132932f715dc808ca6cebb412c46a06e19ce2ffea775"
+    },
+    {
+      "route": "/pkg/native-world/webizen_world_bg.wasm",
+      "bytes": 16578897,
+      "sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394"
+    }
+  ],
+  "native_catalogue_morphisms": 150,
+  "range_and_private_path_checks": true,
+  "recipes": [
+    {
+      "document_digest": "1a88ad94e36245f07b824305910b79f8d8d13121e35e567220c8edb96ef2797c",
+      "ok": true,
+      "package_byte_length": 23483,
+      "package_sha256": "57a8cfb851afed7eea8be4f1f38913b9f78b77bbfd997470a38f45dae0bc972c",
+      "resource_count": 2,
+      "strict_replay_verified": true,
+      "recipe": "catchment",
+      "resources": [
+        {
+          "byte_length": 186,
+          "key": "boundary.svg",
+          "kind": "svg",
+          "sha256": "dacc83f22ba35da55d83ffc3717d37f82caf2c15685937a76222542fb1e9249c"
+        },
+        {
+          "byte_length": 21805,
+          "key": "catchment.png",
+          "kind": "png",
+          "sha256": "5cbf5489b600162b0f1b3245b3ee6f5684818c48e6c52d54f204f232b9b763f8"
+        }
+      ],
+      "changed_package_sha256": "39d28fc41ac47587a4d0f9fefb915047e2fde76625d881571e90daf8532694da"
+    },
+    {
+      "document_digest": "b1c0de0aa87f564e9a9ebcaf00e4080f9fe827c990962d724bafedcb21500b36",
+      "ok": true,
+      "package_byte_length": 3196,
+      "package_sha256": "fa01c9d7d5b202024d1baebd555e706d0cbc9eeefbfaa8c6e05e0973d51af3c1",
+      "resource_count": 1,
+      "strict_replay_verified": true,
+      "recipe": "lettering",
+      "resources": [
+        {
+          "byte_length": 2420,
+          "key": "lettering.svg",
+          "kind": "svg",
+          "sha256": "bad99c9608e9824c04d94e38b8dffcba70d37a6e1bfec5f1d684ecd8d9651b83"
+        }
+      ],
+      "changed_package_sha256": "2dbbc98242150a9945df38706dc8d779478f63559b1b279597148cd2e1a3078a"
+    },
+    {
+      "document_digest": "41ab049f7159f29782427d8a54138c3b7bc0f85c3320dfd447bdadc9eccf4919",
+      "ok": true,
+      "package_byte_length": 96824,
+      "package_sha256": "efbbf7d089f25a590c7695a90702a55430f7b6a19f0ca9053c2e56ec9bdea1ec",
+      "resource_count": 1,
+      "strict_replay_verified": true,
+      "recipe": "tone",
+      "resources": [
+        {
+          "byte_length": 96044,
+          "key": "tone.wav",
+          "kind": "wav",
+          "sha256": "32f31f730eec1020db53da98191f3c03a1e150c3009b8358ff5ac38915ca17a1"
+        }
+      ],
+      "changed_package_sha256": "4b9603cb499ecd9c5b440be44dd2b4cfda952586b0fe657bdb77a6c91fe9bdf4"
+    },
+    {
+      "document_digest": "87138820378606a8815c19486bcec1e9055b7ca6587dacbf0920ab6e02ccb7c4",
+      "ok": true,
+      "package_byte_length": 56553,
+      "package_sha256": "705c9a847e2541578a6fa5184648a2479c239a69be2a9a40bc0f14d50de765b6",
+      "resource_count": 3,
+      "strict_replay_verified": true,
+      "recipe": "surface",
+      "resources": [
+        {
+          "byte_length": 31194,
+          "key": "colour.png",
+          "kind": "png",
+          "sha256": "3b3fab7f215954a63ec035e5e4bd3a461bd0542bffc6726134fda9b8239e29d5"
+        },
+        {
+          "byte_length": 15640,
+          "key": "normal.png",
+          "kind": "png",
+          "sha256": "fc96523ed5b2fe1047b4e2bbeb8f2cae94066b09b06acd94ea3310c33204a01e"
+        },
+        {
+          "byte_length": 8396,
+          "key": "orm.png",
+          "kind": "png",
+          "sha256": "5089e10bcd3601d6eab10fd6de0178a675e01161c2d1d81f307e1fe53e911339"
+        }
+      ],
+      "changed_package_sha256": "90437ddca21b1605817f16bcbf5244106add6a9fbf122f30066fbba225017225"
+    }
+  ],
+  "invalid_source_refused": true
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "webizen.native-instancing-asset-verification/v1",
+  "passed": true,
+  "placements_exact": 367,
+  "prototype_checks": [
+    {
+      "id": "prototype-eucalyptus-mid",
+      "instances": 90,
+      "source_triangles": 7992,
+      "expanded_triangles": 719280,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-eucalyptus-near",
+      "instances": 3,
+      "source_triangles": 39994,
+      "expanded_triangles": 119982,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-bank-rock-mid",
+      "instances": 56,
+      "source_triangles": 384,
+      "expanded_triangles": 21504,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-bank-rock-near",
+      "instances": 15,
+      "source_triangles": 2176,
+      "expanded_triangles": 32640,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-grass-near",
+      "instances": 27,
+      "source_triangles": 9188,
+      "expanded_triangles": 248076,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-grass-mid",
+      "instances": 134,
+      "source_triangles": 3268,
+      "expanded_triangles": 437912,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-shrub-branches",
+      "instances": 14,
+      "source_triangles": 3528,
+      "expanded_triangles": 49392,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-shrub-leaves",
+      "instances": 14,
+      "source_triangles": 14000,
+      "expanded_triangles": 196000,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    },
+    {
+      "id": "prototype-leaf-litter",
+      "instances": 14,
+      "source_triangles": 1520,
+      "expanded_triangles": 21280,
+      "strict_replay_verified": true,
+      "native_provenance_preserved": true,
+      "native_geometry_and_nonmaterial_sections_preserved": true
+    }
+  ],
+  "source_geometry": {
+    "assets": 91,
+    "bytes": 100647704,
+    "vertices": 416487,
+    "triangles": 679904,
+    "vertex_count": 416487,
+    "triangle_count": 679904,
+    "expanded_triangles": 2443920,
+    "ecology_placements": 367,
+    "native_instance_records": 449
+  },
+  "comparison": {
+    "baked_bytes": 262515624,
+    "prototype_scene_bytes": 100647704,
+    "saved_bytes": 161867920,
+    "saved_fraction": 0.6166029950278311
+  },
+  "scene_sha256": "c09fe7526c91e9a6c125e50b95743f6cd7c92422b3b5ed0926cf8e5db77c8467",
+  "runtime_visual_test": "Pending combined WASM and browser verification; asset tests do not establish visual quality or frame rate"
+}

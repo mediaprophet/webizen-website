@@ -1,0 +1,20 @@
+{
+  "bindings": {
+    "camera": {
+      "ground": 6.218066137305078,
+      "position": [
+        -32.0,
+        8.9,
+        44.0
+      ],
+      "target": [
+        -22.0,
+        5.840921689,
+        28.0
+      ]
+    }
+  },
+  "quin_count": 1,
+  "result": null,
+  "status": "ok"
+}

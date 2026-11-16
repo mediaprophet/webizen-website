@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 60,
+  "triangles": 96,
+  "bytes": 57976,
+  "source_bytes": 14520,
+  "id": "solar-array-three--panel",
+  "original_sha256": "fe9c9c03a343729a83704f0fc9a9c3da8b67962da4f841e6031979a2b83adefc",
+  "source_sha256": "64851a9e98cc57817fdf1309f11f17bcf347ed18115001671ac59bcd117c25ee",
+  "attested_sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

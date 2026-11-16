@@ -1,0 +1,136 @@
+{
+  "model_url": "/production/campsite/terrain/artifacts/catchment-clearing-f5bf33f7ba84/catchment-clearing.10d",
+  "source": "/production/campsite/terrain/recipes/clearing.vibe",
+  "geometry_source": "/production/campsite/terrain/recipes/catchment-clearing.obj",
+  "mesh_json": "/production/campsite/terrain/assets/catchment-clearing.mesh.json",
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "9d033f624af5545df6ff93248ba85b7220d431f8755415d2df75b8e01766f36c",
+    "package_sha256": "ad854524112656442aa84d61c18612fe2d529cb7722242b977ad5b87146db65e",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 16779542,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\terrain\\artifacts\\catchment-clearing-f5bf33f7ba84.hmc",
+        "sha256": "ad854524112656442aa84d61c18612fe2d529cb7722242b977ad5b87146db65e"
+      },
+      "inputs": [
+        {
+          "bytes": 2186330,
+          "key": "landscape.obj",
+          "kind": "obj",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\terrain\\recipes\\catchment-clearing.obj",
+          "sha256": "499029b49989f009c6195918509781765f8910258c18c8549d6c5e58014cc829"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998172,
+        "effective_host_bytes": 268376960,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2080071,
+        "source_bytes": 457,
+        "source_reservation_bytes": 58496,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1828,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 7010268,
+          "key": "catchment-clearing.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\terrain\\artifacts\\catchment-clearing-f5bf33f7ba84\\catchment-clearing.10d",
+          "sha256": "097326b16893a396e782a4102b225290275eade485773657e7f3dd2317b44921",
+          "url": "/production/campsite/terrain/artifacts/catchment-clearing-f5bf33f7ba84/catchment-clearing.10d"
+        },
+        {
+          "bytes": 7581546,
+          "key": "catchment-clearing.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\terrain\\artifacts\\catchment-clearing-f5bf33f7ba84\\catchment-clearing.dxf",
+          "sha256": "67f209849b685a28858e068915aed4f0dd8c9b278f198f6ec5e6defef72370ff",
+          "url": "/production/campsite/terrain/artifacts/catchment-clearing-f5bf33f7ba84/catchment-clearing.dxf"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "a552d4483ee9cae87b1b7a4fc7bf53ca41328502a71772de326aaa199d0c360f",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 7010268,
+        "key": "catchment-clearing.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "097326b16893a396e782a4102b225290275eade485773657e7f3dd2317b44921"
+      },
+      {
+        "bytes": 7581546,
+        "key": "catchment-clearing.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "67f209849b685a28858e068915aed4f0dd8c9b278f198f6ec5e6defef72370ff"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\terrain\\artifacts\\catchment-clearing-f5bf33f7ba84.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/production/campsite/terrain/artifacts/catchment-clearing-f5bf33f7ba84.hmc",
+    "receipt_url": "/production/campsite/terrain/artifacts/catchment-clearing-f5bf33f7ba84.json"
+  },
+  "heightfield": {
+    "schema": "webizen.campsite-heightfield/v1",
+    "clearing": {
+      "centre": [
+        -22,
+        28
+      ],
+      "flatRadius": 8,
+      "blendRadius": 13
+    },
+    "elevation": 4.4909216892549235,
+    "side": 160,
+    "vertices": 25921,
+    "triangles": 51200,
+    "flat_vertices": 159,
+    "unchanged_outer_vertices": 25505,
+    "flat_max_height_error": 0,
+    "unchanged_outer_max_height_error": 0
+  },
+  "same_authored_geometry": true,
+  "max_dxf_coordinate_error_metres": 3.5543158389828022e-06,
+  "terrain_source_sha256": "8d2728812e5ccb24127a0407a195e3b21a55133358532b754c5f23f8369a1ecf",
+  "rendering_note": "Browser heightAt/terrainMesh and native imported mesh share the same160-grid authored terrain, with a level campsite clearing and smooth transition. Native DXF correspondence checked for every triangle coordinate.",
+  "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\terrain\\previews\\catchment-clearing-1794790749"
+}

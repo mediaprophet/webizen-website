@@ -1,0 +1,11 @@
+{
+  "scope": "ATL only; standard RunAs elevation; no restart or installer update",
+  "exit_code": null,
+  "installer": "C:/Program Files (x86)/Microsoft Visual Studio/Installer/setup.exe",
+  "finished_utc": "2026-11-16T05:07:02.5420702Z",
+  "started_utc": "2026-11-16T05:04:55.9130611Z",
+  "component": "Microsoft.VisualStudio.Component.VC.ATL",
+  "status": "not_installed_elevation_cancelled",
+  "error": "Start-Process RunAs: The operation was canceled by the user.",
+  "wrapper_exit_not_install_success": true
+}

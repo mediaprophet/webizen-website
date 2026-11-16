@@ -1,0 +1,151 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 11233041,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9.hmc",
+    "sha256": "db5a626817ac50bbe886e7318965fac522803b0cc2643d3cb921d1165cc7a6ff"
+  },
+  "inputs": [
+    {
+      "bytes": 424802,
+      "key": "0.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-pale-bark.obj",
+      "sha256": "3bec077a8015a0dafca7fdbb41cf64affef726f70696a89b4d89d0343660e7fe"
+    },
+    {
+      "bytes": 91968,
+      "key": "1.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-old-bark.obj",
+      "sha256": "e7747095f218d82a4cd88b172ab8dcefdee36a0dcc4ec97e04816fd10611384e"
+    },
+    {
+      "bytes": 50668,
+      "key": "2.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-warm-bark.obj",
+      "sha256": "af0b5baaa24f824bf03357d51e0e8d6eb3854f04f2e5e7b92c9c972b61e995d1"
+    },
+    {
+      "bytes": 644602,
+      "key": "3.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-twig.obj",
+      "sha256": "01ab6b697206fc1c7dfc6685c8975557db7c054f0a107f6961057744f20a97e4"
+    },
+    {
+      "bytes": 1152100,
+      "key": "4.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-leaf-olive.obj",
+      "sha256": "c382bd6734c7c8fae4fd195a1e5bd40cbb2155da778b9c10ad5806dc81d14c21"
+    },
+    {
+      "bytes": 821859,
+      "key": "5.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-leaf-blue.obj",
+      "sha256": "c1cb6f4e69d5b3873eb896d44d3726a8b02192cc3870c8b65de47bf8217ce226"
+    },
+    {
+      "bytes": 853942,
+      "key": "6.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\lod\\eucalyptus-40000-leaf-young.obj",
+      "sha256": "17d2cf14a45d52986fc4311f8a2451d9027076d02975db80acc6390c6e3ba926"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499989152,
+    "effective_host_bytes": 268088320,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2065589,
+    "source_bytes": 2712,
+    "source_reservation_bytes": 347136,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 10848,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 1438809,
+      "key": "leaf-blue.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\leaf-blue.dxf",
+      "sha256": "354f345963adda4e49559a562d1a4b454c961871fc8eea93a4d0303602ecc9af"
+    },
+    {
+      "bytes": 1987584,
+      "key": "leaf-olive.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\leaf-olive.dxf",
+      "sha256": "f26000c5c7f49b19f1d16b366068543898fa8ced7a3b36d267f3e0ba5dcedba0"
+    },
+    {
+      "bytes": 1499720,
+      "key": "leaf-young.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\leaf-young.dxf",
+      "sha256": "2d0807e6b5fbca6d0c08a3466df7c87a30d649a0324942f0d9caf94863e37ce1"
+    },
+    {
+      "bytes": 187496,
+      "key": "old-bark.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\old-bark.dxf",
+      "sha256": "1fbdd87215dda5c4e25ed468112e6c9aee523da5a76d309897c7390b71c78e6a"
+    },
+    {
+      "bytes": 801657,
+      "key": "pale-bark.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\pale-bark.dxf",
+      "sha256": "a1359611c646fe68ef88a36c89fc00944cbcd93d86972006673024f5bd92e94d"
+    },
+    {
+      "bytes": 1167915,
+      "key": "twig.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\twig.dxf",
+      "sha256": "ca798a51177a6689d7385a3e03f063e92d7b1b00df9c913f1817b5c2f735ebf1"
+    },
+    {
+      "bytes": 103967,
+      "key": "warm-bark.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\eucalyptus-40000-c9b3e72dd5a9\\warm-bark.dxf",
+      "sha256": "cb99ae0ee3bbfaff09b308fc2d5321dd7135d84a0ebda5027f38dda7a61ee0fe"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "12fd248cc0540b4b7531823e93afbe99ec18fb231e1191331a02ee409e08408b",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

@@ -1,0 +1,164 @@
+{
+  "projection": {
+    "bounds_max": [
+      2.2596116065979004,
+      1.3599200248718262,
+      2.6036665439605713
+    ],
+    "bounds_min": [
+      -2.983595848083496,
+      -0.10016999393701553,
+      -1.457726001739502
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 8.0,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      0.0,
+      0.44999998807907104,
+      0.4000000059604645
+    ],
+    "colors": "absent-renderer-default",
+    "lighting": {
+      "ambient_intensity": 0.5,
+      "clear_color": [
+        0.10000000149011612,
+        0.12999999523162842,
+        0.14000000059604645,
+        1.0
+      ],
+      "direct_intensity": 2.4000000953674316,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        -0.4000000059604645,
+        0.800000011920929,
+        0.6000000238418579
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 8.0,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.30000001192092896,
+    "shadows_available": true,
+    "tangents": "authored",
+    "texture_coordinates": "authored-UV01",
+    "triangle_count": 50924,
+    "vertex_count": 45871,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "schema": "synth.native-shot/v1",
+  "shot": {
+    "ambient_intensity": 0.5,
+    "ao_bias": 0.004999999888241291,
+    "ao_enabled": true,
+    "ao_radius": 0.05000000074505806,
+    "ao_samples": 12,
+    "ao_strength": 0.30000001192092896,
+    "camera_distance": 8.0,
+    "camera_pitch": 0.2800000011920929,
+    "camera_target": [
+      0.0,
+      0.44999998807907104,
+      0.4000000059604645
+    ],
+    "camera_yaw": 0.6499999761581421,
+    "clear_color": [
+      0.10000000149011612,
+      0.12999999523162842,
+      0.14000000059604645,
+      1.0
+    ],
+    "clip_id": null,
+    "direct_intensity": 2.4000000953674316,
+    "environment_fallback_rgb": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "environment_probes": [
+      {
+        "dominant_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "irradiance": [
+          0.2199999988079071,
+          0.23999999463558197,
+          0.20000000298023224
+        ],
+        "position": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "radius": 50.0,
+        "specular_levels": [
+          [
+            0.15000000596046448,
+            0.1599999964237213,
+            0.14000000059604645
+          ],
+          [
+            0.11999999731779099,
+            0.12999999523162842,
+            0.10999999940395355
+          ],
+          [
+            0.10000000149011612,
+            0.10999999940395355,
+            0.09000000357627869
+          ],
+          [
+            0.07999999821186066,
+            0.09000000357627869,
+            0.07000000029802322
+          ],
+          [
+            0.05999999865889549,
+            0.07000000029802322,
+            0.05000000074505806
+          ]
+        ]
+      }
+    ],
+    "shadows": true,
+    "side": 1024,
+    "sun_direction": [
+      -0.4000000059604645,
+      0.800000011920929,
+      0.6000000238418579
+    ],
+    "times": [
+      0.0
+    ]
+  },
+  "source": {
+    "bytes": 4667328,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\understorey-study-2d79421624b7\\understorey-study.10d",
+    "sha256": "75b1d9ffda184dde8f19c483858b9070f75a5e489476be1f3905da88119d05fa"
+  },
+  "textures": {
+    "asset_key": "outputs/understorey-study.10d",
+    "hmc_sha256": "b9b25318aaa0ac03a0d8ea8140f6755454a4161776db283458cb1bb3bb42628e",
+    "requested": 15,
+    "resident": 15
+  },
+  "views": [
+    {
+      "bytes": 125101,
+      "file": "frame-0000.png",
+      "height": 1024,
+      "sha256": "61a741adc340a0943c6cdb9b02edadbdb5c1ea91665bba7598b7bb70676f7adf",
+      "time_seconds": 0.0,
+      "width": 1024
+    }
+  ]
+}

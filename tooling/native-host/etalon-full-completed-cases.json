@@ -1,0 +1,1640 @@
+[
+  {
+    "status": "PASS",
+    "elapsed": "251.758s",
+    "ordinal": 1,
+    "test": "etalon-test::etalon-compile compile_fail"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.910s",
+    "ordinal": 2,
+    "test": "etalon-test::etalon-gpu [Executed Failure: BACKEND] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_compressed_etc2"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.253s",
+    "ordinal": 3,
+    "test": "etalon-test::etalon-gpu [Executed Failure: BACKEND] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_uncompressed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.710s",
+    "ordinal": 4,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_compressed_bcn"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.033s",
+    "ordinal": 5,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_depth"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.350s",
+    "ordinal": 6,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_depth32_stencil8"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.681s",
+    "ordinal": 7,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_uncompressed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.792s",
+    "ordinal": 8,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_uncompressed_gles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.375s",
+    "ordinal": 9,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_compressed_bcn"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "5.664s",
+    "ordinal": 10,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.584s",
+    "ordinal": 11,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_depth"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.197s",
+    "ordinal": 12,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_depth32_stencil8"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.284s",
+    "ordinal": 13,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_uncompressed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.728s",
+    "ordinal": 14,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_uncompressed_gles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.486s",
+    "ordinal": 15,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_compressed_bcn"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.425s",
+    "ordinal": 16,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_depth"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.777s",
+    "ordinal": 17,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_depth32_stencil8"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.855s",
+    "ordinal": 18,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_uncompressed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.311s",
+    "ordinal": 19,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_uncompressed_gles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "6.715s",
+    "ordinal": 20,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.039s",
+    "ordinal": 21,
+    "test": "etalon-test::etalon-gpu [Executed] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_uncompressed_gles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "25.218s",
+    "ordinal": 22,
+    "test": "etalon-test::etalon-gpu [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "4.164s",
+    "ordinal": 23,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_compressed_bcn"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.299s",
+    "ordinal": 24,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_compressed_etc2"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.044s",
+    "ordinal": 25,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_depth"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.282s",
+    "ordinal": 26,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_depth32_stencil8"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "4.498s",
+    "ordinal": 27,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_uncompressed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.412s",
+    "ordinal": 28,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_uncompressed_gles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "6.774s",
+    "ordinal": 29,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.895s",
+    "ordinal": 30,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_compressed_bcn"
+  },
+  {
+    "status": "FAIL",
+    "elapsed": "39.304s",
+    "ordinal": 31,
+    "test": "etalon-test::etalon-gpu [Executed] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.351s",
+    "ordinal": 32,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_depth"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.540s",
+    "ordinal": 33,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_depth32_stencil8"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.558s",
+    "ordinal": 34,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_uncompressed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.692s",
+    "ordinal": 35,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_uncompressed_gles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.424s",
+    "ordinal": 36,
+    "test": "etalon-test::etalon-gpu [Unsupported: Downlevel Flags] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_depth"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.375s",
+    "ordinal": 37,
+    "test": "etalon-test::etalon-gpu [Unsupported: Downlevel Flags] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_depth32_stencil8"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.369s",
+    "ordinal": 38,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features | Limits] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_compressed_astc"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.437s",
+    "ordinal": 39,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features | Limits] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_compressed_astc"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.376s",
+    "ordinal": 40,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features | Limits] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_compressed_astc"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.374s",
+    "ordinal": 41,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features | Limits] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_compressed_astc"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.355s",
+    "ordinal": 42,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features | Limits] [Vulkan/Intel(R) RaptorLake-S Mobile Graphics Controller/0] etalon_gpu::clear_texture::clear_texture_compressed_astc"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.308s",
+    "ordinal": 43,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features] [Dx12/Intel(R) UHD Graphics/2] etalon_gpu::clear_texture::clear_texture_compressed_etc2"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.368s",
+    "ordinal": 44,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features] [Dx12/Microsoft Basic Render Driver/4] etalon_gpu::clear_texture::clear_texture_compressed_etc2"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.293s",
+    "ordinal": 45,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_gpu::clear_texture::clear_texture_compressed_etc2"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.335s",
+    "ordinal": 46,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::clear_texture::clear_texture_compressed_bcn"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.259s",
+    "ordinal": 47,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_compressed_astc"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.250s",
+    "ordinal": 48,
+    "test": "etalon-test::etalon-gpu [Unsupported: Features] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::clear_texture::clear_texture_compressed_etc2"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "6.910s",
+    "ordinal": 49,
+    "test": "etalon-test::etalon-gpu [Executed] [Vulkan/NVIDIA GeForce RTX 5070 Laptop GPU/1] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.171s",
+    "ordinal": 50,
+    "test": "etalon-test::etalon-validation api::resource_safety::clear_texture_requires_all_depth_stencil_aspects"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "19.558s",
+    "ordinal": 51,
+    "test": "player::player tests::test_api_dx12"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "21.264s",
+    "ordinal": 52,
+    "test": "etalon-wgsl-forge numerical::graph_ops::executor::tests::resident_weights_decode_block"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.209s",
+    "ordinal": 53,
+    "test": "player::player tests::test_api_metal"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.307s",
+    "ordinal": 54,
+    "test": "player::player tests::test_api_gl"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.158s",
+    "ordinal": 55,
+    "test": "etalon api::buffer::tests::check_buffer_bounds_panics_for_end_over_size"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.109s",
+    "ordinal": 56,
+    "test": "etalon api::buffer::tests::check_buffer_bounds_panics_for_end_wraparound"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.105s",
+    "ordinal": 57,
+    "test": "etalon api::buffer::tests::check_buffer_bounds_works_for_end_in_range"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.087s",
+    "ordinal": 58,
+    "test": "etalon api::buffer::tests::range_overlapping"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.100s",
+    "ordinal": 59,
+    "test": "etalon api::buffer::tests::range_to_offset_size_works"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.118s",
+    "ordinal": 60,
+    "test": "etalon macros::tests::make_spirv_be_pass"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.106s",
+    "ordinal": 61,
+    "test": "etalon macros::tests::make_spirv_le_pass"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.103s",
+    "ordinal": 62,
+    "test": "etalon macros::tests::test_vertex_attr_array"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.112s",
+    "ordinal": 63,
+    "test": "etalon util::spirv::tests::const_be_fail"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.107s",
+    "ordinal": 64,
+    "test": "etalon util::spirv::tests::const_le_fail"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.103s",
+    "ordinal": 65,
+    "test": "etalon util::spirv::tests::make_spirv_empty"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.093s",
+    "ordinal": 66,
+    "test": "etalon util::spirv::tests::nonconst_be_fail"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.087s",
+    "ordinal": 67,
+    "test": "etalon util::spirv::tests::nonconst_le_fail"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.112s",
+    "ordinal": 68,
+    "test": "etalon util::spirv::tests::success_be"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.136s",
+    "ordinal": 69,
+    "test": "etalon util::spirv::tests::success_le"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.209s",
+    "ordinal": 70,
+    "test": "etalon-agent accelerator::android::tests::android_platform_and_runtime_status_are_honest"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.195s",
+    "ordinal": 71,
+    "test": "etalon-agent accelerator::android::tests::cumulative_property_byte_budget_is_enforced"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.121s",
+    "ordinal": 72,
+    "test": "etalon-agent accelerator::android::tests::fake_device_node_is_not_a_tpu"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.128s",
+    "ordinal": 73,
+    "test": "etalon-agent accelerator::android::tests::fastrpc_transport_is_not_npu_evidence"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.131s",
+    "ordinal": 74,
+    "test": "etalon-agent accelerator::android::tests::missing_interfaces_are_unknown_even_with_an_empty_accel_class"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "1.777s",
+    "ordinal": 75,
+    "test": "etalon-agent accelerator::android::tests::oversized_properties_and_directory_limits_fail_closed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.162s",
+    "ordinal": 76,
+    "test": "etalon-agent accelerator::android::tests::registered_driver_without_bound_devices_is_not_detection"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.108s",
+    "ordinal": 77,
+    "test": "etalon-agent accelerator::android::tests::unreadable_interface_is_not_hardware_absence"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.096s",
+    "ordinal": 78,
+    "test": "etalon-agent accelerator::linux::tests::empty_visible_interface_reports_no_detected_npu"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.397s",
+    "ordinal": 79,
+    "test": "etalon-agent accelerator::linux::tests::enumeration_limit_cannot_establish_absence"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "5.439s",
+    "ordinal": 80,
+    "test": "player::player tests::test_api_vulkan"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.158s",
+    "ordinal": 81,
+    "test": "etalon-agent accelerator::linux::tests::missing_kernel_interface_is_not_hardware_absence"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.118s",
+    "ordinal": 82,
+    "test": "etalon-agent accelerator::linux::tests::only_documented_npu_drivers_are_classified_as_npus"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.109s",
+    "ordinal": 83,
+    "test": "etalon-agent accelerator::linux::tests::properties_have_a_byte_limit"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.126s",
+    "ordinal": 84,
+    "test": "etalon-agent accelerator::linux::tests::unknown_accelerator_is_not_called_an_npu"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.089s",
+    "ordinal": 85,
+    "test": "etalon-agent accelerator::types::tests::an_incomplete_probe_cannot_establish_absence"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.093s",
+    "ordinal": 86,
+    "test": "etalon-agent accelerator::types::tests::detection_does_not_establish_runtime_or_execution"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.104s",
+    "ordinal": 87,
+    "test": "etalon-agent accelerator::windows::tests::invalid_driver_descriptions_are_rejected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.471s",
+    "ordinal": 88,
+    "test": "etalon-agent cuda_lane::tests::compute_execution_rejects_caller_asserted_capabilities"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.304s",
+    "ordinal": 89,
+    "test": "etalon-agent cuda_lane::tests::register_host_pinned_rejects_null_and_unaligned_pointers"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.118s",
+    "ordinal": 90,
+    "test": "etalon-agent cuda_lane::tests::register_host_pinned_truthfully_rejects_unavailable_lane"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.905s",
+    "ordinal": 91,
+    "test": "etalon-agent cuda_lane::tests::register_and_unregister_host_pinned_lifecycle"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.103s",
+    "ordinal": 92,
+    "test": "etalon-agent hal_lane::tests::a_completed_submission_requires_matching_nonempty_readback"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.084s",
+    "ordinal": 93,
+    "test": "etalon-agent hal_lane::tests::dropping_async_wait_unregisters_its_task"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.086s",
+    "ordinal": 94,
+    "test": "etalon-agent hal_lane::tests::foreign_lane_and_unissued_tokens_cannot_reclaim"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.092s",
+    "ordinal": 95,
+    "test": "etalon-agent hal_lane::tests::stale_or_foreign_tokens_cannot_verify_new_work"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.095s",
+    "ordinal": 96,
+    "test": "etalon-agent hal_lane::tests::submission_without_completion_does_not_verify"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.093s",
+    "ordinal": 97,
+    "test": "etalon-agent lease::tests::dropping_after_completion_releases_once"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.101s",
+    "ordinal": 98,
+    "test": "etalon-agent lease::tests::dropping_before_completion_retains_resource_until_callback_releases_it"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.091s",
+    "ordinal": 99,
+    "test": "etalon-agent lease::tests::incomplete_and_counter_only_completion_cannot_reclaim_retained_resource"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "5.794s",
+    "ordinal": 100,
+    "test": "etalon-benchmark::bench/etalon-benchmark Device::create_bind_group"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "21.371s",
+    "ordinal": 101,
+    "test": "etalon-benchmark::bench/etalon-benchmark Device::create_buffer"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "5.294s",
+    "ordinal": 102,
+    "test": "etalon-benchmark::bench/etalon-benchmark Renderpass Encoding"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.951s",
+    "ordinal": 103,
+    "test": "etalon-benchmark::bench/etalon-benchmark naga::back"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.656s",
+    "ordinal": 104,
+    "test": "etalon-benchmark::bench/etalon-benchmark naga::compact"
+  },
+  {
+    "status": "ABORT",
+    "elapsed": "40.488s",
+    "ordinal": 105,
+    "test": "etalon-benchmark::bench/etalon-benchmark Computepass Encoding"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "4.262s",
+    "ordinal": 106,
+    "test": "etalon-benchmark::bench/etalon-benchmark naga::valid"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.129s",
+    "ordinal": 107,
+    "test": "etalon-browser-demo radio_value_tests::tests::queue_bound_reports_loss"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.125s",
+    "ordinal": 108,
+    "test": "etalon-browser-demo radio_value_tests::tests::uuid_and_write_validation"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.121s",
+    "ordinal": 109,
+    "test": "etalon-browser-demo requirements::tests::declared_render_limit_covers_rgba8unorm_pixel_cost"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.113s",
+    "ordinal": 110,
+    "test": "etalon-browser-demo requirements::tests::explicit_zero_combined_binding_limit_is_rejected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.114s",
+    "ordinal": 111,
+    "test": "etalon-browser-demo requirements::tests::insufficient_compute_or_binding_limits_are_rejected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.112s",
+    "ordinal": 112,
+    "test": "etalon-browser-demo requirements::tests::lower_capability_limits_do_not_require_unused_desktop_resources"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.454s",
+    "ordinal": 113,
+    "test": "etalon-core device::resource::mapping_error_tests::mapping_failure_defers_loss_until_resource_locks_are_released"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.192s",
+    "ordinal": 114,
+    "test": "etalon-core device::resource::planar_usage_tests::planar_descriptors_reject_unsupported_shapes_and_transient_usage"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.295s",
+    "ordinal": 115,
+    "test": "etalon-core device::resource::planar_usage_tests::renderable_planes_do_not_make_the_parent_renderable"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.228s",
+    "ordinal": 116,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::auto_never_resolves_to_extended_srgb"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.177s",
+    "ordinal": 117,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::auto_non_fp16_with_srgb_and_extended_linear_resolves_to_srgb"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.224s",
+    "ordinal": 118,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::auto_prefers_srgb_for_non_fp16"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.217s",
+    "ordinal": 119,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::auto_refuses_hdr_only_formats"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.251s",
+    "ordinal": 120,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::auto_resolves_fp16_to_extended_srgb_linear"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.226s",
+    "ordinal": 121,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::auto_resolves_fp16_to_srgb_without_extended"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.256s",
+    "ordinal": 122,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::explicit_hdr10_is_honored"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.234s",
+    "ordinal": 123,
+    "test": "etalon-core device::surface_config::surface_configuration_tests::explicit_unsupported_color_space_errors"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.243s",
+    "ordinal": 124,
+    "test": "etalon-core indirect_validation::draw::tests::calculate_src_offsets_test"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "8.755s",
+    "ordinal": 125,
+    "test": "etalon-benchmark::bench/etalon-benchmark naga::front"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.235s",
+    "ordinal": 126,
+    "test": "etalon-core init_tracker::test::check_for_drained_tracker"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.684s",
+    "ordinal": 127,
+    "test": "etalon-core init_tracker::proptest::tests::tracker_matches_model"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.236s",
+    "ordinal": 128,
+    "test": "etalon-core init_tracker::test::check_for_newly_created_tracker"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.221s",
+    "ordinal": 129,
+    "test": "etalon-core init_tracker::test::check_for_partially_filled_tracker"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.231s",
+    "ordinal": 130,
+    "test": "etalon-core init_tracker::test::discard_adds_range_on_cleared"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.262s",
+    "ordinal": 131,
+    "test": "etalon-core init_tracker::test::discard_does_nothing_on_uncleared"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.184s",
+    "ordinal": 132,
+    "test": "etalon-core init_tracker::test::discard_extends_ranges"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.191s",
+    "ordinal": 133,
+    "test": "etalon-core init_tracker::test::discard_merges_ranges"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.211s",
+    "ordinal": 134,
+    "test": "etalon-core init_tracker::test::drain_already_drained"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.217s",
+    "ordinal": 135,
+    "test": "etalon-core init_tracker::test::drain_never_returns_ranges_twice_for_same_range"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.184s",
+    "ordinal": 136,
+    "test": "etalon-core init_tracker::test::drain_splits_ranges_correctly"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.208s",
+    "ordinal": 137,
+    "test": "etalon-core init_tracker::texture::tests::attachment_discard_invalidates_all_active_layers_and_preserves_inactive_data"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.210s",
+    "ordinal": 138,
+    "test": "etalon-core init_tracker::texture::tests::attachment_writes_initialize_only_active_layers_at_the_view_base"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.207s",
+    "ordinal": 139,
+    "test": "etalon-core init_tracker::texture::tests::ordinary_and_invalid_attachment_ranges_keep_existing_bounds"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.214s",
+    "ordinal": 140,
+    "test": "etalon-core instance::tests::downlevel_default_limits_less_than_default_limits"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.209s",
+    "ordinal": 141,
+    "test": "etalon-core instance::tests::fully_compliant_adapter_always_allowed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.154s",
+    "ordinal": 142,
+    "test": "etalon-core instance::tests::low_limits_allowed_without_strict_compliance"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.196s",
+    "ordinal": 143,
+    "test": "etalon-core instance::tests::low_limits_rejected_with_strict_compliance"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.229s",
+    "ordinal": 144,
+    "test": "etalon-core instance::tests::missing_downlevel_flags_rejected_with_strict_compliance"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.232s",
+    "ordinal": 145,
+    "test": "etalon-core instance::tests::missing_surface_view_formats_allowed_with_strict_compliance"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.219s",
+    "ordinal": 146,
+    "test": "etalon-core instance::tests::non_power_of_two_storage_alignment_always_rejected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.206s",
+    "ordinal": 147,
+    "test": "etalon-core instance::tests::non_power_of_two_uniform_alignment_always_rejected"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.221s",
+    "ordinal": 148,
+    "test": "etalon-core instance::tests::storage_resource_limits::in_stage_raises_per_shader_stage"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.267s",
+    "ordinal": 149,
+    "test": "etalon-core instance::tests::storage_resource_limits::limits_presets_already_normalized"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.243s",
+    "ordinal": 150,
+    "test": "etalon-core instance::tests::storage_resource_limits::lowering_per_shader_stage_noop"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.195s",
+    "ordinal": 151,
+    "test": "etalon-core instance::tests::storage_resource_limits::normalization_is_idempotent"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.205s",
+    "ordinal": 152,
+    "test": "etalon-core instance::tests::storage_resource_limits::per_shader_stage_raises_in_stage"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.247s",
+    "ordinal": 153,
+    "test": "etalon-core limits::tests::enumerate_webgpu_features"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.231s",
+    "ordinal": 154,
+    "test": "etalon-core limits::tests::native_buckets_do_not_advertise_browser_feature_level"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.236s",
+    "ordinal": 155,
+    "test": "etalon-core limits::tests::relationships"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.231s",
+    "ordinal": 156,
+    "test": "etalon-core lock::ranked::tests::forbidden_skip"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.252s",
+    "ordinal": 157,
+    "test": "etalon-core lock::ranked::tests::forbidden_unrelated"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.226s",
+    "ordinal": 158,
+    "test": "etalon-core lock::ranked::tests::non_stack_like"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.226s",
+    "ordinal": 159,
+    "test": "etalon-core lock::ranked::tests::permitted"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.236s",
+    "ordinal": 160,
+    "test": "etalon-core lock::ranked::tests::stack_like"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.214s",
+    "ordinal": 161,
+    "test": "etalon-core pipeline::tests::select_explicit_passthrough_entry_point"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.198s",
+    "ordinal": 162,
+    "test": "etalon-core pipeline::tests::select_implicit_passthrough_entry_point"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.211s",
+    "ordinal": 163,
+    "test": "etalon-core pipeline_cache::tests::invalid_magic"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.213s",
+    "ordinal": 164,
+    "test": "etalon-core pipeline_cache::tests::not_no_data"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.222s",
+    "ordinal": 165,
+    "test": "etalon-core pipeline_cache::tests::too_little_data"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.222s",
+    "ordinal": 166,
+    "test": "etalon-core pipeline_cache::tests::too_much_data"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.197s",
+    "ordinal": 167,
+    "test": "etalon-core pipeline_cache::tests::valid_data"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.195s",
+    "ordinal": 168,
+    "test": "etalon-core pipeline_cache::tests::written_header"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.154s",
+    "ordinal": 169,
+    "test": "etalon-core pipeline_cache::tests::wrong_abi"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.156s",
+    "ordinal": 170,
+    "test": "etalon-core pipeline_cache::tests::wrong_adapter"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.194s",
+    "ordinal": 171,
+    "test": "etalon-core pipeline_cache::tests::wrong_backend"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.175s",
+    "ordinal": 172,
+    "test": "etalon-core pipeline_cache::tests::wrong_hash"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.209s",
+    "ordinal": 173,
+    "test": "etalon-core pipeline_cache::tests::wrong_validation"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.220s",
+    "ordinal": 174,
+    "test": "etalon-core pipeline_cache::tests::wrong_version"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.453s",
+    "ordinal": 175,
+    "test": "etalon-core pool::tests::concurrent_creation_2_threads"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.390s",
+    "ordinal": 176,
+    "test": "etalon-core pool::tests::create_while_drop_2_threads"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.221s",
+    "ordinal": 177,
+    "test": "etalon-core prepared::setup::tests::distinguishes_validation_internal_and_wait_errors"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.244s",
+    "ordinal": 178,
+    "test": "etalon-core pool::tests::deduplication"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.192s",
+    "ordinal": 179,
+    "test": "etalon-core prepared::setup::tests::preserves_nested_device_failures_during_preparation"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.199s",
+    "ordinal": 180,
+    "test": "etalon-core prepared::tests::failed_runs_cannot_be_reused"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.182s",
+    "ordinal": 181,
+    "test": "etalon-core prepared::tests::generations_never_wrap_or_revive_a_poisoned_owner"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.182s",
+    "ordinal": 182,
+    "test": "etalon-core snatch::tests::read_during_tls_destruction"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.157s",
+    "ordinal": 183,
+    "test": "etalon-core tests::test_gcd"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.138s",
+    "ordinal": 184,
+    "test": "etalon-core tests::test_lcd"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.181s",
+    "ordinal": 185,
+    "test": "etalon-core timestamp_normalization::tests::compute_timestamp_period"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.207s",
+    "ordinal": 186,
+    "test": "etalon-core track::range::test::coalesce"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.224s",
+    "ordinal": 187,
+    "test": "etalon-core track::range::test::isolate"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.216s",
+    "ordinal": 188,
+    "test": "etalon-core track::range::test::sane_empty"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.216s",
+    "ordinal": 189,
+    "test": "etalon-core track::range::test::sane_good"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.218s",
+    "ordinal": 190,
+    "test": "etalon-core track::range::test::sane_intersect"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.150s",
+    "ordinal": 191,
+    "test": "etalon-core-remote storage::tests::get_epoch_mismatch"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.224s",
+    "ordinal": 192,
+    "test": "etalon-core track::range::test::test_ranged_states_deterministic_fuzz"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.112s",
+    "ordinal": 193,
+    "test": "etalon-core-remote storage::tests::get_vacant"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.094s",
+    "ordinal": 194,
+    "test": "etalon-core-remote storage::tests::insert_occupied_different_epoch"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.092s",
+    "ordinal": 195,
+    "test": "etalon-core-remote storage::tests::insert_occupied_same_epoch"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.095s",
+    "ordinal": 196,
+    "test": "etalon-core-remote storage::tests::remove_epoch_mismatch"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.113s",
+    "ordinal": 197,
+    "test": "etalon-core-remote storage::tests::remove_vacant"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.176s",
+    "ordinal": 198,
+    "test": "etalon-core-remote-types id::tests::test_id"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.131s",
+    "ordinal": 199,
+    "test": "etalon-core-remote-types identity::tests::test_epoch_end_of_life"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.176s",
+    "ordinal": 200,
+    "test": "etalon-cuda iq::tests::packed_iq_preflight_checks_capacity_shapes_and_scale"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.159s",
+    "ordinal": 201,
+    "test": "etalon-cuda kernels::tests::checked_dimensions_reject_mismatch_and_overflow"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.154s",
+    "ordinal": 202,
+    "test": "etalon-cuda runtime::tests::checked_launch_rejects_invalid_dimensions_and_shared_memory"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.178s",
+    "ordinal": 203,
+    "test": "etalon-cuda runtime::tests::checked_launch_rejects_overflow_without_wrapping"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.214s",
+    "ordinal": 204,
+    "test": "etalon-cuda runtime::tests::negative_device_ordinal_is_rejected_before_driver_loading"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.203s",
+    "ordinal": 205,
+    "test": "etalon-cuda runtime::tests::transfer_prefix_is_bounded"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.120s",
+    "ordinal": 206,
+    "test": "etalon-cuda supplied::tests::supplied_arguments_require_exact_types_counts_and_value_sizes"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.145s",
+    "ordinal": 207,
+    "test": "etalon-diagnostics::owned_contracts invalid_limits_prelaunch_cancel_and_artifact_rejection_never_launch_a_child"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.140s",
+    "ordinal": 208,
+    "test": "etalon-diagnostics::owned_contracts ipc_encoding_budget_fails_before_creating_output_and_metrics_fail_closed"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.117s",
+    "ordinal": 209,
+    "test": "etalon-diagnostics::owned_contracts ipc_rejects_truncation_trailing_data_zero_lengths_and_oversized_artifacts"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.172s",
+    "ordinal": 210,
+    "test": "etalon-diagnostics::owned_contracts ipc_roundtrip_is_identity_bound_and_does_not_overwrite_existing_output"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.175s",
+    "ordinal": 211,
+    "test": "etalon-diagnostics::owned_contracts owned_artifacts_cleanup_on_success_error_and_unwind_and_reject_unknown_entries"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "0.955s",
+    "ordinal": 212,
+    "test": "etalon-diagnostics::owned_contracts real_child_success_error_and_both_pipe_budgets_are_bounded_and_reaped"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.775s",
+    "ordinal": 213,
+    "test": "etalon-diagnostics::owned_contracts real_child_deadline_cancellation_artifact_error_and_unwind_release_ownership"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.938s",
+    "ordinal": 214,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] bunnymark"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "16.622s",
+    "ordinal": 215,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] boids"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.282s",
+    "ordinal": 216,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] conservative-raster"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "13.720s",
+    "ordinal": 217,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] cube"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "5.384s",
+    "ordinal": 218,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_examples::hello_synchronization::tests::sync"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.208s",
+    "ordinal": 219,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_examples::timestamp_queries::tests::timestamps_encoder"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "15.007s",
+    "ordinal": 220,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] cube-lines"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.462s",
+    "ordinal": 221,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_examples::timestamp_queries::tests::timestamps_pass_boundaries"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.347s",
+    "ordinal": 222,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] etalon_examples::timestamp_queries::tests::timestamps_passes"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "12.873s",
+    "ordinal": 223,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] msaa-line"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "15.803s",
+    "ordinal": 224,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] mipmap"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "10.368s",
+    "ordinal": 225,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] multiple_render_targets"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "17.906s",
+    "ordinal": 226,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] shadow"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "19.840s",
+    "ordinal": 227,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] skybox"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.250s",
+    "ordinal": 228,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] srgb-blend-linear"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "16.272s",
+    "ordinal": 229,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] skybox-bc7"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.014s",
+    "ordinal": 230,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] srgb-blend-srg"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.105s",
+    "ordinal": 231,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] texture-arrays"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "12.484s",
+    "ordinal": 232,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] stencil-triangles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.310s",
+    "ordinal": 233,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] texture-arrays-non-uniform"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.403s",
+    "ordinal": 234,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] texture-arrays-uniform"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.727s",
+    "ordinal": 235,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] boids"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "19.066s",
+    "ordinal": 236,
+    "test": "etalon-examples [Executed] [Dx12/Intel(R) UHD Graphics/2] water"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "12.095s",
+    "ordinal": 237,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] bunnymark"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "8.868s",
+    "ordinal": 238,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] conservative-raster"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "10.646s",
+    "ordinal": 239,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] cube"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.220s",
+    "ordinal": 240,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_examples::hello_synchronization::tests::sync"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.584s",
+    "ordinal": 241,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] cube-lines"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.770s",
+    "ordinal": 242,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_examples::timestamp_queries::tests::timestamps_encoder"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.696s",
+    "ordinal": 243,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_examples::timestamp_queries::tests::timestamps_pass_boundaries"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.970s",
+    "ordinal": 244,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] etalon_examples::timestamp_queries::tests::timestamps_passes"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "13.058s",
+    "ordinal": 245,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] mesh_shader"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "15.176s",
+    "ordinal": 246,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] mipmap"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "14.678s",
+    "ordinal": 247,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] msaa-line"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "12.790s",
+    "ordinal": 248,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] multiple_render_targets"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.532s",
+    "ordinal": 249,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] ray_aabb_compute"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "13.565s",
+    "ordinal": 250,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] ray_cube_compute"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "16.721s",
+    "ordinal": 251,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] ray_cube_fragment"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "13.975s",
+    "ordinal": 252,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] ray_scene"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "12.869s",
+    "ordinal": 253,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] ray_shadows"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "13.266s",
+    "ordinal": 254,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] ray_traced_triangle"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "14.511s",
+    "ordinal": 255,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] shadow"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "17.160s",
+    "ordinal": 256,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] skybox"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.192s",
+    "ordinal": 257,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] srgb-blend-linear"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.670s",
+    "ordinal": 258,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] srgb-blend-srg"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "17.242s",
+    "ordinal": 259,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] skybox-bc7"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "10.439s",
+    "ordinal": 260,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] stencil-triangles"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "8.632s",
+    "ordinal": 261,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] texture-arrays"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "9.251s",
+    "ordinal": 262,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] texture-arrays-non-uniform"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "11.621s",
+    "ordinal": 263,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] texture-arrays-uniform"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "17.260s",
+    "ordinal": 264,
+    "test": "etalon-examples [Executed] [Dx12/Microsoft Basic Render Driver/4] water"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "12.455s",
+    "ordinal": 265,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] boids"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "10.297s",
+    "ordinal": 266,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] bunnymark"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "8.599s",
+    "ordinal": 267,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] conservative-raster"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "9.419s",
+    "ordinal": 268,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] cube"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "10.820s",
+    "ordinal": 269,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] cube-lines"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.255s",
+    "ordinal": 270,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_examples::hello_synchronization::tests::sync"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.641s",
+    "ordinal": 271,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_examples::timestamp_queries::tests::timestamps_encoder"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "3.188s",
+    "ordinal": 272,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_examples::timestamp_queries::tests::timestamps_pass_boundaries"
+  },
+  {
+    "status": "PASS",
+    "elapsed": "2.699s",
+    "ordinal": 273,
+    "test": "etalon-examples [Executed] [Dx12/NVIDIA GeForce RTX 5070 Laptop GPU/3] etalon_examples::timestamp_queries::tests::timestamps_passes"
+  }
+]

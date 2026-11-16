@@ -1,0 +1,19 @@
+{
+  "schema": "webizen.campsite-heightfield/v1",
+  "clearing": {
+    "centre": [
+      -22,
+      28
+    ],
+    "flatRadius": 8,
+    "blendRadius": 13
+  },
+  "elevation": 4.4909216892549235,
+  "side": 160,
+  "vertices": 25921,
+  "triangles": 51200,
+  "flat_vertices": 159,
+  "unchanged_outer_vertices": 25505,
+  "flat_max_height_error": 0,
+  "unchanged_outer_max_height_error": 0
+}

@@ -1,0 +1,11 @@
+{
+  "error_code": null,
+  "errors": [],
+  "evidential": null,
+  "kind": "module",
+  "message": null,
+  "shacl_violations": [],
+  "span": null,
+  "suggested_fix": null,
+  "valid": true
+}

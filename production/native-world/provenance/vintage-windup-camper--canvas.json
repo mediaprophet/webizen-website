@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 10,
+  "triangles": 16,
+  "bytes": 44656,
+  "source_bytes": 12936,
+  "id": "vintage-windup-camper--canvas",
+  "original_sha256": "a10b0e3ef918c94f2c18473a18aae9fd0b39dd092dc5998086c52364ce45b153",
+  "source_sha256": "4d634d2028eed0a2f4f88a7e2d8835b9951e6707c09e03c1efb28f2e77123884",
+  "attested_sha256": "781f017544478d1e45124e51ed65e9422642b2846acc485a49890fd11bf11be6",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

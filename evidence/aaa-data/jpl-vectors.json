@@ -1,0 +1,31 @@
+{
+  "compiled_bytes": 11,
+  "count": 4,
+  "execution": "native compile_ntriples_to_bytecode + execute_program_with_stats, same core path as WASM execute_ntriples_query",
+  "query": "?s <urn:webizen:proof:hasVector> ?o .",
+  "rows": [
+    [
+      "<urn:webizen:proof:jpl-earth-20261116>",
+      "<urn:webizen:proof:hasVector>",
+      "<urn:webizen:proof:jpl-earth-20261116:row:1>"
+    ],
+    [
+      "<urn:webizen:proof:jpl-earth-20261116>",
+      "<urn:webizen:proof:hasVector>",
+      "<urn:webizen:proof:jpl-earth-20261116:row:0>"
+    ],
+    [
+      "<urn:webizen:proof:jpl-mars-20261116>",
+      "<urn:webizen:proof:hasVector>",
+      "<urn:webizen:proof:jpl-mars-20261116:row:0>"
+    ],
+    [
+      "<urn:webizen:proof:jpl-mars-20261116>",
+      "<urn:webizen:proof:hasVector>",
+      "<urn:webizen:proof:jpl-mars-20261116:row:1>"
+    ]
+  ],
+  "total_quins": 153,
+  "version": 4,
+  "vm_cycles": 310
+}

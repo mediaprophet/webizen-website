@@ -1,0 +1,18 @@
+{
+  "status": "planning pack checks passed; implementation and AAA acceptance remain pending",
+  "routes": 204,
+  "route_source_hashes_verified": 204,
+  "demo_subcontracts": 32,
+  "test_suite_registrations": 44,
+  "runner_identities": 15,
+  "historical_result_hashes_verified": 5,
+  "dataset_descriptors": 3,
+  "initial_module_groups": 16,
+  "canonical_synth_operations": 150,
+  "programme_packages": 28,
+  "acyclic_milestones": 43,
+  "full_expansion_blocked_until_reviewed_native_proofs": true,
+  "proof_requires_actual_benchmark": true,
+  "relative_document_links_resolve": true,
+  "dependency_closure_honestly_marked_incomplete": true
+}

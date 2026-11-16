@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 6062,
+  "triangles": 11748,
+  "bytes": 1906616,
+  "source_bytes": 235464,
+  "id": "observatory--patinated-bronze",
+  "original_sha256": "a0fe7e1615d6a560aa89f2314ecb1e61b1e70241389d2d31c00a5aec61ff3b34",
+  "source_sha256": "f37dec8268df80c849b783e390e8369b77e54268af4c14a03930b9dffcda10e6",
+  "attested_sha256": "dfbd0f55ad8f2833f88be7dc689f65c3962afd017f6fb07acf436f1fc46510df",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

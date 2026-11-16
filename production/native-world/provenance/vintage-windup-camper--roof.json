@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 74,
+  "triangles": 144,
+  "bytes": 64688,
+  "source_bytes": 15236,
+  "id": "vintage-windup-camper--roof",
+  "original_sha256": "5137b21aae459cbe2d3d31cccb896b393a580b0fa74b8f87acbc41c99ad28f69",
+  "source_sha256": "bbd6c724d1e777792c7abfb9dccb73c15c69b8ab7b3e18da93703059eddab084",
+  "attested_sha256": "9a14cd1450c2c7815b97daed34aa39873f40f5f4c97b23baee2bc71a9ceb4030",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

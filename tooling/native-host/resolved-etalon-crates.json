@@ -1,0 +1,140 @@
+[
+  {
+    "name": "etalon",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon\\Cargo.toml"
+  },
+  {
+    "name": "etalon-agent",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-agent\\Cargo.toml"
+  },
+  {
+    "name": "etalon-core",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-core\\Cargo.toml"
+  },
+  {
+    "name": "etalon-hal",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-hal\\Cargo.toml"
+  },
+  {
+    "name": "etalon-inference",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference\\Cargo.toml"
+  },
+  {
+    "name": "etalon-inference-contract",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-contract\\Cargo.toml"
+  },
+  {
+    "name": "etalon-inference-kernel",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-kernel\\Cargo.toml"
+  },
+  {
+    "name": "etalon-model",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-model\\Cargo.toml"
+  },
+  {
+    "name": "etalon-naga-bridge",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-naga-bridge\\Cargo.toml"
+  },
+  {
+    "name": "etalon-nquin",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-nquin\\Cargo.toml"
+  },
+  {
+    "name": "etalon-render",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-render\\Cargo.toml"
+  },
+  {
+    "name": "etalon-resources",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-resources\\Cargo.toml"
+  },
+  {
+    "name": "etalon-sense-core",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sense-core\\Cargo.toml"
+  },
+  {
+    "name": "etalon-signal",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-signal\\Cargo.toml"
+  },
+  {
+    "name": "etalon-sim",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sim\\Cargo.toml"
+  },
+  {
+    "name": "etalon-sync",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-sync\\Cargo.toml"
+  },
+  {
+    "name": "etalon-tensor",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-tensor\\Cargo.toml"
+  },
+  {
+    "name": "etalon-types",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-types\\Cargo.toml"
+  },
+  {
+    "name": "etalon-vibe",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-vibe\\Cargo.toml"
+  },
+  {
+    "name": "etalon-wasm",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wasm\\Cargo.toml"
+  },
+  {
+    "name": "etalon-wgsl-forge",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wgsl-forge\\Cargo.toml"
+  },
+  {
+    "name": "naga",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga\\Cargo.toml"
+  },
+  {
+    "name": "naga-types",
+    "version": "0.0.2",
+    "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga-types\\Cargo.toml"
+  }
+]

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A living world of human centric computing, authored in VibeScript and Q42 and rendered by QualiaPortal.">
+<title>Webizen — Canberra terrain evidence</title>
+<link rel="stylesheet" href="/world/native.css">
+</head>
+<body>
+<a class="skip" href="#native-world-ui">Skip to world controls</a>
+<canvas data-scene="/data/publications/aaa/terrain-model-v2/scene.json" data-vibe="/world/terrain-proof.vibe" id="native-world" aria-label="The living world, rendered by QualiaPortal" tabindex="0"></canvas>
+<header><a class="brand" href="/"><b>W.</b><span>webizen<small>HUMAN CENTRIC COMPUTING</small></span></a><nav aria-label="Reading routes"><a href="/publication/reading.html">Read the world</a><a href="/atlas/">The ecosystem</a><a href="/aaa-proof.html">Return to the living world</a><a href="/journey/">The journey</a></nav><span class="locale" lang="en-AU">English · AU</span></header>
+<main id="native-world-ui"></main><aside class="terrain-source"><b>Canberra · public reference landscape</b><p>Mapzen Terrain Tiles; Australian terrain © Commonwealth of Australia (Geoscience Australia) 2017. Source rasters, attribution and the native model remain inspectable.</p><a href="/data/publications/aaa/terrain-model-v2/model-manifest.json">Inspect scale, source and production evidence</a> · <a href="/data/publications/aaa/terrain/source-tiles.qdem" download>Download retained source tiles</a><p>Drag to orbit · scroll to zoom · open the laboratory to query the data.</p></aside>
+<div id="native-world-status" role="status" aria-live="polite">Opening the native living world…</div>
+<noscript><p class="no-script">The generated loader needs permission to start the WASM runtime. <a href="/publication/reading.html">Read the world without scripts.</a></p></noscript>
+<!-- Loader only. All application behaviour is compiled in native/world-host. -->
+<script type="module">import init from '/pkg/native-world/webizen_world.js';await init();</script>
+</body>
+</html>

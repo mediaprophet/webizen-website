@@ -1,0 +1,359 @@
+{
+  "schema": "webizen.public-entities/v1",
+  "default_locale": "en-AU",
+  "graph": {
+    "uri": "/publication/world-d8d19492c1e6e4a0.q42",
+    "sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+    "receipt_uri": "/publication/q42-receipt.json"
+  },
+  "entities": [
+    {
+      "id": "river",
+      "uri": "https://webizen.au/world/river",
+      "title": "The living river",
+      "description": "A river connects geology, soil, plants and human life. Information becomes useful when it remains connected to a place, a question and the conditions under which it was gathered. Change the bounded terrain brush below to run a real production operation and inspect its output.",
+      "reading_route": "/publication/reading.html#river",
+      "source_links": [
+        "/source/domains-solvers.html",
+        "/source/playground/living-world-showcase.html"
+      ],
+      "position": [
+        0.0,
+        3.3569028586758782,
+        16.0
+      ],
+      "camera": [
+        12.0,
+        11.356902858675879,
+        30.0
+      ],
+      "module_ids": [
+        "qualiadb",
+        "hypermedia",
+        "synth"
+      ]
+    },
+    {
+      "id": "canopy",
+      "uri": "https://webizen.au/world/canopy",
+      "title": "The forest canopy",
+      "description": "A tree is part of biological, ecological, cultural and informational relationships. Switch the relationship lens to see how these connections cross the landscape. The world is an authored model; the linked biology, geometry and knowledge demonstrations expose their own inputs and scope.",
+      "reading_route": "/publication/reading.html#canopy",
+      "source_links": [
+        "/source/playground/living-world-showcase.html",
+        "/source/graph.html"
+      ],
+      "position": [
+        -20.0,
+        3.9784226191161283,
+        -16.0
+      ],
+      "camera": [
+        -10.0,
+        11.978422619116127,
+        -4.0
+      ],
+      "module_ids": [
+        "ecopunk",
+        "qualiadb",
+        "hypermedia"
+      ]
+    },
+    {
+      "id": "commons",
+      "uri": "https://webizen.au/world/commons",
+      "title": "The commons",
+      "description": "Sharing knowledge should support people and their purposes. Try a synthetic community request below. The actual QualiaDB deontic evaluator processes the authored norms, and the local host returns the summary only when the selected norm permits it. Individual records are never included in the response.",
+      "reading_route": "/publication/reading.html#commons",
+      "source_links": [
+        "/source/agreement-instruments.html",
+        "/source/agreement-ledger.html"
+      ],
+      "position": [
+        -17.0,
+        3.688931231681775,
+        6.0
+      ],
+      "camera": [
+        -8.0,
+        9.688931231681774,
+        15.0
+      ],
+      "module_ids": [
+        "webizen",
+        "qualiadb",
+        "web-civics",
+        "webizen-host"
+      ]
+    },
+    {
+      "id": "atelier",
+      "uri": "https://webizen.au/world/atelier",
+      "title": "The atelier",
+      "description": "A sound, a model or a written work carries human intention. Synth connects a production recipe to its output, so a creator can inspect, repeat and share the work. Generate a tone, listen deliberately, then inspect the source and package.",
+      "reading_route": "/publication/reading.html#atelier",
+      "source_links": [
+        "/source/hypermedia-studio.html",
+        "/source/audio-showcase.html"
+      ],
+      "position": [
+        20.0,
+        5.666177230070194,
+        -7.0
+      ],
+      "camera": [
+        30.0,
+        10.666177230070193,
+        4.0
+      ],
+      "module_ids": [
+        "synth",
+        "poet",
+        "vibescript",
+        "hypermedia"
+      ]
+    },
+    {
+      "id": "observatory",
+      "uri": "https://webizen.au/world/observatory",
+      "title": "The field station",
+      "description": "How can we inspect information about the physical world? Change the amplitude of a synthetic emitter, compile an electromagnetic field, and inspect its magnitude preview. The current preview is greyscale. This is a model estimate, not a sensor measurement or a complete Maxwell solver.",
+      "reading_route": "/publication/reading.html#observatory",
+      "source_links": [
+        "/source/emf-qac-showcase.html",
+        "/source/vision-showcase.html",
+        "/source/benchmark.html"
+      ],
+      "position": [
+        -15.0,
+        2.16498867324049,
+        -32.0
+      ],
+      "camera": [
+        -4.0,
+        9.16498867324049,
+        -19.0
+      ],
+      "module_ids": [
+        "etalon",
+        "qualiadb",
+        "anvil",
+        "synth"
+      ]
+    },
+    {
+      "id": "biology",
+      "uri": "https://webizen.au/world/biology",
+      "title": "The living body",
+      "description": "Understanding a living body requires relationships across scale, purpose, evidence and uncertainty. The garden helix is a spatial invitation into the existing anatomy and biological demonstrations, not a biological dataset in itself.",
+      "reading_route": "/publication/reading.html#biology",
+      "source_links": [
+        "/source/playground/anatomy.html",
+        "/source/playground/living-world-showcase.html"
+      ],
+      "position": [
+        17.0,
+        4.825541311079283,
+        -37.0
+      ],
+      "camera": [
+        26.0,
+        9.825541311079283,
+        -27.0
+      ],
+      "module_ids": [
+        "anatomy",
+        "qualiadb",
+        "hypermedia",
+        "etalon"
+      ]
+    },
+    {
+      "id": "field-studio",
+      "uri": "https://webizen.au/world/field-studio",
+      "title": "The field studio",
+      "description": "A gold 2012–13 Volkswagen Passat wagon with a streamlined charcoal roof box, a 1980 Jayco wind-up camper, two three-panel solar arrays and one two-panel array on the ground, and a Starlink Mini on the camper roof. This campsite reflects the circumstances in which this ecosystem has been developed: living, working, making and staying connected. The vehicle and camper are authored interpretations of the described models.",
+      "reading_route": "/publication/reading.html#field-studio",
+      "source_links": [
+        "/source/hypermedia-studio.html"
+      ],
+      "position": [
+        -22.0,
+        5.4909216892549235,
+        28.0
+      ],
+      "camera": [
+        -32.0,
+        8.900000000254924,
+        44.0
+      ],
+      "module_ids": [
+        "webizen",
+        "synth",
+        "hypermedia",
+        "vibescript"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "qualiadb",
+      "name": "QualiaDB",
+      "purpose": "Contextual knowledge, reasoning, resource codecs and scientific foundations",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "webizen",
+      "name": "Webizen applications and runtime",
+      "purpose": "Human-facing tools, application lifecycle and authorised host capabilities",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "poet",
+      "name": "Poet",
+      "purpose": "Composition and editing of authored works; reconcile app/source ownership",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "vibescript",
+      "name": "VibeScript",
+      "purpose": "Checked language, authoring tools and explicit host contracts; engine in QualiaDB",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "synth",
+      "name": "Synth",
+      "purpose": "Reproducible media production, strict replay and HMC packaging",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "hypermedia",
+      "name": "Hypermedia production",
+      "purpose": "150 composable media production operations",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "etalon",
+      "name": "Etalon",
+      "purpose": "Rendering, computation, inference, signals and sensing",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "purpose": "Device capability facts and execution routing information",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "aether",
+      "name": "Aether",
+      "purpose": "Application framework, reactive and native interfaces",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "chora",
+      "name": "Chora",
+      "purpose": "Embedded web and spatial document engine",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "webizen-host",
+      "name": "Webizen Host",
+      "purpose": "Hosting, namespaces, deployment and shared stewardship",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "web-civics",
+      "name": "Web Civics / semantic instruments",
+      "purpose": "Vocabularies, structured instruments and shared meaning",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "cooperation",
+      "name": "Wellfare, cooperation and work graph",
+      "purpose": "Care, participation, shared work and cooperative primitives",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "anatomy",
+      "name": "Anatomy",
+      "purpose": "Authored spatial biological and welfare educational works",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "ecopunk",
+      "name": "Ecopunk and living-world work",
+      "purpose": "Environmental systems and living-world experiences",
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "qdnf",
+      "name": "QDNF and identifier fabric",
+      "purpose": "Identifier, naming and network fabric; public subsystem explicitly reconciled with the module atlas",
+      "publication_status": "source-mapped; runtime-not-qualified"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "river",
+      "to": "canopy",
+      "kind": "knowledge"
+    },
+    {
+      "from": "canopy",
+      "to": "biology",
+      "kind": "knowledge"
+    },
+    {
+      "from": "river",
+      "to": "observatory",
+      "kind": "information"
+    },
+    {
+      "from": "observatory",
+      "to": "biology",
+      "kind": "information"
+    },
+    {
+      "from": "commons",
+      "to": "river",
+      "kind": "socioeconomic"
+    },
+    {
+      "from": "commons",
+      "to": "atelier",
+      "kind": "socioeconomic"
+    },
+    {
+      "from": "atelier",
+      "to": "canopy",
+      "kind": "knowledge"
+    },
+    {
+      "from": "commons",
+      "to": "observatory",
+      "kind": "information"
+    },
+    {
+      "from": "field-studio",
+      "to": "atelier",
+      "kind": "knowledge"
+    },
+    {
+      "from": "field-studio",
+      "to": "commons",
+      "kind": "socioeconomic"
+    },
+    {
+      "from": "river",
+      "to": "field-studio",
+      "kind": "information"
+    }
+  ],
+  "purposes": [
+    "learn",
+    "research",
+    "create",
+    "participate"
+  ]
+}

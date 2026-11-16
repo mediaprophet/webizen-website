@@ -1,0 +1,4 @@
+requires [capability("capability.invoke")];
+let tone = capability.invoke("hypermedia.acoustics.synthesize_tone", {frequency:440,sample_rate:48000,frames:48000,amplitude:0.12});
+let wav = capability.invoke("hypermedia.acoustics.encode_wav", {audio:tone});
+let asset = {files:[{key:"tone.wav",resource:wav}]};

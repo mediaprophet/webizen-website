@@ -1,0 +1,141 @@
+{
+  "schema": "webizen.modules/v1",
+  "status": "planning inventory; profiles require maintainer qualification",
+  "modules": [
+    {
+      "id": "qualiadb",
+      "name": "QualiaDB",
+      "source_repository": "qualiaDB",
+      "purpose": "Contextual knowledge, reasoning, resource codecs and scientific foundations",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "webizen",
+      "name": "Webizen applications and runtime",
+      "source_repository": null,
+      "purpose": "Human-facing tools, application lifecycle and authorised host capabilities",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "poet",
+      "name": "Poet",
+      "source_repository": null,
+      "purpose": "Composition and editing of authored works; reconcile app/source ownership",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "vibescript",
+      "name": "VibeScript",
+      "source_repository": "vibe-script",
+      "purpose": "Checked language, authoring tools and explicit host contracts; engine in QualiaDB",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "synth",
+      "name": "Synth",
+      "source_repository": "synth",
+      "purpose": "Reproducible media production, strict replay and HMC packaging",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "hypermedia",
+      "name": "Hypermedia production",
+      "source_repository": "hypermedia-production",
+      "purpose": "150 composable media production operations",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "etalon",
+      "name": "Etalon",
+      "source_repository": "etalon",
+      "purpose": "Rendering, computation, inference, signals and sensing",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "source_repository": "anvil",
+      "purpose": "Device capability facts and execution routing information",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "aether",
+      "name": "Aether",
+      "source_repository": "Aether",
+      "purpose": "Application framework, reactive and native interfaces",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "chora",
+      "name": "Chora",
+      "source_repository": "chora",
+      "purpose": "Embedded web and spatial document engine",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "webizen-host",
+      "name": "Webizen Host",
+      "source_repository": "webizen-host",
+      "purpose": "Hosting, namespaces, deployment and shared stewardship",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "web-civics",
+      "name": "Web Civics / semantic instruments",
+      "source_repository": "ns",
+      "purpose": "Vocabularies, structured instruments and shared meaning",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "cooperation",
+      "name": "Wellfare, cooperation and work graph",
+      "source_repository": "qualiaDB",
+      "purpose": "Care, participation, shared work and cooperative primitives",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "anatomy",
+      "name": "Anatomy",
+      "source_repository": "anatomy",
+      "purpose": "Authored spatial biological and welfare educational works",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    },
+    {
+      "id": "ecopunk",
+      "name": "Ecopunk and living-world work",
+      "source_repository": "ecopunk",
+      "purpose": "Environmental systems and living-world experiences",
+      "human_significance_required": true,
+      "distinctive_approach_required": true,
+      "publication_status": "not-yet-qualified"
+    }
+  ]
+}

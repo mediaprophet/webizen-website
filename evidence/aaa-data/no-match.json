@@ -1,0 +1,10 @@
+{
+  "compiled_bytes": 11,
+  "count": 0,
+  "execution": "native compile_ntriples_to_bytecode + execute_program_with_stats, same core path as WASM execute_ntriples_query",
+  "query": "<urn:webizen:proof:absent> ?p ?o .",
+  "rows": [],
+  "total_quins": 17949,
+  "version": 4,
+  "vm_cycles": 35898
+}

@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "native_admission": {
+    "bounds_metres": [
+      -6.249999984220267e-08,
+      2.937500084954081e-06,
+      -6.249999984220267e-08,
+      2.937500084954081e-06,
+      -6.249999984220267e-08,
+      2.937500084954081e-06
+    ],
+    "cell_count": 13824,
+    "corrupt_payload_rejected": true,
+    "decoder": "current-source render::portal_load_emf::decode_emf_scientific",
+    "dimensions": [
+      24,
+      24,
+      24,
+      1
+    ],
+    "exact_source_preserved": true,
+    "maximum_e_magnitude_v_per_m": 1.9899662204257182,
+    "selection": {
+      "clock_id": 1,
+      "descriptor_id": 5,
+      "frame_id": 2,
+      "stream_id": 1
+    },
+    "temporal": true,
+    "time_ticks": [
+      0
+    ],
+    "valid": true,
+    "valid_display_cells": 13824
+  },
+  "strict_replay_verified": true,
+  "sources": [
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf.rs",
+      "sha256": "85c7a4ff80a33853ac4a9779b6921c26b0e663802887c35fc9468a45151d57ec"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_emf_state.rs",
+      "sha256": "bb42427e0e0c0558abc78296504dab58ec68b66e074154d60e3c4cbd0ec402ce"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\admission.rs",
+      "sha256": "49e1aabea2db2fd944b5140131f866c2506423a5fb0255832ee56a85ae6a0742"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\extended_admission.rs",
+      "sha256": "2bb81a0b9cafd103ff1fa9f7f757c69882195b474562fda7fa69917c9df1de98"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\extended_records.rs",
+      "sha256": "390b09678f390bf67b73ddfde65b35407e3c0fe630bee7fda0138fcdb17502da"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\extended_registry.rs",
+      "sha256": "1a86b6b92b4620402f2850464b41aca8ce69076e7ae3ded7df1ccf1fa371cdb3"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\extended_tests.rs",
+      "sha256": "38f3fa623e08e0af29f92c04b10a00a7fc356776fb3f01fd44c47557dc684793"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\extended_test_builders.rs",
+      "sha256": "f7a2d82638d2dce4df2195a5904051c5bd45c0d4917b3e6fc336244b618365ba"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\fixtures.rs",
+      "sha256": "4cf22add4a37c310b9fefe33579d285670e23087b74e93f79b2533d97e84ac46"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\project.rs",
+      "sha256": "a3b2ce5e937bf21884d32f07aabcf17ca30194be565ee80d6939cf959933bc63"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\projection_accum.rs",
+      "sha256": "e37f5f8cf765115257f2a079aac9b13d788ef87f373ea2a63ed62a964c00f1cd"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\projection_modes.rs",
+      "sha256": "18932e2fe31c76a64cb8cef2c8a5fd4b990f3e6446b73173899a05b588549190"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\render\\portal_load_emf\\tests.rs",
+      "sha256": "79ccb5c208506d6c8a96b010b80c118f37bb5a3879e0ff2beaba6034ea294a6c"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\clock.rs",
+      "sha256": "098c6704bc5396e4a3e7f14d0d7fd8a10d1af4aea1fd52088b280c2bb1e743cb"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\clock_tests.rs",
+      "sha256": "17ac65d510f54478cc564a2a210d581482babf2ee5ec48014e791c1c052a15c1"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\compile_host.rs",
+      "sha256": "2d96ee5bd0b82f5e477031082029309a1c32f4ae18f4322eb35df5c841941e98"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\document.rs",
+      "sha256": "2d220aec838fb3707dac8997353bfd5cfa5176b4d3969ecd1a25e71ece45e605"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\host_tests.rs",
+      "sha256": "e2921d2b25ea4753de8fbd2d80d40baeaccb761120a2c89d7d201c59e5f41178"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\mod.rs",
+      "sha256": "8eab25dc9f7ecc2d918ca834b7ea5901792b94042c3a95b25f8b7bcee3373cb3"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\model.rs",
+      "sha256": "3a43a098e80f28cd8299614335192333532065d0279a38232aab3c2abfdf291a"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\model_tests.rs",
+      "sha256": "82f66a382d6321c9372dfc8da591efee9326f918cc2c823192c22ec6df2b28e4"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\projection.rs",
+      "sha256": "0bacf8ac17a254fb8044be28a885ceaf02d9de7d10ead2a16f5da309fad0763a"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\projection_tests.rs",
+      "sha256": "50111ad26bf8399b1c851207c24d9b29fed3bcd1f8b4b130a5de4f4be8096972"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\raymarch_host.rs",
+      "sha256": "27ce0eb1425ac9bfb035d0a5397dd0e8566b6a380c37a0ea367b10e178381529"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\read_host.rs",
+      "sha256": "f67c973e852cf4d543adcfb2f70a6418b6f724af4a9d931c185872110016fd14"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\sonification.rs",
+      "sha256": "17fa596878a0a61a0bd205d11decf34b610a20202599c0c6fee9bd1671b9e4aa"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\sound_host.rs",
+      "sha256": "79b22a37108a06c633c58e53f4fb15b7249df756368a2305f032e8562f6f0e69"
+    },
+    {
+      "path": "C:\\github\\hypermedia-production\\crates\\asset-production-vibe\\src\\electromagnetics_current\\tests.rs",
+      "sha256": "cb970d6161dd189e2f6209d2bbc468ab86b9a3fde5d9e9a5cf628f24b0492913"
+    }
+  ],
+  "producer": {
+    "path": "C:/github/synth/target-prod/debug/synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e"
+  },
+  "admission_helper": {
+    "sha256": "5199fff53ec4daf51589a889964ccbaa528c889c390dbbdb9ce46238305e8842",
+    "source_sha256": "6ec289dbfd6b5a3418238a81d72e04d698ac862bdd729f65e34ea2fbf9888a15"
+  },
+  "manifest_sha256": "b89a01bd54165d6e49e5352052f679d61df091c59e7d8cda3f6f6706e492d011",
+  "notes": [
+    "Current Portal decoder source compiled directly with existing native codec dependencies; no reader reimplementation.",
+    "All non-corrupt exact source bytes retained; deliberately corrupted payload refused.",
+    "verify_emf called successfully inside deterministic production. Integrity uses typedv4 native validation, not oldv2/v3 compatibility."
+  ],
+  "reviewed_images": [
+    "/production/aaa-field/assets/slice-x.png",
+    "/production/aaa-field/assets/slice-y.png",
+    "/production/aaa-field/assets/slice-z.png",
+    "/production/aaa-field/assets/magnitude-volume.png"
+  ]
+}

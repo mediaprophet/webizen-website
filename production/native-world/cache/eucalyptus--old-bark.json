@@ -1,0 +1,118 @@
+{
+  "key": "60a819fb07caeb2d5b54e71c629fdf5470b40fa512f45d5b3d829c488b972349",
+  "id": "eucalyptus--old-bark",
+  "native": {
+    "bytes": 866728,
+    "key": "eucalyptus--old-bark.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--old-bark-689ea2b1059e\\eucalyptus--old-bark.10d",
+    "sha256": "b6d66a3cab9cf39ed55de958c7e8b7638a943ef625c428f7bade641a448c94bf",
+    "url": "/artifacts/world-eucalyptus--old-bark-689ea2b1059e/eucalyptus--old-bark.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "9180ccbda2bd6c7bb1a6f582d7f4526849ded8c67f3ac80a9169bb65c5fc5408",
+    "package_sha256": "51fbcb45c55b7d45b90e5c2cb609866652d144879c10696af62cc9fb9a1d6b01",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 900425,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--old-bark-689ea2b1059e.hmc",
+        "sha256": "51fbcb45c55b7d45b90e5c2cb609866652d144879c10696af62cc9fb9a1d6b01"
+      },
+      "inputs": [
+        {
+          "bytes": 31828,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\eucalyptus--old-bark.glb",
+          "sha256": "1e2c22c4c8dfca68a8d97883de6b2c1e83fa0aa4d13cb46a2e90d073ca50ce11"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499995700,
+        "effective_host_bytes": 268297856,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096903,
+        "source_bytes": 1075,
+        "source_reservation_bytes": 137600,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 4300,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 866728,
+          "key": "eucalyptus--old-bark.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--old-bark-689ea2b1059e\\eucalyptus--old-bark.10d",
+          "sha256": "b6d66a3cab9cf39ed55de958c7e8b7638a943ef625c428f7bade641a448c94bf",
+          "url": "/artifacts/world-eucalyptus--old-bark-689ea2b1059e/eucalyptus--old-bark.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "b4da2ae3f9ef1f33009d9c0fb2ebb750a6362902a8e121596211601395f153ed",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 866728,
+        "key": "eucalyptus--old-bark.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "b6d66a3cab9cf39ed55de958c7e8b7638a943ef625c428f7bade641a448c94bf"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--old-bark-689ea2b1059e.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-eucalyptus--old-bark-689ea2b1059e.hmc",
+    "receipt_url": "/artifacts/world-eucalyptus--old-bark-689ea2b1059e.json"
+  },
+  "vertices": 3174,
+  "triangles": 5988,
+  "instances": 6,
+  "material": 43,
+  "url": "/production/native-world/assets/eucalyptus--old-bark.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "b6d66a3cab9cf39ed55de958c7e8b7638a943ef625c428f7bade641a448c94bf",
+  "bytes": 866728,
+  "recipe": "/production/native-world/recipes/eucalyptus--old-bark.vibe",
+  "input_sha256": "1e2c22c4c8dfca68a8d97883de6b2c1e83fa0aa4d13cb46a2e90d073ca50ce11"
+}

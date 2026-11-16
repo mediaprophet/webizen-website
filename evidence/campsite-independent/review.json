@@ -1,0 +1,525 @@
+{
+  "errors": [],
+  "responses": [],
+  "links": [
+    {
+      "href": "/?chapter=southern-tablelands#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=southern-tablelands#field-studio",
+      "current": "field-studio",
+      "chapter": "southern-tablelands"
+    },
+    {
+      "href": "/?chapter=south-coast#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=south-coast#field-studio",
+      "current": "field-studio",
+      "chapter": "south-coast"
+    },
+    {
+      "href": "/?chapter=high-country#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=high-country#field-studio",
+      "current": "field-studio",
+      "chapter": "high-country"
+    },
+    {
+      "href": "/?chapter=riverina#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=riverina#field-studio",
+      "current": "field-studio",
+      "chapter": "riverina"
+    },
+    {
+      "href": "/?chapter=central-victoria#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=central-victoria#field-studio",
+      "current": "field-studio",
+      "chapter": "central-victoria"
+    },
+    {
+      "href": "/?chapter=western-slopes#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=western-slopes#field-studio",
+      "current": "field-studio",
+      "chapter": "western-slopes"
+    },
+    {
+      "href": "/?chapter=northern-rivers#field-studio",
+      "status": 200,
+      "url": "http://127.0.0.1:8800/?chapter=northern-rivers#field-studio",
+      "current": "field-studio",
+      "chapter": "northern-rivers"
+    }
+  ],
+  "chapterControls": [
+    {
+      "url": "http://127.0.0.1:8800/?chapter=southern-tablelands#field-studio",
+      "scene": "southern-tablelands",
+      "selected": "southern-tablelands",
+      "copy": "Southern Tablelands & Canberra region · Open grasslands meet wooded ridges. A chapter of broad skies, cool light and the meeting of country and city."
+    },
+    {
+      "url": "http://127.0.0.1:8800/?chapter=south-coast#field-studio",
+      "scene": "south-coast",
+      "selected": "south-coast",
+      "copy": "South Coast · Forest approaches the shore. Sea light, weathered wood and sheltered waterways bring the living coast into the field studio."
+    },
+    {
+      "url": "http://127.0.0.1:8800/?chapter=high-country#field-studio",
+      "scene": "high-country",
+      "selected": "high-country",
+      "copy": "High country & eastern Victoria · Layered ranges, tall forest and cooler air shape a mountain palette. Distance appears in successive shades of blue and green."
+    },
+    {
+      "url": "http://127.0.0.1:8800/?chapter=riverina#field-studio",
+      "scene": "riverina",
+      "selected": "riverina",
+      "copy": "Riverina · River country and open plains invite a slower view. Muted greens and warm ground colours follow the changing light."
+    },
+    {
+      "url": "http://127.0.0.1:8800/?chapter=central-victoria#field-studio",
+      "scene": "central-victoria",
+      "selected": "central-victoria",
+      "copy": "Central Victoria · Dry woodland and open country carry a quieter palette of straw, bark and stone. Long light draws out the folds of the land."
+    },
+    {
+      "url": "http://127.0.0.1:8800/?chapter=western-slopes#field-studio",
+      "scene": "western-slopes",
+      "selected": "western-slopes",
+      "copy": "North-west NSW & western slopes · The horizon opens across plains and slopes. Earth, grass and changing skies give this chapter its sense of space."
+    },
+    {
+      "url": "http://127.0.0.1:8800/?chapter=northern-rivers#field-studio",
+      "scene": "northern-rivers",
+      "selected": "northern-rivers",
+      "copy": "Northern Rivers & far north coast · Rain-green hills, river valleys and coastal light suggest a softer, more abundant landscape. Water connects the forest with the sea."
+    }
+  ],
+  "journey": {
+    "status": 200,
+    "language": "en-AU",
+    "chapters": 7
+  },
+  "initial": {
+    "current": "field-studio",
+    "purpose": "learn",
+    "motion": false,
+    "locale": {
+      "requested": "en-AU",
+      "base": "en",
+      "dir": "ltr",
+      "fallback": false,
+      "translated": 91,
+      "total": 91
+    },
+    "scene": {
+      "nativeAssets": [
+        {
+          "id": "canopy",
+          "parts": 27,
+          "source": "Synth-exported DXF geometry"
+        },
+        {
+          "id": "memory-frond",
+          "parts": 22,
+          "source": "Synth-exported DXF geometry"
+        },
+        {
+          "id": "tidal-vessel",
+          "parts": 5,
+          "source": "Synth-exported DXF geometry"
+        },
+        {
+          "id": "car-passat-b7",
+          "parts": 141,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/car/assets/car.json"
+        },
+        {
+          "id": "vintage-windup-camper",
+          "parts": 169,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+        },
+        {
+          "id": "solar-array",
+          "parts": 84,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+        },
+        {
+          "id": "starlink-mini",
+          "parts": 15,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+        }
+      ],
+      "chapter": "southern-tablelands",
+      "meshes": 102,
+      "triangles": 339428,
+      "camera": [
+        -11.00000000000001,
+        8.790921689254919,
+        42.999999999999986
+      ],
+      "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+    },
+    "runtime": {
+      "catalog_count": 150,
+      "binary": "synth/target-prod/debug/synth.exe",
+      "execution": "local native MCP",
+      "arbitrary_source_api": false
+    }
+  },
+  "afterNavigate": {
+    "url": "http://127.0.0.1:8800/?chapter=southern-tablelands#river",
+    "state": {
+      "current": "river",
+      "purpose": "learn",
+      "motion": false,
+      "locale": {
+        "requested": "en-AU",
+        "base": "en",
+        "dir": "ltr",
+        "fallback": false,
+        "translated": 91,
+        "total": 91
+      },
+      "scene": {
+        "nativeAssets": [
+          {
+            "id": "canopy",
+            "parts": 27,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "memory-frond",
+            "parts": 22,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "tidal-vessel",
+            "parts": 5,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "car-passat-b7",
+            "parts": 141,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/car/assets/car.json"
+          },
+          {
+            "id": "vintage-windup-camper",
+            "parts": 169,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+          },
+          {
+            "id": "solar-array",
+            "parts": 84,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+          },
+          {
+            "id": "starlink-mini",
+            "parts": 15,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+          }
+        ],
+        "chapter": "southern-tablelands",
+        "meshes": 102,
+        "triangles": 339428,
+        "camera": [
+          12,
+          11.356902858675879,
+          30
+        ],
+        "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+      },
+      "runtime": {
+        "catalog_count": 150,
+        "binary": "synth/target-prod/debug/synth.exe",
+        "execution": "local native MCP",
+        "arbitrary_source_api": false
+      }
+    }
+  },
+  "afterControls": {
+    "url": "http://127.0.0.1:8800/?chapter=southern-tablelands#field-studio",
+    "state": {
+      "current": "field-studio",
+      "purpose": "learn",
+      "motion": true,
+      "locale": {
+        "requested": "en-AU",
+        "base": "en",
+        "dir": "ltr",
+        "fallback": false,
+        "translated": 91,
+        "total": 91
+      },
+      "scene": {
+        "nativeAssets": [
+          {
+            "id": "canopy",
+            "parts": 27,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "memory-frond",
+            "parts": 22,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "tidal-vessel",
+            "parts": 5,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "car-passat-b7",
+            "parts": 141,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/car/assets/car.json"
+          },
+          {
+            "id": "vintage-windup-camper",
+            "parts": 169,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+          },
+          {
+            "id": "solar-array",
+            "parts": 84,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+          },
+          {
+            "id": "starlink-mini",
+            "parts": 15,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+          }
+        ],
+        "chapter": "southern-tablelands",
+        "meshes": 102,
+        "triangles": 339428,
+        "camera": [
+          -11.000000000000009,
+          8.790921689254919,
+          42.99999999999999
+        ],
+        "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+      },
+      "runtime": {
+        "catalog_count": 150,
+        "binary": "synth/target-prod/debug/synth.exe",
+        "execution": "local native MCP",
+        "arbitrary_source_api": false
+      }
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390,
+    "state": {
+      "current": "field-studio",
+      "purpose": "learn",
+      "motion": false,
+      "locale": {
+        "requested": "en-AU",
+        "base": "en",
+        "dir": "ltr",
+        "fallback": false,
+        "translated": 91,
+        "total": 91
+      },
+      "scene": {
+        "nativeAssets": [
+          {
+            "id": "canopy",
+            "parts": 27,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "tidal-vessel",
+            "parts": 5,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "memory-frond",
+            "parts": 22,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "car-passat-b7",
+            "parts": 141,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/car/assets/car.json"
+          },
+          {
+            "id": "vintage-windup-camper",
+            "parts": 169,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+          },
+          {
+            "id": "solar-array",
+            "parts": 84,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+          },
+          {
+            "id": "starlink-mini",
+            "parts": 15,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+          }
+        ],
+        "chapter": "southern-tablelands",
+        "meshes": 46,
+        "triangles": 298560,
+        "camera": [
+          -3.850000000000005,
+          10.935921689254918,
+          52.75
+        ],
+        "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+      },
+      "runtime": {
+        "catalog_count": 150,
+        "binary": "synth/target-prod/debug/synth.exe",
+        "execution": "local native MCP",
+        "arbitrary_source_api": false
+      }
+    }
+  },
+  "afterReset": {
+    "url": "http://127.0.0.1:8800/",
+    "state": {
+      "current": null,
+      "purpose": "learn",
+      "motion": false,
+      "locale": {
+        "requested": "en-AU",
+        "base": "en",
+        "dir": "ltr",
+        "fallback": false,
+        "translated": 91,
+        "total": 91
+      },
+      "scene": {
+        "nativeAssets": [
+          {
+            "id": "canopy",
+            "parts": 27,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "tidal-vessel",
+            "parts": 5,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "memory-frond",
+            "parts": 22,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "car-passat-b7",
+            "parts": 141,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/car/assets/car.json"
+          },
+          {
+            "id": "vintage-windup-camper",
+            "parts": 169,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+          },
+          {
+            "id": "solar-array",
+            "parts": 84,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+          },
+          {
+            "id": "starlink-mini",
+            "parts": 15,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+          }
+        ],
+        "chapter": "southern-tablelands",
+        "meshes": 46,
+        "triangles": 298560,
+        "camera": [
+          36,
+          22,
+          50
+        ],
+        "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+      },
+      "runtime": {
+        "catalog_count": 150,
+        "binary": "synth/target-prod/debug/synth.exe",
+        "execution": "local native MCP",
+        "arbitrary_source_api": false
+      }
+    }
+  },
+  "afterResetReload": {
+    "url": "http://127.0.0.1:8800/",
+    "state": {
+      "current": null,
+      "purpose": "learn",
+      "motion": false,
+      "locale": {
+        "requested": "en-AU",
+        "base": "en",
+        "dir": "ltr",
+        "fallback": false,
+        "translated": 91,
+        "total": 91
+      },
+      "scene": {
+        "nativeAssets": [
+          {
+            "id": "memory-frond",
+            "parts": 22,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "tidal-vessel",
+            "parts": 5,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "canopy",
+            "parts": 27,
+            "source": "Synth-exported DXF geometry"
+          }
+        ],
+        "chapter": null,
+        "meshes": 126,
+        "triangles": 282502,
+        "camera": [
+          36,
+          22,
+          50
+        ],
+        "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+      }
+    }
+  },
+  "publicProjection": {
+    "status": 200,
+    "bytes": 4277,
+    "forbidden": false
+  },
+  "lab": {
+    "summary": "317 passed · 0 failed · 0 skipped · completed · engine JavaScript logic",
+    "rows": 317
+  }
+}

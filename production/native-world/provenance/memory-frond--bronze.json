@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 494,
+  "triangles": 984,
+  "bytes": 189664,
+  "source_bytes": 30380,
+  "id": "memory-frond--bronze",
+  "original_sha256": "f6949b0dc9ca2770c7503d94a99ad6a36d8dbfb7d9991e2470be79539f19c8c5",
+  "source_sha256": "3b4a7a4d7a01de19de6ddea61fb3ea8449b2194512751ea99709226e506b5287",
+  "attested_sha256": "7104f41967108a4538427a86a30c3bc13c1647356d94607ee3ed6e7d59150458",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

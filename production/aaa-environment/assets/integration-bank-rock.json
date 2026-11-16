@@ -1,0 +1,103 @@
+{
+  "schema": "webizen.aaa-native-environment/v1",
+  "frame": "existing fictional catchment, Y-up metres",
+  "epistemic_class": "authored-artwork",
+  "assets": [
+    {
+      "id": "ecology-bank-rock-mid-0",
+      "url": "/production/aaa-environment/assets/ecology-bank-rock-mid-0.10d",
+      "sha256": "22b8c064e015977d0e519751657e9bb6001e3ad698c8caddb7fbe2b692413975",
+      "bytes": 856056,
+      "vertices": 6144,
+      "triangles": 9216,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-bank-rock-mid-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-bank-rock-mid-0.vibe"
+    },
+    {
+      "id": "ecology-bank-rock-mid-1",
+      "url": "/production/aaa-environment/assets/ecology-bank-rock-mid-1.10d",
+      "sha256": "70604e63a7de4ca8a58cfe4f156a51c4d94fc7f31466b476b4c85e664dabac6a",
+      "bytes": 856120,
+      "vertices": 6144,
+      "triangles": 9216,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-bank-rock-mid-1.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-bank-rock-mid-1.vibe"
+    },
+    {
+      "id": "ecology-bank-rock-mid-2",
+      "url": "/production/aaa-environment/assets/ecology-bank-rock-mid-2.10d",
+      "sha256": "b1c6294bfc3b280fb0b6ece1604189c7c70805aa9cbf2908cd2a2d611924e1f0",
+      "bytes": 373560,
+      "vertices": 2048,
+      "triangles": 3072,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 8,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-bank-rock-mid-2.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-bank-rock-mid-2.vibe"
+    },
+    {
+      "id": "ecology-bank-rock-near-0",
+      "url": "/production/aaa-environment/assets/ecology-bank-rock-near-0.10d",
+      "sha256": "e2b7d2b600e0c512565c9a4c1814c9044a1011087cd83e7b1c289e971a56e882",
+      "bytes": 2283728,
+      "vertices": 18180,
+      "triangles": 32640,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 15,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-bank-rock-near-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-bank-rock-near-0.vibe"
+    }
+  ],
+  "textures": [
+    {
+      "url": "/production/aaa-environment/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png",
+      "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png",
+      "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png",
+      "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "placements": "/production/aaa-environment/assets/placement-evaluation.json",
+  "review_status": "native prototype views inspected; assembled review pending",
+  "triangles": 54144,
+  "vertices": 32516,
+  "instances": 71
+}

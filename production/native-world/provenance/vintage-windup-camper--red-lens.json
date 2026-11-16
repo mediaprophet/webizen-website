@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 20,
+  "triangles": 32,
+  "bytes": 47544,
+  "source_bytes": 13616,
+  "id": "vintage-windup-camper--red-lens",
+  "original_sha256": "8b8a3f2f9e35eaa7720c661d10202d9294ddc5e16d6bb0767ba35f5cf95d41b5",
+  "source_sha256": "86df91dc9dcb57245c10e2aad7dbe9dc8bdb75890f598b9cef7c505a1fac7a9b",
+  "attested_sha256": "c47bada4f39c36eaba504dabaa4fea48e0c9b5a502a77a4a98188cea0d5c7171",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

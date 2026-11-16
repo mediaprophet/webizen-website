@@ -1,0 +1,177 @@
+{
+  "schema": "webizen.aaa-data-handoff/v1",
+  "copy_only_listed": true,
+  "files": [
+    {
+      "relative_path": "data/publications/aaa/benchmarks/comparative_benchmark_results.json",
+      "bytes": 18086,
+      "sha256": "a2c2337c24e3571ba3d35c7f40867830e1de0cec67ae25c14b77ac3818d77042"
+    },
+    {
+      "relative_path": "data/publications/aaa/benchmarks/comparative_benchmark_results.schemaorg-30-current-https-q42.json",
+      "bytes": 7659,
+      "sha256": "bbeb4d9da4c244108a84adac3fbb8bba32fe10f18e7d6815e9c49a0923b96ae2"
+    },
+    {
+      "relative_path": "data/publications/aaa/benchmarks/comparative_benchmark_results.schemaorg-30-current-https.json",
+      "bytes": 21281,
+      "sha256": "a705c0400c9305d0bccd3c4e7fc56c66ee910a528e89954482c8c6e5a05e48cc"
+    },
+    {
+      "relative_path": "data/publications/aaa/benchmarks/comparative_benchmark_results.wordnet-31.json",
+      "bytes": 6758,
+      "sha256": "50e7c15bdebfcf5864a32de9cef12c938d0cb35cd8d6f4202e945d9bfe809143"
+    },
+    {
+      "relative_path": "data/publications/aaa/benchmarks/llm_benchmark_results.json",
+      "bytes": 11358,
+      "sha256": "55d1ca5ff672927e0a434717e8b9356eb49ec1626e8a40c2b2f42d1f77d85e6b"
+    },
+    {
+      "relative_path": "data/publications/aaa/catalogue.json",
+      "bytes": 77813,
+      "sha256": "e6a89e03ebc385f08f94c2fe4885df249b9683b593de1a9eb89afc5859312145"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/README.md",
+      "bytes": 2557,
+      "sha256": "de28f986bc7f2738c2dbebbaa4e1225935dabe15fb616916a2761ff9ab993673"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/build_modules.py",
+      "bytes": 11441,
+      "sha256": "32ef0f4a104af16b9d4a5686d5f1fc6badfdaddf6b773daee9770b40a52de5ee"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/editorial-input.en-AU.json",
+      "bytes": 24718,
+      "sha256": "13422599c728ff52b8e13ea84f5ad4ae6aaee9cc8f4dd5bf24cabda58ff4d9ab"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/module-narratives-88f0124a7a2d.q42",
+      "bytes": 42406,
+      "sha256": "3a73abe1f8cc7c8774f030946468e3efd7582b9eb4e6efa1b48476843c8bacce"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/narratives.en-AU.json",
+      "bytes": 53565,
+      "sha256": "c5725a59173a2cc0ae670f775801713a0b85b2d4d5405e1ad16677b6642c0285"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/native-validation.json",
+      "bytes": 3287,
+      "sha256": "59628988ea195bbad1b17afde4563389da5f55c9e32f3d526b04232c7115cdf6"
+    },
+    {
+      "relative_path": "data/publications/aaa/modules/triples.json",
+      "bytes": 82898,
+      "sha256": "88f0124a7a2d585527dec3633dbfa4b9e74ca76de957fa48a3d24a2402b5b29b"
+    },
+    {
+      "relative_path": "data/publications/aaa/proof-metadata-triples.json",
+      "bytes": 22477,
+      "sha256": "db3fbd3368bcdbcc6350f998bfcb8fc974b2d129964158f85120af344ba351fc"
+    },
+    {
+      "relative_path": "data/publications/aaa/proof-metadata.q42",
+      "bytes": 11717,
+      "sha256": "3a1908f10f1d0a774a9c663e6b619127efb746febdd58bd3ce9123160c45fbbe"
+    },
+    {
+      "relative_path": "data/publications/aaa/rights-fixtures.json",
+      "bytes": 5104,
+      "sha256": "838945ec074f96cd354a3a89343af24772aff3ffad11e63a3edbaa8ab18b35f0"
+    },
+    {
+      "relative_path": "data/publications/aaa/schemaorg-30-current-https.nt",
+      "bytes": 2372609,
+      "sha256": "688ffc7aa671dc272016e5b34f843b1e8c334dcb6a29deff588147da199715ea"
+    },
+    {
+      "relative_path": "data/publications/aaa/schemaorg-30-current-https.q42",
+      "bytes": 1087560,
+      "sha256": "9fa6479d27390720f122291b9cecb2c61b6a164d37e32f269fe4fc18b52dfef4"
+    },
+    {
+      "relative_path": "data/publications/aaa/space/earth.response.json",
+      "bytes": 7307,
+      "sha256": "7ceb3ecd61475b9626ad8e9457d55d9ab923f2dbb777baefbbee02373642d1b7"
+    },
+    {
+      "relative_path": "data/publications/aaa/space/mars.response.json",
+      "bytes": 6845,
+      "sha256": "8afe9824efcfb2b96d5bcca71f270a1ffda3e52a9947143e582029a6aa810966"
+    },
+    {
+      "relative_path": "data/publications/aaa/space/vectors.json",
+      "bytes": 11266,
+      "sha256": "0ace0cf1f1a1686c871bb931d139b0334e1acbfaf2b5495253865f733663a874"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain-model-v2/model-manifest.json",
+      "bytes": 6591,
+      "sha256": "d42debc14d4da80724d4bd9f7123b2d4daa59dc4a301f138258fadd505f39c0c"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain-model-v2/reference-terrain-model.10d",
+      "bytes": 1946992,
+      "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain-model-v2/reference-terrain-model.glb",
+      "bytes": 606544,
+      "sha256": "b9664e3d6a1431c06199951a686ba1e073ca7bc0d0b21b0efcc14672b2adee1c"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain-model-v2/reference-terrain-model.vibe",
+      "bytes": 323,
+      "sha256": "a35d59ec26e4745f4303727aab76ec1d75c3410acba64e7a8ac118dfcaf794c7"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain-model-v2/scene.json",
+      "bytes": 899,
+      "sha256": "9b4e61393b5d2723581a9ec8c98f52121af681c9984d927b7baaa9966a07646d"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain/heightfield.json",
+      "bytes": 194999,
+      "sha256": "b8b6438fa152af66dd7640fd465ec66b52f2fc8f4f9df4aa8cb8a91b9242a946"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain/native-receipt.json",
+      "bytes": 1830,
+      "sha256": "560dd161123b3a3a43c7f125cda2d2f65efcf9b76dc46a6f60d28eed0594b30b"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain/reference-terrain.10d",
+      "bytes": 421970,
+      "sha256": "4f0e41beb1d53338a827b73f8e51021dddeaf6bb8659706200a5682d2b05aa62"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain/requests.json",
+      "bytes": 577,
+      "sha256": "d8ddc15a764dde36dcced3697e2d7c9725384f1932a8e2cc491b75d01fd55249"
+    },
+    {
+      "relative_path": "data/publications/aaa/terrain/source-tiles.qdem",
+      "bytes": 117043,
+      "sha256": "3371250e38cd5233316ada6c53cee2fdf7906d39f1909797320cfd255ffc84eb"
+    }
+  ],
+  "total_bytes": 7186480,
+  "entry_catalogue": "/data/publications/aaa/catalogue.json",
+  "terrain_scene": "/data/publications/aaa/terrain-model-v2/scene.json",
+  "native_tests": 10,
+  "validation": "evidence/aaa-data/final-validation.json",
+  "scope": "Selected proof data plus all 16 source-backed module explanations; no fullsite or unmigrated demo completion.",
+  "source_fixes": [
+    "qualia-core-db/src/domains/geospatial/adapters/dem_adapter.rs",
+    "qualia-core-db/src/domains/geospatial/dem.rs"
+  ],
+  "module_narratives": {
+    "module_count": 16,
+    "dataset_id": "ecosystem-module-narratives-en-au",
+    "native_validation": "data/publications/aaa/modules/native-validation.json",
+    "prior_qualified_files_preserved_except_catalogue": true
+  }
+}

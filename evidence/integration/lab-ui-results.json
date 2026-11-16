@@ -1,0 +1,654 @@
+{
+  "errors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "mobile": {
+    "width": 390,
+    "scroll": 522,
+    "offenders": [
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "Knowledge404 — Page Not Found · Webizen / QualiaDB404.htmlsource inventoried; runtime qualification "
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "404 — Page Not Found · Webizen / QualiaDB"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "404.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "Knowledge{% if page.title %}{{ page.title }} · {% endif %}Qualia-DB_layouts/qualia.htmlsource invent"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "{% if page.title %}{{ page.title }} · {% endif %}Qualia-DB"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "_layouts/qualia.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "KnowledgeQualia-DB | Advanced Features Showcaseadvanced-features.htmlsource inventoried; runtime qua"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "Qualia-DB | Advanced Features Showcase"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "advanced-features.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "CooperationAgreements as Semantic Instruments — QualiaDB / Webizen 0.0.41agreement-instruments.htmls"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "Agreements as Semantic Instruments — QualiaDB / Webizen 0.0.41"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "agreement-instruments.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "CooperationAgreement Ledger & Four-Plane Identifier Fabric — QualiaDB / Webizen 0.0.41agreement-ledg"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "Agreement Ledger & Four-Plane Identifier Fabric — QualiaDB / Webizen 0.0.41"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "agreement-ledger.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "KnowledgeAnalytics • Qualia-DBanalytics.htmlsource inventoried; runtime qualification recorded separ"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "Analytics • Qualia-DB"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "analytics.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "KnowledgeQualiaDB — API Explorerapi-explorer/index.htmlsource inventoried; runtime qualification rec"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "QualiaDB — API Explorer"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "api-explorer/index.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "KnowledgeAPI Reference • Qualia-DBapi.htmlsource inventoried; runtime qualification recorded separat"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "API Reference • Qualia-DB"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "api.html"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "source inventoried; runtime qualification recorded separately"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "class": "collection-card",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "auto",
+        "text": "CooperationSymmetrical Linkage — Developer Auth | Qualia-DBapproved_developers.htmlsource inventorie"
+      },
+      {
+        "tag": "H3",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "Symmetrical Linkage — Developer Auth | Qualia-DB"
+      },
+      {
+        "tag": "SMALL",
+        "id": "",
+        "class": "",
+        "left": 23.390625,
+        "right": 521.671875,
+        "width": 498.28125,
+        "overflow": "visible",
+        "minWidth": "0px",
+        "text": "approved_developers.html"
+      }
+    ]
+  },
+  "logic": {
+    "summary": "317 passed · 0 failed · 0 skipped · completed",
+    "rows": 317,
+    "export_enabled": true
+  },
+  "wasm": {
+    "summary": "505 passed · 0 failed · 11 skipped · completed",
+    "rows": 516,
+    "export_enabled": true
+  },
+  "benchmarks": [
+    {
+      "size": "1000",
+      "correctness": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "full-dataset",
+            "passed": true,
+            "match_count": 1000
+          },
+          {
+            "id": "point",
+            "passed": true,
+            "match_count": 1
+          },
+          {
+            "id": "filter",
+            "passed": true,
+            "match_count": 200
+          },
+          {
+            "id": "twohop",
+            "passed": true,
+            "match_count": 2
+          }
+        ],
+        "policy": "Full dataset and each operation checked before timing; every timed sample validated after its clock stops"
+      },
+      "metrics": [
+        {
+          "id": "point",
+          "unit": "ms",
+          "samples": 30,
+          "p50": 0.15000003576278687
+        },
+        {
+          "id": "filter",
+          "unit": "ms",
+          "samples": 30,
+          "p50": 0.9724999666213989
+        },
+        {
+          "id": "twohop",
+          "unit": "ms",
+          "samples": 30,
+          "p50": 0.21999996900558472
+        }
+      ],
+      "download_button": 1,
+      "wasm_version": "0.0.40"
+    },
+    {
+      "size": "10000",
+      "correctness": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "full-dataset",
+            "passed": true,
+            "match_count": 10000
+          },
+          {
+            "id": "point",
+            "passed": true,
+            "match_count": 1
+          },
+          {
+            "id": "filter",
+            "passed": true,
+            "match_count": 2000
+          },
+          {
+            "id": "twohop",
+            "passed": true,
+            "match_count": 2
+          }
+        ],
+        "policy": "Full dataset and each operation checked before timing; every timed sample validated after its clock stops"
+      },
+      "metrics": [
+        {
+          "id": "point",
+          "unit": "ms",
+          "samples": 30,
+          "p50": 0.33500000834465027
+        },
+        {
+          "id": "filter",
+          "unit": "ms",
+          "samples": 30,
+          "p50": 7.369999974966049
+        },
+        {
+          "id": "twohop",
+          "unit": "ms",
+          "samples": 30,
+          "p50": 1.8725000023841858
+        }
+      ],
+      "download_button": 1,
+      "wasm_version": "0.0.40"
+    }
+  ],
+  "cancellation": "Run cancelled; worker terminated",
+  "history": [
+    {
+      "label": "Graph comparison",
+      "sha256": "a2c2337c24e3571ba3d35c7f40867830e1de0cec67ae25c14b77ac3818d77042",
+      "all_original_fields_preserved": true,
+      "verified_label": true
+    },
+    {
+      "label": "Graph comparison.schemaorg-30-current-https-q42",
+      "sha256": "bbeb4d9da4c244108a84adac3fbb8bba32fe10f18e7d6815e9c49a0923b96ae2",
+      "all_original_fields_preserved": true,
+      "verified_label": true
+    },
+    {
+      "label": "Graph comparison.schemaorg-30-current-https",
+      "sha256": "a705c0400c9305d0bccd3c4e7fc56c66ee910a528e89954482c8c6e5a05e48cc",
+      "all_original_fields_preserved": true,
+      "verified_label": true
+    },
+    {
+      "label": "Graph comparison.wordnet-31",
+      "sha256": "50e7c15bdebfcf5864a32de9cef12c938d0cb35cd8d6f4202e945d9bfe809143",
+      "all_original_fields_preserved": true,
+      "verified_label": true
+    },
+    {
+      "label": "Native platform suite",
+      "sha256": "55d1ca5ff672927e0a434717e8b9356eb49ec1626e8a40c2b2f42d1f77d85e6b",
+      "all_original_fields_preserved": true,
+      "verified_label": true
+    }
+  ],
+  "atlas": {
+    "title": "The ecosystem — Webizen",
+    "articles": 16,
+    "headings": [
+      "Keep knowledge in context.",
+      "Put the person at the centre.",
+      "Turn an intention into a work.",
+      "Give the work a precise expression.",
+      "Make the work reproducible.",
+      "Work across forms of expression.",
+      "Bring computation into the experience.",
+      "Understand the available machine.",
+      "Connect applications to their environment.",
+      "Give documents a place to live.",
+      "Make the conditions of participation clear.",
+      "Make meaning and commitments inspectable.",
+      "Support people doing things together.",
+      "Understand life at different scales.",
+      "Keep the living world in the picture.",
+      "Keep identity and connection coherent.",
+      "What brings you here?",
+      "Everyday life",
+      "Making and developing",
+      "Research and learning",
+      "Government and public service",
+      "Civil society and international cooperation",
+      "Investment and stewardship",
+      "Keep knowledge in context.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Put the person at the centre.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Turn an intention into a work.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Give the work a precise expression.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Make the work reproducible.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Work across forms of expression.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Bring computation into the experience.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Understand the available machine.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Connect applications to their environment.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Give documents a place to live.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Make the conditions of participation clear.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Make meaning and commitments inspectable.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Support people doing things together.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Understand life at different scales.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Keep the living world in the picture.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters",
+      "Keep identity and connection coherent.",
+      "What it does",
+      "Its place in the ecosystem",
+      "Why it matters"
+    ],
+    "language": "en-AU",
+    "mobile": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  "keyboard": {
+    "first_focus": {
+      "tag": "A",
+      "text": "Skip to instruments",
+      "href": "#instruments"
+    },
+    "skip_target": "#instruments",
+    "after_skip": {
+      "tag": "BUTTON",
+      "text": "01Make a workLandscape, fields and sound↗"
+    }
+  }
+}

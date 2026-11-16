@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 3279050,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus-far--leaf-young-5dd3413b3820.hmc",
+    "sha256": "03ef46e02038f11a36bf9e1a777747159e63326c0f82c26901ce83eed5a79e44"
+  },
+  "inputs": [
+    {
+      "bytes": 51876,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\eucalyptus-far--leaf-young.glb",
+      "sha256": "7aa2e9adbe37fe9d12e763a5b90cf8ac773fce0d62daf5e1b896a7b2b53e6050"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499992732,
+    "effective_host_bytes": 268202880,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096746,
+    "source_bytes": 1817,
+    "source_reservation_bytes": 232576,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 7268,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 3224520,
+      "key": "eucalyptus-far--leaf-young.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus-far--leaf-young-5dd3413b3820\\eucalyptus-far--leaf-young.10d",
+      "sha256": "3658a42e14b17d51e4845b95f3ee6086709d6eda6033e4d8d4c46cf191824fd1"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "99596d31d1b40e7d80d89aabe792e61a125858ac3a9c1a18e1074a805d8661a1",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

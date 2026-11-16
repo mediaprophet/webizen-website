@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 72,
+  "triangles": 128,
+  "bytes": 62904,
+  "source_bytes": 16136,
+  "id": "starlink-mini--aluminium",
+  "original_sha256": "d8f07913673822ebe1b5345dfbf981b79d6c52e4ec3966b137e44530371a4b83",
+  "source_sha256": "a674b81681b13c9111e5737b895d9fc2382bb93776c28cedfde0b03410972cc9",
+  "attested_sha256": "8d7c00889d522216745725f808f9c905e151a5827ecc230ea1405c93fe412ebe",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

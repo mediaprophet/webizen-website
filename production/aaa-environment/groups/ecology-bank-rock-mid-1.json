@@ -1,0 +1,188 @@
+{
+  "id": "ecology-bank-rock-mid-1",
+  "url": "/production/aaa-environment/assets/ecology-bank-rock-mid-1.10d",
+  "sha256": "70604e63a7de4ca8a58cfe4f156a51c4d94fc7f31466b476b4c85e664dabac6a",
+  "bytes": 856120,
+  "vertices": 6144,
+  "source_vertices": 4656,
+  "native_attribute_policy": "Native GLB MikkTSpace corner splits retained; exact triangle count preserved",
+  "triangles": 9216,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 24,
+  "textures": [
+    {
+      "url": "/production/aaa-environment/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png",
+      "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png",
+      "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png",
+      "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "provenance_receipt": "/production/aaa-environment/provenance/ecology-bank-rock-mid-1.json",
+  "native": {
+    "bytes": 720184,
+    "key": "ecology-bank-rock-mid-1.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d\\ecology-bank-rock-mid-1.10d",
+    "sha256": "d6b572074184eee13af40c2c68b8e2d3d61094686b01139b00f73982fdc60b32",
+    "url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d/ecology-bank-rock-mid-1.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "97333024da6f7cdce3a5d9fc047fd0357b5bab97521841c74360f681c4213ae0",
+    "package_sha256": "46a87db43c19ed6b3d8b2bcd2c5520563b4e40b979656aea9ff26e16c7c82006",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 978579,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d.hmc",
+        "sha256": "46a87db43c19ed6b3d8b2bcd2c5520563b4e40b979656aea9ff26e16c7c82006"
+      },
+      "inputs": [
+        {
+          "bytes": 135516,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-bank-rock-mid-1.glb",
+          "sha256": "fdfde5a201e07121793b5a502b8a50cd5bd01e5dd7296f4df82e2960553bbb7e"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998644,
+        "effective_host_bytes": 268392064,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096093,
+        "source_bytes": 339,
+        "source_reservation_bytes": 43392,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1356,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 720184,
+          "key": "ecology-bank-rock-mid-1.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d\\ecology-bank-rock-mid-1.10d",
+          "sha256": "d6b572074184eee13af40c2c68b8e2d3d61094686b01139b00f73982fdc60b32",
+          "url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d/ecology-bank-rock-mid-1.10d"
+        },
+        {
+          "bytes": 45718,
+          "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d\\textures\\sha256\\4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d/textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+        },
+        {
+          "bytes": 59852,
+          "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d\\textures\\sha256\\c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d/textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+        },
+        {
+          "bytes": 15539,
+          "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d\\textures\\sha256\\f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d/textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "3716b2fb527eb96f8c09e387c4a52d008804a83f12a01a5e961a49ffbe4391f3",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 720184,
+        "key": "ecology-bank-rock-mid-1.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "d6b572074184eee13af40c2c68b8e2d3d61094686b01139b00f73982fdc60b32"
+      },
+      {
+        "bytes": 45718,
+        "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+      },
+      {
+        "bytes": 59852,
+        "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+      },
+      {
+        "bytes": 15539,
+        "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-bank-rock-mid-1-e8db609c8e4d.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d.hmc",
+    "receipt_url": "/artifacts/ecology-bank-rock-mid-1-e8db609c8e4d.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-bank-rock-mid-1.glb",
+  "cache_key": "26dc7505c74f7be59c1ed2a27df0e839f49f8c8b8cbda9e885ff75196f8f4c0e",
+  "recipe": "/production/aaa-environment/recipes/ecology-bank-rock-mid-1.vibe"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 9504,
+  "triangles": 18816,
+  "bytes": 2997584,
+  "source_bytes": 352488,
+  "id": "tidal-vessel--verdigris",
+  "original_sha256": "d50d37de5ce0376bd432d9da35f980f177eefbd20d39a3f4ab7d5c14e136b13e",
+  "source_sha256": "22f4cba9bf062a46ff0683a5a82a9cac878b622e390583b4dcbc76cac0c76b15",
+  "attested_sha256": "6addef4bceb9c75699ba7471c376ec178838204a20ad7f0fecac6cfb4e0e4bda",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

@@ -1,0 +1,61 @@
+{
+  "compiled_bytes": 11,
+  "count": 10,
+  "execution": "native compile_ntriples_to_bytecode + execute_program_with_stats, same core path as WASM execute_ntriples_query",
+  "query": "<urn:webizen:proof:canberra-public-reference> ?p ?o .",
+  "rows": [
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:cell_size_m>",
+      "\"15.59771004443193\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:vertices>",
+      "\"16992\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:min_elevation_m>",
+      "\"541.0\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:max_elevation_m>",
+      "\"677.0\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:height>",
+      "\"144\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:width>",
+      "\"118\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:source>",
+      "<https://registry.opendata.aws/terrain-tiles/>"
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:sourceSha256>",
+      "\"4f0e41beb1d53338a827b73f8e51021dddeaf6bb8659706200a5682d2b05aa62\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:classification>",
+      "\"Public reference landscape, not personal campsite\""
+    ],
+    [
+      "<urn:webizen:proof:canberra-public-reference>",
+      "<urn:webizen:proof:triangles>",
+      "\"33462\""
+    ]
+  ],
+  "total_quins": 153,
+  "version": 4,
+  "vm_cycles": 316
+}

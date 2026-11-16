@@ -1,0 +1,80 @@
+{
+  "runners": [
+    {
+      "bytes": 17993,
+      "source_route": "benchmark-dataset-loader.js",
+      "source_sha256": "4b03aa748b79aeefa1cdb869050c12f7935b72012c3a1406c534d7ca032a8fc4"
+    },
+    {
+      "bytes": 4931,
+      "source_route": "js/benchmark-environment.js",
+      "source_sha256": "cd6da1638ab35c80ac3fb374458bc6dc6bcfd4e5691aa02d178e2d687472d735"
+    },
+    {
+      "bytes": 74864,
+      "source_route": "js/benchmark-live.js",
+      "source_sha256": "f35643519140c2d95c186033f7e8488b3c4e2a63c7257d269a9ab8e9cc6f7aab"
+    },
+    {
+      "bytes": 9682,
+      "source_route": "js/benchmark-shared.js",
+      "source_sha256": "3ae5606ebd973ffe4cc45c7353ce7fc1d0d99de99101b1633fc55cd8451cbb80"
+    },
+    {
+      "bytes": 1025,
+      "source_route": "js/geometry-bench-worker.js",
+      "source_sha256": "d47f8f2724cd8539d298e4c8b145df1dbe55092b6150289016e15973dac0dbad"
+    },
+    {
+      "bytes": 21532,
+      "source_route": "js/geometry-bench.js",
+      "source_sha256": "f111075f3a011702ab1b179749f56c587b16d45b6d7c6e241f7cf2c8c04a83c3"
+    },
+    {
+      "bytes": 3747,
+      "source_route": "js/geometry-parallel-bench.js",
+      "source_sha256": "19d39489988698ab21c2d1ab1c8309d148d6e75af1997b6ac7eeda1cb5aba54d"
+    },
+    {
+      "bytes": 32758,
+      "source_route": "js/spatial-workbenches.js",
+      "source_sha256": "0cf0202e2c83398285b8931bd3deb45580379bbcda03ab61222907b474d64a35"
+    },
+    {
+      "bytes": 3198,
+      "source_route": "js/vibescript-bench-worker.js",
+      "source_sha256": "b755f15fd48795e38e046f5ddb7d7d00c2eb3ac7a356051bfd4ad41e5f10345a"
+    },
+    {
+      "bytes": 10520,
+      "source_route": "js/vibescript-bench.js",
+      "source_sha256": "70c05aafcfe54119207b99754fe8154da76ca651a93bd86338ab52149276adcb"
+    },
+    {
+      "bytes": 34470,
+      "source_route": "js/wasm-llm-benchmarks.js",
+      "source_sha256": "adac7e58cb011463d6540851e06104179a6a5a09aabf531ab89a86f64896d10c"
+    },
+    {
+      "bytes": 3604,
+      "source_route": "tests/run-headless.mjs",
+      "source_sha256": "900d65c42cbc7f6d047314a6bf7517fa3d8965fc4729c49f2cbb97b7f53e9d67"
+    },
+    {
+      "bytes": 16086,
+      "source_route": "tests/runner.js",
+      "source_sha256": "950a769c453439c24c0ec053e7e8a2d52c4a23b7722355fdf0420a7c058fe5e2"
+    },
+    {
+      "bytes": 5436,
+      "source_route": "tests/suite-registry.js",
+      "source_sha256": "4d6aafa3caf0ff50022f7eb92cde7ab6ccbeee59eaec6fc676c01595c8f3e8e2"
+    },
+    {
+      "bytes": 8505,
+      "source_route": "tests/test-runner.js",
+      "source_sha256": "73b5edcacc1034a63d1dc66ce6b64122c49942a6b944f682be1923fda6948f8a"
+    }
+  ],
+  "schema": "webizen.runner-source-baseline/v1"
+}

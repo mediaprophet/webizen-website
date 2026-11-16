@@ -1,0 +1,51 @@
+{
+  "schema": "webizen.experience-requirements/v1",
+  "status": "design requirements; not completed implementation",
+  "framing": "human-centric computing ecosystem",
+  "relational_geometry": [
+    "information",
+    "socioeconomic",
+    "knowledge"
+  ],
+  "central_threads": [
+    "human rights principles",
+    "human purposes",
+    "needs",
+    "support requirements",
+    "agency",
+    "participation",
+    "correction and contestability"
+  ],
+  "observer_source": "qualia-core-db/src/entity_view",
+  "observer_roles": [
+    "Principal",
+    "Peer",
+    "Guardian",
+    "Steward",
+    "Public",
+    "Instrument",
+    "Auditor"
+  ],
+  "anonymous_host_context": "Public",
+  "representation_wings": [
+    "Private",
+    "Offered",
+    "Commons"
+  ],
+  "path_inputs": [
+    "declared purpose",
+    "verified relationship/authority",
+    "circumstance",
+    "stated support requirements",
+    "chosen explanation level",
+    "available device/runtime means"
+  ],
+  "required_observable_demonstrations": [
+    "positive support with equivalent task outcome",
+    "real purpose/authority boundary",
+    "correction or contestation with dependent result",
+    "three synthetic observer paths through one graph/place",
+    "stable entity identity across immersive and reading views"
+  ],
+  "qualification": "Each promoted path needs actual graph/host/Vibe execution evidence; no hardcoded verdicts presented as execution"
+}

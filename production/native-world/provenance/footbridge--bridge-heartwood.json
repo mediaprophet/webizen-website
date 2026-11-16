@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 624,
+  "triangles": 1200,
+  "bytes": 237400,
+  "source_bytes": 38696,
+  "id": "footbridge--bridge-heartwood",
+  "original_sha256": "ff20d2c9d6991ffbb00ce8c9ddc3498e191c7de903dd689b92f811445b8cab8b",
+  "source_sha256": "95a967840e763f5637233294623eca64c03eabb5cb1dbe8353b403338ffbca6f",
+  "attested_sha256": "c6599a1a80e933b53ce69c9f05d99317b6049fff0242b51590f2578bfdbb59a9",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

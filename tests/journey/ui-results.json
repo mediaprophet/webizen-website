@@ -1,0 +1,21 @@
+{
+  "errors": [],
+  "stage_preview": true,
+  "chapters": 7,
+  "links": [
+    "/?chapter=southern-tablelands#field-studio",
+    "/?chapter=south-coast#field-studio",
+    "/?chapter=high-country#field-studio",
+    "/?chapter=riverina#field-studio",
+    "/?chapter=central-victoria#field-studio",
+    "/?chapter=western-slopes#field-studio",
+    "/?chapter=northern-rivers#field-studio"
+  ],
+  "language": "en-AU",
+  "first_focus": "Skip to landscape chapters",
+  "skip_target": "#chapters",
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  }
+}

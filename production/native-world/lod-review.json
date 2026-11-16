@@ -1,0 +1,41 @@
+{
+  "schema": "webizen.native-lod-review/v1",
+  "reviews": [
+    {
+      "target": 40000,
+      "actual_triangles": 39994,
+      "status": "accepted-near",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "directory": "previews/eucalyptus-lod40000-1794794000",
+      "finding": "Branch structure and hanging leaf canopy remain recognisable."
+    },
+    {
+      "target": 2000,
+      "actual_triangles": 1992,
+      "status": "rejected",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "directory": "previews/eucalyptus-lod2000-1794794023",
+      "finding": "Severe leaf loss and disconnected twig fragments; excluded from scene."
+    },
+    {
+      "target": 8000,
+      "actual_triangles": 7992,
+      "status": "accepted-distant-only",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "directory": "previews/eucalyptus-lod8000-1794794223",
+      "finding": "Reduced foliage retains recognisable hanging-leaf canopy at distance;12distant instances instead of30extremely sparse instances."
+    }
+  ]
+}

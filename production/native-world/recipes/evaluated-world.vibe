@@ -1,0 +1,332 @@
+// The world is authored here and in the Q42 graph. Rust hosts this program;
+// the browser's generated WASM loader does not construct or control the scene.
+module living_world;
+import "vibe:0.1/math" as math;
+
+pure fn clamp(v: f64, lo: f64, hi: f64) -> f64 {
+    return math.min(hi, math.max(lo, v));
+}
+
+pure fn river_x(z: f64) -> f64 {
+    return math.sin(z * 0.044) * 10.0 + math.sin(z * 0.095) * 3.0;
+}
+
+pure fn natural_height(x: f64, z: f64) -> f64 {
+    let d = math.abs(x - river_x(z));
+    let bank = 1.0 - math.exp(-math.pow(d / 9.0, 2.0));
+    let noise = math.sin(x * 0.11 + z * 0.07) * 0.5
+        + math.sin(x * 0.28 - z * 0.16) * 0.22
+        + math.cos(z * 0.39 + x * 0.2) * 0.12
+        + math.sin(x * 0.73 + z * 0.61) * 0.05;
+    let valley = 0.35 + bank * (2.4 + math.max(0.0, math.abs(x) - 15.0) * 0.22);
+    let mountain = math.pow(math.max(0.0, (-z - 25.0) / 65.0), 1.4)
+        * (7.0 + 12.0 * math.pow(math.sin(x * 0.055 + 1.2), 2.0));
+    return valley + mountain + noise * bank * (1.4 + mountain * 0.17)
+        - math.exp(-d * d / 16.0) * 1.4;
+}
+
+pure fn terrain_height(x: f64, z: f64) -> f64 {
+    let d = math.sqrt((x + 22.0) * (x + 22.0) + (z - 28.0) * (z - 28.0));
+    let level = natural_height(-22.0, 28.0);
+    let t = clamp((d - 8.0) / 5.0, 0.0, 1.0);
+    return level + (natural_height(x, z) - level) * t * t * (3.0 - 2.0 * t);
+}
+
+pure fn view(id: String, x: f64, z: f64, dx: f64, dy: f64, dz: f64) -> Record {
+    let y = terrain_height(x, z) + 1.0;
+    return {id: id, position: [x, y, z], camera: [x + dx, y + dy, z + dz]};
+}
+
+pure fn scene_positions() -> List {
+    return [
+        view("river", 0.0, 16.0, 12.0, 8.0, 14.0),
+        view("canopy", -20.0, -16.0, 10.0, 8.0, 12.0),
+        view("commons", -17.0, 6.0, 9.0, 6.0, 9.0),
+        view("atelier", 20.0, -7.0, 10.0, 5.0, 11.0),
+        view("observatory", -15.0, -32.0, 11.0, 7.0, 13.0),
+        view("biology", 17.0, -37.0, 9.0, 5.0, 10.0),
+        view("field-studio", -22.0, 28.0, 11.0, 3.3, 15.0)
+    ];
+}
+
+pure fn world_settings() -> Record {
+    return {
+        default_locale: "en-AU",
+        marker_height: 3.0,
+        marker_sigma: 0.42,
+        marker_alpha: 1.0,
+        sky_preset: 1,
+        sun: [-0.5, 0.8, 0.35, 2.2, 0.45],
+        camera: {yaw: 0.63275, pitch: 0.17555, zoom: 18.8915, target: [-22.0, 5.490921689, 28.0]},
+        water: {colour: [0.055, 0.24, 0.25, 0.88], amplitude: 0.035, frequency: 1.4, quality: 1},
+        max_dpr: 1.5
+    };
+}
+
+pure fn select_place(places: List, id: String) budget(steps: 10000) -> Record {
+    for place in places {
+        if place.id == id { return place; }
+    }
+    return {id: ""};
+}
+
+pure fn input_camera(camera: Record, event: Record) -> Record {
+    let orbit = event.kind == "orbit";
+    let pan = event.kind == "pan";
+    let zoom = event.kind == "zoom";
+    let yaw = camera.yaw + if orbit { event.dx * 0.005 } else { 0.0 };
+    let pitch = clamp(camera.pitch + if orbit { event.dy * 0.005 } else { 0.0 }, 0.04, 1.45);
+    let distance = clamp(camera.zoom * if zoom { math.exp(event.dy * 0.001) } else { 1.0 }, 3.0, 150.0);
+    let px = if pan { event.dx * camera.zoom * 0.0015 } else { 0.0 };
+    let pz = if pan { event.dy * camera.zoom * 0.0015 } else { 0.0 };
+    return {yaw: yaw, pitch: pitch, zoom: distance, target: [camera.target[0] + px, camera.target[1], camera.target[2] + pz]};
+}
+
+pure fn contains_id(ids: List, id: String) budget(steps: 10000) -> bool {
+    for candidate in ids { if candidate == id { return true; } }
+    return false;
+}
+
+pure fn is_place(places: List, id: String) budget(steps: 10000) -> bool {
+    for place in places { if place.id == id { return true; } }
+    return false;
+}
+
+// Presentation order only. A declared purpose never grants access or authority.
+// Anchors and relation preferences are facts decoded from the actual Q42 volume.
+pure fn observer_path(places: List, edges: List, purpose: String) budget(steps: 200000) -> List {
+    let mut anchor = "";
+    let mut preference = "";
+    let mut relationships = [];
+    for edge in edges {
+        if edge.subject == purpose && edge.predicate == "startsAt" { anchor = edge.object; }
+        if edge.subject == purpose && edge.predicate == "prefersRelation" { preference = edge.object; }
+        if edge.predicate == "knowledge" || edge.predicate == "information" || edge.predicate == "socioeconomic" {
+            relationships = relationships.push(edge);
+        }
+    }
+    if !is_place(places, anchor) { return []; }
+    let mut queue = [anchor];
+    let mut route = [];
+    let mut cursor = 0;
+    for unused in places {
+        if cursor < len(queue) {
+            let current = queue[cursor];
+            cursor = cursor + 1;
+            route = route.push(current);
+            for relation in [preference, "knowledge", "information", "socioeconomic"] {
+                for edge in relationships {
+                    if edge.subject == current && edge.predicate == relation
+                        && is_place(places, edge.object) && !contains_id(queue, edge.object) {
+                        queue = queue.push(edge.object);
+                    }
+                }
+            }
+        }
+    }
+    for place in places {
+        if !contains_id(route, place.id) { route = route.push(place.id); }
+    }
+    return route;
+}
+
+pure fn chapter_settings(chapters: List, id: String) budget(steps: 10000) -> Record {
+    for chapter in chapters {
+        if chapter.id == id {
+            // The native host decodes the Q42 palette's sRGB notation to linear
+            // colour. Atmosphere selection remains part of this authored work.
+            let sky = chapter.palette_linear[3];
+            return {
+                id: chapter.id, title: chapter.title,
+                landscape_copy: chapter.landscape_copy,
+                month_bands: chapter.month_bands,
+                artistic_palette: chapter.artistic_palette,
+                sky_colour: [sky[0], sky[1], sky[2], 1.0],
+                sun: [-0.5, 0.8, 0.35, 2.2, 0.45]
+            };
+        }
+    }
+    return {id: ""};
+}
+
+// Concatenate after living-world.vibe. These are fictional scene metres, not geography.
+pure fn asset_instance(asset: String, id: String, x: f64, z: f64, offset: f64, yaw: f64, scale: f64) -> Record {
+    return {asset: asset, id: id, translation: [x, terrain_height(x,z)+offset, z], rotation: [0.0, math.sin(yaw/2.0), 0.0, math.cos(yaw/2.0)], scale: [scale,scale,scale]};
+}
+pure fn asset_placements() -> List {
+    return [
+        asset_instance("car-passat-b7","car-passat-b7",-25.5,29.3,0.0,-0.12,1.0),
+        asset_instance("vintage-windup-camper","vintage-windup-camper",-21.0,28.0,0.0,0.0,1.0),
+        asset_instance("solar-array-three","solar-three-a",-22.5,33.1,0.0,-0.08,1.0),
+        asset_instance("solar-array-three","solar-three-b",-19.8,33.1,0.0,0.05,1.0),
+        asset_instance("solar-array-two","solar-two",-17.4,32.7,0.0,0.18,1.0),
+        asset_instance("starlink-mini","starlink-mini",-20.3,27.35,2.72,0.0,1.0),
+        asset_instance("eucalyptus","eucalyptus-1",-35.0,19.0,0.0,0.3,0.95),
+        asset_instance("eucalyptus","eucalyptus-2",-24.0,11.0,0.0,1.7,1.05),
+        asset_instance("eucalyptus","eucalyptus-3",-10.0,16.0,0.0,2.4,0.85),
+        asset_instance("eucalyptus","eucalyptus-4",-38.0,32.0,0.0,3.2,1.0),
+        asset_instance("eucalyptus","eucalyptus-5",-35.0,44.0,0.0,4.4,0.8),
+        asset_instance("eucalyptus","eucalyptus-6",-18.0,4.0,0.0,5.2,0.9),
+        asset_instance("eucalyptus-far","west-woodland-0-0",-50.0,-55.0,0.0,0.0,0.7),
+        asset_instance("eucalyptus-far","west-woodland-0-2",-50.0,-5.0,0.0,0.74,0.94),
+        asset_instance("eucalyptus-far","west-woodland-0-4",-50.0,50.0,0.0,1.48,0.7),
+        asset_instance("eucalyptus-far","west-woodland-2-0",-75.0,-55.0,0.0,3.7,0.94),
+        asset_instance("eucalyptus-far","west-woodland-2-2",-75.0,-5.0,0.0,4.44,0.7),
+        asset_instance("eucalyptus-far","west-woodland-2-4",-75.0,50.0,0.0,5.18,0.94),
+        asset_instance("eucalyptus-far","east-woodland-0-0",35.0,-60.0,0.0,0.0,0.7),
+        asset_instance("eucalyptus-far","east-woodland-0-2",35.0,-10.0,0.0,0.74,0.94),
+        asset_instance("eucalyptus-far","east-woodland-0-4",35.0,50.0,0.0,1.48,0.7),
+        asset_instance("eucalyptus-far","east-woodland-2-0",70.0,-60.0,0.0,3.7,0.94),
+        asset_instance("eucalyptus-far","east-woodland-2-2",70.0,-10.0,0.0,4.44,0.7),
+        asset_instance("eucalyptus-far","east-woodland-2-4",70.0,50.0,0.0,5.18,0.94),
+        asset_instance("canopy","canopy",-17.0,6.0,0.2925,0.0,0.45),
+        asset_instance("tidal-vessel","tidal-vessel",20.0,-7.0,0.52,0.0,0.8),
+        asset_instance("memory-frond","memory-frond",-20.0,-16.0,0.39,0.0,0.6),
+        {asset:"footbridge",id:"footbridge",translation:[river_x(4.0),1.1,4.0],rotation:[0.0,0.0,0.0,1.0],scale:[1.0,1.0,1.0]},
+        asset_instance("observatory","observatory",-15.0,-32.0,0.0,0.0,1.0),
+        asset_instance("biology","biology",17.0,-37.0,0.0,0.0,1.0)
+    ];
+}
+pure fn river_ring(z: f64) -> List {
+    let x = river_x(z);
+    let w = 3.2 + 0.7 * math.sin(z*0.08);
+    return [[x-w,0.08,z],[x+w,0.08,z],[x+w,0.025,z],[x-w,0.025,z]];
+}
+
+pure fn river_sections() -> List {
+ return [
+  river_ring(-85.0),
+  river_ring(-83.671875),
+  river_ring(-82.34375),
+  river_ring(-81.015625),
+  river_ring(-79.6875),
+  river_ring(-78.359375),
+  river_ring(-77.03125),
+  river_ring(-75.703125),
+  river_ring(-74.375),
+  river_ring(-73.046875),
+  river_ring(-71.71875),
+  river_ring(-70.390625),
+  river_ring(-69.0625),
+  river_ring(-67.734375),
+  river_ring(-66.40625),
+  river_ring(-65.078125),
+  river_ring(-63.75),
+  river_ring(-62.421875),
+  river_ring(-61.09375),
+  river_ring(-59.765625),
+  river_ring(-58.4375),
+  river_ring(-57.109375),
+  river_ring(-55.78125),
+  river_ring(-54.453125),
+  river_ring(-53.125),
+  river_ring(-51.796875),
+  river_ring(-50.46875),
+  river_ring(-49.140625),
+  river_ring(-47.8125),
+  river_ring(-46.484375),
+  river_ring(-45.15625),
+  river_ring(-43.828125),
+  river_ring(-42.5),
+  river_ring(-41.171875),
+  river_ring(-39.84375),
+  river_ring(-38.515625),
+  river_ring(-37.1875),
+  river_ring(-35.859375),
+  river_ring(-34.53125),
+  river_ring(-33.203125),
+  river_ring(-31.875),
+  river_ring(-30.546875),
+  river_ring(-29.21875),
+  river_ring(-27.890625),
+  river_ring(-26.5625),
+  river_ring(-25.234375),
+  river_ring(-23.90625),
+  river_ring(-22.578125),
+  river_ring(-21.25),
+  river_ring(-19.921875),
+  river_ring(-18.59375),
+  river_ring(-17.265625),
+  river_ring(-15.9375),
+  river_ring(-14.609375),
+  river_ring(-13.28125),
+  river_ring(-11.953125),
+  river_ring(-10.625),
+  river_ring(-9.296875),
+  river_ring(-7.96875),
+  river_ring(-6.640625),
+  river_ring(-5.3125),
+  river_ring(-3.984375),
+  river_ring(-2.65625),
+  river_ring(-1.328125),
+  river_ring(0.0),
+  river_ring(1.328125),
+  river_ring(2.65625),
+  river_ring(3.984375),
+  river_ring(5.3125),
+  river_ring(6.640625),
+  river_ring(7.96875),
+  river_ring(9.296875),
+  river_ring(10.625),
+  river_ring(11.953125),
+  river_ring(13.28125),
+  river_ring(14.609375),
+  river_ring(15.9375),
+  river_ring(17.265625),
+  river_ring(18.59375),
+  river_ring(19.921875),
+  river_ring(21.25),
+  river_ring(22.578125),
+  river_ring(23.90625),
+  river_ring(25.234375),
+  river_ring(26.5625),
+  river_ring(27.890625),
+  river_ring(29.21875),
+  river_ring(30.546875),
+  river_ring(31.875),
+  river_ring(33.203125),
+  river_ring(34.53125),
+  river_ring(35.859375),
+  river_ring(37.1875),
+  river_ring(38.515625),
+  river_ring(39.84375),
+  river_ring(41.171875),
+  river_ring(42.5),
+  river_ring(43.828125),
+  river_ring(45.15625),
+  river_ring(46.484375),
+  river_ring(47.8125),
+  river_ring(49.140625),
+  river_ring(50.46875),
+  river_ring(51.796875),
+  river_ring(53.125),
+  river_ring(54.453125),
+  river_ring(55.78125),
+  river_ring(57.109375),
+  river_ring(58.4375),
+  river_ring(59.765625),
+  river_ring(61.09375),
+  river_ring(62.421875),
+  river_ring(63.75),
+  river_ring(65.078125),
+  river_ring(66.40625),
+  river_ring(67.734375),
+  river_ring(69.0625),
+  river_ring(70.390625),
+  river_ring(71.71875),
+  river_ring(73.046875),
+  river_ring(74.375),
+  river_ring(75.703125),
+  river_ring(77.03125),
+  river_ring(78.359375),
+  river_ring(79.6875),
+  river_ring(81.015625),
+  river_ring(82.34375),
+  river_ring(83.671875),
+  river_ring(85.0)
+ ];
+}
+
+let placements = asset_placements();
+let river_rings = river_sections();
+let ground_y = terrain_height(-22.0,28.0);

@@ -1,0 +1,13 @@
+export const DEFAULT_LOCALE='en-AU';
+const preferenceKey='webizen.locale.preference';
+let current='en',dictionary={},english={},requested=DEFAULT_LOCALE,messageLanguages={};let translatorListeners=[];
+const rtlScripts=new Set(['Arab','Hebr','Thaa','Nkoo','Adlm','Rohg','Syrc']);
+export const languagePacks=[['en-AU','English (Australia)'],['ar','العربية'],['zh','中文'],['es','Español'],['fr','Français'],['hi','हिन्दी']];
+export function canonicalLocale(tag){return new Intl.Locale(tag).toString();}
+export function direction(tag){const l=new Intl.Locale(tag);return l.getTextInfo?.().direction||l.textInfo?.direction||(rtlScripts.has(l.maximize().script)?'rtl':'ltr');}
+export async function setLocale(tag,{persist=true}={}){requested=canonicalLocale(tag);const locale=new Intl.Locale(requested);current=locale.language;if(!Object.keys(english).length)english=await fetch('/locales/en-AU.json').then(r=>{if(!r.ok)throw Error('Australian English language pack unavailable');return r.json();});dictionary={};messageLanguages={};const candidates=[current,locale.script?current+'-'+locale.script:null,locale.baseName].filter(Boolean);for(const pack of new Set(candidates)){const messages=pack==='en'||pack===DEFAULT_LOCALE?english:await fetch('/locales/'+pack+'.json').then(r=>r.ok?r.json():{}).catch(()=>({}));for(const[key,value]of Object.entries(messages)){if(typeof value==='string'){dictionary[key]=value;messageLanguages[key]=pack==='en'?DEFAULT_LOCALE:pack;}}}document.documentElement.lang=requested;document.documentElement.dir=direction(requested);try{if(persist)localStorage.setItem(preferenceKey,requested);localStorage.setItem('webizen.locale',requested);}catch{}for(const f of translatorListeners)f();return localeState();}
+export function t(key,values={}){let text=dictionary[key]??english[key]??key;for(const[k,v]of Object.entries(values))text=text.replaceAll('{'+k+'}',new Intl.NumberFormat(requested).format(v));return text;}
+export function localize(el,key){el.textContent=t(key);el.lang=messageLanguages[key]||DEFAULT_LOCALE;el.dir=direction(el.lang);}
+export function localeState(){return{requested,base:current,default:DEFAULT_LOCALE,dir:direction(requested),fallback:!Object.keys(dictionary).length,translated:Object.keys(dictionary).length,total:Object.keys(english).length};}
+export function onLocale(f){translatorListeners.push(f);}
+export function initialLocale(){try{const chosen=localStorage.getItem(preferenceKey);if(chosen)return canonicalLocale(chosen);const legacy=localStorage.getItem('webizen.locale');if(legacy&&new Intl.Locale(legacy).language!=='en')return canonicalLocale(legacy);}catch{}return DEFAULT_LOCALE;}

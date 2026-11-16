@@ -1,0 +1,858 @@
+{
+  "schema": "webizen.native-art-validation/v1",
+  "validated_at": "2026-11-16T00:58:21.628763+00:00",
+  "parts": 141,
+  "triangles": 51930,
+  "exact_dxf_faces": true,
+  "model_sha256": "4a67a010558eed70b4b9c7185cad1f667041f2a10d5652ab4317961041b21090",
+  "strict_replay_verified": true,
+  "catalog_count": 150,
+  "checks": [
+    {
+      "part": "sculpted-gold-coachwork",
+      "triangles": 5216,
+      "exact_dxf_faces": true,
+      "sha256": "04f5c013e551caff0bbb8c98cb7b861113160119ae2dd53d45d0267b1da66610"
+    },
+    {
+      "part": "estate-roof-and-pillars",
+      "triangles": 306,
+      "exact_dxf_faces": true,
+      "sha256": "2397e954b83619cbe36752a3789dbd50b05e74266a7a6345f984c7e4bfb2d77f"
+    },
+    {
+      "part": "left-front-door-glazing",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "cdbd9fb1873659fb4491a031d72fdf63a8f531c26b3c5c05d12de9f12572b79a"
+    },
+    {
+      "part": "left-rear-door-glazing",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "85178eeb3038591b0242db7964c94905521fa8a0b7b33fa41cf3af211d5dab75"
+    },
+    {
+      "part": "left-estate-quarter-glazing",
+      "triangles": 20,
+      "exact_dxf_faces": true,
+      "sha256": "bddb586a55d049d7b1efe71c39f798c9f31e6c0a86f505eccd8e0cc52f96a7ed"
+    },
+    {
+      "part": "left-window-chrome-waist",
+      "triangles": 144,
+      "exact_dxf_faces": true,
+      "sha256": "fc9b3315f264bb10ddd97ff4c8d6537fe3319c0398aecce9b79a44da6b9b8034"
+    },
+    {
+      "part": "left-window-chrome-crown",
+      "triangles": 176,
+      "exact_dxf_faces": true,
+      "sha256": "1e225a64be15edf304f7fcdd04f3e6edaf01602fbc41e3e89f404cb2fcddcc9c"
+    },
+    {
+      "part": "left-roof-rail",
+      "triangles": 180,
+      "exact_dxf_faces": true,
+      "sha256": "5168da0504712663f4493a8b04a5a7ba85f1fbf2fb6f0a5fb4a36b8535a84a4a"
+    },
+    {
+      "part": "left-rail-foot--1.7",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "fb5d2be52ac29d24e16d9e6e7272169098255903a0d3ff2d333d518163874a32"
+    },
+    {
+      "part": "left-rail-foot-0.08",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "5cdcce298c559d1343569b90863ed8b3635ad082df667249bca37e247d9d72c5"
+    },
+    {
+      "part": "left-door-seam--1.25",
+      "triangles": 84,
+      "exact_dxf_faces": true,
+      "sha256": "9a57a49b391bad4cea4dee7f43cd7418cfe32db915982e4b2c495159028dfb75"
+    },
+    {
+      "part": "left-door-seam--0.37",
+      "triangles": 84,
+      "exact_dxf_faces": true,
+      "sha256": "046a72f0dda64ccb48b83bff2fdde632ad22803e0ca4bd2434c666c1d446e00a"
+    },
+    {
+      "part": "left-door-seam-0.96",
+      "triangles": 84,
+      "exact_dxf_faces": true,
+      "sha256": "14892e178bd2b213059cc2fafbac025053e96da90371c6aace31e7bbf8a01195"
+    },
+    {
+      "part": "left-sill-moulding",
+      "triangles": 112,
+      "exact_dxf_faces": true,
+      "sha256": "f5faa6698c0bb707037e82991a31d5f542ce23bd633fcae963731e105fbd1a9e"
+    },
+    {
+      "part": "left-door-handle--0.92",
+      "triangles": 40,
+      "exact_dxf_faces": true,
+      "sha256": "197659c1986bfbd916a8452ffecbe37a9ac8bfb8ce677ed6a1e7ef7a0f0d96dc"
+    },
+    {
+      "part": "left-door-handle-0.6",
+      "triangles": 40,
+      "exact_dxf_faces": true,
+      "sha256": "405a676b4c21a92fca0ff78350c43a646942a8871b68cf283801b1e757591d3a"
+    },
+    {
+      "part": "left-mirror-stalk",
+      "triangles": 40,
+      "exact_dxf_faces": true,
+      "sha256": "e28be7884eb834fb9f8641c027d2cf8738c0f9d62c43971a6b3d75156bb49a81"
+    },
+    {
+      "part": "left-gold-mirror",
+      "triangles": 224,
+      "exact_dxf_faces": true,
+      "sha256": "2680020cb358b95e8add082a1933099270a31e27221322281062c81acc8d4a04"
+    },
+    {
+      "part": "left-mirror-glass",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "f2637ebe4658cb7175bccd04a28b599f355eb7da79494bf227ba9bda65e93c57"
+    },
+    {
+      "part": "left-front-arch-lip",
+      "triangles": 1040,
+      "exact_dxf_faces": true,
+      "sha256": "b8a3a3ca9484f0d1ffed5bc03b3fa61673ae39e7bf0e93026962f44be587cd87"
+    },
+    {
+      "part": "left-front-tyre",
+      "triangles": 1408,
+      "exact_dxf_faces": true,
+      "sha256": "6f067c3b434aa3fe21423b509702cbc2e14e8ec0f971afc9a62ede278a6316ff"
+    },
+    {
+      "part": "left-front-brake-disc",
+      "triangles": 256,
+      "exact_dxf_faces": true,
+      "sha256": "702d33781e9ced5861678d1cb58c98da0b350feefd9586b9140d4ca2e67525aa"
+    },
+    {
+      "part": "left-front-rim-lip",
+      "triangles": 2064,
+      "exact_dxf_faces": true,
+      "sha256": "0cc21ffb4ebbbbde0f972f9247ab6917290cab847b8a5e2e75adc33a4370ad75"
+    },
+    {
+      "part": "left-front-spoke-0",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "e92c81699db99502fb3ec96b66fcd060851f6ca67bb79befb4362205a4544c37"
+    },
+    {
+      "part": "left-front-spoke-1",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "1d32a8acc380bf0dc814e218402eae79e8a93ad0e5a8982331ecc0c6a8329522"
+    },
+    {
+      "part": "left-front-spoke-2",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "b86dda238a59b9ed249ab7b4ed389f89661ede7b529a2212b72b6e5c1b4b6ee4"
+    },
+    {
+      "part": "left-front-spoke-3",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "a3735b851f8601aac68ed31ef90faf0251036654135a7e0b712873581b75d74a"
+    },
+    {
+      "part": "left-front-spoke-4",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "a9e4d3481563fd97955eea025baf0ca0d3e74807e3823ac520914b883c2e068f"
+    },
+    {
+      "part": "left-front-spoke-5",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "534a20c2bb51fdda80721fad6ad51b944fb620deb798d082702dae803126f6ce"
+    },
+    {
+      "part": "left-front-spoke-6",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "676decf71c800fed9642b0db25ed39943aebc9003dfb0f128308aec8410c4778"
+    },
+    {
+      "part": "left-front-spoke-7",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "2c250ae0e5c93f96278f6b1cea493b4653d48a55588806e0d5ffde2e80b578b2"
+    },
+    {
+      "part": "left-front-spoke-8",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "ab5a346e012afbce3710e0d3da66a5090dd69f8cf4296966ddbef54e7568b32e"
+    },
+    {
+      "part": "left-front-spoke-9",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "3ce361a6963de0a478ef830438a0fcf2208ac383248719995c43f117422e6f8d"
+    },
+    {
+      "part": "left-front-hub",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "e4aae84a513ac57867cf423be6a2bb96771e9361e57316d98396eca37ab09120"
+    },
+    {
+      "part": "left-front-hub-badge",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "6a688c115a8c1039f348725a507e15e39ab34bd246f5cc79c73efc051a85cbef"
+    },
+    {
+      "part": "left-rear-arch-lip",
+      "triangles": 1040,
+      "exact_dxf_faces": true,
+      "sha256": "7e753b6c0b5df6329d04a4241cff84eda438271baa9bb55b570b3ec306d5acf8"
+    },
+    {
+      "part": "left-rear-tyre",
+      "triangles": 1408,
+      "exact_dxf_faces": true,
+      "sha256": "1e3a328d38925b627778a1e9be62b478070e6c7d7809b9d08d5d1c380fbc340c"
+    },
+    {
+      "part": "left-rear-brake-disc",
+      "triangles": 256,
+      "exact_dxf_faces": true,
+      "sha256": "9ddbc3f91db75abf1b978a22191b43773ad914c7679253ada11081912c9987fa"
+    },
+    {
+      "part": "left-rear-rim-lip",
+      "triangles": 2064,
+      "exact_dxf_faces": true,
+      "sha256": "4b5c550bbe3539503d923f159ac8504193540588ba835760e74aa90c85bd1d95"
+    },
+    {
+      "part": "left-rear-spoke-0",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "740ec09ffe5d984cca7075372a53c3ece35bcc88a2da868a4a448f9d28bde01c"
+    },
+    {
+      "part": "left-rear-spoke-1",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "1e6a9faad8c53f4c07b784046ec9c5c83eb19b1638980586e7b6fa10240f3a80"
+    },
+    {
+      "part": "left-rear-spoke-2",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "2a9a78dab3b2e877d8bbeb58582f99b5a4ca2592180087cadf1074f784bb1968"
+    },
+    {
+      "part": "left-rear-spoke-3",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "8b73c6f750ec32eafdeb97f252bf5c28f2656a5d43c78d6e02c61ed0374e95fc"
+    },
+    {
+      "part": "left-rear-spoke-4",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "90f2c1947fe40830d07fd3248b22f630f86def1b13530f1e8234879518393f33"
+    },
+    {
+      "part": "left-rear-spoke-5",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "4c17f47faee65e2305d3215ccaddaf57c7e219364342c2d04a55b0155bd101cb"
+    },
+    {
+      "part": "left-rear-spoke-6",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "8f77b3c3951269941b214c538fbebf9191a4bf52b6f5979c901bd31fd8415509"
+    },
+    {
+      "part": "left-rear-spoke-7",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "bbdfd9187361e1e9fa8862cbea0038895711dec8999318f65bf7fa91f680a256"
+    },
+    {
+      "part": "left-rear-spoke-8",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "f0a2fb24a64e56df6035566ed64991995ef8248a66f5d4c041e5062d8b629c9c"
+    },
+    {
+      "part": "left-rear-spoke-9",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "45489bc8bdb3ecc6744943a58a4d82887c3dab5e7d8245ff4d2641cb3b60bfbb"
+    },
+    {
+      "part": "left-rear-hub",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "bf014a9a3de40ce784c530d9e40351faf553e10170dca90f1310d8b65d0083d7"
+    },
+    {
+      "part": "left-rear-hub-badge",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "9383de0e6daad59ebd6d66f5acba925af1ddad277f2bbf5e590c00f0d3311c01"
+    },
+    {
+      "part": "right-front-door-glazing",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "5bb0c670352cdf7a5579f7452b64ae605e3c0ac2d32463f4e2695c68eee7a866"
+    },
+    {
+      "part": "right-rear-door-glazing",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "f4df685a4b4e74489fcadd501c92d39bf79951cecd4da7c27d46162acead7073"
+    },
+    {
+      "part": "right-estate-quarter-glazing",
+      "triangles": 20,
+      "exact_dxf_faces": true,
+      "sha256": "0067e3bd6c94273b0b1e997c6e60a26d3c0925cdb069908fed091f655f21a9b7"
+    },
+    {
+      "part": "right-window-chrome-waist",
+      "triangles": 144,
+      "exact_dxf_faces": true,
+      "sha256": "2b382e2c64ab043d7502428289c9a238e41616b1a0c65b779aebfede1f7654a2"
+    },
+    {
+      "part": "right-window-chrome-crown",
+      "triangles": 176,
+      "exact_dxf_faces": true,
+      "sha256": "9e3867556b17d6d52fefa5be8e1d8ddafbd1b5db4e9ce50108f1598a4334976f"
+    },
+    {
+      "part": "right-roof-rail",
+      "triangles": 180,
+      "exact_dxf_faces": true,
+      "sha256": "1c488579efb235dd0192795238bdb0dc051142ff73b5110d9cb340ac081f7298"
+    },
+    {
+      "part": "right-rail-foot--1.7",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "f1044a2bd0024b84bcdbd5693d5d80f3de756dca7526f4136152e6aae952c3d1"
+    },
+    {
+      "part": "right-rail-foot-0.08",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "6226a2bdf1ad0794da0bbccece9ffd734387aead3d30cbcb90c1de302f87d824"
+    },
+    {
+      "part": "right-door-seam--1.25",
+      "triangles": 84,
+      "exact_dxf_faces": true,
+      "sha256": "b301d199c57e07560c7eb6a521f4cb22834dc6ec7d44271eb05c7384935f12c7"
+    },
+    {
+      "part": "right-door-seam--0.37",
+      "triangles": 84,
+      "exact_dxf_faces": true,
+      "sha256": "5a5700eca39d8c611be5a33ea8b0c486c989fb58517e53faf93f1a1eb4b81484"
+    },
+    {
+      "part": "right-door-seam-0.96",
+      "triangles": 84,
+      "exact_dxf_faces": true,
+      "sha256": "79237bfd898abc834e81146275d394174ac59141020095e312985b6c3f796b3b"
+    },
+    {
+      "part": "right-sill-moulding",
+      "triangles": 112,
+      "exact_dxf_faces": true,
+      "sha256": "c0dc5fef2b2778df728c173b737a43f60496e10e46e4e0fd5878b2e61662dba5"
+    },
+    {
+      "part": "right-door-handle--0.92",
+      "triangles": 40,
+      "exact_dxf_faces": true,
+      "sha256": "8b74057c437cc04bc701a23a87fb3c1ad16c970a78d1b3e32db75c6bc0fbbcda"
+    },
+    {
+      "part": "right-door-handle-0.6",
+      "triangles": 40,
+      "exact_dxf_faces": true,
+      "sha256": "1d2f5da13aeb3b670f0b9bef340cac7c493ec28cc8ac06d9ec6c345c8ed186b2"
+    },
+    {
+      "part": "right-mirror-stalk",
+      "triangles": 40,
+      "exact_dxf_faces": true,
+      "sha256": "b69ba265190e86bd74979e5cd7bc26df958c41452071fe6699e51e426948ef46"
+    },
+    {
+      "part": "right-gold-mirror",
+      "triangles": 224,
+      "exact_dxf_faces": true,
+      "sha256": "e0394fd5af8f5140a3c5b801cc3bdcfedace492f0b190922e89d99b915cf0bef"
+    },
+    {
+      "part": "right-mirror-glass",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "1c598dd9cb931b3579d1adc6e8c2d1f35f07c5aa1fbc833f771efd0e6cee95ed"
+    },
+    {
+      "part": "right-front-arch-lip",
+      "triangles": 1040,
+      "exact_dxf_faces": true,
+      "sha256": "7946963ba6d41f8710bdd5644aa24f4c292252db2cfafa0a9bfaa819a628de41"
+    },
+    {
+      "part": "right-front-tyre",
+      "triangles": 1408,
+      "exact_dxf_faces": true,
+      "sha256": "33a28523ba4ac7fe05eaf342e26a155bd5d891b24cca89db31880d8e7326c71c"
+    },
+    {
+      "part": "right-front-brake-disc",
+      "triangles": 256,
+      "exact_dxf_faces": true,
+      "sha256": "60abc566767689b5bc080d0b9aa1a5ab148287ce861c62375ee30bd17a3116b2"
+    },
+    {
+      "part": "right-front-rim-lip",
+      "triangles": 2064,
+      "exact_dxf_faces": true,
+      "sha256": "2f30b2ac6c3fbec28bbde9f955a6019e2c512f3db820185c5313df7d8e959909"
+    },
+    {
+      "part": "right-front-spoke-0",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "d0be903d9766c981821bcb208a2bb92edb7755a782bd0ab46d3aa980ba2c6c84"
+    },
+    {
+      "part": "right-front-spoke-1",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "1a363053d3647dc82b3c5c2368bad56df5dd857793b992c62be0733aa4d52af6"
+    },
+    {
+      "part": "right-front-spoke-2",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "3916437aa1ee2d0b8855b4abc4163b8c458722554097410870a55dbaa423a587"
+    },
+    {
+      "part": "right-front-spoke-3",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "aa517c904fe889292186f504fe4d25ecb7bf82b839698293267e781833a902bf"
+    },
+    {
+      "part": "right-front-spoke-4",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "a08c7ef8b8ec1d0119b9d8060408997b3c928b08cff1e9d879f19b71a369adae"
+    },
+    {
+      "part": "right-front-spoke-5",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "da2e2b2af24bbec691d6fc51dcedba359c8e2895a15cfb43a8af583527975480"
+    },
+    {
+      "part": "right-front-spoke-6",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "be8368730270f82737622dc7e334ec3b00bc90be1e859de6b899530b7937d6e1"
+    },
+    {
+      "part": "right-front-spoke-7",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "87a44ee0d6e99fe0fc92837cb1614c34e42cc240d7834ced8e85e5ddb6cee6a1"
+    },
+    {
+      "part": "right-front-spoke-8",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "dc19da8d407fe6b1b4b9e1933ee98e28f99b028f1f33461fd3c37f699d3cd334"
+    },
+    {
+      "part": "right-front-spoke-9",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "c6413664bfb60e9d6a13c3407a59552ec53647a781f71b50175c6ccae5bb6968"
+    },
+    {
+      "part": "right-front-hub",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "2c56ba4930e7e9b05c8c9e99f10a4c81f586d63f36720f57957b3315f2367dcf"
+    },
+    {
+      "part": "right-front-hub-badge",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "6808f45879b5cde7101e1ea3f7b8b2b92b66fce96a290c83218f2fbce72f1f67"
+    },
+    {
+      "part": "right-rear-arch-lip",
+      "triangles": 1040,
+      "exact_dxf_faces": true,
+      "sha256": "8074f17381db8f45eebf5b23ce56ee07aeb4f7b946103449e2988df0b555ab8c"
+    },
+    {
+      "part": "right-rear-tyre",
+      "triangles": 1408,
+      "exact_dxf_faces": true,
+      "sha256": "4d39e1a40db524021a550f238ccb98877d6d3488e086a78f1144493968350d82"
+    },
+    {
+      "part": "right-rear-brake-disc",
+      "triangles": 256,
+      "exact_dxf_faces": true,
+      "sha256": "6ef3ea562bef22212cf1731154126f04fb82ee2be4130e99822529fefa7b0c70"
+    },
+    {
+      "part": "right-rear-rim-lip",
+      "triangles": 2064,
+      "exact_dxf_faces": true,
+      "sha256": "17ebf5e1432babfeac2e03fd33b8365e524ca130719657bb1e175a20e5cdd9cd"
+    },
+    {
+      "part": "right-rear-spoke-0",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "529407f2843e75bf6b189fb622c3916002b98d91883859470c189e663c6525fd"
+    },
+    {
+      "part": "right-rear-spoke-1",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "361b3c7c69226d8726e96274d663de70f9d4c91791fe19c2973d4c44fd6c5f5d"
+    },
+    {
+      "part": "right-rear-spoke-2",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "14f5d39c4facfa97d8f02f9eae95af6700f9facf048df20559fad4edaf4063f5"
+    },
+    {
+      "part": "right-rear-spoke-3",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "3b2341066655ee013713db06053121bf663b54a3cb49387bf3dc0c557c8ff97c"
+    },
+    {
+      "part": "right-rear-spoke-4",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "c0d54123f73e09356a5af2f7ba97079237b9d6e39963230786444380fd0196c2"
+    },
+    {
+      "part": "right-rear-spoke-5",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "36121cd0cd099cf00835bb51e0079a9c9168e54bfdb82967cda3e1d1fc56dd33"
+    },
+    {
+      "part": "right-rear-spoke-6",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "06a77e4b152df6209156ecaefe32869dc38fba48deff43828ef3c8384b024351"
+    },
+    {
+      "part": "right-rear-spoke-7",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "b92e241208b11ffe36cce443e89fd9e1efd5ae364b0dcd38d037d66f7ae711b8"
+    },
+    {
+      "part": "right-rear-spoke-8",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "d62a6b5e13721d7ef8d92f165b30051d46bcc6592ad2e7f7a7fcd2156f3654ae"
+    },
+    {
+      "part": "right-rear-spoke-9",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "e8f9c26796b24078eb3a690883f025225be023fcb0098c4d88f6f97bc5c988fb"
+    },
+    {
+      "part": "right-rear-hub",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "8038dfc4350870d7024d2d03412abcfa4a65e3d2b6ef3cb60c19cbb9ec3221eb"
+    },
+    {
+      "part": "right-rear-hub-badge",
+      "triangles": 96,
+      "exact_dxf_faces": true,
+      "sha256": "5ec957d1b6af02cf92d7fd644662b2da33753f33d0a0bc81950099ac1b4c7b12"
+    },
+    {
+      "part": "windscreen",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "57efaa40bd4e16a75e7245b61fde00eca67d1e483c13a5027da97d5c1223e445"
+    },
+    {
+      "part": "rear-estate-glass",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "d21a8b66eb24c9d86d29dd5321da01f68e5a4c7bcda368fdf44639b07f82291d"
+    },
+    {
+      "part": "rear-wiper",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "e40b28f857fad7d6b325ab0554aeae2aa703a0d5c497b6259cd1d300734b891d"
+    },
+    {
+      "part": "windscreen-wiper--0.4",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "c845471275547c04eb984945f12c500142b18551c4fd490b7562f8e1dd538764"
+    },
+    {
+      "part": "windscreen-wiper-0.3",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "cf0927aeca6eb7ff103a37fcf7068de31ed0ceb4b9f74797bf762fa0dd55b61c"
+    },
+    {
+      "part": "upper-grille",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "713f2e64ed07502b831a2f07135c7524281a8753754e558c7c0919db510a6ba5"
+    },
+    {
+      "part": "grille-chrome-0.65",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "18298cf53e96dcb6d8f902c7401c958229c2dd8e388d054310044196d7da60e6"
+    },
+    {
+      "part": "grille-chrome-0.694",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "e45b85a63b93c03f028081d2063178b692790da03e0a6e398d2ac951e810f174"
+    },
+    {
+      "part": "grille-chrome-0.738",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "e1f3a17abafd79f1bd0648f80b78458a9aa5c0ec8fdb035990631a61051c7c44"
+    },
+    {
+      "part": "grille-chrome-0.782",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "c9234a9e7e05a5e71773f84af7d947de847002ea2cee4efc1c4fc28791e67da4"
+    },
+    {
+      "part": "lower-intake",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "969f0521d53543ae565a3de3f47c8b9bcacda851942ff7de9c52b564378bdaf1"
+    },
+    {
+      "part": "lower-grille-0.395",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "9cd70e7f16cde1ef7b424d6e64827cc36572bce643964a9c8d07da37132687d1"
+    },
+    {
+      "part": "lower-grille-0.445",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "383b2e827563cf5e74421f22ecb481d1752d5e1fddcc77edff9d9b935da0ea09"
+    },
+    {
+      "part": "lower-grille-0.493",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "a3ed945066078c1fffd51dcfab981889eb1985ba0493ea220f678cc97de5b935"
+    },
+    {
+      "part": "left-headlamp-housing",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "f58c79decb9a950051f16be4a4528bb6a66143cef007e4ad166efc924f141a73"
+    },
+    {
+      "part": "left-headlamp-lens",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "12222fea436e60936f8da74aa47b836898c73634af1427c84cca11498c34f736"
+    },
+    {
+      "part": "left-headlamp-divider",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "8d2c0e0283b7fb05269b567b388e095c131b5efa9054a0340f95fedacb8ecfc2"
+    },
+    {
+      "part": "left-fog-lamp",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "fb81a73b536fc353760264676d31a22ff8e731f003a50e30b502a2d56a76a2ab"
+    },
+    {
+      "part": "left-tail-lamp",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "ee9312572f991ecdab4a53980109a70f37cbe254dfcea7a6741d9e4c43ec9c30"
+    },
+    {
+      "part": "left-reverse-lamp",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "5f2902f6a40004452e9e3ccb1343e085ab2cfcc8acb75e2c2a08ce6e48ce9193"
+    },
+    {
+      "part": "right-headlamp-housing",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "edd829ac29438b698ca6ea399f5ac25c7fb945d2be4c7e8cc04c924047d6f08f"
+    },
+    {
+      "part": "right-headlamp-lens",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "516a37b681b32681215aec715ed6cf8a94b467939a1247c29e64a3c7b5c14516"
+    },
+    {
+      "part": "right-headlamp-divider",
+      "triangles": 24,
+      "exact_dxf_faces": true,
+      "sha256": "429968c4a1011c342929bd6d86d6ef11b7f007efc232ae01266b2f35f7a54258"
+    },
+    {
+      "part": "right-fog-lamp",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "30f50030de326a85ae43a770dc00d6643bfa4ee859c76e46d262d030b7e3174e"
+    },
+    {
+      "part": "right-tail-lamp",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "32f0d3b806547daeb015e853a0ac22e40814321fbce57dc96bc2dadc5938a95d"
+    },
+    {
+      "part": "right-reverse-lamp",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "ae2cff31dfa5cf3656b65634ab351fdfa81a31d61f67a64d204829faf628f4aa"
+    },
+    {
+      "part": "front-bumper-chrome",
+      "triangles": 80,
+      "exact_dxf_faces": true,
+      "sha256": "24b80b138f8758d557f9cecea04d9333cfb70139510a04ad41febad571755cb1"
+    },
+    {
+      "part": "rear-bumper-chrome",
+      "triangles": 80,
+      "exact_dxf_faces": true,
+      "sha256": "07f7f04651deca8022f3a405cd0114df21f59fbee9316b7998bd7fe977d609ef"
+    },
+    {
+      "part": "blank-front-numberplate",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "c86136b004aebce4abcb35428de6d8139e025c17f8cd736ee68bd4139614ac20"
+    },
+    {
+      "part": "blank-rear-numberplate",
+      "triangles": 16,
+      "exact_dxf_faces": true,
+      "sha256": "c773994cfe1ab0af38c50941dc900cb79548ffcfe5b1fcd032c140e01f1ab07f"
+    },
+    {
+      "part": "tailgate-handle",
+      "triangles": 32,
+      "exact_dxf_faces": true,
+      "sha256": "030d5541dabdb7dd9d468d55cbce8c6f27a3554f4bcfbc1d577f601b962c1e00"
+    },
+    {
+      "part": "front-roundel",
+      "triangles": 1040,
+      "exact_dxf_faces": true,
+      "sha256": "8b7aa590c35fdec1450859e11c05a2c15c71ed35939a88fa534e2dcb20980dc9"
+    },
+    {
+      "part": "front-roundel-v",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "b36c1a4bbf9d0bd0a7f1ad0a6f146eeb59ed33f3ad22666404fa5a5a6653e295"
+    },
+    {
+      "part": "front-roundel-w",
+      "triangles": 108,
+      "exact_dxf_faces": true,
+      "sha256": "56001a9a7b87447cdcdf63635ec8f1a5113fbeb51f9f843465cfae437daac46e"
+    },
+    {
+      "part": "rear-roundel",
+      "triangles": 1040,
+      "exact_dxf_faces": true,
+      "sha256": "aad67f59a7faacf07fb324c7fab3c1e4015b4e9f315e8135f07a8786654954f8"
+    },
+    {
+      "part": "rear-roundel-v",
+      "triangles": 60,
+      "exact_dxf_faces": true,
+      "sha256": "b39469eeca26ca055605f2e2d37fd8fb4269c59b27ce8274c0e830f7c0eb068e"
+    },
+    {
+      "part": "rear-roundel-w",
+      "triangles": 108,
+      "exact_dxf_faces": true,
+      "sha256": "697111d04249906a744e551c2179a7d8e5765cdaa9ee3fa12f645b33f861aa9d"
+    },
+    {
+      "part": "left-b-pillar-trim",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "829671810f85dd9f0998a7da26620b9a87760cfaa80d69c1b2406906db7aa0e1"
+    },
+    {
+      "part": "left-c-pillar-trim",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "3400667133692957365d104824ec794a82eb794cdbd9ca845e9cf5f0f609ff2d"
+    },
+    {
+      "part": "right-b-pillar-trim",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "f56af7036cab2e3d0be6a92c257535d155c2b8a019444ba471f63e35bd974a92"
+    },
+    {
+      "part": "right-c-pillar-trim",
+      "triangles": 1156,
+      "exact_dxf_faces": true,
+      "sha256": "6a7532f74d5c055b4c59be196907c3690e7bd12edac9ec79475f5020e90df051"
+    }
+  ]
+}

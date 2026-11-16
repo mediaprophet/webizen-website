@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-16",
+  "review_index_status": 200,
+  "source_routes": 202,
+  "search_result_count": 64,
+  "benchmark_source_routes": 8,
+  "sample_source_http": 200,
+  "browser_errors": [],
+  "scope": "Review index filtering and source HTTP routing, not technical-demo runtime qualification"
+}

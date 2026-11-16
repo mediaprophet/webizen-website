@@ -1,0 +1,3 @@
+requires [capability("capability.invoke")];
+let title = capability.invoke("hypermedia.glyph.project_svg", {text:"Human centric computing",font_size:42,max_width:760,color:[35,67,61,255],background:[243,235,214,255],padding:24});
+let asset = {files:[{key:"lettering.svg",resource:title}]};

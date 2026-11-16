@@ -1,0 +1,188 @@
+{
+  "schema": "webizen.aaa-native-environment/v1",
+  "frame": "existing fictional catchment, Y-up metres",
+  "epistemic_class": "authored-artwork",
+  "assets": [
+    {
+      "id": "ecology-grass-near-0",
+      "url": "/production/aaa-environment/assets/ecology-grass-near-0.10d",
+      "sha256": "ed8e261a295dbe21c088498c70ac00210a8784d36b637b0e5c8e29f1438aff8f",
+      "bytes": 8710440,
+      "vertices": 72243,
+      "triangles": 82692,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 9,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-near-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-near-0.vibe"
+    },
+    {
+      "id": "ecology-grass-near-1",
+      "url": "/production/aaa-environment/assets/ecology-grass-near-1.10d",
+      "sha256": "ae100b229255087094510faaa97782b9d6268acc257f74648ca4e13d8cbac1d0",
+      "bytes": 8710440,
+      "vertices": 72243,
+      "triangles": 82692,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 9,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-near-1.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-near-1.vibe"
+    },
+    {
+      "id": "ecology-grass-near-2",
+      "url": "/production/aaa-environment/assets/ecology-grass-near-2.10d",
+      "sha256": "996841433ea410f3445737d6db38af72e28da0ef42e650084cc7e77fbd69709c",
+      "bytes": 8710440,
+      "vertices": 72243,
+      "triangles": 82692,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 9,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-near-2.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-near-2.vibe"
+    },
+    {
+      "id": "ecology-grass-mid-0",
+      "url": "/production/aaa-environment/assets/ecology-grass-mid-0.10d",
+      "sha256": "b58af8c6f59c8d782a7eff8ef479267dfc59c038fde10460676f5b4727ced301",
+      "bytes": 8304024,
+      "vertices": 73368,
+      "triangles": 78432,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-mid-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-mid-0.vibe"
+    },
+    {
+      "id": "ecology-grass-mid-1",
+      "url": "/production/aaa-environment/assets/ecology-grass-mid-1.10d",
+      "sha256": "ab6fe74ecd76bfed9425801012ad5c93fda92888efa9a261772d7e24cb451bb1",
+      "bytes": 8304024,
+      "vertices": 73368,
+      "triangles": 78432,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-mid-1.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-mid-1.vibe"
+    },
+    {
+      "id": "ecology-grass-mid-2",
+      "url": "/production/aaa-environment/assets/ecology-grass-mid-2.10d",
+      "sha256": "70455d1fa24c5d1406c2ead5b24d49de1c36094dfcd80bd27c5553d7e5adabc4",
+      "bytes": 8304024,
+      "vertices": 73368,
+      "triangles": 78432,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-mid-2.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-mid-2.vibe"
+    },
+    {
+      "id": "ecology-grass-mid-3",
+      "url": "/production/aaa-environment/assets/ecology-grass-mid-3.10d",
+      "sha256": "c311d92e03bc48254350052e701e60400cc1c1a3105d612f4518c47c6d2f9751",
+      "bytes": 8304024,
+      "vertices": 73368,
+      "triangles": 78432,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-mid-3.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-mid-3.vibe"
+    },
+    {
+      "id": "ecology-grass-mid-4",
+      "url": "/production/aaa-environment/assets/ecology-grass-mid-4.10d",
+      "sha256": "4c03258d3974664517aa46ea8189846c8f57f3a31e8871995a49c6509cc9bd2d",
+      "bytes": 8304024,
+      "vertices": 73368,
+      "triangles": 78432,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 24,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-mid-4.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-mid-4.vibe"
+    },
+    {
+      "id": "ecology-grass-mid-5",
+      "url": "/production/aaa-environment/assets/ecology-grass-mid-5.10d",
+      "sha256": "1b366ac4828beed7d17bdea8dbbceba7273da93cd7992174e0d7f5078d211682",
+      "bytes": 4577608,
+      "vertices": 42798,
+      "triangles": 45752,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 14,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-grass-mid-5.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-grass-mid-5.vibe"
+    }
+  ],
+  "textures": [
+    {
+      "url": "/production/aaa-environment/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "placements": "/production/aaa-environment/assets/placement-evaluation.json",
+  "review_status": "native prototype views inspected; assembled review pending",
+  "triangles": 685988,
+  "vertices": 626367,
+  "instances": 161
+}

@@ -1,0 +1,123 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 3272620,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a.hmc",
+    "sha256": "88e5084adb4f22edbadd4c14ccdf42c26b3dcdc4e13eac856b586479bda8a570"
+  },
+  "inputs": [
+    {
+      "bytes": 482832,
+      "key": "geometry.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\shrub-leaves.obj",
+      "sha256": "e813f2a3c3026b274295c84bd0e9947ab29f3be7a48f1155cbbaeb17ad6c71c4"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499994544,
+    "effective_host_bytes": 268260864,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2093379,
+    "source_bytes": 1364,
+    "source_reservation_bytes": 174592,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 5456,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 726,
+      "key": "bsdf.json",
+      "kind": "json",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\bsdf.json",
+      "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109"
+    },
+    {
+      "bytes": 40837,
+      "key": "colour.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\colour.png",
+      "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e"
+    },
+    {
+      "bytes": 17220,
+      "key": "normal.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\normal.png",
+      "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda"
+    },
+    {
+      "bytes": 15927,
+      "key": "orm.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\orm.png",
+      "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32"
+    },
+    {
+      "bytes": 945856,
+      "key": "shrub-leaves.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\shrub-leaves.10d",
+      "sha256": "c8cf563369cd6e61b1e8b3199f7af28df1de68806c2309d10d929a533f7fafc4"
+    },
+    {
+      "bytes": 40837,
+      "key": "textures/sha256/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\textures\\sha256\\10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+      "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e"
+    },
+    {
+      "bytes": 15927,
+      "key": "textures/sha256/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\textures\\sha256\\6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+      "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32"
+    },
+    {
+      "bytes": 17220,
+      "key": "textures/sha256/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\textures\\sha256\\b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+      "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda"
+    },
+    {
+      "bytes": 1691566,
+      "key": "uv.svg",
+      "kind": "svg",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\shrub-leaves-surface-edc53fb43f3a\\uv.svg",
+      "sha256": "8e46055bd115f855e3471e90f6773cd197a9c07fbcab89d798c63db4eb77dd20"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "6136f8c09cf648599760817ec131515cc4dab881ec68a5d7ee9e0d203e8c3edf",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

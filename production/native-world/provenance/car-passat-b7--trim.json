@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 6704,
+  "triangles": 13288,
+  "bytes": 2099688,
+  "source_bytes": 263828,
+  "id": "car-passat-b7--trim",
+  "original_sha256": "be95c1a621b47fa5c4cb1d4e194242d97529f1d646e8c6797f9b57d1d54c377b",
+  "source_sha256": "fabfa21236ad4622b2018f9aa0ba447142d6dad70fecd7faed705a571b5797b2",
+  "attested_sha256": "57afc4e963e7b0008df4534176295f21b2f98a48edf84e815a83b044d4a6788e",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

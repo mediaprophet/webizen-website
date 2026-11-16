@@ -1,0 +1,188 @@
+{
+  "id": "prototype-bank-rock-mid",
+  "url": "/production/aaa-instancing/assets/prototype-bank-rock-mid.10d",
+  "sha256": "c2cc079fe018e71ccf4fe44cee8a003e8412fca3c56e3f182e364fe17dec14b5",
+  "bytes": 162384,
+  "vertices": 256,
+  "source_vertices": 194,
+  "native_attribute_policy": "Native GLB MikkTSpace corner splits retained; exact triangle count preserved",
+  "triangles": 384,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 1,
+  "textures": [
+    {
+      "url": "/production/aaa-instancing/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png",
+      "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-instancing/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png",
+      "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-instancing/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png",
+      "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "provenance_receipt": "/production/aaa-instancing/provenance/prototype-bank-rock-mid.json",
+  "native": {
+    "bytes": 30736,
+    "key": "prototype-bank-rock-mid.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b\\prototype-bank-rock-mid.10d",
+    "sha256": "0d3bd55ff5d94f42d03273390ea3ed26bf7c3ca3cd910c55997a0d7d7e1f8454",
+    "url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b/prototype-bank-rock-mid.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "9d9b22328f89a222528f34f4549924289b4893d4186c855149569e9d7e5232a2",
+    "package_sha256": "103d51988623bfa4a727a98f34c39572c61b33cdb59bf85775778cba7f59ea3f",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 284886,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b.hmc",
+        "sha256": "103d51988623bfa4a727a98f34c39572c61b33cdb59bf85775778cba7f59ea3f"
+      },
+      "inputs": [
+        {
+          "bytes": 131240,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-bank-rock-mid.glb",
+          "sha256": "a6cd6fb1d8ec6dab67209034f4dd866dae51cc252c741c9363bba5267b9fc4c0"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998644,
+        "effective_host_bytes": 268392064,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096126,
+        "source_bytes": 339,
+        "source_reservation_bytes": 43392,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1356,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 30736,
+          "key": "prototype-bank-rock-mid.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b\\prototype-bank-rock-mid.10d",
+          "sha256": "0d3bd55ff5d94f42d03273390ea3ed26bf7c3ca3cd910c55997a0d7d7e1f8454",
+          "url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b/prototype-bank-rock-mid.10d"
+        },
+        {
+          "bytes": 45718,
+          "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b\\textures\\sha256\\4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b/textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+        },
+        {
+          "bytes": 59852,
+          "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b\\textures\\sha256\\c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b/textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+        },
+        {
+          "bytes": 15539,
+          "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b\\textures\\sha256\\f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b/textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "ac6d78b72a6bb17856b9354e957b47b1d86aa0956fe267ccf9f78de6cb780c6d",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 30736,
+        "key": "prototype-bank-rock-mid.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "0d3bd55ff5d94f42d03273390ea3ed26bf7c3ca3cd910c55997a0d7d7e1f8454"
+      },
+      {
+        "bytes": 45718,
+        "key": "textures/sha256/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182"
+      },
+      {
+        "bytes": 59852,
+        "key": "textures/sha256/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6"
+      },
+      {
+        "bytes": 15539,
+        "key": "textures/sha256/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-bank-rock-mid-e91529ae6d3b.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b.hmc",
+    "receipt_url": "/artifacts/prototype-bank-rock-mid-e91529ae6d3b.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-bank-rock-mid.glb",
+  "cache_key": "4c6dccbcef7a9a47cedb0782b41d2711af7bb810b2d27d0a34adc3e937ccdc21",
+  "recipe": "/production/aaa-instancing/recipes/prototype-bank-rock-mid.vibe"
+}

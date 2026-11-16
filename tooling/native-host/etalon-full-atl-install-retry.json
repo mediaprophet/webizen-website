@@ -1,0 +1,8 @@
+{
+  "component": "Microsoft.VisualStudio.Component.VC.ATL",
+  "finished_utc": "2026-11-16T05:14:29.9483558Z",
+  "exit_code": 0,
+  "started_utc": "2026-11-16T05:13:28.6422146Z",
+  "scope": "User-authorised retry: ATL only; standard RunAs elevation; no restart or installer update",
+  "installer": "C:/Program Files (x86)/Microsoft Visual Studio/Installer/setup.exe"
+}

@@ -1,0 +1,10 @@
+{
+  "toolchain": "1.96.1",
+  "command": "cargo xtask test",
+  "finished_utc": "2026-11-16T05:00:17.9774188Z",
+  "cargo_build_jobs": 2,
+  "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "target_dir": "C:/github/etalon/target-webizen-tests",
+  "exit_code": 1,
+  "nextest_test_threads": 2
+}

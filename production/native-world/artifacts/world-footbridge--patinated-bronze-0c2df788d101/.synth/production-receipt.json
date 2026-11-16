@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 800209,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-footbridge--patinated-bronze-0c2df788d101.hmc",
+    "sha256": "6909f4d925a373f3501368863cdd890de3cd11036868f653b1cf8fd0e4fd9fe4"
+  },
+  "inputs": [
+    {
+      "bytes": 112416,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\footbridge--patinated-bronze.glb",
+      "sha256": "dbc083d45b1e8af786d2b262bcb7df625d7d61e278265cd1396dd438c2d68686"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499997944,
+    "effective_host_bytes": 268369664,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096273,
+    "source_bytes": 514,
+    "source_reservation_bytes": 65792,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2056,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 686520,
+      "key": "footbridge--patinated-bronze.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-footbridge--patinated-bronze-0c2df788d101\\footbridge--patinated-bronze.10d",
+      "sha256": "b32044086228a8cc01cc4ed83062034d17d09afb51910df51ceffb308216233a"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "7975fdc419edecbfcbd9ffe48e4bc5c52518f5a69ef277d1f50470d06d011d64",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

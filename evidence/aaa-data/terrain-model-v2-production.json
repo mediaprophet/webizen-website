@@ -1,0 +1,168 @@
+{
+  "schema": "webizen.native-terrain-model/v1",
+  "id": "canberra-public-reference-model",
+  "title": "Canberra reference landscape,1:30 scale model",
+  "not_personal_campsite": true,
+  "source_sha256": "4f0e41beb1d53338a827b73f8e51021dddeaf6bb8659706200a5682d2b05aa62",
+  "source_bundle_sha256": "3371250e38cd5233316ada6c53cee2fdf7906d39f1909797320cfd255ffc84eb",
+  "orientation_correction": "Native source generate_terrain_mesh corrected clockwise -Z to counterclockwise +Z; all original sampled positions retained unchanged; indices only swap winding",
+  "native_import_input_sha256": "b9664e3d6a1431c06199951a686ba1e073ca7bc0d0b21b0efcc14672b2adee1c",
+  "recipe_sha256": "a35d59ec26e4745f4303727aab76ec1d75c3410acba64e7a8ac118dfcaf794c7",
+  "native_transform": {
+    "id": "canberra-reference-model",
+    "translation": [
+      0,
+      -18.03333333333333,
+      0
+    ],
+    "rotation": [
+      -0.7071067811865476,
+      0,
+      0,
+      0.7071067811865476
+    ],
+    "scale": [
+      0.03333333333333333,
+      0.03333333333333333,
+      0.03333333333333333
+    ]
+  },
+  "display_frame": "Y-up; +X grid east; +Z grid north; source elevation541m mapped to displayY0. Native GLB importer applies node transform.",
+  "scale_denominator": 30,
+  "vertical_exaggeration": 1,
+  "height_range_source_m": [
+    541.0,
+    677.0
+  ],
+  "material_interpretation": "Uniform neutral relief shading, not satellite imagery or measured landcover",
+  "source_rights": "Original native DEM provenance sidecar preserved byte-for-byte, including source raster bundle and attribution. Display scaling/rotation declared in receipt; no artwork-only licence applied.",
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "674773f27f7df5e945963e0ca8b92298a1de1f550d39b88daf2ff46a59dc8d88",
+    "package_sha256": "7a4b7a5cd3d38a08585fac5c09088b5cec9e602c80778263a0a2f695309d4ff9",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 2435537,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa\\terrain-model-v2\\artifacts\\terrain-model-713752c6c041.hmc",
+        "sha256": "7a4b7a5cd3d38a08585fac5c09088b5cec9e602c80778263a0a2f695309d4ff9"
+      },
+      "inputs": [
+        {
+          "bytes": 606544,
+          "key": "terrain.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa\\terrain-model-v2\\reference-terrain-model.glb",
+          "sha256": "b9664e3d6a1431c06199951a686ba1e073ca7bc0d0b21b0efcc14672b2adee1c"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998724,
+        "effective_host_bytes": 268394624,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2092413,
+        "source_bytes": 319,
+        "source_reservation_bytes": 40832,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1276,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 1827888,
+          "key": "reference-terrain-model.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa\\terrain-model-v2\\artifacts\\terrain-model-713752c6c041\\reference-terrain-model.10d",
+          "sha256": "d2a5750a637d28ac8eb5b1c5b3224d365e48ceeaf57c7e27b768934ffccde839",
+          "url": "/artifacts/terrain-model-713752c6c041/reference-terrain-model.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "1a4a54431f88226de7ba91546e7d95f554675c4e4a6a4050cffb1999eeb65c37",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 1827888,
+        "key": "reference-terrain-model.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "d2a5750a637d28ac8eb5b1c5b3224d365e48ceeaf57c7e27b768934ffccde839"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa\\terrain-model-v2\\artifacts\\terrain-model-713752c6c041.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/terrain-model-713752c6c041.hmc",
+    "receipt_url": "/artifacts/terrain-model-713752c6c041.json"
+  },
+  "admission": {
+    "passed": true,
+    "original_sections_unchanged": true,
+    "header_flags_preserved": true,
+    "native_governance_refused": false,
+    "vertices": 16992,
+    "triangles": 33462,
+    "bytes": 1946992,
+    "source_bytes": 117043
+  },
+  "asset": {
+    "id": "canberra-reference-terrain",
+    "url": "/data/publications/aaa/terrain-model-v2/reference-terrain-model.10d",
+    "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+    "bytes": 1946992,
+    "colour": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "vertices": 16992,
+    "triangles": 33462
+  },
+  "bounds_display": {
+    "x": [
+      -30.675496420716126,
+      30.155572752568396
+    ],
+    "y": [
+      0,
+      4.533333333333333
+    ],
+    "z": [
+      -36.9145804384889,
+      37.43450410663663
+    ]
+  }
+}

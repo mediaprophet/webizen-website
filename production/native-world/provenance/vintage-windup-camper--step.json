@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 10,
+  "triangles": 16,
+  "bytes": 44656,
+  "source_bytes": 12932,
+  "id": "vintage-windup-camper--step",
+  "original_sha256": "fac3fc71dfface414f15586d46ca93df74af7497ab431ec91db20823525afabe",
+  "source_sha256": "e5e711cf666f9a137bbdd66400f68913d976d9adfcd12d53f89e2c75aa22daac",
+  "attested_sha256": "caa23bb8212b2707698d6eddc807adee4154c0a93b89249faede6ed51d4be671",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

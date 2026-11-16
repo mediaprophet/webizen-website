@@ -1,0 +1,1046 @@
+{
+  "known_semantic_risks": [
+    {
+      "issue": "Unprobed NPU reported false; review unknown-versus-absent representation",
+      "reproduce": "Inspect hardware metadata code and compare with actual device probe result",
+      "source": "docs/js/benchmark-environment.js",
+      "state": "source-identified; runtime-not-reproduced"
+    },
+    {
+      "issue": "Poet application repository ownership unresolved",
+      "reproduce": "Compare separate-application statement in Synth README with module source ledger",
+      "source": "data/modules.json",
+      "state": "explicit unresolved owner"
+    }
+  ],
+  "qualification": "source-resolution candidates require generated-site/runtime confirmation",
+  "schema": "webizen.baseline-triage/v1",
+  "unresolved_source_references": [
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/all.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/all.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_cli/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_cli/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/identity/did_qi/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/identity/did_qi/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/foundation/plane_feature_guard/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/foundation/plane_feature_guard/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/q42/execution_profile/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/q42/execution_profile/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/q42/payload_catalogue/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/q42/payload_catalogue/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/net/qdnf/fabric/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/net/qdnf/fabric/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/net/qdnf/harness/tri_source_eval/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/net/qdnf/harness/tri_source_eval/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/design_encode/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/design_encode/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_client_core/asset_recommendations/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_client_core/asset_recommendations/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/profiles/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/profiles/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/shacl_compiler/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/shacl_compiler/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/p64_weight/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/p64_weight/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/storage/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/storage/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/query_engine/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/query_engine/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/webizen/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/webizen/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/llm_agent/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/llm_agent/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/bioinformatics/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/bioinformatics/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/economics/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/economics/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/mcp_server/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/mcp_server/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/profiles/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/profiles/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_inference_kernel/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_inference_kernel/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/vibescript_abi/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/vibescript_abi/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/vibe/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/vibe/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_cli/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_cli/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_solid_bridge/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_solid_bridge/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_client_core/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_client_core/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_extensions/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_extensions/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/webizen_component_harvester/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/webizen_component_harvester/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/webizen_render/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/webizen_render/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/webizen_studio/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/webizen_studio/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/webizen_runtime/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/webizen_runtime/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/webizen_web/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/webizen_web/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_mobile_harness/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_mobile_harness/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/wellfare_core/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/wellfare_core/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_cooperative_core/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_cooperative_core/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_semantic_library/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_semantic_library/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/webizen_lite_wasm/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/webizen_lite_wasm/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_q_forge/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_q_forge/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_vision/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_vision/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_audio/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_audio/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/work_graph/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/work_graph/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/vibe_lsp/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/vibe_lsp/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/vibe_wasm/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/vibe_wasm/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_peer/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_peer/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_app_contract/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_app_contract/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_sim/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_sim/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_geospatial/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_geospatial/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_mcp/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_mcp/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/index.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/index.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/struct.QualiaQuin.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/struct.QualiaQuin.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/struct.QualiaSuperBlock.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/struct.QualiaSuperBlock.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/identity/did_qi/struct.DidQi.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/identity/did_qi/struct.DidQi.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/foundation/plane_feature_guard/enum.PlaneTag.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/foundation/plane_feature_guard/enum.PlaneTag.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/q42/execution_profile/enum.SolverVerificationOutcome.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/q42/execution_profile/enum.SolverVerificationOutcome.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/net/qdnf/harness/tri_source_eval/fn.evaluate_tri_source.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/net/qdnf/harness/tri_source_eval/fn.evaluate_tri_source.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/constant.CAPABILITY_REGISTRY.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/constant.CAPABILITY_REGISTRY.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/enum.PermissiveRoutingLane.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/enum.PermissiveRoutingLane.html"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "rustdoc/qualia_core_db/fn.q_hash.html",
+      "route": "api.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "rustdoc/qualia_core_db/fn.q_hash.html"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/ADP/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/ADP/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/ADP/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/ADP/old_index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/agreements/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/agreements/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/agreements/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/agreements/index2.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/biometrics/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/biometrics/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/cml/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/cml/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/cml/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/cml/init_index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/did-git/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/did-git/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/DigitalBirthRecord/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/DigitalBirthRecord/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/DigitalBirthRecord/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/DigitalBirthRecord/old_index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/DOA/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/DOA/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/DOE/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/DOE/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/HCAIO/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/HCAIO/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/HCI/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/HCI/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/PC/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/PC/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/qdp-dns/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/qdp-dns/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/qdp-dns/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/qdp-dns/old_index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[BOOKMARK-MSDN]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[BOOKMARK-MSDN]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[BOOKMARK-WIKI]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[BOOKMARK-WIKI]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[JSON-LD]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[JSON-LD]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[JSON-LD]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[JSON-LD]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[DUBLIN-CORE]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[DUBLIN-CORE]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[SCHEMA-ORG]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[SCHEMA-ORG]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[JSON-LD]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[JSON-LD]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[RDF]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[RDF]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[JSON-LD]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[JSON-LD]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[SCHEMA-ORG]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[SCHEMA-ORG]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[DUBLIN-CORE]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[DUBLIN-CORE]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[BOOKMARK-MSDN]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[BOOKMARK-MSDN]]"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/QLinks/[[BOOKMARK-WIKI]]",
+      "route": "manuals/standards/init-draft-standards-wip-main/QLinks/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "[[BOOKMARK-WIKI]]"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/old_index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/UN/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/UN/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/old_index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/test.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/rights/UN/UDHR/udhr-rdfa.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/Sparql-mm/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/Sparql-mm/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "manuals/standards/init-draft-standards-wip-main/ulem/js/menu-loader.js",
+      "route": "manuals/standards/init-draft-standards-wip-main/ulem/index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/menu-loader.js"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "plans/WORLD-DESIGN-BRIEF.md",
+      "route": "plans/webizen-site-renewal-2026-11-13/review-index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "/plans/WORLD-DESIGN-BRIEF.md"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "plans/renewal/README.md",
+      "route": "plans/webizen-site-renewal-2026-11-13/review-index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "/plans/renewal/README.md"
+    },
+    {
+      "attribute": "href",
+      "fragment": null,
+      "resolved_source": "data/demos.json",
+      "route": "plans/webizen-site-renewal-2026-11-13/review-index.html",
+      "state": "unresolved-source-candidate",
+      "tag": "a",
+      "value": "/data/demos.json"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "playground/anatomy-studio/working/web/demo-portal.js",
+      "route": "playground/anatomy-studio/working/cad/heart/view.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "../../web/demo-portal.js"
+    },
+    {
+      "attribute": "src",
+      "fragment": null,
+      "resolved_source": "js/nav.js",
+      "route": "progress-0.0.41.html",
+      "state": "unresolved-source-candidate",
+      "tag": "script",
+      "value": "js/nav.js"
+    }
+  ]
+}

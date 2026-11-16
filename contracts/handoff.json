@@ -1,0 +1,29 @@
+{
+  "package": "P02",
+  "status": "implemented-awaiting-integrator-review",
+  "date": "2026-11-16",
+  "default_locale": "en-AU",
+  "schema": "webizen.publication/v1",
+  "paths": [
+    "schemas/publication-v1.schema.json",
+    "contracts/build_schema.py",
+    "contracts/validate.py",
+    "contracts/README.md",
+    "contracts/fixtures/valid-draft.json",
+    "contracts/fixtures/invalid-zero-assertion-pass.json",
+    "tests/contracts/test_contracts.py"
+  ],
+  "tests": {
+    "command": "python tests/contracts/test_contracts.py",
+    "passed": 23,
+    "failed": 0,
+    "valid_fixture_exit": 0,
+    "invalid_zero_assertion_fixture_exit": 1
+  },
+  "limitations": [
+    "Structural references do not authenticate or verify referenced artifact bytes; publisher/release checks must do that",
+    "Locale tag syntax validation is not complete BCP47 canonicalisation",
+    "Native receipts are unchanged external evidence references",
+    "Source ownership and runtime qualification remain supplied by P01 and execution adapters"
+  ]
+}

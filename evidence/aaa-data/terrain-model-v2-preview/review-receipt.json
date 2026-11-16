@@ -1,0 +1,117 @@
+{
+  "projection": {
+    "bounds_max": [
+      30.15557289123535,
+      4.5333333015441895,
+      37.434505462646484
+    ],
+    "bounds_min": [
+      -30.67549705505371,
+      1.4210854715202004e-14,
+      -36.91457748413086
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 135.70497131347656,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      -0.2599620819091797,
+      2.2666666507720947,
+      0.2599639892578125
+    ],
+    "colors": "absent-renderer-default",
+    "lighting": {
+      "ambient_intensity": 0.44999998807907104,
+      "clear_color": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "direct_intensity": 1.7999999523162842,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        0.40824830532073975,
+        0.8164966106414795,
+        0.40824830532073975
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 135.70497131347656,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.75,
+    "shadows_available": true,
+    "tangents": "absent-renderer-derived",
+    "texture_coordinates": "absent",
+    "triangle_count": 33462,
+    "vertex_count": 16992,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "renderer": "QualiaDB webizen-render::VolumetricRenderer / PortalGpu native offscreen path",
+  "schema": "synth.native-10d-preview/v1",
+  "scope": "native readback PNG projection; not model acceptance or an adapter capability receipt",
+  "source": {
+    "bytes": 1946992,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa\\terrain-model-v2\\reference-terrain-model.10d",
+    "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de"
+  },
+  "textures": {
+    "status": "no HMC supplied; renderer fallback textures may be used"
+  },
+  "views": [
+    {
+      "bytes": 253605,
+      "camera_distance_applied": 135.70497131347656,
+      "camera_distance_requested": 135.70497131347656,
+      "camera_pitch": 0.2800000011920929,
+      "camera_target": [
+        -0.2599620819091797,
+        2.2666666507720947,
+        0.2599639892578125
+      ],
+      "camera_yaw": 0.7200000286102295,
+      "file": "three-quarter-view-assumed.png",
+      "height": 2048,
+      "sha256": "8cf24361a860b9a376d06b10fa463431bdfaca8103a3a05c8cc5f896ae7db669",
+      "width": 2048
+    },
+    {
+      "bytes": 177178,
+      "camera_distance_applied": 135.70497131347656,
+      "camera_distance_requested": 135.70497131347656,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        -0.2599620819091797,
+        2.2666666507720947,
+        0.2599639892578125
+      ],
+      "camera_yaw": 1.5707963705062866,
+      "file": "side-view-assumed.png",
+      "height": 2048,
+      "sha256": "f440f5663d6275fd657e8349638737ea3c177952f44ee888c0abd466fc04b2ce",
+      "width": 2048
+    },
+    {
+      "bytes": 177736,
+      "camera_distance_applied": 135.70497131347656,
+      "camera_distance_requested": 135.70497131347656,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        -0.2599620819091797,
+        2.2666666507720947,
+        0.2599639892578125
+      ],
+      "camera_yaw": 0.0,
+      "file": "front-view-assumed.png",
+      "height": 2048,
+      "sha256": "b043ad4504bf98904cfe8fc6c74d47d0e07c1cbd6bac4d0aa040a7f27bae178d",
+      "width": 2048
+    }
+  ]
+}

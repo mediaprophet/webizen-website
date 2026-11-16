@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 520,
+  "triangles": 1024,
+  "bytes": 196408,
+  "source_bytes": 32308,
+  "id": "car-passat-b7--brake",
+  "original_sha256": "ddd980e0aef00506173969cd75cec7fa27497007c7c62938ee481c48f56a44f7",
+  "source_sha256": "a75faf5f6b885b16961b6dad7c6c37a9e2280b83ddcec1e5990478a6c9e45c35",
+  "attested_sha256": "468c85dcfa9d5fe0638a5345adaf0c66d419bd790ef5ddb1e1b2fe81882c0219",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "webizen.production-recipe-validation/v1",
+  "recipes": [
+    {
+      "recipe": "catchment",
+      "package_sha256": "ed384f872c8f84648e5343915cb99f904d6da91db175a9bc8ad3923dead5ce87",
+      "repeated_production_identical": true,
+      "strict_replay": "Synth produce verifies before candidate save",
+      "files": [
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\catchment-20261116-155220\\boundary.svg",
+          "bytes": 186,
+          "sha256": "dacc83f22ba35da55d83ffc3717d37f82caf2c15685937a76222542fb1e9249c",
+          "svg_header": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-195 -195 390 395\"><polygon fill=\"#48704d\" fill-opacity=\"1\" points=\"-180,-110 -90,-180 70,-160 180,-60 160,120 30,185 -130,140 \"/><"
+        },
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\catchment-20261116-155220\\catchment.png",
+          "bytes": 21805,
+          "sha256": "5cbf5489b600162b0f1b3245b3ee6f5684818c48e6c52d54f204f232b9b763f8",
+          "dimensions": [
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "recipe": "lettering",
+      "package_sha256": "73358cd95121d8528516f6c7604db353bda4f26945d98c8530a1bcc0569b851e",
+      "repeated_production_identical": true,
+      "strict_replay": "Synth produce verifies before candidate save",
+      "files": [
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\lettering-20261116-155023\\lettering.svg",
+          "bytes": 2420,
+          "sha256": "bad99c9608e9824c04d94e38b8dffcba70d37a6e1bfec5f1d684ecd8d9651b83",
+          "svg_header": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-24.00 -24.00 509.16 100.50\">\n  <rect x=\"-24.00\" y=\"-24.00\" width=\"509.16\" height=\"100.50\" fill=\"#f3ebd6\" fill-opacity=\"1.000\"/>\n  "
+        }
+      ]
+    },
+    {
+      "recipe": "tone",
+      "package_sha256": "13ddc8ca79be7e6c054541ca600bdb5c7cc509b37de32569c7eef7453d855ae8",
+      "repeated_production_identical": true,
+      "strict_replay": "Synth produce verifies before candidate save",
+      "files": [
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\tone-20261116-155023\\tone.wav",
+          "bytes": 96044,
+          "sha256": "32f31f730eec1020db53da98191f3c03a1e150c3009b8358ff5ac38915ca17a1",
+          "audio": {
+            "sample_rate": 48000,
+            "frames": 48000,
+            "channels": 1,
+            "positive_zero_crossings": 440
+          }
+        }
+      ]
+    },
+    {
+      "recipe": "surface",
+      "package_sha256": "28fa5fa982c0bfd702e77aafda8c973dc080025ac8b02b6495e8c3a0cbdbc41f",
+      "repeated_production_identical": true,
+      "strict_replay": "Synth produce verifies before candidate save",
+      "files": [
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\surface-20261116-155023\\colour.png",
+          "bytes": 31194,
+          "sha256": "3b3fab7f215954a63ec035e5e4bd3a461bd0542bffc6726134fda9b8239e29d5",
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\surface-20261116-155023\\normal.png",
+          "bytes": 15640,
+          "sha256": "fc96523ed5b2fe1047b4e2bbeb8f2cae94066b09b06acd94ea3310c33204a01e",
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "path": "production\\webizen-swarm\\data\\publications\\aaa-production\\surface-20261116-155023\\orm.png",
+          "bytes": 8396,
+          "sha256": "5089e10bcd3601d6eab10fd6de0178a675e01161c2d1d81f307e1fe53e911339",
+          "dimensions": [
+            256,
+            256
+          ]
+        }
+      ]
+    }
+  ]
+}

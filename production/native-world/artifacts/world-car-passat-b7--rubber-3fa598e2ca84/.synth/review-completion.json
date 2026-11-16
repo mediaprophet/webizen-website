@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 935238,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--rubber-3fa598e2ca84.hmc",
+    "sha256": "9d68ecabc977ff48246809e5ebf3ac1100cd2cbc4256e0844fbef850540cfdbf"
+  },
+  "inputs": [
+    {
+      "bytes": 115340,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\car-passat-b7--rubber.glb",
+      "sha256": "47a24305d70eb9e364aa8e5e8eddb14d71785ccc5794de0b72a1c448511246e3"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499997924,
+    "effective_host_bytes": 268369024,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096250,
+    "source_bytes": 519,
+    "source_reservation_bytes": 66432,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2076,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 818616,
+      "key": "car-passat-b7--rubber.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--rubber-3fa598e2ca84\\car-passat-b7--rubber.10d",
+      "sha256": "2f27066d64cbe04da6dd663647e022864566c02407f3e593cd4d9510ece96ec4"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "55a0594ca48b0c8c4af6cdd95fbf0e5cd354a0c299c17f0c4625b214718758bf",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

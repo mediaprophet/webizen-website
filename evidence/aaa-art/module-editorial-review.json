@@ -1,0 +1,24 @@
+{
+  "schema": "webizen.module-editorial-independent-review/v1",
+  "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa\\modules\\narratives.en-AU.json",
+  "sha256": "61bf8477c29e7ee05dde7e72a1a6411b4baa3288f85f6ef7c08a0b5d37c74d1b",
+  "module_count": 16,
+  "verdict": "Second editorial pass substantially improves ordinary-reader explanations and is suitable as a reviewed narrative candidate. It does not complete the interactive demonstrations or audience testing.",
+  "review_scope": [
+    "Read all16 module what/distinctive/importance/rights/example and demonstration-status passages.",
+    "Spot-checked current Etalon, Aether, Anvil, Anatomy and Ecopunk READMEs plus the QualiaDB Poet-host source distinction. This is not exhaustive independent verification of every ecosystem capability."
+  ],
+  "improvements": [
+    "Concrete council creek-restoration, community presentation, creative revision and limited-assistance examples now connect software roles to recognisable purposes.",
+    "Distinctive passages now explain practical differences such as inspect-before-authorise, retained production history and separated hardware facts/permissions.",
+    "Aether bridge, Anatomy schematic, Poet ownership and Webizen Host product limits remain explicit in status/evidence; unimplemented demonstrations remain planned.",
+    "Final copy now correctly calls the Canberra dataset public elevation data and explicitly distinguishes native recipe editing from a live website wavelength control."
+  ],
+  "remaining_recommendations": [
+    "Gloss normative instruments for ordinary readers and keep deep implementation terms in expandable technical views.",
+    "Expose working-tree source-hash/baseline-link qualification alongside references; many linked revisions do not contain the reviewed local bytes.",
+    "For government/UN audiences, show a concrete source/rule/result/correction path. For developers, preserve actual reproducible inputs/API evidence. For investors, distinguish useful current demonstrations, performance evidence and remaining integration work without implying market or deployment qualification."
+  ],
+  "rights": "The dataset explains safeguards without claiming blanket compliance. Actual consent/refusal/revocation demonstrations and accessible equivalents remain required by the master plan.",
+  "shared_files_edited": false
+}

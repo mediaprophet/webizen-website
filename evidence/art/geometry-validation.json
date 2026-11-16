@@ -1,0 +1,26 @@
+{
+  "schema": "webizen.art-validation/v1",
+  "results": [
+    {
+      "id": "canopy",
+      "triangles": 23104,
+      "parts": 27,
+      "complete_dxf_face_adapter": true,
+      "native_replay": true
+    },
+    {
+      "id": "memory-frond",
+      "triangles": 14008,
+      "parts": 22,
+      "complete_dxf_face_adapter": true,
+      "native_replay": true
+    },
+    {
+      "id": "tidal-vessel",
+      "triangles": 29568,
+      "parts": 5,
+      "complete_dxf_face_adapter": true,
+      "native_replay": true
+    }
+  ]
+}

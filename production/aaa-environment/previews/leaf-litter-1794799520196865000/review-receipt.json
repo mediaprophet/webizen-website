@@ -1,0 +1,120 @@
+{
+  "projection": {
+    "bounds_max": [
+      0.9303209781646729,
+      0.05499900132417679,
+      0.7166330218315125
+    ],
+    "bounds_min": [
+      -0.9146389961242676,
+      0.010999999940395355,
+      -0.7496920228004456
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 3.326076030731201,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      0.007840991020202637,
+      0.03299950063228607,
+      -0.016529500484466553
+    ],
+    "colors": "absent-renderer-default",
+    "lighting": {
+      "ambient_intensity": 0.44999998807907104,
+      "clear_color": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "direct_intensity": 1.7999999523162842,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        0.40824830532073975,
+        0.8164966106414795,
+        0.40824830532073975
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 3.326076030731201,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.75,
+    "shadows_available": true,
+    "tangents": "authored",
+    "texture_coordinates": "authored-UV01",
+    "triangle_count": 1520,
+    "vertex_count": 836,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "renderer": "QualiaDB webizen-render::VolumetricRenderer / PortalGpu native offscreen path",
+  "schema": "synth.native-10d-preview/v1",
+  "scope": "native readback PNG projection; not model acceptance or an adapter capability receipt",
+  "source": {
+    "bytes": 108800,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\leaf-litter-surface-96421d645457\\leaf-litter.10d",
+    "sha256": "2f28d903971644812cb312907b5dbd7b2047fa642440608d962de650de3aba0c"
+  },
+  "textures": {
+    "asset_key": "outputs/leaf-litter.10d",
+    "hmc_sha256": "12dc0aa1b624e1bebfe12fcd1782c82cc38c73b93c45e99ac311600477f0bd24",
+    "requested": 3,
+    "resident": 3
+  },
+  "views": [
+    {
+      "bytes": 125342,
+      "camera_distance_applied": 3.326076030731201,
+      "camera_distance_requested": 3.326076030731201,
+      "camera_pitch": 0.2800000011920929,
+      "camera_target": [
+        0.007840991020202637,
+        0.03299950063228607,
+        -0.016529500484466553
+      ],
+      "camera_yaw": 0.7200000286102295,
+      "file": "three-quarter-view-assumed.png",
+      "height": 2048,
+      "sha256": "3921fed9991d696556410fb6ec48fd19e07171664b0a0a93ba7a800f741632c7",
+      "width": 2048
+    },
+    {
+      "bytes": 122995,
+      "camera_distance_applied": 3.326076030731201,
+      "camera_distance_requested": 3.326076030731201,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.007840991020202637,
+        0.03299950063228607,
+        -0.016529500484466553
+      ],
+      "camera_yaw": 1.5707963705062866,
+      "file": "side-view-assumed.png",
+      "height": 2048,
+      "sha256": "b1f13facc5e474644f73d34db0f895b358b78b13b416abe33d8d3c4452fdec5d",
+      "width": 2048
+    },
+    {
+      "bytes": 122842,
+      "camera_distance_applied": 3.326076030731201,
+      "camera_distance_requested": 3.326076030731201,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.007840991020202637,
+        0.03299950063228607,
+        -0.016529500484466553
+      ],
+      "camera_yaw": 0.0,
+      "file": "front-view-assumed.png",
+      "height": 2048,
+      "sha256": "a2f87e417efe3352eaadad84178708d50fec54037436c363fad77eef20ac9cc3",
+      "width": 2048
+    }
+  ]
+}

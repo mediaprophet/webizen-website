@@ -1,0 +1,88 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 8787982,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-near-2-c880e38d0716.hmc",
+    "sha256": "53c3cc1c08037224203865a6c3eb9b6f21b43c1afbc3424698b445b701cb8723"
+  },
+  "inputs": [
+    {
+      "bytes": 285512,
+      "key": "batch.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-grass-near-2.glb",
+      "sha256": "f840ef96debeae02ac5fa4692393e4267beedb077360451d9ae5b2084b17e54b"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499998656,
+    "effective_host_bytes": 268392448,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2094921,
+    "source_bytes": 336,
+    "source_reservation_bytes": 43008,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1344,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 8424552,
+      "key": "ecology-grass-near-2.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-near-2-c880e38d0716\\ecology-grass-near-2.10d",
+      "sha256": "0cb14ccca948483e91368e92e1e049fc24d85c1690ce2976df753a4f8516736c"
+    },
+    {
+      "bytes": 17703,
+      "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-near-2-c880e38d0716\\textures\\sha256\\002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+    },
+    {
+      "bytes": 16285,
+      "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-near-2-c880e38d0716\\textures\\sha256\\10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+    },
+    {
+      "bytes": 42157,
+      "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-near-2-c880e38d0716\\textures\\sha256\\fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "753f1629eb79320880d50ffd233c8d05b9796901c6ecfb325b935c9be2e53aa4",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

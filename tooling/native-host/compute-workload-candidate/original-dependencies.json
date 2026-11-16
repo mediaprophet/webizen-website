@@ -1,0 +1,87 @@
+[
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libpico_args-52d50bd141e5725e.rlib",
+    "sha256": "8c765f65386ca2bc839e93b275008a6cad8f413f1bc60ba3b85c1524bed8a8fa",
+    "name": "pico_args"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libetalon-9b44288904fc3ab0.rlib",
+    "sha256": "c7b5dbfaefe039972727ba9b57642dd33d8f2d20f6314690216f188b8d9d2128",
+    "name": "etalon"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libpollster-4a3cabf59da662eb.rlib",
+    "sha256": "f3d406654c9b4555c950025b2701752112b5485a2255f20e65770663ed867e63",
+    "name": "pollster"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libserde-20005933c59bad59.rlib",
+    "sha256": "9f3b30829840f4bde10ed2b8a3d275389d4c59946c1842fb523e16bdbee7648b",
+    "name": "serde"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libserde_json-025e2e286ac898a2.rlib",
+    "sha256": "13c07ee0ba1b6cfa39f673ecb1da9b577eb51021775921a10955ec0695f4a15d",
+    "name": "serde_json"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libtracy_client-573da150c62847a7.rlib",
+    "sha256": "6b4402990f7a16bc252288dba9580bf6f2b76d72942add2673a38883ec7ba3a4",
+    "name": "tracy_client"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libanyhow-5c3deee52f01971b.rlib",
+    "sha256": "c8ae64dd2c948405207e46baaf18672a5e93eac7acb121154a7e266b25febf5d",
+    "name": "anyhow"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libbincode-a5aab8257f0c1a74.rlib",
+    "sha256": "b8842f68a1f2b864b65f8106bc27d8c763a43b39282977b8152271f245dd0bcc",
+    "name": "bincode"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\librayon-445cad90c7e29489.rlib",
+    "sha256": "f635f4a67452459b7fa226d652a2eb89baad9d9e63591b41848570f9498212dc",
+    "name": "rayon"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libtermcolor-fc36c98c58104206.rlib",
+    "sha256": "a21978d79e37c99000f53cee4b59f4f6e7b6ad88fa19b0927b9601712f5f4598",
+    "name": "termcolor"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libprofiling-da614daa85c5cd33.rlib",
+    "sha256": "4148ec5a36f0300a750453575ed8f4bbeeb3c88bf8d0cfc266643b20bfe8cb9b",
+    "name": "profiling"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libnaga-77b7d209788851e3.rlib",
+    "sha256": "07e5e196f247014ed91fdb6a9824a11d57f7e5ec6559d1a4576c0fafbe8de424",
+    "name": "naga"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libetalon_benchmark-79341967446c7b65.rlib",
+    "sha256": "56de3c6cddabf5fb4ec66315989f6030096cf7d37018a406999c104993445146",
+    "name": "etalon_benchmark"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libenv_logger-8ed88c49ffe9ffe2.rlib",
+    "sha256": "356ee61cccb1aa4a477e063eae187d2ffcc243a6ef550c4bd948f7dfc140fb17",
+    "name": "env_logger"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libnanorand-5f8939b4a1a34fc9.rlib",
+    "sha256": "d949d11e7e95f4cdd38932ce2d9d27dc3c87330263d1df0d5bc87e87add6f0b6",
+    "name": "nanorand"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libnaga_test-635d8b87ce78059d.rlib",
+    "sha256": "3baf97bff22796818297372788795ea836059de93f9142dde33771deda66f84a",
+    "name": "naga_test"
+  },
+  {
+    "file": "C:\\github\\etalon\\target-webizen-tests\\debug\\deps\\libbytemuck-e901d06306fb1663.rlib",
+    "sha256": "624bc3e467bddd32786f6274bc123164bdb979ddb08f7f0e70e850ee2a978fcf",
+    "name": "bytemuck"
+  }
+]

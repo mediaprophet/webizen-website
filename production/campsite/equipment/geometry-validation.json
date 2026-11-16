@@ -1,0 +1,26 @@
+{
+  "schema": "webizen.equipment-validation/v1",
+  "passed": true,
+  "assets": [
+    {
+      "id": "solar-array",
+      "parts": 84,
+      "vertices": 1156,
+      "triangles": 1976,
+      "exact_native_dxf_identity": true,
+      "strict_replay_verified": true,
+      "native_sha256": "d38898b8fef2ccbb1100b4a95b95511242886a81b6378501d832509ad7a45036",
+      "visual_review": "Front, side and three-quarter native previews inspected; shape accepted as authored visual reconstruction. Native preview is uncoloured; browser palette applied separately."
+    },
+    {
+      "id": "starlink-mini",
+      "parts": 15,
+      "vertices": 412,
+      "triangles": 764,
+      "exact_native_dxf_identity": true,
+      "strict_replay_verified": true,
+      "native_sha256": "ed9d4c7ba357b60c7a398b5a0b54707440246668406c030e363b792e29782820",
+      "visual_review": "Front, side and three-quarter native previews inspected; shape accepted as authored visual reconstruction. Native preview is uncoloured; browser palette applied separately."
+    }
+  ]
+}

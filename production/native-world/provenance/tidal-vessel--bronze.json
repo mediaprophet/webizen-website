@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 4638,
+  "triangles": 9216,
+  "bytes": 1479408,
+  "source_bytes": 179648,
+  "id": "tidal-vessel--bronze",
+  "original_sha256": "ea8c47a90c7bf32e0153c6f03e138f5cf2d3041c7c388e9922527f99eba6f057",
+  "source_sha256": "c85f8ec2288e99f3d8093b219e3f0c529d89380b8482a06d15bc32c3b0a0e67a",
+  "attested_sha256": "78afe807825237b32229beebeca95f17199fca963a46ffe6a3bb77f510aeb7fb",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

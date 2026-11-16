@@ -1,0 +1,44 @@
+{
+  "schema": "webizen.aaa-data-validation/v1",
+  "passed": true,
+  "query_checks": [
+    {
+      "id": "schemaorg-30-current-https:archive-held",
+      "count": 8,
+      "passed": true
+    },
+    {
+      "id": "schemaorg-30-current-https:type-filter",
+      "count": 3227,
+      "passed": true
+    },
+    {
+      "id": "schemaorg-30-current-https:no-match",
+      "count": 0,
+      "passed": true
+    },
+    {
+      "id": "proof-metadata:earth-source",
+      "count": 10,
+      "passed": true
+    },
+    {
+      "id": "proof-metadata:rights-norms",
+      "count": 6,
+      "passed": true
+    },
+    {
+      "id": "proof-metadata:jpl-vectors",
+      "count": 4,
+      "passed": true
+    }
+  ],
+  "rights_cases": 6,
+  "historical_benchmark_files": 5,
+  "actual_ephemeris_rows": 4,
+  "source_positions_unchanged": 16992,
+  "native_winding_fixed_triangles": 33462,
+  "native_asset_sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+  "native_asset_admitted": true,
+  "scope": "Boundedproofdata; nofullsitecompletionornewbenchmarkclaim"
+}

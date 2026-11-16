@@ -1,0 +1,9 @@
+{
+  "strict_replay": true,
+  "source_hashes_verified": true,
+  "native_preview_hashes_verified": true,
+  "triangles": 51200,
+  "dxf_browser_exact": true,
+  "max_coordinate_error_metres": 3.5543158389828022e-06,
+  "native_sha256": "097326b16893a396e782a4102b225290275eade485773657e7f3dd2317b44921"
+}

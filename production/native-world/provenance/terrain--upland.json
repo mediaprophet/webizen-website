@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 25921,
+  "triangles": 24385,
+  "bytes": 4694256,
+  "source_bytes": 616260,
+  "id": "terrain--upland",
+  "original_sha256": "67598660daa037e695b6e9d8ff8ab298e277ff00a2339d6a426869dba1d38dcb",
+  "source_sha256": "b28b332f73ff7eb991e6da6f13e1774adc4b0ffd2f13f4f6ac7be6b00d0bd38e",
+  "attested_sha256": "24805672c39fdbe8fbe6449731218959a3debaf2768cbbec14e3a94c90471461",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

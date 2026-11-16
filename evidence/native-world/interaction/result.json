@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "locale": "en-AU",
+  "routes": {
+    "learn": [
+      "river",
+      "canopy",
+      "observatory",
+      "field-studio",
+      "biology",
+      "atelier",
+      "commons"
+    ],
+    "research": [
+      "observatory",
+      "biology",
+      "atelier",
+      "canopy",
+      "commons",
+      "field-studio",
+      "river"
+    ],
+    "create": [
+      "atelier",
+      "canopy",
+      "biology",
+      "commons",
+      "field-studio",
+      "observatory",
+      "river"
+    ],
+    "participate": [
+      "commons",
+      "river",
+      "atelier",
+      "observatory",
+      "canopy",
+      "field-studio",
+      "biology"
+    ]
+  },
+  "chapter": {
+    "artistic_palette": [
+      "#356a68",
+      "#729c8b",
+      "#d7d0ae",
+      "#a5bdc7"
+    ],
+    "id": "south-coast",
+    "landscape_copy": "Forest approaches the shore. Sea light, weathered wood and sheltered waterways bring the living coast into the field studio.",
+    "month_bands": [
+      "2025-11",
+      "2025-12"
+    ],
+    "sky_colour": [
+      0.37626221776008606,
+      0.5088814496994019,
+      0.5711249113082886,
+      1
+    ],
+    "sun": [
+      -0.5,
+      0.8,
+      0.35,
+      1.65,
+      0.32
+    ],
+    "title": "South Coast"
+  },
+  "keyboard_camera_changed": true,
+  "wheel_zoom_changed": true,
+  "full_scene_triangles": 597854,
+  "scripts": [
+    "http://127.0.0.1:8800/pkg/native-world/webizen_world.js"
+  ],
+  "errors": []
+}

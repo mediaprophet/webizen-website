@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "deterministic_reseal": true,
+  "two_output_sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994",
+  "corrupt_original_crc_rejected_before_output": true,
+  "bad_crc_process_returncode": 101
+}

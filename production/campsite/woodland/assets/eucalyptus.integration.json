@@ -1,0 +1,37 @@
+{
+  "schema": "webizen.campsite-native-asset/v1",
+  "id": "eucalyptus",
+  "title": "Open-grown eucalyptus",
+  "description": "Authored Australian woodland eucalyptus study: articulated pale limbs and individually realised pendulous lanceolate leaves. No species-exact botanical claim.",
+  "role": "woodland",
+  "units": "metres",
+  "up": "+Y",
+  "ground_y": 0,
+  "mesh_url": "/production/campsite/woodland/assets/eucalyptus.json",
+  "model_url": "/production/campsite/woodland/artifacts/eucalyptus-sealed-07d0416f52ea/eucalyptus.10d",
+  "recipe_url": "/production/campsite/woodland/recipes/eucalyptus.vibe",
+  "receipt_url": "/production/campsite/woodland/artifacts/eucalyptus-sealed-07d0416f52ea.json",
+  "production_receipt_url": "/production/campsite/woodland/artifacts/eucalyptus-130269c645fa.json",
+  "package_url": "/production/campsite/woodland/artifacts/eucalyptus-sealed-07d0416f52ea.hmc",
+  "model_sha256": "5b3656a5b08fd868ba63a6177764c4d8dda2e790b403d2768ddfe3e20417666d",
+  "mesh_sha256": "fcdcbf859f892bea91b027a4d2d0e42281787dfc0b9080d293faa9d91c3ebae8",
+  "parts": 7,
+  "source_parts": 200,
+  "triangles": 112424,
+  "leaf_count": 1920,
+  "bounds": {
+    "min": [
+      -6.128244,
+      -0.110059,
+      -5.195251
+    ],
+    "max": [
+      6.1330447,
+      14.315465,
+      5.931598
+    ]
+  },
+  "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\previews\\eucalyptus-1794791518",
+  "strict_replay_verified": true,
+  "epistemic_class": "authored-artwork"
+}

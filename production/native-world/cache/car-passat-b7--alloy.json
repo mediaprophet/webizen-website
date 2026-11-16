@@ -1,0 +1,118 @@
+{
+  "key": "35b88e9adbcf7bec70764a4715c139dd1aadbff3da80e641e27f0941ce131884",
+  "id": "car-passat-b7--alloy",
+  "native": {
+    "bytes": 711848,
+    "key": "car-passat-b7--alloy.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--alloy-902b78b2abc3\\car-passat-b7--alloy.10d",
+    "sha256": "ae506c75295126fb91576953728bd50d8a17ee05e75983c759e154c8dacf2ef3",
+    "url": "/artifacts/world-car-passat-b7--alloy-902b78b2abc3/car-passat-b7--alloy.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "675013b771b09151359ea4fa57e8b015f100180ea0dfeb2d549f11d852b2dc80",
+    "package_sha256": "c86a6f8c555e25a1b2136a38b9c096a9bd51a6bdebbbe4c7fe9e08d09d16520d",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 935112,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--alloy-902b78b2abc3.hmc",
+        "sha256": "c86a6f8c555e25a1b2136a38b9c096a9bd51a6bdebbbe4c7fe9e08d09d16520d"
+      },
+      "inputs": [
+        {
+          "bytes": 221988,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\car-passat-b7--alloy.glb",
+          "sha256": "d8eeb42026bb3aa1e9347b5782dcf55342399017d4323fe9e32660cd6d60ba84"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997928,
+        "effective_host_bytes": 268369152,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095417,
+        "source_bytes": 518,
+        "source_reservation_bytes": 66304,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2072,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 711848,
+          "key": "car-passat-b7--alloy.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--alloy-902b78b2abc3\\car-passat-b7--alloy.10d",
+          "sha256": "ae506c75295126fb91576953728bd50d8a17ee05e75983c759e154c8dacf2ef3",
+          "url": "/artifacts/world-car-passat-b7--alloy-902b78b2abc3/car-passat-b7--alloy.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "0fa84125d5cf18812d22f1a8ddc57304994120ae785b350017ad0d33f13a421d",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 711848,
+        "key": "car-passat-b7--alloy.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "ae506c75295126fb91576953728bd50d8a17ee05e75983c759e154c8dacf2ef3"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-car-passat-b7--alloy-902b78b2abc3.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-car-passat-b7--alloy-902b78b2abc3.hmc",
+    "receipt_url": "/artifacts/world-car-passat-b7--alloy-902b78b2abc3.json"
+  },
+  "vertices": 5380,
+  "triangles": 10656,
+  "instances": 1,
+  "material": 10,
+  "url": "/production/native-world/assets/car-passat-b7--alloy.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "ae506c75295126fb91576953728bd50d8a17ee05e75983c759e154c8dacf2ef3",
+  "bytes": 711848,
+  "recipe": "/production/native-world/recipes/car-passat-b7--alloy.vibe",
+  "input_sha256": "d8eeb42026bb3aa1e9347b5782dcf55342399017d4323fe9e32660cd6d60ba84"
+}

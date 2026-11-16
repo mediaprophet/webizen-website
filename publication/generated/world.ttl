@@ -1,0 +1,215 @@
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/artistic_palette> "[\"#626c4c\",\"#b29262\",\"#d6c49c\",\"#81989b\"]" .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/id> "central-victoria" .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/landscape_copy> "Dry woodland and open country carry a quieter palette of straw, bark and stone. Long light draws out the folds of the land." .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/month_bands> "[\"2026-02\",\"2026-08\",\"2026-09\"]" .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/relative_order> <5> .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/stay_band> "A settled chapter" .
+<https://webizen.au/journey/central-victoria> <https://webizen.au/relation/title> "Central Victoria" .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/artistic_palette> "[\"#455e57\",\"#84917c\",\"#c6c9b5\",\"#8a9fab\"]" .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/id> "high-country" .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/landscape_copy> "Layered ranges, tall forest and cooler air shape a mountain palette. Distance appears in successive shades of blue and green." .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/month_bands> "[\"2025-11\",\"2025-12\"]" .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/relative_order> <3> .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/stay_band> "A brief chapter" .
+<https://webizen.au/journey/high-country> <https://webizen.au/relation/title> "High country & eastern Victoria" .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/artistic_palette> "[\"#294e43\",\"#73926b\",\"#b7c9a0\",\"#92b7bd\"]" .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/id> "northern-rivers" .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/landscape_copy> "Rain-green hills, river valleys and coastal light suggest a softer, more abundant landscape. Water connects the forest with the sea." .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/month_bands> "[\"2026-05\",\"2026-06\",\"2026-07\"]" .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/relative_order> <7> .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/stay_band> "An extended chapter" .
+<https://webizen.au/journey/northern-rivers> <https://webizen.au/relation/title> "Northern Rivers & far north coast" .
+<https://webizen.au/journey/publication> <https://webizen.au/relation/default_language> "en-AU" .
+<https://webizen.au/journey/publication> <https://webizen.au/relation/method> "These seven landscape chapters draw on longer visits in a locally held timeline, from mid-November 2025 through mid-November 2026. The available record ends in October 2026. Nearby visits are grouped into broad artistic regions; their names are approximate, not mapped boundaries. Month bands show when a chapter appears, and the reading order follows its first appearance. A visit record is not a campsite. The field studio is a shared artistic setting for exploring these landscapes." .
+<https://webizen.au/journey/publication> <https://webizen.au/relation/schema> "webizen.journey/v1" .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/artistic_palette> "[\"#69724f\",\"#b29d65\",\"#d8cba4\",\"#8faaa7\"]" .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/id> "riverina" .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/landscape_copy> "River country and open plains invite a slower view. Muted greens and warm ground colours follow the changing light." .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/month_bands> "[\"2025-12\",\"2026-01\"]" .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/relative_order> <4> .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/stay_band> "A brief chapter" .
+<https://webizen.au/journey/riverina> <https://webizen.au/relation/title> "Riverina" .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/artistic_palette> "[\"#356a68\",\"#729c8b\",\"#d7d0ae\",\"#a5bdc7\"]" .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/id> "south-coast" .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/landscape_copy> "Forest approaches the shore. Sea light, weathered wood and sheltered waterways bring the living coast into the field studio." .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/month_bands> "[\"2025-11\",\"2025-12\"]" .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/relative_order> <2> .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/stay_band> "A brief chapter" .
+<https://webizen.au/journey/south-coast> <https://webizen.au/relation/title> "South Coast" .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/artistic_palette> "[\"#556856\",\"#b3b298\",\"#d9cfa8\",\"#637b88\"]" .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/id> "southern-tablelands" .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/landscape_copy> "Open grasslands meet wooded ridges. A chapter of broad skies, cool light and the meeting of country and city." .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/month_bands> "[\"2025-11\",\"2025-12\",\"2026-01\",\"2026-02\",\"2026-03\",\"2026-04\",\"2026-07\",\"2026-08\",\"2026-09\",\"2026-10\"]" .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/relative_order> <1> .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/stay_band> "An extended chapter" .
+<https://webizen.au/journey/southern-tablelands> <https://webizen.au/relation/title> "Southern Tablelands & Canberra region" .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/artistic_palette> "[\"#756b4c\",\"#ae8257\",\"#d4b68b\",\"#889caa\"]" .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/id> "western-slopes" .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/kind> <https://webizen.au/journey/chapter> .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/landscape_copy> "The horizon opens across plains and slopes. Earth, grass and changing skies give this chapter its sense of space." .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/month_bands> "[\"2026-04\",\"2026-05\"]" .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/relative_order> <6> .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/stay_band> "A settled chapter" .
+<https://webizen.au/journey/western-slopes> <https://webizen.au/relation/title> "North-west NSW & western slopes" .
+<https://webizen.au/module/aether> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/aether> <https://webizen.au/relation/purpose> "Application framework, reactive and native interfaces" .
+<https://webizen.au/module/aether> <https://webizen.au/relation/title> "Aether" .
+<https://webizen.au/module/anatomy> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/anatomy> <https://webizen.au/relation/purpose> "Authored spatial biological and welfare educational works" .
+<https://webizen.au/module/anatomy> <https://webizen.au/relation/title> "Anatomy" .
+<https://webizen.au/module/anvil> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/anvil> <https://webizen.au/relation/purpose> "Device capability facts and execution routing information" .
+<https://webizen.au/module/anvil> <https://webizen.au/relation/title> "Anvil" .
+<https://webizen.au/module/chora> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/chora> <https://webizen.au/relation/purpose> "Embedded web and spatial document engine" .
+<https://webizen.au/module/chora> <https://webizen.au/relation/title> "Chora" .
+<https://webizen.au/module/cooperation> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/cooperation> <https://webizen.au/relation/purpose> "Care, participation, shared work and cooperative primitives" .
+<https://webizen.au/module/cooperation> <https://webizen.au/relation/title> "Wellfare, cooperation and work graph" .
+<https://webizen.au/module/ecopunk> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/ecopunk> <https://webizen.au/relation/purpose> "Environmental systems and living-world experiences" .
+<https://webizen.au/module/ecopunk> <https://webizen.au/relation/title> "Ecopunk and living-world work" .
+<https://webizen.au/module/etalon> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/etalon> <https://webizen.au/relation/purpose> "Rendering, computation, inference, signals and sensing" .
+<https://webizen.au/module/etalon> <https://webizen.au/relation/title> "Etalon" .
+<https://webizen.au/module/hypermedia> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/hypermedia> <https://webizen.au/relation/purpose> "150 composable media production operations" .
+<https://webizen.au/module/hypermedia> <https://webizen.au/relation/title> "Hypermedia production" .
+<https://webizen.au/module/poet> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/poet> <https://webizen.au/relation/purpose> "Composition and editing of authored works; reconcile app/source ownership" .
+<https://webizen.au/module/poet> <https://webizen.au/relation/title> "Poet" .
+<https://webizen.au/module/qdnf> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/qdnf> <https://webizen.au/relation/purpose> "Identifier, naming and network fabric; public subsystem explicitly reconciled with the module atlas" .
+<https://webizen.au/module/qdnf> <https://webizen.au/relation/title> "QDNF and identifier fabric" .
+<https://webizen.au/module/qualiadb> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/qualiadb> <https://webizen.au/relation/purpose> "Contextual knowledge, reasoning, resource codecs and scientific foundations" .
+<https://webizen.au/module/qualiadb> <https://webizen.au/relation/title> "QualiaDB" .
+<https://webizen.au/module/synth> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/synth> <https://webizen.au/relation/purpose> "Reproducible media production, strict replay and HMC packaging" .
+<https://webizen.au/module/synth> <https://webizen.au/relation/title> "Synth" .
+<https://webizen.au/module/vibescript> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/vibescript> <https://webizen.au/relation/purpose> "Checked language, authoring tools and explicit host contracts; engine in QualiaDB" .
+<https://webizen.au/module/vibescript> <https://webizen.au/relation/title> "VibeScript" .
+<https://webizen.au/module/web-civics> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/web-civics> <https://webizen.au/relation/purpose> "Vocabularies, structured instruments and shared meaning" .
+<https://webizen.au/module/web-civics> <https://webizen.au/relation/title> "Web Civics / semantic instruments" .
+<https://webizen.au/module/webizen> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/webizen> <https://webizen.au/relation/purpose> "Human-facing tools, application lifecycle and authorised host capabilities" .
+<https://webizen.au/module/webizen> <https://webizen.au/relation/title> "Webizen applications and runtime" .
+<https://webizen.au/module/webizen-host> <https://webizen.au/relation/kind> <https://webizen.au/module/module> .
+<https://webizen.au/module/webizen-host> <https://webizen.au/relation/purpose> "Hosting, namespaces, deployment and shared stewardship" .
+<https://webizen.au/module/webizen-host> <https://webizen.au/relation/title> "Webizen Host" .
+<https://webizen.au/purpose/create> <https://webizen.au/relation/prefersRelation> <https://webizen.au/relation/knowledge> .
+<https://webizen.au/purpose/create> <https://webizen.au/relation/startsAt> <https://webizen.au/world/atelier> .
+<https://webizen.au/purpose/learn> <https://webizen.au/relation/prefersRelation> <https://webizen.au/relation/knowledge> .
+<https://webizen.au/purpose/learn> <https://webizen.au/relation/startsAt> <https://webizen.au/world/river> .
+<https://webizen.au/purpose/participate> <https://webizen.au/relation/prefersRelation> <https://webizen.au/relation/socioeconomic> .
+<https://webizen.au/purpose/participate> <https://webizen.au/relation/startsAt> <https://webizen.au/world/commons> .
+<https://webizen.au/purpose/research> <https://webizen.au/relation/prefersRelation> <https://webizen.au/relation/information> .
+<https://webizen.au/purpose/research> <https://webizen.au/relation/startsAt> <https://webizen.au/world/observatory> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/camera> "[30.0,10.666177230070193,4.0]" .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/description> "A sound, a model or a written work carries human intention. Synth connects a production recipe to its output, so a creator can inspect, repeat and share the work. Generate a tone, listen deliberately, then inspect the source and package." .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/kind> <https://webizen.au/world/sound> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/knowledge> <https://webizen.au/world/canopy> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/module> <https://webizen.au/module/hypermedia> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/module> <https://webizen.au/module/poet> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/module> <https://webizen.au/module/synth> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/module> <https://webizen.au/module/vibescript> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/position> "[20.0,5.666177230070194,-7.0]" .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/readingRoute> "/publication/reading.html#atelier" .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/source> <https://webizen.au/source/audio-showcase.html> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/source> <https://webizen.au/source/hypermedia-studio.html> .
+<https://webizen.au/world/atelier> <https://webizen.au/relation/title> "The atelier" .
+<https://webizen.au/world/biology> <https://webizen.au/relation/camera> "[26.0,9.825541311079283,-27.0]" .
+<https://webizen.au/world/biology> <https://webizen.au/relation/description> "Understanding a living body requires relationships across scale, purpose, evidence and uncertainty. The garden helix is a spatial invitation into the existing anatomy and biological demonstrations, not a biological dataset in itself." .
+<https://webizen.au/world/biology> <https://webizen.au/relation/kind> <https://webizen.au/world/biology> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/module> <https://webizen.au/module/anatomy> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/module> <https://webizen.au/module/etalon> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/module> <https://webizen.au/module/hypermedia> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/module> <https://webizen.au/module/qualiadb> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/position> "[17.0,4.825541311079283,-37.0]" .
+<https://webizen.au/world/biology> <https://webizen.au/relation/readingRoute> "/publication/reading.html#biology" .
+<https://webizen.au/world/biology> <https://webizen.au/relation/source> <https://webizen.au/source/playground/anatomy.html> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/source> <https://webizen.au/source/playground/living-world-showcase.html> .
+<https://webizen.au/world/biology> <https://webizen.au/relation/title> "The living body" .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/camera> "[-10.0,11.978422619116127,-4.0]" .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/description> "A tree is part of biological, ecological, cultural and informational relationships. Switch the relationship lens to see how these connections cross the landscape. The world is an authored model; the linked biology, geometry and knowledge demonstrations expose their own inputs and scope." .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/kind> <https://webizen.au/world/relationships> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/knowledge> <https://webizen.au/world/biology> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/module> <https://webizen.au/module/ecopunk> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/module> <https://webizen.au/module/hypermedia> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/module> <https://webizen.au/module/qualiadb> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/position> "[-20.0,3.9784226191161283,-16.0]" .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/readingRoute> "/publication/reading.html#canopy" .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/source> <https://webizen.au/source/graph.html> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/source> <https://webizen.au/source/playground/living-world-showcase.html> .
+<https://webizen.au/world/canopy> <https://webizen.au/relation/title> "The forest canopy" .
+<https://webizen.au/world/commons> <https://webizen.au/relation/camera> "[-8.0,9.688931231681774,15.0]" .
+<https://webizen.au/world/commons> <https://webizen.au/relation/description> "Sharing knowledge should support people and their purposes. Try a synthetic community request below. The actual QualiaDB deontic evaluator processes the authored norms, and the local host returns the summary only when the selected norm permits it. Individual records are never included in the response." .
+<https://webizen.au/world/commons> <https://webizen.au/relation/information> <https://webizen.au/world/observatory> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/kind> <https://webizen.au/world/rights> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/module> <https://webizen.au/module/qualiadb> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/module> <https://webizen.au/module/web-civics> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/module> <https://webizen.au/module/webizen> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/module> <https://webizen.au/module/webizen-host> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/position> "[-17.0,3.688931231681775,6.0]" .
+<https://webizen.au/world/commons> <https://webizen.au/relation/readingRoute> "/publication/reading.html#commons" .
+<https://webizen.au/world/commons> <https://webizen.au/relation/socioeconomic> <https://webizen.au/world/atelier> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/socioeconomic> <https://webizen.au/world/river> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/source> <https://webizen.au/source/agreement-instruments.html> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/source> <https://webizen.au/source/agreement-ledger.html> .
+<https://webizen.au/world/commons> <https://webizen.au/relation/title> "The commons" .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/camera> "[-32.0,8.900000000254924,44.0]" .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/description> "A gold 2012–13 Volkswagen Passat wagon with a streamlined charcoal roof box, a 1980 Jayco wind-up camper, two three-panel solar arrays and one two-panel array on the ground, and a Starlink Mini on the camper roof. This campsite reflects the circumstances in which this ecosystem has been developed: living, working, making and staying connected. The vehicle and camper are authored interpretations of the described models." .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/central-victoria> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/high-country> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/northern-rivers> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/riverina> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/south-coast> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/southern-tablelands> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/hasChapter> <https://webizen.au/journey/western-slopes> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/kind> <https://webizen.au/world/campsite> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/knowledge> <https://webizen.au/world/atelier> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/module> <https://webizen.au/module/hypermedia> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/module> <https://webizen.au/module/synth> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/module> <https://webizen.au/module/vibescript> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/module> <https://webizen.au/module/webizen> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/position> "[-22.0,5.4909216892549235,28.0]" .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/readingRoute> "/publication/reading.html#field-studio" .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/socioeconomic> <https://webizen.au/world/commons> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/source> <https://webizen.au/source/hypermedia-studio.html> .
+<https://webizen.au/world/field-studio> <https://webizen.au/relation/title> "The field studio" .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/camera> "[-4.0,9.16498867324049,-19.0]" .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/description> "How can we inspect information about the physical world? Change the amplitude of a synthetic emitter, compile an electromagnetic field, and inspect its magnitude preview. The current preview is greyscale. This is a model estimate, not a sensor measurement or a complete Maxwell solver." .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/information> <https://webizen.au/world/biology> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/kind> <https://webizen.au/world/light> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/module> <https://webizen.au/module/anvil> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/module> <https://webizen.au/module/etalon> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/module> <https://webizen.au/module/qualiadb> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/module> <https://webizen.au/module/synth> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/position> "[-15.0,2.16498867324049,-32.0]" .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/readingRoute> "/publication/reading.html#observatory" .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/source> <https://webizen.au/source/benchmark.html> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/source> <https://webizen.au/source/emf-qac-showcase.html> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/source> <https://webizen.au/source/vision-showcase.html> .
+<https://webizen.au/world/observatory> <https://webizen.au/relation/title> "The field station" .
+<https://webizen.au/world/river> <https://webizen.au/relation/camera> "[12.0,11.356902858675879,30.0]" .
+<https://webizen.au/world/river> <https://webizen.au/relation/description> "A river connects geology, soil, plants and human life. Information becomes useful when it remains connected to a place, a question and the conditions under which it was gathered. Change the bounded terrain brush below to run a real production operation and inspect its output." .
+<https://webizen.au/world/river> <https://webizen.au/relation/information> <https://webizen.au/world/field-studio> .
+<https://webizen.au/world/river> <https://webizen.au/relation/information> <https://webizen.au/world/observatory> .
+<https://webizen.au/world/river> <https://webizen.au/relation/kind> <https://webizen.au/world/terrain> .
+<https://webizen.au/world/river> <https://webizen.au/relation/knowledge> <https://webizen.au/world/canopy> .
+<https://webizen.au/world/river> <https://webizen.au/relation/module> <https://webizen.au/module/hypermedia> .
+<https://webizen.au/world/river> <https://webizen.au/relation/module> <https://webizen.au/module/qualiadb> .
+<https://webizen.au/world/river> <https://webizen.au/relation/module> <https://webizen.au/module/synth> .
+<https://webizen.au/world/river> <https://webizen.au/relation/position> "[0.0,3.3569028586758782,16.0]" .
+<https://webizen.au/world/river> <https://webizen.au/relation/readingRoute> "/publication/reading.html#river" .
+<https://webizen.au/world/river> <https://webizen.au/relation/source> <https://webizen.au/source/domains-solvers.html> .
+<https://webizen.au/world/river> <https://webizen.au/relation/source> <https://webizen.au/source/playground/living-world-showcase.html> .
+<https://webizen.au/world/river> <https://webizen.au/relation/title> "The living river" .

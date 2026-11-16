@@ -1,0 +1,2049 @@
+{
+  "id": "grass-tuft",
+  "epistemic_class": "authored-artwork",
+  "description": "Native authored shape study, not species or measured geology claim",
+  "native": {
+    "bytes": 441312,
+    "key": "grass-tuft.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\grass-tuft.10d",
+    "sha256": "2bb7cb93286bc5addb1aecc41d8c672ae2f44bff9158422cc14632dd14ef1be3",
+    "url": "/artifacts/grass-tuft-surface-bd9551690ae3/grass-tuft.10d"
+  },
+  "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\assets\\grass-tuft.mesh.json",
+  "mesh_sha256": "b7391f808ab491ce9b4ff5d86a21ca28d6f2bb5794ad3a2bab168621c959b375",
+  "textures": {
+    "colour": {
+      "bytes": 42157,
+      "key": "colour.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\colour.png",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "url": "/artifacts/grass-tuft-surface-bd9551690ae3/colour.png"
+    },
+    "normal": {
+      "bytes": 17703,
+      "key": "normal.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\normal.png",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "url": "/artifacts/grass-tuft-surface-bd9551690ae3/normal.png"
+    },
+    "orm": {
+      "bytes": 16285,
+      "key": "orm.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\orm.png",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "url": "/artifacts/grass-tuft-surface-bd9551690ae3/orm.png"
+    }
+  },
+  "geometry_recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\grass-tuft.vibe",
+  "surface_recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\grass-tuft-surface.vibe",
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "ee7a3cdaaa951dcf493e30a2deff93adfdd82b99a6a00048be6d6591b2490cca",
+    "package_sha256": "d79bc61a824b35f0011f2e008440b0f89438aa2466c0178b072a15406ad1d654",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 1195737,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2.hmc",
+        "sha256": "d79bc61a824b35f0011f2e008440b0f89438aa2466c0178b072a15406ad1d654"
+      },
+      "inputs": [],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499554620,
+        "effective_host_bytes": 254183296,
+        "evaluation_steps": 445380,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097152,
+        "source_bytes": 111345,
+        "source_reservation_bytes": 14252160,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 445380,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 9041,
+          "key": "arched-blade-000.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-000.dxf",
+          "sha256": "0194cafd645c9cb31d1eaa06c4e99e8fecfcb3579e9c3be8e7ce6615b3da88f4",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-000.dxf"
+        },
+        {
+          "bytes": 9184,
+          "key": "arched-blade-001.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-001.dxf",
+          "sha256": "b73780527f03e2f0ced364d493fb52398757038db5bde92ee35676eee969c95b",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-001.dxf"
+        },
+        {
+          "bytes": 9221,
+          "key": "arched-blade-002.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-002.dxf",
+          "sha256": "ccf815af47e05c56a8781badbfe3fe3d5319f19267ce67e9fb619bb2bc0e2959",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-002.dxf"
+        },
+        {
+          "bytes": 9014,
+          "key": "arched-blade-003.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-003.dxf",
+          "sha256": "c66e2b96f83084a85bdd0ec42574fa783bf8edb9470a3d6aa9c9cb875cf11e8b",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-003.dxf"
+        },
+        {
+          "bytes": 9416,
+          "key": "arched-blade-004.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-004.dxf",
+          "sha256": "beb67ecb6e6c9744ed56c3623d1296ca883bb8e9f8d72378be9c4b0005c9a535",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-004.dxf"
+        },
+        {
+          "bytes": 9160,
+          "key": "arched-blade-005.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-005.dxf",
+          "sha256": "2e25399874c3c99aa9ce03f97637ab5ca227d6b2241b2e5d7fec69cfda945c37",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-005.dxf"
+        },
+        {
+          "bytes": 9238,
+          "key": "arched-blade-006.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-006.dxf",
+          "sha256": "3dfcf0cf999920fd9f70bc8f89e507c4a24bc2c0e758593d9ca3cdf262521884",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-006.dxf"
+        },
+        {
+          "bytes": 9407,
+          "key": "arched-blade-007.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-007.dxf",
+          "sha256": "97982cd0ae6d36a61e0c42a4a836babf9859b689b6b1d09fccc7fe277df904af",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-007.dxf"
+        },
+        {
+          "bytes": 8991,
+          "key": "arched-blade-008.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-008.dxf",
+          "sha256": "bcab2f197d19d57b60d8bae391ffeb112410aa519e46ceb5dad1c66ddb0cc45f",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-008.dxf"
+        },
+        {
+          "bytes": 9151,
+          "key": "arched-blade-009.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-009.dxf",
+          "sha256": "319088a272891e2ddc4d454fc697890f7abf55803ef6c11b907c65425aecde4c",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-009.dxf"
+        },
+        {
+          "bytes": 9246,
+          "key": "arched-blade-010.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-010.dxf",
+          "sha256": "9bfb5661d3dca2569e0eac1a505754ec1b69f8678ffcbe79c95ed71c49f39f30",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-010.dxf"
+        },
+        {
+          "bytes": 8959,
+          "key": "arched-blade-011.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-011.dxf",
+          "sha256": "e0386cf44e648abab9249f2f02284d895986f706069c3ff31e77f5f77b332173",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-011.dxf"
+        },
+        {
+          "bytes": 9414,
+          "key": "arched-blade-012.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-012.dxf",
+          "sha256": "42db6473f0bfe860ade773ea306398ff5b6b2a2e19a5e6878d3ed53ef563f36d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-012.dxf"
+        },
+        {
+          "bytes": 9176,
+          "key": "arched-blade-013.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-013.dxf",
+          "sha256": "7d9555fbb0317a3689436bbd83d6f58456b65007a4c0a3b1df0e5b5218bce605",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-013.dxf"
+        },
+        {
+          "bytes": 9222,
+          "key": "arched-blade-014.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-014.dxf",
+          "sha256": "461ca8a8e72eb1f09498afce0d9cb95c9e3aa8b54eaea4e3b0db238fb297c917",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-014.dxf"
+        },
+        {
+          "bytes": 9401,
+          "key": "arched-blade-015.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-015.dxf",
+          "sha256": "d43cb7b0f04150eb4dd79a1c1d108743d1f6914d61f972ca4424bd2cda37d2c7",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-015.dxf"
+        },
+        {
+          "bytes": 8983,
+          "key": "arched-blade-016.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-016.dxf",
+          "sha256": "53810b9f454da232ea5b03bd091ef1b6db0cf426a52e09f14453af1d5331c275",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-016.dxf"
+        },
+        {
+          "bytes": 9431,
+          "key": "arched-blade-017.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-017.dxf",
+          "sha256": "819fa88fb4a34ed369738a5d9c763533e17ca6ac8c245ed25999005b21a69ca4",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-017.dxf"
+        },
+        {
+          "bytes": 9135,
+          "key": "arched-blade-018.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-018.dxf",
+          "sha256": "de2af7494c7e34bb6e8278c5615a33124f4da153b920407bcb3108b47bccef4e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-018.dxf"
+        },
+        {
+          "bytes": 9225,
+          "key": "arched-blade-019.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-019.dxf",
+          "sha256": "dfcc4b82237bbe15a03ce6c065e12345c9d846eb9dc92771249ad55e60d8d95f",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-019.dxf"
+        },
+        {
+          "bytes": 9422,
+          "key": "arched-blade-020.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-020.dxf",
+          "sha256": "0758ffd4973f78d1aeb50d2c5206d09eec8c9afd7d5f0545824f96884fdcfc94",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-020.dxf"
+        },
+        {
+          "bytes": 8998,
+          "key": "arched-blade-021.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-021.dxf",
+          "sha256": "6a52088c237345be85217dfe0e634da7ef63210d2265c5ed386b8557681570f3",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-021.dxf"
+        },
+        {
+          "bytes": 9236,
+          "key": "arched-blade-022.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-022.dxf",
+          "sha256": "0ab00804927f573207cee552820df1de39478d941ed6992bbb2680cf4afe9e32",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-022.dxf"
+        },
+        {
+          "bytes": 9204,
+          "key": "arched-blade-023.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-023.dxf",
+          "sha256": "b93d9c304028eba7fac426ba8ace5c6e50fdf8a17cda433fbd0951bb908cfa10",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-023.dxf"
+        },
+        {
+          "bytes": 8966,
+          "key": "arched-blade-024.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-024.dxf",
+          "sha256": "681a6b8f999fac580f6eb10f4f330efed92a9119339cc7ccd304215afa6f2106",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-024.dxf"
+        },
+        {
+          "bytes": 9470,
+          "key": "arched-blade-025.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-025.dxf",
+          "sha256": "a2ca53ac48861f35c9d5e6222e77c564dbe269b8cd8eb5af1119fa6692f3d4a3",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-025.dxf"
+        },
+        {
+          "bytes": 9174,
+          "key": "arched-blade-026.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-026.dxf",
+          "sha256": "b6e28cb7a540f06f22fc64f46e02551c7d3fdfd01c99536571590085f78fca51",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-026.dxf"
+        },
+        {
+          "bytes": 9223,
+          "key": "arched-blade-027.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-027.dxf",
+          "sha256": "9f89524de57acd94585db1f29fcd9114b61129ee43f5e618db0dbd776b3fec29",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-027.dxf"
+        },
+        {
+          "bytes": 9413,
+          "key": "arched-blade-028.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-028.dxf",
+          "sha256": "9cf84358c35c16d36d57d008041317f51b45af81b6e8e76713cb9764c191fa03",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-028.dxf"
+        },
+        {
+          "bytes": 8992,
+          "key": "arched-blade-029.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-029.dxf",
+          "sha256": "701924f0115f4a5640791723f38f490e41b5e9ddc76d4c1affb34b90f95eca68",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-029.dxf"
+        },
+        {
+          "bytes": 9218,
+          "key": "arched-blade-030.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-030.dxf",
+          "sha256": "5d271c80ef953c1afb63266b41525674f7370133b3b8634d32e8a264c5dbcaa0",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-030.dxf"
+        },
+        {
+          "bytes": 9183,
+          "key": "arched-blade-031.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-031.dxf",
+          "sha256": "30807a119cd49e9e8f55ac511e1fa0d7948bcca14e302aa2e1ae562260b8bc89",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-031.dxf"
+        },
+        {
+          "bytes": 8922,
+          "key": "arched-blade-032.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-032.dxf",
+          "sha256": "24c633ed72408cadbbf202d22cc6452712fe7ffce1d0c0cfbfdad1b168f1ef2c",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-032.dxf"
+        },
+        {
+          "bytes": 9386,
+          "key": "arched-blade-033.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-033.dxf",
+          "sha256": "81684112e5fee5cec8b66cfafcdf40924070993583928532c22088b960c7b87b",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-033.dxf"
+        },
+        {
+          "bytes": 9021,
+          "key": "arched-blade-034.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-034.dxf",
+          "sha256": "b09d7eb136c397b7443dc782b5af246adc80b309031eba8c4da5e3155836dccc",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-034.dxf"
+        },
+        {
+          "bytes": 9176,
+          "key": "arched-blade-035.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-035.dxf",
+          "sha256": "b95f434b72cda8e96453f0b313869f98a8c93758527f0dd4b4ca4dbfd33eae3a",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-035.dxf"
+        },
+        {
+          "bytes": 9162,
+          "key": "arched-blade-036.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-036.dxf",
+          "sha256": "6b4d28a30a196ec4e0cd588440177a337bb01e585af27ae65d80f84a8a40d56f",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-036.dxf"
+        },
+        {
+          "bytes": 8950,
+          "key": "arched-blade-037.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-037.dxf",
+          "sha256": "65328817a049f1b29699653facc70582c3e1225b27ba168e27e61bc93b842b6d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-037.dxf"
+        },
+        {
+          "bytes": 9424,
+          "key": "arched-blade-038.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-038.dxf",
+          "sha256": "c0898adb7258185c79123310851ea808d2f8bf073178524c29e95f38142f0b52",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-038.dxf"
+        },
+        {
+          "bytes": 9252,
+          "key": "arched-blade-039.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-039.dxf",
+          "sha256": "ec997208eb66d1373d48e0b95dcccf884dae4770ecc25a22d15e7d66cccc84b5",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-039.dxf"
+        },
+        {
+          "bytes": 9143,
+          "key": "arched-blade-040.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-040.dxf",
+          "sha256": "be880339a209a03999ecdc99c37e1db01517c7ea39c4b49797e35135160181dd",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-040.dxf"
+        },
+        {
+          "bytes": 9414,
+          "key": "arched-blade-041.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-041.dxf",
+          "sha256": "d573e9d7503766d3bbdbba28f2e111dd195d9d409968bc945415850036793d79",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-041.dxf"
+        },
+        {
+          "bytes": 8959,
+          "key": "arched-blade-042.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-042.dxf",
+          "sha256": "055ba74f9b20478f5319efb828e9ff61594aa869cee6353fe72504b8de2b5353",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-042.dxf"
+        },
+        {
+          "bytes": 9182,
+          "key": "arched-blade-043.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-043.dxf",
+          "sha256": "7678bfe2bdeda56e35c2d5f64691d8aff17401a5b98ff1ddf44fb586b4fd3cd1",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-043.dxf"
+        },
+        {
+          "bytes": 9182,
+          "key": "arched-blade-044.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-044.dxf",
+          "sha256": "300cbcde15bae26f194e1ef36fdf1a2da20e15d79cb28f15ae569f3314727465",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-044.dxf"
+        },
+        {
+          "bytes": 8990,
+          "key": "arched-blade-045.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-045.dxf",
+          "sha256": "e03a62cc82503082e2b6b0b792d749e527f8f1a540338c50d1301ac7bfdcb12e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-045.dxf"
+        },
+        {
+          "bytes": 9439,
+          "key": "arched-blade-046.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-046.dxf",
+          "sha256": "cb9f077d24e26928db10a9a43dc8f619903b61fc770fd6e811dc9f63832608a9",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-046.dxf"
+        },
+        {
+          "bytes": 9162,
+          "key": "arched-blade-047.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-047.dxf",
+          "sha256": "8bb0aa1feba4034ee05502ce94654f64f677f94c61a9f9a08258377de9ccfcc6",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-047.dxf"
+        },
+        {
+          "bytes": 9230,
+          "key": "arched-blade-048.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-048.dxf",
+          "sha256": "85f6ad59346fcb1fbbefa8ab99a6ada428788818d12af4b964367f4e8a4899de",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-048.dxf"
+        },
+        {
+          "bytes": 9308,
+          "key": "arched-blade-049.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-049.dxf",
+          "sha256": "3b1d35f6bcf655285d1a6672502c526edc075d3c64eac8334c537735eb3d35f6",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-049.dxf"
+        },
+        {
+          "bytes": 8969,
+          "key": "arched-blade-050.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-050.dxf",
+          "sha256": "5b3fafe223b63be3e2c0f8ddb2d788855dfd6cf1637d31a34c1aaacb35255060",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-050.dxf"
+        },
+        {
+          "bytes": 9247,
+          "key": "arched-blade-051.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-051.dxf",
+          "sha256": "329954e2b9d7e6b43548191585e3dac6db17c3b6dd4716cb315dd63dd2b4e28d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-051.dxf"
+        },
+        {
+          "bytes": 9182,
+          "key": "arched-blade-052.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-052.dxf",
+          "sha256": "f64539a1dc6744de99b7f90c612877f1b29a9858e95a01c0d1012094a479025d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-052.dxf"
+        },
+        {
+          "bytes": 9029,
+          "key": "arched-blade-053.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-053.dxf",
+          "sha256": "fbc2676aa7a50da9d876bdc59c417d2c0389b65942927e5c1de82694c6251e8f",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-053.dxf"
+        },
+        {
+          "bytes": 9397,
+          "key": "arched-blade-054.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-054.dxf",
+          "sha256": "63c0d27a4d16ed6a79ac1c31452b6ba0c08afb97d1f138eb18ee4ee422e2e7a9",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-054.dxf"
+        },
+        {
+          "bytes": 9013,
+          "key": "arched-blade-055.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-055.dxf",
+          "sha256": "f9ace36628447621d6ece947b6b4ff93063474f78309520908b8b03d469f57ba",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-055.dxf"
+        },
+        {
+          "bytes": 9192,
+          "key": "arched-blade-056.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-056.dxf",
+          "sha256": "efc022d1bcc1813c8f6f67e96e8dba9efe3b18ded64daa53975ca4750241f95b",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-056.dxf"
+        },
+        {
+          "bytes": 9250,
+          "key": "arched-blade-057.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-057.dxf",
+          "sha256": "2b436de165de32f30b8c3679b1a18a7b327022147c5a2b3fd372a442c87b3e4c",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-057.dxf"
+        },
+        {
+          "bytes": 8985,
+          "key": "arched-blade-058.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-058.dxf",
+          "sha256": "2f37e6a6a7216c89ac0ca5253c7eed4c9d75cf25b3f50b2a48516babdba73ade",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-058.dxf"
+        },
+        {
+          "bytes": 9386,
+          "key": "arched-blade-059.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-059.dxf",
+          "sha256": "03ef649f8c2ae49de994f6ab9e906188b46c6a101354e1b8fa07872cc8d70c9e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-059.dxf"
+        },
+        {
+          "bytes": 9174,
+          "key": "arched-blade-060.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-060.dxf",
+          "sha256": "3a6020dcbb41603d78c835037789949a7bfe69875092f67755f69869bc4337f9",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-060.dxf"
+        },
+        {
+          "bytes": 9254,
+          "key": "arched-blade-061.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-061.dxf",
+          "sha256": "b1eb7e46cbc098a1d8173b10b0766300ce1b05e38c450ff508780a2c64fd4812",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-061.dxf"
+        },
+        {
+          "bytes": 9467,
+          "key": "arched-blade-062.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-062.dxf",
+          "sha256": "a82e624e84f8de1017ccd29e29544451ae5e909676876815d8df5e102464259e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-062.dxf"
+        },
+        {
+          "bytes": 9014,
+          "key": "arched-blade-063.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-063.dxf",
+          "sha256": "043cd6fb24ecb16b3f74d22cad483982fae7ba37ff4a06ba80d50946b4211ed6",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-063.dxf"
+        },
+        {
+          "bytes": 9215,
+          "key": "arched-blade-064.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-064.dxf",
+          "sha256": "43323b3ae12f34f281256363d4234660901ffb14c0ee7a0fb5bd572f6c80106d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-064.dxf"
+        },
+        {
+          "bytes": 9162,
+          "key": "arched-blade-065.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-065.dxf",
+          "sha256": "45561826197a84062b5e18d5086eb18499baaa1e17036ef72406ba5c9b008275",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-065.dxf"
+        },
+        {
+          "bytes": 8947,
+          "key": "arched-blade-066.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-066.dxf",
+          "sha256": "6aa644f4b8e59c254c31f725ee3688592942910e66fcd610671de731ad17d7aa",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-066.dxf"
+        },
+        {
+          "bytes": 9462,
+          "key": "arched-blade-067.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-067.dxf",
+          "sha256": "d63e4967cb1c96a161172256eff6cc5b0a4e70e506b45d150fe97f8478d66f79",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-067.dxf"
+        },
+        {
+          "bytes": 9223,
+          "key": "arched-blade-068.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-068.dxf",
+          "sha256": "d38467e9cd60bdcfb9cfbef7e9a03c91b5c4055ba6db424fa323179dadf064ce",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-068.dxf"
+        },
+        {
+          "bytes": 9204,
+          "key": "arched-blade-069.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-069.dxf",
+          "sha256": "a7eabddb76d3550083f04b1c5f8b5508380fb19ecdd21711f1f4215e227bc439",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-069.dxf"
+        },
+        {
+          "bytes": 9439,
+          "key": "arched-blade-070.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-070.dxf",
+          "sha256": "4545170f25ede229dae06a6bfe76bf428c13182f37a193f8e1569db576609445",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-070.dxf"
+        },
+        {
+          "bytes": 8961,
+          "key": "arched-blade-071.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-071.dxf",
+          "sha256": "7e0d028ce1f55b905c12a0f643c585b42dc9529d612b81de240084f435325880",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-071.dxf"
+        },
+        {
+          "bytes": 9337,
+          "key": "arched-blade-072.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-072.dxf",
+          "sha256": "3136c9b1c1bb04efca6bfb3662fffe622e248a9aaa03c6089b5ea1d715c98806",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-072.dxf"
+        },
+        {
+          "bytes": 9192,
+          "key": "arched-blade-073.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-073.dxf",
+          "sha256": "8271c562698e80571aceb7f34340b29815436f5899a3922cf3bb11c275b8756c",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-073.dxf"
+        },
+        {
+          "bytes": 9223,
+          "key": "arched-blade-074.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-074.dxf",
+          "sha256": "a907bc7d5e34744d1b37519f2fb5dac3e0aade4365d8c6f89212999953328783",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-074.dxf"
+        },
+        {
+          "bytes": 9470,
+          "key": "arched-blade-075.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-075.dxf",
+          "sha256": "cea26b036b217cd48e14fcee0cecf952539e39fd599bb926df931e023d9f64ac",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-075.dxf"
+        },
+        {
+          "bytes": 8986,
+          "key": "arched-blade-076.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-076.dxf",
+          "sha256": "77e3de897344a27b74f8a18ddc13c43db4674b168f56386bbc671362945d122a",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-076.dxf"
+        },
+        {
+          "bytes": 9146,
+          "key": "arched-blade-077.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-077.dxf",
+          "sha256": "400825e552ab39cf675703f2177d052ffe1289dafd5b43e54a8f94ece37c7772",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-077.dxf"
+        },
+        {
+          "bytes": 9203,
+          "key": "arched-blade-078.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-078.dxf",
+          "sha256": "d3088a386504a1571ea7fc787c9fb3649aed7f2433631ace33e02afcbfbeaab0",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-078.dxf"
+        },
+        {
+          "bytes": 9008,
+          "key": "arched-blade-079.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-079.dxf",
+          "sha256": "e412fc73e897727ce432bd6d4c96793e0d476a6c3f810b25b4fbd3a0ed5bcae4",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-079.dxf"
+        },
+        {
+          "bytes": 9378,
+          "key": "arched-blade-080.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-080.dxf",
+          "sha256": "df25c4c7a0dd97aa625e7bda9d9e04c1be2edff0555b060d5bcc32fb006bb44f",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-080.dxf"
+        },
+        {
+          "bytes": 9222,
+          "key": "arched-blade-081.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-081.dxf",
+          "sha256": "6ecc0b796972c2a3a62d8d2a5cb991c600d8b5f67c2f4072c0df81ae65732afe",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-081.dxf"
+        },
+        {
+          "bytes": 9194,
+          "key": "arched-blade-082.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-082.dxf",
+          "sha256": "e9e2a503e05831e195f171c0910baa480c4d66a7cbab8d87dafaba4d6a6d64f7",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-082.dxf"
+        },
+        {
+          "bytes": 9444,
+          "key": "arched-blade-083.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\arched-blade-083.dxf",
+          "sha256": "0445dce747fb17830840b8187371c6408b6481bc6fc8268e83ad9c11266d72e2",
+          "url": "/artifacts/grass-tuft-f009d6218de2/arched-blade-083.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-0-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-0-0.dxf",
+          "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-0-0.dxf"
+        },
+        {
+          "bytes": 8458,
+          "key": "seed-0-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-0-1.dxf",
+          "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-0-1.dxf"
+        },
+        {
+          "bytes": 8442,
+          "key": "seed-0-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-0-2.dxf",
+          "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-0-2.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-0-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-0-3.dxf",
+          "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-0-3.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-0-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-0-4.dxf",
+          "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-0-4.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-1-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-1-0.dxf",
+          "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-1-0.dxf"
+        },
+        {
+          "bytes": 8458,
+          "key": "seed-1-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-1-1.dxf",
+          "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-1-1.dxf"
+        },
+        {
+          "bytes": 8442,
+          "key": "seed-1-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-1-2.dxf",
+          "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-1-2.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-1-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-1-3.dxf",
+          "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-1-3.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-1-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-1-4.dxf",
+          "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-1-4.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-2-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-2-0.dxf",
+          "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-2-0.dxf"
+        },
+        {
+          "bytes": 8458,
+          "key": "seed-2-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-2-1.dxf",
+          "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-2-1.dxf"
+        },
+        {
+          "bytes": 8442,
+          "key": "seed-2-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-2-2.dxf",
+          "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-2-2.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-2-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-2-3.dxf",
+          "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-2-3.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-2-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-2-4.dxf",
+          "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-2-4.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-3-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-3-0.dxf",
+          "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-3-0.dxf"
+        },
+        {
+          "bytes": 8458,
+          "key": "seed-3-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-3-1.dxf",
+          "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-3-1.dxf"
+        },
+        {
+          "bytes": 8442,
+          "key": "seed-3-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-3-2.dxf",
+          "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-3-2.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-3-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-3-3.dxf",
+          "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-3-3.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-3-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-3-4.dxf",
+          "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-3-4.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-4-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-4-0.dxf",
+          "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-4-0.dxf"
+        },
+        {
+          "bytes": 8458,
+          "key": "seed-4-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-4-1.dxf",
+          "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-4-1.dxf"
+        },
+        {
+          "bytes": 8442,
+          "key": "seed-4-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-4-2.dxf",
+          "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-4-2.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-4-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-4-3.dxf",
+          "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-4-3.dxf"
+        },
+        {
+          "bytes": 8474,
+          "key": "seed-4-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-4-4.dxf",
+          "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-4-4.dxf"
+        },
+        {
+          "bytes": 15709,
+          "key": "seed-culm-0.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-culm-0.dxf",
+          "sha256": "35e0bdc34283501b8d5e40455da8d986a89162e0e946c5127edcb228e03c2e9a",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-culm-0.dxf"
+        },
+        {
+          "bytes": 15926,
+          "key": "seed-culm-1.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-culm-1.dxf",
+          "sha256": "4c5a85d809b04944211d37824773d9120fa29ce8548280d6bfd5eaa43ec21c0c",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-culm-1.dxf"
+        },
+        {
+          "bytes": 15977,
+          "key": "seed-culm-2.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-culm-2.dxf",
+          "sha256": "85c1a8ae6907df67a3906314927a80cb860ad592d5ecf5838999031be2c6deb8",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-culm-2.dxf"
+        },
+        {
+          "bytes": 15660,
+          "key": "seed-culm-3.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-culm-3.dxf",
+          "sha256": "771a5786535e4382cac6ade22355693b0b880c0f44971d65502b038ed357b2ca",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-culm-3.dxf"
+        },
+        {
+          "bytes": 16070,
+          "key": "seed-culm-4.dxf",
+          "kind": "dxf",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2\\seed-culm-4.dxf",
+          "sha256": "c6d20b9451a288a568cfe3d11e66e7c80cda1176b7592230e7e00b2cf9b6a107",
+          "url": "/artifacts/grass-tuft-f009d6218de2/seed-culm-4.dxf"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "3825e4e478329694abb4bc02d173c0f5f286f44681e56ade9b4aa5658b4d4e41",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 9041,
+        "key": "arched-blade-000.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0194cafd645c9cb31d1eaa06c4e99e8fecfcb3579e9c3be8e7ce6615b3da88f4"
+      },
+      {
+        "bytes": 9184,
+        "key": "arched-blade-001.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "b73780527f03e2f0ced364d493fb52398757038db5bde92ee35676eee969c95b"
+      },
+      {
+        "bytes": 9221,
+        "key": "arched-blade-002.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "ccf815af47e05c56a8781badbfe3fe3d5319f19267ce67e9fb619bb2bc0e2959"
+      },
+      {
+        "bytes": 9014,
+        "key": "arched-blade-003.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c66e2b96f83084a85bdd0ec42574fa783bf8edb9470a3d6aa9c9cb875cf11e8b"
+      },
+      {
+        "bytes": 9416,
+        "key": "arched-blade-004.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "beb67ecb6e6c9744ed56c3623d1296ca883bb8e9f8d72378be9c4b0005c9a535"
+      },
+      {
+        "bytes": 9160,
+        "key": "arched-blade-005.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2e25399874c3c99aa9ce03f97637ab5ca227d6b2241b2e5d7fec69cfda945c37"
+      },
+      {
+        "bytes": 9238,
+        "key": "arched-blade-006.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3dfcf0cf999920fd9f70bc8f89e507c4a24bc2c0e758593d9ca3cdf262521884"
+      },
+      {
+        "bytes": 9407,
+        "key": "arched-blade-007.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "97982cd0ae6d36a61e0c42a4a836babf9859b689b6b1d09fccc7fe277df904af"
+      },
+      {
+        "bytes": 8991,
+        "key": "arched-blade-008.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "bcab2f197d19d57b60d8bae391ffeb112410aa519e46ceb5dad1c66ddb0cc45f"
+      },
+      {
+        "bytes": 9151,
+        "key": "arched-blade-009.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "319088a272891e2ddc4d454fc697890f7abf55803ef6c11b907c65425aecde4c"
+      },
+      {
+        "bytes": 9246,
+        "key": "arched-blade-010.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "9bfb5661d3dca2569e0eac1a505754ec1b69f8678ffcbe79c95ed71c49f39f30"
+      },
+      {
+        "bytes": 8959,
+        "key": "arched-blade-011.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e0386cf44e648abab9249f2f02284d895986f706069c3ff31e77f5f77b332173"
+      },
+      {
+        "bytes": 9414,
+        "key": "arched-blade-012.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "42db6473f0bfe860ade773ea306398ff5b6b2a2e19a5e6878d3ed53ef563f36d"
+      },
+      {
+        "bytes": 9176,
+        "key": "arched-blade-013.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "7d9555fbb0317a3689436bbd83d6f58456b65007a4c0a3b1df0e5b5218bce605"
+      },
+      {
+        "bytes": 9222,
+        "key": "arched-blade-014.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "461ca8a8e72eb1f09498afce0d9cb95c9e3aa8b54eaea4e3b0db238fb297c917"
+      },
+      {
+        "bytes": 9401,
+        "key": "arched-blade-015.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d43cb7b0f04150eb4dd79a1c1d108743d1f6914d61f972ca4424bd2cda37d2c7"
+      },
+      {
+        "bytes": 8983,
+        "key": "arched-blade-016.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "53810b9f454da232ea5b03bd091ef1b6db0cf426a52e09f14453af1d5331c275"
+      },
+      {
+        "bytes": 9431,
+        "key": "arched-blade-017.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "819fa88fb4a34ed369738a5d9c763533e17ca6ac8c245ed25999005b21a69ca4"
+      },
+      {
+        "bytes": 9135,
+        "key": "arched-blade-018.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "de2af7494c7e34bb6e8278c5615a33124f4da153b920407bcb3108b47bccef4e"
+      },
+      {
+        "bytes": 9225,
+        "key": "arched-blade-019.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "dfcc4b82237bbe15a03ce6c065e12345c9d846eb9dc92771249ad55e60d8d95f"
+      },
+      {
+        "bytes": 9422,
+        "key": "arched-blade-020.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0758ffd4973f78d1aeb50d2c5206d09eec8c9afd7d5f0545824f96884fdcfc94"
+      },
+      {
+        "bytes": 8998,
+        "key": "arched-blade-021.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "6a52088c237345be85217dfe0e634da7ef63210d2265c5ed386b8557681570f3"
+      },
+      {
+        "bytes": 9236,
+        "key": "arched-blade-022.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0ab00804927f573207cee552820df1de39478d941ed6992bbb2680cf4afe9e32"
+      },
+      {
+        "bytes": 9204,
+        "key": "arched-blade-023.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "b93d9c304028eba7fac426ba8ace5c6e50fdf8a17cda433fbd0951bb908cfa10"
+      },
+      {
+        "bytes": 8966,
+        "key": "arched-blade-024.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "681a6b8f999fac580f6eb10f4f330efed92a9119339cc7ccd304215afa6f2106"
+      },
+      {
+        "bytes": 9470,
+        "key": "arched-blade-025.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "a2ca53ac48861f35c9d5e6222e77c564dbe269b8cd8eb5af1119fa6692f3d4a3"
+      },
+      {
+        "bytes": 9174,
+        "key": "arched-blade-026.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "b6e28cb7a540f06f22fc64f46e02551c7d3fdfd01c99536571590085f78fca51"
+      },
+      {
+        "bytes": 9223,
+        "key": "arched-blade-027.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "9f89524de57acd94585db1f29fcd9114b61129ee43f5e618db0dbd776b3fec29"
+      },
+      {
+        "bytes": 9413,
+        "key": "arched-blade-028.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "9cf84358c35c16d36d57d008041317f51b45af81b6e8e76713cb9764c191fa03"
+      },
+      {
+        "bytes": 8992,
+        "key": "arched-blade-029.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "701924f0115f4a5640791723f38f490e41b5e9ddc76d4c1affb34b90f95eca68"
+      },
+      {
+        "bytes": 9218,
+        "key": "arched-blade-030.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "5d271c80ef953c1afb63266b41525674f7370133b3b8634d32e8a264c5dbcaa0"
+      },
+      {
+        "bytes": 9183,
+        "key": "arched-blade-031.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "30807a119cd49e9e8f55ac511e1fa0d7948bcca14e302aa2e1ae562260b8bc89"
+      },
+      {
+        "bytes": 8922,
+        "key": "arched-blade-032.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "24c633ed72408cadbbf202d22cc6452712fe7ffce1d0c0cfbfdad1b168f1ef2c"
+      },
+      {
+        "bytes": 9386,
+        "key": "arched-blade-033.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "81684112e5fee5cec8b66cfafcdf40924070993583928532c22088b960c7b87b"
+      },
+      {
+        "bytes": 9021,
+        "key": "arched-blade-034.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "b09d7eb136c397b7443dc782b5af246adc80b309031eba8c4da5e3155836dccc"
+      },
+      {
+        "bytes": 9176,
+        "key": "arched-blade-035.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "b95f434b72cda8e96453f0b313869f98a8c93758527f0dd4b4ca4dbfd33eae3a"
+      },
+      {
+        "bytes": 9162,
+        "key": "arched-blade-036.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "6b4d28a30a196ec4e0cd588440177a337bb01e585af27ae65d80f84a8a40d56f"
+      },
+      {
+        "bytes": 8950,
+        "key": "arched-blade-037.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "65328817a049f1b29699653facc70582c3e1225b27ba168e27e61bc93b842b6d"
+      },
+      {
+        "bytes": 9424,
+        "key": "arched-blade-038.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c0898adb7258185c79123310851ea808d2f8bf073178524c29e95f38142f0b52"
+      },
+      {
+        "bytes": 9252,
+        "key": "arched-blade-039.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "ec997208eb66d1373d48e0b95dcccf884dae4770ecc25a22d15e7d66cccc84b5"
+      },
+      {
+        "bytes": 9143,
+        "key": "arched-blade-040.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "be880339a209a03999ecdc99c37e1db01517c7ea39c4b49797e35135160181dd"
+      },
+      {
+        "bytes": 9414,
+        "key": "arched-blade-041.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d573e9d7503766d3bbdbba28f2e111dd195d9d409968bc945415850036793d79"
+      },
+      {
+        "bytes": 8959,
+        "key": "arched-blade-042.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "055ba74f9b20478f5319efb828e9ff61594aa869cee6353fe72504b8de2b5353"
+      },
+      {
+        "bytes": 9182,
+        "key": "arched-blade-043.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "7678bfe2bdeda56e35c2d5f64691d8aff17401a5b98ff1ddf44fb586b4fd3cd1"
+      },
+      {
+        "bytes": 9182,
+        "key": "arched-blade-044.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "300cbcde15bae26f194e1ef36fdf1a2da20e15d79cb28f15ae569f3314727465"
+      },
+      {
+        "bytes": 8990,
+        "key": "arched-blade-045.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e03a62cc82503082e2b6b0b792d749e527f8f1a540338c50d1301ac7bfdcb12e"
+      },
+      {
+        "bytes": 9439,
+        "key": "arched-blade-046.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "cb9f077d24e26928db10a9a43dc8f619903b61fc770fd6e811dc9f63832608a9"
+      },
+      {
+        "bytes": 9162,
+        "key": "arched-blade-047.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "8bb0aa1feba4034ee05502ce94654f64f677f94c61a9f9a08258377de9ccfcc6"
+      },
+      {
+        "bytes": 9230,
+        "key": "arched-blade-048.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "85f6ad59346fcb1fbbefa8ab99a6ada428788818d12af4b964367f4e8a4899de"
+      },
+      {
+        "bytes": 9308,
+        "key": "arched-blade-049.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3b1d35f6bcf655285d1a6672502c526edc075d3c64eac8334c537735eb3d35f6"
+      },
+      {
+        "bytes": 8969,
+        "key": "arched-blade-050.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "5b3fafe223b63be3e2c0f8ddb2d788855dfd6cf1637d31a34c1aaacb35255060"
+      },
+      {
+        "bytes": 9247,
+        "key": "arched-blade-051.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "329954e2b9d7e6b43548191585e3dac6db17c3b6dd4716cb315dd63dd2b4e28d"
+      },
+      {
+        "bytes": 9182,
+        "key": "arched-blade-052.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f64539a1dc6744de99b7f90c612877f1b29a9858e95a01c0d1012094a479025d"
+      },
+      {
+        "bytes": 9029,
+        "key": "arched-blade-053.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "fbc2676aa7a50da9d876bdc59c417d2c0389b65942927e5c1de82694c6251e8f"
+      },
+      {
+        "bytes": 9397,
+        "key": "arched-blade-054.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "63c0d27a4d16ed6a79ac1c31452b6ba0c08afb97d1f138eb18ee4ee422e2e7a9"
+      },
+      {
+        "bytes": 9013,
+        "key": "arched-blade-055.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "f9ace36628447621d6ece947b6b4ff93063474f78309520908b8b03d469f57ba"
+      },
+      {
+        "bytes": 9192,
+        "key": "arched-blade-056.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "efc022d1bcc1813c8f6f67e96e8dba9efe3b18ded64daa53975ca4750241f95b"
+      },
+      {
+        "bytes": 9250,
+        "key": "arched-blade-057.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2b436de165de32f30b8c3679b1a18a7b327022147c5a2b3fd372a442c87b3e4c"
+      },
+      {
+        "bytes": 8985,
+        "key": "arched-blade-058.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2f37e6a6a7216c89ac0ca5253c7eed4c9d75cf25b3f50b2a48516babdba73ade"
+      },
+      {
+        "bytes": 9386,
+        "key": "arched-blade-059.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "03ef649f8c2ae49de994f6ab9e906188b46c6a101354e1b8fa07872cc8d70c9e"
+      },
+      {
+        "bytes": 9174,
+        "key": "arched-blade-060.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3a6020dcbb41603d78c835037789949a7bfe69875092f67755f69869bc4337f9"
+      },
+      {
+        "bytes": 9254,
+        "key": "arched-blade-061.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "b1eb7e46cbc098a1d8173b10b0766300ce1b05e38c450ff508780a2c64fd4812"
+      },
+      {
+        "bytes": 9467,
+        "key": "arched-blade-062.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "a82e624e84f8de1017ccd29e29544451ae5e909676876815d8df5e102464259e"
+      },
+      {
+        "bytes": 9014,
+        "key": "arched-blade-063.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "043cd6fb24ecb16b3f74d22cad483982fae7ba37ff4a06ba80d50946b4211ed6"
+      },
+      {
+        "bytes": 9215,
+        "key": "arched-blade-064.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "43323b3ae12f34f281256363d4234660901ffb14c0ee7a0fb5bd572f6c80106d"
+      },
+      {
+        "bytes": 9162,
+        "key": "arched-blade-065.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "45561826197a84062b5e18d5086eb18499baaa1e17036ef72406ba5c9b008275"
+      },
+      {
+        "bytes": 8947,
+        "key": "arched-blade-066.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "6aa644f4b8e59c254c31f725ee3688592942910e66fcd610671de731ad17d7aa"
+      },
+      {
+        "bytes": 9462,
+        "key": "arched-blade-067.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d63e4967cb1c96a161172256eff6cc5b0a4e70e506b45d150fe97f8478d66f79"
+      },
+      {
+        "bytes": 9223,
+        "key": "arched-blade-068.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d38467e9cd60bdcfb9cfbef7e9a03c91b5c4055ba6db424fa323179dadf064ce"
+      },
+      {
+        "bytes": 9204,
+        "key": "arched-blade-069.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "a7eabddb76d3550083f04b1c5f8b5508380fb19ecdd21711f1f4215e227bc439"
+      },
+      {
+        "bytes": 9439,
+        "key": "arched-blade-070.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "4545170f25ede229dae06a6bfe76bf428c13182f37a193f8e1569db576609445"
+      },
+      {
+        "bytes": 8961,
+        "key": "arched-blade-071.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "7e0d028ce1f55b905c12a0f643c585b42dc9529d612b81de240084f435325880"
+      },
+      {
+        "bytes": 9337,
+        "key": "arched-blade-072.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "3136c9b1c1bb04efca6bfb3662fffe622e248a9aaa03c6089b5ea1d715c98806"
+      },
+      {
+        "bytes": 9192,
+        "key": "arched-blade-073.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "8271c562698e80571aceb7f34340b29815436f5899a3922cf3bb11c275b8756c"
+      },
+      {
+        "bytes": 9223,
+        "key": "arched-blade-074.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "a907bc7d5e34744d1b37519f2fb5dac3e0aade4365d8c6f89212999953328783"
+      },
+      {
+        "bytes": 9470,
+        "key": "arched-blade-075.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "cea26b036b217cd48e14fcee0cecf952539e39fd599bb926df931e023d9f64ac"
+      },
+      {
+        "bytes": 8986,
+        "key": "arched-blade-076.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "77e3de897344a27b74f8a18ddc13c43db4674b168f56386bbc671362945d122a"
+      },
+      {
+        "bytes": 9146,
+        "key": "arched-blade-077.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "400825e552ab39cf675703f2177d052ffe1289dafd5b43e54a8f94ece37c7772"
+      },
+      {
+        "bytes": 9203,
+        "key": "arched-blade-078.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "d3088a386504a1571ea7fc787c9fb3649aed7f2433631ace33e02afcbfbeaab0"
+      },
+      {
+        "bytes": 9008,
+        "key": "arched-blade-079.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e412fc73e897727ce432bd6d4c96793e0d476a6c3f810b25b4fbd3a0ed5bcae4"
+      },
+      {
+        "bytes": 9378,
+        "key": "arched-blade-080.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "df25c4c7a0dd97aa625e7bda9d9e04c1be2edff0555b060d5bcc32fb006bb44f"
+      },
+      {
+        "bytes": 9222,
+        "key": "arched-blade-081.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "6ecc0b796972c2a3a62d8d2a5cb991c600d8b5f67c2f4072c0df81ae65732afe"
+      },
+      {
+        "bytes": 9194,
+        "key": "arched-blade-082.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "e9e2a503e05831e195f171c0910baa480c4d66a7cbab8d87dafaba4d6a6d64f7"
+      },
+      {
+        "bytes": 9444,
+        "key": "arched-blade-083.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0445dce747fb17830840b8187371c6408b6481bc6fc8268e83ad9c11266d72e2"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-0-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d"
+      },
+      {
+        "bytes": 8458,
+        "key": "seed-0-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238"
+      },
+      {
+        "bytes": 8442,
+        "key": "seed-0-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-0-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-0-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-1-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d"
+      },
+      {
+        "bytes": 8458,
+        "key": "seed-1-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238"
+      },
+      {
+        "bytes": 8442,
+        "key": "seed-1-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-1-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-1-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-2-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d"
+      },
+      {
+        "bytes": 8458,
+        "key": "seed-2-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238"
+      },
+      {
+        "bytes": 8442,
+        "key": "seed-2-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-2-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-2-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-3-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d"
+      },
+      {
+        "bytes": 8458,
+        "key": "seed-3-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238"
+      },
+      {
+        "bytes": 8442,
+        "key": "seed-3-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-3-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-3-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-4-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "1ddb332aa9d2c846c1f7ba1650ec4c22cbffb38b790726546d00111f9810957d"
+      },
+      {
+        "bytes": 8458,
+        "key": "seed-4-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "0450d1cdd73b0109c38fa48acf138160d5606a309c5e6968463a61c3c698d238"
+      },
+      {
+        "bytes": 8442,
+        "key": "seed-4-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "2e16e4511821d57c66f47f97f1c737ef06bd0810503629fe21a57642cf718a50"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-4-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "702f911eed163ae93753e5f90b1d73d48730b2a9d5f218a0abf341b27ec8397e"
+      },
+      {
+        "bytes": 8474,
+        "key": "seed-4-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "87e1fcb8251931d51f7dfd17a0b2fc3665e36af2bd8174ee4406ee55e05a48b5"
+      },
+      {
+        "bytes": 15709,
+        "key": "seed-culm-0.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "35e0bdc34283501b8d5e40455da8d986a89162e0e946c5127edcb228e03c2e9a"
+      },
+      {
+        "bytes": 15926,
+        "key": "seed-culm-1.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "4c5a85d809b04944211d37824773d9120fa29ce8548280d6bfd5eaa43ec21c0c"
+      },
+      {
+        "bytes": 15977,
+        "key": "seed-culm-2.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "85c1a8ae6907df67a3906314927a80cb860ad592d5ecf5838999031be2c6deb8"
+      },
+      {
+        "bytes": 15660,
+        "key": "seed-culm-3.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "771a5786535e4382cac6ade22355693b0b880c0f44971d65502b038ed357b2ca"
+      },
+      {
+        "bytes": 16070,
+        "key": "seed-culm-4.dxf",
+        "kind": "dxf",
+        "modality": "spatial",
+        "sha256": "c6d20b9451a288a568cfe3d11e66e7c80cda1176b7592230e7e00b2cf9b6a107"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-f009d6218de2.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/grass-tuft-f009d6218de2.hmc",
+    "receipt_url": "/artifacts/grass-tuft-f009d6218de2.json"
+  },
+  "surface_production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "4c5c2011db090070248e15a092a282195d3967adcde32f53ba4f5365b6f2ce92",
+    "package_sha256": "f5145f9d4d00dfe6fd37414c86d14412293dd0605e7e970eccf3793eab7cc9cf",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 1583726,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3.hmc",
+        "sha256": "f5145f9d4d00dfe6fd37414c86d14412293dd0605e7e970eccf3793eab7cc9cf"
+      },
+      "inputs": [
+        {
+          "bytes": 214347,
+          "key": "geometry.obj",
+          "kind": "obj",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\grass-tuft.obj",
+          "sha256": "bc1b9fd078093771307e8d2a115f6478ce9b4a2386e60e0394f7753280bf692a"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499994552,
+        "effective_host_bytes": 268261120,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095477,
+        "source_bytes": 1362,
+        "source_reservation_bytes": 174336,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 5448,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 726,
+          "key": "bsdf.json",
+          "kind": "json",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\bsdf.json",
+          "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/bsdf.json"
+        },
+        {
+          "bytes": 42157,
+          "key": "colour.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\colour.png",
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/colour.png"
+        },
+        {
+          "bytes": 441312,
+          "key": "grass-tuft.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\grass-tuft.10d",
+          "sha256": "2bb7cb93286bc5addb1aecc41d8c672ae2f44bff9158422cc14632dd14ef1be3",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/grass-tuft.10d"
+        },
+        {
+          "bytes": 17703,
+          "key": "normal.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\normal.png",
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/normal.png"
+        },
+        {
+          "bytes": 16285,
+          "key": "orm.png",
+          "kind": "png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\orm.png",
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/orm.png"
+        },
+        {
+          "bytes": 17703,
+          "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\textures\\sha256\\002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+        },
+        {
+          "bytes": 16285,
+          "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\textures\\sha256\\10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+        },
+        {
+          "bytes": 42157,
+          "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\textures\\sha256\\fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+        },
+        {
+          "bytes": 771405,
+          "key": "uv.svg",
+          "kind": "svg",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3\\uv.svg",
+          "sha256": "67e9d7089ca41f8b03ca67122fcc953d0b7a41783acf0bec1c7223afdd6a9ae3",
+          "url": "/artifacts/grass-tuft-surface-bd9551690ae3/uv.svg"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "a35e3f0467d8dd980e48e9d806be19e14bab93284ab8f47cbeeb4a99bb646c90",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 726,
+        "key": "bsdf.json",
+        "kind": "json",
+        "modality": "data",
+        "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109"
+      },
+      {
+        "bytes": 42157,
+        "key": "colour.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+      },
+      {
+        "bytes": 441312,
+        "key": "grass-tuft.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "2bb7cb93286bc5addb1aecc41d8c672ae2f44bff9158422cc14632dd14ef1be3"
+      },
+      {
+        "bytes": 17703,
+        "key": "normal.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+      },
+      {
+        "bytes": 16285,
+        "key": "orm.png",
+        "kind": "png",
+        "modality": "raster",
+        "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+      },
+      {
+        "bytes": 17703,
+        "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+      },
+      {
+        "bytes": 16285,
+        "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+      },
+      {
+        "bytes": 42157,
+        "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+      },
+      {
+        "bytes": 771405,
+        "key": "uv.svg",
+        "kind": "svg",
+        "modality": "vector",
+        "sha256": "67e9d7089ca41f8b03ca67122fcc953d0b7a41783acf0bec1c7223afdd6a9ae3"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-tuft-surface-bd9551690ae3.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/grass-tuft-surface-bd9551690ae3.hmc",
+    "receipt_url": "/artifacts/grass-tuft-surface-bd9551690ae3.json"
+  },
+  "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\previews\\grass-tuft-1794798388118248500",
+  "triangles": 6404,
+  "vertices": 3430,
+  "bounds": {
+    "min": [
+      -0.848311,
+      -0.001,
+      -0.89118
+    ],
+    "max": [
+      0.931623,
+      0.95014,
+      0.855572
+    ]
+  },
+  "strict_replay_verified": true,
+  "review_status": "pending actual image inspection"
+}

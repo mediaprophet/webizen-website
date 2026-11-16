@@ -1,0 +1,408 @@
+{
+  "date": "2026-11-16",
+  "errors": [],
+  "results": {
+    "terrain-14": {
+      "status": 503,
+      "data": {
+        "error": "{'error': {'code': 'production_failed', 'message': 'Revision 0 retained: {\"valid\":false,\"error_code\":\"E001\",\"civics_code\":\"E001\",\"span\":[2,10],\"message\":\"expected expression\",\"suggested_fix\":null,\"evidential\":null,\"shacl_violations\":[]}'}}"
+      }
+    },
+    "light-550": {
+      "status": 503,
+      "data": {
+        "error": "{'error': {'code': 'production_failed', 'message': 'Revision 0 retained: {\"valid\":false,\"error_code\":\"E001\",\"civics_code\":\"E001\",\"span\":[2,10],\"message\":\"expected expression\",\"suggested_fix\":null,\"evidential\":null,\"shacl_violations\":[]}'}}"
+      }
+    },
+    "sound-440": {
+      "status": 200,
+      "data": {
+        "antigravity_embed_hint": null,
+        "document_digest": "c7537824013928f7306ee3f06fa0da9b55ee7051a1a723911aa56303de61da57",
+        "package_sha256": "755ac3a169b0d52eadf745e5feab88bc9f335ab6b2e0357e40a7387c156bad7d",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 48825,
+            "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\sound-68cfd50a3714.hmc",
+            "sha256": "755ac3a169b0d52eadf745e5feab88bc9f335ab6b2e0357e40a7387c156bad7d"
+          },
+          "inputs": [],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499998788,
+            "effective_host_bytes": 268396672,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2097152,
+            "source_bytes": 303,
+            "source_reservation_bytes": 38784,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 1212,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 48044,
+              "key": "tone.wav",
+              "kind": "wav",
+              "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\sound-68cfd50a3714\\tone.wav",
+              "sha256": "04ebb1d5dee42d10c03c8afbfd0a41a0a43aa3bb871be983d2c6b08a184c6c83",
+              "url": "/artifacts/sound-68cfd50a3714/tone.wav"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "154e90e88a99dd851396e5805199fb05b64cb86c2c023e3052056a057b19dee4",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 48044,
+            "key": "tone.wav",
+            "kind": "wav",
+            "modality": "audio",
+            "sha256": "04ebb1d5dee42d10c03c8afbfd0a41a0a43aa3bb871be983d2c6b08a184c6c83"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\artifacts\\sound-68cfd50a3714.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/sound-68cfd50a3714.hmc",
+        "receipt_url": "/artifacts/sound-68cfd50a3714.json",
+        "source": "requires [capability(\"capability.invoke\")];\nlet tone=capability.invoke(\"hypermedia.acoustics.synthesize_tone\",{frequency:440,sample_rate:24000,frames:24000,amplitude:0.15});\nlet wav=capability.invoke(\"hypermedia.acoustics.encode_wav\",{audio:tone});\nlet mut asset={files:[{key:\"tone.wav\",resource:wav}]};"
+      }
+    },
+    "rights-community_summary": {
+      "status": 200,
+      "data": {
+        "request": "community_summary",
+        "permitted": true,
+        "result": {
+          "modality": "deontic",
+          "verdict_count": 2,
+          "verdicts": [
+            {
+              "opcode": 17,
+              "status": "Active"
+            },
+            {
+              "opcode": 18,
+              "status": "Active"
+            }
+          ]
+        },
+        "norms": [
+          {
+            "subject": 101,
+            "predicate": 17,
+            "object": 201,
+            "context": 301,
+            "metadata": 2000000000,
+            "parity": 0
+          },
+          {
+            "subject": 101,
+            "predicate": 18,
+            "object": 202,
+            "context": 301,
+            "metadata": 2000000000,
+            "parity": 0
+          }
+        ],
+        "output": {
+          "observation_count": 12,
+          "dataset": "synthetic community observations"
+        },
+        "execution": "QualiaDB deontic evaluator via current Synth MCP; server applies selected active norm",
+        "scope": "Authored synthetic purpose-specific example, not general rights compliance or authentication"
+      }
+    },
+    "rights-individual_records": {
+      "status": 200,
+      "data": {
+        "request": "individual_records",
+        "permitted": false,
+        "result": {
+          "modality": "deontic",
+          "verdict_count": 2,
+          "verdicts": [
+            {
+              "opcode": 17,
+              "status": "Active"
+            },
+            {
+              "opcode": 18,
+              "status": "Active"
+            }
+          ]
+        },
+        "norms": [
+          {
+            "subject": 101,
+            "predicate": 17,
+            "object": 201,
+            "context": 301,
+            "metadata": 2000000000,
+            "parity": 0
+          },
+          {
+            "subject": 101,
+            "predicate": 18,
+            "object": 202,
+            "context": 301,
+            "metadata": 2000000000,
+            "parity": 0
+          }
+        ],
+        "output": null,
+        "execution": "QualiaDB deontic evaluator via current Synth MCP; server applies selected active norm",
+        "scope": "Authored synthetic purpose-specific example, not general rights compliance or authentication"
+      }
+    },
+    "path-research": {
+      "status": 200,
+      "data": {
+        "purpose": "research",
+        "places": [
+          "observatory",
+          "river",
+          "biology",
+          "canopy",
+          "commons",
+          "atelier"
+        ],
+        "graph": {
+          "matchCount": 13,
+          "ntriples": "<quin:hash/00daf6452a9fc0da> <quin:hash/09cb378adb94951c> <quin:hash/085e10916828aa43> .\n<quin:hash/0ab43bdf84cc6a20> <quin:hash/09cb378adb94951c> <quin:hash/088a290c1261a879> .\n<quin:hash/05027ec996dc1d7e> <quin:hash/09cb378adb94951c> <quin:hash/0f8f2bc958aaf291> .\n<quin:hash/0a96e98d3468d2ac> <quin:hash/09cb378adb94951c> <quin:hash/0df7aab285736b29> .\n<quin:hash/0034681bb8d43858> <quin:hash/09cb378adb94951c> <quin:hash/03540e494abc9b24> .\n<quin:hash/0a0a53feb1d11a05> <quin:hash/09cb378adb94951c> <quin:hash/0a0a53feb1d11a05> .\n<quin:hash/00daf6452a9fc0da> <quin:hash/0984002a6444b646> <quin:hash/0ab43bdf84cc6a20> .\n<quin:hash/0ab43bdf84cc6a20> <quin:hash/0984002a6444b646> <quin:hash/0a0a53feb1d11a05> .\n<quin:hash/00daf6452a9fc0da> <quin:hash/04acebac456f6f48> <quin:hash/0034681bb8d43858> .\n<quin:hash/0034681bb8d43858> <quin:hash/04acebac456f6f48> <quin:hash/0a0a53feb1d11a05> .\n<quin:hash/05027ec996dc1d7e> <quin:hash/006a42e709b90b58> <quin:hash/00daf6452a9fc0da> .\n<quin:hash/0a96e98d3468d2ac> <quin:hash/0984002a6444b646> <quin:hash/0ab43bdf84cc6a20> .\n<quin:hash/05027ec996dc1d7e> <quin:hash/04acebac456f6f48> <quin:hash/0034681bb8d43858> .\n",
+          "query": "SELECT ?s ?p ?o WHERE { ?s ?p ?o }",
+          "quins": [
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 602937616818023000,
+              "parity": 94524321424473980,
+              "predicate": 705718836142576900,
+              "subject": 61632321851211990
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 615349430914230400,
+              "parity": 861635969189238700,
+              "predicate": 705718836142576900,
+              "subject": 771307267378932200
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 1121162976014561900,
+              "parity": 235984375695702800,
+              "predicate": 705718836142576900,
+              "subject": 360990324427595140
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 1006460725460429600,
+              "parity": 1056785385097473200,
+              "predicate": 705718836142576900,
+              "subject": 763053979564823200
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 239832388106754850,
+              "parity": 768798150255982200,
+              "predicate": 705718836142576900,
+              "subject": 14751167063275608
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 723483043516455400,
+              "parity": 705718836142576900,
+              "predicate": 705718836142576900,
+              "subject": 723483043516455400
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 771307267378932200,
+              "parity": 282264085852527800,
+              "predicate": 685673225338009200,
+              "subject": 61632321851211990
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 723483043516455400,
+              "parity": 664958292809336400,
+              "predicate": 685673225338009200,
+              "subject": 771307267378932200
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 14751167063275608,
+              "parity": 306937410466650050,
+              "predicate": 336903197277777700,
+              "subject": 61632321851211990
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 723483043516455400,
+              "parity": 1050130676363971800,
+              "predicate": 336903197277777700,
+              "subject": 14751167063275608
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 61632321851211990,
+              "parity": 410613080007563000,
+              "predicate": 29909907599330136,
+              "subject": 360990324427595140
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 771307267378932200,
+              "parity": 695474608884682500,
+              "predicate": 685673225338009200,
+              "subject": 763053979564823200
+            },
+            {
+              "context": 0,
+              "metadata": 0,
+              "object": 14751167063275608,
+              "parity": 115683459861006960,
+              "predicate": 336903197277777700,
+              "subject": 360990324427595140
+            }
+          ],
+          "returned": 13,
+          "stats": {
+            "directJumpOps": 0,
+            "lexiconLookupOps": 0,
+            "matchCount": 13,
+            "vmCycles": 0
+          }
+        },
+        "production": {
+          "antigravity_embed_hint": null,
+          "document_digest": "05990df0aaf662f2909cf004913d1d5285915ba9b320a4d3d3156e9c40a47d68",
+          "package_sha256": "d41267223857a1c8ddfd9a5f1f9921a38ca56747034768541ad4e95b1a882cba",
+          "presentation_html": null,
+          "producer": "files",
+          "producer_version": "2",
+          "receipt": {
+            "binary": {
+              "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+              "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+              "version": "0.1.0"
+            },
+            "catalog": {
+              "count": 150,
+              "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+            },
+            "execution_host": "synth.production",
+            "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+            "hmc": {
+              "bytes": 760,
+              "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-194b3cd2f1bd.hmc",
+              "sha256": "d41267223857a1c8ddfd9a5f1f9921a38ca56747034768541ad4e95b1a882cba"
+            },
+            "inputs": [],
+            "limits": {
+              "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+              "asset_work_units": 500000000,
+              "combined_logical_budget_bytes": 312475648,
+              "effective_asset_work_units": 499999304,
+              "effective_host_bytes": 268413184,
+              "evaluation_steps": 100000,
+              "evaluation_workspace_bytes": 44040192,
+              "package_bytes": 335544320,
+              "resource_bytes": 67108864,
+              "source_available_bytes": 2097152,
+              "source_bytes": 174,
+              "source_reservation_bytes": 22272,
+              "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+              "source_work_units": 696,
+              "standalone_wire_bytes": 4194304,
+              "total_resource_bytes": 268435456
+            },
+            "native_reviews": [],
+            "presentation_path": null,
+            "producer": {
+              "id": "files",
+              "version": "2"
+            },
+            "quality_profile": "production16",
+            "requested_reviews": [],
+            "resources": [
+              {
+                "bytes": 94,
+                "key": "path.json",
+                "kind": "json",
+                "path": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-194b3cd2f1bd\\path.json",
+                "sha256": "83a59e891be569151afcba898f47e9f67480182d755455a20af6244f68b007b3",
+                "url": "/artifacts/path-194b3cd2f1bd/path.json"
+              }
+            ],
+            "review_status": "not_requested",
+            "schema": "synth.production-receipt/v1",
+            "source_sha256": "5a1f95b61247feacc33238253c6ac1173e9a277f3dd1a1bfeea08046fc47e9ca",
+            "strict_replay_verified": true,
+            "visual_acceptance": "pending inspection"
+          },
+          "resources": [
+            {
+              "bytes": 94,
+              "key": "path.json",
+              "kind": "json",
+              "modality": "data",
+              "sha256": "83a59e891be569151afcba898f47e9f67480182d755455a20af6244f68b007b3"
+            }
+          ],
+          "revision": 1,
+          "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\artifacts\\path-194b3cd2f1bd.hmc",
+          "schema": "synth.presentation-html/v1",
+          "strict_replay_verified": true,
+          "package_url": "/artifacts/path-194b3cd2f1bd.hmc",
+          "receipt_url": "/artifacts/path-194b3cd2f1bd.json"
+        },
+        "method": "Authored route resolved from public graph entities; sequence evaluated and packaged by Vibe. Choice does not grant authority."
+      }
+    }
+  }
+}

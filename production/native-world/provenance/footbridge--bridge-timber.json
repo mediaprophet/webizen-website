@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 1532,
+  "triangles": 2704,
+  "bytes": 520472,
+  "source_bytes": 97800,
+  "id": "footbridge--bridge-timber",
+  "original_sha256": "79ca4cd1a457f4a07c5a0a29e4ef44b716d432945bb475b1af3d203cef05ff23",
+  "source_sha256": "30731e0d9720f36e7c0da18ac91a3f32519d6afa8be77d64c7a7a492ec94c753",
+  "attested_sha256": "53b7ceb4128c3e680eb51046fb92ffe4c11e6f5b06dbd9fc0e76fb6e1920b34e",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

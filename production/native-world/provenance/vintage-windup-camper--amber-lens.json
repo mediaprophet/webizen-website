@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 20,
+  "triangles": 32,
+  "bytes": 47544,
+  "source_bytes": 13612,
+  "id": "vintage-windup-camper--amber-lens",
+  "original_sha256": "f75d074e4eb0907e1d335c7031ba186ee23dba9c171fe8c9e9c3cb75f38f96ff",
+  "source_sha256": "f616edfc3d42e80593b8c270297d690db6c9acca42702e84213eddee8983ce4e",
+  "attested_sha256": "441e051c7ddd32599078139bf6b51b33e615a1c1fd0165e1cb58000336b75b8a",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

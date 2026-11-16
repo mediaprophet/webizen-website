@@ -1,0 +1,118 @@
+{
+  "key": "e264e730507108f74829541292d5c73a9a65d1c8c789be626e560b79d8f67682",
+  "id": "solar-array-three--backing",
+  "native": {
+    "bytes": 43064,
+    "key": "solar-array-three--backing.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--backing-5c05fddd33a4\\solar-array-three--backing.10d",
+    "sha256": "a5cb50a91aec5df5ce76a0c772ec676bdf9970fb6b5d4520ebfae739766f58fe",
+    "url": "/artifacts/world-solar-array-three--backing-5c05fddd33a4/solar-array-three--backing.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "cedf5ca137129fd1120fcaa604e1885f7111261b00f2496b4ba86c94bd8de665",
+    "package_sha256": "517b988ace02e58821af0fd6960a84da4cfe0ca94cbe45f6cba6747cc6efb313",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 58950,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--backing-5c05fddd33a4.hmc",
+        "sha256": "517b988ace02e58821af0fd6960a84da4cfe0ca94cbe45f6cba6747cc6efb313"
+      },
+      "inputs": [
+        {
+          "bytes": 14516,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\solar-array-three--backing.glb",
+          "sha256": "a1d79cbbf201bc724404b40c5ae87c97674ba4b347f4e5a6e00503da62a1abca"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997424,
+        "effective_host_bytes": 268353024,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097038,
+        "source_bytes": 644,
+        "source_reservation_bytes": 82432,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2576,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 43064,
+          "key": "solar-array-three--backing.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--backing-5c05fddd33a4\\solar-array-three--backing.10d",
+          "sha256": "a5cb50a91aec5df5ce76a0c772ec676bdf9970fb6b5d4520ebfae739766f58fe",
+          "url": "/artifacts/world-solar-array-three--backing-5c05fddd33a4/solar-array-three--backing.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "aa05ea711571a2d131b22689becf25df3aba48f842884ba2e93068670f3f1792",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 43064,
+        "key": "solar-array-three--backing.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "a5cb50a91aec5df5ce76a0c772ec676bdf9970fb6b5d4520ebfae739766f58fe"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--backing-5c05fddd33a4.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-solar-array-three--backing-5c05fddd33a4.hmc",
+    "receipt_url": "/artifacts/world-solar-array-three--backing-5c05fddd33a4.json"
+  },
+  "vertices": 60,
+  "triangles": 96,
+  "instances": 2,
+  "material": 34,
+  "url": "/production/native-world/assets/solar-array-three--backing.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "a5cb50a91aec5df5ce76a0c772ec676bdf9970fb6b5d4520ebfae739766f58fe",
+  "bytes": 43064,
+  "recipe": "/production/native-world/recipes/solar-array-three--backing.vibe",
+  "input_sha256": "a1d79cbbf201bc724404b40c5ae87c97674ba4b347f4e5a6e00503da62a1abca"
+}

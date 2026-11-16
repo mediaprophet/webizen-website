@@ -1,0 +1,41 @@
+{
+  "schema": "webizen.interrupted-test-run/v1",
+  "status": "INTERRUPTED",
+  "reason": "Parent explicitly requested stopping an already-failing full run to investigate two concrete failures; full suite still required after fixes.",
+  "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "command": "cargo xtask test",
+  "nextest_run_id": "74894922-5f99-4b7a-a89e-9f15eb6d98d8",
+  "build": "passed; all-feature test profile completed in 16m50s",
+  "gpu_discovery": "passed; one test in 3.234s",
+  "scheduled_tests": 5507,
+  "configured_skipped": 54,
+  "default_filter_skipped_subset": 36,
+  "completed_cases": 273,
+  "case_counts": {
+    "PASS": 271,
+    "FAIL": 1,
+    "ABORT": 1,
+    "TIMEOUT": 0
+  },
+  "remaining_not_completed": 5234,
+  "failures": [
+    {
+      "status": "FAIL",
+      "elapsed": "39.304s",
+      "ordinal": 31,
+      "test": "etalon-test::etalon-gpu [Executed] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::regression::issue_4122::clear_buffer_range_respected"
+    },
+    {
+      "status": "ABORT",
+      "elapsed": "40.488s",
+      "ordinal": 105,
+      "test": "etalon-benchmark::bench/etalon-benchmark Computepass Encoding"
+    }
+  ],
+  "qualification": "PASS includes harness cases labelled Unsupported and Executed Failure. Do not equate every passing harness case with a successful GPU capability execution.",
+  "interruption": "Ctrl+C on owned session92114; exited1; subsequent process inventory found no process beneath target-webizen-tests.",
+  "no_reproduction_started": true,
+  "log": "etalon-full-resume-20261116-161454.log",
+  "log_sha256": "04c221a30a826e8fd72174f40de9c1f71bac34adddeacb09b9d160c727fa2589",
+  "recorded_utc": "2026-11-16T05:45:44.873449+00:00"
+}

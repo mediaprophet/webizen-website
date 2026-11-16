@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 640,
+  "triangles": 1024,
+  "bytes": 202640,
+  "source_bytes": 32584,
+  "id": "memory-frond--limestone",
+  "original_sha256": "3b3a187234a81741b99653dda913c7d8168139e99f2dd8defadeddb500b78eec",
+  "source_sha256": "052d2f1cb2fe403590ad74f1eed0e3cdde5f9b8d26bc5fb17e85a2f2d52f8395",
+  "attested_sha256": "04d839d4c89ae698436266c588e52a1e2d1a77604ebeff2ac3430c6533ddd475",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

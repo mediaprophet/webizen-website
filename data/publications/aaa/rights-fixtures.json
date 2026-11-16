@@ -1,0 +1,151 @@
+{
+  "schema": "webizen.rights-fixtures/v1",
+  "source": {
+    "path": "QualiaDB/docs/tests/suites/modality-deontic.js",
+    "sha256": "8c1d4f07f71aaf8b285876a3a4de9fda9c9c28d758ad7098819520d669a4e734",
+    "reference_only": "Original JavaScript is external development oracle only; production evaluation native Rust.",
+    "native_source": "qualia-core-db/src/modalities/logic/deontic.rs"
+  },
+  "interpretation": "Active FORBID is a restriction, not access permission. A norm status alone is not legal advice or complete human-rights compliance. No mock credentials, signing keys or real personal data are used.",
+  "cases": [
+    {
+      "id": "legacy-active-obligation",
+      "label": "An obligation remains active before expiry",
+      "now": 1700000000,
+      "norms": [
+        {
+          "party": "did:alice",
+          "opcode": 16,
+          "path": "q42:disclose",
+          "object": "q42:data:confidential",
+          "contract": "contract:nda",
+          "expiry": 4000000000,
+          "defeater": false
+        }
+      ],
+      "expected_statuses": [
+        "Active"
+      ],
+      "original_test": "active obligation when no defeater and not expired"
+    },
+    {
+      "id": "legacy-auditor-exception",
+      "label": "A matching exception defeats the obligation",
+      "now": 1700000000,
+      "norms": [
+        {
+          "party": "did:alice",
+          "opcode": 16,
+          "path": "q42:disclose",
+          "object": "q42:data:confidential",
+          "contract": "contract:nda",
+          "expiry": 4000000000,
+          "defeater": false
+        },
+        {
+          "party": "did:alice",
+          "opcode": 17,
+          "path": "q42:disclose",
+          "object": "q42:role:certified-auditor",
+          "contract": "contract:nda",
+          "expiry": 4000000000,
+          "defeater": true
+        }
+      ],
+      "expected_statuses": [
+        "Defeated"
+      ],
+      "original_test": "defeater with DEFEATER_BIT overrides matching obligation"
+    },
+    {
+      "id": "legacy-expiry",
+      "label": "An obligation expires at its stated boundary",
+      "now": 2000,
+      "norms": [
+        {
+          "party": "did:bob",
+          "opcode": 16,
+          "path": "q42:actInBestInterest",
+          "object": "urn:webizen:fixture:numeric-one",
+          "contract": "urn:webizen:fixture:numeric-one",
+          "expiry": 1000,
+          "defeater": false
+        }
+      ],
+      "expected_statuses": [
+        "Expired"
+      ],
+      "original_test": "expired norm when now > metadata expiry",
+      "adaptation": "Original object/context numeric1 replaced with labelled public fixture identifiers; expiry semantics preserved"
+    },
+    {
+      "id": "public-aggregate-permit",
+      "label": "Permit a public aggregate",
+      "now": 1700000000,
+      "norms": [
+        {
+          "party": "urn:webizen:example:public-observer",
+          "opcode": 17,
+          "path": "urn:webizen:policy:publish-aggregate",
+          "object": "urn:webizen:example:public-synthetic-aggregate",
+          "contract": "urn:webizen:policy:reference-consent",
+          "expiry": 4000000000,
+          "defeater": false
+        }
+      ],
+      "expected_statuses": [
+        "Active"
+      ],
+      "origin": "New explicit public scenario; not a person or legal determination"
+    },
+    {
+      "id": "individual-disclosure-forbid",
+      "label": "Forbid individual disclosure",
+      "now": 1700000000,
+      "norms": [
+        {
+          "party": "urn:webizen:example:public-observer",
+          "opcode": 18,
+          "path": "urn:webizen:policy:publish-individual",
+          "object": "urn:webizen:example:withheld-individual-record",
+          "contract": "urn:webizen:policy:reference-consent",
+          "expiry": 4000000000,
+          "defeater": false
+        }
+      ],
+      "expected_statuses": [
+        "Active"
+      ],
+      "origin": "New explicit public scenario; no underlying individual data"
+    },
+    {
+      "id": "withdrawn-aggregate-permit",
+      "label": "Withdrawal defeats the matching permission",
+      "now": 1700000000,
+      "norms": [
+        {
+          "party": "urn:webizen:example:public-observer",
+          "opcode": 17,
+          "path": "urn:webizen:policy:publish-aggregate",
+          "object": "urn:webizen:example:public-synthetic-aggregate",
+          "contract": "urn:webizen:policy:reference-consent",
+          "expiry": 4000000000,
+          "defeater": false
+        },
+        {
+          "party": "urn:webizen:example:public-observer",
+          "opcode": 18,
+          "path": "urn:webizen:policy:publish-aggregate",
+          "object": "urn:webizen:example:withdrawal",
+          "contract": "urn:webizen:policy:reference-consent",
+          "expiry": 4000000000,
+          "defeater": true
+        }
+      ],
+      "expected_statuses": [
+        "Defeated"
+      ],
+      "origin": "New explicit public scenario; no signed credential asserted"
+    }
+  ]
+}

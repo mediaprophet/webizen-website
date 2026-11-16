@@ -1,0 +1,32 @@
+{
+  "source": "en",
+  "messages": 87,
+  "packs": {
+    "ar": {
+      "translated": 49,
+      "total": 87,
+      "review": "draft; native-language review required"
+    },
+    "zh": {
+      "translated": 47,
+      "total": 87,
+      "review": "draft; native-language review required"
+    },
+    "es": {
+      "translated": 45,
+      "total": 87,
+      "review": "draft; native-language review required"
+    },
+    "fr": {
+      "translated": 44,
+      "total": 87,
+      "review": "draft; native-language review required"
+    },
+    "hi": {
+      "translated": 44,
+      "total": 87,
+      "review": "draft; native-language review required"
+    }
+  },
+  "other_languages": "Any canonical Unicode locale is accepted; unavailable messages use tagged English fallback."
+}

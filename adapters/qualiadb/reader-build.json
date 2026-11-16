@@ -1,0 +1,19 @@
+{
+  "schema": "webizen.native-reader-build/v1",
+  "compiler": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+  "adapter_source_sha256": "abd963e77cd3e0e893eb249268a47674579c20d707235144fd4d59af7112934f",
+  "adapter_binary_sha256": "548fde84a89bc17435c9ce91fe591a5bf60b759f353e843daa494a9ff1c37dca",
+  "qualia_library_sha256": "722a0f0aa20a151d76f86a02a28ae609566096c2e6f5736d7d6f4d9f80aed57d",
+  "serde_json_library_sha256": "baa66847bfd6fbd62c2402ed6ac342373e17fa11f1ec5342d7b2d467a35a646c",
+  "reuses_existing_library": true,
+  "kernel_rebuilt": false,
+  "public_api": [
+    "UnifiedVolumeBuilder::with_lex_map",
+    "UnifiedVolumeBuilder::with_permissive_commons",
+    "Q42Volume::open",
+    "Q42Volume::verify_all_blocks",
+    "Q42Volume::read_all_quins",
+    "Q42LexMmap::lookup_owned",
+    "mini_parser::hash_token"
+  ]
+}

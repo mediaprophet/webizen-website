@@ -1,0 +1,188 @@
+{
+  "id": "prototype-shrub-branches",
+  "url": "/production/aaa-instancing/assets/prototype-shrub-branches.10d",
+  "sha256": "2b91df5f5d6550e0aca6f0874f6cb15086250914425291347df3dfae315626a9",
+  "bytes": 465952,
+  "vertices": 2826,
+  "source_vertices": 1848,
+  "native_attribute_policy": "Native GLB MikkTSpace corner splits retained; exact triangle count preserved",
+  "triangles": 3528,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 1,
+  "textures": [
+    {
+      "url": "/production/aaa-instancing/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png",
+      "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-instancing/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png",
+      "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-instancing/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png",
+      "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "provenance_receipt": "/production/aaa-instancing/provenance/prototype-shrub-branches.json",
+  "native": {
+    "bytes": 293216,
+    "key": "prototype-shrub-branches.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d\\prototype-shrub-branches.10d",
+    "sha256": "72d2e12c24b733fe38721282a612a75df74ab82d6bcd530dddf87ee49ab54758",
+    "url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d/prototype-shrub-branches.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "752b2056a8444652c75915064b30de2a3bc27565153446781b88f08c0187b87d",
+    "package_sha256": "c4f999281b010cd3a52478939f7d9b54336acacf5924b76dccba539f98c5abe1",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 558740,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d.hmc",
+        "sha256": "c4f999281b010cd3a52478939f7d9b54336acacf5924b76dccba539f98c5abe1"
+      },
+      "inputs": [
+        {
+          "bytes": 172380,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-shrub-branches.glb",
+          "sha256": "f32f0db01134d59a2cfb475b9114907032e2ee62645cb899ed29ef9676c25c56"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998640,
+        "effective_host_bytes": 268391936,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095805,
+        "source_bytes": 340,
+        "source_reservation_bytes": 43520,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1360,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 293216,
+          "key": "prototype-shrub-branches.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d\\prototype-shrub-branches.10d",
+          "sha256": "72d2e12c24b733fe38721282a612a75df74ab82d6bcd530dddf87ee49ab54758",
+          "url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d/prototype-shrub-branches.10d"
+        },
+        {
+          "bytes": 41152,
+          "key": "textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d\\textures\\sha256\\0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d/textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+        },
+        {
+          "bytes": 33910,
+          "key": "textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d\\textures\\sha256\\29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d/textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+        },
+        {
+          "bytes": 16374,
+          "key": "textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "kind": "image/png",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d\\textures\\sha256\\e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d/textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "cf503778bf0c72add41f7285855ef3478faad1e7b7ff14d0f872a1705b68d197",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 293216,
+        "key": "prototype-shrub-branches.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "72d2e12c24b733fe38721282a612a75df74ab82d6bcd530dddf87ee49ab54758"
+      },
+      {
+        "bytes": 41152,
+        "key": "textures/sha256/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db"
+      },
+      {
+        "bytes": 33910,
+        "key": "textures/sha256/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72"
+      },
+      {
+        "bytes": 16374,
+        "key": "textures/sha256/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+        "kind": "image/png",
+        "modality": "data",
+        "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-shrub-branches-2ee5e850bf9d.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d.hmc",
+    "receipt_url": "/artifacts/prototype-shrub-branches-2ee5e850bf9d.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-shrub-branches.glb",
+  "cache_key": "9eb2e6c810c9ba50cf1d004ad8ea8503fa7b8d5cd870e7b4e422a9f4b29d21c1",
+  "recipe": "/production/aaa-instancing/recipes/prototype-shrub-branches.vibe"
+}

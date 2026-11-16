@@ -1,0 +1,313 @@
+{
+  "passed": true,
+  "scope": "Hash, size, native replay receipt, retained source geometry and provenance validation; not whole-world visual or performance acceptance.",
+  "manifest_sha256": "ba7332c07d10c8c68daa8d908693dbf609d697951629604b2acf49ad8b27491c",
+  "assets": [
+    {
+      "id": "ecology-eucalyptus-mid-0",
+      "native_sha256": "e6f216391a55c376885655e1a866324bbb7a0f57c812e55efd4772220bef3e13",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-1",
+      "native_sha256": "8e08b3a2ccc4d8b28945cfd6d58f22dea1322c7e1950692ab860af3044bc6223",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-2",
+      "native_sha256": "a1235e4d9c232f5dd0b2806dc072b6903944a1d28fa622ef949f6e96dbe79ea7",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-3",
+      "native_sha256": "072a5e77f6c23cc07c3524613cff40d1f90daee68b3a06ed9a2941a4832549e9",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-4",
+      "native_sha256": "53758c40f0286612e26ff4e2ffe5499c1ee598201406f90bc9634c2427332049",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-5",
+      "native_sha256": "38556bbfa2411ebdfc6b8ea16b2ff24aa013e02bd5801a5fb36851c03c4ec4ac",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-6",
+      "native_sha256": "500aabcae22273ed2fae5c4da97798b6882f6b9740979642fa6c8bf3f1fb8d65",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-7",
+      "native_sha256": "cc3505e616839fb40423a3ed7df841f3e765984bb463fccfca315fbf627d7542",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-8",
+      "native_sha256": "3519f12d6c3e3703b95adc9954dbe2ed521aa6e66f042c83a708399b9a335c17",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-9",
+      "native_sha256": "e01c4afa509afc3e326c57806a2b86b09daf19bd4293f90fdc66e1d722c17ba8",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-10",
+      "native_sha256": "d0e92ce222f038b13344382c980f967ca6b02d75209e11da8d39e3e4a1a626b6",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-11",
+      "native_sha256": "955411f6d2fd007a099ce0e7d18e72867562eeb124c8f4fc4a01653a56db2c9a",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-12",
+      "native_sha256": "d3e82d434db174ea940218e17142010c865fdb657db2ca02f6f537fe21adedd0",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-13",
+      "native_sha256": "d5bad7eae098501d2297e482657e186b2400fa50749ccfedbee28699fa917124",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-mid-14",
+      "native_sha256": "3611a8352173caf7c2fbb936e134479b8ead3e88e923daa9382c74aa400d0357",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-near-0",
+      "native_sha256": "7368cf1a1be773221226aec93d61097480decce1625f35c4b7788efb3c465d3b",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-near-1",
+      "native_sha256": "c69051b3d73077ebbd01f58413ff515a43a8c83404b7a48ab97a4bc5f47f2908",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-eucalyptus-near-2",
+      "native_sha256": "6f3302a92082f3684794c5a19a01e0ca8ebb34891f6a86a8aa19660d412c0fe4",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-bank-rock-mid-0",
+      "native_sha256": "22b8c064e015977d0e519751657e9bb6001e3ad698c8caddb7fbe2b692413975",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-bank-rock-mid-1",
+      "native_sha256": "70604e63a7de4ca8a58cfe4f156a51c4d94fc7f31466b476b4c85e664dabac6a",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-bank-rock-mid-2",
+      "native_sha256": "b1c6294bfc3b280fb0b6ece1604189c7c70805aa9cbf2908cd2a2d611924e1f0",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-bank-rock-near-0",
+      "native_sha256": "e2b7d2b600e0c512565c9a4c1814c9044a1011087cd83e7b1c289e971a56e882",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-near-0",
+      "native_sha256": "ed8e261a295dbe21c088498c70ac00210a8784d36b637b0e5c8e29f1438aff8f",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-near-1",
+      "native_sha256": "ae100b229255087094510faaa97782b9d6268acc257f74648ca4e13d8cbac1d0",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-near-2",
+      "native_sha256": "996841433ea410f3445737d6db38af72e28da0ef42e650084cc7e77fbd69709c",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-mid-0",
+      "native_sha256": "b58af8c6f59c8d782a7eff8ef479267dfc59c038fde10460676f5b4727ced301",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-mid-1",
+      "native_sha256": "ab6fe74ecd76bfed9425801012ad5c93fda92888efa9a261772d7e24cb451bb1",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-mid-2",
+      "native_sha256": "70455d1fa24c5d1406c2ead5b24d49de1c36094dfcd80bd27c5553d7e5adabc4",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-mid-3",
+      "native_sha256": "c311d92e03bc48254350052e701e60400cc1c1a3105d612f4518c47c6d2f9751",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-mid-4",
+      "native_sha256": "4c03258d3974664517aa46ea8189846c8f57f3a31e8871995a49c6509cc9bd2d",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-grass-mid-5",
+      "native_sha256": "1b366ac4828beed7d17bdea8dbbceba7273da93cd7992174e0d7f5078d211682",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-shrub-branches-0",
+      "native_sha256": "371bc33b8fc755609a7db25326a49d746b3b1437c8014c2acbfe43dd2459d495",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-shrub-leaves-0",
+      "native_sha256": "6f76b0cf1f9b1cecbbb1b0dd60094f83f015680cab9ef22a6f74ba0596e5714e",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-shrub-leaves-1",
+      "native_sha256": "1f916d9d45aa30c046254106693b2ae630aea2e786812c4f4ee4ccc45cd47603",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-shrub-leaves-2",
+      "native_sha256": "ef49f2179e53228353e82a4eb211e2c580c2896eb378e86940953bad661970d9",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    },
+    {
+      "id": "ecology-leaf-litter-0",
+      "native_sha256": "e69607b387b62d3851f5d937f3db0171517572914d0539560295869dee2c1f2c",
+      "strict_replay_verified": true,
+      "provenance_sections_preserved": true,
+      "source_hash_verified": true,
+      "triangle_count_verified": true
+    }
+  ],
+  "texture_bindings_verified": 15,
+  "counts": {
+    "triangles": 1846066,
+    "vertices": 1562362,
+    "bytes": 170611600,
+    "instances": 367,
+    "placement_counts": {
+      "eucalyptus-mid": 90,
+      "eucalyptus-near": 3,
+      "bank-rock-mid": 56,
+      "bank-rock-near": 15,
+      "grass-near": 27,
+      "grass-mid": 134,
+      "shrub-branches": 14,
+      "shrub-leaves": 14,
+      "leaf-litter": 14
+    }
+  }
+}

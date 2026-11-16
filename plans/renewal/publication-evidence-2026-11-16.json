@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-16",
+  "scope": "Exact commits confirmed accessible on GitHub; this is source publication evidence, not current deployment or binary qualification.",
+  "repositories": [
+    {
+      "name": "synth",
+      "sha": "0d08884612f387685eb96e5ddd0a2085c1f1ff02",
+      "message": "Pin qualiaDB (1cda297f78786ae498c1d5e01f68b531810eb46c) and hypermedia-production (8321792cb700cdac90adf1b1ef8accdc039597f1) for v0.0.41.2",
+      "url": "https://github.com/mediaprophet/synth/commit/0d08884612f387685eb96e5ddd0a2085c1f1ff02",
+      "commit_created_at": "2026-11-15T20:48:04Z",
+      "verified_via": "GitHub connector fetch_commit"
+    },
+    {
+      "name": "hypermedia-production",
+      "sha": "8321792cb700cdac90adf1b1ef8accdc039597f1",
+      "message": "Pin qualiaDB to v0.0.41.2 (1cda297f78786ae498c1d5e01f68b531810eb46c)",
+      "url": "https://github.com/mediaprophet/hypermedia-production/commit/8321792cb700cdac90adf1b1ef8accdc039597f1",
+      "commit_created_at": "2026-11-15T20:47:48Z",
+      "verified_via": "GitHub connector fetch_commit"
+    },
+    {
+      "name": "qualiaDB",
+      "sha": "7f6057a743937173260c1d62d670283214a1d09a",
+      "message": "Merge remote-tracking branch 'origin/0.0.41.2' into 0.0.41.2",
+      "url": "https://github.com/mediaprophet/qualiaDB/commit/7f6057a743937173260c1d62d670283214a1d09a",
+      "commit_created_at": "2026-11-15T20:49:08Z",
+      "verified_via": "GitHub connector fetch_commit"
+    },
+    {
+      "name": "etalon",
+      "sha": "057545fc14bc1202a167b9a76a8f82e246c1738f",
+      "message": "ci: include 0.0.41.2 and 0.0.41.* branches in workflow triggers",
+      "url": "https://github.com/mediaprophet/etalon/commit/057545fc14bc1202a167b9a76a8f82e246c1738f",
+      "commit_created_at": "2026-11-15T07:38:31Z",
+      "verified_via": "GitHub connector fetch_commit"
+    },
+    {
+      "name": "anatomy",
+      "sha": "43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0",
+      "message": "feat(knowledge): add epistemic densitometry SHACL shapes and 7-tier calibration rules",
+      "url": "https://github.com/mediaprophet/anatomy/commit/43336d5ccdbdcabf0a30fc1a86bcb0cc2b12b4a0",
+      "commit_created_at": "2026-11-15T07:44:09Z",
+      "verified_via": "GitHub connector fetch_commit"
+    }
+  ]
+}

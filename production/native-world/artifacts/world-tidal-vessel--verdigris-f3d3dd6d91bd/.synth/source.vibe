@@ -1,0 +1,5 @@
+requires [capability("capability.invoke")];
+let world={id:"tidal-vessel--verdigris",asset:"tidal-vessel",material:52,instances:[{id:"tidal-vessel",rotation:[0.0,0.0,0.0,1.0],scale:[0.8,0.8,0.8],translation:[20.0,5.186177,-7.0]}],input:"world.glb"};
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:world.input,format:"glb"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry});
+let mut asset={files:[{key:"tidal-vessel--verdigris.10d",resource:native}]};

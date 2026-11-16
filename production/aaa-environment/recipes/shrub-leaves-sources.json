@@ -1,0 +1,8 @@
+{
+  "chunk_recipes": [
+    "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-leaves-source-0.vibe",
+    "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-leaves-source-1.vibe",
+    "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\recipes\\shrub-leaves-source-2.vibe"
+  ],
+  "bounded_max_parts": 120
+}

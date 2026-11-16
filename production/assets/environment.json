@@ -1,0 +1,36 @@
+{
+  "id": "catchment",
+  "title": "Living catchment",
+  "role": "environment",
+  "mesh_url": "/production/assets/catchment.mesh.json",
+  "model_url": "/production/artifacts/catchment-7a5bb20972d0/catchment.10d",
+  "recipe_url": "/production/recipes/catchment.vibe",
+  "receipt_url": "/production/assets/catchment.receipt.json",
+  "package_url": "/production/artifacts/catchment-7a5bb20972d0.hmc",
+  "triangles": 18432,
+  "native_sha256": "39213fe31cdb961419e2d2949aba63bd02e65cedf1c7fe39be673cfdef0f3f0e",
+  "mesh_sha256": "cd73e43898a5a281188e8bd344fa57529d02c5764b3af5837517216ef1661dd3",
+  "bounds": {
+    "min": [
+      -90.0,
+      -1.05,
+      -90.0
+    ],
+    "max": [
+      90.0,
+      35.46483,
+      90.0
+    ]
+  },
+  "strict_replay_verified": true,
+  "epistemic_class": "authored-artwork",
+  "geometry_origin": "Existing authored catchment OBJ imported, sealed and exported by native Synth; every exported DXF face preserved in browser adapter",
+  "textures": {
+    "ground": {
+      "colour": "/production/artifacts/catchment-7a5bb20972d0/ground-colour.png",
+      "normal": "/production/artifacts/catchment-7a5bb20972d0/ground-normal.png",
+      "orm": "/production/artifacts/catchment-7a5bb20972d0/ground-orm.png"
+    }
+  },
+  "preview_dir": "/production/previews/catchment-1794789027"
+}

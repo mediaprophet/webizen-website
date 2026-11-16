@@ -1,0 +1,73 @@
+{
+  "schema": "webizen.aaa-implementation-state/v1",
+  "updated": "2026-11-16",
+  "status": "implementing-native-instancing-and-live-production",
+  "production_acceptance": false,
+  "mass_expansion_gate": "A21.complete requires actual native proof review and user approval",
+  "owners": {
+    "root": [
+      "integration",
+      "native terrain material restoration",
+      "visual review",
+      "evidence"
+    ],
+    "baseline_impl": [
+      "actual Q42 datasets",
+      "DEM adapter correction and acquisition",
+      "source provenance"
+    ],
+    "contracts_impl": [
+      "native instruments",
+      "texture admission",
+      "rights/query/science/benchmark execution"
+    ],
+    "synth_art_impl": [
+      "native woodland asset families",
+      "surface production",
+      "asset review"
+    ]
+  },
+  "runtime_boundary": "QualiaDB/Vibe/Synth/Hypermedia/Etalon; generated browser WASM loader only",
+  "connected_mcp": {
+    "catalogue_count": 148,
+    "sdk_provider_count": 11,
+    "sdk_etalon_parity_passed": true,
+    "state": "older than current source and production binary"
+  },
+  "production_binary": {
+    "path": "C:/github/synth/target-prod/debug/synth.exe",
+    "catalogue_count": 150
+  },
+  "known_rejected_results": [
+    "Existing 8800 native world failed visual acceptance",
+    "Initial Canberra DEM acquisition hit ocean tiles due to Mercator conversion error; rejected and retained as diagnostic evidence",
+    "First textured bank-rock study is too dark and angular; under refinement"
+  ],
+  "completion_requirement": "All underlying datasets and real demonstrations operate inside the native environment. Static imagery, legacy-page links, retained files and successful compilation do not establish completion.",
+  "verified_milestone": {
+    "wasm_sha256": "6f508880c0b696c4a92d5fe91410bd137f8aec093c4c9ab6d6102c1b4698f2cf",
+    "etalon_pushed_revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+    "browser_evidence": "evidence/aaa-browser/results.json",
+    "passed": [
+      "native material admission",
+      "actual Q42 query",
+      "rights withdrawal",
+      "11 correctness cases",
+      "10 warmups and 30 query measurements",
+      "cancellation of pending job",
+      "16-module graph and human-purpose queries",
+      "EMF gain changes actual pixels",
+      "all13824 field cells exported unchanged",
+      "four observer paths retain seven places",
+      "post-field world camera",
+      "390px layout",
+      "only generated WASM loader"
+    ]
+  },
+  "active_implementation": [
+    "per-prototype native GPU instancing and culling",
+    "live Synth production instrument and native HTTP service",
+    "full Etalon GPU suite toolchain setup and execution",
+    "matched frame-time profiling"
+  ]
+}

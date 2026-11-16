@@ -1,0 +1,88 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 8381583,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-mid-1-f07c02af75df.hmc",
+    "sha256": "07a4cdcd8ea1d65b95961d4e62fc6cba9ee153e4a1f75a0a8a1c832b7e671263"
+  },
+  "inputs": [
+    {
+      "bytes": 156184,
+      "key": "batch.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\ecology-grass-mid-1.glb",
+      "sha256": "85bf90f83be1aeaa2af353d3ddf26628bfff99bd8a40382b5ec85d62bf7d9ef7"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499998660,
+    "effective_host_bytes": 268392576,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2095931,
+    "source_bytes": 335,
+    "source_reservation_bytes": 42880,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1340,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 8147480,
+      "key": "ecology-grass-mid-1.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-mid-1-f07c02af75df\\ecology-grass-mid-1.10d",
+      "sha256": "1d39a6b9197f30be0ae9708a0db05e21153c3c8d283a447a610fbaa10cb8ff9c"
+    },
+    {
+      "bytes": 17703,
+      "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-mid-1-f07c02af75df\\textures\\sha256\\002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+    },
+    {
+      "bytes": 16285,
+      "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-mid-1-f07c02af75df\\textures\\sha256\\10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+    },
+    {
+      "bytes": 42157,
+      "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\ecology-grass-mid-1-f07c02af75df\\textures\\sha256\\fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "13d227c1c029c0a769747af7ca5a069bb67d80bf5004750c7270d844b800020f",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

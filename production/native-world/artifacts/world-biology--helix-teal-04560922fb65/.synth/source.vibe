@@ -1,0 +1,5 @@
+requires [capability("capability.invoke")];
+let world={id:"biology--helix-teal",asset:"biology",material:60,instances:[{id:"biology",rotation:[0.0,0.0,0.0,1.0],scale:[1.0,1.0,1.0],translation:[17.0,3.825541,-37.0]}],input:"world.glb"};
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:world.input,format:"glb"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry});
+let mut asset={files:[{key:"biology--helix-teal.10d",resource:native}]};

@@ -1,0 +1,15 @@
+{
+  "query": "<http://q.test/s/0> ?p ?o .",
+  "expected_count": 1,
+  "before_count": 0,
+  "after_count": 1,
+  "original_hash": "5bd74f9f8381eb84c397c0f096ea594ce0d7c2a1cb6930f17e7b338ecbc5b427",
+  "corrected_hash": "eb0507c2ca1adfa8698c4c7e816fb3441ef73afe928927538ef30c35021ffa3b",
+  "correction": {
+    "operation": "IRI identity normalisation to canonical q_hash 60-bit space",
+    "changed_records": 10,
+    "source_contract": "qualia-core-db/src/lib.rs::q_hash",
+    "legacy_issue": "Original JS dataset loader retained type/modality bits in subject and predicate",
+    "scope": "synthetic IRI-only dataset; not a general Quin or literal rewriting rule"
+  }
+}

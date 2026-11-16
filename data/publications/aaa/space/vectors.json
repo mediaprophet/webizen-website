@@ -1,0 +1,121 @@
+{
+  "schema": "webizen.jpl-vectors/v1",
+  "records": [
+    {
+      "id": "jpl-earth-20261116",
+      "body": "earth",
+      "target_id": "399",
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27399%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&START_TIME=%272026-11-16%27&STOP_TIME=%272026-11-17%27&STEP_SIZE=%271+d%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&TIME_TYPE=%27TDB%27&CSV_FORMAT=%27YES%27",
+      "source_sha256": "7ceb3ecd61475b9626ad8e9457d55d9ab923f2dbb777baefbbee02373642d1b7",
+      "source_bytes": 7307,
+      "retrieved_utc": "2026-11-16T03:10:55.299659+00:00",
+      "api_signature": {
+        "version": "1.2",
+        "source": "NASA/JPL Horizons API"
+      },
+      "frame": "ICRF frame plane",
+      "centre": "Sun centre500@10",
+      "time_scale": "TDB",
+      "position_unit": "km",
+      "velocity_unit": "km/s",
+      "rows": [
+        {
+          "jd_tdb": 2461360.5,
+          "calendar_tdb": "A.D. 2026-Nov-16 00:00:00.0000",
+          "position_km": [
+            88500030.00558998,
+            108798923.9910766,
+            47161666.86526002
+          ],
+          "velocity_km_s": [
+            -24.36572794155198,
+            16.2383864436891,
+            7.038046127295474
+          ]
+        },
+        {
+          "jd_tdb": 2461361.5,
+          "calendar_tdb": "A.D. 2026-Nov-17 00:00:00.0000",
+          "position_km": [
+            86381476.71941963,
+            110185131.3599789,
+            47762473.69899432
+          ],
+          "velocity_km_s": [
+            -24.67357013606331,
+            15.84893436006456,
+            6.869175687376251
+          ]
+        }
+      ],
+      "response_headers": {
+        "Server": "nginx",
+        "Date": "Mon, 16 Nov 2026 03:10:56 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "source_text_header": "*******************************************************************************\n Revised: April 12, 2021                 Earth                              399\n \n GEOPHYSICAL PROPERTIES (revised May 9, 2022):\n  Vol. Mean Radius (km)    = 6371.01+-0.02   Mass x10^24 (kg)= 5.97219+-0.0006\n  Equ. radius, km          = 6378.137        Mass layers:\n  Polar axis, km           = 6356.752          Atmos         = 5.1   x 10^18 kg\n  Flattening               = 1/298.257223563   oceans        = 1.4   x 10^21 kg\n  Density, g/cm^3          = 5.51              crust         = 2.6   x 10^22 kg\n  J2 (IERS 2010)           = 0.00108262545     mantle        = 4.043 x 10^24 kg\n  g_p, m/s^2  (polar)      = 9.8321863685      outer core    = 1.835 x 10^24 kg\n  g_e, m/s^2  (equatorial) = 9.7803267715      inner core    = 9.675 x 10^22 kg\n  g_o, m/s^2               = 9.82022         Fluid core rad  = 3480 km\n  GM, km^3/s^2             = 398600.435436   Inner core rad  = 1215 km\n  GM 1-sigma, km^3/s^2     =      0.0014     Escape velocity = 11.186 km/s\n  Rot. Rate (rad/s)        = 0.00007292115   Surface area:\n  Mean sidereal day, hr    = 23.9344695944     land          = 1.48 x 10^8 km\n  Mean solar day 2000.0, s = 86400.002         sea           = 3.62 x 10^8 km\n  Mean solar day 1820.0, s = 86400.0         Love no., k2    = 0.299\n  Moment of inertia        = 0.3308          Atm. pressure   = 1.0 bar\n  Mean surface temp (Ts), K= 287.6           Volume, km^3    = 1.08321 x 10^12\n  Mean effect. temp (Te), K= 255             Magnetic moment = 0.61 gauss Rp^3\n  Geometric albedo         = 0.367           Vis. mag. V(1,0)= -3.86\n  Solar Constant (W/m^2)   = 1367.6 (mean), 1414 (perihelion), 1322 (aphelion)\n HELIOCENTRIC ORBIT CHARACTERISTICS:\n  Obliquity to orbit, deg  = 23.4392911  Sidereal orb period  = 1.0000174 y\n  Orbital speed, km/s      = 29.79       Sidereal orb period  = 365.25636 d\n  Mean daily motion, deg/d = 0.9856474   Hill's sphere radius = 234.9       \n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Sun Nov 15 19:10:56 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Earth (399)                     {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 2026-Nov-16 00:00:00.0000 TDB\nStop  time      : A.D. 2026-Nov-17 00:00:00.0000 TDB\nStep-size       : 1440 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "raw_url": "/data/publications/aaa/space/earth.response.json"
+    },
+    {
+      "id": "jpl-mars-20261116",
+      "body": "mars",
+      "target_id": "499",
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27499%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&START_TIME=%272026-11-16%27&STOP_TIME=%272026-11-17%27&STEP_SIZE=%271+d%27&OUT_UNITS=%27KM-S%27&VEC_TABLE=%272%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&TIME_TYPE=%27TDB%27&CSV_FORMAT=%27YES%27",
+      "source_sha256": "8afe9824efcfb2b96d5bcca71f270a1ffda3e52a9947143e582029a6aa810966",
+      "source_bytes": 6845,
+      "retrieved_utc": "2026-11-16T03:10:55.998937+00:00",
+      "api_signature": {
+        "version": "1.2",
+        "source": "NASA/JPL Horizons API"
+      },
+      "frame": "ICRF frame plane",
+      "centre": "Sun centre500@10",
+      "time_scale": "TDB",
+      "position_unit": "km",
+      "velocity_unit": "km/s",
+      "rows": [
+        {
+          "jd_tdb": 2461360.5,
+          "calendar_tdb": "A.D. 2026-Nov-16 00:00:00.0000",
+          "position_km": [
+            -72391939.20830978,
+            208026428.0488652,
+            97369318.09556712
+          ],
+          "velocity_km_s": [
+            -22.19085039662503,
+            -4.96905040433935,
+            -1.680704404674567
+          ]
+        },
+        {
+          "jd_tdb": 2461361.5,
+          "calendar_tdb": "A.D. 2026-Nov-17 00:00:00.0000",
+          "position_km": [
+            -74306640.77912726,
+            207589733.8905449,
+            97220655.79071783
+          ],
+          "velocity_km_s": [
+            -22.13070171049753,
+            -5.139499268570257,
+            -1.760508132489809
+          ]
+        }
+      ],
+      "response_headers": {
+        "Server": "nginx",
+        "Date": "Mon, 16 Nov 2026 03:10:56 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close"
+      },
+      "source_text_header": "*******************************************************************************\n Revised: June 02, 2025                 Mars                            499 / 4\n \n PHYSICAL DATA (updated 2025-Jun-02):\n  Vol. mean radius (km) = 3389.92+-0.04   Density (g/cm^3)      =  3.933(5+-4)\n  Mass x10^23 (kg)      =    6.4171       Flattening, f         =  1/169.779\n  Volume (x10^10 km^3)  =   16.318        Equatorial radius (km)=  3396.19\n  Sidereal rot. period  =   24.622962 hr  Sid. rot. rate, rad/s =  0.0000708822 \n  Mean solar day (sol)  =   88775.24415 s Polar gravity m/s^2   =  3.758\n  Core radius (km)      = ~1700           Equ. gravity  m/s^2   =  3.71\n  Geometric Albedo      =    0.150                                              \n\n  GM (km^3/s^2)         = 42828.375662    Mass ratio (Sun/Mars) = 3098703.59\n  GM 1-sigma (km^3/s^2) = +- 0.00028      Mass of atmosphere, kg= ~ 2.5 x 10^16\n  Mean temperature (K)  =  210            Atmos. pressure (bar) =    0.0056 \n  Obliquity to orbit    =   25.19 deg     Max. angular diam.    =  17.9\"\n  Mean sidereal orb per =    1.88081578 y Visual mag. V(1,0)    =  -1.52\n  Mean sidereal orb per =  686.98 d       Orbital speed,  km/s  =  24.13\n  Hill's sphere rad. Rp =  319.8          Escape speed, km/s    =   5.027\n                                 Perihelion  Aphelion    Mean\n  Solar Constant (W/m^2)         717         493         589\n  Maximum Planetary IR (W/m^2)   470         315         390\n  Minimum Planetary IR (W/m^2)    30          30          30\n*******************************************************************************\n\n\n*******************************************************************************\nEphemeris / API_USER Sun Nov 15 19:10:56 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mars (499)                      {source: mar099}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 2026-Nov-16 00:00:00.0000 TDB\nStop  time      : A.D. 2026-Nov-17 00:00:00.0000 TDB\nStep-size       : 1440 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nReference frame : ICRF\n*******************************************************************************\n            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n",
+      "raw_url": "/data/publications/aaa/space/mars.response.json"
+    }
+  ],
+  "licence_url": "https://ssd.jpl.nasa.gov/faq.html",
+  "rights": "JPL Solar System Dynamics FAQ identifies site data as public domain; credit NASA/JPL Horizons; no endorsement implied."
+}

@@ -1,0 +1,191 @@
+{
+  "modules": [
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "qualiadb",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "QualiaDB",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Contextual knowledge, reasoning, resource codecs and scientific foundations",
+      "source_repository": "qualiaDB"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "webizen",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "Webizen applications and runtime",
+      "owner_status": "implementation source mapped; product scope spans supporting repositories",
+      "ownership_evidence": [
+        "qualiaDB/README.md:93",
+        "qualiaDB/crates/webizen-studio/src/main.rs"
+      ],
+      "publication_status": "not-yet-qualified",
+      "purpose": "Human-facing tools, application lifecycle and authorised host capabilities",
+      "source_repository": "qualiaDB"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "poet",
+      "local_repository": null,
+      "name": "Poet",
+      "owner_status": "requires-source-owner-reconciliation",
+      "ownership_evidence": [
+        "synth/README.md:6-7 states Poet is separate",
+        "qualiaDB/crates/qualia-mcp/src/tools/poet.rs is an adapter, not proof of application ownership"
+      ],
+      "publication_status": "not-yet-qualified",
+      "purpose": "Composition and editing of authored works; reconcile app/source ownership",
+      "source_repository": null
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "vibescript",
+      "local_repository": "C:\\github\\vibe-script",
+      "name": "VibeScript",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Checked language, authoring tools and explicit host contracts; engine in QualiaDB",
+      "source_repository": "vibe-script"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "synth",
+      "local_repository": "C:\\github\\synth",
+      "name": "Synth",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Reproducible media production, strict replay and HMC packaging",
+      "source_repository": "synth"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "hypermedia",
+      "local_repository": "C:\\github\\hypermedia-production",
+      "name": "Hypermedia production",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "150 composable media production operations",
+      "source_repository": "hypermedia-production"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "etalon",
+      "local_repository": "C:\\github\\etalon",
+      "name": "Etalon",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Rendering, computation, inference, signals and sensing",
+      "source_repository": "etalon"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "anvil",
+      "local_repository": "C:\\github\\anvil",
+      "name": "Anvil",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Device capability facts and execution routing information",
+      "source_repository": "anvil"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "aether",
+      "local_repository": "C:\\github\\Aether",
+      "name": "Aether",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Application framework, reactive and native interfaces",
+      "source_repository": "Aether"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "chora",
+      "local_repository": "C:\\github\\chora",
+      "name": "Chora",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Embedded web and spatial document engine",
+      "source_repository": "chora"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "webizen-host",
+      "local_repository": "C:\\github\\webizen-host",
+      "name": "Webizen Host",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Hosting, namespaces, deployment and shared stewardship",
+      "source_repository": "webizen-host"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "web-civics",
+      "local_repository": "C:\\github\\ns",
+      "name": "Web Civics / semantic instruments",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Vocabularies, structured instruments and shared meaning",
+      "source_repository": "ns"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "cooperation",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "Wellfare, cooperation and work graph",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Care, participation, shared work and cooperative primitives",
+      "source_repository": "qualiaDB"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "anatomy",
+      "local_repository": "C:\\github\\anatomy",
+      "name": "Anatomy",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Authored spatial biological and welfare educational works",
+      "source_repository": "anatomy"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "ecopunk",
+      "local_repository": "C:\\github\\ecopunk",
+      "name": "Ecopunk and living-world work",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Environmental systems and living-world experiences",
+      "source_repository": "ecopunk"
+    },
+    {
+      "id": "qdnf",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "QDNF and identifier fabric",
+      "owner_status": "repository-present; public claims require qualification",
+      "ownership_evidence": [
+        "qualiaDB/docs/qdnf.html",
+        "webizen-website/plans/renewal/README.md identifies subsystem coverage"
+      ],
+      "publication_status": "source-mapped; runtime-not-qualified",
+      "purpose": "Identifier, naming and network fabric; public subsystem explicitly reconciled with the module atlas",
+      "source_repository": "qualiaDB"
+    }
+  ],
+  "schema": "webizen.module-source-baseline/v1"
+}

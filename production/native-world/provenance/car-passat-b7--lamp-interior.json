@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 2320,
+  "triangles": 4624,
+  "bytes": 764504,
+  "source_bytes": 97136,
+  "id": "car-passat-b7--lamp-interior",
+  "original_sha256": "27fd86bd316272b7089c28aead2ff0aa8d0f43ae8cc3e353a08decfe3167e4c6",
+  "source_sha256": "4d57490f7cfe712c27a80fa53a3dd77d6ee815f0aa8073bf1f66ffbfdc78b84e",
+  "attested_sha256": "924af626677f93c70a3b956ad4244fee2b059e531f5a894e459e0842bd8c3f28",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

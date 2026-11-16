@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 308,
+  "triangles": 544,
+  "bytes": 134200,
+  "source_bytes": 29344,
+  "id": "vintage-windup-camper--steel",
+  "original_sha256": "6576f9bee97a1cc2c2072932447f177e7e1173bb30028ae028625004a9e8c985",
+  "source_sha256": "3a1884ed5f33841857490763bbde728c2a5fe59208fb1c3165c1852080bd66bd",
+  "attested_sha256": "da9398381ef3dc2b5ab72225c1b0f1169819561d63717a8b9d8f35f629a38d61",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

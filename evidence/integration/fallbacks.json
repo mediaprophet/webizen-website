@@ -1,0 +1,41 @@
+{
+  "reduced": {
+    "scene": {
+      "assets": [
+        {
+          "id": "canopy",
+          "parts": 27,
+          "triangles": 23104,
+          "geometry_origin": "Synth DXF export; indexed without geometry replacement"
+        },
+        {
+          "id": "memory-frond",
+          "parts": 22,
+          "triangles": 14008,
+          "geometry_origin": "Synth DXF export; indexed without geometry replacement"
+        },
+        {
+          "id": "tidal-vessel",
+          "parts": 5,
+          "triangles": 29568,
+          "geometry_origin": "Synth DXF export; indexed without geometry replacement"
+        }
+      ],
+      "drawCalls": 35,
+      "triangles": 54274,
+      "presentation": "Three.js; native Synth-produced meshes",
+      "motion": false,
+      "measuring": false
+    },
+    "motionButton": "Pause movement",
+    "motionPressed": "false",
+    "width": 390,
+    "scroll": 522
+  },
+  "fallback": {
+    "caption": "Error creating WebGL context.. Instruments remain available.",
+    "reading": true,
+    "instruments": 4,
+    "assertions": "317 passed · 0 failed · 0 skipped · completed"
+  }
+}

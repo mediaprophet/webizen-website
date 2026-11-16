@@ -1,0 +1,123 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 882222,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca.hmc",
+    "sha256": "5585ce7b13c9d6d87e0c3339130c574c9159b2871c21c7c6576b54557cacf1b9"
+  },
+  "inputs": [
+    {
+      "bytes": 106924,
+      "key": "geometry.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\inputs\\grass-mid.obj",
+      "sha256": "b10182359a19cba4eb53e67702e6a24a4b12501cd572fc72299ae602fe936f2c"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499994556,
+    "effective_host_bytes": 268261248,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2096316,
+    "source_bytes": 1361,
+    "source_reservation_bytes": 174208,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 5444,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 726,
+      "key": "bsdf.json",
+      "kind": "json",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\bsdf.json",
+      "sha256": "608b345e7a2a2000afe6d85160a5791789f55e9bd967aeba0910c2464faff109"
+    },
+    {
+      "bytes": 42157,
+      "key": "colour.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\colour.png",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+    },
+    {
+      "bytes": 223904,
+      "key": "grass-mid.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\grass-mid.10d",
+      "sha256": "bd47e8305d97569c34fc7caa762c647c9bcd7ba83de0478128548c49c6440528"
+    },
+    {
+      "bytes": 17703,
+      "key": "normal.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\normal.png",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+    },
+    {
+      "bytes": 16285,
+      "key": "orm.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\orm.png",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+    },
+    {
+      "bytes": 17703,
+      "key": "textures/sha256/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\textures\\sha256\\002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+      "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789"
+    },
+    {
+      "bytes": 16285,
+      "key": "textures/sha256/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\textures\\sha256\\10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+      "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5"
+    },
+    {
+      "bytes": 42157,
+      "key": "textures/sha256/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "kind": "image/png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\textures\\sha256\\fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+      "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e"
+    },
+    {
+      "bytes": 394789,
+      "key": "uv.svg",
+      "kind": "svg",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\grass-mid-surface-6c448ed364ca\\uv.svg",
+      "sha256": "771fcda8e04a0c21871554cbe5e396dc44b04523d1227ab89522b35e8c61a983"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "d323d6fcf7365a135eaaf7766249c4a24dca94b08bd4c1bdadf9bd20e01cfc18",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

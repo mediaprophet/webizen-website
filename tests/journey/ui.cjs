@@ -1,0 +1,22 @@
+const {chromium}=require('C:/Users/Hp/AppData/Local/npm-cache/_npx/9833c18b2d85bc59/node_modules/playwright-core');
+const fs=require('node:fs'),path=require('node:path');
+const root='C:/github/synth/production/webizen-swarm';
+(async()=>{
+ const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});
+ const report={errors:[],stage_preview:true};page.on('pageerror',e=>report.errors.push(e.message));
+ await page.route('http://127.0.0.1:8800/journey/**',route=>{const asset=route.request().url().endsWith('.css')?'journey.css':'index.html';return route.fulfill({status:200,contentType:asset.endsWith('.css')?'text/css':'text/html',body:fs.readFileSync(path.join(root,'site/journey',asset))})});
+ await page.route('http://127.0.0.1:8800/lab/lab.css',route=>route.fulfill({status:200,contentType:'text/css',body:fs.readFileSync(root+'/site/lab/lab.css')}));
+ await page.goto('http://127.0.0.1:8800/journey/');
+ report.chapters=await page.locator('article.chapter').count();
+ report.links=await page.locator('.chapter-copy a').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('href')));
+ report.language=await page.locator('html').getAttribute('lang');
+ await page.screenshot({path:root+'/tests/journey/desktop.png',fullPage:true});
+ await page.keyboard.press('Tab');report.first_focus=await page.evaluate(()=>document.activeElement.textContent);
+ await page.keyboard.press('Enter');report.skip_target=await page.evaluate(()=>location.hash);
+ await page.setViewportSize({width:390,height:844});await page.goto('http://127.0.0.1:8800/journey/');
+ report.mobile=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));
+ await page.screenshot({path:root+'/tests/journey/mobile.png',fullPage:true});
+ if(report.chapters!==7||report.mobile.width!==report.mobile.scroll||report.errors.length||report.skip_target!=='#chapters')throw Error(JSON.stringify(report));
+ fs.writeFileSync(root+'/tests/journey/ui-results.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));await browser.close();
+})().catch(e=>{console.error(e);process.exitCode=1});

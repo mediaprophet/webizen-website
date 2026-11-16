@@ -1,0 +1,900 @@
+{
+  "receipt": {
+    "asset_bytes": 96072464,
+    "assets": [
+      {
+        "id": "terrain--high-ridge",
+        "sha256": "1636f76c4082551bf172c8e5f6f403e15f12328d6df6f63710e49c477f0822d1"
+      },
+      {
+        "id": "terrain--upland",
+        "sha256": "24805672c39fdbe8fbe6449731218959a3debaf2768cbbec14e3a94c90471461"
+      },
+      {
+        "id": "terrain--grassland",
+        "sha256": "6262db0ab679a07a9d7d6a4becd232f13567e0ea13d3adcabe505508f9339723"
+      },
+      {
+        "id": "terrain--river-bank",
+        "sha256": "c07a217c7c5dc9cdda3c315935f18527d7da62c57b19e2c166ef636a040cbe9c"
+      },
+      {
+        "id": "car-passat-b7--gold",
+        "sha256": "867940c9ca9ed32cf7161757d34807ba1d91f45714f95817702e38f84a8964d7"
+      },
+      {
+        "id": "car-passat-b7--glass",
+        "sha256": "6e8db07d9364b72bcfa3db507e55d1e30198e23fd6d4ed24ea4b326616f68046"
+      },
+      {
+        "id": "car-passat-b7--chrome",
+        "sha256": "499456a6fc89bfead47337c0ebca31d3cdb91f0d46bfca33997af9ff8e353a26"
+      },
+      {
+        "id": "car-passat-b7--trim",
+        "sha256": "57afc4e963e7b0008df4534176295f21b2f98a48edf84e815a83b044d4a6788e"
+      },
+      {
+        "id": "car-passat-b7--rubber",
+        "sha256": "39aa9e607f33bb998a97e08982541c0f1be6aebaab0e54ccd9378779e6e22e79"
+      },
+      {
+        "id": "car-passat-b7--brake",
+        "sha256": "468c85dcfa9d5fe0638a5345adaf0c66d419bd790ef5ddb1e1b2fe81882c0219"
+      },
+      {
+        "id": "car-passat-b7--alloy",
+        "sha256": "716d3e0fd9f1fbc939dcaa6bf20b845335f3976e3ec05614842adab133ece362"
+      },
+      {
+        "id": "car-passat-b7--red",
+        "sha256": "392c21aa786bf0e4ccb977e01de453d8eaa92da3b6da0c8c58d4bd5ea5993a40"
+      },
+      {
+        "id": "car-passat-b7--lamp",
+        "sha256": "fbf113ca06776e709d2961aeba2ec539607dc2e277233bb3c72addbf11f8af0a"
+      },
+      {
+        "id": "car-passat-b7--plate",
+        "sha256": "484b0f864ff73891da1c6d76bfa2affdb37559c121d294a2e7188de341f730a9"
+      },
+      {
+        "id": "car-passat-b7--lamp-interior",
+        "sha256": "924af626677f93c70a3b956ad4244fee2b059e531f5a894e459e0842bd8c3f28"
+      },
+      {
+        "id": "car-passat-b7--projector",
+        "sha256": "b325e1e9c31362fc83a23ba1da34143d9813274aaf4fe24c9abd8f21b8b805e3"
+      },
+      {
+        "id": "car-passat-b7--roofbox-base",
+        "sha256": "2160425a2a8d576e1c1220386c08744f97e6b2bb378d404c880f67009cfd45c7"
+      },
+      {
+        "id": "car-passat-b7--roofbox",
+        "sha256": "7817e6c448f95a8ccc14b688cc670a903d502245339272b0a131c063232e104e"
+      },
+      {
+        "id": "vintage-windup-camper--chassis",
+        "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1"
+      },
+      {
+        "id": "vintage-windup-camper--rubber",
+        "sha256": "f2a2eebfe80ac30cde111121c78748a4d6c7dd68427cc49fe0c741ffee54c2aa"
+      },
+      {
+        "id": "vintage-windup-camper--enamel",
+        "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6"
+      },
+      {
+        "id": "vintage-windup-camper--chrome",
+        "sha256": "cbc922046d41f957656ca651a839cd6a8cf9a430eb299355546a2e2213d7dde3"
+      },
+      {
+        "id": "vintage-windup-camper--ochre",
+        "sha256": "3625f95c1739c691507dc84683319a167079525781cd8982f041cdb59a140ddc"
+      },
+      {
+        "id": "vintage-windup-camper--olive",
+        "sha256": "affeb23767b3446a03e96a46e340f2c6a3034297b1ccdb8000ab4afa2d70bd9e"
+      },
+      {
+        "id": "vintage-windup-camper--roof",
+        "sha256": "9a14cd1450c2c7815b97daed34aa39873f40f5f4c97b23baee2bc71a9ceb4030"
+      },
+      {
+        "id": "vintage-windup-camper--canvas",
+        "sha256": "781f017544478d1e45124e51ed65e9422642b2846acc485a49890fd11bf11be6"
+      },
+      {
+        "id": "vintage-windup-camper--screen",
+        "sha256": "cea5b36c22bb44337fe149e5d1de4093abacca53ca8a93c80fb55e7b056b7b0a"
+      },
+      {
+        "id": "vintage-windup-camper--canvas-seam",
+        "sha256": "32eb6339e6504c73a98aec6e7fe039caf899854a4b32299304a0cd20cc8bf829"
+      },
+      {
+        "id": "vintage-windup-camper--screen-wire",
+        "sha256": "5ed1cb96d4466dc91a2922a2615b8d31e8c35b03f223e9b28c5fc53ab65eec22"
+      },
+      {
+        "id": "vintage-windup-camper--step",
+        "sha256": "caa23bb8212b2707698d6eddc807adee4154c0a93b89249faede6ed51d4be671"
+      },
+      {
+        "id": "vintage-windup-camper--steel",
+        "sha256": "da9398381ef3dc2b5ab72225c1b0f1169819561d63717a8b9d8f35f629a38d61"
+      },
+      {
+        "id": "vintage-windup-camper--canvas-roof",
+        "sha256": "b8658fdabe94f8d22c79a4311e1207b225bb82273a33935620a85670a27bd855"
+      },
+      {
+        "id": "vintage-windup-camper--red-lens",
+        "sha256": "c47bada4f39c36eaba504dabaa4fea48e0c9b5a502a77a4a98188cea0d5c7171"
+      },
+      {
+        "id": "vintage-windup-camper--amber-lens",
+        "sha256": "441e051c7ddd32599078139bf6b51b33e615a1c1fd0165e1cb58000336b75b8a"
+      },
+      {
+        "id": "solar-array-three--backing",
+        "sha256": "a742aa791829d94a649ef842e55d04c5cecf9be46f9f4935efaa1ceb7fbdadd7"
+      },
+      {
+        "id": "solar-array-three--panel",
+        "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994"
+      },
+      {
+        "id": "solar-array-three--aluminium",
+        "sha256": "55fa97a577e3aab5f5dd913ba8c034122b2097ced012ea4467d5781a2bd10060"
+      },
+      {
+        "id": "solar-array-three--cell-line",
+        "sha256": "5135fafe7bcb3cd56fedc352e4b771ad7b33d448e98e1b2fa39c4bcf0964f054"
+      },
+      {
+        "id": "solar-array-three--rubber",
+        "sha256": "028a155587fbe10bfcefedd1e5acf13c0a77529e4e9e220411c32f76a0c85f96"
+      },
+      {
+        "id": "solar-array-two--backing",
+        "sha256": "12e59dc647ff0c80033b5463a555ce8d93a9de55858a37d95387ae4faa00bc54"
+      },
+      {
+        "id": "solar-array-two--panel",
+        "sha256": "db70b240653101707fde16c2535821dbdc15fa6caf437f7663b1034dadb38ad5"
+      },
+      {
+        "id": "solar-array-two--aluminium",
+        "sha256": "b24d54169993b011271508f894b521874e11ff98977f89f4b569aa19da08b90e"
+      },
+      {
+        "id": "solar-array-two--cell-line",
+        "sha256": "74caee3cd6fae95fd7a116c24d5c8fe11af13437d32b4817b97a3f142a6ea3f7"
+      },
+      {
+        "id": "solar-array-two--rubber",
+        "sha256": "8171886a63020b2ea8054a001bc4a8c17ede26037347652d596c20be78b4a942"
+      },
+      {
+        "id": "starlink-mini--dish-back",
+        "sha256": "a6f2be1d35e7aab38851c277cfc480efc7f4489411285b954e4d01125e3b61a8"
+      },
+      {
+        "id": "starlink-mini--dish-front",
+        "sha256": "596be4ffd10787d159d8981ae89668c7990742c59cc8d0e2655cdfcb81a9e8b3"
+      },
+      {
+        "id": "starlink-mini--backing",
+        "sha256": "1f873f6ca8e525de67a6b9367b6c3f1f4a4355b74372d60fa4f4b8e673c65c27"
+      },
+      {
+        "id": "starlink-mini--mount",
+        "sha256": "efc81d775f815e1d86db8d71b30f5fddc7f47bb1e897f9d4e789b0bfdb4d5447"
+      },
+      {
+        "id": "starlink-mini--rubber",
+        "sha256": "8e13f79fd88433ba93b775b9df34f38c0e295434cb2c6c4014110c856d9bb84d"
+      },
+      {
+        "id": "starlink-mini--aluminium",
+        "sha256": "8d7c00889d522216745725f808f9c905e151a5827ecc230ea1405c93fe412ebe"
+      },
+      {
+        "id": "eucalyptus--pale-bark",
+        "sha256": "01c12457869ec836aba17339f1cfe9ea29cb34381cc7b5d182e4fb07efb7f928"
+      },
+      {
+        "id": "eucalyptus--old-bark",
+        "sha256": "3d7519652169342e9c177b3a03f9e820e0437ca090aa93100a937d245c090bfb"
+      },
+      {
+        "id": "eucalyptus--warm-bark",
+        "sha256": "a38eaf612888a87919f3ee9101ea84fe32727b9e5537b80ea6d3d9ec46df4f13"
+      },
+      {
+        "id": "eucalyptus--twig",
+        "sha256": "c1af532ed17f8d0091e11e3ed026a2c9a2ee904ae0d486e1c8b99c57e1280029"
+      },
+      {
+        "id": "eucalyptus--leaf-olive",
+        "sha256": "d843e2366a79eaa92541f16296e5556a15cc3ab3f5e8c1aae031ee90bcff2d43"
+      },
+      {
+        "id": "eucalyptus--leaf-blue",
+        "sha256": "8ccff1fb88b6f495a7f0ca71bcb93559efba1080fcde6f41cdfbee41da8f933b"
+      },
+      {
+        "id": "eucalyptus--leaf-young",
+        "sha256": "98b7d3cc046e7795df45f1a4f271d8db1f4948bc4213f4891c83ce023701c8e2"
+      },
+      {
+        "id": "eucalyptus-far--pale-bark",
+        "sha256": "ec1dd0456b01df49b6b52841d4617ebd03051ce00b9c7c63d98b65070e5df53a"
+      },
+      {
+        "id": "eucalyptus-far--old-bark",
+        "sha256": "16fb770d557b50fdb76295b77c564e56cd3296085a4f239a0f3e36031c8f1580"
+      },
+      {
+        "id": "eucalyptus-far--warm-bark",
+        "sha256": "9a899c9c1aa95ed3da15e46c243b7491527dce100f187f80cd35dde852c68482"
+      },
+      {
+        "id": "eucalyptus-far--twig",
+        "sha256": "94b5430da2306f4d20bc566c2ab524c6c698b9b16f214289fe7ad6430e5f6281"
+      },
+      {
+        "id": "eucalyptus-far--leaf-olive",
+        "sha256": "1c246979f5e410694ce7a3858bf1b43672033e16f67d68dcf72275cdbe4701fa"
+      },
+      {
+        "id": "eucalyptus-far--leaf-blue",
+        "sha256": "32202a798fb1f927cad34e09ed35fedbbc0e2cdb3e306486b965fad612fd97c5"
+      },
+      {
+        "id": "eucalyptus-far--leaf-young",
+        "sha256": "4e886dfac2b7241404cee33a0c87a65c5122a78ed2026a4ad5d3e45c87923546"
+      },
+      {
+        "id": "canopy--limestone",
+        "sha256": "ad5d1ac24d71add9373540a41960e1c1126e44bbb3ceff3b83dcb3cd56319188"
+      },
+      {
+        "id": "canopy--timber",
+        "sha256": "d63a0fc859720de902e35592da7676e430d78542aa52c8e1f807c290687a40a2"
+      },
+      {
+        "id": "canopy--bronze",
+        "sha256": "97422e8b70694ac7b0f9c23097ac000117c90827325925db94a77da8e553586d"
+      },
+      {
+        "id": "tidal-vessel--limestone",
+        "sha256": "78cf11cc7b75aff9555bb363db971aee4acb590721cc9b3859580c68dcfe3480"
+      },
+      {
+        "id": "tidal-vessel--verdigris",
+        "sha256": "6addef4bceb9c75699ba7471c376ec178838204a20ad7f0fecac6cfb4e0e4bda"
+      },
+      {
+        "id": "tidal-vessel--bronze",
+        "sha256": "78afe807825237b32229beebeca95f17199fca963a46ffe6a3bb77f510aeb7fb"
+      },
+      {
+        "id": "memory-frond--limestone",
+        "sha256": "04d839d4c89ae698436266c588e52a1e2d1a77604ebeff2ac3430c6533ddd475"
+      },
+      {
+        "id": "memory-frond--bronze",
+        "sha256": "7104f41967108a4538427a86a30c3bc13c1647356d94607ee3ed6e7d59150458"
+      },
+      {
+        "id": "memory-frond--leaf",
+        "sha256": "9b8080cbf57eb26d8184fb967fd346031518ed3b4514d84771094fdebcdfec0a"
+      },
+      {
+        "id": "footbridge--bridge-heartwood",
+        "sha256": "c6599a1a80e933b53ce69c9f05d99317b6049fff0242b51590f2578bfdbb59a9"
+      },
+      {
+        "id": "footbridge--bridge-timber",
+        "sha256": "53b7ceb4128c3e680eb51046fb92ffe4c11e6f5b06dbd9fc0e76fb6e1920b34e"
+      },
+      {
+        "id": "footbridge--patinated-bronze",
+        "sha256": "5eeca81394164d0021b26cbca19612d99450d7aebe7ce47d7d7737a5bc25bca2"
+      },
+      {
+        "id": "footbridge--pale-limestone",
+        "sha256": "cef3713993dbe144b47ad7e3928c78080d709344d7ac13753551c299a47980ed"
+      },
+      {
+        "id": "observatory--pale-limestone",
+        "sha256": "b4c7b8d2b04d932b20d4eca282c373a4d5053f1e821e188184d32bbfc65cb505"
+      },
+      {
+        "id": "observatory--patinated-bronze",
+        "sha256": "dfbd0f55ad8f2833f88be7dc689f65c3962afd017f6fb07acf436f1fc46510df"
+      },
+      {
+        "id": "observatory--shadow-metal",
+        "sha256": "49392c92c95eb7e91960571f1f14e56f6a8ba5c041fe6fae6f7bae3139256edc"
+      },
+      {
+        "id": "observatory--receiver-ceramic",
+        "sha256": "36ffd5c9637fc73dc7edc31594b1a3d088e1798587d1f8a9e7723dd8cdd32016"
+      },
+      {
+        "id": "biology--pale-limestone",
+        "sha256": "92633b093eaed90b76dea41410892df488a7c13232868ea0aa0523d1c1a047c7"
+      },
+      {
+        "id": "biology--helix-teal",
+        "sha256": "2e0db72e8f83bc4711722fc95799588d6be3c21c0676a2cb0520fc0f3c1e74d5"
+      },
+      {
+        "id": "biology--shadow-metal",
+        "sha256": "65de3b882e409896874ea426267cd5fbed071c10a4bef5b64506099987d0b98e"
+      },
+      {
+        "id": "biology--helix-gold",
+        "sha256": "b215990b8099111199130ddc00e5f99375e40db2ef7ddcd4f902066a2351a010"
+      }
+    ],
+    "authority": "anonymous-public",
+    "camera": {
+      "pitch": 0.17558225989341736,
+      "target": [
+        -22,
+        5.490921497344971,
+        28
+      ],
+      "yaw": 0.6327488422393799,
+      "zoom": 18.89153289794922
+    },
+    "controller": "Rust/WASM",
+    "default_language": "en-AU",
+    "frames": 2,
+    "framing_viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "graphics_initialisation": {
+      "canvas_height": 1000,
+      "canvas_width": 1440,
+      "duration_ms": 1121.25,
+      "requested": "webgpu",
+      "schema": "webizen.native-graphics-init/v1",
+      "selected_backend": "webgpu",
+      "state": "ready"
+    },
+    "path": [
+      "river",
+      "canopy",
+      "observatory",
+      "field-studio",
+      "biology",
+      "atelier",
+      "commons"
+    ],
+    "presentation_settings": {
+      "camera": {
+        "pitch": 0.17555,
+        "target": [
+          -22,
+          5.490921689,
+          28
+        ],
+        "yaw": 0.63275,
+        "zoom": 18.8915
+      },
+      "default_locale": "en-AU",
+      "environment_fallback": [
+        0,
+        0,
+        0
+      ],
+      "exposure_ev": 0.35,
+      "marker_alpha": 1,
+      "marker_height": 3,
+      "marker_sigma": 0.42,
+      "markers_visible": false,
+      "max_dpr": 1.5,
+      "sky_preset": 1,
+      "sun": [
+        -0.5,
+        0.8,
+        0.35,
+        2.2,
+        0.45
+      ],
+      "water": {
+        "amplitude": 0.035,
+        "colour": [
+          0.055,
+          0.24,
+          0.25,
+          0.88
+        ],
+        "frequency": 1.4,
+        "quality": 1
+      }
+    },
+    "purpose": "learn",
+    "q42_reader": "WasmSliceQ42Reader",
+    "q42_rows": 215,
+    "q42_sha256": "95adcf4cf2be58dfb00cddd40ec4f038ac11028077feed982c3e2d75837fdab2",
+    "renderer": "webgpu",
+    "scene": {
+      "frames_presented": 2,
+      "index_count": 1793562,
+      "renderer": "webgpu",
+      "success": true,
+      "uploaded": true,
+      "vertex_count": 433225
+    },
+    "schema": "webizen.native-world-receipt/v1",
+    "selected_place": "field-studio",
+    "upload": {
+      "assets_loaded": 85,
+      "assets_refused": 0,
+      "material_pipeline": true,
+      "material_ranges": 993,
+      "materials_loaded": 62,
+      "organs_loaded": 85,
+      "organs_refused": 0,
+      "parts": [
+        {
+          "id": "terrain--high-ridge",
+          "vertex_count": 25921,
+          "vertex_start": 0
+        },
+        {
+          "id": "terrain--upland",
+          "vertex_count": 25921,
+          "vertex_start": 25921
+        },
+        {
+          "id": "terrain--grassland",
+          "vertex_count": 25921,
+          "vertex_start": 51842
+        },
+        {
+          "id": "terrain--river-bank",
+          "vertex_count": 25921,
+          "vertex_start": 77763
+        },
+        {
+          "id": "car-passat-b7--gold",
+          "vertex_count": 5069,
+          "vertex_start": 103684
+        },
+        {
+          "id": "car-passat-b7--glass",
+          "vertex_count": 1244,
+          "vertex_start": 108753
+        },
+        {
+          "id": "car-passat-b7--chrome",
+          "vertex_count": 6462,
+          "vertex_start": 109997
+        },
+        {
+          "id": "car-passat-b7--trim",
+          "vertex_count": 6704,
+          "vertex_start": 116459
+        },
+        {
+          "id": "car-passat-b7--rubber",
+          "vertex_count": 2824,
+          "vertex_start": 123163
+        },
+        {
+          "id": "car-passat-b7--brake",
+          "vertex_count": 520,
+          "vertex_start": 125987
+        },
+        {
+          "id": "car-passat-b7--alloy",
+          "vertex_count": 5380,
+          "vertex_start": 126507
+        },
+        {
+          "id": "car-passat-b7--red",
+          "vertex_count": 1160,
+          "vertex_start": 131887
+        },
+        {
+          "id": "car-passat-b7--lamp",
+          "vertex_count": 1290,
+          "vertex_start": 133047
+        },
+        {
+          "id": "car-passat-b7--plate",
+          "vertex_count": 590,
+          "vertex_start": 134337
+        },
+        {
+          "id": "car-passat-b7--lamp-interior",
+          "vertex_count": 2320,
+          "vertex_start": 134927
+        },
+        {
+          "id": "car-passat-b7--projector",
+          "vertex_count": 1128,
+          "vertex_start": 137247
+        },
+        {
+          "id": "car-passat-b7--roofbox-base",
+          "vertex_count": 524,
+          "vertex_start": 138375
+        },
+        {
+          "id": "car-passat-b7--roofbox",
+          "vertex_count": 172,
+          "vertex_start": 138899
+        },
+        {
+          "id": "vintage-windup-camper--chassis",
+          "vertex_count": 180,
+          "vertex_start": 139071
+        },
+        {
+          "id": "vintage-windup-camper--rubber",
+          "vertex_count": 2344,
+          "vertex_start": 139251
+        },
+        {
+          "id": "vintage-windup-camper--enamel",
+          "vertex_count": 808,
+          "vertex_start": 141595
+        },
+        {
+          "id": "vintage-windup-camper--chrome",
+          "vertex_count": 408,
+          "vertex_start": 142403
+        },
+        {
+          "id": "vintage-windup-camper--ochre",
+          "vertex_count": 40,
+          "vertex_start": 142811
+        },
+        {
+          "id": "vintage-windup-camper--olive",
+          "vertex_count": 362,
+          "vertex_start": 142851
+        },
+        {
+          "id": "vintage-windup-camper--roof",
+          "vertex_count": 74,
+          "vertex_start": 143213
+        },
+        {
+          "id": "vintage-windup-camper--canvas",
+          "vertex_count": 10,
+          "vertex_start": 143287
+        },
+        {
+          "id": "vintage-windup-camper--screen",
+          "vertex_count": 118,
+          "vertex_start": 143297
+        },
+        {
+          "id": "vintage-windup-camper--canvas-seam",
+          "vertex_count": 576,
+          "vertex_start": 143415
+        },
+        {
+          "id": "vintage-windup-camper--screen-wire",
+          "vertex_count": 308,
+          "vertex_start": 143991
+        },
+        {
+          "id": "vintage-windup-camper--step",
+          "vertex_count": 10,
+          "vertex_start": 144299
+        },
+        {
+          "id": "vintage-windup-camper--steel",
+          "vertex_count": 308,
+          "vertex_start": 144309
+        },
+        {
+          "id": "vintage-windup-camper--canvas-roof",
+          "vertex_count": 28,
+          "vertex_start": 144617
+        },
+        {
+          "id": "vintage-windup-camper--red-lens",
+          "vertex_count": 20,
+          "vertex_start": 144645
+        },
+        {
+          "id": "vintage-windup-camper--amber-lens",
+          "vertex_count": 20,
+          "vertex_start": 144665
+        },
+        {
+          "id": "solar-array-three--backing",
+          "vertex_count": 60,
+          "vertex_start": 144685
+        },
+        {
+          "id": "solar-array-three--panel",
+          "vertex_count": 60,
+          "vertex_start": 144745
+        },
+        {
+          "id": "solar-array-three--aluminium",
+          "vertex_count": 708,
+          "vertex_start": 144805
+        },
+        {
+          "id": "solar-array-three--cell-line",
+          "vertex_count": 840,
+          "vertex_start": 145513
+        },
+        {
+          "id": "solar-array-three--rubber",
+          "vertex_count": 644,
+          "vertex_start": 146353
+        },
+        {
+          "id": "solar-array-two--backing",
+          "vertex_count": 20,
+          "vertex_start": 146997
+        },
+        {
+          "id": "solar-array-two--panel",
+          "vertex_count": 20,
+          "vertex_start": 147017
+        },
+        {
+          "id": "solar-array-two--aluminium",
+          "vertex_count": 236,
+          "vertex_start": 147037
+        },
+        {
+          "id": "solar-array-two--cell-line",
+          "vertex_count": 280,
+          "vertex_start": 147273
+        },
+        {
+          "id": "solar-array-two--rubber",
+          "vertex_count": 240,
+          "vertex_start": 147553
+        },
+        {
+          "id": "starlink-mini--dish-back",
+          "vertex_count": 138,
+          "vertex_start": 147793
+        },
+        {
+          "id": "starlink-mini--dish-front",
+          "vertex_count": 66,
+          "vertex_start": 147931
+        },
+        {
+          "id": "starlink-mini--backing",
+          "vertex_count": 10,
+          "vertex_start": 147997
+        },
+        {
+          "id": "starlink-mini--mount",
+          "vertex_count": 48,
+          "vertex_start": 148007
+        },
+        {
+          "id": "starlink-mini--rubber",
+          "vertex_count": 78,
+          "vertex_start": 148055
+        },
+        {
+          "id": "starlink-mini--aluminium",
+          "vertex_count": 72,
+          "vertex_start": 148133
+        },
+        {
+          "id": "eucalyptus--pale-bark",
+          "vertex_count": 13836,
+          "vertex_start": 148205
+        },
+        {
+          "id": "eucalyptus--old-bark",
+          "vertex_count": 3174,
+          "vertex_start": 162041
+        },
+        {
+          "id": "eucalyptus--warm-bark",
+          "vertex_count": 1794,
+          "vertex_start": 165215
+        },
+        {
+          "id": "eucalyptus--twig",
+          "vertex_count": 21420,
+          "vertex_start": 167009
+        },
+        {
+          "id": "eucalyptus--leaf-olive",
+          "vertex_count": 42330,
+          "vertex_start": 188429
+        },
+        {
+          "id": "eucalyptus--leaf-blue",
+          "vertex_count": 30792,
+          "vertex_start": 230759
+        },
+        {
+          "id": "eucalyptus--leaf-young",
+          "vertex_count": 31884,
+          "vertex_start": 261551
+        },
+        {
+          "id": "eucalyptus-far--pale-bark",
+          "vertex_count": 6408,
+          "vertex_start": 293435
+        },
+        {
+          "id": "eucalyptus-far--old-bark",
+          "vertex_count": 1548,
+          "vertex_start": 299843
+        },
+        {
+          "id": "eucalyptus-far--warm-bark",
+          "vertex_count": 768,
+          "vertex_start": 301391
+        },
+        {
+          "id": "eucalyptus-far--twig",
+          "vertex_count": 10872,
+          "vertex_start": 302159
+        },
+        {
+          "id": "eucalyptus-far--leaf-olive",
+          "vertex_count": 23388,
+          "vertex_start": 313031
+        },
+        {
+          "id": "eucalyptus-far--leaf-blue",
+          "vertex_count": 17052,
+          "vertex_start": 336419
+        },
+        {
+          "id": "eucalyptus-far--leaf-young",
+          "vertex_count": 17508,
+          "vertex_start": 353471
+        },
+        {
+          "id": "canopy--limestone",
+          "vertex_count": 1024,
+          "vertex_start": 370979
+        },
+        {
+          "id": "canopy--timber",
+          "vertex_count": 7632,
+          "vertex_start": 372003
+        },
+        {
+          "id": "canopy--bronze",
+          "vertex_count": 3092,
+          "vertex_start": 379635
+        },
+        {
+          "id": "tidal-vessel--limestone",
+          "vertex_count": 896,
+          "vertex_start": 382727
+        },
+        {
+          "id": "tidal-vessel--verdigris",
+          "vertex_count": 9504,
+          "vertex_start": 383623
+        },
+        {
+          "id": "tidal-vessel--bronze",
+          "vertex_count": 4638,
+          "vertex_start": 393127
+        },
+        {
+          "id": "memory-frond--limestone",
+          "vertex_count": 640,
+          "vertex_start": 397765
+        },
+        {
+          "id": "memory-frond--bronze",
+          "vertex_count": 494,
+          "vertex_start": 398405
+        },
+        {
+          "id": "memory-frond--leaf",
+          "vertex_count": 6040,
+          "vertex_start": 398899
+        },
+        {
+          "id": "footbridge--bridge-heartwood",
+          "vertex_count": 624,
+          "vertex_start": 404939
+        },
+        {
+          "id": "footbridge--bridge-timber",
+          "vertex_count": 1532,
+          "vertex_start": 405563
+        },
+        {
+          "id": "footbridge--patinated-bronze",
+          "vertex_count": 2428,
+          "vertex_start": 407095
+        },
+        {
+          "id": "footbridge--pale-limestone",
+          "vertex_count": 40,
+          "vertex_start": 409523
+        },
+        {
+          "id": "observatory--pale-limestone",
+          "vertex_count": 768,
+          "vertex_start": 409563
+        },
+        {
+          "id": "observatory--patinated-bronze",
+          "vertex_count": 6062,
+          "vertex_start": 410331
+        },
+        {
+          "id": "observatory--shadow-metal",
+          "vertex_count": 2768,
+          "vertex_start": 416393
+        },
+        {
+          "id": "observatory--receiver-ceramic",
+          "vertex_count": 7920,
+          "vertex_start": 419161
+        },
+        {
+          "id": "biology--pale-limestone",
+          "vertex_count": 768,
+          "vertex_start": 427081
+        },
+        {
+          "id": "biology--helix-teal",
+          "vertex_count": 2666,
+          "vertex_start": 427849
+        },
+        {
+          "id": "biology--shadow-metal",
+          "vertex_count": 44,
+          "vertex_start": 430515
+        },
+        {
+          "id": "biology--helix-gold",
+          "vertex_count": 2666,
+          "vertex_start": 430559
+        }
+      ],
+      "renderer": "webgpu",
+      "semantic_nodes": 0,
+      "total_triangles": 597854,
+      "uploaded": true,
+      "vertex_count": 433225
+    },
+    "vibe_evaluator": "PoetSnapshot::eval_fn",
+    "vibe_sha256": "af3a76743edbb63c721c70e6b5bdc1590e8d75b8b00d9c028c25649af5914c74"
+  },
+  "status": "Explore the world. Your chosen path changes the presentation, never your rights.",
+  "language": "en-AU",
+  "body": "Skip to world controls\nW.\nwebizen\nHUMAN CENTRIC COMPUTING\nRead the world\nThe ecosystem\nTests & benchmarks\nThe journey\nEnglish · AU\nA world we share\nChoose a path\nUnderstand the ecosystem\nExplore the evidence\nMake something\nTake part\nThe living river\nThe forest canopy\nThe field station\nThe field studio\nThe living body\nThe atelier\nThe commons\nThe field studio\nAbout this place\nRead about this place\n+\n-\n Reduce motion\nLandscape chapters\nExplore the world. Your chosen path changes the presentation, never your rights.",
+  "canvas": {
+    "width": 1440,
+    "height": 1000
+  },
+  "route": "/native.html",
+  "mobile": false,
+  "scripts": [
+    "http://127.0.0.1:8800/pkg/native-world/webizen_world.js"
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "failed": []
+}

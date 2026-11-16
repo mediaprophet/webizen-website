@@ -1,0 +1,88 @@
+{
+  "receipt": {
+    "asset_bytes": 57976,
+    "assets": [
+      {
+        "id": "solar-array-three--panel",
+        "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994"
+      }
+    ],
+    "authority": "anonymous-public",
+    "camera": {
+      "pitch": 0.17558225989341736,
+      "target": [
+        -22,
+        5.490921497344971,
+        28
+      ],
+      "yaw": 0.6327488422393799,
+      "zoom": 18.89153289794922
+    },
+    "controller": "Rust/WASM",
+    "default_language": "en-AU",
+    "frames": 2,
+    "path": [
+      "river",
+      "canopy",
+      "observatory",
+      "field-studio",
+      "biology",
+      "atelier",
+      "commons"
+    ],
+    "purpose": "learn",
+    "q42_reader": "WasmSliceQ42Reader",
+    "q42_rows": 215,
+    "q42_sha256": "95adcf4cf2be58dfb00cddd40ec4f038ac11028077feed982c3e2d75837fdab2",
+    "renderer": "webgpu",
+    "scene": {
+      "frames_presented": 2,
+      "index_count": 288,
+      "renderer": "webgpu",
+      "success": true,
+      "uploaded": true,
+      "vertex_count": 60
+    },
+    "schema": "webizen.native-world-receipt/v1",
+    "selected_place": "field-studio",
+    "upload": {
+      "assets_loaded": 1,
+      "assets_refused": 0,
+      "material_pipeline": true,
+      "material_ranges": 6,
+      "materials_loaded": 62,
+      "organs_loaded": 1,
+      "organs_refused": 0,
+      "parts": [
+        {
+          "id": "solar-array-three--panel",
+          "vertex_count": 60,
+          "vertex_start": 0
+        }
+      ],
+      "renderer": "webgpu",
+      "semantic_nodes": 0,
+      "total_triangles": 96,
+      "uploaded": true,
+      "vertex_count": 60
+    },
+    "vibe_evaluator": "PoetSnapshot::eval_fn",
+    "vibe_sha256": "6d0f3a897ca05e7c3f2281dbf73cab88f84ea9cc2b366802ed6c4f68f429ee0a"
+  },
+  "status": "Explore the world. Your chosen path changes the presentation, never your rights.",
+  "language": "en-AU",
+  "body": "Skip to world controls\nW.\nwebizen\nHUMAN CENTRIC COMPUTING\nRead the world\nThe ecosystem\nThe journey\nEnglish · AU\nA world we share\nChoose a path \nUnderstand the ecosystem\nExplore the evidence\nMake something\nTake part\nThe living river\nThe forest canopy\nThe field station\nThe field studio\nThe living body\nThe atelier\nThe commons\nThe field studio\n\nA gold 2012–13 Volkswagen Passat wagon with a streamlined charcoal roof box, a 1980 Jayco wind-up camper, two three-panel solar arrays and one two-panel array on the ground, and a Starlink Mini on the camper roof. This campsite reflects the circumstances in which this ecosystem has been developed: living, working, making and staying connected. The vehicle and camper are authored interpretations of the described models.\n\nRead about this place Reduce motion\n\nDrag to look around; use the wheel or +/ÃƒÂ¢Ã‹â€ Ã¢â‚¬â„¢ to move closer. Arrow keys change your view. Choose a place to visit it.\n\nLandscape chapters\nExplore the world. Your chosen path changes the presentation, never your rights.",
+  "canvas": {
+    "width": 1440,
+    "height": 1000
+  },
+  "route": "/native-prototype.html",
+  "mobile": false,
+  "scripts": [
+    "http://127.0.0.1:8800/pkg/native-world/webizen_world.js"
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "failed": []
+}

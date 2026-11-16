@@ -1,0 +1,8 @@
+{
+  "native_output": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-terrain\\artifacts\\terrain-1794802759683442900\\habitat-terrain.10d",
+  "native_sha256": "c018a7f5fa3293ef1ccbff446df2db83404681aaf0272100922a5efa8ffbb872",
+  "hmc": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-terrain\\artifacts\\terrain-1794802759683442900.hmc",
+  "hmc_sha256": "422f746948ac4cd52c290d99a5fede0121dd0fa5de039c0e713093e0377efe3a",
+  "dependency_policy": "Content digest lookup; native MAT1 digests, HMC dependencies and explicitly typed scene textures verified. No dependence on texture array ordering.",
+  "same_native_bytes_as_previous": false
+}

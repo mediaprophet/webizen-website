@@ -1,0 +1,118 @@
+{
+  "key": "d49e17754889ed44b4d47a6c8edf5a2114b89a064b73029e860f211f21c734d0",
+  "id": "starlink-mini--backing",
+  "native": {
+    "bytes": 31344,
+    "key": "starlink-mini--backing.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-starlink-mini--backing-1551fb0f6e02\\starlink-mini--backing.10d",
+    "sha256": "013e4d8a6843af4a8d69a3f607da8115b2a3f33fd07fb0d41cda24e7c5bd5f35",
+    "url": "/artifacts/world-starlink-mini--backing-1551fb0f6e02/starlink-mini--backing.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "439d212cfc1adea1a209fafba5458b7012845dfed3c4e9c36ffaded95473ebd5",
+    "package_sha256": "422e407095a27f3424be12c8c435499d08fe6221468aa1c13247c5f1692eaa8d",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 45569,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-starlink-mini--backing-1551fb0f6e02.hmc",
+        "sha256": "422e407095a27f3424be12c8c435499d08fe6221468aa1c13247c5f1692eaa8d"
+      },
+      "inputs": [
+        {
+          "bytes": 12936,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\starlink-mini--backing.glb",
+          "sha256": "f203783cbe37a62a6a7c14cd3fdabb551405d81a0f372679d2089dd59b0161a7"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997952,
+        "effective_host_bytes": 268369920,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2097050,
+        "source_bytes": 512,
+        "source_reservation_bytes": 65536,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2048,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 31344,
+          "key": "starlink-mini--backing.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-starlink-mini--backing-1551fb0f6e02\\starlink-mini--backing.10d",
+          "sha256": "013e4d8a6843af4a8d69a3f607da8115b2a3f33fd07fb0d41cda24e7c5bd5f35",
+          "url": "/artifacts/world-starlink-mini--backing-1551fb0f6e02/starlink-mini--backing.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "deed4e9f7450001d05596809142cd4dc96377cadcf105d7d8c81a0cb269b9531",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 31344,
+        "key": "starlink-mini--backing.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "013e4d8a6843af4a8d69a3f607da8115b2a3f33fd07fb0d41cda24e7c5bd5f35"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-starlink-mini--backing-1551fb0f6e02.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-starlink-mini--backing-1551fb0f6e02.hmc",
+    "receipt_url": "/artifacts/world-starlink-mini--backing-1551fb0f6e02.json"
+  },
+  "vertices": 10,
+  "triangles": 16,
+  "instances": 1,
+  "material": 34,
+  "url": "/production/native-world/assets/starlink-mini--backing.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "013e4d8a6843af4a8d69a3f607da8115b2a3f33fd07fb0d41cda24e7c5bd5f35",
+  "bytes": 31344,
+  "recipe": "/production/native-world/recipes/starlink-mini--backing.vibe",
+  "input_sha256": "f203783cbe37a62a6a7c14cd3fdabb551405d81a0f372679d2089dd59b0161a7"
+}

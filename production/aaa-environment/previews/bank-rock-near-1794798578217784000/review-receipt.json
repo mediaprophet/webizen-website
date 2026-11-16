@@ -1,0 +1,120 @@
+{
+  "projection": {
+    "bounds_max": [
+      1.4374058246612549,
+      0.9008499979972839,
+      0.8740397691726685
+    ],
+    "bounds_min": [
+      -1.2150664329528809,
+      -0.14309999346733093,
+      -0.9999906420707703
+    ],
+    "camera_aspect": 1.0,
+    "camera_distance": 4.813740253448486,
+    "camera_fit_margin": 1.0800000429153442,
+    "camera_target": [
+      0.11116969585418701,
+      0.3788750171661377,
+      -0.0629754364490509
+    ],
+    "colors": "absent-renderer-default",
+    "lighting": {
+      "ambient_intensity": 0.44999998807907104,
+      "clear_color": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "direct_intensity": 1.7999999523162842,
+      "environment_additive_fallback_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sun_direction": [
+        0.40824830532073975,
+        0.8164966106414795,
+        0.40824830532073975
+      ]
+    },
+    "materials": "canonical-MAT1",
+    "normals": "authored",
+    "requested_camera_distance": 4.813740253448486,
+    "screen_space_ao_available": true,
+    "screen_space_ao_radius_m": 0.05000000074505806,
+    "screen_space_ao_samples": 12,
+    "screen_space_ao_strength": 0.75,
+    "shadows_available": true,
+    "tangents": "authored",
+    "texture_coordinates": "authored-UV01",
+    "triangle_count": 2176,
+    "vertex_count": 1090,
+    "vertical_tan_half_fov": 0.4142135679721832
+  },
+  "renderer": "QualiaDB webizen-render::VolumetricRenderer / PortalGpu native offscreen path",
+  "schema": "synth.native-10d-preview/v1",
+  "scope": "native readback PNG projection; not model acceptance or an adapter capability receipt",
+  "source": {
+    "bytes": 141344,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-environment\\artifacts\\bank-rock-near-surface-e4601d0b8ac7\\bank-rock-near.10d",
+    "sha256": "84e388be79be8d0e537c3227c5eb99b155248e44c8ada60e3e83c7d00f18aecc"
+  },
+  "textures": {
+    "asset_key": "outputs/bank-rock-near.10d",
+    "hmc_sha256": "eb9b3bc261c312f441b29f3abb0853b3662abc916db359489c825d1b4220829f",
+    "requested": 3,
+    "resident": 3
+  },
+  "views": [
+    {
+      "bytes": 470122,
+      "camera_distance_applied": 4.813740253448486,
+      "camera_distance_requested": 4.813740253448486,
+      "camera_pitch": 0.2800000011920929,
+      "camera_target": [
+        0.11116969585418701,
+        0.3788750171661377,
+        -0.0629754364490509
+      ],
+      "camera_yaw": 0.7200000286102295,
+      "file": "three-quarter-view-assumed.png",
+      "height": 2048,
+      "sha256": "ff9fb8f6e1c83d3887cb4b7983f49fc005f797dbde129146946553fe9bd8355c",
+      "width": 2048
+    },
+    {
+      "bytes": 360836,
+      "camera_distance_applied": 4.813740253448486,
+      "camera_distance_requested": 4.813740253448486,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.11116969585418701,
+        0.3788750171661377,
+        -0.0629754364490509
+      ],
+      "camera_yaw": 1.5707963705062866,
+      "file": "side-view-assumed.png",
+      "height": 2048,
+      "sha256": "a4023c03d35bbb94a6ba134bc732f21a4623ee765dee6953f4b690b5ae016e43",
+      "width": 2048
+    },
+    {
+      "bytes": 466443,
+      "camera_distance_applied": 4.813740253448486,
+      "camera_distance_requested": 4.813740253448486,
+      "camera_pitch": 0.11999999731779099,
+      "camera_target": [
+        0.11116969585418701,
+        0.3788750171661377,
+        -0.0629754364490509
+      ],
+      "camera_yaw": 0.0,
+      "file": "front-view-assumed.png",
+      "height": 2048,
+      "sha256": "0a76eb89cf087a4044d37101843546b48bc8c912fcc700299bff00ff5b86b99d",
+      "width": 2048
+    }
+  ]
+}

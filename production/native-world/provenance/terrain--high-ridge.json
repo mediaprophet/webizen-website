@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 25921,
+  "triangles": 8919,
+  "bytes": 2745280,
+  "source_bytes": 430668,
+  "id": "terrain--high-ridge",
+  "original_sha256": "ac73c23e7b840507d9e932aa73f5cab4870b6b601b62c25115b15320c8652839",
+  "source_sha256": "a443f09b45c3dc259d8a2a2f6fffa359d0fe5ced5b259e6dd277a27996327038",
+  "attested_sha256": "1636f76c4082551bf172c8e5f6f403e15f12328d6df6f63710e49c477f0822d1",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

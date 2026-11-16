@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 45579,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-4ce93a422cfb.hmc",
+    "sha256": "e458a25eb57b6e5eecf08b5f9a6fa370f0b2028d0c6051ee7be2595726b94a3f"
+  },
+  "inputs": [
+    {
+      "bytes": 12936,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--canvas.glb",
+      "sha256": "4d634d2028eed0a2f4f88a7e2d8835b9951e6707c09e03c1efb28f2e77123884"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499997836,
+    "effective_host_bytes": 268366208,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097050,
+    "source_bytes": 541,
+    "source_reservation_bytes": 69248,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2164,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 31344,
+      "key": "vintage-windup-camper--canvas.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-4ce93a422cfb\\vintage-windup-camper--canvas.10d",
+      "sha256": "a10b0e3ef918c94f2c18473a18aae9fd0b39dd092dc5998086c52364ce45b153"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "47b678259b60ea5b99d559e6e721f5096ef9c3a90811e5f064e1b1cfbcb87cac",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

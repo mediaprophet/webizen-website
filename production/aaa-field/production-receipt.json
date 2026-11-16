@@ -1,0 +1,143 @@
+{
+  "antigravity_embed_hint": null,
+  "document_digest": "32e2e0e8b4b6a62d88e33fc621574f2e1b6169ee933894b73d41ccd185f3b697",
+  "package_sha256": "ed92bf38e1da9a97eda5f86db911144f6e61047c45794f429c7db20bb2e7ac3f",
+  "presentation_html": null,
+  "producer": "files",
+  "producer_version": "2",
+  "receipt": {
+    "binary": {
+      "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+      "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+      "version": "0.1.0"
+    },
+    "catalog": {
+      "count": 150,
+      "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+    },
+    "execution_host": "synth.production",
+    "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+    "hmc": {
+      "bytes": 1844682,
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20.hmc",
+      "sha256": "ed92bf38e1da9a97eda5f86db911144f6e61047c45794f429c7db20bb2e7ac3f"
+    },
+    "inputs": [],
+    "limits": {
+      "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+      "asset_work_units": 500000000,
+      "combined_logical_budget_bytes": 312475648,
+      "effective_asset_work_units": 499992552,
+      "effective_host_bytes": 268197120,
+      "evaluation_steps": 100000,
+      "evaluation_workspace_bytes": 44040192,
+      "package_bytes": 335544320,
+      "resource_bytes": 67108864,
+      "source_available_bytes": 2097152,
+      "source_bytes": 1862,
+      "source_reservation_bytes": 238336,
+      "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+      "source_work_units": 7448,
+      "standalone_wire_bytes": 4194304,
+      "total_resource_bytes": 268435456
+    },
+    "native_reviews": [],
+    "presentation_path": null,
+    "producer": {
+      "id": "files",
+      "version": "2"
+    },
+    "quality_profile": "production16",
+    "requested_reviews": [],
+    "resources": [
+      {
+        "bytes": 1775360,
+        "key": "light-field.emf",
+        "kind": "emf",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20\\light-field.emf",
+        "sha256": "bf8edb0066eae38bd0db4b58230af7a7a828743c8ab707f8726e2aac0092d89c",
+        "url": "/artifacts/light-field-8828b0f83e20/light-field.emf"
+      },
+      {
+        "bytes": 54625,
+        "key": "magnitude-volume.png",
+        "kind": "png",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20\\magnitude-volume.png",
+        "sha256": "0682b469c52520e07ed954be78d74c7531497f5df621ee574921b4f743967740",
+        "url": "/artifacts/light-field-8828b0f83e20/magnitude-volume.png"
+      },
+      {
+        "bytes": 3768,
+        "key": "slice-x.png",
+        "kind": "png",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20\\slice-x.png",
+        "sha256": "8b3e865245a03854b192cb45a797738a6cabadcaf9ae6dc97071fb12b4f72683",
+        "url": "/artifacts/light-field-8828b0f83e20/slice-x.png"
+      },
+      {
+        "bytes": 3918,
+        "key": "slice-y.png",
+        "kind": "png",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20\\slice-y.png",
+        "sha256": "8924c35a93f3152a272a7e341ddd9b46a27c5fb66798bf741d5b85c9867ddd39",
+        "url": "/artifacts/light-field-8828b0f83e20/slice-y.png"
+      },
+      {
+        "bytes": 3977,
+        "key": "slice-z.png",
+        "kind": "png",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20\\slice-z.png",
+        "sha256": "2029615f5c102a740c493718c0dc9d5dd93b674bac172844371759f7797e6283",
+        "url": "/artifacts/light-field-8828b0f83e20/slice-z.png"
+      }
+    ],
+    "review_status": "not_requested",
+    "schema": "synth.production-receipt/v1",
+    "source_sha256": "fae147dbcbcc14e7f66bf62537f6c61c023f1b00643cb0163bb20a153c95c074",
+    "strict_replay_verified": true,
+    "visual_acceptance": "pending inspection"
+  },
+  "resources": [
+    {
+      "bytes": 1775360,
+      "key": "light-field.emf",
+      "kind": "emf",
+      "modality": "spatial",
+      "sha256": "bf8edb0066eae38bd0db4b58230af7a7a828743c8ab707f8726e2aac0092d89c"
+    },
+    {
+      "bytes": 54625,
+      "key": "magnitude-volume.png",
+      "kind": "png",
+      "modality": "raster",
+      "sha256": "0682b469c52520e07ed954be78d74c7531497f5df621ee574921b4f743967740"
+    },
+    {
+      "bytes": 3768,
+      "key": "slice-x.png",
+      "kind": "png",
+      "modality": "raster",
+      "sha256": "8b3e865245a03854b192cb45a797738a6cabadcaf9ae6dc97071fb12b4f72683"
+    },
+    {
+      "bytes": 3918,
+      "key": "slice-y.png",
+      "kind": "png",
+      "modality": "raster",
+      "sha256": "8924c35a93f3152a272a7e341ddd9b46a27c5fb66798bf741d5b85c9867ddd39"
+    },
+    {
+      "bytes": 3977,
+      "key": "slice-z.png",
+      "kind": "png",
+      "modality": "raster",
+      "sha256": "2029615f5c102a740c493718c0dc9d5dd93b674bac172844371759f7797e6283"
+    }
+  ],
+  "revision": 1,
+  "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-field\\artifacts\\light-field-8828b0f83e20.hmc",
+  "schema": "synth.presentation-html/v1",
+  "strict_replay_verified": true,
+  "package_url": "/artifacts/light-field-8828b0f83e20.hmc",
+  "receipt_url": "/artifacts/light-field-8828b0f83e20.json"
+}

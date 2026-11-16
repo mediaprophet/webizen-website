@@ -1,0 +1,14 @@
+{
+  "case": "gl",
+  "other_gpu_work_held": true,
+  "finished_utc": "2026-11-16T05:46:54.7423322Z",
+  "test": "[Executed] [Gl/Intel(R) RaptorLake-S Mobile Graphics Controller/5] etalon_gpu::regression::issue_4122::clear_buffer_range_respected",
+  "exit_code": 0,
+  "schema": "webizen.focused-original-test/v1",
+  "binary": "C:/github/etalon/target-webizen-tests/debug/deps/etalon_gpu-4405d1164bc21cd6.exe",
+  "binary_sha256": "72ca45d173bee7eea6c4b7539cff55db4f240c78928fefd578c49bb4f807aa0c",
+  "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "seconds": 33.9416384,
+  "rebuilt": false,
+  "started_utc": "2026-11-16T05:46:20.7777736Z"
+}

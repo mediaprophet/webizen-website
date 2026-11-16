@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 408,
+  "triangles": 752,
+  "bytes": 167640,
+  "source_bytes": 32204,
+  "id": "vintage-windup-camper--chrome",
+  "original_sha256": "eb6394a821021a2cc4c2339ff0972fcaa5d6d810cd0d7fa4d87e62bc22abaa06",
+  "source_sha256": "5d3251a3763b292d3fbd5b28bd8c16a8e912900591740474aa4ee4e731202ce7",
+  "attested_sha256": "cbc922046d41f957656ca651a839cd6a8cf9a430eb299355546a2e2213d7dde3",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

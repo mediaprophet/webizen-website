@@ -1,0 +1,81 @@
+{
+  "schema": "webizen.production-handoff/v1",
+  "files": [
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\catalogue.json",
+      "path": "data/publications/aaa-production/catalogue.json",
+      "bytes": 5230,
+      "sha256": "32896150b540bd0ce1c3b896a9dc128d3adb695383ba51eb77993a8eda264988"
+    },
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\catchment.vibe",
+      "path": "data/publications/aaa-production/catchment.vibe",
+      "bytes": 893,
+      "sha256": "3047e333ff6c267b8b7f7f86ae3711a54d1e96d914b29680e462239dff1a416e"
+    },
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\lettering.vibe",
+      "path": "data/publications/aaa-production/lettering.vibe",
+      "bytes": 292,
+      "sha256": "327119ba2219d0614c375b6a183a2a071956c30b47036c4393c34c6147e4ef7c"
+    },
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\tone.vibe",
+      "path": "data/publications/aaa-production/tone.vibe",
+      "bytes": 312,
+      "sha256": "c50abef937e8f477cba06f978f56a7ccb90d98791ab036a460ff9e3dab68cc0f"
+    },
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\surface.vibe",
+      "path": "data/publications/aaa-production/surface.vibe",
+      "bytes": 489,
+      "sha256": "c56b6b1d9261f029f2b72a0e983361f41c5cba560156dd744e9aee565dd14005"
+    },
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\validation.json",
+      "path": "data/publications/aaa-production/validation.json",
+      "bytes": 3939,
+      "sha256": "54f7919060f878c03b7f9eeb766fdf4ea5ace4a7bf521c97ff07c360b1abd068"
+    },
+    {
+      "source": "C:\\github\\synth\\production\\webizen-swarm\\data\\publications\\aaa-production\\parameter-validation.json",
+      "path": "data/publications/aaa-production/parameter-validation.json",
+      "bytes": 888,
+      "sha256": "d694e26b08d29a0598984d4c8ffe9dc00dcaef0471ad2a1ba76d0008c8733dfa"
+    }
+  ],
+  "recipes": 4,
+  "executed_operations": [
+    "hypermedia.acoustics.encode_wav",
+    "hypermedia.acoustics.synthesize_tone",
+    "hypermedia.glyph.project_svg",
+    "hypermedia.locus.construct",
+    "hypermedia.locus.project_svg",
+    "hypermedia.locus.stroke_to_locus",
+    "hypermedia.radiance.encode_rgb_png",
+    "hypermedia.radiance.rasterize_loci",
+    "hypermedia.surface.pack_pbr_set",
+    "hypermedia.surface.synthesize_maps"
+  ],
+  "native_ui": "native/world-host/src/runtime/instruments/production.rs",
+  "status": "native CLI and real Rust-server browser qualification passed",
+  "build": {
+    "wasm": {
+      "url": "/pkg/native-world/webizen_world_bg.wasm",
+      "bytes": 16578897,
+      "sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394"
+    },
+    "qualified_bundle": {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\qualified\\679fbc5c432717a67c009b6bf17949ec5a6b3482029914589d1e6563e739acad",
+      "identity_sha256": "679fbc5c432717a67c009b6bf17949ec5a6b3482029914589d1e6563e739acad",
+      "publication": "complete directory renamed into place after checksum verification"
+    }
+  },
+  "browser": {
+    "origin": "http://127.0.0.1:8802",
+    "recipes": 4,
+    "completed_runs": 9,
+    "served_wasm_sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394",
+    "results": "evidence/aaa-production-browser/results.json"
+  }
+}

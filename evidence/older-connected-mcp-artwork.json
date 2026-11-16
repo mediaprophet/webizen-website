@@ -1,0 +1,94 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\production\\review-runtime-20261113-092726\\synth.exe",
+    "sha256": "0e3e4afc32fa2c23cef068bb947be7a2429f1709059d321d241b2465b1885df2",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 148,
+    "sha256": "c4d1679c76212edac7915e56e3ef3c451037d337cf66e81e9b08f4010959066e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 1045124,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e.hmc",
+    "sha256": "dd7ad26cf6c2ff7bbd893b046cb62da4ce991f85c8b15d2582c31a7b226daf3f"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 498559092,
+    "effective_host_bytes": 222326400,
+    "evaluation_steps": 1440908,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 360227,
+    "source_reservation_bytes": 46109056,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1440908,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 199523,
+      "key": "commons.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e\\commons.png",
+      "sha256": "7687259da7d47be63031a12ae2b3510a4c8362c676445b1b3993a40825e9d8f0"
+    },
+    {
+      "bytes": 70339,
+      "key": "commons.svg",
+      "kind": "svg",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e\\commons.svg",
+      "sha256": "d8ef240a3f3bf793400077a5f2c3c1ccf5383cee46e7019a6f1734821f873b48"
+    },
+    {
+      "bytes": 158306,
+      "key": "observatory.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e\\observatory.png",
+      "sha256": "91ca3ee0bb24e00c9585e387a67bf880c94561c3bcb4e42b4bb989415edd0163"
+    },
+    {
+      "bytes": 55288,
+      "key": "observatory.svg",
+      "kind": "svg",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e\\observatory.svg",
+      "sha256": "c692b529686e89c87fb1db9d95a00efe6f5f4e5a4e17912c51aec77cb51d7683"
+    },
+    {
+      "bytes": 142394,
+      "key": "studio.png",
+      "kind": "png",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e\\studio.png",
+      "sha256": "c2402e1056919d2d2f7a7c325347f698bd239634235249310ae4c09adba71a30"
+    },
+    {
+      "bytes": 54786,
+      "key": "studio.svg",
+      "kind": "svg",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-directions-20261116e\\studio.svg",
+      "sha256": "6bff23ca00bea769511db1bc571fd19f5693c997cba183e3712150c198d04f6b"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "ec1a7d8c5238c24cc5c88755de3e1236f949a77b2602dc81a704d650ff96a2f7",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

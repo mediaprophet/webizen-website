@@ -1,0 +1,121 @@
+{
+  "id": "prototype-eucalyptus-mid",
+  "url": "/production/aaa-instancing/assets/prototype-eucalyptus-mid.10d",
+  "sha256": "d0cf87e1ceae91f0647510b788ab9eb9e986ebc9a31898ba05268f9818a7c7f2",
+  "bytes": 723008,
+  "vertices": 6462,
+  "source_vertices": 6462,
+  "native_attribute_policy": "Native GLB MikkTSpace corner splits retained; exact triangle count preserved",
+  "triangles": 7992,
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "instances": 1,
+  "textures": [],
+  "provenance_receipt": "/production/aaa-instancing/provenance/prototype-eucalyptus-mid.json",
+  "native": {
+    "bytes": 544704,
+    "key": "prototype-eucalyptus-mid.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-eucalyptus-mid-f54efff8a17d\\prototype-eucalyptus-mid.10d",
+    "sha256": "22e9c35f60b688ddd866b211c27e00c2e7e9da2deb410647c48ffa9a9d27afea",
+    "url": "/artifacts/prototype-eucalyptus-mid-f54efff8a17d/prototype-eucalyptus-mid.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "9e21ebd1282a0f76e1943ee4ebdb9deb9d5eb5fafe25dcb99f55e07663537e7f",
+    "package_sha256": "d52380db8abb70eef9badbd1a2a40af37a68059edcf2dc19fb45206590b8b750",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 723728,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-eucalyptus-mid-f54efff8a17d.hmc",
+        "sha256": "d52380db8abb70eef9badbd1a2a40af37a68059edcf2dc19fb45206590b8b750"
+      },
+      "inputs": [
+        {
+          "bytes": 177976,
+          "key": "batch.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-eucalyptus-mid.glb",
+          "sha256": "336cf9cdafc25357aa9fc630ab1ab2976bf7a4b7203fc8b1518cdf590655eb4c"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499998640,
+        "effective_host_bytes": 268391936,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2095761,
+        "source_bytes": 340,
+        "source_reservation_bytes": 43520,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 1360,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 544704,
+          "key": "prototype-eucalyptus-mid.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-eucalyptus-mid-f54efff8a17d\\prototype-eucalyptus-mid.10d",
+          "sha256": "22e9c35f60b688ddd866b211c27e00c2e7e9da2deb410647c48ffa9a9d27afea",
+          "url": "/artifacts/prototype-eucalyptus-mid-f54efff8a17d/prototype-eucalyptus-mid.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "a83ab01f9457ec354e6620901824957522b4ebd82dee4867f70bd34f684cc7df",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 544704,
+        "key": "prototype-eucalyptus-mid.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "22e9c35f60b688ddd866b211c27e00c2e7e9da2deb410647c48ffa9a9d27afea"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\artifacts\\prototype-eucalyptus-mid-f54efff8a17d.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/prototype-eucalyptus-mid-f54efff8a17d.hmc",
+    "receipt_url": "/artifacts/prototype-eucalyptus-mid-f54efff8a17d.json"
+  },
+  "input": "C:\\github\\synth\\production\\webizen-swarm\\production\\aaa-instancing\\inputs\\prototype-eucalyptus-mid.glb",
+  "cache_key": "b2e2e21337e63e3f3530dbc1d2c9090ef47258b6eb8e9978c43945b72f7dd29e",
+  "recipe": "/production/aaa-instancing/recipes/prototype-eucalyptus-mid.vibe"
+}

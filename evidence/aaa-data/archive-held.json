@@ -1,0 +1,51 @@
+{
+  "compiled_bytes": 11,
+  "count": 8,
+  "execution": "native compile_ntriples_to_bytecode + execute_program_with_stats, same core path as WASM execute_ntriples_query",
+  "query": "<https://schema.org/archiveHeld> ?p ?o .",
+  "rows": [
+    [
+      "https://schema.org/archiveHeld",
+      "https://schema.org/inverseOf",
+      "https://schema.org/holdingArchive"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "http://www.w3.org/2000/01/rdf-schema#label",
+      "archiveHeld@en"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "http://www.w3.org/2000/01/rdf-schema#comment",
+      "Collection, [fonds](https://en.wikipedia.org/wiki/Fonds), or item held, kept or maintained by an [[ArchiveOrganization]].@en"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "https://schema.org/source",
+      "https://github.com/schemaorg/schemaorg/issues/1758"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "https://schema.org/domainIncludes",
+      "https://schema.org/ArchiveOrganization"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "https://schema.org/isPartOf",
+      "https://pending.schema.org"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "https://schema.org/rangeIncludes",
+      "https://schema.org/ArchiveComponent"
+    ],
+    [
+      "https://schema.org/archiveHeld",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ]
+  ],
+  "total_quins": 17949,
+  "version": 4,
+  "vm_cycles": 35906
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 13352,
+  "triangles": 14000,
+  "bytes": 1694320,
+  "source_bytes": 397636,
+  "source_sha256": "e2239bf3d7866b0b0ba8950a0019eaeef716a35ec565e975b0882038b126edc8",
+  "original_native_sha256": "d4deb1d38cbd52cb4c55291e218ffb0a37fd11c54ce884d5c91957cb2be145b2",
+  "attested_sha256": "00d7290859af4ec81cf2cc2c76c178cec6848b98b5e1ab2c8b5bdc5f99b86da4",
+  "helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "rights": "User-commissioned Webizen artwork; local preview/project inclusion authorised. No general reuse licence or endorsement asserted.",
+  "credential_asserted": false
+}

@@ -1,0 +1,14 @@
+{
+  "exit_code": -1073740791,
+  "rebuilt": false,
+  "case": "vulkan",
+  "started_utc": "2026-11-16T05:47:20.2335588Z",
+  "schema": "webizen.focused-original-test/v1",
+  "test": "Computepass Encoding",
+  "other_gpu_work_held": true,
+  "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+  "seconds": 16.1668218,
+  "binary": "C:/github/etalon/target-webizen-tests/debug/deps/etalon_benchmark-7dadce70023a7b1c.exe",
+  "binary_sha256": "cc646b0b6ab11e8900da9e40cfb2e12244cafe16e1e562d7545b6d32fe848825",
+  "finished_utc": "2026-11-16T05:47:36.4143515Z"
+}

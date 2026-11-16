@@ -1,0 +1,47 @@
+{
+  "schema": "webizen.native-data-build/v1",
+  "passed": true,
+  "native_tests": 10,
+  "compiler": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+  "source_binding": "Patched native DemAdapter source compiled directly using path module; private HTTP function and DataAdapter implementation exact source excerpts, not replacement algorithms; native terrain mesh and pipeline sources compiled directly; underlying codecs/query VM/deontic engine linked from cached native qualia_core_db.",
+  "native_library": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\deps\\libqualia_core_db.rlib",
+    "sha256": "722a0f0aa20a151d76f86a02a28ae609566096c2e6f5736d7d6f4d9f80aed57d"
+  },
+  "sources": [
+    {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\native\\data-pack-builder\\main.rs",
+      "sha256": "485fbdd8a36fb345cec42d56301b9576a144ef7102d5b175f0550a42170d0d9f"
+    },
+    {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\native\\data-pack-builder\\native_adapter_support.rs",
+      "sha256": "6603e3354d9f1bf4b6797067086cb150558111ecc2616c13549b504899512a77"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\domains\\geospatial\\adapters\\dem_adapter.rs",
+      "sha256": "2d29cfc67d81347a1f7c72a396e0ecab5f7d2d06120f936139ff5991e093730d"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\domains\\geospatial\\adapters\\mod.rs",
+      "sha256": "d91b7f87ac263933271763a13a07e33767f4870387caa661659dfec63013daff"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\domains\\geospatial\\terrain_pipeline.rs",
+      "sha256": "126aeb1479c73545738a08890a2c181a3a49840096f7b304f1795d091d735b93"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\domains\\geospatial\\dem.rs",
+      "sha256": "a60471a35f56673c2f35ecfb07c11058db1e260bba4d7605ceedc407e64ce786"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\modalities\\logic\\deontic.rs",
+      "sha256": "c8a4d89e2295047b2034d2900a3f5bdc3e115130f539da91d7013bb305c9f680"
+    },
+    {
+      "path": "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\query\\mini_parser.rs",
+      "sha256": "8ae4b72eda21999c536be4afa9716011ad0a227b327c8b019f6f8a1610a0e39c"
+    }
+  ],
+  "binary_sha256": "b584d2128e57c736776ac7d11ca02e7a93216a5b41f908f628093cccd18a1692",
+  "test_binary_sha256": "7276e826ca40a68f1238ffd5f01b559007c3553e327af94733b83ac54c05eebd"
+}

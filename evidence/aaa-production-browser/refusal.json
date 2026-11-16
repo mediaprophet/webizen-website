@@ -1,0 +1,7 @@
+{
+  "response": {
+    "error": "Revision 0 retained: {\"valid\":false,\"error_code\":\"E701\",\"civics_code\":\"E701\",\"span\":[0,0],\"message\":\"Production capability not admitted: hypermedia.invalid.not_an_operation\",\"suggested_fix\":null,\"evidential\":null,\"shacl_violations\":[]}",
+    "ok": false
+  },
+  "display": "Revision 0 retained: {\"valid\":false,\"error_code\":\"E701\",\"civics_code\":\"E701\",\"span\":[0,0],\"message\":\"Production capability not admitted: hypermedia.invalid.not_an_operation\",\"suggested_fix\":null,\"evidential\":null,\"shacl_violations\":[]}"
+}

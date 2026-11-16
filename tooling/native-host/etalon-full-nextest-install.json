@@ -1,0 +1,15 @@
+{
+  "schema": "webizen.test-runner-install/v1",
+  "timestamp_utc": "2026-11-16T04:44:29.466309+00:00",
+  "official_documentation": "https://nexte.st/docs/installation/pre-built-binaries/",
+  "installer_url": "https://get.nexte.st/install.ps1",
+  "installer_sha256": "9ca051387a7b668ef0fa4fd3cd2359a2723b34aefc5701b4215f7432a87db7db",
+  "release_url": "https://github.com/nextest-rs/nextest/releases/download/cargo-nextest-0.9.152/cargo-nextest-0.9.152-x86_64-pc-windows-msvc.zip",
+  "installation_scope": "isolated project test tools; process PATH only, no permanent PATH edit",
+  "executable": "C:\\github\\etalon\\target-webizen-tests\\tools\\nextest\\cargo-nextest.exe",
+  "executable_sha256": "233efae1b8ba015e52cb9972a77c5ad56ba8dc2b0c5673938491309ed792d9d7",
+  "version": "0.9.152",
+  "upstream_commit": "26ebeda79b9ae1d008cf64ddb01984bcaa6e1239",
+  "archive_verification": "Official retained installer compares downloaded archive SHA256 with its official install manifest before extraction; installer completed successfully.",
+  "log": "tooling/native-host/etalon-full-nextest-install.log"
+}

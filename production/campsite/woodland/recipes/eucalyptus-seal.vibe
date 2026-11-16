@@ -1,0 +1,4 @@
+requires [capability("capability.invoke")];
+let geometry=capability.invoke("hypermedia.manifold.import_mesh",{input:"assembly.obj",format:"obj"});
+let native=capability.invoke("hypermedia.manifold.compile_10d_pbr",{mesh:geometry,topology:false,spatial_index:false});
+let mut asset={files:[{key:"eucalyptus.10d",resource:native}]};

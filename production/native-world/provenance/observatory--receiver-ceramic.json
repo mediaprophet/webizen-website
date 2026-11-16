@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 7920,
+  "triangles": 15680,
+  "bytes": 2397520,
+  "source_bytes": 295848,
+  "id": "observatory--receiver-ceramic",
+  "original_sha256": "77c01efa90ecf713188b55440504843eb7785a61ad5b16f4f6025cb8038827d0",
+  "source_sha256": "47be1becfb8eb0411c6d5af6301d99db75798c80e95233bfe073579933020971",
+  "attested_sha256": "36ffd5c9637fc73dc7edc31594b1a3d088e1798587d1f8a9e7723dd8cdd32016",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

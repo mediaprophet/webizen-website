@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 1794,
+  "triangles": 3516,
+  "bytes": 527736,
+  "source_bytes": 24112,
+  "id": "eucalyptus--warm-bark",
+  "original_sha256": "0b15ddb9b551596b46584883bcbfd177db7f9d716041e6c887ef4da2fbb2f4b0",
+  "source_sha256": "59e1712cb526d1dc59c7cec05c7b0c19727e4e7e09ac46b150accd3ef6eadecb",
+  "attested_sha256": "a38eaf612888a87919f3ee9101ea84fe32727b9e5537b80ea6d3d9ec46df4f13",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

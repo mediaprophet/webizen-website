@@ -1,0 +1,322 @@
+{
+  "schema": "webizen.native-world-build/v1",
+  "compiler": "rustc 1.96.1 (31fca3adb 2026-06-26)",
+  "binding_generator": "wasm-bindgen 0.2.129",
+  "binding_generator_sha256": "7923ed91d8ece7a2986dc5de9395bff2a8e5cae483330b13d0ec97a955b0e351",
+  "source_files": [
+    {
+      "path": "native\\world-host\\src\\graph.rs",
+      "sha256": "4072c78e574e771e4174e075578c228f22870cfa758a3692552e8e03bcfebce4"
+    },
+    {
+      "path": "native\\world-host\\src\\lib.rs",
+      "sha256": "33bd9b5669509050be41ac177b05881231f0d741863a82d3e64de946983227cc"
+    },
+    {
+      "path": "native\\world-host\\src\\policy.rs",
+      "sha256": "6bdf56db85a5aea4eb7b4364db9591924766e238c0e490bed91c0d94ef65b317"
+    },
+    {
+      "path": "native\\world-host\\src\\proof.rs",
+      "sha256": "c35f827b5998130f2817f918bc9cd10462cd0aad5c93082a7054618987fc9cca"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\admission.rs",
+      "sha256": "7c9899569dc0fec04c8761db895c4ecb4136e37c52de1e60f7152f2da63e3f83"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\boot.rs",
+      "sha256": "da1a6f148337e4d7d63d9ba0a24b15fb97cdde742704194abd9082b5b1e010b9"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\frame_telemetry.rs",
+      "sha256": "8bdee6b7fbae38e43aa3c42e6b894cef34ec707f22da7e1a709782429018ffe1"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\graphics.rs",
+      "sha256": "be3c3c581061637c69f815f1105d0e17f1bfa903d3db13c95140c8f73a74665d"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\input.rs",
+      "sha256": "21967249d1b957630a59357bbbce93f25505610b6389ff08fd54eb789840b9f2"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instances.rs",
+      "sha256": "144fab1be93af94161597718d8f3d38aacb720505e5077dff860c983c59d0218"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\data.rs",
+      "sha256": "e7ebae5f8f5da448156d076a15128fd46564fe5caae48e878fd20cdb85486513"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\fields.rs",
+      "sha256": "b68eee359540309f9183b980af4d2261e0d86081fcdec22f70beefae15b7e422"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\measures.rs",
+      "sha256": "3479e0f3c3b5344ba20ea44b306d6e21a59c0723d0e667a28060e6a0efc4d2d5"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\mod.rs",
+      "sha256": "f4633e62c9c709de7ee168629db5db920793195a404b7df2f2b88045999f430a"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\production.rs",
+      "sha256": "f84b6ba3ebf0d23f88947edd619babf4b869a72f978b42fd9ea93323884d12c2"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\references.rs",
+      "sha256": "97a22a9ba7364c989959b820081a4f42b34da0a24630b3d8e9315c67858fb673"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\science.rs",
+      "sha256": "279f716aa8d4e790c23ed85bcdc120085f43a313cb347f01ba0c1df0f6de854b"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\textures.rs",
+      "sha256": "734aefa30d965c700f6ac1c0ad4044b0cccecb00f3e0a474b28e075abbd05546"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\ui\\reference.rs",
+      "sha256": "e1c6e37c44ef2e078addbf8310f5204152876d113fa7e78ffd7030ca6800afe8"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\ui.rs",
+      "sha256": "904e3d9537a83571ab092124b99fa20f6f9d4cfc4868d74736eb51718276b3d1"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime.rs",
+      "sha256": "b71bd61bb1bae6af2ffc7d6f3c41f535c401649d8d6c913526aaf15e97a9bea7"
+    }
+  ],
+  "cargo_lock_sha256": "520d8852534947434a61df706780e2e5e1744143fd67bb54a2644b8bcb0380ae",
+  "native_renderer": "QualiaPortal / PortalGpu / Etalon",
+  "controller": "Rust/WASM",
+  "vibe_runtime": "PoetSnapshot::eval_fn",
+  "q42_reader": "WasmSliceQ42Reader",
+  "authored_javascript_world_logic": false,
+  "outputs": [
+    {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\webizen_world.js",
+      "bytes": 308972,
+      "sha256": "2167aaaeaf54051e88db1cca25e28b72c434237f2a096f71e9f2c3bf28dde7c3"
+    },
+    {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\webizen_world_bg.wasm",
+      "bytes": 16578897,
+      "sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394"
+    },
+    {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\webizen_world.d.ts",
+      "bytes": 126782,
+      "sha256": "fd75142237a22f7e309f3f8f07f15fc20a1b7a5ee7c1d29ab1716df50a6e03a6"
+    },
+    {
+      "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\webizen_world_bg.wasm.d.ts",
+      "bytes": 37229,
+      "sha256": "ca1f6c25e900d453c6e2e51353089a7939d60323a124e1ed03238d76d40909b1"
+    }
+  ],
+  "runtime_visual_acceptance": "pending browser QA",
+  "runtime_identity": {
+    "schema": "webizen.native-runtime-identity/v1",
+    "identity_kind": "served build identity; browser QA must compare served WASM bytes with this digest",
+    "wasm": {
+      "url": "/pkg/native-world/webizen_world_bg.wasm",
+      "bytes": 16578897,
+      "sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394"
+    },
+    "generated_loader_sha256": "2167aaaeaf54051e88db1cca25e28b72c434237f2a096f71e9f2c3bf28dde7c3",
+    "host_source_fingerprint": "7156863082cd826ef04cd398ddfc68604595ab7852d2379c1bb797e147412b64",
+    "cargo_lock_sha256": "520d8852534947434a61df706780e2e5e1744143fd67bb54a2644b8bcb0380ae",
+    "render_provider": {
+      "repository": "https://github.com/mediaprophet/etalon.git",
+      "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+      "source_kind": "pushed immutable Git revision; no local provider overrides",
+      "emf_shader_sha256": "1b2eb897a6375c491122192047eff5d2dcbeb759238db68b24bd2f486aa21d4a",
+      "emf_cpu_reference_sha256": "bfc7d264370cbe591e892585a63dcf77e890c8703fa709c440cbb97cee305902",
+      "resolved_crates": [
+        {
+          "name": "etalon",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon\\Cargo.toml"
+        },
+        {
+          "name": "etalon-agent",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-agent\\Cargo.toml"
+        },
+        {
+          "name": "etalon-core",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-core\\Cargo.toml"
+        },
+        {
+          "name": "etalon-hal",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-hal\\Cargo.toml"
+        },
+        {
+          "name": "etalon-inference",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference\\Cargo.toml"
+        },
+        {
+          "name": "etalon-inference-contract",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-contract\\Cargo.toml"
+        },
+        {
+          "name": "etalon-inference-kernel",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-kernel\\Cargo.toml"
+        },
+        {
+          "name": "etalon-model",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-model\\Cargo.toml"
+        },
+        {
+          "name": "etalon-naga-bridge",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-naga-bridge\\Cargo.toml"
+        },
+        {
+          "name": "etalon-nquin",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-nquin\\Cargo.toml"
+        },
+        {
+          "name": "etalon-render",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-render\\Cargo.toml"
+        },
+        {
+          "name": "etalon-resources",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-resources\\Cargo.toml"
+        },
+        {
+          "name": "etalon-sense-core",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sense-core\\Cargo.toml"
+        },
+        {
+          "name": "etalon-signal",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-signal\\Cargo.toml"
+        },
+        {
+          "name": "etalon-sim",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sim\\Cargo.toml"
+        },
+        {
+          "name": "etalon-sync",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-sync\\Cargo.toml"
+        },
+        {
+          "name": "etalon-tensor",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-tensor\\Cargo.toml"
+        },
+        {
+          "name": "etalon-types",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-types\\Cargo.toml"
+        },
+        {
+          "name": "etalon-vibe",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-vibe\\Cargo.toml"
+        },
+        {
+          "name": "etalon-wasm",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wasm\\Cargo.toml"
+        },
+        {
+          "name": "etalon-wgsl-forge",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wgsl-forge\\Cargo.toml"
+        },
+        {
+          "name": "naga",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga\\Cargo.toml"
+        },
+        {
+          "name": "naga-types",
+          "version": "0.0.2",
+          "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga-types\\Cargo.toml"
+        }
+      ],
+      "resolved_wasm_provider_crates": 23,
+      "locked_all_platform_provider_crates": 30
+    },
+    "native_core": {
+      "repository": "qualiaDB",
+      "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+      "tracked_dirty": [
+        " M crates/qualia-core-db/src/domains/geospatial/adapters/dem_adapter.rs",
+        " M crates/qualia-core-db/src/domains/geospatial/dem.rs",
+        " M crates/qualia-core-db/src/render/gpu/animated_upload.rs",
+        " M crates/qualia-core-db/src/render/gpu/ao.rs",
+        " M crates/qualia-core-db/src/render/gpu/instance_visibility.rs",
+        " M crates/qualia-core-db/src/render/gpu/mesh_upload.rs",
+        " M crates/qualia-core-db/src/render/gpu/mod.rs",
+        " M crates/qualia-core-db/src/render/gpu/portal_gpu/init.rs",
+        " M crates/qualia-core-db/src/render/gpu/portal_gpu/lighting_passes.rs",
+        " M crates/qualia-core-db/src/render/gpu/portal_gpu/picking.rs",
+        " M crates/qualia-core-db/src/render/gpu/portal_gpu/render_frame.rs",
+        " M crates/qualia-core-db/src/render/portal/emf_preview.rs",
+        " M crates/qualia-core-db/src/render/portal/mod.rs",
+        " M crates/qualia-core-db/src/render/portal/scene_mesh.rs",
+        " M crates/qualia-core-db/src/render/portal/scene_mesh_tests.rs"
+      ],
+      "untracked_source_files": [
+        "src/render/gpu/instance_group_upload.rs",
+        "src/render/gpu/instance_group_visibility.rs",
+        "src/render/gpu/instance_groups.rs",
+        "src/render/gpu/instance_groups_tests.rs",
+        "src/render/gpu/mesh_upload_limits.rs",
+        "src/render/portal/instance_groups.rs",
+        "src/render/portal/scene_frames.rs",
+        "src/render/portal/scene_frames_tests.rs",
+        "src/render/portal/scene_loader.rs"
+      ],
+      "source_fingerprint": "2305d404db62429d1fd5e234e8c45aa903a010f8523dce410b4df88dab4ef468",
+      "source_file_count": 3821
+    },
+    "compiler": "rustc 1.96.1 (31fca3adb 2026-06-26)"
+  },
+  "qualified_bundle": {
+    "path": "C:\\github\\synth\\production\\webizen-swarm\\site\\pkg\\native-world\\qualified\\679fbc5c432717a67c009b6bf17949ec5a6b3482029914589d1e6563e739acad",
+    "identity_sha256": "679fbc5c432717a67c009b6bf17949ec5a6b3482029914589d1e6563e739acad",
+    "publication": "complete directory renamed into place after checksum verification"
+  }
+}

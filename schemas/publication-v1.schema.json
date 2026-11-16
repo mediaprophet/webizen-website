@@ -1,0 +1,1326 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://webizen.au/schemas/publication-v1.schema.json",
+  "title": "Webizen website publication v1",
+  "$ref": "#/$defs/Publication",
+  "$defs": {
+    "Source": {
+      "type": "object",
+      "properties": {
+        "repository": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "format": "repository-path"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "repository",
+        "revision",
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "Evidence": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "source",
+            "runtime",
+            "recorded",
+            "visual-review",
+            "test-fixture"
+          ]
+        },
+        "uri": {
+          "type": "string",
+          "format": "public-reference"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "uri",
+        "sha256",
+        "observed_at"
+      ],
+      "additionalProperties": false
+    },
+    "Runtime": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "profile": {
+          "enum": [
+            "browser",
+            "native",
+            "ci",
+            "recorded"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "device": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "backend": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "profile",
+        "version",
+        "device",
+        "backend"
+      ],
+      "additionalProperties": false
+    },
+    "Module": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.module/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "difference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "human_significance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualification": {
+          "enum": [
+            "source-indexed",
+            "runtime-verified",
+            "not-yet-qualified"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "minItems": 1
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "runtime_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "related_modules": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "name",
+        "purpose",
+        "difference",
+        "human_significance",
+        "qualification",
+        "sources",
+        "capabilities",
+        "runtime_ids",
+        "related_modules",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "Exhibit": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.exhibit/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "title_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "module_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 1
+        },
+        "experiment_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "environment": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "position": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "camera": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "reading_route": {
+          "type": "string",
+          "format": "public-reference"
+        },
+        "asset_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "related_exhibits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "title_key",
+        "body_key",
+        "module_ids",
+        "experiment_id",
+        "environment",
+        "position",
+        "camera",
+        "reading_route",
+        "asset_ids",
+        "related_exhibits"
+      ],
+      "additionalProperties": false
+    },
+    "Input": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "type": {
+          "enum": [
+            "number",
+            "integer",
+            "boolean",
+            "select",
+            "string"
+          ]
+        },
+        "label_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "minimum": {
+          "type": "number"
+        },
+        "maximum": {
+          "type": "number"
+        },
+        "max_length": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "label_key",
+        "unit"
+      ],
+      "additionalProperties": false
+    },
+    "Output": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "name",
+        "media_type",
+        "unit",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "Experiment": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.experiment/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "module_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 1
+        },
+        "runner_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "runner_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "execution": {
+          "enum": [
+            "browser",
+            "native-opt-in",
+            "ci-only",
+            "recorded"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/Source"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Input"
+          },
+          "minItems": 0
+        },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Output"
+          },
+          "minItems": 1
+        },
+        "epistemic_class": {
+          "enum": [
+            "measured",
+            "model-estimate",
+            "artistic",
+            "executable-logic"
+          ]
+        },
+        "runtime_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 1
+        },
+        "max_duration_ms": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_input_bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "supports_cancel": {
+          "type": "boolean"
+        },
+        "supports_reset": {
+          "type": "boolean"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "module_ids",
+        "runner_id",
+        "runner_version",
+        "execution",
+        "source",
+        "inputs",
+        "outputs",
+        "epistemic_class",
+        "runtime_ids",
+        "max_duration_ms",
+        "max_input_bytes",
+        "supports_cancel",
+        "supports_reset",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "TestRun": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.test-run/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "suite_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "runtime_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "source": {
+          "$ref": "#/$defs/Source"
+        },
+        "status": {
+          "enum": [
+            "passed",
+            "failed",
+            "skipped",
+            "not-run",
+            "unsupported"
+          ]
+        },
+        "assertion_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "duration_ms": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "executed_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "suite_id",
+        "runtime_id",
+        "source",
+        "status",
+        "assertion_count",
+        "duration_ms",
+        "executed_at",
+        "reason",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "Benchmark": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.benchmark/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "workload_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "runtime_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "source": {
+          "$ref": "#/$defs/Source"
+        },
+        "classification": {
+          "enum": [
+            "measured",
+            "historical",
+            "proxy",
+            "not-run"
+          ]
+        },
+        "correctness": {
+          "enum": [
+            "passed",
+            "failed",
+            "not-checked"
+          ]
+        },
+        "dataset_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dataset_sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sample_unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "samples": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": 0
+              },
+              "minItems": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sample_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "warmup_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "summary": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "min": {
+                  "type": "number"
+                },
+                "max": {
+                  "type": "number"
+                },
+                "mean": {
+                  "type": "number"
+                },
+                "p50": {
+                  "type": "number"
+                },
+                "p95": {
+                  "type": "number"
+                },
+                "p99": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "min",
+                "max",
+                "mean"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "executed_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exclusions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "workload_id",
+        "runtime_id",
+        "source",
+        "classification",
+        "correctness",
+        "dataset_id",
+        "dataset_sha256",
+        "method",
+        "sample_unit",
+        "samples",
+        "sample_count",
+        "warmup_count",
+        "summary",
+        "executed_at",
+        "exclusions",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "Message": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$"
+        },
+        "review_state": {
+          "enum": [
+            "draft",
+            "reviewed",
+            "stale"
+          ]
+        },
+        "reviewer": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "language",
+        "review_state",
+        "reviewer"
+      ],
+      "additionalProperties": false
+    },
+    "Locale": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.locale/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "locale": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$"
+        },
+        "default": {
+          "type": "boolean"
+        },
+        "source_locale": {
+          "const": "en-AU"
+        },
+        "source_revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "direction": {
+          "enum": [
+            "ltr",
+            "rtl"
+          ]
+        },
+        "messages": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Message"
+          }
+        },
+        "fallbacks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$"
+          },
+          "minItems": 0
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "locale",
+        "default",
+        "source_locale",
+        "source_revision",
+        "direction",
+        "messages",
+        "fallbacks",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "Asset": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.asset/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "uri": {
+          "type": "string",
+          "format": "public-reference"
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "origin": {
+          "enum": [
+            "native-production",
+            "imported",
+            "source-generated"
+          ]
+        },
+        "recipe": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Source"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "receipt": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Evidence"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "preview_uri": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "public-reference"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visual_acceptance": {
+          "enum": [
+            "pending",
+            "accepted",
+            "rejected",
+            "not-applicable"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "uri",
+        "media_type",
+        "bytes",
+        "sha256",
+        "origin",
+        "recipe",
+        "receipt",
+        "preview_uri",
+        "visual_acceptance",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "Observer": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.observer/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "purpose": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "locale": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$"
+        },
+        "support_preferences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "authority": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "anonymous",
+                "verified"
+              ]
+            },
+            "grant_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "public-reference"
+              },
+              "minItems": 0
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Evidence"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "status",
+            "grant_refs",
+            "evidence"
+          ],
+          "additionalProperties": false
+        },
+        "graph_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "policy_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selected_exhibits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "authority_from_purpose": {
+          "const": false
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "purpose",
+        "locale",
+        "support_preferences",
+        "authority",
+        "graph_sha256",
+        "policy_version",
+        "selected_exhibits",
+        "reasons",
+        "authority_from_purpose"
+      ],
+      "additionalProperties": false
+    },
+    "Migration": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.migration/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "legacy_route": {
+          "type": "string",
+          "format": "public-reference"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "destination": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "public-reference"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "disposition": {
+          "enum": [
+            "preserve",
+            "recreate",
+            "improve",
+            "archive",
+            "unavailable"
+          ]
+        },
+        "module_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "experiment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+          },
+          "minItems": 0
+        },
+        "qualification": {
+          "enum": [
+            "source-only",
+            "parity-verified",
+            "improvement-verified",
+            "archive-reviewed",
+            "unavailable-reviewed"
+          ]
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "legacy_route",
+        "source_sha256",
+        "destination",
+        "disposition",
+        "module_ids",
+        "experiment_ids",
+        "qualification",
+        "reason",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "Publication": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "webizen.publication/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9._-]{0,127}$"
+        },
+        "stage": {
+          "enum": [
+            "draft",
+            "review",
+            "release"
+          ]
+        },
+        "default_locale": {
+          "const": "en-AU"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "minItems": 1
+        },
+        "runtimes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Runtime"
+          },
+          "minItems": 0
+        },
+        "modules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Module"
+          },
+          "minItems": 0
+        },
+        "exhibits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Exhibit"
+          },
+          "minItems": 0
+        },
+        "experiments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Experiment"
+          },
+          "minItems": 0
+        },
+        "test_runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TestRun"
+          },
+          "minItems": 0
+        },
+        "benchmarks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Benchmark"
+          },
+          "minItems": 0
+        },
+        "locales": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Locale"
+          },
+          "minItems": 0
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Asset"
+          },
+          "minItems": 0
+        },
+        "observers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Observer"
+          },
+          "minItems": 0
+        },
+        "migrations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Migration"
+          },
+          "minItems": 0
+        },
+        "graph": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "uri": {
+                  "type": "string",
+                  "format": "public-reference"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "format": {
+                  "const": "q42"
+                },
+                "reader_identity": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "roundtrip_evidence": {
+                  "$ref": "#/$defs/Evidence"
+                }
+              },
+              "required": [
+                "uri",
+                "sha256",
+                "format",
+                "reader_identity",
+                "roundtrip_evidence"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema",
+        "id",
+        "stage",
+        "default_locale",
+        "created_at",
+        "sources",
+        "runtimes",
+        "modules",
+        "exhibits",
+        "experiments",
+        "test_runs",
+        "benchmarks",
+        "locales",
+        "assets",
+        "observers",
+        "migrations",
+        "graph"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

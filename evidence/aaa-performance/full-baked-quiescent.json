@@ -1,0 +1,4557 @@
+{
+  "schema": "webizen.browser-frame-sample/v1",
+  "label": "full-baked-quiescent",
+  "route": "aaa-full-proof.html",
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "boot_ms": 46882,
+  "before": {
+    "asset_bytes": 262515624,
+    "assets": [
+      {
+        "id": "car-passat-b7--gold",
+        "sha256": "867940c9ca9ed32cf7161757d34807ba1d91f45714f95817702e38f84a8964d7"
+      },
+      {
+        "id": "car-passat-b7--glass",
+        "sha256": "6e8db07d9364b72bcfa3db507e55d1e30198e23fd6d4ed24ea4b326616f68046"
+      },
+      {
+        "id": "car-passat-b7--chrome",
+        "sha256": "499456a6fc89bfead47337c0ebca31d3cdb91f0d46bfca33997af9ff8e353a26"
+      },
+      {
+        "id": "car-passat-b7--trim",
+        "sha256": "57afc4e963e7b0008df4534176295f21b2f98a48edf84e815a83b044d4a6788e"
+      },
+      {
+        "id": "car-passat-b7--rubber",
+        "sha256": "39aa9e607f33bb998a97e08982541c0f1be6aebaab0e54ccd9378779e6e22e79"
+      },
+      {
+        "id": "car-passat-b7--brake",
+        "sha256": "468c85dcfa9d5fe0638a5345adaf0c66d419bd790ef5ddb1e1b2fe81882c0219"
+      },
+      {
+        "id": "car-passat-b7--alloy",
+        "sha256": "716d3e0fd9f1fbc939dcaa6bf20b845335f3976e3ec05614842adab133ece362"
+      },
+      {
+        "id": "car-passat-b7--red",
+        "sha256": "392c21aa786bf0e4ccb977e01de453d8eaa92da3b6da0c8c58d4bd5ea5993a40"
+      },
+      {
+        "id": "car-passat-b7--lamp",
+        "sha256": "fbf113ca06776e709d2961aeba2ec539607dc2e277233bb3c72addbf11f8af0a"
+      },
+      {
+        "id": "car-passat-b7--plate",
+        "sha256": "484b0f864ff73891da1c6d76bfa2affdb37559c121d294a2e7188de341f730a9"
+      },
+      {
+        "id": "car-passat-b7--lamp-interior",
+        "sha256": "924af626677f93c70a3b956ad4244fee2b059e531f5a894e459e0842bd8c3f28"
+      },
+      {
+        "id": "car-passat-b7--projector",
+        "sha256": "b325e1e9c31362fc83a23ba1da34143d9813274aaf4fe24c9abd8f21b8b805e3"
+      },
+      {
+        "id": "car-passat-b7--roofbox-base",
+        "sha256": "2160425a2a8d576e1c1220386c08744f97e6b2bb378d404c880f67009cfd45c7"
+      },
+      {
+        "id": "car-passat-b7--roofbox",
+        "sha256": "7817e6c448f95a8ccc14b688cc670a903d502245339272b0a131c063232e104e"
+      },
+      {
+        "id": "vintage-windup-camper--chassis",
+        "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1"
+      },
+      {
+        "id": "vintage-windup-camper--rubber",
+        "sha256": "f2a2eebfe80ac30cde111121c78748a4d6c7dd68427cc49fe0c741ffee54c2aa"
+      },
+      {
+        "id": "vintage-windup-camper--enamel",
+        "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6"
+      },
+      {
+        "id": "vintage-windup-camper--chrome",
+        "sha256": "cbc922046d41f957656ca651a839cd6a8cf9a430eb299355546a2e2213d7dde3"
+      },
+      {
+        "id": "vintage-windup-camper--ochre",
+        "sha256": "3625f95c1739c691507dc84683319a167079525781cd8982f041cdb59a140ddc"
+      },
+      {
+        "id": "vintage-windup-camper--olive",
+        "sha256": "affeb23767b3446a03e96a46e340f2c6a3034297b1ccdb8000ab4afa2d70bd9e"
+      },
+      {
+        "id": "vintage-windup-camper--roof",
+        "sha256": "9a14cd1450c2c7815b97daed34aa39873f40f5f4c97b23baee2bc71a9ceb4030"
+      },
+      {
+        "id": "vintage-windup-camper--canvas",
+        "sha256": "781f017544478d1e45124e51ed65e9422642b2846acc485a49890fd11bf11be6"
+      },
+      {
+        "id": "vintage-windup-camper--screen",
+        "sha256": "cea5b36c22bb44337fe149e5d1de4093abacca53ca8a93c80fb55e7b056b7b0a"
+      },
+      {
+        "id": "vintage-windup-camper--canvas-seam",
+        "sha256": "32eb6339e6504c73a98aec6e7fe039caf899854a4b32299304a0cd20cc8bf829"
+      },
+      {
+        "id": "vintage-windup-camper--screen-wire",
+        "sha256": "5ed1cb96d4466dc91a2922a2615b8d31e8c35b03f223e9b28c5fc53ab65eec22"
+      },
+      {
+        "id": "vintage-windup-camper--step",
+        "sha256": "caa23bb8212b2707698d6eddc807adee4154c0a93b89249faede6ed51d4be671"
+      },
+      {
+        "id": "vintage-windup-camper--steel",
+        "sha256": "da9398381ef3dc2b5ab72225c1b0f1169819561d63717a8b9d8f35f629a38d61"
+      },
+      {
+        "id": "vintage-windup-camper--canvas-roof",
+        "sha256": "b8658fdabe94f8d22c79a4311e1207b225bb82273a33935620a85670a27bd855"
+      },
+      {
+        "id": "vintage-windup-camper--red-lens",
+        "sha256": "c47bada4f39c36eaba504dabaa4fea48e0c9b5a502a77a4a98188cea0d5c7171"
+      },
+      {
+        "id": "vintage-windup-camper--amber-lens",
+        "sha256": "441e051c7ddd32599078139bf6b51b33e615a1c1fd0165e1cb58000336b75b8a"
+      },
+      {
+        "id": "solar-array-three--backing",
+        "sha256": "a742aa791829d94a649ef842e55d04c5cecf9be46f9f4935efaa1ceb7fbdadd7"
+      },
+      {
+        "id": "solar-array-three--panel",
+        "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994"
+      },
+      {
+        "id": "solar-array-three--aluminium",
+        "sha256": "55fa97a577e3aab5f5dd913ba8c034122b2097ced012ea4467d5781a2bd10060"
+      },
+      {
+        "id": "solar-array-three--cell-line",
+        "sha256": "5135fafe7bcb3cd56fedc352e4b771ad7b33d448e98e1b2fa39c4bcf0964f054"
+      },
+      {
+        "id": "solar-array-three--rubber",
+        "sha256": "028a155587fbe10bfcefedd1e5acf13c0a77529e4e9e220411c32f76a0c85f96"
+      },
+      {
+        "id": "solar-array-two--backing",
+        "sha256": "12e59dc647ff0c80033b5463a555ce8d93a9de55858a37d95387ae4faa00bc54"
+      },
+      {
+        "id": "solar-array-two--panel",
+        "sha256": "db70b240653101707fde16c2535821dbdc15fa6caf437f7663b1034dadb38ad5"
+      },
+      {
+        "id": "solar-array-two--aluminium",
+        "sha256": "b24d54169993b011271508f894b521874e11ff98977f89f4b569aa19da08b90e"
+      },
+      {
+        "id": "solar-array-two--cell-line",
+        "sha256": "74caee3cd6fae95fd7a116c24d5c8fe11af13437d32b4817b97a3f142a6ea3f7"
+      },
+      {
+        "id": "solar-array-two--rubber",
+        "sha256": "8171886a63020b2ea8054a001bc4a8c17ede26037347652d596c20be78b4a942"
+      },
+      {
+        "id": "starlink-mini--dish-back",
+        "sha256": "a6f2be1d35e7aab38851c277cfc480efc7f4489411285b954e4d01125e3b61a8"
+      },
+      {
+        "id": "starlink-mini--dish-front",
+        "sha256": "596be4ffd10787d159d8981ae89668c7990742c59cc8d0e2655cdfcb81a9e8b3"
+      },
+      {
+        "id": "starlink-mini--backing",
+        "sha256": "1f873f6ca8e525de67a6b9367b6c3f1f4a4355b74372d60fa4f4b8e673c65c27"
+      },
+      {
+        "id": "starlink-mini--mount",
+        "sha256": "efc81d775f815e1d86db8d71b30f5fddc7f47bb1e897f9d4e789b0bfdb4d5447"
+      },
+      {
+        "id": "starlink-mini--rubber",
+        "sha256": "8e13f79fd88433ba93b775b9df34f38c0e295434cb2c6c4014110c856d9bb84d"
+      },
+      {
+        "id": "starlink-mini--aluminium",
+        "sha256": "8d7c00889d522216745725f808f9c905e151a5827ecc230ea1405c93fe412ebe"
+      },
+      {
+        "id": "eucalyptus--pale-bark",
+        "sha256": "01c12457869ec836aba17339f1cfe9ea29cb34381cc7b5d182e4fb07efb7f928"
+      },
+      {
+        "id": "eucalyptus--old-bark",
+        "sha256": "3d7519652169342e9c177b3a03f9e820e0437ca090aa93100a937d245c090bfb"
+      },
+      {
+        "id": "eucalyptus--warm-bark",
+        "sha256": "a38eaf612888a87919f3ee9101ea84fe32727b9e5537b80ea6d3d9ec46df4f13"
+      },
+      {
+        "id": "eucalyptus--twig",
+        "sha256": "c1af532ed17f8d0091e11e3ed026a2c9a2ee904ae0d486e1c8b99c57e1280029"
+      },
+      {
+        "id": "eucalyptus--leaf-olive",
+        "sha256": "d843e2366a79eaa92541f16296e5556a15cc3ab3f5e8c1aae031ee90bcff2d43"
+      },
+      {
+        "id": "eucalyptus--leaf-blue",
+        "sha256": "8ccff1fb88b6f495a7f0ca71bcb93559efba1080fcde6f41cdfbee41da8f933b"
+      },
+      {
+        "id": "eucalyptus--leaf-young",
+        "sha256": "98b7d3cc046e7795df45f1a4f271d8db1f4948bc4213f4891c83ce023701c8e2"
+      },
+      {
+        "id": "eucalyptus-far--pale-bark",
+        "sha256": "ec1dd0456b01df49b6b52841d4617ebd03051ce00b9c7c63d98b65070e5df53a"
+      },
+      {
+        "id": "eucalyptus-far--old-bark",
+        "sha256": "16fb770d557b50fdb76295b77c564e56cd3296085a4f239a0f3e36031c8f1580"
+      },
+      {
+        "id": "eucalyptus-far--warm-bark",
+        "sha256": "9a899c9c1aa95ed3da15e46c243b7491527dce100f187f80cd35dde852c68482"
+      },
+      {
+        "id": "eucalyptus-far--twig",
+        "sha256": "94b5430da2306f4d20bc566c2ab524c6c698b9b16f214289fe7ad6430e5f6281"
+      },
+      {
+        "id": "eucalyptus-far--leaf-olive",
+        "sha256": "1c246979f5e410694ce7a3858bf1b43672033e16f67d68dcf72275cdbe4701fa"
+      },
+      {
+        "id": "eucalyptus-far--leaf-blue",
+        "sha256": "32202a798fb1f927cad34e09ed35fedbbc0e2cdb3e306486b965fad612fd97c5"
+      },
+      {
+        "id": "eucalyptus-far--leaf-young",
+        "sha256": "4e886dfac2b7241404cee33a0c87a65c5122a78ed2026a4ad5d3e45c87923546"
+      },
+      {
+        "id": "canopy--limestone",
+        "sha256": "ad5d1ac24d71add9373540a41960e1c1126e44bbb3ceff3b83dcb3cd56319188"
+      },
+      {
+        "id": "canopy--timber",
+        "sha256": "d63a0fc859720de902e35592da7676e430d78542aa52c8e1f807c290687a40a2"
+      },
+      {
+        "id": "canopy--bronze",
+        "sha256": "97422e8b70694ac7b0f9c23097ac000117c90827325925db94a77da8e553586d"
+      },
+      {
+        "id": "tidal-vessel--limestone",
+        "sha256": "78cf11cc7b75aff9555bb363db971aee4acb590721cc9b3859580c68dcfe3480"
+      },
+      {
+        "id": "tidal-vessel--verdigris",
+        "sha256": "6addef4bceb9c75699ba7471c376ec178838204a20ad7f0fecac6cfb4e0e4bda"
+      },
+      {
+        "id": "tidal-vessel--bronze",
+        "sha256": "78afe807825237b32229beebeca95f17199fca963a46ffe6a3bb77f510aeb7fb"
+      },
+      {
+        "id": "memory-frond--limestone",
+        "sha256": "04d839d4c89ae698436266c588e52a1e2d1a77604ebeff2ac3430c6533ddd475"
+      },
+      {
+        "id": "memory-frond--bronze",
+        "sha256": "7104f41967108a4538427a86a30c3bc13c1647356d94607ee3ed6e7d59150458"
+      },
+      {
+        "id": "memory-frond--leaf",
+        "sha256": "9b8080cbf57eb26d8184fb967fd346031518ed3b4514d84771094fdebcdfec0a"
+      },
+      {
+        "id": "footbridge--bridge-heartwood",
+        "sha256": "c6599a1a80e933b53ce69c9f05d99317b6049fff0242b51590f2578bfdbb59a9"
+      },
+      {
+        "id": "footbridge--bridge-timber",
+        "sha256": "53b7ceb4128c3e680eb51046fb92ffe4c11e6f5b06dbd9fc0e76fb6e1920b34e"
+      },
+      {
+        "id": "footbridge--patinated-bronze",
+        "sha256": "5eeca81394164d0021b26cbca19612d99450d7aebe7ce47d7d7737a5bc25bca2"
+      },
+      {
+        "id": "footbridge--pale-limestone",
+        "sha256": "cef3713993dbe144b47ad7e3928c78080d709344d7ac13753551c299a47980ed"
+      },
+      {
+        "id": "observatory--pale-limestone",
+        "sha256": "b4c7b8d2b04d932b20d4eca282c373a4d5053f1e821e188184d32bbfc65cb505"
+      },
+      {
+        "id": "observatory--patinated-bronze",
+        "sha256": "dfbd0f55ad8f2833f88be7dc689f65c3962afd017f6fb07acf436f1fc46510df"
+      },
+      {
+        "id": "observatory--shadow-metal",
+        "sha256": "49392c92c95eb7e91960571f1f14e56f6a8ba5c041fe6fae6f7bae3139256edc"
+      },
+      {
+        "id": "observatory--receiver-ceramic",
+        "sha256": "36ffd5c9637fc73dc7edc31594b1a3d088e1798587d1f8a9e7723dd8cdd32016"
+      },
+      {
+        "id": "biology--pale-limestone",
+        "sha256": "92633b093eaed90b76dea41410892df488a7c13232868ea0aa0523d1c1a047c7"
+      },
+      {
+        "id": "biology--helix-teal",
+        "sha256": "2e0db72e8f83bc4711722fc95799588d6be3c21c0676a2cb0520fc0f3c1e74d5"
+      },
+      {
+        "id": "biology--shadow-metal",
+        "sha256": "65de3b882e409896874ea426267cd5fbed071c10a4bef5b64506099987d0b98e"
+      },
+      {
+        "id": "biology--helix-gold",
+        "sha256": "b215990b8099111199130ddc00e5f99375e40db2ef7ddcd4f902066a2351a010"
+      },
+      {
+        "id": "habitat-terrain",
+        "sha256": "0d71982db5c21d05a068e9188f7a823670cbadb500f0af5015fdbb008a032d21"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-0",
+        "sha256": "285667639cdff656b6c462f793077245eed8ad6b60be816107430ecb3cfd2c21"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-1",
+        "sha256": "b1f13d1037b153478a210c79b090cb79c5152b8a38671aff18565b913cae5cdc"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-2",
+        "sha256": "569a4ac0872672b9dc58a2376b2eb0d1b2a05ce7dbb60f7294065d15ae4199c6"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-3",
+        "sha256": "e49373db13e7bef3bd31ab4220b5edd6fc8b703ef80e8c803641b09f314489ad"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-4",
+        "sha256": "e7e090911820066f79f2851d1822642b46ea5843cf0463bdc7b300cf88c87cc7"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-5",
+        "sha256": "df10ef0303d665cc18cc79d4ab390616da14676f2a2181756fe3fccd6ae9375f"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-6",
+        "sha256": "ab7168ea2a065218802fe04eed9669cf3e20445d98fab038b12ac846e74d6cbf"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-7",
+        "sha256": "97cfb44556a693538fb8ba6217c684d9d90a1fc488887019ca682c149b5d87b3"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-8",
+        "sha256": "f7cfb95ff2b62b019e7e55ebdacefea982663b05ba6d67be72e491abfda6796e"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-9",
+        "sha256": "b1c5fc719020b7d2a6834eda393e39ba4427235cb6fb0637b1207fb0116108fa"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-10",
+        "sha256": "9f07be36652c70aadf68bb9cc7f615533dd5ec8fbabbd7f66d9d28a676474cbe"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-11",
+        "sha256": "cdc151b8fcebfc6d9300e08a74b1909c3ec74840427812609c3c5b9d72197ebc"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-12",
+        "sha256": "a9d106a5d830879afd8c16fc210f91f59960a49d56bbbbbc53934a99e489cf46"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-13",
+        "sha256": "9ae848b351fd68225562eb4fc8e176287356b5a5db569a5d7d8a1a35e9782193"
+      },
+      {
+        "id": "ecology-eucalyptus-mid-14",
+        "sha256": "874a22829b26401b904feb466d69f07fb671798c75357789f448cb1df67d1343"
+      },
+      {
+        "id": "ecology-eucalyptus-near-0",
+        "sha256": "c96ff5015bad5716c44da508fd23890ffd78f5a48efd23cc5ca274fe965d6773"
+      },
+      {
+        "id": "ecology-eucalyptus-near-1",
+        "sha256": "6ec1e2079561f2c3922e57ffadcc5fd466327f3f9d6d26ec428b2d9f0182154f"
+      },
+      {
+        "id": "ecology-eucalyptus-near-2",
+        "sha256": "ffca5d8fddc5f2aae9ee67a16bc0528b60b6382d55eddf815293de71a60edad7"
+      },
+      {
+        "id": "ecology-bank-rock-mid-0",
+        "sha256": "e4824cbd416d530dc363980a28e27932c2a9ab477bcde0ed9298a91aef8fd972"
+      },
+      {
+        "id": "ecology-bank-rock-mid-1",
+        "sha256": "1c6eae1103af6048c9a5afe9254e679852dcf5ed212383abdf5d3152fb2b518c"
+      },
+      {
+        "id": "ecology-bank-rock-mid-2",
+        "sha256": "b07a763a7f3ccc1c9869808ae45011471874bee788dabc92e5e582ffd0caf1cb"
+      },
+      {
+        "id": "ecology-bank-rock-near-0",
+        "sha256": "625dcc850a3e84dd9d8e59d7822f4ee4a4d20cc94ab0d3406640f6dfba8856eb"
+      },
+      {
+        "id": "ecology-grass-near-0",
+        "sha256": "bb03f4f9835a989ffb88b07972356686c44621bf746b731c406f65887d969984"
+      },
+      {
+        "id": "ecology-grass-near-1",
+        "sha256": "bbffa706d1ae20c56ab820e0d86d07e01ddb6841ad3e627c0b6be94120f01e6f"
+      },
+      {
+        "id": "ecology-grass-near-2",
+        "sha256": "476f1bc17b2197915133a1ba89feed178fd883352b42a950f08567f002d86c66"
+      },
+      {
+        "id": "ecology-grass-mid-0",
+        "sha256": "1fce9ee7ffcc8d106c92bb0a06c36c86a81a0bbdec944ce9ce759d0dde7fa1b3"
+      },
+      {
+        "id": "ecology-grass-mid-1",
+        "sha256": "f0dfb542d2d5b3b36eae8478145c65b49bbee790705cda50019612db7270b0dc"
+      },
+      {
+        "id": "ecology-grass-mid-2",
+        "sha256": "67e15106dba7a80c4b15cdc07b25a73485ae6573c9ad5807f1384fa225a9f9fb"
+      },
+      {
+        "id": "ecology-grass-mid-3",
+        "sha256": "81621ba5d1cb6ee56d73c9f704559e9cb23e630c71913ad39eac71308c56a552"
+      },
+      {
+        "id": "ecology-grass-mid-4",
+        "sha256": "5a6d8bd38a938536271235bc938bbae2d52a1f4ecdb51ba1b926a88bc1f55dd5"
+      },
+      {
+        "id": "ecology-grass-mid-5",
+        "sha256": "eeac77d4e3f29f914345f863d15aece88b29c6cfb82e91b35088d123874194ef"
+      },
+      {
+        "id": "ecology-shrub-branches-0",
+        "sha256": "8756ad74bc00860de9ca566ce1f22569607f14fa7e230bc6494d4601e377032e"
+      },
+      {
+        "id": "ecology-shrub-leaves-0",
+        "sha256": "e3ffc28d95ea1d238557a71af46632df3a0e35685ab60cc5a4cb013e37055b00"
+      },
+      {
+        "id": "ecology-shrub-leaves-1",
+        "sha256": "a3c87d081b762599cb61f7fdbe894f3ea4c0877bbab6404339445b34a641ca12"
+      },
+      {
+        "id": "ecology-shrub-leaves-2",
+        "sha256": "4593cb04400a47486e0638ad1084d6fdabb685701499f184ceb05ef6a1a6d62b"
+      },
+      {
+        "id": "ecology-leaf-litter-0",
+        "sha256": "c29071c6fb8db2d7854de6557271d24fd09f62c7672300c3a217710dc5756a26"
+      }
+    ],
+    "authority": "anonymous-public",
+    "camera": {
+      "pitch": 0.17875227332115173,
+      "target": [
+        -22,
+        5.490921497344971,
+        28
+      ],
+      "yaw": -0.5585992932319641,
+      "zoom": 19.1734676361084
+    },
+    "controller": "Rust/WASM",
+    "default_language": "en-AU",
+    "frame_timing": {
+      "gpu_duration_measured": false,
+      "quantile_method": "nearest rank",
+      "raf_interval_ms": {
+        "p50": 22201.315000000002,
+        "p95": 22201.315000000002
+      },
+      "sample_count": 1,
+      "scope": "Elapsed successful portal.tick CPU/submission call, not GPU execution duration; raw RAF intervals exclude benchmark-paused frames",
+      "tick_cpu_submission_ms": {
+        "p50": 1.8449999690055847,
+        "p95": 1.8449999690055847
+      },
+      "total_frames": 1,
+      "window_capacity": 64
+    },
+    "frames": 2,
+    "framing_viewport": {
+      "height": 1000,
+      "width": 1600
+    },
+    "graphics_initialisation": {
+      "canvas_height": 1000,
+      "canvas_width": 1600,
+      "duration_ms": 1427.175000011921,
+      "requested": "webgpu",
+      "schema": "webizen.native-graphics-init/v1",
+      "selected_backend": "webgpu",
+      "state": "ready"
+    },
+    "instances": null,
+    "path": [
+      "river",
+      "canopy",
+      "observatory",
+      "field-studio",
+      "biology",
+      "atelier",
+      "commons"
+    ],
+    "presentation_settings": {
+      "camera": {
+        "pitch": 0.17555,
+        "target": [
+          -22,
+          5.490921689,
+          28
+        ],
+        "yaw": 0.63275,
+        "zoom": 18.8915
+      },
+      "default_locale": "en-AU",
+      "environment_fallback": [
+        0,
+        0,
+        0
+      ],
+      "environment_probes": [
+        [
+          0,
+          30,
+          0,
+          260,
+          0.9,
+          1.05,
+          1.125,
+          0.18,
+          0.23,
+          0.26,
+          0.16,
+          0.21,
+          0.23,
+          0.14,
+          0.18,
+          0.19,
+          0.12,
+          0.15,
+          0.15,
+          0.09,
+          0.12,
+          0.11,
+          0,
+          1,
+          0
+        ],
+        [
+          -45,
+          12,
+          40,
+          180,
+          0.7,
+          0.775,
+          0.59,
+          0.11,
+          0.13,
+          0.09,
+          0.1,
+          0.12,
+          0.08,
+          0.09,
+          0.11,
+          0.07,
+          0.08,
+          0.1,
+          0.06,
+          0.07,
+          0.08,
+          0.05,
+          0.7,
+          0.5,
+          -0.4
+        ],
+        [
+          45,
+          16,
+          -25,
+          200,
+          0.575,
+          0.725,
+          0.825,
+          0.11,
+          0.15,
+          0.18,
+          0.1,
+          0.14,
+          0.17,
+          0.09,
+          0.13,
+          0.15,
+          0.08,
+          0.11,
+          0.13,
+          0.07,
+          0.09,
+          0.11,
+          -0.7,
+          0.5,
+          0.4
+        ]
+      ],
+      "exposure_ev": 0,
+      "marker_alpha": 1,
+      "marker_height": 3,
+      "marker_sigma": 0.42,
+      "markers_visible": false,
+      "max_dpr": 1.5,
+      "sky_preset": 1,
+      "sun": [
+        -0.55,
+        0.7,
+        0.35,
+        1.7,
+        0.2
+      ],
+      "water": {
+        "amplitude": 0.035,
+        "colour": [
+          0.055,
+          0.24,
+          0.25,
+          0.88
+        ],
+        "frequency": 1.4,
+        "quality": 1
+      }
+    },
+    "purpose": "learn",
+    "q42_reader": "WasmSliceQ42Reader",
+    "q42_rows": 215,
+    "q42_sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+    "renderer": "webgpu",
+    "scene": {
+      "frames_presented": 2,
+      "index_count": 7331760,
+      "renderer": "webgpu",
+      "success": true,
+      "uploaded": true,
+      "vertex_count": 1917824
+    },
+    "schema": "webizen.native-world-receipt/v1",
+    "selected_place": "field-studio",
+    "served_build_identity": {
+      "cargo_lock_sha256": "520d8852534947434a61df706780e2e5e1744143fd67bb54a2644b8bcb0380ae",
+      "compiler": "rustc 1.96.1 (31fca3adb 2026-06-26)",
+      "generated_loader_sha256": "2167aaaeaf54051e88db1cca25e28b72c434237f2a096f71e9f2c3bf28dde7c3",
+      "host_source_fingerprint": "7156863082cd826ef04cd398ddfc68604595ab7852d2379c1bb797e147412b64",
+      "identity_kind": "served build identity; browser QA must compare served WASM bytes with this digest",
+      "native_core": {
+        "repository": "qualiaDB",
+        "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+        "source_file_count": 3821,
+        "source_fingerprint": "2305d404db62429d1fd5e234e8c45aa903a010f8523dce410b4df88dab4ef468",
+        "tracked_dirty": [
+          " M crates/qualia-core-db/src/domains/geospatial/adapters/dem_adapter.rs",
+          " M crates/qualia-core-db/src/domains/geospatial/dem.rs",
+          " M crates/qualia-core-db/src/render/gpu/animated_upload.rs",
+          " M crates/qualia-core-db/src/render/gpu/ao.rs",
+          " M crates/qualia-core-db/src/render/gpu/instance_visibility.rs",
+          " M crates/qualia-core-db/src/render/gpu/mesh_upload.rs",
+          " M crates/qualia-core-db/src/render/gpu/mod.rs",
+          " M crates/qualia-core-db/src/render/gpu/portal_gpu/init.rs",
+          " M crates/qualia-core-db/src/render/gpu/portal_gpu/lighting_passes.rs",
+          " M crates/qualia-core-db/src/render/gpu/portal_gpu/picking.rs",
+          " M crates/qualia-core-db/src/render/gpu/portal_gpu/render_frame.rs",
+          " M crates/qualia-core-db/src/render/portal/emf_preview.rs",
+          " M crates/qualia-core-db/src/render/portal/mod.rs",
+          " M crates/qualia-core-db/src/render/portal/scene_mesh.rs",
+          " M crates/qualia-core-db/src/render/portal/scene_mesh_tests.rs"
+        ],
+        "untracked_source_files": [
+          "src/render/gpu/instance_group_upload.rs",
+          "src/render/gpu/instance_group_visibility.rs",
+          "src/render/gpu/instance_groups.rs",
+          "src/render/gpu/instance_groups_tests.rs",
+          "src/render/gpu/mesh_upload_limits.rs",
+          "src/render/portal/instance_groups.rs",
+          "src/render/portal/scene_frames.rs",
+          "src/render/portal/scene_frames_tests.rs",
+          "src/render/portal/scene_loader.rs"
+        ]
+      },
+      "render_provider": {
+        "emf_cpu_reference_sha256": "bfc7d264370cbe591e892585a63dcf77e890c8703fa709c440cbb97cee305902",
+        "emf_shader_sha256": "1b2eb897a6375c491122192047eff5d2dcbeb759238db68b24bd2f486aa21d4a",
+        "locked_all_platform_provider_crates": 30,
+        "repository": "https://github.com/mediaprophet/etalon.git",
+        "resolved_crates": [
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon\\Cargo.toml",
+            "name": "etalon",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-agent\\Cargo.toml",
+            "name": "etalon-agent",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-core\\Cargo.toml",
+            "name": "etalon-core",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-hal\\Cargo.toml",
+            "name": "etalon-hal",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference\\Cargo.toml",
+            "name": "etalon-inference",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-contract\\Cargo.toml",
+            "name": "etalon-inference-contract",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-kernel\\Cargo.toml",
+            "name": "etalon-inference-kernel",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-model\\Cargo.toml",
+            "name": "etalon-model",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-naga-bridge\\Cargo.toml",
+            "name": "etalon-naga-bridge",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-nquin\\Cargo.toml",
+            "name": "etalon-nquin",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-render\\Cargo.toml",
+            "name": "etalon-render",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-resources\\Cargo.toml",
+            "name": "etalon-resources",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sense-core\\Cargo.toml",
+            "name": "etalon-sense-core",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-signal\\Cargo.toml",
+            "name": "etalon-signal",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sim\\Cargo.toml",
+            "name": "etalon-sim",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-sync\\Cargo.toml",
+            "name": "etalon-sync",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-tensor\\Cargo.toml",
+            "name": "etalon-tensor",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-types\\Cargo.toml",
+            "name": "etalon-types",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-vibe\\Cargo.toml",
+            "name": "etalon-vibe",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wasm\\Cargo.toml",
+            "name": "etalon-wasm",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wgsl-forge\\Cargo.toml",
+            "name": "etalon-wgsl-forge",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga\\Cargo.toml",
+            "name": "naga",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          },
+          {
+            "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga-types\\Cargo.toml",
+            "name": "naga-types",
+            "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+            "version": "0.0.2"
+          }
+        ],
+        "resolved_wasm_provider_crates": 23,
+        "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+        "source_kind": "pushed immutable Git revision; no local provider overrides"
+      },
+      "schema": "webizen.native-runtime-identity/v1",
+      "wasm": {
+        "bytes": 16578897,
+        "sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394",
+        "url": "/pkg/native-world/webizen_world_bg.wasm"
+      }
+    },
+    "textures": {
+      "count": 18,
+      "dependencies": [
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 48093,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 0,
+          "sha256": "6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d",
+          "url": "/production/aaa-proof/textures/6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 77817,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 1,
+          "sha256": "7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112",
+          "url": "/production/aaa-proof/textures/7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 37156,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 2,
+          "sha256": "ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382",
+          "url": "/production/aaa-proof/textures/ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 45718,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 0,
+          "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+          "url": "/production/aaa-proof/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 59852,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 1,
+          "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+          "url": "/production/aaa-proof/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 15539,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 2,
+          "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+          "url": "/production/aaa-proof/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 42157,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 0,
+          "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+          "url": "/production/aaa-proof/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 17703,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 1,
+          "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+          "url": "/production/aaa-proof/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 16285,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 2,
+          "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+          "url": "/production/aaa-proof/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 41152,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 0,
+          "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+          "url": "/production/aaa-proof/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 33910,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 1,
+          "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+          "url": "/production/aaa-proof/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 16374,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 2,
+          "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+          "url": "/production/aaa-proof/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 40837,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 0,
+          "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+          "url": "/production/aaa-proof/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 17220,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 1,
+          "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+          "url": "/production/aaa-proof/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 15927,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 2,
+          "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+          "url": "/production/aaa-proof/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 41434,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 0,
+          "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+          "url": "/production/aaa-proof/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 24560,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 1,
+          "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+          "url": "/production/aaa-proof/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png"
+        },
+        {
+          "cutoff": 0.5,
+          "encoded_bytes": 15829,
+          "mime_type": "image/png",
+          "native_resident": true,
+          "role": 2,
+          "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+          "url": "/production/aaa-proof/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png"
+        }
+      ],
+      "encoded_bytes": 607563,
+      "loader": "QualiaPortal::load_texture_encoded"
+    },
+    "upload": {
+      "assets_loaded": 118,
+      "assets_refused": 0,
+      "material_pipeline": true,
+      "material_ranges": 1915,
+      "materials_loaded": 75,
+      "organs_loaded": 118,
+      "organs_refused": 0,
+      "parts": [
+        {
+          "first_index": 0,
+          "id": "car-passat-b7--gold",
+          "index_count": 30390,
+          "vertex_count": 5069,
+          "vertex_start": 0
+        },
+        {
+          "first_index": 30390,
+          "id": "car-passat-b7--glass",
+          "index_count": 7344,
+          "vertex_count": 1244,
+          "vertex_start": 5069
+        },
+        {
+          "first_index": 37734,
+          "id": "car-passat-b7--chrome",
+          "index_count": 45912,
+          "vertex_count": 6462,
+          "vertex_start": 6313
+        },
+        {
+          "first_index": 83646,
+          "id": "car-passat-b7--trim",
+          "index_count": 39864,
+          "vertex_count": 6704,
+          "vertex_start": 12775
+        },
+        {
+          "first_index": 123510,
+          "id": "car-passat-b7--rubber",
+          "index_count": 16896,
+          "vertex_count": 2824,
+          "vertex_start": 19479
+        },
+        {
+          "first_index": 140406,
+          "id": "car-passat-b7--brake",
+          "index_count": 3072,
+          "vertex_count": 520,
+          "vertex_start": 22303
+        },
+        {
+          "first_index": 143478,
+          "id": "car-passat-b7--alloy",
+          "index_count": 31968,
+          "vertex_count": 5380,
+          "vertex_start": 22823
+        },
+        {
+          "first_index": 175446,
+          "id": "car-passat-b7--red",
+          "index_count": 6936,
+          "vertex_count": 1160,
+          "vertex_start": 28203
+        },
+        {
+          "first_index": 182382,
+          "id": "car-passat-b7--lamp",
+          "index_count": 7992,
+          "vertex_count": 1290,
+          "vertex_start": 29363
+        },
+        {
+          "first_index": 190374,
+          "id": "car-passat-b7--plate",
+          "index_count": 3516,
+          "vertex_count": 590,
+          "vertex_start": 30653
+        },
+        {
+          "first_index": 193890,
+          "id": "car-passat-b7--lamp-interior",
+          "index_count": 13872,
+          "vertex_count": 2320,
+          "vertex_start": 31243
+        },
+        {
+          "first_index": 207762,
+          "id": "car-passat-b7--projector",
+          "index_count": 6720,
+          "vertex_count": 1128,
+          "vertex_start": 33563
+        },
+        {
+          "first_index": 214482,
+          "id": "car-passat-b7--roofbox-base",
+          "index_count": 3024,
+          "vertex_count": 524,
+          "vertex_start": 34691
+        },
+        {
+          "first_index": 217506,
+          "id": "car-passat-b7--roofbox",
+          "index_count": 1020,
+          "vertex_count": 172,
+          "vertex_start": 35215
+        },
+        {
+          "first_index": 218526,
+          "id": "vintage-windup-camper--chassis",
+          "index_count": 912,
+          "vertex_count": 180,
+          "vertex_start": 35387
+        },
+        {
+          "first_index": 219438,
+          "id": "vintage-windup-camper--rubber",
+          "index_count": 13824,
+          "vertex_count": 2344,
+          "vertex_start": 35567
+        },
+        {
+          "first_index": 233262,
+          "id": "vintage-windup-camper--enamel",
+          "index_count": 4704,
+          "vertex_count": 808,
+          "vertex_start": 37911
+        },
+        {
+          "first_index": 237966,
+          "id": "vintage-windup-camper--chrome",
+          "index_count": 2256,
+          "vertex_count": 408,
+          "vertex_start": 38719
+        },
+        {
+          "first_index": 240222,
+          "id": "vintage-windup-camper--ochre",
+          "index_count": 192,
+          "vertex_count": 40,
+          "vertex_start": 39127
+        },
+        {
+          "first_index": 240414,
+          "id": "vintage-windup-camper--olive",
+          "index_count": 1848,
+          "vertex_count": 362,
+          "vertex_start": 39167
+        },
+        {
+          "first_index": 242262,
+          "id": "vintage-windup-camper--roof",
+          "index_count": 432,
+          "vertex_count": 74,
+          "vertex_start": 39529
+        },
+        {
+          "first_index": 242694,
+          "id": "vintage-windup-camper--canvas",
+          "index_count": 48,
+          "vertex_count": 10,
+          "vertex_start": 39603
+        },
+        {
+          "first_index": 242742,
+          "id": "vintage-windup-camper--screen",
+          "index_count": 576,
+          "vertex_count": 118,
+          "vertex_start": 39613
+        },
+        {
+          "first_index": 243318,
+          "id": "vintage-windup-camper--canvas-seam",
+          "index_count": 3072,
+          "vertex_count": 576,
+          "vertex_start": 39731
+        },
+        {
+          "first_index": 246390,
+          "id": "vintage-windup-camper--screen-wire",
+          "index_count": 1584,
+          "vertex_count": 308,
+          "vertex_start": 40307
+        },
+        {
+          "first_index": 247974,
+          "id": "vintage-windup-camper--step",
+          "index_count": 48,
+          "vertex_count": 10,
+          "vertex_start": 40615
+        },
+        {
+          "first_index": 248022,
+          "id": "vintage-windup-camper--steel",
+          "index_count": 1632,
+          "vertex_count": 308,
+          "vertex_start": 40625
+        },
+        {
+          "first_index": 249654,
+          "id": "vintage-windup-camper--canvas-roof",
+          "index_count": 144,
+          "vertex_count": 28,
+          "vertex_start": 40933
+        },
+        {
+          "first_index": 249798,
+          "id": "vintage-windup-camper--red-lens",
+          "index_count": 96,
+          "vertex_count": 20,
+          "vertex_start": 40961
+        },
+        {
+          "first_index": 249894,
+          "id": "vintage-windup-camper--amber-lens",
+          "index_count": 96,
+          "vertex_count": 20,
+          "vertex_start": 40981
+        },
+        {
+          "first_index": 249990,
+          "id": "solar-array-three--backing",
+          "index_count": 288,
+          "vertex_count": 60,
+          "vertex_start": 41001
+        },
+        {
+          "first_index": 250278,
+          "id": "solar-array-three--panel",
+          "index_count": 288,
+          "vertex_count": 60,
+          "vertex_start": 41061
+        },
+        {
+          "first_index": 250566,
+          "id": "solar-array-three--aluminium",
+          "index_count": 3744,
+          "vertex_count": 708,
+          "vertex_start": 41121
+        },
+        {
+          "first_index": 254310,
+          "id": "solar-array-three--cell-line",
+          "index_count": 4032,
+          "vertex_count": 840,
+          "vertex_start": 41829
+        },
+        {
+          "first_index": 258342,
+          "id": "solar-array-three--rubber",
+          "index_count": 3504,
+          "vertex_count": 644,
+          "vertex_start": 42669
+        },
+        {
+          "first_index": 261846,
+          "id": "solar-array-two--backing",
+          "index_count": 96,
+          "vertex_count": 20,
+          "vertex_start": 43313
+        },
+        {
+          "first_index": 261942,
+          "id": "solar-array-two--panel",
+          "index_count": 96,
+          "vertex_count": 20,
+          "vertex_start": 43333
+        },
+        {
+          "first_index": 262038,
+          "id": "solar-array-two--aluminium",
+          "index_count": 1248,
+          "vertex_count": 236,
+          "vertex_start": 43353
+        },
+        {
+          "first_index": 263286,
+          "id": "solar-array-two--cell-line",
+          "index_count": 1344,
+          "vertex_count": 280,
+          "vertex_start": 43589
+        },
+        {
+          "first_index": 264630,
+          "id": "solar-array-two--rubber",
+          "index_count": 1320,
+          "vertex_count": 240,
+          "vertex_start": 43869
+        },
+        {
+          "first_index": 265950,
+          "id": "starlink-mini--dish-back",
+          "index_count": 768,
+          "vertex_count": 138,
+          "vertex_start": 44109
+        },
+        {
+          "first_index": 266718,
+          "id": "starlink-mini--dish-front",
+          "index_count": 384,
+          "vertex_count": 66,
+          "vertex_start": 44247
+        },
+        {
+          "first_index": 267102,
+          "id": "starlink-mini--backing",
+          "index_count": 48,
+          "vertex_count": 10,
+          "vertex_start": 44313
+        },
+        {
+          "first_index": 267150,
+          "id": "starlink-mini--mount",
+          "index_count": 264,
+          "vertex_count": 48,
+          "vertex_start": 44323
+        },
+        {
+          "first_index": 267414,
+          "id": "starlink-mini--rubber",
+          "index_count": 444,
+          "vertex_count": 78,
+          "vertex_start": 44371
+        },
+        {
+          "first_index": 267858,
+          "id": "starlink-mini--aluminium",
+          "index_count": 384,
+          "vertex_count": 72,
+          "vertex_start": 44449
+        },
+        {
+          "first_index": 268242,
+          "id": "eucalyptus--pale-bark",
+          "index_count": 79704,
+          "vertex_count": 13836,
+          "vertex_start": 44521
+        },
+        {
+          "first_index": 347946,
+          "id": "eucalyptus--old-bark",
+          "index_count": 17964,
+          "vertex_count": 3174,
+          "vertex_start": 58357
+        },
+        {
+          "first_index": 365910,
+          "id": "eucalyptus--warm-bark",
+          "index_count": 10548,
+          "vertex_count": 1794,
+          "vertex_start": 61531
+        },
+        {
+          "first_index": 376458,
+          "id": "eucalyptus--twig",
+          "index_count": 119880,
+          "vertex_count": 21420,
+          "vertex_start": 63325
+        },
+        {
+          "first_index": 496338,
+          "id": "eucalyptus--leaf-olive",
+          "index_count": 198252,
+          "vertex_count": 42330,
+          "vertex_start": 84745
+        },
+        {
+          "first_index": 694590,
+          "id": "eucalyptus--leaf-blue",
+          "index_count": 144216,
+          "vertex_count": 30792,
+          "vertex_start": 127075
+        },
+        {
+          "first_index": 838806,
+          "id": "eucalyptus--leaf-young",
+          "index_count": 149328,
+          "vertex_count": 31884,
+          "vertex_start": 157867
+        },
+        {
+          "first_index": 988134,
+          "id": "eucalyptus-far--pale-bark",
+          "index_count": 31824,
+          "vertex_count": 6408,
+          "vertex_start": 189751
+        },
+        {
+          "first_index": 1019958,
+          "id": "eucalyptus-far--old-bark",
+          "index_count": 7128,
+          "vertex_count": 1548,
+          "vertex_start": 196159
+        },
+        {
+          "first_index": 1027086,
+          "id": "eucalyptus-far--warm-bark",
+          "index_count": 4176,
+          "vertex_count": 768,
+          "vertex_start": 197707
+        },
+        {
+          "first_index": 1031262,
+          "id": "eucalyptus-far--twig",
+          "index_count": 47952,
+          "vertex_count": 10872,
+          "vertex_start": 198475
+        },
+        {
+          "first_index": 1079214,
+          "id": "eucalyptus-far--leaf-olive",
+          "index_count": 79272,
+          "vertex_count": 23388,
+          "vertex_start": 209347
+        },
+        {
+          "first_index": 1158486,
+          "id": "eucalyptus-far--leaf-blue",
+          "index_count": 57672,
+          "vertex_count": 17052,
+          "vertex_start": 232735
+        },
+        {
+          "first_index": 1216158,
+          "id": "eucalyptus-far--leaf-young",
+          "index_count": 59688,
+          "vertex_count": 17508,
+          "vertex_start": 249787
+        },
+        {
+          "first_index": 1275846,
+          "id": "canopy--limestone",
+          "index_count": 5376,
+          "vertex_count": 1024,
+          "vertex_start": 267295
+        },
+        {
+          "first_index": 1281222,
+          "id": "canopy--timber",
+          "index_count": 45504,
+          "vertex_count": 7632,
+          "vertex_start": 268319
+        },
+        {
+          "first_index": 1326726,
+          "id": "canopy--bronze",
+          "index_count": 18432,
+          "vertex_count": 3092,
+          "vertex_start": 275951
+        },
+        {
+          "first_index": 1345158,
+          "id": "tidal-vessel--limestone",
+          "index_count": 4608,
+          "vertex_count": 896,
+          "vertex_start": 279043
+        },
+        {
+          "first_index": 1349766,
+          "id": "tidal-vessel--verdigris",
+          "index_count": 56448,
+          "vertex_count": 9504,
+          "vertex_start": 279939
+        },
+        {
+          "first_index": 1406214,
+          "id": "tidal-vessel--bronze",
+          "index_count": 27648,
+          "vertex_count": 4638,
+          "vertex_start": 289443
+        },
+        {
+          "first_index": 1433862,
+          "id": "memory-frond--limestone",
+          "index_count": 3072,
+          "vertex_count": 640,
+          "vertex_start": 294081
+        },
+        {
+          "first_index": 1436934,
+          "id": "memory-frond--bronze",
+          "index_count": 2952,
+          "vertex_count": 494,
+          "vertex_start": 294721
+        },
+        {
+          "first_index": 1439886,
+          "id": "memory-frond--leaf",
+          "index_count": 36000,
+          "vertex_count": 6040,
+          "vertex_start": 295215
+        },
+        {
+          "first_index": 1475886,
+          "id": "footbridge--bridge-heartwood",
+          "index_count": 3600,
+          "vertex_count": 624,
+          "vertex_start": 301255
+        },
+        {
+          "first_index": 1479486,
+          "id": "footbridge--bridge-timber",
+          "index_count": 8112,
+          "vertex_count": 1532,
+          "vertex_start": 301879
+        },
+        {
+          "first_index": 1487598,
+          "id": "footbridge--patinated-bronze",
+          "index_count": 14112,
+          "vertex_count": 2428,
+          "vertex_start": 303411
+        },
+        {
+          "first_index": 1501710,
+          "id": "footbridge--pale-limestone",
+          "index_count": 192,
+          "vertex_count": 40,
+          "vertex_start": 305839
+        },
+        {
+          "first_index": 1501902,
+          "id": "observatory--pale-limestone",
+          "index_count": 3840,
+          "vertex_count": 768,
+          "vertex_start": 305879
+        },
+        {
+          "first_index": 1505742,
+          "id": "observatory--patinated-bronze",
+          "index_count": 35244,
+          "vertex_count": 6062,
+          "vertex_start": 306647
+        },
+        {
+          "first_index": 1540986,
+          "id": "observatory--shadow-metal",
+          "index_count": 16440,
+          "vertex_count": 2768,
+          "vertex_start": 312709
+        },
+        {
+          "first_index": 1557426,
+          "id": "observatory--receiver-ceramic",
+          "index_count": 47040,
+          "vertex_count": 7920,
+          "vertex_start": 315477
+        },
+        {
+          "first_index": 1604466,
+          "id": "biology--pale-limestone",
+          "index_count": 3840,
+          "vertex_count": 768,
+          "vertex_start": 323397
+        },
+        {
+          "first_index": 1608306,
+          "id": "biology--helix-teal",
+          "index_count": 15708,
+          "vertex_count": 2666,
+          "vertex_start": 324165
+        },
+        {
+          "first_index": 1624014,
+          "id": "biology--shadow-metal",
+          "index_count": 240,
+          "vertex_count": 44,
+          "vertex_start": 326831
+        },
+        {
+          "first_index": 1624254,
+          "id": "biology--helix-gold",
+          "index_count": 15708,
+          "vertex_count": 2666,
+          "vertex_start": 326875
+        },
+        {
+          "first_index": 1639962,
+          "id": "habitat-terrain",
+          "index_count": 153600,
+          "vertex_count": 25921,
+          "vertex_start": 329541
+        },
+        {
+          "first_index": 1793562,
+          "id": "ecology-eucalyptus-mid-0",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 355462
+        },
+        {
+          "first_index": 1937418,
+          "id": "ecology-eucalyptus-mid-1",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 394234
+        },
+        {
+          "first_index": 2081274,
+          "id": "ecology-eucalyptus-mid-2",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 433006
+        },
+        {
+          "first_index": 2225130,
+          "id": "ecology-eucalyptus-mid-3",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 471778
+        },
+        {
+          "first_index": 2368986,
+          "id": "ecology-eucalyptus-mid-4",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 510550
+        },
+        {
+          "first_index": 2512842,
+          "id": "ecology-eucalyptus-mid-5",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 549322
+        },
+        {
+          "first_index": 2656698,
+          "id": "ecology-eucalyptus-mid-6",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 588094
+        },
+        {
+          "first_index": 2800554,
+          "id": "ecology-eucalyptus-mid-7",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 626866
+        },
+        {
+          "first_index": 2944410,
+          "id": "ecology-eucalyptus-mid-8",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 665638
+        },
+        {
+          "first_index": 3088266,
+          "id": "ecology-eucalyptus-mid-9",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 704410
+        },
+        {
+          "first_index": 3232122,
+          "id": "ecology-eucalyptus-mid-10",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 743182
+        },
+        {
+          "first_index": 3375978,
+          "id": "ecology-eucalyptus-mid-11",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 781954
+        },
+        {
+          "first_index": 3519834,
+          "id": "ecology-eucalyptus-mid-12",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 820726
+        },
+        {
+          "first_index": 3663690,
+          "id": "ecology-eucalyptus-mid-13",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 859498
+        },
+        {
+          "first_index": 3807546,
+          "id": "ecology-eucalyptus-mid-14",
+          "index_count": 143856,
+          "vertex_count": 38772,
+          "vertex_start": 898270
+        },
+        {
+          "first_index": 3951402,
+          "id": "ecology-eucalyptus-near-0",
+          "index_count": 119982,
+          "vertex_count": 24205,
+          "vertex_start": 937042
+        },
+        {
+          "first_index": 4071384,
+          "id": "ecology-eucalyptus-near-1",
+          "index_count": 119982,
+          "vertex_count": 24205,
+          "vertex_start": 961247
+        },
+        {
+          "first_index": 4191366,
+          "id": "ecology-eucalyptus-near-2",
+          "index_count": 119982,
+          "vertex_count": 24205,
+          "vertex_start": 985452
+        },
+        {
+          "first_index": 4311348,
+          "id": "ecology-bank-rock-mid-0",
+          "index_count": 27648,
+          "vertex_count": 6144,
+          "vertex_start": 1009657
+        },
+        {
+          "first_index": 4338996,
+          "id": "ecology-bank-rock-mid-1",
+          "index_count": 27648,
+          "vertex_count": 6144,
+          "vertex_start": 1015801
+        },
+        {
+          "first_index": 4366644,
+          "id": "ecology-bank-rock-mid-2",
+          "index_count": 9216,
+          "vertex_count": 2048,
+          "vertex_start": 1021945
+        },
+        {
+          "first_index": 4375860,
+          "id": "ecology-bank-rock-near-0",
+          "index_count": 97920,
+          "vertex_count": 18180,
+          "vertex_start": 1023993
+        },
+        {
+          "first_index": 4473780,
+          "id": "ecology-grass-near-0",
+          "index_count": 248076,
+          "vertex_count": 72243,
+          "vertex_start": 1042173
+        },
+        {
+          "first_index": 4721856,
+          "id": "ecology-grass-near-1",
+          "index_count": 248076,
+          "vertex_count": 72243,
+          "vertex_start": 1114416
+        },
+        {
+          "first_index": 4969932,
+          "id": "ecology-grass-near-2",
+          "index_count": 248076,
+          "vertex_count": 72243,
+          "vertex_start": 1186659
+        },
+        {
+          "first_index": 5218008,
+          "id": "ecology-grass-mid-0",
+          "index_count": 235296,
+          "vertex_count": 73368,
+          "vertex_start": 1258902
+        },
+        {
+          "first_index": 5453304,
+          "id": "ecology-grass-mid-1",
+          "index_count": 235296,
+          "vertex_count": 73368,
+          "vertex_start": 1332270
+        },
+        {
+          "first_index": 5688600,
+          "id": "ecology-grass-mid-2",
+          "index_count": 235296,
+          "vertex_count": 73368,
+          "vertex_start": 1405638
+        },
+        {
+          "first_index": 5923896,
+          "id": "ecology-grass-mid-3",
+          "index_count": 235296,
+          "vertex_count": 73368,
+          "vertex_start": 1479006
+        },
+        {
+          "first_index": 6159192,
+          "id": "ecology-grass-mid-4",
+          "index_count": 235296,
+          "vertex_count": 73368,
+          "vertex_start": 1552374
+        },
+        {
+          "first_index": 6394488,
+          "id": "ecology-grass-mid-5",
+          "index_count": 137256,
+          "vertex_count": 42798,
+          "vertex_start": 1625742
+        },
+        {
+          "first_index": 6531744,
+          "id": "ecology-shrub-branches-0",
+          "index_count": 148176,
+          "vertex_count": 39564,
+          "vertex_start": 1668540
+        },
+        {
+          "first_index": 6679920,
+          "id": "ecology-shrub-leaves-0",
+          "index_count": 210000,
+          "vertex_count": 66760,
+          "vertex_start": 1708104
+        },
+        {
+          "first_index": 6889920,
+          "id": "ecology-shrub-leaves-1",
+          "index_count": 210000,
+          "vertex_count": 66760,
+          "vertex_start": 1774864
+        },
+        {
+          "first_index": 7099920,
+          "id": "ecology-shrub-leaves-2",
+          "index_count": 168000,
+          "vertex_count": 53408,
+          "vertex_start": 1841624
+        },
+        {
+          "first_index": 7267920,
+          "id": "ecology-leaf-litter-0",
+          "index_count": 63840,
+          "vertex_count": 22792,
+          "vertex_start": 1895032
+        }
+      ],
+      "renderer": "webgpu",
+      "semantic_nodes": 0,
+      "total_triangles": 2443920,
+      "uploaded": true,
+      "vertex_count": 1917824
+    },
+    "verified_texture_bindings": 76,
+    "vibe_evaluator": "PoetSnapshot::eval_fn",
+    "vibe_sha256": "1b7842fbba396723a10467c3c5bcf87e4f04f017fd8c21a720dbcb917446f999"
+  },
+  "observations": {
+    "elapsed_ms": 8687.875,
+    "raf_intervals_ms": [
+      3813.3700000453027,
+      1424.3399999999965,
+      937.385000000002
+    ],
+    "world": {
+      "asset_bytes": 262515624,
+      "assets": [
+        {
+          "id": "car-passat-b7--gold",
+          "sha256": "867940c9ca9ed32cf7161757d34807ba1d91f45714f95817702e38f84a8964d7"
+        },
+        {
+          "id": "car-passat-b7--glass",
+          "sha256": "6e8db07d9364b72bcfa3db507e55d1e30198e23fd6d4ed24ea4b326616f68046"
+        },
+        {
+          "id": "car-passat-b7--chrome",
+          "sha256": "499456a6fc89bfead47337c0ebca31d3cdb91f0d46bfca33997af9ff8e353a26"
+        },
+        {
+          "id": "car-passat-b7--trim",
+          "sha256": "57afc4e963e7b0008df4534176295f21b2f98a48edf84e815a83b044d4a6788e"
+        },
+        {
+          "id": "car-passat-b7--rubber",
+          "sha256": "39aa9e607f33bb998a97e08982541c0f1be6aebaab0e54ccd9378779e6e22e79"
+        },
+        {
+          "id": "car-passat-b7--brake",
+          "sha256": "468c85dcfa9d5fe0638a5345adaf0c66d419bd790ef5ddb1e1b2fe81882c0219"
+        },
+        {
+          "id": "car-passat-b7--alloy",
+          "sha256": "716d3e0fd9f1fbc939dcaa6bf20b845335f3976e3ec05614842adab133ece362"
+        },
+        {
+          "id": "car-passat-b7--red",
+          "sha256": "392c21aa786bf0e4ccb977e01de453d8eaa92da3b6da0c8c58d4bd5ea5993a40"
+        },
+        {
+          "id": "car-passat-b7--lamp",
+          "sha256": "fbf113ca06776e709d2961aeba2ec539607dc2e277233bb3c72addbf11f8af0a"
+        },
+        {
+          "id": "car-passat-b7--plate",
+          "sha256": "484b0f864ff73891da1c6d76bfa2affdb37559c121d294a2e7188de341f730a9"
+        },
+        {
+          "id": "car-passat-b7--lamp-interior",
+          "sha256": "924af626677f93c70a3b956ad4244fee2b059e531f5a894e459e0842bd8c3f28"
+        },
+        {
+          "id": "car-passat-b7--projector",
+          "sha256": "b325e1e9c31362fc83a23ba1da34143d9813274aaf4fe24c9abd8f21b8b805e3"
+        },
+        {
+          "id": "car-passat-b7--roofbox-base",
+          "sha256": "2160425a2a8d576e1c1220386c08744f97e6b2bb378d404c880f67009cfd45c7"
+        },
+        {
+          "id": "car-passat-b7--roofbox",
+          "sha256": "7817e6c448f95a8ccc14b688cc670a903d502245339272b0a131c063232e104e"
+        },
+        {
+          "id": "vintage-windup-camper--chassis",
+          "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1"
+        },
+        {
+          "id": "vintage-windup-camper--rubber",
+          "sha256": "f2a2eebfe80ac30cde111121c78748a4d6c7dd68427cc49fe0c741ffee54c2aa"
+        },
+        {
+          "id": "vintage-windup-camper--enamel",
+          "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6"
+        },
+        {
+          "id": "vintage-windup-camper--chrome",
+          "sha256": "cbc922046d41f957656ca651a839cd6a8cf9a430eb299355546a2e2213d7dde3"
+        },
+        {
+          "id": "vintage-windup-camper--ochre",
+          "sha256": "3625f95c1739c691507dc84683319a167079525781cd8982f041cdb59a140ddc"
+        },
+        {
+          "id": "vintage-windup-camper--olive",
+          "sha256": "affeb23767b3446a03e96a46e340f2c6a3034297b1ccdb8000ab4afa2d70bd9e"
+        },
+        {
+          "id": "vintage-windup-camper--roof",
+          "sha256": "9a14cd1450c2c7815b97daed34aa39873f40f5f4c97b23baee2bc71a9ceb4030"
+        },
+        {
+          "id": "vintage-windup-camper--canvas",
+          "sha256": "781f017544478d1e45124e51ed65e9422642b2846acc485a49890fd11bf11be6"
+        },
+        {
+          "id": "vintage-windup-camper--screen",
+          "sha256": "cea5b36c22bb44337fe149e5d1de4093abacca53ca8a93c80fb55e7b056b7b0a"
+        },
+        {
+          "id": "vintage-windup-camper--canvas-seam",
+          "sha256": "32eb6339e6504c73a98aec6e7fe039caf899854a4b32299304a0cd20cc8bf829"
+        },
+        {
+          "id": "vintage-windup-camper--screen-wire",
+          "sha256": "5ed1cb96d4466dc91a2922a2615b8d31e8c35b03f223e9b28c5fc53ab65eec22"
+        },
+        {
+          "id": "vintage-windup-camper--step",
+          "sha256": "caa23bb8212b2707698d6eddc807adee4154c0a93b89249faede6ed51d4be671"
+        },
+        {
+          "id": "vintage-windup-camper--steel",
+          "sha256": "da9398381ef3dc2b5ab72225c1b0f1169819561d63717a8b9d8f35f629a38d61"
+        },
+        {
+          "id": "vintage-windup-camper--canvas-roof",
+          "sha256": "b8658fdabe94f8d22c79a4311e1207b225bb82273a33935620a85670a27bd855"
+        },
+        {
+          "id": "vintage-windup-camper--red-lens",
+          "sha256": "c47bada4f39c36eaba504dabaa4fea48e0c9b5a502a77a4a98188cea0d5c7171"
+        },
+        {
+          "id": "vintage-windup-camper--amber-lens",
+          "sha256": "441e051c7ddd32599078139bf6b51b33e615a1c1fd0165e1cb58000336b75b8a"
+        },
+        {
+          "id": "solar-array-three--backing",
+          "sha256": "a742aa791829d94a649ef842e55d04c5cecf9be46f9f4935efaa1ceb7fbdadd7"
+        },
+        {
+          "id": "solar-array-three--panel",
+          "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994"
+        },
+        {
+          "id": "solar-array-three--aluminium",
+          "sha256": "55fa97a577e3aab5f5dd913ba8c034122b2097ced012ea4467d5781a2bd10060"
+        },
+        {
+          "id": "solar-array-three--cell-line",
+          "sha256": "5135fafe7bcb3cd56fedc352e4b771ad7b33d448e98e1b2fa39c4bcf0964f054"
+        },
+        {
+          "id": "solar-array-three--rubber",
+          "sha256": "028a155587fbe10bfcefedd1e5acf13c0a77529e4e9e220411c32f76a0c85f96"
+        },
+        {
+          "id": "solar-array-two--backing",
+          "sha256": "12e59dc647ff0c80033b5463a555ce8d93a9de55858a37d95387ae4faa00bc54"
+        },
+        {
+          "id": "solar-array-two--panel",
+          "sha256": "db70b240653101707fde16c2535821dbdc15fa6caf437f7663b1034dadb38ad5"
+        },
+        {
+          "id": "solar-array-two--aluminium",
+          "sha256": "b24d54169993b011271508f894b521874e11ff98977f89f4b569aa19da08b90e"
+        },
+        {
+          "id": "solar-array-two--cell-line",
+          "sha256": "74caee3cd6fae95fd7a116c24d5c8fe11af13437d32b4817b97a3f142a6ea3f7"
+        },
+        {
+          "id": "solar-array-two--rubber",
+          "sha256": "8171886a63020b2ea8054a001bc4a8c17ede26037347652d596c20be78b4a942"
+        },
+        {
+          "id": "starlink-mini--dish-back",
+          "sha256": "a6f2be1d35e7aab38851c277cfc480efc7f4489411285b954e4d01125e3b61a8"
+        },
+        {
+          "id": "starlink-mini--dish-front",
+          "sha256": "596be4ffd10787d159d8981ae89668c7990742c59cc8d0e2655cdfcb81a9e8b3"
+        },
+        {
+          "id": "starlink-mini--backing",
+          "sha256": "1f873f6ca8e525de67a6b9367b6c3f1f4a4355b74372d60fa4f4b8e673c65c27"
+        },
+        {
+          "id": "starlink-mini--mount",
+          "sha256": "efc81d775f815e1d86db8d71b30f5fddc7f47bb1e897f9d4e789b0bfdb4d5447"
+        },
+        {
+          "id": "starlink-mini--rubber",
+          "sha256": "8e13f79fd88433ba93b775b9df34f38c0e295434cb2c6c4014110c856d9bb84d"
+        },
+        {
+          "id": "starlink-mini--aluminium",
+          "sha256": "8d7c00889d522216745725f808f9c905e151a5827ecc230ea1405c93fe412ebe"
+        },
+        {
+          "id": "eucalyptus--pale-bark",
+          "sha256": "01c12457869ec836aba17339f1cfe9ea29cb34381cc7b5d182e4fb07efb7f928"
+        },
+        {
+          "id": "eucalyptus--old-bark",
+          "sha256": "3d7519652169342e9c177b3a03f9e820e0437ca090aa93100a937d245c090bfb"
+        },
+        {
+          "id": "eucalyptus--warm-bark",
+          "sha256": "a38eaf612888a87919f3ee9101ea84fe32727b9e5537b80ea6d3d9ec46df4f13"
+        },
+        {
+          "id": "eucalyptus--twig",
+          "sha256": "c1af532ed17f8d0091e11e3ed026a2c9a2ee904ae0d486e1c8b99c57e1280029"
+        },
+        {
+          "id": "eucalyptus--leaf-olive",
+          "sha256": "d843e2366a79eaa92541f16296e5556a15cc3ab3f5e8c1aae031ee90bcff2d43"
+        },
+        {
+          "id": "eucalyptus--leaf-blue",
+          "sha256": "8ccff1fb88b6f495a7f0ca71bcb93559efba1080fcde6f41cdfbee41da8f933b"
+        },
+        {
+          "id": "eucalyptus--leaf-young",
+          "sha256": "98b7d3cc046e7795df45f1a4f271d8db1f4948bc4213f4891c83ce023701c8e2"
+        },
+        {
+          "id": "eucalyptus-far--pale-bark",
+          "sha256": "ec1dd0456b01df49b6b52841d4617ebd03051ce00b9c7c63d98b65070e5df53a"
+        },
+        {
+          "id": "eucalyptus-far--old-bark",
+          "sha256": "16fb770d557b50fdb76295b77c564e56cd3296085a4f239a0f3e36031c8f1580"
+        },
+        {
+          "id": "eucalyptus-far--warm-bark",
+          "sha256": "9a899c9c1aa95ed3da15e46c243b7491527dce100f187f80cd35dde852c68482"
+        },
+        {
+          "id": "eucalyptus-far--twig",
+          "sha256": "94b5430da2306f4d20bc566c2ab524c6c698b9b16f214289fe7ad6430e5f6281"
+        },
+        {
+          "id": "eucalyptus-far--leaf-olive",
+          "sha256": "1c246979f5e410694ce7a3858bf1b43672033e16f67d68dcf72275cdbe4701fa"
+        },
+        {
+          "id": "eucalyptus-far--leaf-blue",
+          "sha256": "32202a798fb1f927cad34e09ed35fedbbc0e2cdb3e306486b965fad612fd97c5"
+        },
+        {
+          "id": "eucalyptus-far--leaf-young",
+          "sha256": "4e886dfac2b7241404cee33a0c87a65c5122a78ed2026a4ad5d3e45c87923546"
+        },
+        {
+          "id": "canopy--limestone",
+          "sha256": "ad5d1ac24d71add9373540a41960e1c1126e44bbb3ceff3b83dcb3cd56319188"
+        },
+        {
+          "id": "canopy--timber",
+          "sha256": "d63a0fc859720de902e35592da7676e430d78542aa52c8e1f807c290687a40a2"
+        },
+        {
+          "id": "canopy--bronze",
+          "sha256": "97422e8b70694ac7b0f9c23097ac000117c90827325925db94a77da8e553586d"
+        },
+        {
+          "id": "tidal-vessel--limestone",
+          "sha256": "78cf11cc7b75aff9555bb363db971aee4acb590721cc9b3859580c68dcfe3480"
+        },
+        {
+          "id": "tidal-vessel--verdigris",
+          "sha256": "6addef4bceb9c75699ba7471c376ec178838204a20ad7f0fecac6cfb4e0e4bda"
+        },
+        {
+          "id": "tidal-vessel--bronze",
+          "sha256": "78afe807825237b32229beebeca95f17199fca963a46ffe6a3bb77f510aeb7fb"
+        },
+        {
+          "id": "memory-frond--limestone",
+          "sha256": "04d839d4c89ae698436266c588e52a1e2d1a77604ebeff2ac3430c6533ddd475"
+        },
+        {
+          "id": "memory-frond--bronze",
+          "sha256": "7104f41967108a4538427a86a30c3bc13c1647356d94607ee3ed6e7d59150458"
+        },
+        {
+          "id": "memory-frond--leaf",
+          "sha256": "9b8080cbf57eb26d8184fb967fd346031518ed3b4514d84771094fdebcdfec0a"
+        },
+        {
+          "id": "footbridge--bridge-heartwood",
+          "sha256": "c6599a1a80e933b53ce69c9f05d99317b6049fff0242b51590f2578bfdbb59a9"
+        },
+        {
+          "id": "footbridge--bridge-timber",
+          "sha256": "53b7ceb4128c3e680eb51046fb92ffe4c11e6f5b06dbd9fc0e76fb6e1920b34e"
+        },
+        {
+          "id": "footbridge--patinated-bronze",
+          "sha256": "5eeca81394164d0021b26cbca19612d99450d7aebe7ce47d7d7737a5bc25bca2"
+        },
+        {
+          "id": "footbridge--pale-limestone",
+          "sha256": "cef3713993dbe144b47ad7e3928c78080d709344d7ac13753551c299a47980ed"
+        },
+        {
+          "id": "observatory--pale-limestone",
+          "sha256": "b4c7b8d2b04d932b20d4eca282c373a4d5053f1e821e188184d32bbfc65cb505"
+        },
+        {
+          "id": "observatory--patinated-bronze",
+          "sha256": "dfbd0f55ad8f2833f88be7dc689f65c3962afd017f6fb07acf436f1fc46510df"
+        },
+        {
+          "id": "observatory--shadow-metal",
+          "sha256": "49392c92c95eb7e91960571f1f14e56f6a8ba5c041fe6fae6f7bae3139256edc"
+        },
+        {
+          "id": "observatory--receiver-ceramic",
+          "sha256": "36ffd5c9637fc73dc7edc31594b1a3d088e1798587d1f8a9e7723dd8cdd32016"
+        },
+        {
+          "id": "biology--pale-limestone",
+          "sha256": "92633b093eaed90b76dea41410892df488a7c13232868ea0aa0523d1c1a047c7"
+        },
+        {
+          "id": "biology--helix-teal",
+          "sha256": "2e0db72e8f83bc4711722fc95799588d6be3c21c0676a2cb0520fc0f3c1e74d5"
+        },
+        {
+          "id": "biology--shadow-metal",
+          "sha256": "65de3b882e409896874ea426267cd5fbed071c10a4bef5b64506099987d0b98e"
+        },
+        {
+          "id": "biology--helix-gold",
+          "sha256": "b215990b8099111199130ddc00e5f99375e40db2ef7ddcd4f902066a2351a010"
+        },
+        {
+          "id": "habitat-terrain",
+          "sha256": "0d71982db5c21d05a068e9188f7a823670cbadb500f0af5015fdbb008a032d21"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-0",
+          "sha256": "285667639cdff656b6c462f793077245eed8ad6b60be816107430ecb3cfd2c21"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-1",
+          "sha256": "b1f13d1037b153478a210c79b090cb79c5152b8a38671aff18565b913cae5cdc"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-2",
+          "sha256": "569a4ac0872672b9dc58a2376b2eb0d1b2a05ce7dbb60f7294065d15ae4199c6"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-3",
+          "sha256": "e49373db13e7bef3bd31ab4220b5edd6fc8b703ef80e8c803641b09f314489ad"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-4",
+          "sha256": "e7e090911820066f79f2851d1822642b46ea5843cf0463bdc7b300cf88c87cc7"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-5",
+          "sha256": "df10ef0303d665cc18cc79d4ab390616da14676f2a2181756fe3fccd6ae9375f"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-6",
+          "sha256": "ab7168ea2a065218802fe04eed9669cf3e20445d98fab038b12ac846e74d6cbf"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-7",
+          "sha256": "97cfb44556a693538fb8ba6217c684d9d90a1fc488887019ca682c149b5d87b3"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-8",
+          "sha256": "f7cfb95ff2b62b019e7e55ebdacefea982663b05ba6d67be72e491abfda6796e"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-9",
+          "sha256": "b1c5fc719020b7d2a6834eda393e39ba4427235cb6fb0637b1207fb0116108fa"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-10",
+          "sha256": "9f07be36652c70aadf68bb9cc7f615533dd5ec8fbabbd7f66d9d28a676474cbe"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-11",
+          "sha256": "cdc151b8fcebfc6d9300e08a74b1909c3ec74840427812609c3c5b9d72197ebc"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-12",
+          "sha256": "a9d106a5d830879afd8c16fc210f91f59960a49d56bbbbbc53934a99e489cf46"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-13",
+          "sha256": "9ae848b351fd68225562eb4fc8e176287356b5a5db569a5d7d8a1a35e9782193"
+        },
+        {
+          "id": "ecology-eucalyptus-mid-14",
+          "sha256": "874a22829b26401b904feb466d69f07fb671798c75357789f448cb1df67d1343"
+        },
+        {
+          "id": "ecology-eucalyptus-near-0",
+          "sha256": "c96ff5015bad5716c44da508fd23890ffd78f5a48efd23cc5ca274fe965d6773"
+        },
+        {
+          "id": "ecology-eucalyptus-near-1",
+          "sha256": "6ec1e2079561f2c3922e57ffadcc5fd466327f3f9d6d26ec428b2d9f0182154f"
+        },
+        {
+          "id": "ecology-eucalyptus-near-2",
+          "sha256": "ffca5d8fddc5f2aae9ee67a16bc0528b60b6382d55eddf815293de71a60edad7"
+        },
+        {
+          "id": "ecology-bank-rock-mid-0",
+          "sha256": "e4824cbd416d530dc363980a28e27932c2a9ab477bcde0ed9298a91aef8fd972"
+        },
+        {
+          "id": "ecology-bank-rock-mid-1",
+          "sha256": "1c6eae1103af6048c9a5afe9254e679852dcf5ed212383abdf5d3152fb2b518c"
+        },
+        {
+          "id": "ecology-bank-rock-mid-2",
+          "sha256": "b07a763a7f3ccc1c9869808ae45011471874bee788dabc92e5e582ffd0caf1cb"
+        },
+        {
+          "id": "ecology-bank-rock-near-0",
+          "sha256": "625dcc850a3e84dd9d8e59d7822f4ee4a4d20cc94ab0d3406640f6dfba8856eb"
+        },
+        {
+          "id": "ecology-grass-near-0",
+          "sha256": "bb03f4f9835a989ffb88b07972356686c44621bf746b731c406f65887d969984"
+        },
+        {
+          "id": "ecology-grass-near-1",
+          "sha256": "bbffa706d1ae20c56ab820e0d86d07e01ddb6841ad3e627c0b6be94120f01e6f"
+        },
+        {
+          "id": "ecology-grass-near-2",
+          "sha256": "476f1bc17b2197915133a1ba89feed178fd883352b42a950f08567f002d86c66"
+        },
+        {
+          "id": "ecology-grass-mid-0",
+          "sha256": "1fce9ee7ffcc8d106c92bb0a06c36c86a81a0bbdec944ce9ce759d0dde7fa1b3"
+        },
+        {
+          "id": "ecology-grass-mid-1",
+          "sha256": "f0dfb542d2d5b3b36eae8478145c65b49bbee790705cda50019612db7270b0dc"
+        },
+        {
+          "id": "ecology-grass-mid-2",
+          "sha256": "67e15106dba7a80c4b15cdc07b25a73485ae6573c9ad5807f1384fa225a9f9fb"
+        },
+        {
+          "id": "ecology-grass-mid-3",
+          "sha256": "81621ba5d1cb6ee56d73c9f704559e9cb23e630c71913ad39eac71308c56a552"
+        },
+        {
+          "id": "ecology-grass-mid-4",
+          "sha256": "5a6d8bd38a938536271235bc938bbae2d52a1f4ecdb51ba1b926a88bc1f55dd5"
+        },
+        {
+          "id": "ecology-grass-mid-5",
+          "sha256": "eeac77d4e3f29f914345f863d15aece88b29c6cfb82e91b35088d123874194ef"
+        },
+        {
+          "id": "ecology-shrub-branches-0",
+          "sha256": "8756ad74bc00860de9ca566ce1f22569607f14fa7e230bc6494d4601e377032e"
+        },
+        {
+          "id": "ecology-shrub-leaves-0",
+          "sha256": "e3ffc28d95ea1d238557a71af46632df3a0e35685ab60cc5a4cb013e37055b00"
+        },
+        {
+          "id": "ecology-shrub-leaves-1",
+          "sha256": "a3c87d081b762599cb61f7fdbe894f3ea4c0877bbab6404339445b34a641ca12"
+        },
+        {
+          "id": "ecology-shrub-leaves-2",
+          "sha256": "4593cb04400a47486e0638ad1084d6fdabb685701499f184ceb05ef6a1a6d62b"
+        },
+        {
+          "id": "ecology-leaf-litter-0",
+          "sha256": "c29071c6fb8db2d7854de6557271d24fd09f62c7672300c3a217710dc5756a26"
+        }
+      ],
+      "authority": "anonymous-public",
+      "camera": {
+        "pitch": 0.17875227332115173,
+        "target": [
+          -22,
+          5.490921497344971,
+          28
+        ],
+        "yaw": -0.5585992932319641,
+        "zoom": 19.1734676361084
+      },
+      "controller": "Rust/WASM",
+      "default_language": "en-AU",
+      "frame_timing": {
+        "gpu_duration_measured": false,
+        "quantile_method": "nearest rank",
+        "raf_interval_ms": {
+          "p50": 1170.5800000000017,
+          "p95": 22201.315000000002
+        },
+        "sample_count": 9,
+        "scope": "Elapsed successful portal.tick CPU/submission call, not GPU execution duration; raw RAF intervals exclude benchmark-paused frames",
+        "tick_cpu_submission_ms": {
+          "p50": 1.9950000047683716,
+          "p95": 2.949999988079071
+        },
+        "total_frames": 9,
+        "window_capacity": 64
+      },
+      "frames": 10,
+      "framing_viewport": {
+        "height": 1000,
+        "width": 1600
+      },
+      "graphics_initialisation": {
+        "canvas_height": 1000,
+        "canvas_width": 1600,
+        "duration_ms": 1427.175000011921,
+        "requested": "webgpu",
+        "schema": "webizen.native-graphics-init/v1",
+        "selected_backend": "webgpu",
+        "state": "ready"
+      },
+      "instances": null,
+      "path": [
+        "river",
+        "canopy",
+        "observatory",
+        "field-studio",
+        "biology",
+        "atelier",
+        "commons"
+      ],
+      "presentation_settings": {
+        "camera": {
+          "pitch": 0.17555,
+          "target": [
+            -22,
+            5.490921689,
+            28
+          ],
+          "yaw": 0.63275,
+          "zoom": 18.8915
+        },
+        "default_locale": "en-AU",
+        "environment_fallback": [
+          0,
+          0,
+          0
+        ],
+        "environment_probes": [
+          [
+            0,
+            30,
+            0,
+            260,
+            0.9,
+            1.05,
+            1.125,
+            0.18,
+            0.23,
+            0.26,
+            0.16,
+            0.21,
+            0.23,
+            0.14,
+            0.18,
+            0.19,
+            0.12,
+            0.15,
+            0.15,
+            0.09,
+            0.12,
+            0.11,
+            0,
+            1,
+            0
+          ],
+          [
+            -45,
+            12,
+            40,
+            180,
+            0.7,
+            0.775,
+            0.59,
+            0.11,
+            0.13,
+            0.09,
+            0.1,
+            0.12,
+            0.08,
+            0.09,
+            0.11,
+            0.07,
+            0.08,
+            0.1,
+            0.06,
+            0.07,
+            0.08,
+            0.05,
+            0.7,
+            0.5,
+            -0.4
+          ],
+          [
+            45,
+            16,
+            -25,
+            200,
+            0.575,
+            0.725,
+            0.825,
+            0.11,
+            0.15,
+            0.18,
+            0.1,
+            0.14,
+            0.17,
+            0.09,
+            0.13,
+            0.15,
+            0.08,
+            0.11,
+            0.13,
+            0.07,
+            0.09,
+            0.11,
+            -0.7,
+            0.5,
+            0.4
+          ]
+        ],
+        "exposure_ev": 0,
+        "marker_alpha": 1,
+        "marker_height": 3,
+        "marker_sigma": 0.42,
+        "markers_visible": false,
+        "max_dpr": 1.5,
+        "sky_preset": 1,
+        "sun": [
+          -0.55,
+          0.7,
+          0.35,
+          1.7,
+          0.2
+        ],
+        "water": {
+          "amplitude": 0.035,
+          "colour": [
+            0.055,
+            0.24,
+            0.25,
+            0.88
+          ],
+          "frequency": 1.4,
+          "quality": 1
+        }
+      },
+      "purpose": "learn",
+      "q42_reader": "WasmSliceQ42Reader",
+      "q42_rows": 215,
+      "q42_sha256": "71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423",
+      "renderer": "webgpu",
+      "scene": {
+        "frames_presented": 10,
+        "index_count": 7331760,
+        "renderer": "webgpu",
+        "success": true,
+        "uploaded": true,
+        "vertex_count": 1917824
+      },
+      "schema": "webizen.native-world-receipt/v1",
+      "selected_place": "field-studio",
+      "served_build_identity": {
+        "cargo_lock_sha256": "520d8852534947434a61df706780e2e5e1744143fd67bb54a2644b8bcb0380ae",
+        "compiler": "rustc 1.96.1 (31fca3adb 2026-06-26)",
+        "generated_loader_sha256": "2167aaaeaf54051e88db1cca25e28b72c434237f2a096f71e9f2c3bf28dde7c3",
+        "host_source_fingerprint": "7156863082cd826ef04cd398ddfc68604595ab7852d2379c1bb797e147412b64",
+        "identity_kind": "served build identity; browser QA must compare served WASM bytes with this digest",
+        "native_core": {
+          "repository": "qualiaDB",
+          "revision": "7f6057a743937173260c1d62d670283214a1d09a",
+          "source_file_count": 3821,
+          "source_fingerprint": "2305d404db62429d1fd5e234e8c45aa903a010f8523dce410b4df88dab4ef468",
+          "tracked_dirty": [
+            " M crates/qualia-core-db/src/domains/geospatial/adapters/dem_adapter.rs",
+            " M crates/qualia-core-db/src/domains/geospatial/dem.rs",
+            " M crates/qualia-core-db/src/render/gpu/animated_upload.rs",
+            " M crates/qualia-core-db/src/render/gpu/ao.rs",
+            " M crates/qualia-core-db/src/render/gpu/instance_visibility.rs",
+            " M crates/qualia-core-db/src/render/gpu/mesh_upload.rs",
+            " M crates/qualia-core-db/src/render/gpu/mod.rs",
+            " M crates/qualia-core-db/src/render/gpu/portal_gpu/init.rs",
+            " M crates/qualia-core-db/src/render/gpu/portal_gpu/lighting_passes.rs",
+            " M crates/qualia-core-db/src/render/gpu/portal_gpu/picking.rs",
+            " M crates/qualia-core-db/src/render/gpu/portal_gpu/render_frame.rs",
+            " M crates/qualia-core-db/src/render/portal/emf_preview.rs",
+            " M crates/qualia-core-db/src/render/portal/mod.rs",
+            " M crates/qualia-core-db/src/render/portal/scene_mesh.rs",
+            " M crates/qualia-core-db/src/render/portal/scene_mesh_tests.rs"
+          ],
+          "untracked_source_files": [
+            "src/render/gpu/instance_group_upload.rs",
+            "src/render/gpu/instance_group_visibility.rs",
+            "src/render/gpu/instance_groups.rs",
+            "src/render/gpu/instance_groups_tests.rs",
+            "src/render/gpu/mesh_upload_limits.rs",
+            "src/render/portal/instance_groups.rs",
+            "src/render/portal/scene_frames.rs",
+            "src/render/portal/scene_frames_tests.rs",
+            "src/render/portal/scene_loader.rs"
+          ]
+        },
+        "render_provider": {
+          "emf_cpu_reference_sha256": "bfc7d264370cbe591e892585a63dcf77e890c8703fa709c440cbb97cee305902",
+          "emf_shader_sha256": "1b2eb897a6375c491122192047eff5d2dcbeb759238db68b24bd2f486aa21d4a",
+          "locked_all_platform_provider_crates": 30,
+          "repository": "https://github.com/mediaprophet/etalon.git",
+          "resolved_crates": [
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon\\Cargo.toml",
+              "name": "etalon",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-agent\\Cargo.toml",
+              "name": "etalon-agent",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-core\\Cargo.toml",
+              "name": "etalon-core",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-hal\\Cargo.toml",
+              "name": "etalon-hal",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference\\Cargo.toml",
+              "name": "etalon-inference",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-contract\\Cargo.toml",
+              "name": "etalon-inference-contract",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-inference-kernel\\Cargo.toml",
+              "name": "etalon-inference-kernel",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-model\\Cargo.toml",
+              "name": "etalon-model",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-naga-bridge\\Cargo.toml",
+              "name": "etalon-naga-bridge",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-nquin\\Cargo.toml",
+              "name": "etalon-nquin",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-render\\Cargo.toml",
+              "name": "etalon-render",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-resources\\Cargo.toml",
+              "name": "etalon-resources",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sense-core\\Cargo.toml",
+              "name": "etalon-sense-core",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-signal\\Cargo.toml",
+              "name": "etalon-signal",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-sim\\Cargo.toml",
+              "name": "etalon-sim",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-sync\\Cargo.toml",
+              "name": "etalon-sync",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-tensor\\Cargo.toml",
+              "name": "etalon-tensor",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\etalon-types\\Cargo.toml",
+              "name": "etalon-types",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-vibe\\Cargo.toml",
+              "name": "etalon-vibe",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wasm\\Cargo.toml",
+              "name": "etalon-wasm",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\crates\\etalon-wgsl-forge\\Cargo.toml",
+              "name": "etalon-wgsl-forge",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga\\Cargo.toml",
+              "name": "naga",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            },
+            {
+              "manifest_path": "C:\\Users\\Hp\\.cargo\\git\\checkouts\\etalon-853ee32392c1daca\\785ab9c\\naga-types\\Cargo.toml",
+              "name": "naga-types",
+              "source": "git+https://github.com/mediaprophet/etalon.git?rev=785ab9c1b7d729db9afcd9b0f3fd70344b37be1e#785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+              "version": "0.0.2"
+            }
+          ],
+          "resolved_wasm_provider_crates": 23,
+          "revision": "785ab9c1b7d729db9afcd9b0f3fd70344b37be1e",
+          "source_kind": "pushed immutable Git revision; no local provider overrides"
+        },
+        "schema": "webizen.native-runtime-identity/v1",
+        "wasm": {
+          "bytes": 16578897,
+          "sha256": "cbdb8fd58721fb96acfefcf971cfc88dee8f164ea3da5970a0d7125d5d660394",
+          "url": "/pkg/native-world/webizen_world_bg.wasm"
+        }
+      },
+      "textures": {
+        "count": 18,
+        "dependencies": [
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 48093,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 0,
+            "sha256": "6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d",
+            "url": "/production/aaa-proof/textures/6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 77817,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 1,
+            "sha256": "7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112",
+            "url": "/production/aaa-proof/textures/7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 37156,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 2,
+            "sha256": "ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382",
+            "url": "/production/aaa-proof/textures/ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 45718,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 0,
+            "sha256": "4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182",
+            "url": "/production/aaa-proof/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 59852,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 1,
+            "sha256": "c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6",
+            "url": "/production/aaa-proof/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 15539,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 2,
+            "sha256": "f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573",
+            "url": "/production/aaa-proof/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 42157,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 0,
+            "sha256": "fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e",
+            "url": "/production/aaa-proof/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 17703,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 1,
+            "sha256": "002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789",
+            "url": "/production/aaa-proof/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 16285,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 2,
+            "sha256": "10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5",
+            "url": "/production/aaa-proof/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 41152,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 0,
+            "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+            "url": "/production/aaa-proof/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 33910,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 1,
+            "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+            "url": "/production/aaa-proof/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 16374,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 2,
+            "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+            "url": "/production/aaa-proof/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 40837,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 0,
+            "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+            "url": "/production/aaa-proof/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 17220,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 1,
+            "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+            "url": "/production/aaa-proof/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 15927,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 2,
+            "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+            "url": "/production/aaa-proof/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 41434,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 0,
+            "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+            "url": "/production/aaa-proof/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 24560,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 1,
+            "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+            "url": "/production/aaa-proof/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png"
+          },
+          {
+            "cutoff": 0.5,
+            "encoded_bytes": 15829,
+            "mime_type": "image/png",
+            "native_resident": true,
+            "role": 2,
+            "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+            "url": "/production/aaa-proof/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png"
+          }
+        ],
+        "encoded_bytes": 607563,
+        "loader": "QualiaPortal::load_texture_encoded"
+      },
+      "upload": {
+        "assets_loaded": 118,
+        "assets_refused": 0,
+        "material_pipeline": true,
+        "material_ranges": 1915,
+        "materials_loaded": 75,
+        "organs_loaded": 118,
+        "organs_refused": 0,
+        "parts": [
+          {
+            "first_index": 0,
+            "id": "car-passat-b7--gold",
+            "index_count": 30390,
+            "vertex_count": 5069,
+            "vertex_start": 0
+          },
+          {
+            "first_index": 30390,
+            "id": "car-passat-b7--glass",
+            "index_count": 7344,
+            "vertex_count": 1244,
+            "vertex_start": 5069
+          },
+          {
+            "first_index": 37734,
+            "id": "car-passat-b7--chrome",
+            "index_count": 45912,
+            "vertex_count": 6462,
+            "vertex_start": 6313
+          },
+          {
+            "first_index": 83646,
+            "id": "car-passat-b7--trim",
+            "index_count": 39864,
+            "vertex_count": 6704,
+            "vertex_start": 12775
+          },
+          {
+            "first_index": 123510,
+            "id": "car-passat-b7--rubber",
+            "index_count": 16896,
+            "vertex_count": 2824,
+            "vertex_start": 19479
+          },
+          {
+            "first_index": 140406,
+            "id": "car-passat-b7--brake",
+            "index_count": 3072,
+            "vertex_count": 520,
+            "vertex_start": 22303
+          },
+          {
+            "first_index": 143478,
+            "id": "car-passat-b7--alloy",
+            "index_count": 31968,
+            "vertex_count": 5380,
+            "vertex_start": 22823
+          },
+          {
+            "first_index": 175446,
+            "id": "car-passat-b7--red",
+            "index_count": 6936,
+            "vertex_count": 1160,
+            "vertex_start": 28203
+          },
+          {
+            "first_index": 182382,
+            "id": "car-passat-b7--lamp",
+            "index_count": 7992,
+            "vertex_count": 1290,
+            "vertex_start": 29363
+          },
+          {
+            "first_index": 190374,
+            "id": "car-passat-b7--plate",
+            "index_count": 3516,
+            "vertex_count": 590,
+            "vertex_start": 30653
+          },
+          {
+            "first_index": 193890,
+            "id": "car-passat-b7--lamp-interior",
+            "index_count": 13872,
+            "vertex_count": 2320,
+            "vertex_start": 31243
+          },
+          {
+            "first_index": 207762,
+            "id": "car-passat-b7--projector",
+            "index_count": 6720,
+            "vertex_count": 1128,
+            "vertex_start": 33563
+          },
+          {
+            "first_index": 214482,
+            "id": "car-passat-b7--roofbox-base",
+            "index_count": 3024,
+            "vertex_count": 524,
+            "vertex_start": 34691
+          },
+          {
+            "first_index": 217506,
+            "id": "car-passat-b7--roofbox",
+            "index_count": 1020,
+            "vertex_count": 172,
+            "vertex_start": 35215
+          },
+          {
+            "first_index": 218526,
+            "id": "vintage-windup-camper--chassis",
+            "index_count": 912,
+            "vertex_count": 180,
+            "vertex_start": 35387
+          },
+          {
+            "first_index": 219438,
+            "id": "vintage-windup-camper--rubber",
+            "index_count": 13824,
+            "vertex_count": 2344,
+            "vertex_start": 35567
+          },
+          {
+            "first_index": 233262,
+            "id": "vintage-windup-camper--enamel",
+            "index_count": 4704,
+            "vertex_count": 808,
+            "vertex_start": 37911
+          },
+          {
+            "first_index": 237966,
+            "id": "vintage-windup-camper--chrome",
+            "index_count": 2256,
+            "vertex_count": 408,
+            "vertex_start": 38719
+          },
+          {
+            "first_index": 240222,
+            "id": "vintage-windup-camper--ochre",
+            "index_count": 192,
+            "vertex_count": 40,
+            "vertex_start": 39127
+          },
+          {
+            "first_index": 240414,
+            "id": "vintage-windup-camper--olive",
+            "index_count": 1848,
+            "vertex_count": 362,
+            "vertex_start": 39167
+          },
+          {
+            "first_index": 242262,
+            "id": "vintage-windup-camper--roof",
+            "index_count": 432,
+            "vertex_count": 74,
+            "vertex_start": 39529
+          },
+          {
+            "first_index": 242694,
+            "id": "vintage-windup-camper--canvas",
+            "index_count": 48,
+            "vertex_count": 10,
+            "vertex_start": 39603
+          },
+          {
+            "first_index": 242742,
+            "id": "vintage-windup-camper--screen",
+            "index_count": 576,
+            "vertex_count": 118,
+            "vertex_start": 39613
+          },
+          {
+            "first_index": 243318,
+            "id": "vintage-windup-camper--canvas-seam",
+            "index_count": 3072,
+            "vertex_count": 576,
+            "vertex_start": 39731
+          },
+          {
+            "first_index": 246390,
+            "id": "vintage-windup-camper--screen-wire",
+            "index_count": 1584,
+            "vertex_count": 308,
+            "vertex_start": 40307
+          },
+          {
+            "first_index": 247974,
+            "id": "vintage-windup-camper--step",
+            "index_count": 48,
+            "vertex_count": 10,
+            "vertex_start": 40615
+          },
+          {
+            "first_index": 248022,
+            "id": "vintage-windup-camper--steel",
+            "index_count": 1632,
+            "vertex_count": 308,
+            "vertex_start": 40625
+          },
+          {
+            "first_index": 249654,
+            "id": "vintage-windup-camper--canvas-roof",
+            "index_count": 144,
+            "vertex_count": 28,
+            "vertex_start": 40933
+          },
+          {
+            "first_index": 249798,
+            "id": "vintage-windup-camper--red-lens",
+            "index_count": 96,
+            "vertex_count": 20,
+            "vertex_start": 40961
+          },
+          {
+            "first_index": 249894,
+            "id": "vintage-windup-camper--amber-lens",
+            "index_count": 96,
+            "vertex_count": 20,
+            "vertex_start": 40981
+          },
+          {
+            "first_index": 249990,
+            "id": "solar-array-three--backing",
+            "index_count": 288,
+            "vertex_count": 60,
+            "vertex_start": 41001
+          },
+          {
+            "first_index": 250278,
+            "id": "solar-array-three--panel",
+            "index_count": 288,
+            "vertex_count": 60,
+            "vertex_start": 41061
+          },
+          {
+            "first_index": 250566,
+            "id": "solar-array-three--aluminium",
+            "index_count": 3744,
+            "vertex_count": 708,
+            "vertex_start": 41121
+          },
+          {
+            "first_index": 254310,
+            "id": "solar-array-three--cell-line",
+            "index_count": 4032,
+            "vertex_count": 840,
+            "vertex_start": 41829
+          },
+          {
+            "first_index": 258342,
+            "id": "solar-array-three--rubber",
+            "index_count": 3504,
+            "vertex_count": 644,
+            "vertex_start": 42669
+          },
+          {
+            "first_index": 261846,
+            "id": "solar-array-two--backing",
+            "index_count": 96,
+            "vertex_count": 20,
+            "vertex_start": 43313
+          },
+          {
+            "first_index": 261942,
+            "id": "solar-array-two--panel",
+            "index_count": 96,
+            "vertex_count": 20,
+            "vertex_start": 43333
+          },
+          {
+            "first_index": 262038,
+            "id": "solar-array-two--aluminium",
+            "index_count": 1248,
+            "vertex_count": 236,
+            "vertex_start": 43353
+          },
+          {
+            "first_index": 263286,
+            "id": "solar-array-two--cell-line",
+            "index_count": 1344,
+            "vertex_count": 280,
+            "vertex_start": 43589
+          },
+          {
+            "first_index": 264630,
+            "id": "solar-array-two--rubber",
+            "index_count": 1320,
+            "vertex_count": 240,
+            "vertex_start": 43869
+          },
+          {
+            "first_index": 265950,
+            "id": "starlink-mini--dish-back",
+            "index_count": 768,
+            "vertex_count": 138,
+            "vertex_start": 44109
+          },
+          {
+            "first_index": 266718,
+            "id": "starlink-mini--dish-front",
+            "index_count": 384,
+            "vertex_count": 66,
+            "vertex_start": 44247
+          },
+          {
+            "first_index": 267102,
+            "id": "starlink-mini--backing",
+            "index_count": 48,
+            "vertex_count": 10,
+            "vertex_start": 44313
+          },
+          {
+            "first_index": 267150,
+            "id": "starlink-mini--mount",
+            "index_count": 264,
+            "vertex_count": 48,
+            "vertex_start": 44323
+          },
+          {
+            "first_index": 267414,
+            "id": "starlink-mini--rubber",
+            "index_count": 444,
+            "vertex_count": 78,
+            "vertex_start": 44371
+          },
+          {
+            "first_index": 267858,
+            "id": "starlink-mini--aluminium",
+            "index_count": 384,
+            "vertex_count": 72,
+            "vertex_start": 44449
+          },
+          {
+            "first_index": 268242,
+            "id": "eucalyptus--pale-bark",
+            "index_count": 79704,
+            "vertex_count": 13836,
+            "vertex_start": 44521
+          },
+          {
+            "first_index": 347946,
+            "id": "eucalyptus--old-bark",
+            "index_count": 17964,
+            "vertex_count": 3174,
+            "vertex_start": 58357
+          },
+          {
+            "first_index": 365910,
+            "id": "eucalyptus--warm-bark",
+            "index_count": 10548,
+            "vertex_count": 1794,
+            "vertex_start": 61531
+          },
+          {
+            "first_index": 376458,
+            "id": "eucalyptus--twig",
+            "index_count": 119880,
+            "vertex_count": 21420,
+            "vertex_start": 63325
+          },
+          {
+            "first_index": 496338,
+            "id": "eucalyptus--leaf-olive",
+            "index_count": 198252,
+            "vertex_count": 42330,
+            "vertex_start": 84745
+          },
+          {
+            "first_index": 694590,
+            "id": "eucalyptus--leaf-blue",
+            "index_count": 144216,
+            "vertex_count": 30792,
+            "vertex_start": 127075
+          },
+          {
+            "first_index": 838806,
+            "id": "eucalyptus--leaf-young",
+            "index_count": 149328,
+            "vertex_count": 31884,
+            "vertex_start": 157867
+          },
+          {
+            "first_index": 988134,
+            "id": "eucalyptus-far--pale-bark",
+            "index_count": 31824,
+            "vertex_count": 6408,
+            "vertex_start": 189751
+          },
+          {
+            "first_index": 1019958,
+            "id": "eucalyptus-far--old-bark",
+            "index_count": 7128,
+            "vertex_count": 1548,
+            "vertex_start": 196159
+          },
+          {
+            "first_index": 1027086,
+            "id": "eucalyptus-far--warm-bark",
+            "index_count": 4176,
+            "vertex_count": 768,
+            "vertex_start": 197707
+          },
+          {
+            "first_index": 1031262,
+            "id": "eucalyptus-far--twig",
+            "index_count": 47952,
+            "vertex_count": 10872,
+            "vertex_start": 198475
+          },
+          {
+            "first_index": 1079214,
+            "id": "eucalyptus-far--leaf-olive",
+            "index_count": 79272,
+            "vertex_count": 23388,
+            "vertex_start": 209347
+          },
+          {
+            "first_index": 1158486,
+            "id": "eucalyptus-far--leaf-blue",
+            "index_count": 57672,
+            "vertex_count": 17052,
+            "vertex_start": 232735
+          },
+          {
+            "first_index": 1216158,
+            "id": "eucalyptus-far--leaf-young",
+            "index_count": 59688,
+            "vertex_count": 17508,
+            "vertex_start": 249787
+          },
+          {
+            "first_index": 1275846,
+            "id": "canopy--limestone",
+            "index_count": 5376,
+            "vertex_count": 1024,
+            "vertex_start": 267295
+          },
+          {
+            "first_index": 1281222,
+            "id": "canopy--timber",
+            "index_count": 45504,
+            "vertex_count": 7632,
+            "vertex_start": 268319
+          },
+          {
+            "first_index": 1326726,
+            "id": "canopy--bronze",
+            "index_count": 18432,
+            "vertex_count": 3092,
+            "vertex_start": 275951
+          },
+          {
+            "first_index": 1345158,
+            "id": "tidal-vessel--limestone",
+            "index_count": 4608,
+            "vertex_count": 896,
+            "vertex_start": 279043
+          },
+          {
+            "first_index": 1349766,
+            "id": "tidal-vessel--verdigris",
+            "index_count": 56448,
+            "vertex_count": 9504,
+            "vertex_start": 279939
+          },
+          {
+            "first_index": 1406214,
+            "id": "tidal-vessel--bronze",
+            "index_count": 27648,
+            "vertex_count": 4638,
+            "vertex_start": 289443
+          },
+          {
+            "first_index": 1433862,
+            "id": "memory-frond--limestone",
+            "index_count": 3072,
+            "vertex_count": 640,
+            "vertex_start": 294081
+          },
+          {
+            "first_index": 1436934,
+            "id": "memory-frond--bronze",
+            "index_count": 2952,
+            "vertex_count": 494,
+            "vertex_start": 294721
+          },
+          {
+            "first_index": 1439886,
+            "id": "memory-frond--leaf",
+            "index_count": 36000,
+            "vertex_count": 6040,
+            "vertex_start": 295215
+          },
+          {
+            "first_index": 1475886,
+            "id": "footbridge--bridge-heartwood",
+            "index_count": 3600,
+            "vertex_count": 624,
+            "vertex_start": 301255
+          },
+          {
+            "first_index": 1479486,
+            "id": "footbridge--bridge-timber",
+            "index_count": 8112,
+            "vertex_count": 1532,
+            "vertex_start": 301879
+          },
+          {
+            "first_index": 1487598,
+            "id": "footbridge--patinated-bronze",
+            "index_count": 14112,
+            "vertex_count": 2428,
+            "vertex_start": 303411
+          },
+          {
+            "first_index": 1501710,
+            "id": "footbridge--pale-limestone",
+            "index_count": 192,
+            "vertex_count": 40,
+            "vertex_start": 305839
+          },
+          {
+            "first_index": 1501902,
+            "id": "observatory--pale-limestone",
+            "index_count": 3840,
+            "vertex_count": 768,
+            "vertex_start": 305879
+          },
+          {
+            "first_index": 1505742,
+            "id": "observatory--patinated-bronze",
+            "index_count": 35244,
+            "vertex_count": 6062,
+            "vertex_start": 306647
+          },
+          {
+            "first_index": 1540986,
+            "id": "observatory--shadow-metal",
+            "index_count": 16440,
+            "vertex_count": 2768,
+            "vertex_start": 312709
+          },
+          {
+            "first_index": 1557426,
+            "id": "observatory--receiver-ceramic",
+            "index_count": 47040,
+            "vertex_count": 7920,
+            "vertex_start": 315477
+          },
+          {
+            "first_index": 1604466,
+            "id": "biology--pale-limestone",
+            "index_count": 3840,
+            "vertex_count": 768,
+            "vertex_start": 323397
+          },
+          {
+            "first_index": 1608306,
+            "id": "biology--helix-teal",
+            "index_count": 15708,
+            "vertex_count": 2666,
+            "vertex_start": 324165
+          },
+          {
+            "first_index": 1624014,
+            "id": "biology--shadow-metal",
+            "index_count": 240,
+            "vertex_count": 44,
+            "vertex_start": 326831
+          },
+          {
+            "first_index": 1624254,
+            "id": "biology--helix-gold",
+            "index_count": 15708,
+            "vertex_count": 2666,
+            "vertex_start": 326875
+          },
+          {
+            "first_index": 1639962,
+            "id": "habitat-terrain",
+            "index_count": 153600,
+            "vertex_count": 25921,
+            "vertex_start": 329541
+          },
+          {
+            "first_index": 1793562,
+            "id": "ecology-eucalyptus-mid-0",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 355462
+          },
+          {
+            "first_index": 1937418,
+            "id": "ecology-eucalyptus-mid-1",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 394234
+          },
+          {
+            "first_index": 2081274,
+            "id": "ecology-eucalyptus-mid-2",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 433006
+          },
+          {
+            "first_index": 2225130,
+            "id": "ecology-eucalyptus-mid-3",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 471778
+          },
+          {
+            "first_index": 2368986,
+            "id": "ecology-eucalyptus-mid-4",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 510550
+          },
+          {
+            "first_index": 2512842,
+            "id": "ecology-eucalyptus-mid-5",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 549322
+          },
+          {
+            "first_index": 2656698,
+            "id": "ecology-eucalyptus-mid-6",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 588094
+          },
+          {
+            "first_index": 2800554,
+            "id": "ecology-eucalyptus-mid-7",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 626866
+          },
+          {
+            "first_index": 2944410,
+            "id": "ecology-eucalyptus-mid-8",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 665638
+          },
+          {
+            "first_index": 3088266,
+            "id": "ecology-eucalyptus-mid-9",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 704410
+          },
+          {
+            "first_index": 3232122,
+            "id": "ecology-eucalyptus-mid-10",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 743182
+          },
+          {
+            "first_index": 3375978,
+            "id": "ecology-eucalyptus-mid-11",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 781954
+          },
+          {
+            "first_index": 3519834,
+            "id": "ecology-eucalyptus-mid-12",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 820726
+          },
+          {
+            "first_index": 3663690,
+            "id": "ecology-eucalyptus-mid-13",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 859498
+          },
+          {
+            "first_index": 3807546,
+            "id": "ecology-eucalyptus-mid-14",
+            "index_count": 143856,
+            "vertex_count": 38772,
+            "vertex_start": 898270
+          },
+          {
+            "first_index": 3951402,
+            "id": "ecology-eucalyptus-near-0",
+            "index_count": 119982,
+            "vertex_count": 24205,
+            "vertex_start": 937042
+          },
+          {
+            "first_index": 4071384,
+            "id": "ecology-eucalyptus-near-1",
+            "index_count": 119982,
+            "vertex_count": 24205,
+            "vertex_start": 961247
+          },
+          {
+            "first_index": 4191366,
+            "id": "ecology-eucalyptus-near-2",
+            "index_count": 119982,
+            "vertex_count": 24205,
+            "vertex_start": 985452
+          },
+          {
+            "first_index": 4311348,
+            "id": "ecology-bank-rock-mid-0",
+            "index_count": 27648,
+            "vertex_count": 6144,
+            "vertex_start": 1009657
+          },
+          {
+            "first_index": 4338996,
+            "id": "ecology-bank-rock-mid-1",
+            "index_count": 27648,
+            "vertex_count": 6144,
+            "vertex_start": 1015801
+          },
+          {
+            "first_index": 4366644,
+            "id": "ecology-bank-rock-mid-2",
+            "index_count": 9216,
+            "vertex_count": 2048,
+            "vertex_start": 1021945
+          },
+          {
+            "first_index": 4375860,
+            "id": "ecology-bank-rock-near-0",
+            "index_count": 97920,
+            "vertex_count": 18180,
+            "vertex_start": 1023993
+          },
+          {
+            "first_index": 4473780,
+            "id": "ecology-grass-near-0",
+            "index_count": 248076,
+            "vertex_count": 72243,
+            "vertex_start": 1042173
+          },
+          {
+            "first_index": 4721856,
+            "id": "ecology-grass-near-1",
+            "index_count": 248076,
+            "vertex_count": 72243,
+            "vertex_start": 1114416
+          },
+          {
+            "first_index": 4969932,
+            "id": "ecology-grass-near-2",
+            "index_count": 248076,
+            "vertex_count": 72243,
+            "vertex_start": 1186659
+          },
+          {
+            "first_index": 5218008,
+            "id": "ecology-grass-mid-0",
+            "index_count": 235296,
+            "vertex_count": 73368,
+            "vertex_start": 1258902
+          },
+          {
+            "first_index": 5453304,
+            "id": "ecology-grass-mid-1",
+            "index_count": 235296,
+            "vertex_count": 73368,
+            "vertex_start": 1332270
+          },
+          {
+            "first_index": 5688600,
+            "id": "ecology-grass-mid-2",
+            "index_count": 235296,
+            "vertex_count": 73368,
+            "vertex_start": 1405638
+          },
+          {
+            "first_index": 5923896,
+            "id": "ecology-grass-mid-3",
+            "index_count": 235296,
+            "vertex_count": 73368,
+            "vertex_start": 1479006
+          },
+          {
+            "first_index": 6159192,
+            "id": "ecology-grass-mid-4",
+            "index_count": 235296,
+            "vertex_count": 73368,
+            "vertex_start": 1552374
+          },
+          {
+            "first_index": 6394488,
+            "id": "ecology-grass-mid-5",
+            "index_count": 137256,
+            "vertex_count": 42798,
+            "vertex_start": 1625742
+          },
+          {
+            "first_index": 6531744,
+            "id": "ecology-shrub-branches-0",
+            "index_count": 148176,
+            "vertex_count": 39564,
+            "vertex_start": 1668540
+          },
+          {
+            "first_index": 6679920,
+            "id": "ecology-shrub-leaves-0",
+            "index_count": 210000,
+            "vertex_count": 66760,
+            "vertex_start": 1708104
+          },
+          {
+            "first_index": 6889920,
+            "id": "ecology-shrub-leaves-1",
+            "index_count": 210000,
+            "vertex_count": 66760,
+            "vertex_start": 1774864
+          },
+          {
+            "first_index": 7099920,
+            "id": "ecology-shrub-leaves-2",
+            "index_count": 168000,
+            "vertex_count": 53408,
+            "vertex_start": 1841624
+          },
+          {
+            "first_index": 7267920,
+            "id": "ecology-leaf-litter-0",
+            "index_count": 63840,
+            "vertex_count": 22792,
+            "vertex_start": 1895032
+          }
+        ],
+        "renderer": "webgpu",
+        "semantic_nodes": 0,
+        "total_triangles": 2443920,
+        "uploaded": true,
+        "vertex_count": 1917824
+      },
+      "verified_texture_bindings": 76,
+      "vibe_evaluator": "PoetSnapshot::eval_fn",
+      "vibe_sha256": "1b7842fbba396723a10467c3c5bcf87e4f04f017fd8c21a720dbcb917446f999"
+    },
+    "adapter_probe": {
+      "vendor": "intel",
+      "architecture": "gen-12lp",
+      "device": "",
+      "description": ""
+    },
+    "adapter_note": "Separate default adapter probe; not a claim that this is the native selected adapter",
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+        "duration_ms": 199.86500000953674,
+        "encoded_bytes": 16578897
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--gold.10d",
+        "duration_ms": 35.810000002384186,
+        "encoded_bytes": 880696
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--glass.10d",
+        "duration_ms": 18.274999976158142,
+        "encoded_bytes": 435736
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--chrome.10d",
+        "duration_ms": 9.84500002861023,
+        "encoded_bytes": 1100272
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--trim.10d",
+        "duration_ms": 11.569999992847443,
+        "encoded_bytes": 2099688
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--rubber.10d",
+        "duration_ms": 8.280000030994415,
+        "encoded_bytes": 934328
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--brake.10d",
+        "duration_ms": 7.245000004768372,
+        "encoded_bytes": 196408
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--alloy.10d",
+        "duration_ms": 10.689999997615814,
+        "encoded_bytes": 934120
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--red.10d",
+        "duration_ms": 11.540000021457672,
+        "encoded_bytes": 403112
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--lamp.10d",
+        "duration_ms": 11.375,
+        "encoded_bytes": 258648
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--plate.10d",
+        "duration_ms": 8.080000042915344,
+        "encoded_bytes": 226280
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--lamp-interior.10d",
+        "duration_ms": 7.725000023841858,
+        "encoded_bytes": 764504
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--projector.10d",
+        "duration_ms": 8.3299999833107,
+        "encoded_bytes": 389176
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--roofbox-base.10d",
+        "duration_ms": 6.365000009536743,
+        "encoded_bytes": 197592
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/car-passat-b7--roofbox.10d",
+        "duration_ms": 6.2200000286102295,
+        "encoded_bytes": 96400
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--chassis.10d",
+        "duration_ms": 6.040000021457672,
+        "encoded_bytes": 97240
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--rubber.10d",
+        "duration_ms": 7.949999988079071,
+        "encoded_bytes": 763128
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--enamel.10d",
+        "duration_ms": 7.194999992847443,
+        "encoded_bytes": 291320
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--chrome.10d",
+        "duration_ms": 7.850000023841858,
+        "encoded_bytes": 167640
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--ochre.10d",
+        "duration_ms": 8.399999976158142,
+        "encoded_bytes": 53368
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--olive.10d",
+        "duration_ms": 9.264999985694885,
+        "encoded_bytes": 154112
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--roof.10d",
+        "duration_ms": 9.084999978542328,
+        "encoded_bytes": 64688
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--canvas.10d",
+        "duration_ms": 8.524999976158142,
+        "encoded_bytes": 44656
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--screen.10d",
+        "duration_ms": 9.594999969005585,
+        "encoded_bytes": 77328
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--canvas-seam.10d",
+        "duration_ms": 8.599999964237213,
+        "encoded_bytes": 211256
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--screen-wire.10d",
+        "duration_ms": 9.850000023841858,
+        "encoded_bytes": 133080
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--step.10d",
+        "duration_ms": 10.354999959468842,
+        "encoded_bytes": 44656
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--steel.10d",
+        "duration_ms": 10.01500004529953,
+        "encoded_bytes": 134200
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--canvas-roof.10d",
+        "duration_ms": 15.314999997615814,
+        "encoded_bytes": 50200
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--red-lens.10d",
+        "duration_ms": 9.730000019073486,
+        "encoded_bytes": 47544
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/vintage-windup-camper--amber-lens.10d",
+        "duration_ms": 8.860000014305115,
+        "encoded_bytes": 47544
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-three--backing.10d",
+        "duration_ms": 8.305000007152557,
+        "encoded_bytes": 57976
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-three--panel.10d",
+        "duration_ms": 7.099999964237213,
+        "encoded_bytes": 57976
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-three--aluminium.10d",
+        "duration_ms": 8.844999969005585,
+        "encoded_bytes": 243896
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-three--cell-line.10d",
+        "duration_ms": 6.810000002384186,
+        "encoded_bytes": 271992
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-three--rubber.10d",
+        "duration_ms": 6.620000004768372,
+        "encoded_bytes": 223896
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-two--backing.10d",
+        "duration_ms": 5.555000007152557,
+        "encoded_bytes": 47544
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-two--panel.10d",
+        "duration_ms": 6.25,
+        "encoded_bytes": 47544
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-two--aluminium.10d",
+        "duration_ms": 5.239999949932098,
+        "encoded_bytes": 113080
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-two--cell-line.10d",
+        "duration_ms": 5.209999978542328,
+        "encoded_bytes": 124856
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/solar-array-two--rubber.10d",
+        "duration_ms": 5.324999988079071,
+        "encoded_bytes": 114056
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/starlink-mini--dish-back.10d",
+        "duration_ms": 5.504999995231628,
+        "encoded_bytes": 82576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/starlink-mini--dish-front.10d",
+        "duration_ms": 4.474999964237213,
+        "encoded_bytes": 61328
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/starlink-mini--backing.10d",
+        "duration_ms": 5.7799999713897705,
+        "encoded_bytes": 44656
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/starlink-mini--mount.10d",
+        "duration_ms": 4.835000038146973,
+        "encoded_bytes": 56712
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/starlink-mini--rubber.10d",
+        "duration_ms": 6.469999969005585,
+        "encoded_bytes": 66024
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/starlink-mini--aluminium.10d",
+        "duration_ms": 5.189999997615814,
+        "encoded_bytes": 62904
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--pale-bark.10d",
+        "duration_ms": 12.905000030994415,
+        "encoded_bytes": 3755928
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--old-bark.10d",
+        "duration_ms": 9.530000030994415,
+        "encoded_bytes": 898984
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--warm-bark.10d",
+        "duration_ms": 8.064999997615814,
+        "encoded_bytes": 527736
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--twig.10d",
+        "duration_ms": 31.935000002384186,
+        "encoded_bytes": 5904152
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--leaf-olive.10d",
+        "duration_ms": 99.47500002384186,
+        "encoded_bytes": 9414200
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--leaf-blue.10d",
+        "duration_ms": 38.2950000166893,
+        "encoded_bytes": 7185352
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus--leaf-young.10d",
+        "duration_ms": 53.74000000953674,
+        "encoded_bytes": 7392120
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--pale-bark.10d",
+        "duration_ms": 12.259999990463257,
+        "encoded_bytes": 1621624
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--old-bark.10d",
+        "duration_ms": 10.230000019073486,
+        "encoded_bytes": 397096
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--warm-bark.10d",
+        "duration_ms": 8.199999988079071,
+        "encoded_bytes": 245464
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--twig.10d",
+        "duration_ms": 19.51500004529953,
+        "encoded_bytes": 2316984
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--leaf-olive.10d",
+        "duration_ms": 19.39500004053116,
+        "encoded_bytes": 4191272
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--leaf-blue.10d",
+        "duration_ms": 24.439999997615814,
+        "encoded_bytes": 3141224
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/eucalyptus-far--leaf-young.10d",
+        "duration_ms": 25.30000001192093,
+        "encoded_bytes": 3276744
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/canopy--limestone.10d",
+        "duration_ms": 18.589999973773956,
+        "encoded_bytes": 322192
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/canopy--timber.10d",
+        "duration_ms": 31.610000014305115,
+        "encoded_bytes": 2339256
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/canopy--bronze.10d",
+        "duration_ms": 14.094999969005585,
+        "encoded_bytes": 1000184
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/tidal-vessel--limestone.10d",
+        "duration_ms": 12.305000007152557,
+        "encoded_bytes": 289168
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/tidal-vessel--verdigris.10d",
+        "duration_ms": 34.11500000953674,
+        "encoded_bytes": 2997584
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/tidal-vessel--bronze.10d",
+        "duration_ms": 32.64999997615814,
+        "encoded_bytes": 1479408
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/memory-frond--limestone.10d",
+        "duration_ms": 16.335000038146973,
+        "encoded_bytes": 202640
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/memory-frond--bronze.10d",
+        "duration_ms": 17.865000009536743,
+        "encoded_bytes": 189664
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/memory-frond--leaf.10d",
+        "duration_ms": 38.264999985694885,
+        "encoded_bytes": 1928312
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/footbridge--bridge-heartwood.10d",
+        "duration_ms": 21.189999997615814,
+        "encoded_bytes": 237400
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/footbridge--bridge-timber.10d",
+        "duration_ms": 22.669999957084656,
+        "encoded_bytes": 520472
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/footbridge--patinated-bronze.10d",
+        "duration_ms": 30.67500001192093,
+        "encoded_bytes": 799288
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/footbridge--pale-limestone.10d",
+        "duration_ms": 14.110000014305115,
+        "encoded_bytes": 53304
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/observatory--pale-limestone.10d",
+        "duration_ms": 13.215000033378601,
+        "encoded_bytes": 256144
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/observatory--patinated-bronze.10d",
+        "duration_ms": 17.310000002384186,
+        "encoded_bytes": 1906616
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/observatory--shadow-metal.10d",
+        "duration_ms": 13.52999997138977,
+        "encoded_bytes": 916712
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/observatory--receiver-ceramic.10d",
+        "duration_ms": 41.214999973773956,
+        "encoded_bytes": 2397520
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/biology--pale-limestone.10d",
+        "duration_ms": 11.869999945163727,
+        "encoded_bytes": 256144
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/biology--helix-teal.10d",
+        "duration_ms": 13.504999995231628,
+        "encoded_bytes": 893992
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/biology--shadow-metal.10d",
+        "duration_ms": 12.805000007152557,
+        "encoded_bytes": 55640
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/native-world/assets/biology--helix-gold.10d",
+        "duration_ms": 17.05000001192093,
+        "encoded_bytes": 893992
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d",
+        "duration_ms": 59.65000003576279,
+        "encoded_bytes": 8723576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-0-e6f216391a55.10d",
+        "duration_ms": 26.709999978542328,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-1-8e08b3a2ccc4.10d",
+        "duration_ms": 17.4549999833107,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-2-a1235e4d9c23.10d",
+        "duration_ms": 20.7600000500679,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-3-072a5e77f6c2.10d",
+        "duration_ms": 14.480000019073486,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-4-53758c40f028.10d",
+        "duration_ms": 14.879999995231628,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-5-38556bbfa241.10d",
+        "duration_ms": 23.589999973773956,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-6-500aabcae222.10d",
+        "duration_ms": 34.939999997615814,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-7-cc3505e61683.10d",
+        "duration_ms": 53.019999980926514,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-8-3519f12d6c3e.10d",
+        "duration_ms": 31.725000023841858,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-9-e01c4afa509a.10d",
+        "duration_ms": 20.394999980926514,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-10-d0e92ce222f0.10d",
+        "duration_ms": 36.94499999284744,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-11-955411f6d2fd.10d",
+        "duration_ms": 33.110000014305115,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-12-d3e82d434db1.10d",
+        "duration_ms": 19.59500002861023,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-13-d5bad7eae098.10d",
+        "duration_ms": 40.44499999284744,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-mid-14-3611a8352173.10d",
+        "duration_ms": 48.78999996185303,
+        "encoded_bytes": 3757576
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-near-0-7368cf1a1be7.10d",
+        "duration_ms": 57.33500003814697,
+        "encoded_bytes": 3525840
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-near-1-c69051b3d730.10d",
+        "duration_ms": 17.639999985694885,
+        "encoded_bytes": 3525840
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-eucalyptus-near-2-6f3302a92082.10d",
+        "duration_ms": 23.975000023841858,
+        "encoded_bytes": 3525840
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-bank-rock-mid-0-22b8c064e015.10d",
+        "duration_ms": 11.549999952316284,
+        "encoded_bytes": 856056
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-bank-rock-mid-1-70604e63a7de.10d",
+        "duration_ms": 30.37000000476837,
+        "encoded_bytes": 856120
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-bank-rock-mid-2-b1c6294bfc3b.10d",
+        "duration_ms": 17.625,
+        "encoded_bytes": 373560
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-bank-rock-near-0-e2b7d2b600e0.10d",
+        "duration_ms": 20.009999990463257,
+        "encoded_bytes": 2283728
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-near-0-ed8e261a295d.10d",
+        "duration_ms": 33.12999999523163,
+        "encoded_bytes": 8710440
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-near-1-ae100b229255.10d",
+        "duration_ms": 50.75,
+        "encoded_bytes": 8710440
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-near-2-996841433ea4.10d",
+        "duration_ms": 77.55499994754791,
+        "encoded_bytes": 8710440
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-mid-0-b58af8c6f59c.10d",
+        "duration_ms": 46.72500002384186,
+        "encoded_bytes": 8304024
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-mid-1-ab6fe74ecd76.10d",
+        "duration_ms": 93.46000003814697,
+        "encoded_bytes": 8304024
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-mid-2-70455d1fa24c.10d",
+        "duration_ms": 88.88999998569489,
+        "encoded_bytes": 8304024
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-mid-3-c311d92e03bc.10d",
+        "duration_ms": 53.33499997854233,
+        "encoded_bytes": 8304024
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-mid-4-4c03258d3974.10d",
+        "duration_ms": 51.655000030994415,
+        "encoded_bytes": 8304024
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-grass-mid-5-1b366ac4828b.10d",
+        "duration_ms": 44.7049999833107,
+        "encoded_bytes": 4577608
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-shrub-branches-0-371bc33b8fc7.10d",
+        "duration_ms": 48.74500000476837,
+        "encoded_bytes": 4433688
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-shrub-leaves-0-6f76b0cf1f9b.10d",
+        "duration_ms": 65.31499999761581,
+        "encoded_bytes": 7326544
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-shrub-leaves-1-1f916d9d45aa.10d",
+        "duration_ms": 34.2950000166893,
+        "encoded_bytes": 7326608
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-shrub-leaves-2-ef49f2179e53.10d",
+        "duration_ms": 67.9549999833107,
+        "encoded_bytes": 5581464
+      },
+      {
+        "url": "http://127.0.0.1:8801/production/aaa-proof/assets/ecology-leaf-litter-0-e69607b387b6.10d",
+        "duration_ms": 17.935000002384186,
+        "encoded_bytes": 2403624
+      }
+    ]
+  },
+  "raf_median_ms": 937.385000000002,
+  "raf_p95_ms": 1424.3399999999965,
+  "observed_raf_callbacks_per_second": 0.846838645481587,
+  "fps_interval": "Consecutive sampled RAF timestamps; excludes first callback and subsequent adapter probe",
+  "empty_page_control": {
+    "intervals_ms": [
+      7.800000000000182,
+      4,
+      33.30000000000018,
+      4.399999999999636,
+      4,
+      4.400000000000546,
+      4,
+      4.099999999999454,
+      4.300000000000182,
+      4.100000000000364,
+      4.099999999999454,
+      4.300000000000182,
+      4.100000000000364,
+      4.199999999999818,
+      4.300000000000182,
+      4,
+      4.199999999999818,
+      4,
+      4.399999999999636,
+      4,
+      4.199999999999818,
+      4.100000000000364,
+      4.399999999999636,
+      3.9000000000005457,
+      4.300000000000182,
+      4.099999999999454,
+      4.300000000000182,
+      4,
+      4.199999999999818
+    ],
+    "callbacks_per_second": 188.92508143322476
+  },
+  "hotspots": [
+    {
+      "hits": 5399,
+      "function": "(idle)",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 50,
+      "function": "(garbage collector)",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 7,
+      "function": "(program)",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 3,
+      "function": "",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 2,
+      "function": "",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world.js",
+      "line": 6901
+    },
+    {
+      "hits": 1,
+      "function": "getStringFromWasm0",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world.js",
+      "line": 8245
+    },
+    {
+      "hits": 1,
+      "function": "etalon::api::render_pass::RenderPass::draw_indexed::h6665354db9906fc5",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "serde_json::ser::format_escaped_str::h839146a6949790e4",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "serde_json::value::ser::<impl serde_core::ser::Serialize for serde_json::value::Value>::serialize::hb6446dc263294c26",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "sample",
+      "url": "",
+      "line": 2
+    },
+    {
+      "hits": 1,
+      "function": "setBindGroup",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 1,
+      "function": "<core::iter::adapters::map::Map<I,F> as core::iter::traits::iterator::Iterator>::fold::hcbc322249cd142f3",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "wasm-to-js",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 1,
+      "function": "std::io::Write::write_all::hc0feab85120d6985",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "qualia_core_db::render::portal::QualiaPortal::tick::h2a688a9c1cb0da61",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "finish",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 1,
+      "function": "createBindGroup",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 1,
+      "function": "etalon::api::command_encoder::CommandEncoder::begin_render_pass::h8d8d6772ab8efef9",
+      "url": "http://127.0.0.1:8801/pkg/native-world/webizen_world_bg.wasm",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "setBindGroup",
+      "url": "",
+      "line": -1
+    },
+    {
+      "hits": 1,
+      "function": "",
+      "url": "",
+      "line": 0
+    },
+    {
+      "hits": 1,
+      "function": "isTypedArray",
+      "url": "",
+      "line": 64
+    },
+    {
+      "hits": 1,
+      "function": "innerSerialize",
+      "url": "",
+      "line": 213
+    }
+  ],
+  "errors": []
+}

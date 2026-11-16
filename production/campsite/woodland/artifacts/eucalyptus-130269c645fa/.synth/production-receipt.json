@@ -1,0 +1,1452 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 20412992,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa.hmc",
+    "sha256": "71068c64f1c23e94dd1d9b4214d30fc8aeff452a222ca8bd8df6f95f7d4daa14"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 498478368,
+    "effective_host_bytes": 219743232,
+    "evaluation_steps": 1521632,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 380408,
+    "source_reservation_bytes": 48692224,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1521632,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 40354,
+      "key": "peeling-bark-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-0.dxf",
+      "sha256": "51038e23b9eb8d7acdae7635ca04a002cadb5138adf6558170329c7734dca39d"
+    },
+    {
+      "bytes": 40021,
+      "key": "peeling-bark-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-1.dxf",
+      "sha256": "f9763e2bb3c1c8caa95124c675f3cf3d46eb54d65bb4a997b6a3886e10b16881"
+    },
+    {
+      "bytes": 40091,
+      "key": "peeling-bark-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-2.dxf",
+      "sha256": "fe6304e4168b9ebce3467e81af267f66a3c864b8a69aebbf1b7d63e79fc43c4f"
+    },
+    {
+      "bytes": 40405,
+      "key": "peeling-bark-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-3.dxf",
+      "sha256": "78512237424c7c431ed5de6c6b58f4375cda5da5281c3fbffda3d9036372e1d5"
+    },
+    {
+      "bytes": 40834,
+      "key": "peeling-bark-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-4.dxf",
+      "sha256": "17a51d4c8929115a09a10a1e0b3079bbdf0721daaf2d1fd969ce70d9749653c1"
+    },
+    {
+      "bytes": 41838,
+      "key": "peeling-bark-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-5.dxf",
+      "sha256": "84912e406628e48ee00a33280875c2e7e949ba9c97d14edbef427448cc1a2c28"
+    },
+    {
+      "bytes": 41435,
+      "key": "peeling-bark-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-6.dxf",
+      "sha256": "1315b55718cca35ddfc21d84cbbe6134091126dfa8cbe3de6dc348a1fb024ba7"
+    },
+    {
+      "bytes": 41021,
+      "key": "peeling-bark-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-7.dxf",
+      "sha256": "a04de5b1a017d8589a3109cd3f51ebc34034b087a08aed39a5923c00b82a9941"
+    },
+    {
+      "bytes": 40678,
+      "key": "peeling-bark-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\peeling-bark-8.dxf",
+      "sha256": "47f81d87657a79229f283e495d8db6054da116760343b48304b6d7d3145d884b"
+    },
+    {
+      "bytes": 882636,
+      "key": "pendulous-leaf-spray-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-0.dxf",
+      "sha256": "947d39995295a206b04d28505a3919d7200c74ae2b6ee92d85d656fcb83d7fef"
+    },
+    {
+      "bytes": 613264,
+      "key": "pendulous-leaf-spray-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-1.dxf",
+      "sha256": "03f277e9414a3095576bd83e8bffda5035398d5260e5d8fbb435929d043cc1da"
+    },
+    {
+      "bytes": 614280,
+      "key": "pendulous-leaf-spray-10.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-10.dxf",
+      "sha256": "d4b4f4b973c7fa56ab38013e7b5611e0546a5a4bece430d51c4191b0691fe04a"
+    },
+    {
+      "bytes": 995296,
+      "key": "pendulous-leaf-spray-11.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-11.dxf",
+      "sha256": "72e76830ae7881554c33e90a42551425e8169d30a643ebbe116d278b73f5e78f"
+    },
+    {
+      "bytes": 868738,
+      "key": "pendulous-leaf-spray-12.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-12.dxf",
+      "sha256": "ed777f78aca52fb27f9b7863bfacd6651a98c118387bbc64bb77f6ad6cf8cc88"
+    },
+    {
+      "bytes": 1026516,
+      "key": "pendulous-leaf-spray-13.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-13.dxf",
+      "sha256": "05a3767933d08cdaa8a88ae4200fc91da045153f5a3dedbe2e1cea204912c11c"
+    },
+    {
+      "bytes": 628665,
+      "key": "pendulous-leaf-spray-14.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-14.dxf",
+      "sha256": "8957392691b4f50c82abf3e72063a8774b329aa1165b3f6ebec3e130b3179128"
+    },
+    {
+      "bytes": 1146604,
+      "key": "pendulous-leaf-spray-15.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-15.dxf",
+      "sha256": "887d4b8ccccdb3933be03bc0577f4bd37611feec5693318daa5000f668826d67"
+    },
+    {
+      "bytes": 1011408,
+      "key": "pendulous-leaf-spray-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-2.dxf",
+      "sha256": "516ae496f2581f14acb996ca61554ce5515be4b6071ddf37cd871177efac4820"
+    },
+    {
+      "bytes": 773086,
+      "key": "pendulous-leaf-spray-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-3.dxf",
+      "sha256": "3fa17a2671f21a57bd0644710a5349ff85637755ad3b6403a9853d32e203cd31"
+    },
+    {
+      "bytes": 1033600,
+      "key": "pendulous-leaf-spray-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-4.dxf",
+      "sha256": "ef42a2cff197dfb06249252115e1b6a378050ced89f29c421c743991445ba1f8"
+    },
+    {
+      "bytes": 602528,
+      "key": "pendulous-leaf-spray-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-5.dxf",
+      "sha256": "9ca907872758ca01811841238d35b400b46e691adf4ccfc5acd65ee61b5a7212"
+    },
+    {
+      "bytes": 902921,
+      "key": "pendulous-leaf-spray-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-6.dxf",
+      "sha256": "05b1df0b20aa48f9dab13b0cb0d88bdf4071287b83dd0eb7a9bf0d4a4b4b2b68"
+    },
+    {
+      "bytes": 731325,
+      "key": "pendulous-leaf-spray-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-7.dxf",
+      "sha256": "6ca01c79074fe80f19543d5521cb6950925b1d9cb76d80c87c68e749d63fba87"
+    },
+    {
+      "bytes": 952571,
+      "key": "pendulous-leaf-spray-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-8.dxf",
+      "sha256": "476d9ece193f22bfa4668b373fdbdc3ffb3aee30ef2c0e257e555ae950b3444a"
+    },
+    {
+      "bytes": 978872,
+      "key": "pendulous-leaf-spray-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\pendulous-leaf-spray-9.dxf",
+      "sha256": "9714d3b4728d6b3f4009fde5a853bb958495c57698aee01fe0009ac746f74c7e"
+    },
+    {
+      "bytes": 22554,
+      "key": "root-flare-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\root-flare-0.dxf",
+      "sha256": "388a35b7f394946ad15050d83c5a3fe99f716f5898393f78d5b76fcf364d9955"
+    },
+    {
+      "bytes": 22308,
+      "key": "root-flare-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\root-flare-1.dxf",
+      "sha256": "411f89960c83064c8d59b55fce32f0b5250b43e324df29e5ae3a669fe6193bc2"
+    },
+    {
+      "bytes": 22680,
+      "key": "root-flare-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\root-flare-2.dxf",
+      "sha256": "197b65096ee4540635dfbb492adeefa8772a1ed3bb3595c9e06e3665dae52761"
+    },
+    {
+      "bytes": 23378,
+      "key": "root-flare-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\root-flare-3.dxf",
+      "sha256": "3e98c71c32b365e36dc953bcba76a9846ab9d23cb00629e957d0032e1f1047dc"
+    },
+    {
+      "bytes": 23302,
+      "key": "root-flare-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\root-flare-4.dxf",
+      "sha256": "fed22a7523b2f5d2a0061dbff3421ba147363fcf8f1b5778fcd558691c38a357"
+    },
+    {
+      "bytes": 22680,
+      "key": "root-flare-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\root-flare-5.dxf",
+      "sha256": "6035372a42a0d808c9aa1d79cba02ec710e02d2ec3d621a4caa0a889c75b4ddd"
+    },
+    {
+      "bytes": 94779,
+      "key": "scaffold-limb-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-0.dxf",
+      "sha256": "fa9151f9f54d04c5d5ef90f1030b4d6ae15bc972708e040ffdb21de3a4243f51"
+    },
+    {
+      "bytes": 97651,
+      "key": "scaffold-limb-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-1.dxf",
+      "sha256": "3bbda71eb05ce4b52982beac0f8b9c9b4bc7016c4ec59432b97e0a6bd1eac82e"
+    },
+    {
+      "bytes": 97782,
+      "key": "scaffold-limb-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-2.dxf",
+      "sha256": "48747c41f0a5848cb1fbd8f8144a79887e5114a9e87b5d9e2e8d488fdf2908f1"
+    },
+    {
+      "bytes": 94936,
+      "key": "scaffold-limb-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-3.dxf",
+      "sha256": "cc7c8a489c54ce81e32a6b8911673be7dcf5522735b70c10106e1c5af5a58608"
+    },
+    {
+      "bytes": 99086,
+      "key": "scaffold-limb-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-4.dxf",
+      "sha256": "b2fac1f73fe5cfa2879c0ee9444ef7c87273896c4317fabb385a96d2b1833de4"
+    },
+    {
+      "bytes": 96769,
+      "key": "scaffold-limb-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-5.dxf",
+      "sha256": "f644f05012285e32d1e2118fc22481e89010be44f4ee8425fe7c618dd558ea62"
+    },
+    {
+      "bytes": 97438,
+      "key": "scaffold-limb-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-6.dxf",
+      "sha256": "604b15037456cfd23982f21ffe6ae4a0abd60d52fdbac9e895bee492bb127f75"
+    },
+    {
+      "bytes": 100168,
+      "key": "scaffold-limb-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\scaffold-limb-7.dxf",
+      "sha256": "293510817df3a6f066ad8d727f2bba8f5bbfe77c7fb6d2caa24e840da7834313"
+    },
+    {
+      "bytes": 35394,
+      "key": "secondary-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-0-0.dxf",
+      "sha256": "e87b3d87823ab442f9cf00d96af9376ef01cb207f57a56c03226b44abfea0675"
+    },
+    {
+      "bytes": 35818,
+      "key": "secondary-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-0-1.dxf",
+      "sha256": "0d597e4584b08a0d803f90903c96a5f8e811e34962bc014d9ba47bdf9202aed5"
+    },
+    {
+      "bytes": 35964,
+      "key": "secondary-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-0-2.dxf",
+      "sha256": "e9259b14fdb9495d0bb1a2cf44a4690fec647bdd8052a8afa61f3ec3632fba4b"
+    },
+    {
+      "bytes": 36689,
+      "key": "secondary-0-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-0-3.dxf",
+      "sha256": "235422e494a6d2e318767423933c1e1223ce9e61574079a0a2e7f61aca7c0801"
+    },
+    {
+      "bytes": 36065,
+      "key": "secondary-0-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-0-4.dxf",
+      "sha256": "8190f2c6a86fe8284f9f39188a883264155e7d5797d8081bf1bef21102b28e82"
+    },
+    {
+      "bytes": 37411,
+      "key": "secondary-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-1-0.dxf",
+      "sha256": "fd160681eb3c0943c2d7e1261ce3fa507730c23203d84f4abd076d12c94fd018"
+    },
+    {
+      "bytes": 37004,
+      "key": "secondary-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-1-1.dxf",
+      "sha256": "7d8aa625cf779868e3cfde9942af41a162eba19cef541e8cd707cb84cd3279db"
+    },
+    {
+      "bytes": 37051,
+      "key": "secondary-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-1-2.dxf",
+      "sha256": "c3ac0ab5062a9ab8d54b834f8363bc18354f3b26bde19fc2bbda986887a2b1a4"
+    },
+    {
+      "bytes": 37002,
+      "key": "secondary-1-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-1-3.dxf",
+      "sha256": "a4965dcdf98e1df5b10f1a417a4e43a36389e73e0b41b9b67c30ae2a75da563c"
+    },
+    {
+      "bytes": 36986,
+      "key": "secondary-1-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-1-4.dxf",
+      "sha256": "65710e6078885b892a71d61906e1a85c82f65f26ec1f0102d1b012acb81abaa4"
+    },
+    {
+      "bytes": 36805,
+      "key": "secondary-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-2-0.dxf",
+      "sha256": "834b6b164f65d406fc284201025d5e7a7e1210747c5adfdc539d9f83c4a5fdf4"
+    },
+    {
+      "bytes": 37878,
+      "key": "secondary-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-2-1.dxf",
+      "sha256": "c6f9d21cc9456056a3c69798f600c209b635f887d0f8251b347274789386c651"
+    },
+    {
+      "bytes": 37119,
+      "key": "secondary-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-2-2.dxf",
+      "sha256": "99b24b0d588efefd7d76822e8c7f11f325ea7c552f82deab2debc65157ce83a6"
+    },
+    {
+      "bytes": 37523,
+      "key": "secondary-2-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-2-3.dxf",
+      "sha256": "3f8290a258fa921638f530e50ecdaaff26d6188cc2736fed75eab28ea659b983"
+    },
+    {
+      "bytes": 36932,
+      "key": "secondary-2-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-2-4.dxf",
+      "sha256": "e9f9b16c2c6d040250ae759bf0b448e644a0d5ddfe1351ca8dbfae9e560805e5"
+    },
+    {
+      "bytes": 36070,
+      "key": "secondary-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-3-0.dxf",
+      "sha256": "a95bc7bac74aa3edc191cda9c4ab1e344564364f128594f82cefc6504360d5b7"
+    },
+    {
+      "bytes": 36148,
+      "key": "secondary-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-3-1.dxf",
+      "sha256": "5cf12ffa7981cbf053bf7910239ae44456863cc7efa7cd3768e2ebf4988951e8"
+    },
+    {
+      "bytes": 35916,
+      "key": "secondary-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-3-2.dxf",
+      "sha256": "738698b62aede200e05c5d13c7bc3882f9d839cef7cdc5bf7353eb03e92278b7"
+    },
+    {
+      "bytes": 36050,
+      "key": "secondary-3-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-3-3.dxf",
+      "sha256": "dd303de77f9d047193ad7a7095c24038550bef6df4cdc86490f7d57f49806c06"
+    },
+    {
+      "bytes": 36067,
+      "key": "secondary-3-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-3-4.dxf",
+      "sha256": "c54ab4939251f009e649ea07df4935356f2ef9ca798cb6822e371e84cc98bf99"
+    },
+    {
+      "bytes": 37117,
+      "key": "secondary-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-4-0.dxf",
+      "sha256": "0c721d889551f4eeaf63e775d8cc18300f1ebb42142718166d9940e09caa47cc"
+    },
+    {
+      "bytes": 37088,
+      "key": "secondary-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-4-1.dxf",
+      "sha256": "40b2ba01900634627e0eff2c41c0353806ef676c2a80445fb36f59f4b5f0e787"
+    },
+    {
+      "bytes": 37233,
+      "key": "secondary-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-4-2.dxf",
+      "sha256": "288fc1b1604f871a15853103b43f12ff8082f0e8ebdb3530ead01b4973332cb6"
+    },
+    {
+      "bytes": 37915,
+      "key": "secondary-4-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-4-3.dxf",
+      "sha256": "a8e3c2c8b2d69a596ca8f663a6b55d565fa56d431467ee9408cc47c05591a7f7"
+    },
+    {
+      "bytes": 37825,
+      "key": "secondary-4-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-4-4.dxf",
+      "sha256": "68c4cbef4d2407d880e377c671df51115be7653ad67808ce0d6d864711fd1c16"
+    },
+    {
+      "bytes": 35716,
+      "key": "secondary-5-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-5-0.dxf",
+      "sha256": "d790432c4dc8d960dabb3e0fda6dc86ce7f19ce36be2bec183c1a4757e947ebb"
+    },
+    {
+      "bytes": 37056,
+      "key": "secondary-5-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-5-1.dxf",
+      "sha256": "47506b7e681010fc95c6a824dbedbec485685309d244b7435831f4224828f989"
+    },
+    {
+      "bytes": 37304,
+      "key": "secondary-5-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-5-2.dxf",
+      "sha256": "e16a4d80ee8ac50c17a554fb02aa84864e9361713b268cf9c2f8700ebc95b168"
+    },
+    {
+      "bytes": 36970,
+      "key": "secondary-5-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-5-3.dxf",
+      "sha256": "cc8e7c84e075111936ae8e442d522045c55cfe2b6bc385692e3654c55866a823"
+    },
+    {
+      "bytes": 37118,
+      "key": "secondary-5-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-5-4.dxf",
+      "sha256": "97df217c256aa595a6dbb15dd011c579c7325fe0ee9439c0cbaade950b7d61c0"
+    },
+    {
+      "bytes": 36288,
+      "key": "secondary-6-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-6-0.dxf",
+      "sha256": "1658549933d65c5d2b60f24983e23536437e47b5fb9ebe950a0f90180a247b99"
+    },
+    {
+      "bytes": 36499,
+      "key": "secondary-6-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-6-1.dxf",
+      "sha256": "4855a2f33e458256ce8525db1110523065cb773c185d743c06b4b8f6e4c7e197"
+    },
+    {
+      "bytes": 36889,
+      "key": "secondary-6-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-6-2.dxf",
+      "sha256": "1ec65d5d4f0ea4bdd032499d6500eadc15688404bf7444bef661f37aa515cf88"
+    },
+    {
+      "bytes": 37296,
+      "key": "secondary-6-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-6-3.dxf",
+      "sha256": "ffff49bf319c6d85b4b9c26e3bd03ea0c70d68122a43aeaba8d921121ce08dff"
+    },
+    {
+      "bytes": 36922,
+      "key": "secondary-6-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-6-4.dxf",
+      "sha256": "a9b403025910ba10d243a07d7a66360ddc3012cfe7bac311a7f03451a30a51d2"
+    },
+    {
+      "bytes": 37458,
+      "key": "secondary-7-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-7-0.dxf",
+      "sha256": "26e0446135f39646f07f519e4897349ea63c47b08aa2800776fa3bbe58dbb984"
+    },
+    {
+      "bytes": 38081,
+      "key": "secondary-7-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-7-1.dxf",
+      "sha256": "b4e62fa0101988062129966a55396594c45a3d1c61d21b5bec939b66433fcf92"
+    },
+    {
+      "bytes": 38062,
+      "key": "secondary-7-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-7-2.dxf",
+      "sha256": "8eab032ec562d0dd290d573112deff66869ca68a1eb086698e2e07137240bd4c"
+    },
+    {
+      "bytes": 37841,
+      "key": "secondary-7-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-7-3.dxf",
+      "sha256": "b512cd07de3833a21fe34acc1c757245b8a8aa0270c4cd0642374ae51e8c16d1"
+    },
+    {
+      "bytes": 38103,
+      "key": "secondary-7-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\secondary-7-4.dxf",
+      "sha256": "ead4897b87be02b6af54d9e0fcfd58d436578d222488fef49ea347d20b4ef2c4"
+    },
+    {
+      "bytes": 244844,
+      "key": "sinuous-main-bole.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\sinuous-main-bole.dxf",
+      "sha256": "00d91954022c38a52d5cab9deccefbf28bea79a45f2b3536426612adf0dfa53f"
+    },
+    {
+      "bytes": 25681,
+      "key": "terminal-twig-0-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-0-0.dxf",
+      "sha256": "1aabe23f30898c1a3f2123f71e33923b0a2345c34c647530eea187c7eeb8be82"
+    },
+    {
+      "bytes": 25760,
+      "key": "terminal-twig-0-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-0-1.dxf",
+      "sha256": "d66bc9dd3b9b34664cf128cf3db0676fec76adf18d5067d4c8d91c38b8b9e428"
+    },
+    {
+      "bytes": 25657,
+      "key": "terminal-twig-0-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-0-2.dxf",
+      "sha256": "2a92cc754a0edb3eac61238853a6db653df1143a19dbdda8deae7775fcf1f12e"
+    },
+    {
+      "bytes": 26693,
+      "key": "terminal-twig-0-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-1-0.dxf",
+      "sha256": "ebc9b25eb91caef86868bbd8b25120aa04995a4ec0aae3305ac7fb7c84fe8fa5"
+    },
+    {
+      "bytes": 26841,
+      "key": "terminal-twig-0-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-1-1.dxf",
+      "sha256": "363cde00f62955de41c747841816660acd70952175d5c24ecc2b686683902a73"
+    },
+    {
+      "bytes": 26744,
+      "key": "terminal-twig-0-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-1-2.dxf",
+      "sha256": "d264f0a605531bbca8c4f814e7f54f8aa76a96c7a825f307ea926de14721ac91"
+    },
+    {
+      "bytes": 26277,
+      "key": "terminal-twig-0-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-2-0.dxf",
+      "sha256": "1b745aac3edc58cfa8a7bbfcbca1e041f6d735cd323891d4f944d35ad7cab175"
+    },
+    {
+      "bytes": 26145,
+      "key": "terminal-twig-0-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-2-1.dxf",
+      "sha256": "272d42b964a6234aefd43b0e735c734df57b768f8148f357f7a4a3aa060ce82e"
+    },
+    {
+      "bytes": 26214,
+      "key": "terminal-twig-0-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-2-2.dxf",
+      "sha256": "6eb7cba1b77f33fe8746d9ead020b7e45be12c7c1736f4f8ea15036e6be88445"
+    },
+    {
+      "bytes": 27022,
+      "key": "terminal-twig-0-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-3-0.dxf",
+      "sha256": "597f475fe3cb56c56e2844504c8cb98cd3ec8723c812773ae1ad9e38eb98aded"
+    },
+    {
+      "bytes": 26974,
+      "key": "terminal-twig-0-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-3-1.dxf",
+      "sha256": "98e04ff7dd95448e21946508f34fdebabb465eada84806ced632b309f05a6e7d"
+    },
+    {
+      "bytes": 27305,
+      "key": "terminal-twig-0-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-3-2.dxf",
+      "sha256": "1f42cfb91251f0341dee41ac4951872cc77bbc4308ef488cda92aed3c94c74ac"
+    },
+    {
+      "bytes": 26156,
+      "key": "terminal-twig-0-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-4-0.dxf",
+      "sha256": "dbe1ccc3757e71b54cd398486bb28d40e2d4a2acbb2221e1bd06a69aecdd3f82"
+    },
+    {
+      "bytes": 26325,
+      "key": "terminal-twig-0-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-4-1.dxf",
+      "sha256": "fc47fe4c9c9f2c95359a2b2d07d4721dace67b034c2e97d9b1f7ea08d93361cd"
+    },
+    {
+      "bytes": 26177,
+      "key": "terminal-twig-0-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-0-4-2.dxf",
+      "sha256": "a302d1ad50d95a789409eddbbedea1f7779076b6e16158e4990289382f0d077b"
+    },
+    {
+      "bytes": 26795,
+      "key": "terminal-twig-1-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-0-0.dxf",
+      "sha256": "ade9ec21ed649fa253ba542e87eefd1dc29d08aeba337342ee0ff0e4db2d12e5"
+    },
+    {
+      "bytes": 27759,
+      "key": "terminal-twig-1-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-0-1.dxf",
+      "sha256": "a7f901bb257ec8a29885ceb931f418c00dd4d96dd7d25b5fb6838790d7270a5d"
+    },
+    {
+      "bytes": 27781,
+      "key": "terminal-twig-1-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-0-2.dxf",
+      "sha256": "e9d70377551d3c415791ca210da51b42bd4a9034d840ed9ee4ca378d07f9ef22"
+    },
+    {
+      "bytes": 26883,
+      "key": "terminal-twig-1-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-1-0.dxf",
+      "sha256": "c83704d50423722bd7de8e9bf3eeb12b9c0360abed333e3931f1a9b048cbaf56"
+    },
+    {
+      "bytes": 26964,
+      "key": "terminal-twig-1-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-1-1.dxf",
+      "sha256": "03477129f3dc3fa28097fda1df025cde9c67304bcb3c8c155abb80422bfac1de"
+    },
+    {
+      "bytes": 26920,
+      "key": "terminal-twig-1-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-1-2.dxf",
+      "sha256": "99a491e407445ea6b991c859e3c34ba88311e9e9d8df1e683baa736c7173f2eb"
+    },
+    {
+      "bytes": 26955,
+      "key": "terminal-twig-1-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-2-0.dxf",
+      "sha256": "c78b3e5e71faf952b8358e45681b3f43687d8db40ddf2c400d6a95826bb5c04c"
+    },
+    {
+      "bytes": 27082,
+      "key": "terminal-twig-1-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-2-1.dxf",
+      "sha256": "0efee6a45b4b8704ccb835051080c2950f743535b60c4cfb1d2b71ceb2256281"
+    },
+    {
+      "bytes": 27550,
+      "key": "terminal-twig-1-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-2-2.dxf",
+      "sha256": "aa3570dfc61915ec7ab27c6c376bfd4b5298ce3fd2bef3a69e5b8b1d6fbe30be"
+    },
+    {
+      "bytes": 27015,
+      "key": "terminal-twig-1-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-3-0.dxf",
+      "sha256": "e3caa9afa8ec9309d448b96b1a6f72d1b5aea16dba7ef65c0f936270082c01e8"
+    },
+    {
+      "bytes": 26909,
+      "key": "terminal-twig-1-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-3-1.dxf",
+      "sha256": "746c738ffa2d1bd737b4a362c35bd7355bc31d5def6e44ce9a2d8ac35a60ecbe"
+    },
+    {
+      "bytes": 26786,
+      "key": "terminal-twig-1-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-3-2.dxf",
+      "sha256": "ca28a978d17f01b709438c6520537a7b63ed07afc4df8cfa997309b94d6a7149"
+    },
+    {
+      "bytes": 26963,
+      "key": "terminal-twig-1-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-4-0.dxf",
+      "sha256": "c6a88d2be7a14867541fa14086ecfbeed32fd759dc27353d255ec3dedaa7a95f"
+    },
+    {
+      "bytes": 27150,
+      "key": "terminal-twig-1-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-4-1.dxf",
+      "sha256": "18f7024c9985b24831052d67c2f8d82b057094c15e256b96c09463c33e8b20e9"
+    },
+    {
+      "bytes": 27489,
+      "key": "terminal-twig-1-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-1-4-2.dxf",
+      "sha256": "8ddae569cc30f8ddb4baaea14c328521acfac9adc9177efafb0cb0f9baf27a1d"
+    },
+    {
+      "bytes": 26397,
+      "key": "terminal-twig-2-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-0-0.dxf",
+      "sha256": "cd35f9bd0bd7163468b557e74dda1362e601ddd1db2782272e6b0a9481d8e86c"
+    },
+    {
+      "bytes": 27015,
+      "key": "terminal-twig-2-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-0-1.dxf",
+      "sha256": "f8b89b6ae612e0ee8efa983b96206fd9587faf2c8f8ce2bcb33b5d722b2b4737"
+    },
+    {
+      "bytes": 27149,
+      "key": "terminal-twig-2-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-0-2.dxf",
+      "sha256": "bd0e66b4fd739a4a9f20ec0961e717c80746cb99ab696c819c02a3a156ea44c4"
+    },
+    {
+      "bytes": 27878,
+      "key": "terminal-twig-2-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-1-0.dxf",
+      "sha256": "f28ee3a9154d7da949b8ec4e56bdac7eeeae18bc95ff0710085038df74c78186"
+    },
+    {
+      "bytes": 27587,
+      "key": "terminal-twig-2-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-1-1.dxf",
+      "sha256": "f80ad073c42c982d7a654e10b901f84e601d51e47aa20d314c45aaaa9c8740b9"
+    },
+    {
+      "bytes": 27584,
+      "key": "terminal-twig-2-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-1-2.dxf",
+      "sha256": "25cd4bbf55144a2eb20a01c04b8abd0ac39331702bf1ed91abd0a6027588b9cd"
+    },
+    {
+      "bytes": 27029,
+      "key": "terminal-twig-2-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-2-0.dxf",
+      "sha256": "77f0e1cc316e51b78c587f125749a500ac7a411205c93a97b15604687102c0f1"
+    },
+    {
+      "bytes": 26881,
+      "key": "terminal-twig-2-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-2-1.dxf",
+      "sha256": "fc73f7be425113d4739507543360347303e17cfd588bf1c5a4893b7c4e74d2f7"
+    },
+    {
+      "bytes": 26999,
+      "key": "terminal-twig-2-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-2-2.dxf",
+      "sha256": "8224f3098649632a25d8c3ef19efaa4cb1a4bdada93b1e6643724c09cb8efc87"
+    },
+    {
+      "bytes": 27795,
+      "key": "terminal-twig-2-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-3-0.dxf",
+      "sha256": "13ae2844fcad529671b85b7326a0638e998b0ab29427b9cb1e0dd9987734e288"
+    },
+    {
+      "bytes": 27796,
+      "key": "terminal-twig-2-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-3-1.dxf",
+      "sha256": "a6effe2a80d7525853164daebb00ecddd29f15aa60c1c09a404aa887882a2663"
+    },
+    {
+      "bytes": 27346,
+      "key": "terminal-twig-2-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-3-2.dxf",
+      "sha256": "3512f146bc89018b0ed56f43b1f9adfe0ddc60db6fd62cded397b6dcfc8d1496"
+    },
+    {
+      "bytes": 26999,
+      "key": "terminal-twig-2-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-4-0.dxf",
+      "sha256": "36ea446c013a2d12afb5f6b24c776ff7251c22a954e2b2cf05340d91acc1bda6"
+    },
+    {
+      "bytes": 26894,
+      "key": "terminal-twig-2-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-4-1.dxf",
+      "sha256": "299e3a74516ed5c36b627ff799316621ec14cac5d4afa132605332087fd6681e"
+    },
+    {
+      "bytes": 27004,
+      "key": "terminal-twig-2-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-2-4-2.dxf",
+      "sha256": "97a45f563856ce6a5795b7ffc8394e8cab6dfb3f42c51fba11a6e6c68122cebf"
+    },
+    {
+      "bytes": 26389,
+      "key": "terminal-twig-3-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-0-0.dxf",
+      "sha256": "a9ec8fb1bfbebfed1767f2dc35bffd59478b4af915cbcf7384ae57136639262d"
+    },
+    {
+      "bytes": 26634,
+      "key": "terminal-twig-3-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-0-1.dxf",
+      "sha256": "b530a78afa56629c7e7ef7b1aea1e6ed4ce71a832f60c7a991713738ec8048f7"
+    },
+    {
+      "bytes": 26814,
+      "key": "terminal-twig-3-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-0-2.dxf",
+      "sha256": "c5390f37dc8841c8384bdf2dbb7a2d432b1b4877aa7bb77cedc91cc823e9a12f"
+    },
+    {
+      "bytes": 26303,
+      "key": "terminal-twig-3-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-1-0.dxf",
+      "sha256": "4374785a6c21c44e8e5dcd233eadb04932c0d4c1a77651542b55fe5e1374f014"
+    },
+    {
+      "bytes": 26255,
+      "key": "terminal-twig-3-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-1-1.dxf",
+      "sha256": "9e26bf7b71cc727de7383301dd3432f25618446ddfc61fda915bd78694663c4c"
+    },
+    {
+      "bytes": 26191,
+      "key": "terminal-twig-3-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-1-2.dxf",
+      "sha256": "f982acafdd14b1d15419b80b8390317db78b830362cdd570c8a0c8f26e37dda0"
+    },
+    {
+      "bytes": 26217,
+      "key": "terminal-twig-3-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-2-0.dxf",
+      "sha256": "726681f17ef34789ccb176d6d89cf9404407f2f86b8cb98ea5d8e575f14ad0fc"
+    },
+    {
+      "bytes": 26256,
+      "key": "terminal-twig-3-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-2-1.dxf",
+      "sha256": "ff34291328619ddc598e6672bc5db86eefa7cb67a7ab49d1cad91412ccd61d4c"
+    },
+    {
+      "bytes": 26402,
+      "key": "terminal-twig-3-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-2-2.dxf",
+      "sha256": "fe064c62d934f1d377da20666bfd0dfbf90da237a24ad8267a295fcca728b76d"
+    },
+    {
+      "bytes": 26274,
+      "key": "terminal-twig-3-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-3-0.dxf",
+      "sha256": "68c549d556b9599fabe28102214ee180bf99e14d5363d50f778b71c2752ded7e"
+    },
+    {
+      "bytes": 26236,
+      "key": "terminal-twig-3-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-3-1.dxf",
+      "sha256": "06521f093f31443c32d7e31bf7424e2206d3de965fae4d7315a9245d617f1d27"
+    },
+    {
+      "bytes": 26091,
+      "key": "terminal-twig-3-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-3-2.dxf",
+      "sha256": "d9b48efa4a468b24908c2d33f4088df9cba5ad0e0f2dc5cbdb2c1cde1fed56f1"
+    },
+    {
+      "bytes": 26197,
+      "key": "terminal-twig-3-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-4-0.dxf",
+      "sha256": "0f7ecbb8f2142abfdfef46317abccd31d39e73b3ac7987b1eba9bfb653d4660c"
+    },
+    {
+      "bytes": 26263,
+      "key": "terminal-twig-3-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-4-1.dxf",
+      "sha256": "e876662364fb8be6a7ee080aef1180fea5166c724cf9999f360619b674774232"
+    },
+    {
+      "bytes": 26384,
+      "key": "terminal-twig-3-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-3-4-2.dxf",
+      "sha256": "259599139171d44c998169a5eb65397b46dac4080eda101656e596a12be0ac46"
+    },
+    {
+      "bytes": 27062,
+      "key": "terminal-twig-4-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-0-0.dxf",
+      "sha256": "3eec3c1d6a13e4c8533786ce4a1ed5543eabe38d1843452cab1af60a228b08bc"
+    },
+    {
+      "bytes": 26931,
+      "key": "terminal-twig-4-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-0-1.dxf",
+      "sha256": "2d536e7c3b04be21862154806fe1c9b7e0aca150ef87454f1fc7a560f1b0600c"
+    },
+    {
+      "bytes": 26993,
+      "key": "terminal-twig-4-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-0-2.dxf",
+      "sha256": "d845dfdd7b3d8abdc687582bf2b514cad2808a72bdd379a735a19b9369481a9d"
+    },
+    {
+      "bytes": 26804,
+      "key": "terminal-twig-4-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-1-0.dxf",
+      "sha256": "2d38a015dd95b46c856e98b5bc493740305ce368cddfcb63db9d3e570a274868"
+    },
+    {
+      "bytes": 26718,
+      "key": "terminal-twig-4-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-1-1.dxf",
+      "sha256": "abaff55ce2d63dcdb41fe508319c554519634b114ec22f3a950290d49dff2f7c"
+    },
+    {
+      "bytes": 27043,
+      "key": "terminal-twig-4-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-1-2.dxf",
+      "sha256": "4ac249dfeb99f4a9017fbf0cd4ccbe5ffe573acb90dbcfabb150f3abf41aac77"
+    },
+    {
+      "bytes": 27005,
+      "key": "terminal-twig-4-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-2-0.dxf",
+      "sha256": "cb86dfca35865188510340ec3cd82fff56acf9e622d513f61c75d9fb891467d1"
+    },
+    {
+      "bytes": 27303,
+      "key": "terminal-twig-4-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-2-1.dxf",
+      "sha256": "0cc0e15ee0991cf3b9f2f43beca073430a800a56db2aa1a6b796aa79b253d201"
+    },
+    {
+      "bytes": 27442,
+      "key": "terminal-twig-4-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-2-2.dxf",
+      "sha256": "e7a9eee5992a507aa8ec318a89d79bf4248d5ef501f1289727aa30777d11ff97"
+    },
+    {
+      "bytes": 27498,
+      "key": "terminal-twig-4-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-3-0.dxf",
+      "sha256": "c3d6e2fcc5fd5643bfaffb34b708bf1b80737d4e02d20a4d751aef5578e45bf4"
+    },
+    {
+      "bytes": 27630,
+      "key": "terminal-twig-4-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-3-1.dxf",
+      "sha256": "901c64f7a5e22c3a39219c1543e7980d142b98b4b3a40ae4dd0011dc16435c19"
+    },
+    {
+      "bytes": 27823,
+      "key": "terminal-twig-4-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-3-2.dxf",
+      "sha256": "9a965cc3c5866fc693cc4439771b5bf754fc6f68fa0c71ba5e8440b7d537d0e8"
+    },
+    {
+      "bytes": 27471,
+      "key": "terminal-twig-4-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-4-0.dxf",
+      "sha256": "302fd1cc8287ee95ae65d5a764694dc98b52c378a224820c85a27c171a2263e0"
+    },
+    {
+      "bytes": 27411,
+      "key": "terminal-twig-4-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-4-1.dxf",
+      "sha256": "d2a198cebb09bd22382db5daa253528432149bada055e835d2aef768a7c6905f"
+    },
+    {
+      "bytes": 27608,
+      "key": "terminal-twig-4-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-4-4-2.dxf",
+      "sha256": "a477bd42b1ef682ca2b64902a762d4173e4b7525edae6758feed5136370ed11c"
+    },
+    {
+      "bytes": 26143,
+      "key": "terminal-twig-5-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-0-0.dxf",
+      "sha256": "fcd555bb94c092231aedf4939ad48875689d5e776c36a7f5a5039c49ddae2e54"
+    },
+    {
+      "bytes": 25996,
+      "key": "terminal-twig-5-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-0-1.dxf",
+      "sha256": "ea67fd4980b2eeb4c43767d220317b460378b00d8c1ba32726057fceb2f3345c"
+    },
+    {
+      "bytes": 25760,
+      "key": "terminal-twig-5-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-0-2.dxf",
+      "sha256": "96789b48cb1df66a95e9b327e2c4a14bddc92161cafa7661f196dfe03f65a2ba"
+    },
+    {
+      "bytes": 26788,
+      "key": "terminal-twig-5-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-1-0.dxf",
+      "sha256": "49f2aa566782ef62c7a943831b52904ea7df150d21edf277bcd864ffe6ffb868"
+    },
+    {
+      "bytes": 27004,
+      "key": "terminal-twig-5-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-1-1.dxf",
+      "sha256": "303f65020cea295be095ad5622e832d09baa83bde881395cec3dad5ea6420a46"
+    },
+    {
+      "bytes": 27003,
+      "key": "terminal-twig-5-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-1-2.dxf",
+      "sha256": "ab6077409382b5a25d4b73700f06c0069d3a6d1522914681b4d77bcbe156fc5f"
+    },
+    {
+      "bytes": 27106,
+      "key": "terminal-twig-5-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-2-0.dxf",
+      "sha256": "f3966d27f8431558b2723aefe361077ebd0a84229fd137e6dde4a59fb958cc11"
+    },
+    {
+      "bytes": 26468,
+      "key": "terminal-twig-5-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-2-1.dxf",
+      "sha256": "08fd5e507bd4153fabca4d18e35903cbc7c6860f2894cecb4970f35252aecc20"
+    },
+    {
+      "bytes": 26465,
+      "key": "terminal-twig-5-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-2-2.dxf",
+      "sha256": "2601664dd9e8e080b7700c6197bada58eba757397659f302811e2824d6283140"
+    },
+    {
+      "bytes": 26867,
+      "key": "terminal-twig-5-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-3-0.dxf",
+      "sha256": "9129794e5cd384d23a7201ce3a86532939d05bac24749592cfc955c623b964f4"
+    },
+    {
+      "bytes": 26957,
+      "key": "terminal-twig-5-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-3-1.dxf",
+      "sha256": "d317bfa1ca6ebdd6e2f89614c4dd2a627c98198f4c30f4ab5bda4198fac21add"
+    },
+    {
+      "bytes": 26948,
+      "key": "terminal-twig-5-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-3-2.dxf",
+      "sha256": "706a5ea8dba400ba6a8f8021a0215759b7e1888216a58a7d8ad688591bf47045"
+    },
+    {
+      "bytes": 26989,
+      "key": "terminal-twig-5-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-4-0.dxf",
+      "sha256": "dfbb63261e8d53ff9a175b1ea9a5b0743304caebabc842cd7e11bc78895556d3"
+    },
+    {
+      "bytes": 27295,
+      "key": "terminal-twig-5-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-4-1.dxf",
+      "sha256": "b95f72b0fdccd27594718430fd4493aba0a246fec105543fae80fd434527662b"
+    },
+    {
+      "bytes": 27091,
+      "key": "terminal-twig-5-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-5-4-2.dxf",
+      "sha256": "bc52ec1ea4742acc455f26ba49577985bcef657585020cd3e708c864af436d81"
+    },
+    {
+      "bytes": 26394,
+      "key": "terminal-twig-6-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-0-0.dxf",
+      "sha256": "091da21bb682907f842ab1c136db674636cad6f44355c5eea4c2c708849a2b28"
+    },
+    {
+      "bytes": 26660,
+      "key": "terminal-twig-6-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-0-1.dxf",
+      "sha256": "f8d350169f71b31d9d3510d585e0c1e7eade8770224b2fc9c2ed59b7b17b36a3"
+    },
+    {
+      "bytes": 27059,
+      "key": "terminal-twig-6-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-0-2.dxf",
+      "sha256": "370cc700254b9e971b0b41a1ad4e7a0928f5ab3dd0c8a4821c6052b9c8425d85"
+    },
+    {
+      "bytes": 26436,
+      "key": "terminal-twig-6-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-1-0.dxf",
+      "sha256": "7b1c952826877ebdafcbb0b51fabd86ff0e02d9bb42312ba3ca6234c3a9b792e"
+    },
+    {
+      "bytes": 26376,
+      "key": "terminal-twig-6-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-1-1.dxf",
+      "sha256": "00af317a0a8bd6d7f281f8473676f31ce0f6b305c38935ff1aa7d110b02e375d"
+    },
+    {
+      "bytes": 26414,
+      "key": "terminal-twig-6-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-1-2.dxf",
+      "sha256": "797404f79522511bc58511feef747725dc05195249582804faa10cb43c124119"
+    },
+    {
+      "bytes": 26832,
+      "key": "terminal-twig-6-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-2-0.dxf",
+      "sha256": "e630070d3eac5b5a6bb84e89e6ebe38f735e24323babf8f5470822917f2338d4"
+    },
+    {
+      "bytes": 26831,
+      "key": "terminal-twig-6-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-2-1.dxf",
+      "sha256": "06f85081e70911f0cd35bfb05fb28e28cb93bf83456c73e9cdbe8039bfe45da1"
+    },
+    {
+      "bytes": 26884,
+      "key": "terminal-twig-6-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-2-2.dxf",
+      "sha256": "bf907e8ffcdf70fad688bbd1c788a3bcb58bc1c2bb4cbc988aee1f6ac6d1917e"
+    },
+    {
+      "bytes": 27139,
+      "key": "terminal-twig-6-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-3-0.dxf",
+      "sha256": "5bef344f04c839b54b93101e6dbae6d725ee4446e49d70878ba66ad0c5b691d2"
+    },
+    {
+      "bytes": 27080,
+      "key": "terminal-twig-6-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-3-1.dxf",
+      "sha256": "3a7cbd6791312074b586e6f35ffe495526aa38c7aab1722f7fdab889b09889e8"
+    },
+    {
+      "bytes": 27145,
+      "key": "terminal-twig-6-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-3-2.dxf",
+      "sha256": "ad1d1640c884d7a35eacef0279fb0ed5b7fed0ace9eb179fc0415ce3541b173e"
+    },
+    {
+      "bytes": 26800,
+      "key": "terminal-twig-6-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-4-0.dxf",
+      "sha256": "05c4f47c5e310277ddd04adc4dbd1b97fe324f456cf5be47124c859dde30c23c"
+    },
+    {
+      "bytes": 26976,
+      "key": "terminal-twig-6-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-4-1.dxf",
+      "sha256": "9577577a24203cedcca12a39ac54bc96d92065ade963991946bedabd6d594258"
+    },
+    {
+      "bytes": 26905,
+      "key": "terminal-twig-6-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-6-4-2.dxf",
+      "sha256": "64a1f31f4ae045a661b8291bb9f94ee2965017db6ebfcfc55443627bf931ff43"
+    },
+    {
+      "bytes": 27258,
+      "key": "terminal-twig-7-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-0-0.dxf",
+      "sha256": "cc50bfcb62f6d5daa7d97d8c5aabdd77cf54013f03af6116bbf062194f13bca1"
+    },
+    {
+      "bytes": 27052,
+      "key": "terminal-twig-7-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-0-1.dxf",
+      "sha256": "e701ba04f1732134008f8eb48aea568b1cc445e59cb3643abe59c91d6ace5a8f"
+    },
+    {
+      "bytes": 27031,
+      "key": "terminal-twig-7-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-0-2.dxf",
+      "sha256": "cfa50bf096c4194af8f7bc5d38d1e594dcc6aa10c3ed0e4f6a5c7ea91d9173ba"
+    },
+    {
+      "bytes": 27680,
+      "key": "terminal-twig-7-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-1-0.dxf",
+      "sha256": "60faceeff40e174310f3b0676dfd9b0adbd44f9204ad3b73d4a0698c070d507c"
+    },
+    {
+      "bytes": 27502,
+      "key": "terminal-twig-7-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-1-1.dxf",
+      "sha256": "6b9eb74c31274c60f0986c1f092e0b8b3be16789951e6f6ade17448795721304"
+    },
+    {
+      "bytes": 27638,
+      "key": "terminal-twig-7-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-1-2.dxf",
+      "sha256": "e24a6c71d3c6dfc6751dd170e2ecd3ebd06d79d7e624253225aeac3de830e772"
+    },
+    {
+      "bytes": 27797,
+      "key": "terminal-twig-7-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-2-0.dxf",
+      "sha256": "8a6d51b776cc759b196f37af830fa65e97a4a864a7a771c89f1b9c97d511ba42"
+    },
+    {
+      "bytes": 27364,
+      "key": "terminal-twig-7-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-2-1.dxf",
+      "sha256": "7947dea9474129c23402f640773995543e562c2043523b43ac071fe02945cbcc"
+    },
+    {
+      "bytes": 27291,
+      "key": "terminal-twig-7-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-2-2.dxf",
+      "sha256": "c55294db96f24c79253f1ffa321199c4d8edc0894653d12ff20b98fb760ac4b6"
+    },
+    {
+      "bytes": 27657,
+      "key": "terminal-twig-7-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-3-0.dxf",
+      "sha256": "57fcac38dae07e4a48182b4938c8beb1a171c8e7708cc6e59dfe7816882ad539"
+    },
+    {
+      "bytes": 27621,
+      "key": "terminal-twig-7-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-3-1.dxf",
+      "sha256": "479dab1cb265223dba65204efa1349fea0d8f1fee99c9b097c2902eb25eaf9c6"
+    },
+    {
+      "bytes": 27591,
+      "key": "terminal-twig-7-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-3-2.dxf",
+      "sha256": "d893c03e41cf2427929f20c79b376fd67b895b13f6ddc86d2c9546a0d668cd4c"
+    },
+    {
+      "bytes": 27859,
+      "key": "terminal-twig-7-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-4-0.dxf",
+      "sha256": "30a90589ea78c4ecfb6b9b8b87a5c2c915187a554b83d774aa175f4c7af55a74"
+    },
+    {
+      "bytes": 27336,
+      "key": "terminal-twig-7-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-4-1.dxf",
+      "sha256": "71e2250da27ed850e15e6b134f3016c67318df944ff88310bda19ce23d15b1d0"
+    },
+    {
+      "bytes": 27036,
+      "key": "terminal-twig-7-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\campsite\\woodland\\artifacts\\eucalyptus-130269c645fa\\terminal-twig-7-4-2.dxf",
+      "sha256": "a5595ef610ddc00653755a0fb60c71aefc8c24915fb789ec8b568526a664d075"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "80d3fa2acb1911f566a46e402770b0d81dcbc7a5cc8b1c28823f10e9adf98c33",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "webizen.ecosystem-reading-review/v1",
+  "date": "2026-11-16T04:40:35.878003+00:00",
+  "status": "PASS for bounded reading-page checks",
+  "url": "http://127.0.0.1:8801/atlas/",
+  "source_data_matches_native_graph": true,
+  "module_count": 16,
+  "full_prose_fields_checked_per_module": [
+    "what",
+    "distinctive",
+    "importance",
+    "rights",
+    "example",
+    "native_demo_scope"
+  ],
+  "browser": "Actual Chrome through CUA extension; desktop and temporary390x844 viewport",
+  "observations": {
+    "mobile_inner_width": 390,
+    "mobile_document_scroll_width": 375,
+    "desktop_inner_width": 1012,
+    "desktop_document_scroll_width": 998,
+    "script_elements": 0,
+    "module_articles": 16,
+    "evidence_disclosures": 16,
+    "broken_internal_anchors": 0,
+    "keyboard_enter_opens_summary": true,
+    "keyboard_focus_retained_on_summary": true,
+    "mobile_evidence_open_overflow": false,
+    "viewport_override_reset": true,
+    "corrected_dataset_title_confirmed_in_rendered_dom": true,
+    "mojibake_in_final_page": false
+  },
+  "visual_review": "Desktop header and editorial layout, mobile heading/index region and full first-module reading layout reviewed from actual browser screenshots. Readable hierarchy and spacing; no observed overlap or horizontal clipping. Screenshots were emitted inline by CUA, not persisted as image files; root can capture permanent screenshots during final copy QA.",
+  "limits": [
+    "No formal WCAG certification claimed.",
+    "CSS uses logical spacing and isolated code identifiers; RTL translation and assistive-technology testing remain to be performed.",
+    "This is the complementary reading view; completion of all native module demos is not claimed."
+  ],
+  "files": [
+    {
+      "path": "site/atlas/index.html",
+      "bytes": 66591,
+      "sha256": "895b8ee87693bd7cad42132932f715dc808ca6cebb412c46a06e19ce2ffea775"
+    },
+    {
+      "path": "site/atlas/ecosystem.css",
+      "bytes": 8597,
+      "sha256": "ab7c4d1188cb84a32ee0a037d74bf3b45fc470cdf305eb381562276c2d37d556"
+    },
+    {
+      "path": "tooling/render_ecosystem_reading.py",
+      "bytes": 8535,
+      "sha256": "04928c6de5be39c78a32a5e881cf4f02ffa696fab5e96b8f79950696a9e40dc2"
+    },
+    {
+      "path": "site/atlas/index.before-module-narratives.html",
+      "bytes": 22604,
+      "sha256": "c1915ba3c18b2bd7af0161ebd4fc52f0e410a3374145e1d5100b858299573fb6"
+    }
+  ],
+  "dataset": {
+    "id": "ecosystem-module-narratives-en-au",
+    "url": "/data/publications/aaa/modules/module-narratives-88f0124a7a2d.q42",
+    "sha256": "3a73abe1f8cc7c8774f030946468e3efd7582b9eb4e6efa1b48476843c8bacce",
+    "row_count": 402
+  },
+  "catalogue_sha256": "e6a89e03ebc385f08f94c2fe4885df249b9683b593de1a9eb89afc5859312145",
+  "handoff_sha256": "5bc158d6ae43529f1a0a434f657b86caba7428ae052d8b61b1244bf7d04efbdc",
+  "metadata_revision_note": "During the metadata encoding fix, Etalon HEAD advanced. Native old/new comparison showed exactly two provenance triple changes (Etalon README revision and reference link); all narratives and400other triples remained unchanged."
+}

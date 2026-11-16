@@ -1,0 +1,34 @@
+[
+  {
+    "sha256": "0d5e584412635e3a179c5fb206ab431ceb7948809dcac2c3462f6128ee409891",
+    "path": "etalon-hal/src/gles/device.rs"
+  },
+  {
+    "sha256": "c1dcce5cc0116fa2a459a999c9186f6b62f0db096a862bd3520fbba617cbb0e3",
+    "path": "etalon-hal/src/gles/fence.rs"
+  },
+  {
+    "sha256": "27ae001be1b5156d02fbb0a5703f63742da87ec369c796208306fc15c124b592",
+    "path": "etalon-hal/src/gles/fence_wait.rs"
+  },
+  {
+    "sha256": "8c15b7cd9fa3bd017ba5d3284c14c1a71cd3ba3f46952e7b238df9ebc9c7eee8",
+    "path": "etalon-hal/src/gles/fence_wait_tests.rs"
+  },
+  {
+    "sha256": "a226cc26ea8724afab354faf03ca8d9cd1fb940fdd55390dcf88e03ad285fd3a",
+    "path": "benches/benches/etalon-benchmark/computepass.rs"
+  },
+  {
+    "sha256": "61e7e5ec9d34feacd80ce8e52b51851ff39aff4bef5895f0265d27df4382f785",
+    "path": "benches/benches/etalon-benchmark/computepass.wgsl"
+  },
+  {
+    "sha256": "45adf499246f94480f244ca6311346cbb5724cdd028411274037dc0bcfb52920",
+    "path": "benches/benches/etalon-benchmark/computepass-bindless.wgsl"
+  },
+  {
+    "sha256": "d82734d0039dd59e770d24947b886fdf62f8c7aa574c0a73e29e5e4cc4a62d63",
+    "path": "benches/tests/compute_shader_contract.rs"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 25921,
+  "triangles": 2444,
+  "bytes": 1961312,
+  "source_bytes": 352968,
+  "id": "terrain--river-bank",
+  "original_sha256": "c0c184844815a6bbfdc5493c44bd2f94851a6ca02f097ec4ec9dce90293ebb5b",
+  "source_sha256": "ba35719e67a6d0aa3b91337f084acfa4e8a5c5e24d1ab29a42cdde8a7db50354",
+  "attested_sha256": "c07a217c7c5dc9cdda3c315935f18527d7da62c57b19e2c166ef636a040cbe9c",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

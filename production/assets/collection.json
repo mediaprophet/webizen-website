@@ -1,0 +1,1434 @@
+{
+  "schema": "webizen.art-collection/v1",
+  "catalog_count": 150,
+  "assets": [
+    {
+      "id": "canopy",
+      "title": "Canopy of inquiry",
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "parts": 27,
+      "vertices": 11748,
+      "triangles": 23104,
+      "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\assets\\canopy.mesh.json",
+      "native": {
+        "bytes": 3230024,
+        "key": "canopy.10d",
+        "kind": "10d",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-sealed-7a425393816a\\canopy.10d",
+        "sha256": "0fae702829a8cba92b907eab3835ef02e82a74c1f91d3f4b1e39058fc60c8cfb",
+        "url": "/artifacts/canopy-sealed-7a425393816a/canopy.10d"
+      },
+      "production": {
+        "antigravity_embed_hint": null,
+        "document_digest": "fb91a0b58ec537d647fea4a97ce5aa6cfb6f35d56439fd0ca0d14376cbdd04c3",
+        "package_sha256": "3491cd09c54afe5b5002ea9a2411552978c0bdff5b3a7aeb2bc614f4e468d1b2",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 3986175,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849.hmc",
+            "sha256": "3491cd09c54afe5b5002ea9a2411552978c0bdff5b3a7aeb2bc614f4e468d1b2"
+          },
+          "inputs": [],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499343828,
+            "effective_host_bytes": 247437952,
+            "evaluation_steps": 656172,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2097152,
+            "source_bytes": 164043,
+            "source_reservation_bytes": 20997504,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 656172,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 486456,
+              "key": "bronze-ring-5.5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\bronze-ring-5.5.dxf",
+              "sha256": "79bd4dfdcf6599ab2c037aacfd84eb10b5290f1b2c9c0cb278ad5dfe18962398",
+              "url": "/artifacts/canopy-f7436450b849/bronze-ring-5.5.dxf"
+            },
+            {
+              "bytes": 490984,
+              "key": "bronze-ring-7.4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\bronze-ring-7.4.dxf",
+              "sha256": "1479065da347eaa1b913ba627074789bfdceaa02f09733ff2f1129122a8c7b48",
+              "url": "/artifacts/canopy-f7436450b849/bronze-ring-7.4.dxf"
+            },
+            {
+              "bytes": 123385,
+              "key": "curved-seat-0.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\curved-seat-0.dxf",
+              "sha256": "16af64917029bcffe18fcff007d89aab88c2291ca73ba2d34be5c26c64eff509",
+              "url": "/artifacts/canopy-f7436450b849/curved-seat-0.dxf"
+            },
+            {
+              "bytes": 126553,
+              "key": "curved-seat-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\curved-seat-1.dxf",
+              "sha256": "07127d2f2d229478d99ad8ac72f1000304f3b4d8225f9e2f8d9a3de83de789f6",
+              "url": "/artifacts/canopy-f7436450b849/curved-seat-1.dxf"
+            },
+            {
+              "bytes": 129721,
+              "key": "curved-seat-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\curved-seat-2.dxf",
+              "sha256": "f9448b16395996ebca1caf66683296e05b4f8a043de841eeb52ad1f92de43f56",
+              "url": "/artifacts/canopy-f7436450b849/curved-seat-2.dxf"
+            },
+            {
+              "bytes": 126553,
+              "key": "curved-seat-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\curved-seat-3.dxf",
+              "sha256": "10e3e56fc05ab5ad94d6e311799ba6b11f231fbf5302de64bf5d5d6425d6fac6",
+              "url": "/artifacts/canopy-f7436450b849/curved-seat-3.dxf"
+            },
+            {
+              "bytes": 293316,
+              "key": "limestone-terraces.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\limestone-terraces.dxf",
+              "sha256": "b1762c56be475ec2e1cf3232c8b93d07448b0512e8cf04e7afd2090514b27d02",
+              "url": "/artifacts/canopy-f7436450b849/limestone-terraces.dxf"
+            },
+            {
+              "bytes": 99865,
+              "key": "timber-rib-0.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-0.dxf",
+              "sha256": "5c33f9864c75599d9f4b0957134a343d4a1e69c61076c607a726b03ec170b965",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-0.dxf"
+            },
+            {
+              "bytes": 99353,
+              "key": "timber-rib-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-1.dxf",
+              "sha256": "2e2f3008144272298d73926d462df423d53f52b18369d5bde3718e95e98221a2",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-1.dxf"
+            },
+            {
+              "bytes": 104485,
+              "key": "timber-rib-10.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-10.dxf",
+              "sha256": "f0b71a0817d28809c1823a42bc6818e2953d6fbda85fac76103c7327af2a152e",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-10.dxf"
+            },
+            {
+              "bytes": 104153,
+              "key": "timber-rib-11.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-11.dxf",
+              "sha256": "a89d78ad9acdd8258b3da264d45520e3f8d896acfcd7639f35ac6494f34957f0",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-11.dxf"
+            },
+            {
+              "bytes": 104035,
+              "key": "timber-rib-12.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-12.dxf",
+              "sha256": "8b1810f02c6c2dd51cda7d5344816d59639778148800de45aa1e877453ce59b9",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-12.dxf"
+            },
+            {
+              "bytes": 104182,
+              "key": "timber-rib-13.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-13.dxf",
+              "sha256": "4eb225b5ff61938310780964524a4c0eed13d4e8ac3db2bef9991b89ca605932",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-13.dxf"
+            },
+            {
+              "bytes": 104280,
+              "key": "timber-rib-14.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-14.dxf",
+              "sha256": "43339d00e959bc5f93f56095b6c9533ac4ec434de858a54250ebaab231785a85",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-14.dxf"
+            },
+            {
+              "bytes": 102265,
+              "key": "timber-rib-15.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-15.dxf",
+              "sha256": "65b30aae081ee12e2867be2b8b290deba98b28a9447ec41d747aa67e19ec3e91",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-15.dxf"
+            },
+            {
+              "bytes": 101753,
+              "key": "timber-rib-16.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-16.dxf",
+              "sha256": "d5e3c72bf6ebc493c3832adfda202cc3731c51b795df6a3a3e6db72d64d1c879",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-16.dxf"
+            },
+            {
+              "bytes": 101635,
+              "key": "timber-rib-17.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-17.dxf",
+              "sha256": "d130bbe9497b321f3350ee6288ac38930bda87939171045727da3e00999f6bc9",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-17.dxf"
+            },
+            {
+              "bytes": 101782,
+              "key": "timber-rib-18.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-18.dxf",
+              "sha256": "64d012307da00ff388f93876ee6681e45d34616f8b56a0ec565e11f8d4e69ee6",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-18.dxf"
+            },
+            {
+              "bytes": 101880,
+              "key": "timber-rib-19.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-19.dxf",
+              "sha256": "b66ff827219adb0fe73b311e141a72dfb41efc5d6f32ba07e738d9422d4a48b5",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-19.dxf"
+            },
+            {
+              "bytes": 99235,
+              "key": "timber-rib-2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-2.dxf",
+              "sha256": "3b1c12355249de6999af3d4a962ededb780faa43be519c856a8022a50d5f7983",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-2.dxf"
+            },
+            {
+              "bytes": 99382,
+              "key": "timber-rib-3.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-3.dxf",
+              "sha256": "4de95d51cb6f9bea5a5c07055eb4ff88145655dda80f7fde55783c328c10cddd",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-3.dxf"
+            },
+            {
+              "bytes": 101080,
+              "key": "timber-rib-4.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-4.dxf",
+              "sha256": "49056d41048855f5a06ee97a15b8baecaa2b37dd731df8c0d9194d47fad6e982",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-4.dxf"
+            },
+            {
+              "bytes": 102085,
+              "key": "timber-rib-5.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-5.dxf",
+              "sha256": "777d2c63d0f699e0866ab08d224fd9d378cf7c2f80d0d4da3b2b3d2cdc5e18ad",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-5.dxf"
+            },
+            {
+              "bytes": 101753,
+              "key": "timber-rib-6.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-6.dxf",
+              "sha256": "be344142a1b7022243dbc69ce1774665e2da95b6ac96eda5399149a67093c453",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-6.dxf"
+            },
+            {
+              "bytes": 101635,
+              "key": "timber-rib-7.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-7.dxf",
+              "sha256": "0de10375b5eb40e01afb737dccbb885b7b10b84ee4966055b3aab5c13bafe1cd",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-7.dxf"
+            },
+            {
+              "bytes": 101782,
+              "key": "timber-rib-8.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-8.dxf",
+              "sha256": "3027dc60680947b5fbc6acda52fd718cd38c2a3eb886a55ccf0d3acd6dc5d1d8",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-8.dxf"
+            },
+            {
+              "bytes": 103480,
+              "key": "timber-rib-9.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849\\timber-rib-9.dxf",
+              "sha256": "7717c63485341b932d61f00b9f92748ba1f965e28ff1528b1d64ec636dcc6098",
+              "url": "/artifacts/canopy-f7436450b849/timber-rib-9.dxf"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "3bfc91593f0ea8aff6738512b803f409c0df3d1a9a2b960650f49c456bcb8fe3",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 486456,
+            "key": "bronze-ring-5.5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "79bd4dfdcf6599ab2c037aacfd84eb10b5290f1b2c9c0cb278ad5dfe18962398"
+          },
+          {
+            "bytes": 490984,
+            "key": "bronze-ring-7.4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "1479065da347eaa1b913ba627074789bfdceaa02f09733ff2f1129122a8c7b48"
+          },
+          {
+            "bytes": 123385,
+            "key": "curved-seat-0.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "16af64917029bcffe18fcff007d89aab88c2291ca73ba2d34be5c26c64eff509"
+          },
+          {
+            "bytes": 126553,
+            "key": "curved-seat-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "07127d2f2d229478d99ad8ac72f1000304f3b4d8225f9e2f8d9a3de83de789f6"
+          },
+          {
+            "bytes": 129721,
+            "key": "curved-seat-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f9448b16395996ebca1caf66683296e05b4f8a043de841eeb52ad1f92de43f56"
+          },
+          {
+            "bytes": 126553,
+            "key": "curved-seat-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "10e3e56fc05ab5ad94d6e311799ba6b11f231fbf5302de64bf5d5d6425d6fac6"
+          },
+          {
+            "bytes": 293316,
+            "key": "limestone-terraces.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "b1762c56be475ec2e1cf3232c8b93d07448b0512e8cf04e7afd2090514b27d02"
+          },
+          {
+            "bytes": 99865,
+            "key": "timber-rib-0.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "5c33f9864c75599d9f4b0957134a343d4a1e69c61076c607a726b03ec170b965"
+          },
+          {
+            "bytes": 99353,
+            "key": "timber-rib-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "2e2f3008144272298d73926d462df423d53f52b18369d5bde3718e95e98221a2"
+          },
+          {
+            "bytes": 104485,
+            "key": "timber-rib-10.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f0b71a0817d28809c1823a42bc6818e2953d6fbda85fac76103c7327af2a152e"
+          },
+          {
+            "bytes": 104153,
+            "key": "timber-rib-11.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "a89d78ad9acdd8258b3da264d45520e3f8d896acfcd7639f35ac6494f34957f0"
+          },
+          {
+            "bytes": 104035,
+            "key": "timber-rib-12.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "8b1810f02c6c2dd51cda7d5344816d59639778148800de45aa1e877453ce59b9"
+          },
+          {
+            "bytes": 104182,
+            "key": "timber-rib-13.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "4eb225b5ff61938310780964524a4c0eed13d4e8ac3db2bef9991b89ca605932"
+          },
+          {
+            "bytes": 104280,
+            "key": "timber-rib-14.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "43339d00e959bc5f93f56095b6c9533ac4ec434de858a54250ebaab231785a85"
+          },
+          {
+            "bytes": 102265,
+            "key": "timber-rib-15.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "65b30aae081ee12e2867be2b8b290deba98b28a9447ec41d747aa67e19ec3e91"
+          },
+          {
+            "bytes": 101753,
+            "key": "timber-rib-16.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "d5e3c72bf6ebc493c3832adfda202cc3731c51b795df6a3a3e6db72d64d1c879"
+          },
+          {
+            "bytes": 101635,
+            "key": "timber-rib-17.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "d130bbe9497b321f3350ee6288ac38930bda87939171045727da3e00999f6bc9"
+          },
+          {
+            "bytes": 101782,
+            "key": "timber-rib-18.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "64d012307da00ff388f93876ee6681e45d34616f8b56a0ec565e11f8d4e69ee6"
+          },
+          {
+            "bytes": 101880,
+            "key": "timber-rib-19.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "b66ff827219adb0fe73b311e141a72dfb41efc5d6f32ba07e738d9422d4a48b5"
+          },
+          {
+            "bytes": 99235,
+            "key": "timber-rib-2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3b1c12355249de6999af3d4a962ededb780faa43be519c856a8022a50d5f7983"
+          },
+          {
+            "bytes": 99382,
+            "key": "timber-rib-3.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "4de95d51cb6f9bea5a5c07055eb4ff88145655dda80f7fde55783c328c10cddd"
+          },
+          {
+            "bytes": 101080,
+            "key": "timber-rib-4.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "49056d41048855f5a06ee97a15b8baecaa2b37dd731df8c0d9194d47fad6e982"
+          },
+          {
+            "bytes": 102085,
+            "key": "timber-rib-5.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "777d2c63d0f699e0866ab08d224fd9d378cf7c2f80d0d4da3b2b3d2cdc5e18ad"
+          },
+          {
+            "bytes": 101753,
+            "key": "timber-rib-6.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "be344142a1b7022243dbc69ce1774665e2da95b6ac96eda5399149a67093c453"
+          },
+          {
+            "bytes": 101635,
+            "key": "timber-rib-7.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "0de10375b5eb40e01afb737dccbb885b7b10b84ee4966055b3aab5c13bafe1cd"
+          },
+          {
+            "bytes": 101782,
+            "key": "timber-rib-8.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3027dc60680947b5fbc6acda52fd718cd38c2a3eb886a55ccf0d3acd6dc5d1d8"
+          },
+          {
+            "bytes": 103480,
+            "key": "timber-rib-9.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "7717c63485341b932d61f00b9f92748ba1f965e28ff1528b1d64ec636dcc6098"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-f7436450b849.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/canopy-f7436450b849.hmc",
+        "receipt_url": "/artifacts/canopy-f7436450b849.json"
+      },
+      "sealing": {
+        "antigravity_embed_hint": null,
+        "document_digest": "054ce93763fcc3dee93ff693230d41d1157200a9513e3aecd8a3e9e95691d319",
+        "package_sha256": "3e76d83b900582c57788fccd3f2065aa0cb2142e7351f224876ce13c6ae2de1a",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 4010107,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-sealed-7a425393816a.hmc",
+            "sha256": "3e76d83b900582c57788fccd3f2065aa0cb2142e7351f224876ce13c6ae2de1a"
+          },
+          "inputs": [
+            {
+              "bytes": 779039,
+              "key": "assembly.obj",
+              "kind": "obj",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\canopy.obj",
+              "sha256": "e55671ae48e57755eee93607b6ed77cfc952cd84d9cb5d265f8f628363830e1a"
+            }
+          ],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499998836,
+            "effective_host_bytes": 268398208,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2091065,
+            "source_bytes": 291,
+            "source_reservation_bytes": 37248,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 1164,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 3230024,
+              "key": "canopy.10d",
+              "kind": "10d",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-sealed-7a425393816a\\canopy.10d",
+              "sha256": "0fae702829a8cba92b907eab3835ef02e82a74c1f91d3f4b1e39058fc60c8cfb",
+              "url": "/artifacts/canopy-sealed-7a425393816a/canopy.10d"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "02f6eae443cb6c05fbf14fde307706568ab07017f891b9cf071bfdd9fe572958",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 3230024,
+            "key": "canopy.10d",
+            "kind": "10d",
+            "modality": "spatial",
+            "sha256": "0fae702829a8cba92b907eab3835ef02e82a74c1f91d3f4b1e39058fc60c8cfb"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\canopy-sealed-7a425393816a.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/canopy-sealed-7a425393816a.hmc",
+        "receipt_url": "/artifacts/canopy-sealed-7a425393816a.json"
+      },
+      "recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\canopy.vibe",
+      "palette": {
+        "limestone": {
+          "color": "#c5b795",
+          "roughness": 0.9,
+          "metalness": 0
+        },
+        "timber": {
+          "color": "#9b6c42",
+          "roughness": 0.7,
+          "metalness": 0
+        },
+        "bronze": {
+          "color": "#b59152",
+          "roughness": 0.3,
+          "metalness": 0.75
+        },
+        "verdigris": {
+          "color": "#3b7970",
+          "roughness": 0.4,
+          "metalness": 0.65
+        },
+        "leaf": {
+          "color": "#55755b",
+          "roughness": 0.6,
+          "metalness": 0.08
+        }
+      },
+      "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\previews\\canopy-1794788317"
+    },
+    {
+      "id": "memory-frond",
+      "title": "Botanical memory frond",
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "parts": 22,
+      "vertices": 7174,
+      "triangles": 14008,
+      "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\assets\\memory-frond.mesh.json",
+      "native": {
+        "bytes": 1891376,
+        "key": "memory-frond.10d",
+        "kind": "10d",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-sealed-0cbbcec0a8f7\\memory-frond.10d",
+        "sha256": "4c3295dc3e95de542fad5b7939972a9be3cf667934f9d76a64d6cbcf4fb77dd8",
+        "url": "/artifacts/memory-frond-sealed-0cbbcec0a8f7/memory-frond.10d"
+      },
+      "production": {
+        "antigravity_embed_hint": null,
+        "document_digest": "8da1962ba161e9d19e22317fcfb22c4346447e2765bc1ca10368f721c6257d87",
+        "package_sha256": "02cf442d2aed5d55ddad66c4e0873b45ddb41f50858d776e6484cd5bb90bbca0",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 2499915,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603.hmc",
+            "sha256": "02cf442d2aed5d55ddad66c4e0873b45ddb41f50858d776e6484cd5bb90bbca0"
+          },
+          "inputs": [],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499580480,
+            "effective_host_bytes": 255010816,
+            "evaluation_steps": 419520,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2097152,
+            "source_bytes": 104880,
+            "source_reservation_bytes": 13424640,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 419520,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 171065,
+              "key": "living-spine.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\living-spine.dxf",
+              "sha256": "3287fd453f1507ba765a10846baa96977abf76528af0318d4c5dc81e53139016",
+              "url": "/artifacts/memory-frond-927823f1e603/living-spine.dxf"
+            },
+            {
+              "bytes": 103144,
+              "key": "pinna-0--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-0--1.dxf",
+              "sha256": "00b1fc704d76db2f0708ba71d37372cc694a152bf9f37d203a9c8ebb20976137",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-0--1.dxf"
+            },
+            {
+              "bytes": 101128,
+              "key": "pinna-0-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-0-1.dxf",
+              "sha256": "677003987e6068cf97859e51487f4044aa233f8a9864f4ac3e075ee2b3334a90",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-0-1.dxf"
+            },
+            {
+              "bytes": 103196,
+              "key": "pinna-1--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-1--1.dxf",
+              "sha256": "4567c6580cde48a060d8fa50b67e898156231d27847c5ef559b6c5e24aa085a1",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-1--1.dxf"
+            },
+            {
+              "bytes": 100796,
+              "key": "pinna-1-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-1-1.dxf",
+              "sha256": "7813689896b72860f3686864af3749da47efc95a15bb46394cd87dc543334592",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-1-1.dxf"
+            },
+            {
+              "bytes": 102488,
+              "key": "pinna-2--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-2--1.dxf",
+              "sha256": "3487c4b3929f545d6f05be588d27da75475daf6aad70139a45cf73c4ebf5946e",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-2--1.dxf"
+            },
+            {
+              "bytes": 99992,
+              "key": "pinna-2-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-2-1.dxf",
+              "sha256": "c89be9c28231600c5516ba0cde877da0544100903c0c1877781aaedac73d8a47",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-2-1.dxf"
+            },
+            {
+              "bytes": 103084,
+              "key": "pinna-3--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-3--1.dxf",
+              "sha256": "3790add7b5170620e9568f4ef1957648bc5674fa15115ae21cfe37ab03f5a25f",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-3--1.dxf"
+            },
+            {
+              "bytes": 100780,
+              "key": "pinna-3-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-3-1.dxf",
+              "sha256": "6b05b5a3a28761a269b34d2eb45d4eb509748472b93a7e9c8c204c21495e513c",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-3-1.dxf"
+            },
+            {
+              "bytes": 102928,
+              "key": "pinna-4--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-4--1.dxf",
+              "sha256": "d84e002379f8528c9984bf7e363863a54eea4266123f316d0e9208349820df56",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-4--1.dxf"
+            },
+            {
+              "bytes": 100816,
+              "key": "pinna-4-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-4-1.dxf",
+              "sha256": "f24fa9b34314461fc1b135d859d5c9b82e8e3751f988b7afb63026e59409aaef",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-4-1.dxf"
+            },
+            {
+              "bytes": 101541,
+              "key": "pinna-5--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-5--1.dxf",
+              "sha256": "aae90a8034e30301f34b75e643437b9ae57e96cd598167a35e97a7644d9687eb",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-5--1.dxf"
+            },
+            {
+              "bytes": 99141,
+              "key": "pinna-5-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-5-1.dxf",
+              "sha256": "a06f6be9cc50eb801f0c25c2e71ba7b90653cdab7148cf63eef6f96ff8314c7d",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-5-1.dxf"
+            },
+            {
+              "bytes": 104264,
+              "key": "pinna-6--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-6--1.dxf",
+              "sha256": "7aca229bdac40edb902bda1fe652efb548f019ea8ec87e3cac5c178cfcd50a39",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-6--1.dxf"
+            },
+            {
+              "bytes": 101960,
+              "key": "pinna-6-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-6-1.dxf",
+              "sha256": "56c9a551c3d49510cb963b2d76862cee6ac9930bf79179087137432cf2c1ef4e",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-6-1.dxf"
+            },
+            {
+              "bytes": 104884,
+              "key": "pinna-7--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-7--1.dxf",
+              "sha256": "978a579b70cbab999542d0d7b3a44944f364187723807953c7f6e37179e8348d",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-7--1.dxf"
+            },
+            {
+              "bytes": 102772,
+              "key": "pinna-7-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-7-1.dxf",
+              "sha256": "66e50715aeda30cf64902bbd2f2f4f8ba59377fa72fb750ff6953a72b2479847",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-7-1.dxf"
+            },
+            {
+              "bytes": 103896,
+              "key": "pinna-8--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-8--1.dxf",
+              "sha256": "c9667abb4f61ec862ae3ecad429ab4eb279e9fed3160b875c5d01b82445ab042",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-8--1.dxf"
+            },
+            {
+              "bytes": 101592,
+              "key": "pinna-8-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-8-1.dxf",
+              "sha256": "be01b1389854533435e6c1fd393236f789858f9d8fd954b5b8ab92fd84be6834",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-8-1.dxf"
+            },
+            {
+              "bytes": 104144,
+              "key": "pinna-9--1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-9--1.dxf",
+              "sha256": "3702485c808f3d71411c22f7429084c1904571ec4b6170ef6c4496cde380d7c9",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-9--1.dxf"
+            },
+            {
+              "bytes": 101936,
+              "key": "pinna-9-1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\pinna-9-1.dxf",
+              "sha256": "33903644588a5b20b070c8b6ed13cac0c80cd737a1c9ed590f23cc087d24a316",
+              "url": "/artifacts/memory-frond-927823f1e603/pinna-9-1.dxf"
+            },
+            {
+              "bytes": 175292,
+              "key": "specimen-base.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603\\specimen-base.dxf",
+              "sha256": "08e0356e5e2d19e9ebfe46547560cc737f2ba65c76bde86f71028a2464d92b55",
+              "url": "/artifacts/memory-frond-927823f1e603/specimen-base.dxf"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "994258889de12b20a2db55b67fe11e05ce72c025069207fbbaf045ee88c6559e",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 171065,
+            "key": "living-spine.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3287fd453f1507ba765a10846baa96977abf76528af0318d4c5dc81e53139016"
+          },
+          {
+            "bytes": 103144,
+            "key": "pinna-0--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "00b1fc704d76db2f0708ba71d37372cc694a152bf9f37d203a9c8ebb20976137"
+          },
+          {
+            "bytes": 101128,
+            "key": "pinna-0-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "677003987e6068cf97859e51487f4044aa233f8a9864f4ac3e075ee2b3334a90"
+          },
+          {
+            "bytes": 103196,
+            "key": "pinna-1--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "4567c6580cde48a060d8fa50b67e898156231d27847c5ef559b6c5e24aa085a1"
+          },
+          {
+            "bytes": 100796,
+            "key": "pinna-1-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "7813689896b72860f3686864af3749da47efc95a15bb46394cd87dc543334592"
+          },
+          {
+            "bytes": 102488,
+            "key": "pinna-2--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3487c4b3929f545d6f05be588d27da75475daf6aad70139a45cf73c4ebf5946e"
+          },
+          {
+            "bytes": 99992,
+            "key": "pinna-2-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c89be9c28231600c5516ba0cde877da0544100903c0c1877781aaedac73d8a47"
+          },
+          {
+            "bytes": 103084,
+            "key": "pinna-3--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3790add7b5170620e9568f4ef1957648bc5674fa15115ae21cfe37ab03f5a25f"
+          },
+          {
+            "bytes": 100780,
+            "key": "pinna-3-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "6b05b5a3a28761a269b34d2eb45d4eb509748472b93a7e9c8c204c21495e513c"
+          },
+          {
+            "bytes": 102928,
+            "key": "pinna-4--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "d84e002379f8528c9984bf7e363863a54eea4266123f316d0e9208349820df56"
+          },
+          {
+            "bytes": 100816,
+            "key": "pinna-4-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f24fa9b34314461fc1b135d859d5c9b82e8e3751f988b7afb63026e59409aaef"
+          },
+          {
+            "bytes": 101541,
+            "key": "pinna-5--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "aae90a8034e30301f34b75e643437b9ae57e96cd598167a35e97a7644d9687eb"
+          },
+          {
+            "bytes": 99141,
+            "key": "pinna-5-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "a06f6be9cc50eb801f0c25c2e71ba7b90653cdab7148cf63eef6f96ff8314c7d"
+          },
+          {
+            "bytes": 104264,
+            "key": "pinna-6--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "7aca229bdac40edb902bda1fe652efb548f019ea8ec87e3cac5c178cfcd50a39"
+          },
+          {
+            "bytes": 101960,
+            "key": "pinna-6-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "56c9a551c3d49510cb963b2d76862cee6ac9930bf79179087137432cf2c1ef4e"
+          },
+          {
+            "bytes": 104884,
+            "key": "pinna-7--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "978a579b70cbab999542d0d7b3a44944f364187723807953c7f6e37179e8348d"
+          },
+          {
+            "bytes": 102772,
+            "key": "pinna-7-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "66e50715aeda30cf64902bbd2f2f4f8ba59377fa72fb750ff6953a72b2479847"
+          },
+          {
+            "bytes": 103896,
+            "key": "pinna-8--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "c9667abb4f61ec862ae3ecad429ab4eb279e9fed3160b875c5d01b82445ab042"
+          },
+          {
+            "bytes": 101592,
+            "key": "pinna-8-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "be01b1389854533435e6c1fd393236f789858f9d8fd954b5b8ab92fd84be6834"
+          },
+          {
+            "bytes": 104144,
+            "key": "pinna-9--1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "3702485c808f3d71411c22f7429084c1904571ec4b6170ef6c4496cde380d7c9"
+          },
+          {
+            "bytes": 101936,
+            "key": "pinna-9-1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "33903644588a5b20b070c8b6ed13cac0c80cd737a1c9ed590f23cc087d24a316"
+          },
+          {
+            "bytes": 175292,
+            "key": "specimen-base.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "08e0356e5e2d19e9ebfe46547560cc737f2ba65c76bde86f71028a2464d92b55"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-927823f1e603.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/memory-frond-927823f1e603.hmc",
+        "receipt_url": "/artifacts/memory-frond-927823f1e603.json"
+      },
+      "sealing": {
+        "antigravity_embed_hint": null,
+        "document_digest": "c6e9ac6ce91a26d120c47b07e3fa494e071553bd27bc6ed64a4f9cc2ea3310ba",
+        "package_sha256": "6525aee496db61953a27722043e156986f46a9ac174f8e70b1b33d6d989d142d",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 2370311,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-sealed-0cbbcec0a8f7.hmc",
+            "sha256": "6525aee496db61953a27722043e156986f46a9ac174f8e70b1b33d6d989d142d"
+          },
+          "inputs": [
+            {
+              "bytes": 477882,
+              "key": "assembly.obj",
+              "kind": "obj",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\memory-frond.obj",
+              "sha256": "3361e1935b9d5d8396139a702acabcf3bd6980c7672c671e3e6dd46d689c29d0"
+            }
+          ],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499998812,
+            "effective_host_bytes": 268397440,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2093418,
+            "source_bytes": 297,
+            "source_reservation_bytes": 38016,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 1188,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 1891376,
+              "key": "memory-frond.10d",
+              "kind": "10d",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-sealed-0cbbcec0a8f7\\memory-frond.10d",
+              "sha256": "4c3295dc3e95de542fad5b7939972a9be3cf667934f9d76a64d6cbcf4fb77dd8",
+              "url": "/artifacts/memory-frond-sealed-0cbbcec0a8f7/memory-frond.10d"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "32241ab32d585a169903b8dd96a80ced2e2e6cc25a37e13aa2bc0fac9b2c6bf9",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 1891376,
+            "key": "memory-frond.10d",
+            "kind": "10d",
+            "modality": "spatial",
+            "sha256": "4c3295dc3e95de542fad5b7939972a9be3cf667934f9d76a64d6cbcf4fb77dd8"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\memory-frond-sealed-0cbbcec0a8f7.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/memory-frond-sealed-0cbbcec0a8f7.hmc",
+        "receipt_url": "/artifacts/memory-frond-sealed-0cbbcec0a8f7.json"
+      },
+      "recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\memory-frond.vibe",
+      "palette": {
+        "limestone": {
+          "color": "#c5b795",
+          "roughness": 0.9,
+          "metalness": 0
+        },
+        "timber": {
+          "color": "#9b6c42",
+          "roughness": 0.7,
+          "metalness": 0
+        },
+        "bronze": {
+          "color": "#b59152",
+          "roughness": 0.3,
+          "metalness": 0.75
+        },
+        "verdigris": {
+          "color": "#3b7970",
+          "roughness": 0.4,
+          "metalness": 0.65
+        },
+        "leaf": {
+          "color": "#55755b",
+          "roughness": 0.6,
+          "metalness": 0.08
+        }
+      },
+      "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\previews\\memory-frond-1794788572"
+    },
+    {
+      "id": "tidal-vessel",
+      "title": "Tidal resonance vessel",
+      "epistemic_class": "authored-artwork",
+      "geometry_origin": "Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d",
+      "parts": 5,
+      "vertices": 15038,
+      "triangles": 29568,
+      "mesh_json": "C:\\github\\synth\\production\\webizen-swarm\\production\\assets\\tidal-vessel.mesh.json",
+      "native": {
+        "bytes": 3950448,
+        "key": "tidal-vessel.10d",
+        "kind": "10d",
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-sealed-6878f9e14103\\tidal-vessel.10d",
+        "sha256": "943fdbd525b9b0557d62a1d8d47d216b0b2e6cd075544eabfdfe4d7d7180e33b",
+        "url": "/artifacts/tidal-vessel-sealed-6878f9e14103/tidal-vessel.10d"
+      },
+      "production": {
+        "antigravity_embed_hint": null,
+        "document_digest": "5cd507783295c39eaa8dbb4accd56ae987d96926be044db9d219b7bb560778f9",
+        "package_sha256": "e9764b500e7d7c060bf4db188637b62868644eab8a426b553a1681ee4a17902e",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 5227437,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78.hmc",
+            "sha256": "e9764b500e7d7c060bf4db188637b62868644eab8a426b553a1681ee4a17902e"
+          },
+          "inputs": [],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499177076,
+            "effective_host_bytes": 242101888,
+            "evaluation_steps": 822924,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2097152,
+            "source_bytes": 205731,
+            "source_reservation_bytes": 26333568,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 822924,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 3263964,
+              "key": "fluted-tidal-shell.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78\\fluted-tidal-shell.dxf",
+              "sha256": "ac2a3ac99533fd97b46e0833b20b2efcccd833abed774b8024dbde136f86d079",
+              "url": "/artifacts/tidal-vessel-0ae6f56c0f78/fluted-tidal-shell.dxf"
+            },
+            {
+              "bytes": 254948,
+              "key": "plinth.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78\\plinth.dxf",
+              "sha256": "f06244311cad8211c68c4285751b258a29a2b201c197330e8ef40d1156870778",
+              "url": "/artifacts/tidal-vessel-0ae6f56c0f78/plinth.dxf"
+            },
+            {
+              "bytes": 501672,
+              "key": "resonance-ring-1.1.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78\\resonance-ring-1.1.dxf",
+              "sha256": "06dd5be5965f2274bcf657da8c8fd6cb12581e1d15cef1d6f55e4d6de3cd7932",
+              "url": "/artifacts/tidal-vessel-0ae6f56c0f78/resonance-ring-1.1.dxf"
+            },
+            {
+              "bytes": 501624,
+              "key": "resonance-ring-1.65.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78\\resonance-ring-1.65.dxf",
+              "sha256": "19a6d5cc866c6bb57339a165c732a0ec17eb49c60fbd84a2579bf4df0056817a",
+              "url": "/artifacts/tidal-vessel-0ae6f56c0f78/resonance-ring-1.65.dxf"
+            },
+            {
+              "bytes": 498344,
+              "key": "resonance-ring-2.2.dxf",
+              "kind": "dxf",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78\\resonance-ring-2.2.dxf",
+              "sha256": "0442def0349d87c79a225f6aa7b14dfd080162b42022c8850656fa5ceb835bf2",
+              "url": "/artifacts/tidal-vessel-0ae6f56c0f78/resonance-ring-2.2.dxf"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "439edd73e9f2c14abcd5fd80007fe0328a1c31e281b2d254fb0ad22105fe226b",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 3263964,
+            "key": "fluted-tidal-shell.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "ac2a3ac99533fd97b46e0833b20b2efcccd833abed774b8024dbde136f86d079"
+          },
+          {
+            "bytes": 254948,
+            "key": "plinth.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "f06244311cad8211c68c4285751b258a29a2b201c197330e8ef40d1156870778"
+          },
+          {
+            "bytes": 501672,
+            "key": "resonance-ring-1.1.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "06dd5be5965f2274bcf657da8c8fd6cb12581e1d15cef1d6f55e4d6de3cd7932"
+          },
+          {
+            "bytes": 501624,
+            "key": "resonance-ring-1.65.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "19a6d5cc866c6bb57339a165c732a0ec17eb49c60fbd84a2579bf4df0056817a"
+          },
+          {
+            "bytes": 498344,
+            "key": "resonance-ring-2.2.dxf",
+            "kind": "dxf",
+            "modality": "spatial",
+            "sha256": "0442def0349d87c79a225f6aa7b14dfd080162b42022c8850656fa5ceb835bf2"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-0ae6f56c0f78.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/tidal-vessel-0ae6f56c0f78.hmc",
+        "receipt_url": "/artifacts/tidal-vessel-0ae6f56c0f78.json"
+      },
+      "sealing": {
+        "antigravity_embed_hint": null,
+        "document_digest": "660b1516bafeb7911dff88a15326f9a10be0f69e23acc9633d3de326681c424a",
+        "package_sha256": "97f9962dbf4da6ecebb6a773f09a3ec9bad5bf3ced2b9a4a3957fb9f8af9917e",
+        "presentation_html": null,
+        "producer": "files",
+        "producer_version": "2",
+        "receipt": {
+          "binary": {
+            "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+            "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+            "version": "0.1.0"
+          },
+          "catalog": {
+            "count": 150,
+            "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+          },
+          "execution_host": "synth.production",
+          "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+          "hmc": {
+            "bytes": 4977667,
+            "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-sealed-6878f9e14103.hmc",
+            "sha256": "97f9962dbf4da6ecebb6a773f09a3ec9bad5bf3ced2b9a4a3957fb9f8af9917e"
+          },
+          "inputs": [
+            {
+              "bytes": 1026173,
+              "key": "assembly.obj",
+              "kind": "obj",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\tidal-vessel.obj",
+              "sha256": "ee80ad93bfd0a93b40bb122dd725fe0272b78cb89503193ea3c8513552dcdc05"
+            }
+          ],
+          "limits": {
+            "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+            "asset_work_units": 500000000,
+            "combined_logical_budget_bytes": 312475648,
+            "effective_asset_work_units": 499998812,
+            "effective_host_bytes": 268397440,
+            "evaluation_steps": 100000,
+            "evaluation_workspace_bytes": 44040192,
+            "package_bytes": 335544320,
+            "resource_bytes": 67108864,
+            "source_available_bytes": 2089135,
+            "source_bytes": 297,
+            "source_reservation_bytes": 38016,
+            "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+            "source_work_units": 1188,
+            "standalone_wire_bytes": 4194304,
+            "total_resource_bytes": 268435456
+          },
+          "native_reviews": [],
+          "presentation_path": null,
+          "producer": {
+            "id": "files",
+            "version": "2"
+          },
+          "quality_profile": "production16",
+          "requested_reviews": [],
+          "resources": [
+            {
+              "bytes": 3950448,
+              "key": "tidal-vessel.10d",
+              "kind": "10d",
+              "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-sealed-6878f9e14103\\tidal-vessel.10d",
+              "sha256": "943fdbd525b9b0557d62a1d8d47d216b0b2e6cd075544eabfdfe4d7d7180e33b",
+              "url": "/artifacts/tidal-vessel-sealed-6878f9e14103/tidal-vessel.10d"
+            }
+          ],
+          "review_status": "not_requested",
+          "schema": "synth.production-receipt/v1",
+          "source_sha256": "3f1a2677626a1b80c7e88130c3c1f6452ea70b6133581220781fbad2a6ffe1d1",
+          "strict_replay_verified": true,
+          "visual_acceptance": "pending inspection"
+        },
+        "resources": [
+          {
+            "bytes": 3950448,
+            "key": "tidal-vessel.10d",
+            "kind": "10d",
+            "modality": "spatial",
+            "sha256": "943fdbd525b9b0557d62a1d8d47d216b0b2e6cd075544eabfdfe4d7d7180e33b"
+          }
+        ],
+        "revision": 1,
+        "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\artifacts\\tidal-vessel-sealed-6878f9e14103.hmc",
+        "schema": "synth.presentation-html/v1",
+        "strict_replay_verified": true,
+        "package_url": "/artifacts/tidal-vessel-sealed-6878f9e14103.hmc",
+        "receipt_url": "/artifacts/tidal-vessel-sealed-6878f9e14103.json"
+      },
+      "recipe": "C:\\github\\synth\\production\\webizen-swarm\\production\\recipes\\tidal-vessel.vibe",
+      "palette": {
+        "limestone": {
+          "color": "#c5b795",
+          "roughness": 0.9,
+          "metalness": 0
+        },
+        "timber": {
+          "color": "#9b6c42",
+          "roughness": 0.7,
+          "metalness": 0
+        },
+        "bronze": {
+          "color": "#b59152",
+          "roughness": 0.3,
+          "metalness": 0.75
+        },
+        "verdigris": {
+          "color": "#3b7970",
+          "roughness": 0.4,
+          "metalness": 0.65
+        },
+        "leaf": {
+          "color": "#55755b",
+          "roughness": 0.6,
+          "metalness": 0.08
+        }
+      },
+      "preview_dir": "C:\\github\\synth\\production\\webizen-swarm\\production\\previews\\tidal-vessel-1794788509"
+    }
+  ]
+}

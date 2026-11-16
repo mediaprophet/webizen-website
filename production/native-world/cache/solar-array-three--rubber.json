@@ -1,0 +1,118 @@
+{
+  "key": "b803c69125ede3e08637f21263b8bfa0b1c30d991527145b6c27c3d0f54750b0",
+  "id": "solar-array-three--rubber",
+  "native": {
+    "bytes": 194456,
+    "key": "solar-array-three--rubber.10d",
+    "kind": "10d",
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--rubber-3007b9d0187f\\solar-array-three--rubber.10d",
+    "sha256": "8a4fab30d8975f2f914ebc63b02c5ad2687046ab975b0acdfeafc34d481ace57",
+    "url": "/artifacts/world-solar-array-three--rubber-3007b9d0187f/solar-array-three--rubber.10d"
+  },
+  "production": {
+    "antigravity_embed_hint": null,
+    "document_digest": "dfb7f95d7e98093e9b2deac49be44cca1df5ef13c5a1e6024238b4756474ebf6",
+    "package_sha256": "63b43985c6bc8ef4f6ab793cfd434b3daf48e7b17763a74ba49c8a1e2b6897e6",
+    "presentation_html": null,
+    "producer": "files",
+    "producer_version": "2",
+    "receipt": {
+      "binary": {
+        "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "version": "0.1.0"
+      },
+      "catalog": {
+        "count": 150,
+        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+      },
+      "execution_host": "synth.production",
+      "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+      "hmc": {
+        "bytes": 224907,
+        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--rubber-3007b9d0187f.hmc",
+        "sha256": "63b43985c6bc8ef4f6ab793cfd434b3daf48e7b17763a74ba49c8a1e2b6897e6"
+      },
+      "inputs": [
+        {
+          "bytes": 29040,
+          "key": "world.glb",
+          "kind": "glb",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\solar-array-three--rubber.glb",
+          "sha256": "5800ee79a1099ff3d1c4db6085c62d5bb99a2623d02c6724242b097f6464288d"
+        }
+      ],
+      "limits": {
+        "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+        "asset_work_units": 500000000,
+        "combined_logical_budget_bytes": 312475648,
+        "effective_asset_work_units": 499997432,
+        "effective_host_bytes": 268353280,
+        "evaluation_steps": 100000,
+        "evaluation_workspace_bytes": 44040192,
+        "package_bytes": 335544320,
+        "resource_bytes": 67108864,
+        "source_available_bytes": 2096925,
+        "source_bytes": 642,
+        "source_reservation_bytes": 82176,
+        "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+        "source_work_units": 2568,
+        "standalone_wire_bytes": 4194304,
+        "total_resource_bytes": 268435456
+      },
+      "native_reviews": [],
+      "presentation_path": null,
+      "producer": {
+        "id": "files",
+        "version": "2"
+      },
+      "quality_profile": "production16",
+      "requested_reviews": [],
+      "resources": [
+        {
+          "bytes": 194456,
+          "key": "solar-array-three--rubber.10d",
+          "kind": "10d",
+          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--rubber-3007b9d0187f\\solar-array-three--rubber.10d",
+          "sha256": "8a4fab30d8975f2f914ebc63b02c5ad2687046ab975b0acdfeafc34d481ace57",
+          "url": "/artifacts/world-solar-array-three--rubber-3007b9d0187f/solar-array-three--rubber.10d"
+        }
+      ],
+      "review_status": "not_requested",
+      "schema": "synth.production-receipt/v1",
+      "source_sha256": "64929707b1a092230ce3210b0731971bd5207aad6df0083160d727661754dd5c",
+      "strict_replay_verified": true,
+      "visual_acceptance": "pending inspection"
+    },
+    "resources": [
+      {
+        "bytes": 194456,
+        "key": "solar-array-three--rubber.10d",
+        "kind": "10d",
+        "modality": "spatial",
+        "sha256": "8a4fab30d8975f2f914ebc63b02c5ad2687046ab975b0acdfeafc34d481ace57"
+      }
+    ],
+    "revision": 1,
+    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-solar-array-three--rubber-3007b9d0187f.hmc",
+    "schema": "synth.presentation-html/v1",
+    "strict_replay_verified": true,
+    "package_url": "/artifacts/world-solar-array-three--rubber-3007b9d0187f.hmc",
+    "receipt_url": "/artifacts/world-solar-array-three--rubber-3007b9d0187f.json"
+  },
+  "vertices": 644,
+  "triangles": 1168,
+  "instances": 2,
+  "material": 38,
+  "url": "/production/native-world/assets/solar-array-three--rubber.10d",
+  "colour": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "sha256": "8a4fab30d8975f2f914ebc63b02c5ad2687046ab975b0acdfeafc34d481ace57",
+  "bytes": 194456,
+  "recipe": "/production/native-world/recipes/solar-array-three--rubber.vibe",
+  "input_sha256": "5800ee79a1099ff3d1c4db6085c62d5bb99a2623d02c6724242b097f6464288d"
+}

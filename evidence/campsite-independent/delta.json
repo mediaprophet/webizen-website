@@ -1,0 +1,106 @@
+{
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8800/publication/journey.json",
+    "http://127.0.0.1:8800/publication/journey.json"
+  ],
+  "mobile": {
+    "width": 390,
+    "scroll": 390,
+    "state": {
+      "current": "field-studio",
+      "purpose": "learn",
+      "motion": false,
+      "locale": {
+        "requested": "en-AU",
+        "base": "en",
+        "dir": "ltr",
+        "fallback": false,
+        "translated": 91,
+        "total": 91
+      },
+      "scene": {
+        "nativeAssets": [
+          {
+            "id": "canopy",
+            "parts": 27,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "tidal-vessel",
+            "parts": 5,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "memory-frond",
+            "parts": 22,
+            "source": "Synth-exported DXF geometry"
+          },
+          {
+            "id": "eucalyptus",
+            "parts": 7,
+            "instances": 6,
+            "source": "Native Synth woodland artwork, exact exported faces instanced in the browser",
+            "mesh": "/production/campsite/woodland/assets/eucalyptus.json"
+          },
+          {
+            "id": "car-passat-b7",
+            "parts": 141,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/car/assets/car.json"
+          },
+          {
+            "id": "vintage-windup-camper",
+            "parts": 169,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+          },
+          {
+            "id": "solar-array",
+            "parts": 84,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+          },
+          {
+            "id": "starlink-mini",
+            "parts": 15,
+            "source": "Synth-produced campsite artwork",
+            "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+          }
+        ],
+        "chapter": "southern-tablelands",
+        "meshes": 53,
+        "triangles": 973104,
+        "camera": [
+          -7.150000000000002,
+          9.945921689254925,
+          48.25
+        ],
+        "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+      },
+      "runtime": {
+        "catalog_count": 150,
+        "binary": "synth/target-prod/debug/synth.exe",
+        "execution": "local native MCP",
+        "arbitrary_source_api": false
+      }
+    }
+  },
+  "resetUrl": "http://127.0.0.1:8800/?chapter=southern-tablelands",
+  "resetReload": {
+    "url": "http://127.0.0.1:8800/?chapter=southern-tablelands",
+    "chapter": "southern-tablelands",
+    "current": null
+  },
+  "projection": {
+    "chapters": 7,
+    "chapterFieldsAllowed": true,
+    "nativeGraphSha": "1705544fc6c871c7b0b6a4c6f1d30deb23099f3dfca5217472b0ef9f719b24c1",
+    "graphMatches": true,
+    "sanitisedSourceHashMatches": true,
+    "reader": "qualia_core_db::q42_volume::Q42Volume",
+    "verified_blocks": true,
+    "roundtrip": true,
+    "privacyPass": true
+  }
+}

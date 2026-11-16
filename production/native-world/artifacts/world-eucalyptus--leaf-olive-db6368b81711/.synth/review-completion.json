@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 9415687,
+    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--leaf-olive-db6368b81711.hmc",
+    "sha256": "1205d5523af7365954d829b9c32007028ec1058f7395976127f754d81a5f766f"
+  },
+  "inputs": [
+    {
+      "bytes": 230328,
+      "key": "world.glb",
+      "kind": "glb",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\eucalyptus--leaf-olive.glb",
+      "sha256": "43e3ed7f54c74ea18e0b4d48852f19a790758be91712752b4c18298b8e2d430d"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499995684,
+    "effective_host_bytes": 268297344,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2095352,
+    "source_bytes": 1079,
+    "source_reservation_bytes": 138112,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 4316,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 9183544,
+      "key": "eucalyptus--leaf-olive.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-eucalyptus--leaf-olive-db6368b81711\\eucalyptus--leaf-olive.10d",
+      "sha256": "7cf444de42ec00e28e3b2a5104240ca5233dd8441a27b6401c0a7674854a45f0"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "5194c09f426108c5a42af68c85fc5eebddb59c940c2418899726dc707e28a710",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

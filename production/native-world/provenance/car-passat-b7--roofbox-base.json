@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 524,
+  "triangles": 1008,
+  "bytes": 197592,
+  "source_bytes": 34496,
+  "id": "car-passat-b7--roofbox-base",
+  "original_sha256": "674fd3cc556fec33992d5e6e5d2f087827f0e913411c0fe45cbb2e6461e153a8",
+  "source_sha256": "6788605d32020e4ae366d0f36e2988dbb0b8e355f24117de049f37954f26f45b",
+  "attested_sha256": "2160425a2a8d576e1c1220386c08744f97e6b2bb378d404c880f67009cfd45c7",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

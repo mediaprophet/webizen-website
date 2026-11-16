@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 768,
+  "triangles": 1280,
+  "bytes": 256144,
+  "source_bytes": 37192,
+  "id": "observatory--pale-limestone",
+  "original_sha256": "25eff3d92bf8d29837bae9f2cfbf882037bdb477c6697b98f8a7c0bae0176c8d",
+  "source_sha256": "f972a69def1d7a9a9383db129dbece60c0a4226f59ef9ab7158a5f6c5f83d537",
+  "attested_sha256": "b4c7b8d2b04d932b20d4eca282c373a4d5053f1e821e188184d32bbfc65cb505",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

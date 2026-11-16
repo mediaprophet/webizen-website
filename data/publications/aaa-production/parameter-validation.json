@@ -1,0 +1,37 @@
+[
+  {
+    "recipe": "catchment",
+    "parameters": {
+      "width": 40
+    },
+    "package_sha256": "550553d2aa60d2b2ce107d089ecdb3c3ee56981022909c87fb4b00409413f02a",
+    "success": true
+  },
+  {
+    "recipe": "lettering",
+    "parameters": {
+      "words": "A shared living world",
+      "size": 96
+    },
+    "package_sha256": "358e285f1695b7e55bf05c23bed25ea61c6a5af3808a15dbfd6656500735c968",
+    "success": true
+  },
+  {
+    "recipe": "tone",
+    "parameters": {
+      "frequency": 1760,
+      "amplitude": 0.3
+    },
+    "package_sha256": "4b3cbd0ec23017a3ce92a4d78a6bbef2bd41b4e64e6527cefebf16b3331f1847",
+    "success": true
+  },
+  {
+    "recipe": "surface",
+    "parameters": {
+      "seed": 65535,
+      "roughness": 1
+    },
+    "package_sha256": "54c63489fe750af906efee456bc48fec07bf799bd55365e0d409b7de93f2dd75",
+    "success": true
+  }
+]

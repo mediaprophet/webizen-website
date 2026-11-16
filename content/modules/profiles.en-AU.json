@@ -1,0 +1,383 @@
+{
+  "schema": "webizen.editorial-profiles/v1",
+  "modules": [
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "qualiadb",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "QualiaDB",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Contextual knowledge, reasoning, resource codecs and scientific foundations",
+      "source_repository": "qualiaDB",
+      "headline": "Keep knowledge in context.",
+      "what": "A fact becomes more useful when we can ask where it came from, what it relates to and which circumstances matter. QualiaDB provides the knowledge and computational foundations used across this ecosystem.",
+      "difference": "Its graph, resource formats and computational libraries are designed to work together. The Lab lets you inspect actual query results rather than asking you to trust a feature list.",
+      "why": "People need to question, correct and reuse information. Keeping its relationships and evidence available helps them make informed decisions.",
+      "source_route": "graph.html",
+      "related_modules": [
+        "vibescript",
+        "synth",
+        "qdnf"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "webizen",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "Webizen applications and runtime",
+      "owner_status": "implementation source mapped; product scope spans supporting repositories",
+      "ownership_evidence": [
+        "qualiaDB/README.md:93",
+        "qualiaDB/crates/webizen-studio/src/main.rs"
+      ],
+      "publication_status": "not-yet-qualified",
+      "purpose": "Human-facing tools, application lifecycle and authorised host capabilities",
+      "source_repository": "qualiaDB",
+      "headline": "Put the person at the centre.",
+      "what": "Webizen brings applications, knowledge and authorised capabilities into a human-facing computing environment. The aim is to help people act, create and cooperate with their own purposes and circumstances in view.",
+      "difference": "The application surface sits within a wider ecosystem of knowledge, hosts, instruments and creative tools. A choice about how to read information is kept separate from permission to access it.",
+      "why": "A useful computer should support what a person is trying to do, including when they need assistance or a different form of presentation.",
+      "source_route": "network_webizen.html",
+      "related_modules": [
+        "webizen-host",
+        "aether",
+        "poet"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "poet",
+      "local_repository": null,
+      "name": "Poet",
+      "owner_status": "requires-source-owner-reconciliation",
+      "ownership_evidence": [
+        "synth/README.md:6-7 states Poet is separate",
+        "qualiaDB/crates/qualia-mcp/src/tools/poet.rs is an adapter, not proof of application ownership"
+      ],
+      "publication_status": "not-yet-qualified",
+      "purpose": "Composition and editing of authored works; reconcile app/source ownership",
+      "source_repository": null,
+      "headline": "Turn an intention into a work.",
+      "what": "Poet is the authoring application within the ecosystem. Its public material connects creative production with projects, knowledge and human-facing workflows.",
+      "difference": "It is an application surface over shared production and knowledge capabilities. The source inventory distinguishes implemented surfaces from specifications and future requirements.",
+      "why": "Making something should not sever it from its meaning, sources or the people who will use it.",
+      "source_route": "poet-app/index.html",
+      "related_modules": [
+        "synth",
+        "vibescript",
+        "hypermedia"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "vibescript",
+      "local_repository": "C:\\github\\vibe-script",
+      "name": "VibeScript",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Checked language, authoring tools and explicit host contracts; engine in QualiaDB",
+      "source_repository": "vibe-script",
+      "headline": "Give the work a precise expression.",
+      "what": "VibeScript describes authored work and the capabilities it requires. It is the language used by the production recipes you can inspect in this website.",
+      "difference": "A recipe names its host capabilities and can be evaluated into inspectable outputs. The same work can retain its source, resources and execution evidence.",
+      "why": "A readable, reproducible account of how something was made gives creators and reviewers more agency.",
+      "source_route": "vibe/index.html",
+      "related_modules": [
+        "synth",
+        "etalon",
+        "qualiadb"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "synth",
+      "local_repository": "C:\\github\\synth",
+      "name": "Synth",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Reproducible media production, strict replay and HMC packaging",
+      "source_repository": "synth",
+      "headline": "Make the work reproducible.",
+      "what": "Synth produces media and other resources from Vibe recipes. The Lab uses the real producer to create native geometry, fields, pictures and sound.",
+      "difference": "Its production path packages outputs with source and runtime identity, content hashes and replay evidence. The artwork here includes those actual production records.",
+      "why": "Creative work is easier to inspect, revisit and build upon when its origin and production process travel with it.",
+      "source_route": "hypermedia-studio.html",
+      "related_modules": [
+        "hypermedia",
+        "vibescript",
+        "etalon"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "hypermedia",
+      "local_repository": "C:\\github\\hypermedia-production",
+      "name": "Hypermedia production",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "150 composable media production operations",
+      "source_repository": "hypermedia-production",
+      "headline": "Work across forms of expression.",
+      "what": "Hypermedia production supplies operations for geometry, surfaces, images, typography, layout, motion, sound and other media. These operations are combined to make the works you see here.",
+      "difference": "The operations are shared capabilities invoked through recipes, rather than isolated effects copied into each demonstration. Native output can be inspected alongside the presentation.",
+      "why": "People express and understand things through many forms. Shared production tools help those forms remain connected.",
+      "source_route": "hypermedia-studio.html",
+      "related_modules": [
+        "synth",
+        "etalon",
+        "anatomy"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "etalon",
+      "local_repository": "C:\\github\\etalon",
+      "name": "Etalon",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Rendering, computation, inference, signals and sensing",
+      "source_repository": "etalon",
+      "headline": "Bring computation into the experience.",
+      "what": "Etalon supplies rendering, compute, signal and sensing providers used by the ecosystem. Its role becomes tangible when a native resource is rendered or a computation is executed.",
+      "difference": "The chosen execution path matters. The Lab records the actual provider and device conditions instead of treating every browser animation as proof of native computation.",
+      "why": "Understanding what ran, and where, helps people judge whether a result is appropriate to their circumstances.",
+      "source_route": "playground/etalon-vibe-harness.html",
+      "related_modules": [
+        "anvil",
+        "qualiadb",
+        "synth"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "anvil",
+      "local_repository": "C:\\github\\anvil",
+      "name": "Anvil",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Device capability facts and execution routing information",
+      "source_repository": "anvil",
+      "headline": "Understand the available machine.",
+      "what": "Anvil concerns device capability and execution-routing information. That information helps other parts of the ecosystem choose an appropriate execution path.",
+      "difference": "Capability facts need to come from an actual probe. Unknown or unprobed hardware should remain unknown, rather than being reported as absent.",
+      "why": "A visitor should get a useful experience on their own equipment, with an honest account of what it can run.",
+      "source_route": "playground/etalon-vibe-harness.html",
+      "related_modules": [
+        "etalon",
+        "aether",
+        "webizen-host"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "aether",
+      "local_repository": "C:\\github\\Aether",
+      "name": "Aether",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Application framework, reactive and native interfaces",
+      "source_repository": "Aether",
+      "headline": "Connect applications to their environment.",
+      "what": "Aether provides application-framework and reactive interface foundations. Its role sits between application intent and the surfaces through which people interact.",
+      "difference": "It is part of the application and native-interface layer, while production, storage and rendering remain distinct responsibilities with explicit connections.",
+      "why": "Consistent interaction and appropriate feedback help people move between tools without losing their place.",
+      "source_route": "manuals/webizen-ui-architecture.md",
+      "related_modules": [
+        "webizen",
+        "chora",
+        "etalon"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "chora",
+      "local_repository": "C:\\github\\chora",
+      "name": "Chora",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Embedded web and spatial document engine",
+      "source_repository": "chora",
+      "headline": "Give documents a place to live.",
+      "what": "Chora concerns embedded web and spatial document experiences. It connects authored content to the environment in which it is read and used.",
+      "difference": "Document presentation is a component responsibility within the wider ecosystem. A spatial presentation should retain a readable, navigable counterpart.",
+      "why": "Information should remain available when someone needs a different device, layout or way to navigate.",
+      "source_route": "manuals/webizen-browser-operator.md",
+      "related_modules": [
+        "aether",
+        "webizen",
+        "qualiadb"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "webizen-host",
+      "local_repository": "C:\\github\\webizen-host",
+      "name": "Webizen Host",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Hosting, namespaces, deployment and shared stewardship",
+      "source_repository": "webizen-host",
+      "headline": "Make the conditions of participation clear.",
+      "what": "Webizen Host concerns hosting, namespaces, deployment and stewardship. It is part of the machinery that makes an application or shared resource available under defined conditions.",
+      "difference": "A host is responsible for the capabilities it actually admits. A visitor preference or a client-side visual state must not be mistaken for host authority.",
+      "why": "People need dependable boundaries as well as useful access: who may act, under which conditions, and with what recourse.",
+      "source_route": "vibe-host-native-bridge.html",
+      "related_modules": [
+        "webizen",
+        "web-civics",
+        "qdnf"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "web-civics",
+      "local_repository": "C:\\github\\ns",
+      "name": "Web Civics / semantic instruments",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Vocabularies, structured instruments and shared meaning",
+      "source_repository": "ns",
+      "headline": "Make meaning and commitments inspectable.",
+      "what": "Web Civics and the associated vocabulary work provide structured ways to express shared meaning and instruments used by the ecosystem.",
+      "difference": "The website demonstrates selected instrument behaviour with actual evaluation and clearly bounded examples. It does not equate a demonstration with general legal compliance.",
+      "why": "Cooperation depends on understanding terms, responsibilities and available choices, not merely accepting an unexplained button.",
+      "source_route": "agreement-instruments.html",
+      "related_modules": [
+        "cooperation",
+        "qualiadb",
+        "webizen-host"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "cooperation",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "Wellfare, cooperation and work graph",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Care, participation, shared work and cooperative primitives",
+      "source_repository": "qualiaDB",
+      "headline": "Support people doing things together.",
+      "what": "Cooperation, Wellfare and work-graph concepts address care, participation and shared work. These are human purposes for the computing ecosystem, not an afterthought to its technical foundations.",
+      "difference": "Support needs, resources, responsibilities and relationships belong in the same account of an activity. The implementation plan includes positive assistance, correction and bounded delegation.",
+      "why": "A human-centric ecosystem must help people participate, including when their needs differ or they need help to act.",
+      "source_route": "agreement-ledger.html",
+      "related_modules": [
+        "web-civics",
+        "webizen",
+        "qualiadb"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "anatomy",
+      "local_repository": "C:\\github\\anatomy",
+      "name": "Anatomy",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Authored spatial biological and welfare educational works",
+      "source_repository": "anatomy",
+      "headline": "Understand life at different scales.",
+      "what": "Anatomy contains authored spatial biological and welfare educational works. It connects structure, explanation and the production of inspectable assets.",
+      "difference": "Authored models, comparative scaffolds and qualified domain computations have different meanings. Their scope and evidence must stay visible when they are presented beautifully.",
+      "why": "Seeing a living structure can make an explanation more accessible. Accuracy and appropriate educational framing remain essential.",
+      "source_route": "playground/anatomy.html",
+      "related_modules": [
+        "hypermedia",
+        "qualiadb",
+        "etalon"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "distinctive_approach_required": true,
+      "human_significance_required": true,
+      "id": "ecopunk",
+      "local_repository": "C:\\github\\ecopunk",
+      "name": "Ecopunk and living-world work",
+      "owner_status": "repository-present; public claims require qualification",
+      "publication_status": "not-yet-qualified",
+      "purpose": "Environmental systems and living-world experiences",
+      "source_repository": "ecopunk",
+      "headline": "Keep the living world in the picture.",
+      "what": "Ecopunk brings ecological and living-world themes into the ecosystem. Here, forests, water and landscape are subjects of inquiry and care as well as places to explore.",
+      "difference": "The natural world gives the experience its questions. A computational model and an artistic interpretation are identified separately from a measured observation.",
+      "why": "Computing takes place within a biosphere and a society. Its usefulness should be considered in that wider context.",
+      "source_route": "playground/living-world-showcase.html",
+      "related_modules": [
+        "anatomy",
+        "qualiadb",
+        "cooperation"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    },
+    {
+      "id": "qdnf",
+      "local_repository": "C:\\github\\qualiaDB",
+      "name": "QDNF and identifier fabric",
+      "owner_status": "repository-present; public claims require qualification",
+      "ownership_evidence": [
+        "qualiaDB/docs/qdnf.html",
+        "webizen-website/plans/renewal/README.md identifies subsystem coverage"
+      ],
+      "publication_status": "source-mapped; runtime-not-qualified",
+      "purpose": "Identifier, naming and network fabric; public subsystem explicitly reconciled with the module atlas",
+      "source_repository": "qualiaDB",
+      "headline": "Keep identity and connection coherent.",
+      "what": "QDNF and identifier-fabric work concern the way entities, peers and network cells are identified and connected across the ecosystem.",
+      "difference": "The public documentation separates identifier concepts, peer runtime and network-cell behaviour. Those distinctions should survive a simplified explanation.",
+      "why": "Stable references help people follow sources and retain context when information moves between places and representations.",
+      "source_route": "qdnf.html",
+      "related_modules": [
+        "webizen-host",
+        "qualiadb",
+        "webizen"
+      ],
+      "locale": "en-AU",
+      "claim_state": "editorial explanation; availability must be checked against linked runtime evidence"
+    }
+  ]
+}

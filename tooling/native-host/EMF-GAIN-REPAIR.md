@@ -1,0 +1,11 @@
+# EMF display-gain repair
+
+Browser evidence found byte-identical field canvas PNGs at gain 1 and gain 4 while the draw receipt changed. The actual typed projection selects Etalon's nearest-cell grayscale branch. That branch returned its precomputed display amplitude without applying the gain uniform; its CPU reference did the same. Portal's preview receipt incorrectly described this explicit grayscale route as a phase/sigma diagnostic.
+
+The shader and CPU oracle now implement `brightness = clamp(gain * (1 - exp(-|E| / (1 V/m))), 0, 1)` for this route. This is gain on the display derivative, not a change to physical field strength. Valid zero remains opaque black; missing samples retain transparent validity. Gain 1 preserves the existing projection. Original source bytes, physical values, spectral data and the separate spectral branch are unchanged.
+
+The Portal preview receipt and human-facing instrument description now identify the electric-magnitude greyscale diagnostic. The receipt records the exact formula and that source values are unchanged. Browser qualification must compare pixels as well as receipt values, check export of all 13,824 cells and verify world navigation after using the separate field canvas.
+
+Seven focused native tests passed against the actual edited Etalon source: gain response, dimming, saturation/validity, unit-gain/source preservation, existing spectral behaviour, ABI layout and Naga parse/validation of the exact WGSL. The documented full Etalon xtask command was attempted. Its sandboxed dependency fetch failed DNS; an authorised elevated retry successfully downloaded its Windows dependencies, then stopped because cargo-nextest is absent. No full-suite pass is claimed. Cargo unit tests for the actual etalon-render package are also being run.
+
+The host previously resolved Etalon from pinned Git revision 057545fc. Its native manifest now patches the complete resolved 30-crate Etalon family to local repository packages, keeping device and provider types coherent. `resolved-etalon-crates.json` and the runtime identity record the exact resolved package sources, local revision and shader/reference hashes. Only the resulting local-provider bundle may qualify this repair; an earlier pinned-provider candidate is not evidence of the fix.

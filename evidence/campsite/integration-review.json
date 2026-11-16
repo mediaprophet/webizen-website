@@ -1,0 +1,93 @@
+{
+  "state": {
+    "current": "field-studio",
+    "purpose": "learn",
+    "motion": false,
+    "locale": {
+      "requested": "en-AU",
+      "base": "en",
+      "dir": "ltr",
+      "fallback": false,
+      "translated": 91,
+      "total": 91
+    },
+    "scene": {
+      "nativeAssets": [
+        {
+          "id": "canopy",
+          "parts": 27,
+          "source": "Synth-exported DXF geometry"
+        },
+        {
+          "id": "tidal-vessel",
+          "parts": 5,
+          "source": "Synth-exported DXF geometry"
+        },
+        {
+          "id": "memory-frond",
+          "parts": 22,
+          "source": "Synth-exported DXF geometry"
+        },
+        {
+          "id": "eucalyptus",
+          "parts": 7,
+          "instances": 6,
+          "source": "Native Synth woodland artwork, exact exported faces instanced in the browser",
+          "mesh": "/production/campsite/woodland/assets/eucalyptus.json"
+        },
+        {
+          "id": "car-passat-b7",
+          "parts": 141,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/car/assets/car.json"
+        },
+        {
+          "id": "vintage-windup-camper",
+          "parts": 169,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/camper/assets/vintage-windup-camper.mesh.json"
+        },
+        {
+          "id": "solar-array",
+          "parts": 84,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/equipment/assets/solar-array.mesh.json"
+        },
+        {
+          "id": "starlink-mini",
+          "parts": 15,
+          "source": "Synth-produced campsite artwork",
+          "mesh": "/production/campsite/equipment/assets/starlink-mini.mesh.json"
+        }
+      ],
+      "chapter": "southern-tablelands",
+      "meshes": 109,
+      "triangles": 1013972,
+      "camera": [
+        -11.00000000000001,
+        8.790921689254919,
+        42.999999999999986
+      ],
+      "renderer": "Three.js WebGL2 review presentation; Synth-native artifacts and MCP demonstrations are separately inspectable"
+    },
+    "runtime": {
+      "catalog_count": 150,
+      "binary": "synth/target-prod/debug/synth.exe",
+      "execution": "local native MCP",
+      "arbitrary_source_api": false
+    }
+  },
+  "changed": "northern-rivers",
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "chapter": "northern-rivers"
+  },
+  "errors": [],
+  "assets": [
+    "car-passat-b7",
+    "vintage-windup-camper",
+    "solar-array",
+    "starlink-mini"
+  ]
+}

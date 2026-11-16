@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_sections_unchanged": true,
+  "header_flags_preserved": true,
+  "native_governance_refused": false,
+  "vertices": 42330,
+  "triangles": 66084,
+  "bytes": 9414200,
+  "source_bytes": 230328,
+  "id": "eucalyptus--leaf-olive",
+  "original_sha256": "7cf444de42ec00e28e3b2a5104240ca5233dd8441a27b6401c0a7674854a45f0",
+  "source_sha256": "43e3ed7f54c74ea18e0b4d48852f19a790758be91712752b4c18298b8e2d430d",
+  "attested_sha256": "d843e2366a79eaa92541f16296e5556a15cc3ab3f5e8c1aae031ee90bcff2d43",
+  "native_helper_sha256": "4a330c7f97a9712e8be1246bcef689e0ec59a7a545eb7a200744c386ee8cb98e",
+  "native_helper_source_sha256": "9c04dfd273c79cb29117f12624cc195a115ae6bbb6810e2ad887aea90a8f0e94",
+  "source_media_type": "model/gltf-binary",
+  "rights": "User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.",
+  "credential_asserted": false
+}

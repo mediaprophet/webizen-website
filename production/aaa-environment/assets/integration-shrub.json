@@ -1,0 +1,124 @@
+{
+  "schema": "webizen.aaa-native-environment/v1",
+  "frame": "existing fictional catchment, Y-up metres",
+  "epistemic_class": "authored-artwork",
+  "assets": [
+    {
+      "id": "ecology-shrub-branches-0",
+      "url": "/production/aaa-environment/assets/ecology-shrub-branches-0.10d",
+      "sha256": "371bc33b8fc755609a7db25326a49d746b3b1437c8014c2acbfe43dd2459d495",
+      "bytes": 4433688,
+      "vertices": 39564,
+      "triangles": 49392,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 14,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-shrub-branches-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-shrub-branches-0.vibe"
+    },
+    {
+      "id": "ecology-shrub-leaves-0",
+      "url": "/production/aaa-environment/assets/ecology-shrub-leaves-0.10d",
+      "sha256": "6f76b0cf1f9b1cecbbb1b0dd60094f83f015680cab9ef22a6f74ba0596e5714e",
+      "bytes": 7326544,
+      "vertices": 66760,
+      "triangles": 70000,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 5,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-shrub-leaves-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-shrub-leaves-0.vibe"
+    },
+    {
+      "id": "ecology-shrub-leaves-1",
+      "url": "/production/aaa-environment/assets/ecology-shrub-leaves-1.10d",
+      "sha256": "1f916d9d45aa30c046254106693b2ae630aea2e786812c4f4ee4ccc45cd47603",
+      "bytes": 7326608,
+      "vertices": 66760,
+      "triangles": 70000,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 5,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-shrub-leaves-1.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-shrub-leaves-1.vibe"
+    },
+    {
+      "id": "ecology-shrub-leaves-2",
+      "url": "/production/aaa-environment/assets/ecology-shrub-leaves-2.10d",
+      "sha256": "ef49f2179e53228353e82a4eb211e2c580c2896eb378e86940953bad661970d9",
+      "bytes": 5581464,
+      "vertices": 53408,
+      "triangles": 56000,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 4,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-shrub-leaves-2.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-shrub-leaves-2.vibe"
+    }
+  ],
+  "textures": [
+    {
+      "url": "/production/aaa-environment/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png",
+      "sha256": "0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png",
+      "sha256": "29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png",
+      "sha256": "e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png",
+      "sha256": "10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png",
+      "sha256": "b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png",
+      "sha256": "6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "placements": "/production/aaa-environment/assets/placement-evaluation.json",
+  "review_status": "native prototype views inspected; assembled review pending",
+  "triangles": 245392,
+  "vertices": 226492,
+  "instances": 28
+}

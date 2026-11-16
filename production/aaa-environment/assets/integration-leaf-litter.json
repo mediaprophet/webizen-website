@@ -1,0 +1,52 @@
+{
+  "schema": "webizen.aaa-native-environment/v1",
+  "frame": "existing fictional catchment, Y-up metres",
+  "epistemic_class": "authored-artwork",
+  "assets": [
+    {
+      "id": "ecology-leaf-litter-0",
+      "url": "/production/aaa-environment/assets/ecology-leaf-litter-0.10d",
+      "sha256": "e69607b387b62d3851f5d937f3db0171517572914d0539560295869dee2c1f2c",
+      "bytes": 2403624,
+      "vertices": 22792,
+      "triangles": 21280,
+      "colour": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instances": 14,
+      "provenance_receipt": "/production/aaa-environment/provenance/ecology-leaf-litter-0.json",
+      "recipe": "/production/aaa-environment/recipes/ecology-leaf-litter-0.vibe"
+    }
+  ],
+  "textures": [
+    {
+      "url": "/production/aaa-environment/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png",
+      "sha256": "3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7",
+      "mime_type": "image/png",
+      "role": 0,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png",
+      "sha256": "5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4",
+      "mime_type": "image/png",
+      "role": 1,
+      "cutoff": 0.5
+    },
+    {
+      "url": "/production/aaa-environment/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png",
+      "sha256": "f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352",
+      "mime_type": "image/png",
+      "role": 2,
+      "cutoff": 0.5
+    }
+  ],
+  "placements": "/production/aaa-environment/assets/placement-evaluation.json",
+  "review_status": "native prototype views inspected; assembled review pending",
+  "triangles": 21280,
+  "vertices": 22792,
+  "instances": 14
+}

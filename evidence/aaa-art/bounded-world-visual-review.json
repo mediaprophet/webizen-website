@@ -1,0 +1,68 @@
+{
+  "schema": "webizen.native-assembled-visual-review/v1",
+  "image": "C:\\github\\synth\\production\\webizen-swarm\\evidence\\aaa-browser\\world.png",
+  "sha256": "d423acbe332ede9195938af5051c2f1b6c4bbd7498568f63587708921878ed52",
+  "observed_version": "2026-11-16T03:51:52Z bounded92asset world",
+  "review_result": "Not accepted as AAA or final artwork. Significant recovery of actual woodland depth and ground material path.",
+  "observations": [
+    "Native canopy creates recognisable woodland enclosure; pale trunks occupy multiple depth planes rather than isolated trees on an empty surface.",
+    "Car, roofbox, camper, solar panels, bridge and other native landmarks are present and legible at scene scale; personal campsite is too small for the opening composition.",
+    "Large grey-green ground texture has strong directional ripples/striations. It dominates the foreground and reads as procedural noise rather than subtle soil.",
+    "Two visible grass tufts and scattered litter improve ground scale but remain too isolated to establish a layered understorey. Current proof geometry budget should not be solved by pretending this density is final.",
+    "Tree trunks are too uniformly pale and brightly filled. Canopy is airy but repetitive and visually thin; near silhouettes still reveal limited variation.",
+    "Right-hand UI obscures bridge/river composition. The view should place the personal campsite in the clear left/centre region rather than add detail behind that panel."
+  ],
+  "recommendations": {
+    "camera": {
+      "position": [
+        -32,
+        8.9,
+        44
+      ],
+      "target": [
+        -22,
+        5.840921689,
+        28
+      ],
+      "fov_degrees": 45,
+      "native_ground_y": 6.218066137305078,
+      "ground_clearance": 2.681933862694922
+    },
+    "lighting": {
+      "exposure_ev": 0.0,
+      "sun": [
+        -0.55,
+        0.7,
+        0.35,
+        1.7,
+        0.2
+      ],
+      "probe_irradiance": [
+        [
+          0.9,
+          1.05,
+          1.125
+        ],
+        [
+          0.7,
+          0.775,
+          0.59
+        ],
+        [
+          0.575,
+          0.725,
+          0.825
+        ]
+      ],
+      "specular": "Retain current levels for this single-variable comparison; use actual native probe fill, zero additive fallback."
+    },
+    "terrain_production": {
+      "morphism": "hypermedia.surface.synthesize_maps",
+      "relief": 0.003,
+      "band_strength": 0.0,
+      "scope": "Native material-only regeneration, no geometry change."
+    },
+    "future_density": "After retained native prototype instancing is wired, compose overlapping grass/shrub/litter patches with age and density variation; do not scatter uniformly or raise broad scene memory limits."
+  },
+  "pending": "Inspect actual revised native frame after camera/light/material changes; no approval inferred from this written proposal."
+}
