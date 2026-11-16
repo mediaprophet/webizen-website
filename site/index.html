@@ -6,14 +6,16 @@
 <meta name="description" content="A living world of human centric computing, authored in VibeScript and Q42 and rendered by QualiaPortal.">
 <title>Webizen — The living world</title>
 <link rel="stylesheet" href="/world/native.css">
+<link rel="stylesheet" href="/world/loader.css">
 </head>
 <body>
 <a class="skip" href="#native-world-ui">Skip to world controls</a>
-<canvas id="native-world" aria-label="The living world, rendered by QualiaPortal" tabindex="0"></canvas>
+<canvas id="native-world" data-scene="/production/lush-woodland/scene.json" aria-label="The living world, rendered by QualiaPortal" tabindex="0"></canvas>
 <header><a class="brand" href="/"><b>W.</b><span>webizen<small>HUMAN CENTRIC COMPUTING</small></span></a><nav aria-label="Reading routes"><a href="/publication/reading.html">Read the world</a><a href="/atlas/">The ecosystem</a><a href="/lab/">Tests &amp; benchmarks</a><a href="/journey/">The journey</a></nav><span class="locale" lang="en-AU">English · AU</span></header>
 <main id="native-world-ui"></main>
 <div id="native-world-status" role="status" aria-live="polite">Opening the native living world…</div>
 <noscript><p class="no-script">The generated loader needs permission to start the WASM runtime. <a href="/publication/reading.html">Read the world without scripts.</a></p></noscript>
+<script src="/world/loader.js"></script>
 <!-- Loader only. All application behaviour is compiled in native/world-host. -->
 <script type="module">import init from '/pkg/native-world/webizen_world.js';await init();</script>
 </body>

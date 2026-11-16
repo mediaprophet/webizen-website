@@ -1,0 +1,67 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 7635147,
+    "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-preview-2b544810675c.hmc",
+    "sha256": "ab9ae9c7db6db5a5a31e11830aa71cc3794fe20df814d05473248ffa3f9dcf5e"
+  },
+  "inputs": [
+    {
+      "bytes": 5172690,
+      "key": "tree.obj",
+      "kind": "obj",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\recipes\\eucalyptus-lush-near.obj",
+      "sha256": "b16369299daf15a9afb126821fe310e3eddcfb905096f5f7b206d87c54f578af"
+    }
+  ],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 499998752,
+    "effective_host_bytes": 268395520,
+    "evaluation_steps": 100000,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2056740,
+    "source_bytes": 312,
+    "source_reservation_bytes": 39936,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 1248,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 2461320,
+      "key": "eucalyptus-lush-near.10d",
+      "kind": "10d",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-preview-2b544810675c\\eucalyptus-lush-near.10d",
+      "sha256": "b990f940f19beda454c4d356f8fb73cbc1d653d4dc80c51783c3f7a964a3dec5"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "d2fdd536bc5de49f4f177dc13b34bd5a74616d153cc6ff8ac9911313157a53fc",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}

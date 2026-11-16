@@ -20,3 +20,7 @@ __pycache__/
 /production/**/artifacts/**/*.10d
 /production/**/artifacts/**/*.html
 
+/production/lush-woodland/assets/*.10d
+/production/lush-woodland/inputs/*.glb
+/production/lush-woodland/recipes/*.obj
+/production/loader/artifacts/

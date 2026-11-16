@@ -1,0 +1,913 @@
+{
+  "binary": {
+    "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+    "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+    "version": "0.1.0"
+  },
+  "catalog": {
+    "count": 150,
+    "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+  },
+  "execution_host": "synth.production",
+  "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
+  "hmc": {
+    "bytes": 23938338,
+    "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9.hmc",
+    "sha256": "5aece56c4282ffb884d0d8ed7004f37c9e35eb84e7efc0e617bd265d2983e3e9"
+  },
+  "inputs": [],
+  "limits": {
+    "accounting_scope": "per-revision logical component allowances; overlapping candidates and clones are not a process-peak or allocator bound",
+    "asset_work_units": 500000000,
+    "combined_logical_budget_bytes": 312475648,
+    "effective_asset_work_units": 497913420,
+    "effective_host_bytes": 201664896,
+    "evaluation_steps": 2086580,
+    "evaluation_workspace_bytes": 44040192,
+    "package_bytes": 335544320,
+    "resource_bytes": 67108864,
+    "source_available_bytes": 2097152,
+    "source_bytes": 521645,
+    "source_reservation_bytes": 66770560,
+    "source_reservation_kind": "conservative logical estimate, not an allocator bound",
+    "source_work_units": 2086580,
+    "standalone_wire_bytes": 4194304,
+    "total_resource_bytes": 268435456
+  },
+  "native_reviews": [],
+  "presentation_path": null,
+  "producer": {
+    "id": "files",
+    "version": "2"
+  },
+  "quality_profile": "production16",
+  "requested_reviews": [],
+  "resources": [
+    {
+      "bytes": 26870,
+      "key": "bark-strip-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-0.dxf",
+      "sha256": "41901f25a7bd25b5072e4aa1d41cf21fd26ccda334e37adc9995488295963d24"
+    },
+    {
+      "bytes": 26882,
+      "key": "bark-strip-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-1.dxf",
+      "sha256": "7f0719a39fb8604b868f00d3799bd523d0949d39aa75fb852c5352e4d9f6085a"
+    },
+    {
+      "bytes": 27044,
+      "key": "bark-strip-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-2.dxf",
+      "sha256": "b34043bfbf218311819890381bbaa92b1af6a82917e1e2551d140fff72640cf2"
+    },
+    {
+      "bytes": 27173,
+      "key": "bark-strip-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-3.dxf",
+      "sha256": "c09ba449b82fb33c9fee85b5bd37b03eaeff3bcf937182dadd939d19e83a4021"
+    },
+    {
+      "bytes": 27643,
+      "key": "bark-strip-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-4.dxf",
+      "sha256": "67a5ff71fdc9b53f8e5c10aad3a4afcef6ee3db895d183e938d2a2edf2eb6434"
+    },
+    {
+      "bytes": 27862,
+      "key": "bark-strip-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-5.dxf",
+      "sha256": "4566b287ea8e9b90ba20f65a49aa81d3bec669ae984f9a1a6c44caa63873170c"
+    },
+    {
+      "bytes": 27793,
+      "key": "bark-strip-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-6.dxf",
+      "sha256": "969953d20af62cc994361a71b2d38947f37b21b884fb8429c8f181250a855d6d"
+    },
+    {
+      "bytes": 27623,
+      "key": "bark-strip-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-7.dxf",
+      "sha256": "0a1d30d3ce98e3784727a97ef4aff1a65fcb0a348ca4379537a6ffa84841a0ff"
+    },
+    {
+      "bytes": 27375,
+      "key": "bark-strip-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bark-strip-8.dxf",
+      "sha256": "8a08c6f3846f593fc12df0f02bec1c070c4305b07525e0a441404b2d06fa807b"
+    },
+    {
+      "bytes": 141978,
+      "key": "bole.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\bole.dxf",
+      "sha256": "c033fc41eb61ddd3978d7eabf57f6c419c20a29f54018cdf227981d91a582f79"
+    },
+    {
+      "bytes": 566255,
+      "key": "clump-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\clump-0.dxf",
+      "sha256": "70e15c7203fd3452c041f5e5e8ffb1585823809415296fa132b62f889f121043"
+    },
+    {
+      "bytes": 622653,
+      "key": "clump-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\clump-1.dxf",
+      "sha256": "2e0046b3a1160aed17bb5a8ff330b429fb113d08a6f7fb2e3944845ebaf3585f"
+    },
+    {
+      "bytes": 485868,
+      "key": "clump-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\clump-2.dxf",
+      "sha256": "f08928a6f3a9b706538eb58092904bf26126c9477939db642de5254bf1670d28"
+    },
+    {
+      "bytes": 672602,
+      "key": "clump-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\clump-3.dxf",
+      "sha256": "68f605b49e5c446d43c1bf01a979c66adadb51a9e63dd4e8014f8e793429608f"
+    },
+    {
+      "bytes": 576681,
+      "key": "clump-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\clump-4.dxf",
+      "sha256": "c646ec8d39e501ca827d1a24af668f230acb14bb902dca0d5964485028fd13ce"
+    },
+    {
+      "bytes": 513965,
+      "key": "clump-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\clump-5.dxf",
+      "sha256": "5395d309b2e58c708b4a583b085ea1f4bb09c838dc72c94d8c7b167f0f5a108f"
+    },
+    {
+      "bytes": 1162944,
+      "key": "leaves-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-0.dxf",
+      "sha256": "991be6a1965951a1aa1e56c788023137dca1f0e146432a70443c1ee2356dd6c3"
+    },
+    {
+      "bytes": 1395868,
+      "key": "leaves-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-1.dxf",
+      "sha256": "59d061e19cb58202f1ee5476e6376d54bb000fdf9a6ebd387253f5f628102612"
+    },
+    {
+      "bytes": 1269172,
+      "key": "leaves-10.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-10.dxf",
+      "sha256": "f581fbfdfffccf298d7e5a62592d3d5b2ae0d76be5f8230dfad332ab58cb4c98"
+    },
+    {
+      "bytes": 1358808,
+      "key": "leaves-11.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-11.dxf",
+      "sha256": "afd9e6738b7ec89934a02a391eb483765345f7447199431c463a830c3c050919"
+    },
+    {
+      "bytes": 1105288,
+      "key": "leaves-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-2.dxf",
+      "sha256": "c1a82874ba753372ea85c512993bd0670f55bd92af5bfbc7320258d1a9f44608"
+    },
+    {
+      "bytes": 1375712,
+      "key": "leaves-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-3.dxf",
+      "sha256": "3fda6d7550a08a7b3924b0f2449270bf96ccef3f992cccea723809ef5c8dea37"
+    },
+    {
+      "bytes": 1304144,
+      "key": "leaves-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-4.dxf",
+      "sha256": "d2652a7870eb03a91728d32ae6c48a7bf654efb77697627597d6fc7d0a565f7c"
+    },
+    {
+      "bytes": 1022168,
+      "key": "leaves-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-5.dxf",
+      "sha256": "283e3291bdda63917d36c2eacc60328adca9a3ed3c02cd5b79cbe4a983ab26ab"
+    },
+    {
+      "bytes": 1413848,
+      "key": "leaves-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-6.dxf",
+      "sha256": "af5814ae28cd4bb212361784eae156133299ae50e98a0be20654ea6ce34537fd"
+    },
+    {
+      "bytes": 1146836,
+      "key": "leaves-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-7.dxf",
+      "sha256": "6bcc7098f5399e5f6976ce0f42b44e668a67c7e11276f74de7f08a9092d5f218"
+    },
+    {
+      "bytes": 1299116,
+      "key": "leaves-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-8.dxf",
+      "sha256": "5c1b6e82b1dedc28337bf2fef98979628581286a7a87d10b417656b2ce19c25b"
+    },
+    {
+      "bytes": 1213624,
+      "key": "leaves-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\leaves-9.dxf",
+      "sha256": "39a5b596ca741fdafbc20293bc5031446c94a541afd3675bce4f31c3f8a17bec"
+    },
+    {
+      "bytes": 58069,
+      "key": "limb-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-0.dxf",
+      "sha256": "ddb7fcfae8250876de03d3f1594b3ddecfb36f8cea6fc2a0c39c89eb3153ce1f"
+    },
+    {
+      "bytes": 59502,
+      "key": "limb-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-1.dxf",
+      "sha256": "057928d637524bf158a6f8d23de7b615ea1d842a4762e4d5094aba9e4de32ae4"
+    },
+    {
+      "bytes": 59243,
+      "key": "limb-10.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-10.dxf",
+      "sha256": "e49efbaa0dec644b29f4aae8caeb4e17845594b12b120ac69733b68c58888c73"
+    },
+    {
+      "bytes": 59822,
+      "key": "limb-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-2.dxf",
+      "sha256": "61ccdd80be5d58b61e5a2125dbbfe0f3408edcda60fca2a079f97923cb13dded"
+    },
+    {
+      "bytes": 58288,
+      "key": "limb-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-3.dxf",
+      "sha256": "0de2813459ad056da340db0fe2ee6b45f30725425560ce03671143baff47614a"
+    },
+    {
+      "bytes": 60869,
+      "key": "limb-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-4.dxf",
+      "sha256": "eac7b5bb1a15188b59f5342d78ad081cb193b81b1894649da4537f9a51ff39b3"
+    },
+    {
+      "bytes": 59321,
+      "key": "limb-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-5.dxf",
+      "sha256": "153366e445bc6b5678cdf5395ec7e71a3ca9e80d43f3c36d120047d0425ebc61"
+    },
+    {
+      "bytes": 59332,
+      "key": "limb-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-6.dxf",
+      "sha256": "ef3d6ab313514571c7cf3a74f6f28a382e8445ba277ccf290a8a0a847346819c"
+    },
+    {
+      "bytes": 60550,
+      "key": "limb-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-7.dxf",
+      "sha256": "9d5a2b5795eb6e432f34e31a88592d49e12fd81e39a7d6988c573feabc0861a5"
+    },
+    {
+      "bytes": 58072,
+      "key": "limb-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-8.dxf",
+      "sha256": "62e402f1a80d0858d98ec6bc78aaf5269be597134e0ca9dba88882af11011b34"
+    },
+    {
+      "bytes": 59786,
+      "key": "limb-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\limb-9.dxf",
+      "sha256": "cf4bcfec34bfb5e598ad43edf5e4b230e608abe695b415b38626871c87ccddb3"
+    },
+    {
+      "bytes": 13779,
+      "key": "root-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\root-0.dxf",
+      "sha256": "d33218fbfb0a34a6973e5c260dc3240a495a8d0a6be7ecda52ca2d96c4305ae9"
+    },
+    {
+      "bytes": 13731,
+      "key": "root-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\root-1.dxf",
+      "sha256": "a8c2868357e13dd04082f6f4659be8d2479e72992e74bbfabe24650c80f390fd"
+    },
+    {
+      "bytes": 14037,
+      "key": "root-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\root-2.dxf",
+      "sha256": "6c5516eee8d0ce10227663ae3d848fc1dda393163606d845dc7d0a99cf18321b"
+    },
+    {
+      "bytes": 14313,
+      "key": "root-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\root-3.dxf",
+      "sha256": "86506d3a95bddc2f87882033cff7b87905ccb0395a1d1684975b7acf3a9a8c65"
+    },
+    {
+      "bytes": 14357,
+      "key": "root-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\root-4.dxf",
+      "sha256": "394133fb4091efc0fc8c78b14df547d6f9e181ba1b43f89d0a8852692ce4c842"
+    },
+    {
+      "bytes": 14037,
+      "key": "root-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\root-5.dxf",
+      "sha256": "225268a99712db2f37490b47b834b66d2d68e9886b787f10a1a18503fbbd0bcc"
+    },
+    {
+      "bytes": 21335,
+      "key": "secondary-0-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-0-0.dxf",
+      "sha256": "7bbcb84e97627c1cb9e74265e1d38277aacdeaeabfb020b1eb75401140bf113b"
+    },
+    {
+      "bytes": 21883,
+      "key": "secondary-0-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-0-1.dxf",
+      "sha256": "8b7df13afb5873c42f85f169cbc8891a5295d8b4a2cac5327b2091788e8c5042"
+    },
+    {
+      "bytes": 21690,
+      "key": "secondary-0-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-0-2.dxf",
+      "sha256": "9a21c126b01766dbf19a46ceaa4da8599b8f24503be5a2b058d13618b8c086ce"
+    },
+    {
+      "bytes": 21837,
+      "key": "secondary-0-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-0-3.dxf",
+      "sha256": "e0dfdca6901018bd8f3b39fabfc68da552766e4e5b8e519a42ef20f40dad6ea6"
+    },
+    {
+      "bytes": 21769,
+      "key": "secondary-0-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-0-4.dxf",
+      "sha256": "99785ef0dd86ff166697f473f5d798130b4c793e1203f4b2e4841b85ef657533"
+    },
+    {
+      "bytes": 22105,
+      "key": "secondary-0-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-0-5.dxf",
+      "sha256": "f5558e42881c16e799fa9b4ff77a1600ecc710e64811e44d7cd24b5b5201cd0e"
+    },
+    {
+      "bytes": 22217,
+      "key": "secondary-1-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-1-0.dxf",
+      "sha256": "9b27b242a9d548c05244603741babe884fefd9c64ba05c584cc09190c8009bda"
+    },
+    {
+      "bytes": 22165,
+      "key": "secondary-1-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-1-1.dxf",
+      "sha256": "f3bfa378a51cd150bae9d776b11e94239da228257bb9785a198c2c61d8d9e129"
+    },
+    {
+      "bytes": 22494,
+      "key": "secondary-1-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-1-2.dxf",
+      "sha256": "35075ced8cbce625c721cde5d35da855bf8e295cf25eb1c5beee8bd12f012494"
+    },
+    {
+      "bytes": 22291,
+      "key": "secondary-1-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-1-3.dxf",
+      "sha256": "cf2bd326a159bf06a3bc1a1867bedfd6c932150c1e0c7e89f378826f1b2f2aac"
+    },
+    {
+      "bytes": 22315,
+      "key": "secondary-1-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-1-4.dxf",
+      "sha256": "d3b34c11248647f75b941f214698e6e97c56dfa91d0ac06dfc3a140c2d1e028d"
+    },
+    {
+      "bytes": 22197,
+      "key": "secondary-1-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-1-5.dxf",
+      "sha256": "542e82839a624921dd4777f34e02d36cca11eb74188f417c4aa306efffa62e05"
+    },
+    {
+      "bytes": 22000,
+      "key": "secondary-10-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-10-0.dxf",
+      "sha256": "6286a693f438bb39b2a33bb4fd59d126400ed9e9e9bd98c1188280911c1b9714"
+    },
+    {
+      "bytes": 21828,
+      "key": "secondary-10-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-10-1.dxf",
+      "sha256": "0b0faebc4781795a8fefec3f4912a1c1e4b92354497438f02e2d339c4873744b"
+    },
+    {
+      "bytes": 22019,
+      "key": "secondary-10-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-10-2.dxf",
+      "sha256": "aee47de3552a037644f28971aad424fb38652ec5d615a616e42a787288a12d0c"
+    },
+    {
+      "bytes": 22124,
+      "key": "secondary-10-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-10-3.dxf",
+      "sha256": "2b2644b17fd35ae177859b99d1a80a5bf3ffc0f0fc5f65266ace6b67423d49d4"
+    },
+    {
+      "bytes": 22354,
+      "key": "secondary-10-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-10-4.dxf",
+      "sha256": "8d0a43e1a7018f41f07e9e39e3f78edc6409abe248a11ab17a3f8f5760086dbc"
+    },
+    {
+      "bytes": 22318,
+      "key": "secondary-10-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-10-5.dxf",
+      "sha256": "5a5cd743dcb5ed2cda5870f01081aafde08ad07ab3034480e97fb9af368cd6ae"
+    },
+    {
+      "bytes": 21869,
+      "key": "secondary-2-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-2-0.dxf",
+      "sha256": "6ae63cecf14c410c3bd022032bb8a52f82ca990e1cacc2e42b88a1707c134f6a"
+    },
+    {
+      "bytes": 22503,
+      "key": "secondary-2-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-2-1.dxf",
+      "sha256": "f6a100aa8ca7f36fdafbbe8f4064163755a75e0318f0715089a0a85ba138382c"
+    },
+    {
+      "bytes": 22269,
+      "key": "secondary-2-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-2-2.dxf",
+      "sha256": "869bb3ba841ff7939bfe05b4ff5b166976537b7db12bde96456a164d20421866"
+    },
+    {
+      "bytes": 22608,
+      "key": "secondary-2-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-2-3.dxf",
+      "sha256": "71eef99654e018a52c78db19950d9a2ede4bfc4b5992a54bbf6169a47f30d454"
+    },
+    {
+      "bytes": 22250,
+      "key": "secondary-2-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-2-4.dxf",
+      "sha256": "95ad3662d4f51cef37017efdc40f27843e8aa77079a7e0da30fa781660d7f9a7"
+    },
+    {
+      "bytes": 22391,
+      "key": "secondary-2-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-2-5.dxf",
+      "sha256": "73d3ee7f6a5176f1043e2d2f3d8df239cce0d57ec8e32ee72750d5583add1009"
+    },
+    {
+      "bytes": 21500,
+      "key": "secondary-3-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-3-0.dxf",
+      "sha256": "8778d34d7b5ef03639d16095a0bffdf7792ec61d6da269cf9a81fa3a74305c73"
+    },
+    {
+      "bytes": 21786,
+      "key": "secondary-3-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-3-1.dxf",
+      "sha256": "4191f48e733cfdcc0b7d9b18320870dfc78ecd424a6e1aa62cd757711aa336f7"
+    },
+    {
+      "bytes": 21793,
+      "key": "secondary-3-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-3-2.dxf",
+      "sha256": "92523e8488b629340c2985e4525acbc46fcf9610b1bda64963fc3f5e175787b1"
+    },
+    {
+      "bytes": 21747,
+      "key": "secondary-3-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-3-3.dxf",
+      "sha256": "57f66adeea314ec4616dbde23ba8a859cafd31c09ce2f8ba167f322fe1649664"
+    },
+    {
+      "bytes": 21760,
+      "key": "secondary-3-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-3-4.dxf",
+      "sha256": "f04118c12e1972d5e0156a68e552f8a8860dad8f4533245b9a357851e841be61"
+    },
+    {
+      "bytes": 21770,
+      "key": "secondary-3-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-3-5.dxf",
+      "sha256": "e3b9ed0336b2396cd3e389388d26dc4c59878c5479ea5a62671b8a8120e7dc3c"
+    },
+    {
+      "bytes": 22610,
+      "key": "secondary-4-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-4-0.dxf",
+      "sha256": "bbd9bf0ebc3d789abfbb66cff0c4e8a7ad5e440e8178c810c3f6d6f3acf1bde2"
+    },
+    {
+      "bytes": 22645,
+      "key": "secondary-4-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-4-1.dxf",
+      "sha256": "21b9347e84f2fa9eb095f7204066b361fe961bdd337c90eaabae4c7d7b12e11d"
+    },
+    {
+      "bytes": 22735,
+      "key": "secondary-4-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-4-2.dxf",
+      "sha256": "8e1dcacf981c69f5cde256c5a9c4318fb579b3d84fd407283c91e997917ce4b7"
+    },
+    {
+      "bytes": 22641,
+      "key": "secondary-4-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-4-3.dxf",
+      "sha256": "04aa97fc2f2b2b3ac240f2a4e6ca616e7a956035bfd1a245a740b800695f6dfe"
+    },
+    {
+      "bytes": 22792,
+      "key": "secondary-4-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-4-4.dxf",
+      "sha256": "4f103efeb8c999eeaff0b1a7b8c9088df119a8448989aef1b4b174cd4e673217"
+    },
+    {
+      "bytes": 22858,
+      "key": "secondary-4-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-4-5.dxf",
+      "sha256": "38febbd76aeaa9a0b94054452b42ec1e377f8b5db1450caf46405b568321ae72"
+    },
+    {
+      "bytes": 21334,
+      "key": "secondary-5-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-5-0.dxf",
+      "sha256": "ab5fec6e43d3e6dd1e74b1f7874bf839e901ba7345c55c1d5fc8a2b6611f3245"
+    },
+    {
+      "bytes": 21884,
+      "key": "secondary-5-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-5-1.dxf",
+      "sha256": "429a7d97643b8946054f794de534e81d74d4b120868894296c00e8e7ce23c74c"
+    },
+    {
+      "bytes": 22066,
+      "key": "secondary-5-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-5-2.dxf",
+      "sha256": "3467b2e03e2a9c68b870a918c230fd8e5a620430390058cc3cb26f30aedd39b9"
+    },
+    {
+      "bytes": 22234,
+      "key": "secondary-5-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-5-3.dxf",
+      "sha256": "563859e42005ea6c03fa5a76cbf7e5eca7bc5e57d2932708feb7447956866cac"
+    },
+    {
+      "bytes": 22121,
+      "key": "secondary-5-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-5-4.dxf",
+      "sha256": "5df5f0106b87d19a6eb27d9f1bef4dee363038eecf99ebb4f29da96b8a2424c4"
+    },
+    {
+      "bytes": 22193,
+      "key": "secondary-5-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-5-5.dxf",
+      "sha256": "7ff580427f03a499b40f4fac102853741da9561f79592a97fbe5708419a88116"
+    },
+    {
+      "bytes": 21887,
+      "key": "secondary-6-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-6-0.dxf",
+      "sha256": "174911baee1a75e21f1f77cda2baeff391c07cc1f6f97d4bb30b1783da190739"
+    },
+    {
+      "bytes": 21732,
+      "key": "secondary-6-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-6-1.dxf",
+      "sha256": "ee9fa5526930aab1cc9e047b4777fd1b2c299394021c2a86aa0ebb49e7adf531"
+    },
+    {
+      "bytes": 22054,
+      "key": "secondary-6-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-6-2.dxf",
+      "sha256": "b21f5443401131f2034276746aac864e78577e3df007f8170cbc96238c631cbc"
+    },
+    {
+      "bytes": 22265,
+      "key": "secondary-6-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-6-3.dxf",
+      "sha256": "b2f844a611868524587dcb2650e9070c2f4f9d59ae8bd3295675bb4ff6395cdd"
+    },
+    {
+      "bytes": 22210,
+      "key": "secondary-6-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-6-4.dxf",
+      "sha256": "c29a00a2e3c94ae1ed7f4845bc0a7139de6cf5009588b4b79ec5bbdc06578928"
+    },
+    {
+      "bytes": 22298,
+      "key": "secondary-6-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-6-5.dxf",
+      "sha256": "6434471b3683f2bdb0431f9905fb10608647ed141f0caa081155ddb4f5f7fdb2"
+    },
+    {
+      "bytes": 22115,
+      "key": "secondary-7-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-7-0.dxf",
+      "sha256": "dd273428d663617120294912e6715b438f52bac94dd985184032ccd4111ccd2a"
+    },
+    {
+      "bytes": 22370,
+      "key": "secondary-7-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-7-1.dxf",
+      "sha256": "31cce090539713c1e4ca5e7021be67fe75bb8443b61e1a470a174d19c1113705"
+    },
+    {
+      "bytes": 22210,
+      "key": "secondary-7-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-7-2.dxf",
+      "sha256": "1fd786b79eabeec0cda54cc81c0979ec9a9525fedf2ddfec80e5b46ce1c56077"
+    },
+    {
+      "bytes": 22494,
+      "key": "secondary-7-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-7-3.dxf",
+      "sha256": "63649ca2c21e9f39212160a521ce5fb9077cd11455590a122a63d489b5b6cc08"
+    },
+    {
+      "bytes": 22705,
+      "key": "secondary-7-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-7-4.dxf",
+      "sha256": "4e37309543b382f36558a1fb08bf66800e5866e282662836e8ca2c4484fe9f07"
+    },
+    {
+      "bytes": 22825,
+      "key": "secondary-7-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-7-5.dxf",
+      "sha256": "ac1e740543cbb8b26d1a80130d6d2dde7baca1d3a2854108b185103267016fef"
+    },
+    {
+      "bytes": 21323,
+      "key": "secondary-8-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-8-0.dxf",
+      "sha256": "7d1041dea5e8b421c9bc6ecf420cf182d108260297303f85949202a10cb50f85"
+    },
+    {
+      "bytes": 21799,
+      "key": "secondary-8-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-8-1.dxf",
+      "sha256": "8f152a2caee780b5eae59d241d5d7755c2a93ea86145210f6c68e2b2f744df26"
+    },
+    {
+      "bytes": 21716,
+      "key": "secondary-8-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-8-2.dxf",
+      "sha256": "82727888ae5591eb12597811f56686a88a05ce564e6165b7bb4520ca4acef4e1"
+    },
+    {
+      "bytes": 21718,
+      "key": "secondary-8-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-8-3.dxf",
+      "sha256": "7c1cecd6e43563b7ade4952107e908332cd04e06a54f7bbf0730a4bbafa8347a"
+    },
+    {
+      "bytes": 21666,
+      "key": "secondary-8-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-8-4.dxf",
+      "sha256": "7dd5872ff396db3d662ac122088a5337fc770138d95a866f0d7b5096f23be76d"
+    },
+    {
+      "bytes": 21704,
+      "key": "secondary-8-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-8-5.dxf",
+      "sha256": "1adb76772d0bce570cec2f8992aa940c3da82a626a33310c6070b80d8a276c2b"
+    },
+    {
+      "bytes": 22823,
+      "key": "secondary-9-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-9-0.dxf",
+      "sha256": "2e5f41fbaa2b3ca1eb86c1ded7e3cf50557766e0b48e798165ebe1e27c4fc8e3"
+    },
+    {
+      "bytes": 22361,
+      "key": "secondary-9-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-9-1.dxf",
+      "sha256": "69a4bf13f294f496a7ac5101311554ddf141fdbd083cb7269c1e2d73b2bb98b3"
+    },
+    {
+      "bytes": 22753,
+      "key": "secondary-9-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-9-2.dxf",
+      "sha256": "dd61ceefe728b0a005868be6872256ad7cf9ce23cf528a6b07f6f0f437bfad6f"
+    },
+    {
+      "bytes": 22273,
+      "key": "secondary-9-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-9-3.dxf",
+      "sha256": "31d16a3b16359f33e4b59f53aa5a7c3d45198fcfc35daa81a158e335dd5ee6bb"
+    },
+    {
+      "bytes": 22594,
+      "key": "secondary-9-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-9-4.dxf",
+      "sha256": "707705ae9a49500014b9fb233866593d8eae08e2f53efc01f272ea36fd6a072a"
+    },
+    {
+      "bytes": 22197,
+      "key": "secondary-9-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\secondary-9-5.dxf",
+      "sha256": "a158e1d7e6dfb92d46025a84cb427662bb2cbbe9375e4ebf0498de8a23fb9c3a"
+    },
+    {
+      "bytes": 171638,
+      "key": "twigs-0.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-0.dxf",
+      "sha256": "57f1f2df499c86a1a7f406ae7f455d1f84eda5b0830cae4c0eceb7f962b23057"
+    },
+    {
+      "bytes": 233198,
+      "key": "twigs-1.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-1.dxf",
+      "sha256": "aa4011ee4843ef7af240f73ea472d457095074482e3601e3d08d568630654bdc"
+    },
+    {
+      "bytes": 166587,
+      "key": "twigs-10.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-10.dxf",
+      "sha256": "340f1a1e919860c9400837c72e6e33b4b811f06b2e050ce8f796410001bf1c11"
+    },
+    {
+      "bytes": 233464,
+      "key": "twigs-11.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-11.dxf",
+      "sha256": "8e3d992a3a9e6cde76704af6408be1330be9934934fdcbaf26538051fd2cae7a"
+    },
+    {
+      "bytes": 147337,
+      "key": "twigs-2.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-2.dxf",
+      "sha256": "95156b90b88fc9b167cf4ff328e379b0f79760aba9f6c8dce307fa0f13f4e985"
+    },
+    {
+      "bytes": 207065,
+      "key": "twigs-3.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-3.dxf",
+      "sha256": "e9726ad6d240751e7ac6154d6e2426606fc83d2f66d0358835e3bae4629c37db"
+    },
+    {
+      "bytes": 209567,
+      "key": "twigs-4.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-4.dxf",
+      "sha256": "186a3b026ec7697dbcd81fe9ac6b1ac55757b6d1e2af8c62ffc4ba88f7dc02c3"
+    },
+    {
+      "bytes": 174827,
+      "key": "twigs-5.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-5.dxf",
+      "sha256": "4f71f94e2db547df60c81d74164b94a507b59be11008fd0a586e81be6ab4e222"
+    },
+    {
+      "bytes": 194681,
+      "key": "twigs-6.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-6.dxf",
+      "sha256": "051868ee50f7edc9e1896254bbba94556dcc5df3077b2c61d781ce4b2f68425e"
+    },
+    {
+      "bytes": 158953,
+      "key": "twigs-7.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-7.dxf",
+      "sha256": "caa69ebd18e3b0828a1acca0bad2a27715c901a867a8a542a1c403bfa0be268c"
+    },
+    {
+      "bytes": 203029,
+      "key": "twigs-8.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-8.dxf",
+      "sha256": "b07ff228a45cffcd0ba2d31df11e8b60b8321a99e209de15f0303d9289822988"
+    },
+    {
+      "bytes": 202146,
+      "key": "twigs-9.dxf",
+      "kind": "dxf",
+      "path": "\\\\?\\C:\\github\\webizen-website\\production\\lush-woodland\\artifacts\\eucalyptus-lush-near-0069f03164e9\\twigs-9.dxf",
+      "sha256": "53858b7f66bc08ab14d5f47de2bf7c6f5a436a34af22f1506e628a53c23a1837"
+    }
+  ],
+  "review_status": "not_requested",
+  "schema": "synth.production-receipt/v1",
+  "source_sha256": "92a5f24ee0903700d93f8c3733a9a04c64d3fef8208be09dbf83d3a543a50d40",
+  "strict_replay_verified": true,
+  "visual_acceptance": "pending inspection"
+}
