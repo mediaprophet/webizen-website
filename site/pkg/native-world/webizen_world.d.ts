@@ -231,6 +231,10 @@ export class QualiaPortal {
      */
     exposure_transform_available(): boolean;
     /**
+     * Poll completed GPU timestamps without blocking. Call at diagnostic cadence, not per frame.
+     */
+    gpu_pass_timings(): any;
+    /**
      * The last hardware backend refused even reduced geometry. The host must
      * replace the context-bound canvas and settle on Canvas2D for this scene.
      */
@@ -616,6 +620,7 @@ export class QualiaPortal {
      * The configured value is retained while the GPU output path is unavailable.
      */
     set_exposure_compensation(ev: number): boolean;
+    set_gpu_pass_timing_enabled(enabled: boolean): void;
     /**
      * Compatibility alias for hosts using the original HDR-specific API name.
      */
@@ -2566,6 +2571,7 @@ export interface InitOutput {
     readonly qualiaportal_etalon_worker_state: (a: number) => number;
     readonly qualiaportal_exposure_compensation: (a: number) => number;
     readonly qualiaportal_exposure_transform_available: (a: number) => number;
+    readonly qualiaportal_gpu_pass_timings: (a: number) => [number, number, number];
     readonly qualiaportal_graphics_recovery_canvas_only: (a: number) => number;
     readonly qualiaportal_graphics_recovery_requested: (a: number) => number;
     readonly qualiaportal_hdr_exposure_available: (a: number) => number;
@@ -2640,6 +2646,7 @@ export interface InitOutput {
     readonly qualiaportal_set_display_mode: (a: number, b: number, c: number) => [number, number];
     readonly qualiaportal_set_environment_probe_data: (a: number, b: number, c: number, d: number, e: number) => [number, number, number];
     readonly qualiaportal_set_exposure_compensation: (a: number, b: number) => number;
+    readonly qualiaportal_set_gpu_pass_timing_enabled: (a: number, b: number) => void;
     readonly qualiaportal_set_hdr_exposure_compensation: (a: number, b: number) => number;
     readonly qualiaportal_set_lighting: (a: number, b: number, c: number, d: number, e: number, f: number) => void;
     readonly qualiaportal_set_mesh_instance_groups: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number, number];
@@ -2789,15 +2796,15 @@ export interface InitOutput {
     readonly xform_z_geometric: (a: any) => [number, number, number];
     readonly xform_z_transform: (a: any) => [number, number, number];
     readonly xform_z_unit_step: (a: any) => [number, number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h632266dfc675c977: (a: number, b: number, c: number) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h0503473b7cd48410: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h0503473b7cd48410_421: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h0503473b7cd48410_422: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h9f403d09ac147cee: (a: number, b: number, c: number) => void;
     readonly wasm_bindgen__convert__closures_____invoke__h4d620e5c0561b6a1: (a: number, b: number, c: any, d: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h5976dfbf7f66cef2: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h5976dfbf7f66cef2_423: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h5976dfbf7f66cef2_424: (a: number, b: number, c: any) => [number, number];
     readonly wasm_bindgen__convert__closures_____invoke__hf7f459f49ff6c97b: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h2b88a09e77dfaf2e: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h35d6839cca23848a: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__ha32312dba8c5c7cd: (a: number, b: number) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h1f10797859789605: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__ha27d4dfd3cf4767a: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h869e6564ba6ff33d: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_exn_store: (a: number) => void;

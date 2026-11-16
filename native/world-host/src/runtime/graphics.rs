@@ -21,14 +21,18 @@ fn publish(report: &Value) -> Result<(), JsValue> {
 }
 pub(super) async fn initialise(canvas: HtmlCanvasElement) -> Result<Value, JsValue> {
     let started = now();
-    let mut report = json!({"schema":"webizen.native-graphics-init/v1", "requested":"webgpu", "state":"initialising", "canvas_width":canvas.width(), "canvas_height":canvas.height()});
+    let mut report = json!({"schema":"webizen.native-graphics-init/v1", "requested":"webgpu-or-webgl2", "state":"initialising", "canvas_width":canvas.width(), "canvas_height":canvas.height()});
     publish(&report)?;
+    let has_webgpu = js_sys::Reflect::get(&web_sys::window().unwrap().navigator(), &"gpu".into())
+        .ok()
+        .map(|v| !v.is_undefined() && !v.is_null())
+        .unwrap_or(false);
     let outcome = portal_init_webgpu(canvas).await;
     report["duration_ms"] = json!(now() - started);
     match outcome {
         Ok(true) => {
             report["state"] = json!("ready");
-            report["selected_backend"] = json!("webgpu");
+            report["selected_backend"] = json!(if has_webgpu { "webgpu" } else { "webgl2" });
             publish(&report)?;
             Ok(report)
         }
@@ -58,7 +62,7 @@ pub(super) async fn initialise(canvas: HtmlCanvasElement) -> Result<Value, JsVal
                 Err(e) => report["capability_probe_error"] = json!(js_error(&e)),
             }
             publish(&report)?;
-            Err(err("This landscape needs WebGPU to display its native materials. Your browser could not start it. Please use the reading view to explore the same places and evidence."))
+            Err(err("This landscape needs WebGPU or WebGL2 to display its native materials. Your browser could not start either. Please use the reading view to explore the same places and evidence."))
         }
     }
 }

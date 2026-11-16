@@ -48,7 +48,9 @@ pub async fn boot() -> Result<(), JsValue> {
         }) * dpr) as u32,
     );
     let graphics_init = super::graphics::initialise(canvas.clone()).await?;
-    let backend = "webgpu";
+    let backend = graphics_init["selected_backend"]
+        .as_str()
+        .unwrap_or("webgpu");
     let mut portal = QualiaPortal::new(canvas.clone())?;
     let location = js_sys::Reflect::get(&web_sys::window().unwrap(), &"location".into())?;
     let query = js_sys::Reflect::get(&location, &"search".into())?
@@ -116,9 +118,22 @@ pub async fn boot() -> Result<(), JsValue> {
     }
     portal.set_shadows_enabled(true);
     portal.set_screen_space_ao_enabled(true);
-    let scene_url = canvas
-        .get_attribute("data-scene")
-        .unwrap_or("/production/native-world/scene.json".into());
+    let is_mobile_viewport = web_sys::window()
+        .unwrap()
+        .match_media("(max-width: 900px)")?
+        .map(|m| m.matches())
+        .unwrap_or(false);
+    let scene_url = if (backend == "webgl2" || is_mobile_viewport)
+        && canvas.has_attribute("data-scene-mobile")
+    {
+        canvas
+            .get_attribute("data-scene-mobile")
+            .unwrap_or("/production/lush-woodland/scene.json".into())
+    } else {
+        canvas
+            .get_attribute("data-scene")
+            .unwrap_or("/production/native-world/scene.json".into())
+    };
     let scene: Scene =
         serde_json::from_value(json_file(&scene_url, 16 * 1024 * 1024).await?).map_err(err)?;
     if scene.schema != "webizen.native-world/v1"
