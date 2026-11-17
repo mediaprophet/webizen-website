@@ -14,6 +14,7 @@
 <main id="native-world-ui"></main><aside class="terrain-source"><b>Canberra · public reference landscape</b><p>Mapzen Terrain Tiles; Australian terrain © Commonwealth of Australia (Geoscience Australia) 2017. Source rasters, attribution and the native model remain inspectable.</p><a href="/data/publications/aaa/terrain-model-v2/model-manifest.json">Inspect scale, source and production evidence</a> · <a href="/data/publications/aaa/terrain/source-tiles.qdem" download>Download retained source tiles</a><p>Drag to orbit · scroll to zoom · open the laboratory to query the data.</p></aside>
 <div id="native-world-status" role="status" aria-live="polite">Opening the native living world…</div>
 <noscript><p class="no-script">The generated loader needs permission to start the WASM runtime. <a href="/publication/reading.html">Read the world without scripts.</a></p></noscript>
+<script src="/world/gl-debug.js"></script>
 <!-- Loader only. All application behaviour is compiled in native/world-host. -->
 <script type="module">import init from '/pkg/native-world/webizen_world.js';await init();</script>
 </body>

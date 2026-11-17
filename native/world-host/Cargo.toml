@@ -10,8 +10,8 @@ publish = false
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-qualia-core-db = { path = "C:/github/_worktrees/qualiadb-webgl2/crates/qualia-core-db", default-features = false, features = ["portal"] }
-vibe = { path = "C:/github/_worktrees/qualiadb-webgl2/crates/vibe" }
+qualia-core-db = { path = "C:/github/qualiaDB/crates/qualia-core-db", default-features = false, features = ["portal"] }
+vibe = { path = "C:/github/qualiaDB/crates/vibe" }
 wasm-bindgen = "=0.2.129"
 wasm-bindgen-futures = "0.4"
 js-sys = "0.3.106"
@@ -21,10 +21,43 @@ serde_json = "1"
 sha2 = "0.10"
 
 [patch.crates-io]
-imap-proto = { path = "C:/github/_worktrees/qualiadb-webgl2/vendor/imap-proto" }
+imap-proto = { path = "C:/github/qualiaDB/vendor/imap-proto" }
 
 [patch."https://github.com/mediaprophet/vibe-script.git"]
-vibescript-abi = { path = "C:/github/_worktrees/qualiadb-webgl2/crates/vibescript-abi" }
+vibescript-abi = { path = "C:/github/qualiaDB/crates/vibescript-abi" }
+
+[patch."https://github.com/mediaprophet/etalon.git"]
+naga = { path = "C:/github/etalon/naga" }
+naga-types = { path = "C:/github/etalon/naga-types" }
+etalon = { path = "C:/github/etalon/etalon" }
+etalon-hal = { path = "C:/github/etalon/etalon-hal" }
+etalon-core = { path = "C:/github/etalon/etalon-core" }
+etalon-types = { path = "C:/github/etalon/etalon-types" }
+etalon-sync = { path = "C:/github/etalon/etalon-sync" }
+etalon-naga-bridge = { path = "C:/github/etalon/etalon-naga-bridge" }
+etalon-core-deps-apple = { path = "C:/github/etalon/etalon-core/platform-deps/apple" }
+etalon-core-deps-emscripten = { path = "C:/github/etalon/etalon-core/platform-deps/emscripten" }
+etalon-core-deps-linux-android-bsd = { path = "C:/github/etalon/etalon-core/platform-deps/linux-android-bsd" }
+etalon-core-deps-wasm = { path = "C:/github/etalon/etalon-core/platform-deps/wasm" }
+etalon-core-deps-windows = { path = "C:/github/etalon/etalon-core/platform-deps/windows" }
+etalon-diagnostics = { path = "C:/github/etalon/crates/etalon-diagnostics" }
+etalon-agent = { path = "C:/github/etalon/crates/etalon-agent" }
+etalon-wgsl-forge = { path = "C:/github/etalon/crates/etalon-wgsl-forge" }
+etalon-nquin = { path = "C:/github/etalon/crates/etalon-nquin" }
+etalon-tensor = { path = "C:/github/etalon/crates/etalon-tensor" }
+etalon-render = { path = "C:/github/etalon/crates/etalon-render" }
+etalon-sim = { path = "C:/github/etalon/crates/etalon-sim" }
+etalon-signal = { path = "C:/github/etalon/crates/etalon-signal" }
+etalon-wasm = { path = "C:/github/etalon/crates/etalon-wasm" }
+etalon-model = { path = "C:/github/etalon/crates/etalon-model" }
+etalon-resources = { path = "C:/github/etalon/crates/etalon-resources" }
+etalon-inference-kernel = { path = "C:/github/etalon/crates/etalon-inference-kernel" }
+etalon-inference = { path = "C:/github/etalon/crates/etalon-inference" }
+etalon-inference-contract = { path = "C:/github/etalon/crates/etalon-inference-contract" }
+etalon-model-io = { path = "C:/github/etalon/crates/etalon-model-io" }
+etalon-inference-lab = { path = "C:/github/etalon/crates/etalon-inference-lab" }
+etalon-vibe = { path = "C:/github/etalon/crates/etalon-vibe" }
+etalon-sense-core = { path = "C:/github/etalon/crates/etalon-sense-core" }
 
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false

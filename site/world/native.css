@@ -38,6 +38,7 @@
 #native-dataset-count{overflow-wrap:anywhere;font-size:11px!important}
 #native-proof-lab pre{padding:12px;background:#e6e9df;font-size:10px}
 #native-proof-lab [hidden]{display:none!important}
+#webizen-gl-debug{position:fixed;z-index:30;left:4%;bottom:70px;max-width:min(720px,92vw);margin:0;padding:10px 12px;background:#102018ee;color:#ffe7b0;font:11px/1.4 ui-monospace,Consolas,monospace;white-space:pre-wrap;pointer-events:none;border:1px solid #d6c89b66}
 #native-proof-lab{overscroll-behavior:contain}
 #native-production-output figure{margin:18px 0;padding:14px;background:#fffcf4;border:1px solid #d8d3bf;border-radius:5px}
 #native-production-output figcaption{margin-bottom:12px;font-size:12px;font-weight:bold;overflow-wrap:anywhere}

@@ -310,11 +310,21 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
         w.receipt["scene"] = serde_json::from_str(&report).unwrap_or(Value::Null);
         w.receipt["frames"] = json!(w.frames);
         w.receipt["camera"] = serde_json::to_value(&w.camera).map_err(err)?;
+        let debug = w.portal.debug_scene_snapshot()?;
+        let debug_report = js_sys::JSON::stringify(&debug)?
+            .as_string()
+            .unwrap_or_default();
+        w.receipt["scene_debug"] = serde_json::from_str(&debug_report).unwrap_or(Value::Null);
         let parsed = js_sys::JSON::parse(&w.receipt.to_string())?;
         js_sys::Reflect::set(
             &web_sys::window().unwrap(),
             &"__webizenNativeWorld".into(),
             &parsed,
+        )?;
+        js_sys::Reflect::set(
+            &web_sys::window().unwrap(),
+            &"__webizenNativeDebug".into(),
+            &debug,
         )?;
     }
     Ok(())

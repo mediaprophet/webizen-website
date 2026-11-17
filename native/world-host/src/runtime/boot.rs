@@ -50,7 +50,7 @@ pub async fn boot() -> Result<(), JsValue> {
     let graphics_init = super::graphics::initialise(canvas.clone()).await?;
     let backend = graphics_init["selected_backend"]
         .as_str()
-        .unwrap_or("webgpu");
+        .unwrap_or("");
     let mut portal = QualiaPortal::new(canvas.clone())?;
     let location = js_sys::Reflect::get(&web_sys::window().unwrap(), &"location".into())?;
     let query = js_sys::Reflect::get(&location, &"search".into())?

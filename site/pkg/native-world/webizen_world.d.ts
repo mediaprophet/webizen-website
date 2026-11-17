@@ -183,6 +183,12 @@ export class QualiaPortal {
      */
     cull_mesh_instance_indices(bounds_min: Float32Array, bounds_max: Float32Array, transforms_column_major: Float32Array, view_projection_column_major: Float32Array, visible_indices: Uint32Array): number;
     /**
+     * Observable sky / water / mesh occupancy and GLES unpack counters.
+     * Cold diagnostic path only (host receipt cadence). HAL counters on the
+     * render submit path are atomics.
+     */
+    debug_scene_snapshot(): any;
+    /**
      * Phase 2 — visible **deterministic refusal**: slide the artefact along +X (prismatic joint)
      * into a world bound; the admission gate refuses poses that would leave the bound, so the
      * artefact deterministically halts at the wall instead of passing through.
@@ -1785,6 +1791,15 @@ export function plan_device_storage_wasm(val: any): any;
 export function portal_abort_webgpu(): void;
 
 /**
+ * Live backend of the pending or last adopted `PortalGpu`.
+ *
+ * Reads `gpu_timing_adapter_info()`. Returns `"webgpu"` for
+ * `Backend::BrowserWebGpu` / `Backend::Vulkan`, `"webgl2"` for `Backend::Gl`,
+ * or `None` if no device is armed. Does not consult `navigator.gpu`.
+ */
+export function portal_gpu_backend(): string | undefined;
+
+/**
  * Bind a hardware WebGL2 Anatomy renderer before `QualiaPortal` construction.
  * This is selected only after capability probing proves that WebGPU has no
  * usable adapter and WebGL2 context creation succeeds.
@@ -1796,7 +1811,7 @@ export function portal_init_webgl2(canvas: HTMLCanvasElement): boolean;
  * JS awaits this before constructing the portal and starting the render loop.
  * The canvas must still be context-free (no 2d context yet) so the WebGPU surface
  * can bind to it. Returns `true` if the GPU path is now armed; on `false`/throw the portal keeps
- * the canvas2d fallback.
+ * the canvas2d fallback. The armed backend is `portal_gpu_backend`, not this boolean.
  */
 export function portal_init_webgpu(canvas: HTMLCanvasElement): Promise<boolean>;
 
@@ -1814,10 +1829,11 @@ export function predict_receptor_binding_wasm(): number;
 /**
  * Probe browser graphics APIs without claiming the page's presentation canvas.
  *
- * `selected_backend` is a recommendation from API/adapter availability only;
+ * `recommended_backend` is a recommendation from API/adapter availability only;
  * actual initialization can still fail because of surface compatibility,
- * memory pressure, or device loss. Callers must use the result of
- * `portal_init_webgpu` / `portal_init_webgl2` as the final selection receipt.
+ * memory pressure, or device loss. `portal_init_webgpu` remains a boolean so
+ * existing JS callers compile. The live backend receipt is `portal_gpu_backend`
+ * after a successful init (pending or adopted `PortalGpu` adapter info).
  */
 export function probe_portal_graphics(): Promise<any>;
 
@@ -2519,6 +2535,7 @@ export interface InitOutput {
     readonly parse_yaml_ld_q42_wasm: (a: number, b: number, c: number, d: bigint, e: number, f: bigint) => [number, number, number];
     readonly plan_device_storage_wasm: (a: any) => [number, number, number];
     readonly portal_abort_webgpu: () => void;
+    readonly portal_gpu_backend: () => [number, number];
     readonly portal_init_webgl2: (a: any) => [number, number, number];
     readonly portal_init_webgpu: (a: any) => any;
     readonly portal_webgpu_canvas_claimed: () => number;
@@ -2560,6 +2577,7 @@ export interface InitOutput {
     readonly qualiaportal_control_pending: (a: number) => number;
     readonly qualiaportal_create_acoustic_sab: (a: number) => [number, number, number];
     readonly qualiaportal_cull_mesh_instance_indices: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number, k: number, l: any) => [number, number, number];
+    readonly qualiaportal_debug_scene_snapshot: (a: number) => [number, number, number];
     readonly qualiaportal_demo_artefact_refusal: (a: number) => void;
     readonly qualiaportal_drain_control_commands: (a: number, b: number) => number;
     readonly qualiaportal_drain_sonic_tokens: (a: number, b: number) => [number, number, number];
@@ -2796,15 +2814,15 @@ export interface InitOutput {
     readonly xform_z_geometric: (a: any) => [number, number, number];
     readonly xform_z_transform: (a: any) => [number, number, number];
     readonly xform_z_unit_step: (a: any) => [number, number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h9f403d09ac147cee: (a: number, b: number, c: number) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h4d620e5c0561b6a1: (a: number, b: number, c: any, d: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h5976dfbf7f66cef2: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h5976dfbf7f66cef2_423: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h5976dfbf7f66cef2_424: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__hf7f459f49ff6c97b: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h1f10797859789605: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__ha27d4dfd3cf4767a: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h869e6564ba6ff33d: (a: number, b: number) => void;
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___f64______true_: (a: number, b: number, c: number) => void;
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___js_sys_39ec4474943eca9c___Function_fn_wasm_bindgen_169716e839161e07___JsValue_____wasm_bindgen_169716e839161e07___sys__Undefined___js_sys_39ec4474943eca9c___Function_fn_wasm_bindgen_169716e839161e07___JsValue_____wasm_bindgen_169716e839161e07___sys__Undefined_______true_: (a: number, b: number, c: any, d: any) => void;
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___JsValue__core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true_: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___sys__JsNullable_etalon_b5fa3e24ed9fd383___backend__webgpu__webgpu_sys__gen_GpuError__GpuError___core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true_: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___sys__JsNullable_etalon_b5fa3e24ed9fd383___backend__webgpu__webgpu_sys__gen_GpuError__GpuError___core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true__425: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___sys__JsNullable_etalon_b5fa3e24ed9fd383___backend__webgpu__webgpu_sys__gen_GpuError__GpuError___core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true__426: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___etalon_b5fa3e24ed9fd383___backend__webgpu__webgpu_sys__gen_GpuDeviceLostInfo__GpuDeviceLostInfo______true_: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___web_sys_59f2d003b460bb21___features__gen_ErrorEvent__ErrorEvent______true_: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke_______true_: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_exn_store: (a: number) => void;

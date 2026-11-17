@@ -1133,7 +1133,6 @@ dependencies = [
 [[package]]
 name = "etalon"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "arrayvec",
  "bitflags 2.13.2",
@@ -1161,7 +1160,6 @@ dependencies = [
 [[package]]
 name = "etalon-agent"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon",
@@ -1175,7 +1173,6 @@ dependencies = [
 [[package]]
 name = "etalon-core"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "arrayvec",
  "bit-set",
@@ -1212,7 +1209,6 @@ dependencies = [
 [[package]]
 name = "etalon-core-deps-apple"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-hal",
 ]
@@ -1220,7 +1216,6 @@ dependencies = [
 [[package]]
 name = "etalon-core-deps-emscripten"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-hal",
 ]
@@ -1228,7 +1223,6 @@ dependencies = [
 [[package]]
 name = "etalon-core-deps-linux-android-bsd"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-hal",
 ]
@@ -1236,7 +1230,6 @@ dependencies = [
 [[package]]
 name = "etalon-core-deps-wasm"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-hal",
 ]
@@ -1244,7 +1237,6 @@ dependencies = [
 [[package]]
 name = "etalon-core-deps-windows"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-hal",
 ]
@@ -1252,7 +1244,6 @@ dependencies = [
 [[package]]
 name = "etalon-diagnostics"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "ciborium",
@@ -1266,7 +1257,6 @@ dependencies = [
 [[package]]
 name = "etalon-hal"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "android_system_properties",
  "arrayvec",
@@ -1318,7 +1308,6 @@ dependencies = [
 [[package]]
 name = "etalon-inference"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon",
@@ -1338,17 +1327,14 @@ dependencies = [
 [[package]]
 name = "etalon-inference-contract"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 
 [[package]]
 name = "etalon-inference-kernel"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 
 [[package]]
 name = "etalon-inference-lab"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "ciborium",
  "etalon-diagnostics",
@@ -1364,7 +1350,6 @@ dependencies = [
 [[package]]
 name = "etalon-model"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon-inference-kernel",
@@ -1375,7 +1360,6 @@ dependencies = [
 [[package]]
 name = "etalon-model-io"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "memmap2",
  "sha2 0.10.9",
@@ -1385,7 +1369,6 @@ dependencies = [
 [[package]]
 name = "etalon-naga-bridge"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-types",
  "naga",
@@ -1394,7 +1377,6 @@ dependencies = [
 [[package]]
 name = "etalon-nquin"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon",
@@ -1405,7 +1387,6 @@ dependencies = [
 [[package]]
 name = "etalon-render"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon",
@@ -1424,7 +1405,6 @@ dependencies = [
 [[package]]
 name = "etalon-resources"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon",
 ]
@@ -1432,17 +1412,14 @@ dependencies = [
 [[package]]
 name = "etalon-sense-core"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 
 [[package]]
 name = "etalon-signal"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 
 [[package]]
 name = "etalon-sim"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon-render",
@@ -1453,7 +1430,6 @@ dependencies = [
 [[package]]
 name = "etalon-sync"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "cfg-if",
  "lock_api",
@@ -1466,7 +1442,6 @@ dependencies = [
 [[package]]
 name = "etalon-tensor"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon",
@@ -1480,7 +1455,6 @@ dependencies = [
 [[package]]
 name = "etalon-types"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bitflags 2.13.2",
  "bytemuck",
@@ -1497,7 +1471,6 @@ dependencies = [
 [[package]]
 name = "etalon-vibe"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "etalon-nquin",
  "etalon-resources",
@@ -1510,7 +1483,6 @@ dependencies = [
 [[package]]
 name = "etalon-wasm"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "etalon",
@@ -1522,7 +1494,6 @@ dependencies = [
 [[package]]
 name = "etalon-wgsl-forge"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "blake3",
  "bytemuck",
@@ -2629,7 +2600,6 @@ dependencies = [
 [[package]]
 name = "naga"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "arrayvec",
  "bit-set",
@@ -2654,7 +2624,6 @@ dependencies = [
 [[package]]
 name = "naga-types"
 version = "0.0.2"
-source = "git+https://github.com/mediaprophet/etalon.git?rev=22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0#22d5a88c65d74bc76a4a6d52ab1f1ba77f596fd0"
 dependencies = [
  "bytemuck",
  "hashbrown 0.17.1",

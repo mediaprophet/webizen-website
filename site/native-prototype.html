@@ -14,6 +14,7 @@
 <main id="native-world-ui"></main>
 <div id="native-world-status" role="status" aria-live="polite">Opening the native living world…</div>
 <noscript><p class="no-script">The generated loader needs permission to start the WASM runtime. <a href="/publication/reading.html">Read the world without scripts.</a></p></noscript>
+<script src="/world/gl-debug.js"></script>
 <!-- Loader only. All application behaviour is compiled in native/world-host. -->
 <script type="module">import init from '/pkg/native-world/webizen_world.js';await init();</script>
 </body>
