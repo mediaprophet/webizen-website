@@ -26,6 +26,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
+# Cloudflare Workers static assets reject files over 25 MiB.
+MAX_ASSET_BYTES = 25 * 1024 * 1024
 
 MOUNT_DIRS = [
     ("production", "production"),
@@ -218,6 +220,14 @@ def main() -> int:
         "<!doctype html><title>Not found</title><p>This path is not published on webizen.au.</p>\n",
         encoding="utf-8",
     )
+
+    skipped = []
+    for path in OUT.rglob("*"):
+        if path.is_file() and path.stat().st_size > MAX_ASSET_BYTES:
+            skipped.append((path.stat().st_size, path.relative_to(OUT).as_posix()))
+            path.unlink()
+    for size, rel in sorted(skipped, reverse=True):
+        print(f"Skipped {size / (1024 * 1024):.2f} MiB over Cloudflare 25 MiB limit: {rel}")
 
     for html_file in OUT.rglob("*.html"):
         rewrite_html(html_file)
