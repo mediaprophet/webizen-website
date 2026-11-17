@@ -5,8 +5,9 @@
     "node": ">=24"
   },
   "scripts": {
-    "build": "python tooling/build_pages.py",
-    "deploy": "python tooling/build_pages.py && wrangler deploy"
+    "build": "node tooling/build_pages.mjs",
+    "prepare": "node tooling/ci_prepare.mjs",
+    "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4.163.0"

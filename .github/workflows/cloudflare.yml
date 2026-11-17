@@ -36,9 +36,6 @@ jobs:
       - name: Verify publication and runtime pins
         run: python3 tooling/copy_aaa_review.py --check
 
-      - name: Build static bundle
-        run: python3 tooling/build_pages.py
-
       - name: Install wrangler
         run: npm ci
 

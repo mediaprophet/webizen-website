@@ -8,6 +8,9 @@
     { "pattern": "webizen.au", "custom_domain": true },
     { "pattern": "www.webizen.au", "custom_domain": true }
   ],
+  "build": {
+    "command": "npm run build"
+  },
   "assets": {
     "directory": "./_site",
     "html_handling": "auto-trailing-slash",
