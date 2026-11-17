@@ -1,3 +1,4 @@
+mod download;
 mod reference;
 use super::*;
 
@@ -66,6 +67,7 @@ pub(super) fn install_controls(state: &Shared) -> Result<(), JsValue> {
     let ui = element("native-world-ui", "aside")?;
     ui.set_attribute("aria-label", "Explore the living world")?;
     ui.set_class_name("native-panel");
+    ui.set_attribute("hidden", "")?;
     let h = doc().create_element("h1")?;
     h.set_text_content(Some("A world we share"));
     ui.append_child(&h)?;
@@ -120,6 +122,7 @@ pub(super) fn install_controls(state: &Shared) -> Result<(), JsValue> {
     reading.set_attribute("href", "/publication/reading.html")?;
     reading.set_text_content(Some("Read about this place"));
     ui.append_child(&reading)?;
+    download::install(&ui)?;
     let camera_controls = doc().create_element("nav")?;
     camera_controls.set_id("native-camera-controls");
     camera_controls.set_class_name("native-camera-controls");
@@ -321,9 +324,12 @@ pub(super) fn install_panel_toggle() -> Result<(), JsValue> {
     let button = element("native-panel-toggle", "button")?;
     button.set_attribute("type", "button")?;
     button.set_attribute("aria-controls", "native-world-ui")?;
-    button.set_attribute("aria-expanded", "true")?;
-    button.set_attribute("aria-label", "Hide the reading and path panel")?;
-    button.set_text_content(Some("Hide panel"));
+    button.set_attribute("aria-expanded", "false")?;
+    button.set_attribute("aria-label", "Show the reading and path panel")?;
+    button.set_text_content(Some("Show panel"));
+    if let Some(panel) = doc().get_element_by_id("native-world-ui") {
+        panel.set_attribute("hidden", "")?;
+    }
     event(button.unchecked_ref(), "click", move |event| {
         if let Some(panel) = doc().get_element_by_id("native-world-ui") {
             let show = panel.has_attribute("hidden");

@@ -1,0 +1,35 @@
+{
+  "id": "canberra-public-reference",
+  "title": "Southern Tablelands and Canberra region (public reference)",
+  "journey_chapter": "southern-tablelands",
+  "not_personal_campsite": true,
+  "crs": "EPSG:4326",
+  "datum": "WGS84",
+  "bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+  "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+  "realm_class": "physical",
+  "gis_terrain_id": "canberra-reference-terrain",
+  "authored_ground_id": "habitat-terrain",
+  "epistemic": {
+    "canberra-reference-terrain": "measured-gis",
+    "habitat-terrain": "authored-artwork"
+  },
+  "display_frame": {
+    "up": "y",
+    "tile_metres": 100,
+    "tile": "(floor(x/100), floor(z/100))",
+    "camera_target": "[x,y,z]",
+    "zoom": "framing only"
+  },
+  "colocated": [
+    {
+      "id": "canberra-public-infosphere",
+      "label": "infosphere",
+      "realm_class": "noosphere",
+      "usri": "urn:omni:v1:noosphere:webizen:public:world/canberra-public-reference",
+      "grounding": "EmpiricallyAnchored",
+      "anchor_iri": "https://webizen.au/world/canberra-public-reference",
+      "journey_iri": "https://webizen.au/journey/southern-tablelands"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "schema": "webizen.ewm-current-pack/v1",
+  "streaming": { "default": false, "query": "ewm=1" },
+  "download": "/packages/download/first-paint.json",
+  "catalog": "/data/ewm/first-paint.json"
+}

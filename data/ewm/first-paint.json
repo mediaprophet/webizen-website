@@ -1,0 +1,486 @@
+{
+  "schema": "webizen.ewm-catalog/v1",
+  "pack_id": "canberra-public-place",
+  "inner_ranges": false,
+  "places": [
+    {
+      "id": "canberra-public-reference",
+      "title": "Southern Tablelands & Canberra region (public reference)",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "dem_zoom": 13,
+      "elevation_m": [
+        541,
+        677
+      ],
+      "gis_terrain_id": "canberra-reference-terrain",
+      "authored_ground_id": "habitat-terrain",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "colocated": [
+        {
+          "id": "canberra-public-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/canberra-public-reference",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/canberra-public-reference",
+          "journey_iri": "https://webizen.au/journey/southern-tablelands",
+          "families": [
+            "Q42"
+          ]
+        }
+      ]
+    }
+  ],
+  "candidate": {
+    "descriptor_sha384": "85e7a247fdaebf9c3ee4f3ab07d629c827bd9072379f1f09f98a1dc18c84e351342f1aad32bd0b7e410f33c9f7d91774",
+    "context_sha384": "2e6ba359cb624b8aa8bd36377ee1716becddf2d108d068d7fd303ae8657b4f158255142399abebfa0b30f347914e799a",
+    "generation": 1,
+    "entries": 78
+  },
+  "candidate_origin": {
+    "kind": "pending-producer",
+    "host_bind": "CandidateIdentity::from_parts",
+    "browser_inventory_verifier": false,
+    "note": "Placeholder non-zero SHA-384 of webizen.ewm-00.pending-producer-inventory-verifier/{descriptor,context}. EWM-03 native InventoryVerifier::finish replaces this four-tuple. v1 host copies via from_parts after hashing the catalog pointer. Browser never calls finish."
+  },
+  "first_paint": [
+    "canberra-reference-terrain",
+    "habitat-terrain",
+    "prototype-eucalyptus-lush-mid",
+    "car-passat-b7--gold",
+    "car-passat-b7--glass",
+    "car-passat-b7--chrome",
+    "vintage-windup-camper--chassis",
+    "vintage-windup-camper--enamel",
+    "solar-array-three--panel",
+    "starlink-mini--dish-front"
+  ],
+  "enhancement_not_first_paint": [
+    {
+      "id": "prototype-eucalyptus-lush-near",
+      "bytes": 11470616,
+      "epistemic_class": "authored-artwork",
+      "role": "Canopy near LoD waits for enhancement"
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": 1,
+      "scene_id": "canberra-reference-terrain",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "measured-gis",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+      "bytes": 1946992,
+      "vertices": 16992,
+      "triangles": 33462,
+      "url": "/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+      "source_publication": "data/publications/aaa/terrain-model-v2/reference-terrain-model.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -40,
+          0,
+          -40
+        ],
+        "max": [
+          40,
+          20,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 2,
+      "scene_id": "habitat-terrain",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "0d71982db5c21d05a068e9188f7a823670cbadb500f0af5015fdbb008a032d21",
+      "bytes": 8723576,
+      "vertices": 25921,
+      "triangles": 51200,
+      "url": "/production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -80,
+          0,
+          -80
+        ],
+        "max": [
+          80,
+          40,
+          80
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 3,
+      "scene_id": "prototype-eucalyptus-lush-mid",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "3dc877492545766c7a63c5fe499e8c96f62c667bf3b2cd75e0c1e179e5759077",
+      "bytes": 1036928,
+      "vertices": 7132,
+      "triangles": 13048,
+      "url": "/production/aaa-proof/assets/prototype-eucalyptus-lush-mid-0973a52d81b0.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -60,
+          0,
+          -60
+        ],
+        "max": [
+          60,
+          30,
+          60
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 4,
+      "scene_id": "car-passat-b7--gold",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "867940c9ca9ed32cf7161757d34807ba1d91f45714f95817702e38f84a8964d7",
+      "bytes": 880696,
+      "vertices": 5069,
+      "triangles": 10130,
+      "url": "/production/native-world/assets/car-passat-b7--gold.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 5,
+      "scene_id": "car-passat-b7--glass",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "6e8db07d9364b72bcfa3db507e55d1e30198e23fd6d4ed24ea4b326616f68046",
+      "bytes": 435736,
+      "vertices": 1244,
+      "triangles": 2448,
+      "url": "/production/native-world/assets/car-passat-b7--glass.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 6,
+      "scene_id": "car-passat-b7--chrome",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "499456a6fc89bfead47337c0ebca31d3cdb91f0d46bfca33997af9ff8e353a26",
+      "bytes": 1100272,
+      "vertices": 6462,
+      "triangles": 15304,
+      "url": "/production/native-world/assets/car-passat-b7--chrome.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 7,
+      "scene_id": "vintage-windup-camper--chassis",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1",
+      "bytes": 97240,
+      "vertices": 180,
+      "triangles": 304,
+      "url": "/production/native-world/assets/vintage-windup-camper--chassis.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 8,
+      "scene_id": "vintage-windup-camper--enamel",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6",
+      "bytes": 291320,
+      "vertices": 808,
+      "triangles": 1568,
+      "url": "/production/native-world/assets/vintage-windup-camper--enamel.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 9,
+      "scene_id": "solar-array-three--panel",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994",
+      "bytes": 57976,
+      "vertices": 60,
+      "triangles": 96,
+      "url": "/production/native-world/assets/solar-array-three--panel.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 10,
+      "scene_id": "starlink-mini--dish-front",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "596be4ffd10787d159d8981ae89668c7990742c59cc8d0e2655cdfcb81a9e8b3",
+      "bytes": 61328,
+      "vertices": 66,
+      "triangles": 128,
+      "url": "/production/native-world/assets/starlink-mini--dish-front.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    }
+  ],
+  "edges": [
+    {
+      "from_entry_id": 2,
+      "to_entry_id": 1,
+      "reason": "Geometry",
+      "obligation": "Mandatory"
+    }
+  ],
+  "streaming": {
+    "default": false,
+    "query_token": "ewm=1",
+    "query_independent_of": "gpu-timing=1",
+    "canvas_attribute": "data-ewm-streaming",
+    "canvas_enable_value": "1",
+    "production_helper": "native/world-host/src/runtime/stream/flag.rs",
+    "production_helper_owner": "EWM-09"
+  },
+  "windowed_inventory": {
+    "max_plan_entries": 64,
+    "max_schedule_items": 64,
+    "first_paint_window": 10,
+    "candidate_entry_count": 78,
+    "record_unit_leaf": 0,
+    "planner_region": null,
+    "means": "fetch and admit the whole inner file",
+    "compile_window_may_differ_from_candidate_entry_count": true,
+    "browser_inventory_verifier": false,
+    "host_bind": "CandidateIdentity::from_parts"
+  },
+  "declared_subset": {
+    "ids": 10,
+    "bytes": 14632064,
+    "authored_subtotal_bytes": 12685072,
+    "measured_gis_bytes": 1946992,
+    "vertices": 63934,
+    "triangles": 127688,
+    "v1_budget_bytes": 15728640
+  },
+  "wasm_budget": {
+    "bytes_today": 21726870,
+    "mib_today": 20.72,
+    "sha256": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c",
+    "ci_budget_mib": 23.5,
+    "ci_budget_bytes": 24641536
+  }
+}

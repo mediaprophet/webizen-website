@@ -1,0 +1,4 @@
+{
+  "prefixes": ["/packages/", "/production/"],
+  "live_gis_default": "deny"
+}

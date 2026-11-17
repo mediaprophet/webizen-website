@@ -1,0 +1,49 @@
+{
+  "schema": "webizen.ewm-00-validation/v1",
+  "status": "EWM-00 planning contracts validated; no runtime change; AAA grant remains draft until A00 merges it",
+  "first_paint_ids": [
+    "canberra-reference-terrain",
+    "habitat-terrain",
+    "prototype-eucalyptus-lush-mid",
+    "car-passat-b7--gold",
+    "car-passat-b7--glass",
+    "car-passat-b7--chrome",
+    "vintage-windup-camper--chassis",
+    "vintage-windup-camper--enamel",
+    "solar-array-three--panel",
+    "starlink-mini--dish-front"
+  ],
+  "first_paint_bytes": 14632064,
+  "authored_subtotal_bytes": 12685072,
+  "measured_gis_bytes": 1946992,
+  "v1_budget_bytes": 15728640,
+  "inner_ranges": false,
+  "streaming_default": false,
+  "query_token": "ewm=1",
+  "canvas_attribute": "data-ewm-streaming",
+  "flag_rs_owner": "EWM-09",
+  "catalog_home": "schemas/ewm/**",
+  "catalog_not": "native/contracts/**",
+  "wasm_bytes_today": 21625218,
+  "wasm_ci_budget_bytes": 24641536,
+  "a00_grant_merged": true,
+  "runtime_behaviour_change": false,
+  "a00_a27_identifiers_untouched": true,
+  "rejections": {
+    "invalid-single-hex-candidate": "$: missing candidate",
+    "candidate_sha384_additional_property": "$.propertyName(candidate_sha384): value matched a forbidden form",
+    "candidate_hex_string": "$.candidate: expected object",
+    "candidate_sha384_instead_of_four_tuple": "$: missing candidate"
+  },
+  "file_sha256": {
+    "schemas/ewm/catalog.v1.json": "236ebde955b6b599460f22a670b645e6ef808eb93839fe9220375815312ed488",
+    "data/ewm/first-paint.json": "599de14fd461de583166d7661dee97316baef4f880991a9838fffc51b0c2ae6f",
+    "plans/ewm/aaa-path-lock-grant.json": "bd3ad5be27fe4ebf6cff2dbcb692603c1959ef83c53db922d24879d71d6e1b8a",
+    "plans/ewm/file-ownership.json": "6d755da5d669c6dcf06d5ba32695d6cbefc343d4dde8c4f73f406d3c94a26e0c",
+    "plans/ewm/wasm-budget.json": "024b4d059f323b08af4d3bd08f6da876fd49181b7a77c68d59781337e434485c",
+    "plans/ewm/owner-decisions.json": "a761f8550d380fb92ea9787defe61d05cd7251e514ebb492c0e8a8a3a9f1629f",
+    "schemas/ewm/fixtures/invalid-single-hex-candidate.json": "4cdaae1725acbada3de3a7f967e01166b8cd9d64529b790d605af8985827da95",
+    "plans/ewm/EXPLORABLE-WORLD-MODEL.md": "5fa97ca100fe8135132dc2dfcae9e286e8c5c7170e224c84d498ac1c92d51240",
+    "plans/ewm/work-packets.json": "e602d506899c5dbdcbecb87cf18dd64a5cd46e3d822c95974d4e912922992492"
+  }
+}

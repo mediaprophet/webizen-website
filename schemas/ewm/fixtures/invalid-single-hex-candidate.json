@@ -1,0 +1,61 @@
+{
+  "schema": "webizen.ewm-catalog/v1",
+  "pack_id": "canberra-public-place",
+  "inner_ranges": false,
+  "places": [
+    {
+      "id": "canberra-public-reference",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "colocated": [
+        {
+          "id": "canberra-public-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/canberra-public-reference",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/canberra-public-reference",
+          "families": [
+            "Q42"
+          ]
+        }
+      ]
+    }
+  ],
+  "candidate_sha384": "85e7a247fdaebf9c3ee4f3ab07d629c827bd9072379f1f09f98a1dc18c84e351342f1aad32bd0b7e410f33c9f7d91774",
+  "first_paint": [
+    "canberra-reference-terrain"
+  ],
+  "entries": [
+    {
+      "entry_id": 1,
+      "scene_id": "canberra-reference-terrain",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "measured-gis",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+      "bytes": 1946992,
+      "planner_region": null
+    }
+  ],
+  "streaming": {
+    "default": false,
+    "query_token": "ewm=1",
+    "query_independent_of": "gpu-timing=1",
+    "canvas_attribute": "data-ewm-streaming",
+    "canvas_enable_value": "1"
+  }
+}

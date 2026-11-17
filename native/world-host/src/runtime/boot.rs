@@ -2,7 +2,7 @@ use super::*;
 
 pub async fn boot() -> Result<(), JsValue> {
     element("native-world-status", "p")?.set_attribute("role", "status")?;
-    text("native-world-status", "Opening the native living world...");
+    text("native-world-status", "Opening the native living world…");
     let canvas = element("native-world", "canvas")?.dyn_into::<HtmlCanvasElement>()?;
     let source_url = canvas
         .get_attribute("data-vibe")
@@ -60,6 +60,7 @@ pub async fn boot() -> Result<(), JsValue> {
         .trim_start_matches('?')
         .split('&')
         .any(|p| p == "gpu-timing=1");
+    let ewm_streaming = super::stream::ewm_query_enabled(&query, &canvas);
     portal.set_gpu_pass_timing_enabled(gpu_timing);
     portal.set_preserve_authored_frame(true);
     portal.set_tensor_projection_enabled(false);
@@ -143,56 +144,74 @@ pub async fn boot() -> Result<(), JsValue> {
         return Err(err("Unsupported native world artifact manifest"));
     }
     let texture_receipts = super::textures::hydrate(&mut portal, &scene.textures).await?;
-    let assets = js_sys::Array::new();
-    let mut total_bytes = 0;
-    let mut texture_bindings = 0;
-    let mut material_registry = Vec::new();
-    let mut asset_receipts = Vec::new();
-    for (n, a) in scene.assets.iter().enumerate() {
-        text(
-            "native-world-status",
-            &format!(
-                "Opening the landscape - {} of {}",
-                n + 1,
-                scene.assets.len()
-            ),
-        );
-        let raw = bytes(&a.url, 64 * 1024 * 1024).await?;
-        total_bytes += raw.len();
-        if total_bytes > 256 * 1024 * 1024 {
-            return Err(err("Native world exceeds its asset byte budget"));
+    let mut total_bytes = 0usize;
+    let mut pointer_sha256 = String::new();
+    let mut overlapping = Vec::new();
+    let mut infosphere = false;
+    let (uploaded, upload_receipt, asset_receipts, texture_bindings) = if ewm_streaming {
+        let paint = super::stream::load_first_paint(&mut portal, &scene, &camera).await?;
+        total_bytes = paint.total_bytes;
+        pointer_sha256 = paint.pointer_sha256;
+        overlapping = paint.overlapping;
+        infosphere = paint.infosphere;
+        (
+            paint.uploaded,
+            paint.upload_receipt,
+            paint.asset_receipts,
+            paint.texture_bindings,
+        )
+    } else {
+        let assets = js_sys::Array::new();
+        let mut texture_bindings = 0;
+        let mut material_registry = Vec::new();
+        let mut asset_receipts = Vec::new();
+        for (n, a) in scene.assets.iter().enumerate() {
+            text(
+                "native-world-status",
+                &format!(
+                    "Opening the landscape — {} of {}",
+                    n + 1,
+                    scene.assets.len()
+                ),
+            );
+            let raw = bytes(&a.url, 64 * 1024 * 1024).await?;
+            total_bytes += raw.len();
+            if total_bytes > 256 * 1024 * 1024 {
+                return Err(err("Native world exceeds its asset byte budget"));
+            }
+            if hash(&raw) != a.sha256 {
+                return Err(err(format!("Asset digest mismatch: {}", a.id)));
+            }
+            super::admission::check(&a.id, &raw)?;
+            texture_bindings +=
+                super::textures::verify_asset(&a.id, &raw, &scene.textures, &mut material_registry)?;
+            let obj = js_sys::Object::new();
+            js_sys::Reflect::set(
+                &obj,
+                &"bytes".into(),
+                &js_sys::Uint8Array::from(raw.as_slice()),
+            )?;
+            js_sys::Reflect::set(&obj, &"id".into(), &a.id.clone().into())?;
+            for (name, value) in ["r", "g", "b", "a"].iter().zip(a.colour) {
+                js_sys::Reflect::set(&obj, &(*name).into(), &JsValue::from_f64(value as f64))?;
+            }
+            assets.push(&obj);
+            asset_receipts.push(json!({"id":a.id,"sha256":a.sha256}));
         }
-        if hash(&raw) != a.sha256 {
-            return Err(err(format!("Asset digest mismatch: {}", a.id)));
-        }
-        super::admission::check(&a.id, &raw)?;
-        texture_bindings +=
-            super::textures::verify_asset(&a.id, &raw, &scene.textures, &mut material_registry)?;
-        let obj = js_sys::Object::new();
-        js_sys::Reflect::set(
-            &obj,
-            &"bytes".into(),
-            &js_sys::Uint8Array::from(raw.as_slice()),
-        )?;
-        js_sys::Reflect::set(&obj, &"id".into(), &a.id.clone().into())?;
-        for (name, value) in ["r", "g", "b", "a"].iter().zip(a.colour) {
-            js_sys::Reflect::set(&obj, &(*name).into(), &JsValue::from_f64(value as f64))?;
-        }
-        assets.push(&obj);
-        asset_receipts.push(json!({"id":a.id,"sha256":a.sha256}));
-    }
-    let uploaded = portal.load_scene_assets(&assets)?;
+        let uploaded = portal.load_scene_assets(&assets)?;
+        let upload_receipt: Value = serde_json::from_str(
+            &js_sys::JSON::stringify(&uploaded)?
+                .as_string()
+                .ok_or(err("Invalid native upload receipt"))?,
+        )
+        .map_err(err)?;
+        (uploaded, upload_receipt, asset_receipts, texture_bindings)
+    };
     js_sys::Reflect::set(
         &web_sys::window().unwrap(),
         &"__webizenNativeUpload".into(),
         &uploaded,
     )?;
-    let upload_receipt: Value = serde_json::from_str(
-        &js_sys::JSON::stringify(&uploaded)?
-            .as_string()
-            .ok_or(err("Invalid native upload receipt"))?,
-    )
-    .map_err(err)?;
     if texture_bindings > 0 && upload_receipt["material_pipeline"].as_bool() != Some(true) {
         return Err(err(
             "Native textured scene could not bind its actual material pipeline",
@@ -204,7 +223,11 @@ pub async fn boot() -> Result<(), JsValue> {
     if refused != 0. {
         return Err(err(format!("Native scene refused {refused} assets")));
     }
-    let instance_receipt = super::instances::bind(&mut portal, &scene, &upload_receipt)?;
+    let instance_receipt = if ewm_streaming {
+        super::instances::bind_resident(&mut portal, &scene, &upload_receipt)?
+    } else {
+        super::instances::bind(&mut portal, &scene, &upload_receipt)?
+    };
     let admitted = portal.scene_render_receipt()?;
     let got_indices = js_sys::Reflect::get(&admitted, &"index_count".into())?
         .as_f64()
@@ -215,17 +238,19 @@ pub async fn boot() -> Result<(), JsValue> {
     if got_indices != authored_triangles * 3 {
         return Err(err("Native GPU admission reduced the authored scene; use the reading view while a smaller native scene is prepared"));
     }
-    if let Some(expected) = scene.triangle_count {
-        if expected != authored_triangles {
-            return Err(err("Native triangle total differs from published manifest"));
+    if !ewm_streaming {
+        if let Some(expected) = scene.triangle_count {
+            if expected != authored_triangles {
+                return Err(err("Native triangle total differs from published manifest"));
+            }
         }
-    }
-    if let Some(expected) = scene.vertex_count {
-        let got = js_sys::Reflect::get(&admitted, &"vertex_count".into())?
-            .as_f64()
-            .unwrap_or(0.) as u64;
-        if expected != got {
-            return Err(err("Native vertex total differs from published manifest"));
+        if let Some(expected) = scene.vertex_count {
+            let got = js_sys::Reflect::get(&admitted, &"vertex_count".into())?
+                .as_f64()
+                .unwrap_or(0.) as u64;
+            if expected != got {
+                return Err(err("Native vertex total differs from published manifest"));
+            }
         }
     }
     // Native tensor markers use graph positions; identity stays in the exact graph order.
@@ -278,7 +303,7 @@ pub async fn boot() -> Result<(), JsValue> {
         .map(|m| m.matches())
         .unwrap_or(false);
     portal.set_animation_reduced_motion(reduced);
-    let receipt = json!({"schema":"webizen.native-world-receipt/v1","gpu_timing_requested":gpu_timing,"served_build_identity":runtime_identity,"renderer":backend,"q42_sha256":q42_hash,"q42_rows":graph.rows,"q42_reader":"WasmSliceQ42Reader","vibe_sha256":hash(&source_bytes),"vibe_evaluator":"PoetSnapshot::eval_fn","assets":asset_receipts,"asset_bytes":total_bytes,"default_language":"en-AU","authority":"anonymous-public","controller":"Rust/WASM","upload":upload_receipt,"instances":instance_receipt,"graphics_initialisation":graphics_init,"presentation_settings":settings,"textures":texture_receipts,"verified_texture_bindings":texture_bindings});
+    let receipt = json!({"schema":"webizen.native-world-receipt/v1","gpu_timing_requested":gpu_timing,"ewm_streaming":ewm_streaming,"ewm_catalog_pointer_sha256":pointer_sha256,"ewm_overlapping":overlapping,"ewm_infosphere":infosphere,"streaming":{"enabled":ewm_streaming,"default":false},"served_build_identity":runtime_identity,"renderer":backend,"q42_sha256":q42_hash,"q42_rows":graph.rows,"q42_reader":"WasmSliceQ42Reader","vibe_sha256":hash(&source_bytes),"vibe_evaluator":"PoetSnapshot::eval_fn","assets":asset_receipts,"asset_bytes":total_bytes,"default_language":"en-AU","authority":"anonymous-public","controller":"Rust/WASM","upload":upload_receipt,"instances":instance_receipt,"graphics_initialisation":graphics_init,"presentation_settings":settings,"textures":texture_receipts,"verified_texture_bindings":texture_bindings});
     let state = Rc::new(RefCell::new(World {
         portal,
         canvas: canvas.clone(),
@@ -299,8 +324,8 @@ pub async fn boot() -> Result<(), JsValue> {
         receipt,
     }));
     set_camera(&mut state.borrow_mut())?;
-    ui::install_controls(&state)?;
     ui::install_panel_toggle()?;
+    ui::install_controls(&state)?;
     input::install_input(&state)?;
     let s = state.clone();
     event(

@@ -1,0 +1,186 @@
+{
+  "schema": "webizen.ewm-file-ownership/v1",
+  "id": "EWM-00",
+  "date": "2026-11-17",
+  "locale": "en-AU",
+  "max_active_specialists": 3,
+  "integrator_slots": 1,
+  "shared_file_owner": "ewm-integrator",
+  "id_series": "EWM",
+  "id_collision_policy": "EWM-00+ must not reuse A00-A27 or N01-N09",
+  "single_file_owners": {
+    "webizen-website/wrangler.jsonc": "EWM-05",
+    "webizen-website/native/world-host/src/runtime/stream/flag.rs": "EWM-09",
+    "webizen-website/packages/current.json": "EWM-10"
+  },
+  "integrator_exclusive_paths": [
+    "webizen-website/native/world-host/src/runtime.rs",
+    "webizen-website/native/world-host/src/runtime/boot.rs",
+    "webizen-website/native/world-host/src/lib.rs",
+    "webizen-website/native/world-host/Cargo.toml",
+    "qualiaDB/crates/qualia-core-db/src/net/mod.rs",
+    "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader.rs",
+    "qualiaDB/crates/qualia-core-db/src/bundle/stream/descriptor/types.rs",
+    "webizen-website/publication/current.json"
+  ],
+  "glob_collision_audit": {
+    "tests_ewm": "EWM-08 owns tests/ewm/qualification/**; EWM-09 owns tests/ewm/rollback/**; neither owns tests/ewm/** wholesale",
+    "packages": "EWM-03 owns packages/qbdl/**; EWM-06 owns packages/download/**; EWM-10 owns packages/current.json",
+    "stream": "EWM-02 owns runtime/stream/** except flag.rs; EWM-09 owns runtime/stream/flag.rs; PR6a/6b must not create flag.rs",
+    "wrangler": "EWM-05 is the sole owner of wrangler.jsonc",
+    "contracts": "EWM catalog lives in schemas/ewm/**; native/contracts/** is A03 and is not created for EWM",
+    "data": "GIS places under data/ewm/gis/places/** (EWM-04); GIS ingest under data/ewm/gis/ingest/** (EWM-04b); OCS frames under data/ewm/frames/** (EWM-11); consent under data/ewm/consent/** (EWM-07); first-paint under data/ewm/first-paint.json (EWM-00); A02 data/catalogue and data/publications untouched; Timeline.json never stored"
+  },
+  "packets": [
+    {
+      "id": "EWM-00",
+      "owned_paths": [
+        "webizen-website/plans/ewm/**",
+        "webizen-website/schemas/ewm/**",
+        "webizen-website/data/ewm/first-paint.json"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/native/contracts/**",
+        "webizen-website/data/catalogue/**",
+        "webizen-website/data/publications/**",
+        "webizen-website/plans/aaa-overhaul/**"
+      ]
+    },
+    {
+      "id": "EWM-01",
+      "owned_paths": [
+        "qualiaDB/crates/qualia-core-db/src/net/fetch_range_wasm.rs",
+        "qualiaDB/crates/qualia-core-db/src/net/fetch_range_wasm_tests.rs"
+      ],
+      "integrator_routes": [
+        "qualiaDB/crates/qualia-core-db/src/net/mod.rs"
+      ]
+    },
+    {
+      "id": "EWM-01b",
+      "owned_paths": [
+        "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader/ewm_wasm_tests.rs"
+      ],
+      "integrator_routes": [
+        "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader.rs",
+        "qualiaDB/crates/qualia-core-db/src/bundle/stream/descriptor/types.rs"
+      ]
+    },
+    {
+      "id": "EWM-02",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/stream/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/native/world-host/src/runtime/stream/flag.rs"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs",
+        "webizen-website/native/world-host/Cargo.toml"
+      ]
+    },
+    {
+      "id": "EWM-03",
+      "owned_paths": [
+        "webizen-website/production/lush-woodland/qbdl/**",
+        "webizen-website/packages/qbdl/**",
+        "webizen-website/tooling/ewm_pack.py"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/packages/download/**",
+        "webizen-website/packages/current.json"
+      ]
+    },
+    {
+      "id": "EWM-04",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/gis_join.rs",
+        "webizen-website/data/ewm/gis/places/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/ingest/**",
+        "webizen-website/data/ewm/frames/**",
+        "webizen-website/data/publications/**",
+        "webizen-website/data/catalogue/**"
+      ]
+    },
+    {
+      "id": "EWM-04b",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/gis_ingest.rs",
+        "webizen-website/data/ewm/gis/ingest/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/places/**",
+        "webizen-website/data/ewm/frames/**"
+      ]
+    },
+    {
+      "id": "EWM-05",
+      "owned_paths": [
+        "webizen-website/tooling/build_pages.py",
+        "webizen-website/tooling/build_pages.mjs",
+        "webizen-website/.github/workflows/cloudflare.yml",
+        "webizen-website/.github/workflows/pages.yml",
+        "webizen-website/wrangler.jsonc"
+      ]
+    },
+    {
+      "id": "EWM-06",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/ui/download.rs",
+        "webizen-website/packages/download/**"
+      ]
+    },
+    {
+      "id": "EWM-07",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/consent.rs",
+        "webizen-website/data/ewm/consent/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/catalogue/**"
+      ]
+    },
+    {
+      "id": "EWM-08",
+      "owned_paths": [
+        "webizen-website/evidence/ewm/**",
+        "webizen-website/tests/ewm/qualification/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/tests/ewm/rollback/**"
+      ]
+    },
+    {
+      "id": "EWM-09",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/stream/flag.rs",
+        "webizen-website/tests/ewm/rollback/**",
+        "webizen-website/tooling/ewm_flag.md"
+      ]
+    },
+    {
+      "id": "EWM-10",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs",
+        "webizen-website/native/world-host/Cargo.toml",
+        "webizen-website/packages/current.json",
+        "webizen-website/tooling/native-host/**"
+      ]
+    },
+    {
+      "id": "EWM-11",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/ocs_frames.rs",
+        "webizen-website/data/ewm/frames/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/places/**",
+        "webizen-website/data/ewm/gis/ingest/**"
+      ]
+    }
+  ]
+}

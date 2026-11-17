@@ -26,11 +26,23 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\boot.rs",
-      "sha256": "f2e0123e54a361f54e0f54b95c28d169e02d5469eda8980535701b752dd2ed70"
+      "sha256": "fd711a61ddd67fea888eebee7bf82ef6bacc0c4ce4ad6b80d28fe42c8b8cda25"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\consent.rs",
+      "sha256": "9685a5f3acc62106bde1ebae169143044650beea7963c53f70a3f812d3bb7b78"
     },
     {
       "path": "native\\world-host\\src\\runtime\\frame_telemetry.rs",
       "sha256": "8bdee6b7fbae38e43aa3c42e6b894cef34ec707f22da7e1a709782429018ffe1"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\gis_ingest.rs",
+      "sha256": "3cbb3e059acb73ec0961585ad4c6c7b440b5eebf906d83ee2568f638af911efd"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\gis_join.rs",
+      "sha256": "a29a189b119351e9664cf768dd635e28ae02f57f2fb5e2e36eb916be97930070"
     },
     {
       "path": "native\\world-host\\src\\runtime\\graphics.rs",
@@ -42,7 +54,7 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\instances.rs",
-      "sha256": "144fab1be93af94161597718d8f3d38aacb720505e5077dff860c983c59d0218"
+      "sha256": "a6fcba7e523f396571e75e65c9518bfc1778a91579b32ce9df4c5230c47a5fb2"
     },
     {
       "path": "native\\world-host\\src\\runtime\\instruments\\data.rs",
@@ -73,20 +85,36 @@
       "sha256": "279f716aa8d4e790c23ed85bcdc120085f43a313cb347f01ba0c1df0f6de854b"
     },
     {
+      "path": "native\\world-host\\src\\runtime\\ocs_frames.rs",
+      "sha256": "73eb08aaf1d80584e308e45177bcd4e54b4261be44b012f339cdb06403bf64e7"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\stream\\flag.rs",
+      "sha256": "3f13985a0e1b8ba9cd0830157e5a4096e5521bd6d84a053de65d47e05e44542e"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\stream\\mod.rs",
+      "sha256": "6ea0cae0d16ae046b5675b64d37b8bf045de9800bfdf67fc1b1f98eeca47f776"
+    },
+    {
       "path": "native\\world-host\\src\\runtime\\textures.rs",
-      "sha256": "734aefa30d965c700f6ac1c0ad4044b0cccecb00f3e0a474b28e075abbd05546"
+      "sha256": "a8f265e1c2b55f526b445fdd469e7907da3f03b763b4837dc82da71001f51445"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\ui\\download.rs",
+      "sha256": "7566f8b9fc3414fd69a352277ae98ceee8b1c80d26870ae39759ba0d7a7c891c"
     },
     {
       "path": "native\\world-host\\src\\runtime\\ui\\reference.rs",
-      "sha256": "e1c6e37c44ef2e078addbf8310f5204152876d113fa7e78ffd7030ca6800afe8"
+      "sha256": "ec9325a9a1ba5f8faddc009b944db8f527a95c169fc071797f07a9c564332590"
     },
     {
       "path": "native\\world-host\\src\\runtime\\ui.rs",
-      "sha256": "904e3d9537a83571ab092124b99fa20f6f9d4cfc4868d74736eb51718276b3d1"
+      "sha256": "e3f4a6258aafc391cde151655e37be7847c0431dae0a583eec7e4c3bc2bfd1e3"
     },
     {
       "path": "native\\world-host\\src\\runtime.rs",
-      "sha256": "5cc10a8ab5742a05e17bd20338d5d1629c85d8785187e0ca2657ae9f1d4c1910"
+      "sha256": "75a3b421e8f6d1b36584e82ea40a2d477923abf14c128d7faa818ce97f2c9fdd"
     }
   ],
   "cargo_lock_sha256": "1af98ef6a549f24cd96be430e6d683d95c2601da5b52dc2d0f25097e2d407f0b",
@@ -98,23 +126,23 @@
   "outputs": [
     {
       "path": "site\\pkg\\native-world\\webizen_world.js",
-      "bytes": 355693,
-      "sha256": "b00de484f6808fb32de874f2fa20ebdb00520ca4b15b66782bece2f8170157e5"
+      "bytes": 358668,
+      "sha256": "283f9e890693d85789874ccd6ac46fbd7ea1e3fe3f3294faa32d846edc600d1c"
     },
     {
       "path": "site\\pkg\\native-world\\webizen_world_bg.wasm",
-      "bytes": 21625060,
-      "sha256": "33773443af31ec31b2d87605435ca99d138125a92fb49df8ffd20ac138473ab1"
+      "bytes": 21726870,
+      "sha256": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c"
     },
     {
       "path": "site\\pkg\\native-world\\webizen_world.d.ts",
-      "bytes": 129306,
-      "sha256": "a0911d0e546a1a1a7ec4ce955ef388f1985b0aeb6f789e57ba29ccc1cb8ebf15"
+      "bytes": 129302,
+      "sha256": "1be1493430d448e63de1408d1addae990fac393400930cf33e855721820a3ecf"
     },
     {
       "path": "site\\pkg\\native-world\\webizen_world_bg.wasm.d.ts",
-      "bytes": 38824,
-      "sha256": "cccc996804ec88942daf5e394f629f6d686a85ab067da1085facc4a7da09bbf1"
+      "bytes": 38820,
+      "sha256": "ae4231ef73c9bba7b3b9c0192c618a37e53a01a6620664c923ed6fda82b9e76d"
     }
   ],
   "runtime_visual_acceptance": "pending browser QA",
@@ -123,11 +151,11 @@
     "identity_kind": "served build identity; browser QA must compare served WASM bytes with this digest",
     "wasm": {
       "url": "/pkg/native-world/webizen_world_bg.wasm",
-      "bytes": 21625060,
-      "sha256": "33773443af31ec31b2d87605435ca99d138125a92fb49df8ffd20ac138473ab1"
+      "bytes": 21726870,
+      "sha256": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c"
     },
-    "generated_loader_sha256": "b00de484f6808fb32de874f2fa20ebdb00520ca4b15b66782bece2f8170157e5",
-    "host_source_fingerprint": "2a24ec5b23e7d2abb57c20281b1d84a986249ee4b31e713165d591e23a3c0577",
+    "generated_loader_sha256": "283f9e890693d85789874ccd6ac46fbd7ea1e3fe3f3294faa32d846edc600d1c",
+    "host_source_fingerprint": "1eddf5af8728e7c0f4ef4d82315ebcdf2adb6d71828e8268a82e13df3921f79c",
     "cargo_lock_sha256": "1af98ef6a549f24cd96be430e6d683d95c2601da5b52dc2d0f25097e2d407f0b",
     "render_provider": {
       "repository": "https://github.com/mediaprophet/etalon.git",
@@ -286,17 +314,30 @@
     },
     "native_core": {
       "repository": "qualiaDB",
-      "revision": "f286b01f9dc194906b021f20679a2b7fd2ea94f2",
-      "tracked_dirty": [],
-      "untracked_source_files": [],
-      "source_fingerprint": "5c963ea8661afb9a039dd6b22198912f38bd9a147b33cbb4e2a68b5aa680e458",
-      "source_file_count": 3874
+      "revision": "5cb8f1f894bd96ceae66a7de6af9bf4405ab0405",
+      "tracked_dirty": [
+        " M crates/qualia-core-db/Cargo.toml",
+        " M crates/qualia-core-db/src/bundle/stream/descriptor/types.rs",
+        " M crates/qualia-core-db/src/bundle/streaming_loader.rs",
+        " M crates/qualia-core-db/src/net/mod.rs",
+        " M crates/qualia-core-db/src/net/qdnf/bearer/local_stream/unix.rs",
+        " M crates/qualia-core-db/src/specialized_libs/computational_geometry/boolean_3.rs",
+        " M crates/qualia-core-db/src/specialized_libs/computational_geometry/boolean_3/bounded.rs",
+        " M crates/qualia-core-db/src/specialized_libs/computational_geometry/boolean_3/conforming.rs"
+      ],
+      "untracked_source_files": [
+        "src/bundle/streaming_loader/ewm_wasm_tests.rs",
+        "src/net/fetch_range_wasm.rs",
+        "src/net/fetch_range_wasm_tests.rs"
+      ],
+      "source_fingerprint": "6f160a91af0cb523789e58ded3d2f3c331d534b06c2dda87d4aaf39e88807a4a",
+      "source_file_count": 3877
     },
     "compiler": "rustc 1.99.1 (58cf8f9c3 2026-10-13)"
   },
   "qualified_bundle": {
-    "path": "site\\pkg\\native-world\\qualified\\dbba446963b9d92f8187b0c7549e06429e02fbcc7c6a6ec593ad9f581b22f7c4",
-    "identity_sha256": "dbba446963b9d92f8187b0c7549e06429e02fbcc7c6a6ec593ad9f581b22f7c4",
+    "path": "site\\pkg\\native-world\\qualified\\7a11aa46440316fcf838ec19abdbb61f4a8ba1b60bd067a833604661cd230955",
+    "identity_sha256": "7a11aa46440316fcf838ec19abdbb61f4a8ba1b60bd067a833604661cd230955",
     "publication": "complete directory renamed into place after checksum verification"
   }
 }

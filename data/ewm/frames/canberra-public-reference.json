@@ -1,0 +1,19 @@
+{
+  "id": "canberra-public-reference",
+  "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+  "realm_class": "physical",
+  "bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+  "elevation_m": [541, 677],
+  "colocated": [
+    {
+      "id": "canberra-public-infosphere",
+      "label": "infosphere",
+      "realm_class": "noosphere",
+      "usri": "urn:omni:v1:noosphere:webizen:public:world/canberra-public-reference",
+      "grounding": "EmpiricallyAnchored",
+      "anchor_iri": "https://webizen.au/world/canberra-public-reference",
+      "journey_iri": "https://webizen.au/journey/southern-tablelands",
+      "families": ["Q42"]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "webizen.ewm-qualification/v1",
+  "locale": "en-AU",
+  "status": "source-complete pending cargo wasm rebuild and browser dual-boot",
+  "streaming_default": false,
+  "inner_ranges": false,
+  "first_paint": {
+    "ids": 10,
+    "bytes": 14632064,
+    "authored_subtotal_bytes": 12685072,
+    "measured_gis_bytes": 1946992,
+    "vertices": 63934,
+    "triangles": 127688,
+    "v1_budget_bytes": 15728640
+  },
+  "bearer": "HTTP Range on static QBDL/HMC whole entries. FetchRangeService::get_range with FallbackPolicy::FORBIDDEN, then whole-entry GET of the published URL. Host SHA-256s arrived bytes against the catalog.",
+  "candidate_origin": {
+    "kind": "pending-producer",
+    "host_bind": "CandidateIdentity::from_parts",
+    "browser_inventory_verifier": false,
+    "note": "Placeholder non-zero SHA-384 four-tuple. InventoryVerifier::finish stays producer-side."
+  },
+  "gis": {
+    "place_id": "canberra-public-reference",
+    "bbox_wsen": [149.06, -35.3, 149.08, -35.28],
+    "join": "Catalog AABB in the Y-up x/z plane plus non-XOR 100 m tiles, radius 80 m, window ≤64. Recorded on the first-paint receipt. Camera-move SelectionIntent recompile is later.",
+    "live_adapters": "default-deny until opt-in",
+    "public_boot_calls_live_adapters": false
+  },
+  "ocs": {
+    "physical_usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+    "infosphere": "RealmClass::Noosphere as a CoLocatedLayer on the public Earth place. No cyber RealmClass."
+  },
+  "download": {
+    "same_as_stream": true,
+    "opfs_wired": false,
+    "method": "sequential browser save of the same SHA-256 identities, 400 ms pause, in-flight lock"
+  },
+  "dual_boot": {
+    "flag_off": "whole-file lush-woodland scene fetch remains",
+    "query": "ewm=1",
+    "independent_of": "gpu-timing=1"
+  },
+  "timeline": "never stored under data/ewm, packages, HMC, Q42, or _site",
+  "utf8": "Host source is UTF-8. Receipts refuse U+FFFD. ASCII is not required.",
+  "wasm": {
+    "ci_budget_bytes": 24641536,
+    "ci_budget_mib": 23.5,
+    "bytes_today": 21726870,
+    "mib_today": 20.72,
+    "sha256_today": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c",
+    "measured_after_ewm_rebuild": true
+  },
+  "hosting_range": {
+    "local_world_server": "Accept-Ranges plus 206 of the requested window",
+    "cloudflare_and_github_pages": "measurement gate; unmeasured in this file. Hosts that ignore Range use whole-entry GET."
+  },
+  "python_tests": "python tests/ewm/run.py from C:\\github\\webizen-website",
+  "cargo": "wasm32-unknown-unknown release world-host built into C:\\github\\webizen-website\\target-production-core-wasm; wasm-bindgen 0.2.129; receipt.py wrote site/pkg/native-world; cargo test -p qualia-core-db --lib fetch_range_wasm: 9 passed",
+  "honest_gaps": [
+    "InventoryVerifier::finish is producer-side; the catalog four-tuple is pending-producer",
+    "Cloudflare and GitHub Pages 206 versus 200 is unmeasured",
+    "GPU triangle total versus declared 127688 is a later browser check",
+    "OPFS offline copy is not wired",
+    "Camera-move SelectionIntent recompile is later; overlapping AABBs are receipt diagnostics in v1 first paint"
+  ]
+}

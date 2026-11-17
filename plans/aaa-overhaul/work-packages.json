@@ -15,6 +15,72 @@
     "One expensive benchmark job per measured device; bounded production trials before large batches",
     "Explicit locks for owning-repository mutations; no overlapping writers"
   ],
+  "ewm_path_lock": {
+    "schema": "webizen.ewm-aaa-path-lock-grant/v1",
+    "source": "plans/ewm/aaa-path-lock-grant.json",
+    "id": "EWM-00",
+    "merged_by": "A00",
+    "applied_by": "ewm-integrator",
+    "wave": "wave-0",
+    "merged": "2026-11-17",
+    "status": "merged",
+    "gate": "EWM may edit native/world-host/** only for a06_carve_outs and integrator_exclusive_for_programme_duration. Later world-host packets are unblocked.",
+    "catalog_home": "schemas/ewm/**",
+    "catalog_not": "native/contracts/**",
+    "gis_consent_home": "data/ewm/**",
+    "timeline_policy": "Timeline.json is never stored under data/ewm, git, _site, HMC, or Q42. Never publish exact campsite coordinates, placeIds, or INFERRED_WORK/home.",
+    "a00_a27_identifiers_untouched": true,
+    "runtime_behaviour_change": false,
+    "a06_carve_outs": [
+      "native/world-host/src/runtime/stream/**",
+      "native/world-host/src/runtime/gis_join.rs",
+      "native/world-host/src/runtime/gis_ingest.rs",
+      "native/world-host/src/runtime/ocs_frames.rs",
+      "native/world-host/src/runtime/consent.rs",
+      "native/world-host/src/runtime/ui/download.rs"
+    ],
+    "integrator_exclusive_for_programme_duration": [
+      {
+        "path": "native/world-host/src/runtime.rs",
+        "why": "Dual-boot bytes() / Range dispatch",
+        "a06": "read-only"
+      },
+      {
+        "path": "native/world-host/src/runtime/boot.rs",
+        "why": "Query parser, scene URL, GPU subset check",
+        "a06": "read-only"
+      },
+      {
+        "path": "native/world-host/src/lib.rs",
+        "why": "wasm start",
+        "a06": "read-only"
+      },
+      {
+        "path": "native/world-host/Cargo.toml",
+        "why": "web-sys / features",
+        "a06": "read-only"
+      }
+    ],
+    "a06_on_integrator_parents": "A06 may read; writes go through the EWM integrator while EWM PRs are in flight. A06 keeps world/runtime/** and remaining non-stream world-host modules.",
+    "a06_remaining_exclusive": [
+      "native/world-host/** except EWM exclusive modules and integrator parents listed above",
+      "world/runtime/**"
+    ],
+    "data_ewm_vs_a02": {
+      "ewm": [
+        "data/ewm/gis/places/** (EWM-04)",
+        "data/ewm/gis/ingest/** (EWM-04b)",
+        "data/ewm/frames/** (EWM-11)",
+        "data/ewm/consent/** (EWM-07)",
+        "data/ewm/first-paint.json (EWM-00)"
+      ],
+      "a02_untouched": [
+        "data/catalogue/**",
+        "data/acquisition/**",
+        "data/publications/**"
+      ]
+    }
+  },
   "packages": [
     {
       "id": "A00",
@@ -28,11 +94,13 @@
       ],
       "deliverables": [
         "Pinned route, feature, dataset, module, test and benchmark identities",
-        "Rejected-preview evidence and preservation policy"
+        "Rejected-preview evidence and preservation policy",
+        "Merged EWM-00 AAA path-lock grant: A06 carve-outs including ocs_frames.rs; integrator parents boot.rs/runtime.rs/lib.rs/Cargo.toml exclusive for programme duration (A06 read-only); schemas/ewm not native/contracts; data/ewm including frames vs A02"
       ],
       "acceptance": [
         "Every source entry has a disposition and owner; source counts are not claimed as demo counts",
-        "Legacy links and iframes never close a migration record"
+        "Legacy links and iframes never close a migration record",
+        "ewm_path_lock records A06 carve-outs and integrator parents; A00-A27 identifiers untouched"
       ],
       "reviewer": "Independent specialist plus integrator; visual proofs also reviewed by user",
       "branch": "codex/aaa-a00",
@@ -88,6 +156,10 @@
         "data/acquisition/**",
         "data/publications/**"
       ],
+      "owned_paths_exclude": [
+        "data/ewm/**"
+      ],
+      "ewm_note": "EWM GIS, consent, frames, and first-paint live under data/ewm/**. Do not put those under A02 trees. EWM-03 copies (does not edit) the Canberra DEM publication into /packages/.",
       "deliverables": [
         "Dataset/fixture dependency closure including embedded and fetched data",
         "Native normalisation, provenance, versioning and bounded complete retrieval",
@@ -121,6 +193,10 @@
         "instruments/contracts/**",
         "schemas/aaa/**"
       ],
+      "owned_paths_exclude": [
+        "schemas/ewm/**"
+      ],
+      "ewm_note": "EWM catalog lives in schemas/ewm/**. Do not create native/contracts/** for EWM.",
       "deliverables": [
         "Q42/Vibe/native host and service interfaces",
         "Versioned dataset/run/asset/observer/locale contracts",
@@ -216,6 +292,19 @@
         "native/world-host/**",
         "world/runtime/**"
       ],
+      "owned_paths_exclude": [
+        "native/world-host/src/runtime/stream/**",
+        "native/world-host/src/runtime/gis_join.rs",
+        "native/world-host/src/runtime/gis_ingest.rs",
+        "native/world-host/src/runtime/ocs_frames.rs",
+        "native/world-host/src/runtime/consent.rs",
+        "native/world-host/src/runtime/ui/download.rs",
+        "native/world-host/src/runtime.rs",
+        "native/world-host/src/runtime/boot.rs",
+        "native/world-host/src/lib.rs",
+        "native/world-host/Cargo.toml"
+      ],
+      "ewm_on_integrator_parents": "A06 may read; writes go through the EWM integrator while EWM PRs are in flight. A06 keeps world/runtime/** and remaining non-stream world-host modules.",
       "deliverables": [
         "Bounded native instance/batch/LOD residency",
         "Cross-scale navigation, picking, motion and recovery",

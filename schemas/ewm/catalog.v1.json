@@ -1,0 +1,741 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://webizen.au/schemas/ewm/catalog.v1.json",
+  "title": "webizen.ewm-catalog/v1",
+  "description": "Explorable World Model streaming catalog. CandidateIdentity is the InventoryVerifier four-tuple (descriptor_sha384, context_sha384, generation, entries), copied by the producer and bound on the host via CandidateIdentity::from_parts. A single-hex candidate digest is insufficient. Catalog lives under schemas/ewm, not native/contracts. v1 inner_ranges is false. Windowed Schedule never compiles more than 64 live PlanEntry / 64 RecordUnit. RecordUnit leaf 0 with planner_region null means fetch and admit the whole inner file. Browser never runs InventoryVerifier::finish. ewm=1 is independent of gpu-timing=1. Production streaming.default is false until EWM-08. flag.rs is EWM-09. Operator location-history exports, vendor place identifiers, and inferred-work labels are forbidden. Do not invent a RealmClass named cyber.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "pack_id",
+    "inner_ranges",
+    "places",
+    "candidate",
+    "first_paint",
+    "entries",
+    "streaming"
+  ],
+  "propertyNames": {
+    "type": "string",
+    "not": {
+      "enum": [
+        "candidate_sha384",
+        "Timeline.json",
+        "placeIds",
+        "placeId",
+        "INFERRED_WORK"
+      ]
+    }
+  },
+  "properties": {
+    "schema": {
+      "const": "webizen.ewm-catalog/v1"
+    },
+    "pack_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,127}$"
+    },
+    "inner_ranges": {
+      "const": false,
+      "description": "v1 admits whole entries only. Host must not call verify_leaf_span or plan_10d_interior_section_ranges."
+    },
+    "places": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Place"
+      }
+    },
+    "candidate": {
+      "$ref": "#/$defs/CandidateIdentity",
+      "description": "Producer-side InventoryVerifier four-tuple. Host binds via from_parts after hashing the catalog pointer. Not a single hex."
+    },
+    "candidate_origin": {
+      "$ref": "#/$defs/CandidateOrigin"
+    },
+    "shards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Shard"
+      }
+    },
+    "first_paint": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "description": "Live first-paint window. Must not exceed MAX_PLAN_ENTRIES (64). May be smaller than candidate.entries.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "enhancement_not_first_paint": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/IdBytes"
+      }
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/Entry"
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Edge"
+      }
+    },
+    "streaming": {
+      "$ref": "#/$defs/StreamingFlags"
+    },
+    "windowed_inventory": {
+      "$ref": "#/$defs/WindowedInventory"
+    },
+    "declared_subset": {
+      "$ref": "#/$defs/DeclaredSubset"
+    },
+    "wasm_budget": {
+      "$ref": "#/$defs/WasmBudgetRef"
+    }
+  },
+  "$defs": {
+    "Hex64": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "Hex96": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{96}$",
+      "not": {
+        "const": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "description": "SHA-384 hex. StrongDigest::is_zero is rejected by from_parts."
+    },
+    "SceneId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,127}$"
+    },
+    "PublicIri": {
+      "type": "string",
+      "pattern": "^https://webizen\\.au/(world|journey)/[a-z0-9][a-z0-9._/-]{0,253}$"
+    },
+    "Usri": {
+      "type": "string",
+      "pattern": "^urn:omni:v1:[a-z0-9][a-z0-9:._/-]{0,253}$"
+    },
+    "RealmClass": {
+      "enum": [
+        "physical",
+        "theorized",
+        "quantum-branch",
+        "hypothetical",
+        "fiction",
+        "simulation",
+        "phenomenology",
+        "noosphere",
+        "narrative",
+        "microverse"
+      ],
+      "description": "OCS v2.2.0 RealmClass. Do not invent cyber."
+    },
+    "EpistemicClass": {
+      "enum": [
+        "measured-gis",
+        "authored-artwork"
+      ]
+    },
+    "EntryFamily": {
+      "enum": [
+        "TenD",
+        "Q42",
+        "Emf",
+        "Qac",
+        "M64",
+        "P64",
+        "Opaque"
+      ]
+    },
+    "RepresentationClass": {
+      "enum": [
+        "Control",
+        "Metadata",
+        "Base",
+        "Enhancement",
+        "Alternative"
+      ]
+    },
+    "Obligation": {
+      "enum": [
+        "Mandatory",
+        "Optional"
+      ]
+    },
+    "Vec3": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "number"
+      }
+    },
+    "TileXy": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "Non-XOR (ix, iy) = (floor(x/100), floor(z/100)) in the place display frame. Y-up horizontal plane is x/z.",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "BboxWsen": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "Named public place extent, west/south/east/north in the declared CRS. Not a personal campsite pin.",
+      "items": {
+        "type": "number"
+      }
+    },
+    "CandidateIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "descriptor_sha384",
+        "context_sha384",
+        "generation",
+        "entries"
+      ],
+      "propertyNames": {
+        "enum": [
+          "descriptor_sha384",
+          "context_sha384",
+          "generation",
+          "entries"
+        ]
+      },
+      "properties": {
+        "descriptor_sha384": {
+          "$ref": "#/$defs/Hex96"
+        },
+        "context_sha384": {
+          "$ref": "#/$defs/Hex96"
+        },
+        "generation": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "entries": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Full candidate entry_count. Windowed Inventory::compile may use entries.len() != this value."
+        }
+      }
+    },
+    "CandidateOrigin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "host_bind",
+        "browser_inventory_verifier"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "pending-producer",
+            "inventory-verifier-finish"
+          ]
+        },
+        "host_bind": {
+          "const": "CandidateIdentity::from_parts"
+        },
+        "browser_inventory_verifier": {
+          "const": false
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "StreamingFlags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "default",
+        "query_token",
+        "query_independent_of",
+        "canvas_attribute",
+        "canvas_enable_value"
+      ],
+      "description": "ewm.streaming flag semantics. Schema only; production helper flag.rs is EWM-09. Enabling is OR of ewm=1, canvas data-ewm-streaming=1, or streaming.default true.",
+      "properties": {
+        "default": {
+          "type": "boolean",
+          "description": "Production default false until EWM-08 evidence and user accept."
+        },
+        "query_token": {
+          "const": "ewm=1",
+          "description": "Parsed independently of gpu-timing=1 in the same split('&') loop."
+        },
+        "query_independent_of": {
+          "const": "gpu-timing=1"
+        },
+        "canvas_attribute": {
+          "const": "data-ewm-streaming"
+        },
+        "canvas_enable_value": {
+          "const": "1"
+        },
+        "production_helper": {
+          "const": "native/world-host/src/runtime/stream/flag.rs"
+        },
+        "production_helper_owner": {
+          "const": "EWM-09"
+        }
+      }
+    },
+    "WindowedInventory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "max_plan_entries",
+        "max_schedule_items",
+        "record_unit_leaf",
+        "planner_region",
+        "compile_window_may_differ_from_candidate_entry_count",
+        "browser_inventory_verifier",
+        "host_bind"
+      ],
+      "properties": {
+        "max_plan_entries": {
+          "const": 64
+        },
+        "max_schedule_items": {
+          "const": 64
+        },
+        "first_paint_window": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        },
+        "candidate_entry_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "record_unit_leaf": {
+          "const": 0
+        },
+        "planner_region": {
+          "type": "null",
+          "description": "v1 SelectionIntent.region is None. GIS bbox is never a planner Region."
+        },
+        "means": {
+          "const": "fetch and admit the whole inner file"
+        },
+        "compile_window_may_differ_from_candidate_entry_count": {
+          "const": true
+        },
+        "browser_inventory_verifier": {
+          "const": false
+        },
+        "host_bind": {
+          "const": "CandidateIdentity::from_parts"
+        }
+      }
+    },
+    "DeclaredSubset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ids",
+        "bytes",
+        "v1_budget_bytes"
+      ],
+      "properties": {
+        "ids": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "authored_subtotal_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "measured_gis_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "vertices": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "triangles": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "v1_budget_bytes": {
+          "const": 15728640,
+          "description": "15 MiB whole-entry declared subset. 8 MiB is a later-track inner-range aspiration."
+        }
+      }
+    },
+    "WasmBudgetRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bytes_today",
+        "ci_budget_bytes"
+      ],
+      "properties": {
+        "bytes_today": {
+          "const": 21625218
+        },
+        "mib_today": {
+          "const": 20.63
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hex64"
+        },
+        "ci_budget_mib": {
+          "const": 23.5
+        },
+        "ci_budget_bytes": {
+          "const": 24641536
+        }
+      }
+    },
+    "IdBytes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "bytes"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "epistemic_class": {
+          "$ref": "#/$defs/EpistemicClass"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "Place": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "crs",
+        "datum",
+        "bbox_wsen",
+        "not_personal_campsite",
+        "journey_chapter",
+        "usri",
+        "realm_class",
+        "colocated"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "journey_chapter": {
+          "enum": [
+            "southern-tablelands",
+            "south-coast",
+            "high-country",
+            "riverina",
+            "central-victoria",
+            "western-slopes",
+            "northern-rivers"
+          ]
+        },
+        "not_personal_campsite": {
+          "const": true
+        },
+        "crs": {
+          "const": "EPSG:4326"
+        },
+        "datum": {
+          "const": "WGS84"
+        },
+        "bbox_wsen": {
+          "$ref": "#/$defs/BboxWsen"
+        },
+        "dem_zoom": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 15
+        },
+        "elevation_m": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number"
+          }
+        },
+        "gis_terrain_id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "authored_ground_id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "usri": {
+          "$ref": "#/$defs/Usri"
+        },
+        "realm_class": {
+          "const": "physical"
+        },
+        "colocated": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/CoLocatedLayer"
+          }
+        }
+      }
+    },
+    "CoLocatedLayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label",
+        "realm_class",
+        "usri",
+        "grounding",
+        "anchor_iri",
+        "families"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "label": {
+          "const": "infosphere",
+          "description": "en-AU presentation label. Coordinate class is Noosphere, not a RealmClass named cyber."
+        },
+        "realm_class": {
+          "const": "noosphere"
+        },
+        "usri": {
+          "$ref": "#/$defs/Usri"
+        },
+        "grounding": {
+          "const": "EmpiricallyAnchored"
+        },
+        "anchor_iri": {
+          "$ref": "#/$defs/PublicIri"
+        },
+        "journey_iri": {
+          "$ref": "#/$defs/PublicIri"
+        },
+        "families": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/EntryFamily"
+          }
+        }
+      }
+    },
+    "Shard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "url",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "id": {
+          "enum": [
+            "control",
+            "base",
+            "enhancement",
+            "deferred"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^/packages/"
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hex64"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 25165824
+        },
+        "crc32c": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{8}$"
+        },
+        "etag": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "Aabb": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "min",
+        "max"
+      ],
+      "description": "AABB in the place display frame (ENU metres, up +Y). Not a lon/lat bbox and not a planner Region.",
+      "properties": {
+        "min": {
+          "$ref": "#/$defs/Vec3"
+        },
+        "max": {
+          "$ref": "#/$defs/Vec3"
+        }
+      }
+    },
+    "Entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entry_id",
+        "scene_id",
+        "place_id",
+        "epistemic_class",
+        "family",
+        "family_from",
+        "role",
+        "obligation",
+        "sha256",
+        "bytes",
+        "planner_region"
+      ],
+      "properties": {
+        "entry_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "scene_id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "place_id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "epistemic_class": {
+          "$ref": "#/$defs/EpistemicClass"
+        },
+        "family": {
+          "$ref": "#/$defs/EntryFamily"
+        },
+        "family_from": {
+          "const": "inner-magic"
+        },
+        "role": {
+          "$ref": "#/$defs/RepresentationClass"
+        },
+        "obligation": {
+          "$ref": "#/$defs/Obligation"
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hex64"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "vertices": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "triangles": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^/(packages|production)/"
+        },
+        "source_publication": {
+          "type": "string",
+          "pattern": "^data/publications/",
+          "description": "Provenance pointer. A02 data/publications remains read-only."
+        },
+        "shard": {
+          "enum": [
+            "control",
+            "base",
+            "enhancement",
+            "deferred"
+          ]
+        },
+        "aabb": {
+          "$ref": "#/$defs/Aabb"
+        },
+        "tiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TileXy"
+          }
+        },
+        "planner_region": {
+          "type": "null"
+        }
+      }
+    },
+    "Edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from_entry_id",
+        "to_entry_id",
+        "reason",
+        "obligation"
+      ],
+      "properties": {
+        "from_entry_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "to_entry_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "reason": {
+          "enum": [
+            "Frame",
+            "Calibration",
+            "Clock",
+            "Geometry",
+            "Query"
+          ]
+        },
+        "obligation": {
+          "$ref": "#/$defs/Obligation"
+        }
+      }
+    }
+  }
+}

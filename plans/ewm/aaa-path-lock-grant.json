@@ -1,0 +1,186 @@
+{
+  "schema": "webizen.ewm-aaa-path-lock-grant/v1",
+  "id": "EWM-00",
+  "title": "AAA path-lock grant for A00 handshake",
+  "date": "2026-11-17",
+  "locale": "en-AU",
+  "status": "merged; Wave 0 ewm-integrator applied ewm_path_lock into plans/aaa-overhaul/work-packages.json as the A00 handshake",
+  "gate": "No EWM PR may edit native/world-host/** until this grant is merged into plans/aaa-overhaul/work-packages.json.",
+  "merged_by": "ewm-integrator (A00 handshake)",
+  "merged_into": "webizen-website/plans/aaa-overhaul/work-packages.json",
+  "draft_owned_by": "EWM-00",
+  "draft_path": "webizen-website/plans/ewm/aaa-path-lock-grant.json",
+  "a00_a27_identifiers_untouched": true,
+  "runtime_behaviour_change": false,
+  "catalog_home": "webizen-website/schemas/ewm/**",
+  "catalog_not": "native/contracts/**",
+  "gis_consent_home": "webizen-website/data/ewm/**",
+  "timeline_policy": "Timeline.json is never stored under data/ewm, git, _site, HMC, or Q42. Never publish exact campsite coordinates, placeIds, or INFERRED_WORK/home.",
+  "handshake": {
+    "A00": {
+      "exclusive_paths": [
+        "plans/aaa-overhaul/**"
+      ],
+      "action": "Wave 0 ewm-integrator applies ewm_path_lock as the A00 handshake. A00-A27 identifiers stay."
+    },
+    "A02": {
+      "exclusive_paths": [
+        "data/catalogue/**",
+        "data/acquisition/**",
+        "data/publications/**"
+      ],
+      "ewm_must_not": "Do not put EWM GIS, consent, frames, or first-paint under A02 trees. Copy (do not edit) the Canberra DEM publication into /packages/ in EWM-03."
+    },
+    "A03": {
+      "exclusive_paths": [
+        "native/contracts/**",
+        "instruments/contracts/**",
+        "schemas/aaa/**"
+      ],
+      "ewm_must_not": "EWM catalog lives in schemas/ewm/**. Do not create native/contracts/** for EWM."
+    },
+    "A06": {
+      "remaining_exclusive_after_grant": [
+        "native/world-host/** except EWM exclusive modules and integrator parents listed below",
+        "world/runtime/**"
+      ],
+      "on_integrator_parents": "A06 may read; writes go through the EWM integrator while EWM PRs are in flight. A06 keeps world/runtime/** and remaining non-stream world-host modules."
+    }
+  },
+  "a06_carve_outs": [
+    "native/world-host/src/runtime/stream/**",
+    "native/world-host/src/runtime/gis_join.rs",
+    "native/world-host/src/runtime/gis_ingest.rs",
+    "native/world-host/src/runtime/ocs_frames.rs",
+    "native/world-host/src/runtime/consent.rs",
+    "native/world-host/src/runtime/ui/download.rs"
+  ],
+  "ewm_exclusive_after_grant": [
+    {
+      "path": "native/world-host/src/runtime/stream/** except flag.rs",
+      "owner": "EWM-02"
+    },
+    {
+      "path": "native/world-host/src/runtime/stream/flag.rs",
+      "owner": "EWM-09"
+    },
+    {
+      "path": "native/world-host/src/runtime/gis_join.rs",
+      "owner": "EWM-04"
+    },
+    {
+      "path": "native/world-host/src/runtime/gis_ingest.rs",
+      "owner": "EWM-04b"
+    },
+    {
+      "path": "native/world-host/src/runtime/ocs_frames.rs",
+      "owner": "EWM-11"
+    },
+    {
+      "path": "native/world-host/src/runtime/consent.rs",
+      "owner": "EWM-07"
+    },
+    {
+      "path": "native/world-host/src/runtime/ui/download.rs",
+      "owner": "EWM-06"
+    },
+    {
+      "path": "schemas/ewm/**",
+      "owner": "EWM-00"
+    },
+    {
+      "path": "data/ewm/gis/places/**",
+      "owner": "EWM-04"
+    },
+    {
+      "path": "data/ewm/gis/ingest/**",
+      "owner": "EWM-04b"
+    },
+    {
+      "path": "data/ewm/frames/**",
+      "owner": "EWM-11"
+    },
+    {
+      "path": "data/ewm/consent/**",
+      "owner": "EWM-07"
+    },
+    {
+      "path": "data/ewm/first-paint.json",
+      "owner": "EWM-00"
+    },
+    {
+      "path": "packages/qbdl/**",
+      "owner": "EWM-03"
+    },
+    {
+      "path": "packages/download/**",
+      "owner": "EWM-06"
+    },
+    {
+      "path": "packages/current.json",
+      "owner": "EWM-10"
+    },
+    {
+      "path": "plans/ewm/**",
+      "owner": "EWM-00"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "owner": "EWM-05"
+    }
+  ],
+  "integrator_exclusive_for_programme_duration": [
+    {
+      "path": "native/world-host/src/runtime.rs",
+      "why": "Dual-boot bytes() / Range dispatch",
+      "a06": "read-only"
+    },
+    {
+      "path": "native/world-host/src/runtime/boot.rs",
+      "why": "Query parser, scene URL, GPU subset check",
+      "a06": "read-only"
+    },
+    {
+      "path": "native/world-host/src/lib.rs",
+      "why": "wasm start",
+      "a06": "read-only"
+    },
+    {
+      "path": "native/world-host/Cargo.toml",
+      "why": "web-sys / features",
+      "a06": "read-only"
+    }
+  ],
+  "integrator_exclusive_engine_parents": [
+    {
+      "path": "qualiaDB/crates/qualia-core-db/src/net/mod.rs",
+      "why": "fetch_range_wasm cfg export"
+    },
+    {
+      "path": "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader.rs",
+      "why": "one-line #[path] for EWM-01b tests"
+    },
+    {
+      "path": "qualiaDB/crates/qualia-core-db/src/bundle/stream/descriptor/types.rs",
+      "why": "CandidateIdentity::from_parts"
+    }
+  ],
+  "data_ewm_vs_a02": {
+    "ewm": [
+      "data/ewm/gis/places/** (EWM-04)",
+      "data/ewm/gis/ingest/** (EWM-04b)",
+      "data/ewm/frames/** (EWM-11)",
+      "data/ewm/consent/** (EWM-07)",
+      "data/ewm/first-paint.json (EWM-00)"
+    ],
+    "a02_untouched": [
+      "data/catalogue/**",
+      "data/acquisition/**",
+      "data/publications/**"
+    ]
+  },
+  "never_create_for_ewm": [
+    "native/contracts/**",
+    "native/world-host/src/runtime/stream/flag.rs (until EWM-09 / PR12)"
+  ]
+}

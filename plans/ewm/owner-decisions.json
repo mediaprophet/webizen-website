@@ -1,0 +1,14 @@
+{
+  "schema": "webizen.ewm-owner-decisions/v1",
+  "date": "2026-11-17",
+  "locale": "en-AU",
+  "status": "resolved; no unanswered product questions",
+  "Q1_bearer": "HTTP Range on static QBDL/HMC for v1. Do not wait for wasm QDNF ProtectedSession.",
+  "Q2_locality": "Model on GIS so GIS datasets provide terrain. Slice 1 is named public places (Canberra public-reference DEM + lush-woodland field studio in that locality). Overrides woodland-metres-only.",
+  "Q3_gis_phases": "Named sealed places for first paint; other GIS via explicit bounded ingest job. Live GBIF parse deferred. Default-deny https:// GIS hosts until opt-in.",
+  "Q4_portal_unload": "rebuild-from-resident-set; PR10 not required for v1",
+  "Q5_q42": "Q42 is the knowledge volume (what this place is). Keep whole-volume bytes() fetch, 16 MiB cap. Single-visitor public site. Do not block v1 on a 1 MiB ranged spine.",
+  "Q6_same_origin": "PR1 engine bypass for /packages/ and /production/. EWM-07 ewm_static is audit. Ingest stays default-deny until opt-in.",
+  "Q7_cosmic_infosphere": "Use existing OCS v2.2.0. Infosphere is a Noosphere co-located layer on Physical Earth places (cyber-space associated with people in places). Do not invent RealmClass cyber. EWM-11.",
+  "Q8_timeline": "Timeline.json is the development-path locality source as a local producer input. Public path is sanitised journey.json seven chapters. Never copy Timeline into the repo or packs."
+}

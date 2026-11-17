@@ -1,0 +1,853 @@
+{
+  "schema": "webizen.explorable-world-model-work-packets/v1",
+  "revision": 4,
+  "date": "2026-11-17",
+  "default_locale": "en-AU",
+  "status": "revision 4; owner decisions 2026-11-17 (GIS + cosmic/infosphere co-location + Timeline producer-only); specialised programme beside AAA overhaul; no implementation acceptance implied",
+  "id_series": "EWM",
+  "id_collision_policy": "EWM-00+ must not reuse A00-A27 or N01-N09",
+  "related_aaa_packages": ["A00", "A02", "A03", "A06", "A07", "A14", "A05", "A09", "A21"],
+  "aaa_boundary": "Does not replace plans/aaa-overhaul. A06 keeps generic LOD/instancing/interaction outside the carved EWM modules. A14 keeps QDNF/infosphere demos. EWM owns HTTP Range on QBDL, windowed Schedule join, GIS AABB/non-XOR tile mapping, OCS Noosphere co-location, downloadable packs with shared identities.",
+  "aaa_path_lock": {
+    "gate": "No EWM PR may edit native/world-host/** until Wave 0 integrator applies the grant into plans/aaa-overhaul/work-packages.json (A00 handshake).",
+    "draft_owned_by": "EWM-00",
+    "draft_path": "webizen-website/plans/ewm/aaa-path-lock-grant.json",
+    "merged_by": "ewm-integrator (A00 handshake)",
+    "merged_into": "webizen-website/plans/aaa-overhaul/work-packages.json",
+    "a06_carve_outs": [
+      "native/world-host/src/runtime/stream/**",
+      "native/world-host/src/runtime/gis_join.rs",
+      "native/world-host/src/runtime/gis_ingest.rs",
+      "native/world-host/src/runtime/ocs_frames.rs",
+      "native/world-host/src/runtime/consent.rs",
+      "native/world-host/src/runtime/ui/download.rs"
+    ],
+    "integrator_exclusive_for_programme_duration": [
+      "native/world-host/src/runtime.rs",
+      "native/world-host/src/runtime/boot.rs",
+      "native/world-host/src/lib.rs",
+      "native/world-host/Cargo.toml"
+    ],
+    "a06_on_integrator_parents": "A06 may read; writes go through the EWM integrator while EWM PRs are in flight. A06 keeps world/runtime/** and remaining non-stream world-host modules.",
+    "catalog_home": "webizen-website/schemas/ewm/** (not native/contracts/**; A03 owns native/contracts/** and schemas/aaa/**)",
+    "gis_consent_home": "webizen-website/data/ewm/** (places EWM-04, ingest EWM-04b, frames EWM-11, consent EWM-07; not A02 data/catalogue/** or data/publications/**). Timeline.json is never stored under data/ewm."
+  },
+  "repositories": {
+    "webizen-website": "C:/github/webizen-website",
+    "qualiaDB": "C:/github/qualiaDB",
+    "synth": "C:/github/synth",
+    "ecopunk": "C:/github/ecopunk"
+  },
+  "max_active_specialists": 3,
+  "integrator_slots": 1,
+  "shared_file_owner": "ewm-integrator",
+  "integrator_exclusive_paths": [
+    "webizen-website/native/world-host/src/runtime.rs",
+    "webizen-website/native/world-host/src/runtime/boot.rs",
+    "webizen-website/native/world-host/src/lib.rs",
+    "webizen-website/native/world-host/Cargo.toml",
+    "qualiaDB/crates/qualia-core-db/src/net/mod.rs",
+    "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader.rs",
+    "qualiaDB/crates/qualia-core-db/src/bundle/stream/descriptor/types.rs",
+    "webizen-website/publication/current.json"
+  ],
+  "single_file_owners": {
+    "webizen-website/wrangler.jsonc": "EWM-05",
+    "webizen-website/native/world-host/src/runtime/stream/flag.rs": "EWM-09",
+    "webizen-website/packages/current.json": "EWM-10"
+  },
+  "first_paint": {
+    "fixture": "webizen-website/data/ewm/first-paint.json",
+    "source": "production/lush-woodland/scene.json",
+    "v1_budget_bytes": 15728640,
+    "v1_budget_note": "≤15 MiB whole-entry declared subset including measured GIS terrain. 8 MiB is a later-track inner-range aspiration. habitat-terrain is authored-artwork (8,723,576); canberra-reference-terrain is measured GIS (1,946,992).",
+    "sum_bytes": 14632064,
+    "sum_mib": 13.96,
+    "authored_subtotal_bytes": 12685072,
+    "place": {
+      "id": "canberra-public-reference",
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+      "not_personal_campsite": true,
+      "journey_chapter": "southern-tablelands",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "colocated_infosphere_realm_class": "noosphere"
+    },
+    "ids": [
+      {"id": "canberra-reference-terrain", "bytes": 1946992, "epistemic_class": "measured-gis", "role": "Public Canberra DEM window; 1:30 Y-up display model", "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de", "url": "/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de", "source_publication": "data/publications/aaa/terrain-model-v2/reference-terrain-model.10d"},
+      {"id": "habitat-terrain", "bytes": 8723576, "epistemic_class": "authored-artwork", "role": "Vibe habitat mesh; fictional catchment, not measured land cover"},
+      {"id": "prototype-eucalyptus-lush-mid", "bytes": 1036928, "epistemic_class": "authored-artwork", "role": "Canopy stand-in"},
+      {"id": "car-passat-b7--gold", "bytes": 880696, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"},
+      {"id": "car-passat-b7--glass", "bytes": 435736, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"},
+      {"id": "car-passat-b7--chrome", "bytes": 1100272, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"},
+      {"id": "vintage-windup-camper--chassis", "bytes": 97240, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"},
+      {"id": "vintage-windup-camper--enamel", "bytes": 291320, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"},
+      {"id": "solar-array-three--panel", "bytes": 57976, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"},
+      {"id": "starlink-mini--dish-front", "bytes": 61328, "epistemic_class": "authored-artwork", "role": "Campsite silhouette"}
+    ],
+    "enhancement_not_first_paint": [
+      {"id": "prototype-eucalyptus-lush-near", "bytes": 11470616}
+    ],
+    "desktop_whole_pack": {"assets": 77, "bytes": 58637584},
+    "mobile_whole_pack": {"assets": 76, "bytes": 47166968, "vertices": 170178, "triangles": 309098, "expanded": 1646594, "ecology": 230, "instances": 298}
+  },
+  "scheduling": "Wave graph is authoritative. At most three specialists plus one integrator live. EWM-01b is the same specialist as EWM-01, sequential, not a fourth live slot. Specialists write NEW modules; integrator routes parent files. QualiaDB engine changes land before website consumption. No native/world-host PR until A00 merges the path-lock grant. Do not enable production streaming.default until EWM-08 evidence and user accept. PR10 (unload_scene_parts) is not in the v1 merge train.",
+  "execution_rules": [
+    "Native Rust/WASM only; generated wasm-bindgen loader; no authored JS scene, camera, scheduler or GIS query",
+    "Reuse QualiaDB APIs; do not fork codecs, invent HLS/DASH/WebTorrent, or a second graph",
+    "Do not rewrite QBDL into an interleaved AV mux",
+    "Do not wrap q42/volume HttpRangeSource; use Q42AuthenticatedRangeSource / Q42RangeVolume later; v1 Q42 spine is whole-file bytes()",
+    "Do not silently claim a complete Q42 query from a partial range",
+    "ZIP .hmc is not a streaming target; dispatch on QBDL magic",
+    "Website must not implement bytes_range; engine Range belongs in qualiaDB FetchRangeService (wasm transport only)",
+    "Adopt HmcProgressiveRangePlanner + verify_arrived_range for whole-entry SHA-256; reject section CRC-32C as partial proof",
+    "v1 inner_ranges:false; RecordUnit leaf 0 with region None means fetch and admit the whole inner file",
+    "Windowed Schedule: never compile more than MAX_PLAN_ENTRIES/MAX_SCHEDULE_ITEMS (64) live entries",
+    "CandidateIdentity is the InventoryVerifier four-tuple, not a single hex",
+    "GPU v1 = rebuild-from-resident-set via load_scene_assets; triangle check vs declared subset; PR10 not required for v1",
+    "Split pins: shard ETag vs entry SHA-256; 200 fallback only if FallbackPolicy explicit AND body.len() <= 1 MiB; else full GET of published whole-entry files",
+    "Keep lush-woodland whole-file boot until streaming is proven; fail closed to reading view",
+    "Art review is a separate gate; streaming success is not visual acceptance",
+    "Public packs Commons-permitted; no exact campsite coordinates or raw Timeline. Bind the field studio to the Canberra public DEM window (bbox_wsen 149.06,-35.30,149.08,-35.28); do not invent a private pin.",
+    "Coordinate truth is GIS named places. habitat-terrain is authored-artwork; canberra-reference-terrain is measured-gis. Both may be first-paint for the same place.",
+    "Two-phase GIS: sealed members inside a named place; other GIS via EWM-04b bounded ingest job (native-first, consent-gated). Live GBIF JSON parse stays deferred. No silent camera-tick scrape.",
+    "v1 Q42 is the whole knowledge volume via bytes() (16 MiB cap). Single-visitor public site; do not block on a tiny ranged spine.",
+    "Cosmic OCS is the parent of GIS. Infosphere/cyber-space v1 is a Noosphere CoLocatedLayer on Physical Earth WGS84. Do not invent RealmClass cyber. RDF holograph is the visual; OCS co-location is the coordinate contract. Camera zoom is not a scale demonstration.",
+    "Timeline.json stays a local producer input. Never copy it into webizen-website, git, _site, HMC, or Q42. Never publish exact coordinates, placeIds, or INFERRED_WORK/home. Public development path is webizen.journey/v1 seven chapters (Nov 2025–Oct 2026) plus Canberra public DEM and field studio.",
+    "Same-origin static: FetchRangeService::get_range (EWM-01/PR1) skips the empty fail-closed registry for same-origin /packages/ and /production/; live GIS default-deny. PR6a does not wait for EWM-07/PR8. EWM-07 still registers ewm_static as the auditable catalog.",
+    "v1 does not run InventoryVerifier in the browser. CandidateIdentity::from_parts (EWM-01b, integrator types.rs) copies the producer-side four-tuple. InventoryVerifier::finish requires QASD BodyView + sealed entry pages; EWM-03 does not ship those as a browser control-shard.",
+    "EWM-01b tests live at bundle/streaming_loader/ewm_wasm_tests.rs and are compiled only via an integrator #[path] in streaming_loader.rs",
+    "Wasm offline is download-to-disk / later OPFS, not file://",
+    "Family from inner magic after packing; host re-checks on admit and fails closed on mismatch",
+    "ewm=1 is parsed independently of gpu-timing=1",
+    "Range hosting is a measurement gate including GitHub Pages /webizen-website/",
+    "Wasm served size budget 23.5 MiB (today 21,625,218 bytes = 20.63 MiB); CI fail if exceeded",
+    "File-disjoint specialists; explicit locks on integrator-owned files; one owner for wrangler.jsonc and flag.rs",
+    "One heavy qualia-core-db rustc into default target/ at a time"
+  ],
+  "owner_decisions": {
+    "date": "2026-11-17",
+    "Q1_bearer": "HTTP Range on static QBDL/HMC for v1. Do not wait for wasm QDNF ProtectedSession.",
+    "Q2_locality": "Model on GIS so GIS datasets provide terrain. Slice 1 is named public places (Canberra public-reference DEM + lush-woodland field studio in that locality). Overrides woodland-metres-only.",
+    "Q3_gis_phases": "Named sealed places for first paint; other GIS via explicit bounded ingest job. Live GBIF parse deferred. Default-deny https:// GIS hosts until opt-in.",
+    "Q4_portal_unload": "rebuild-from-resident-set; PR10 not required for v1",
+    "Q5_q42": "Q42 is the knowledge volume (what this place is). Keep whole-volume bytes() fetch, 16 MiB cap. Single-visitor public site. Do not block v1 on a 1 MiB ranged spine.",
+    "Q6_same_origin": "PR1 engine bypass for /packages/ and /production/. EWM-07 ewm_static is audit. Ingest stays default-deny until opt-in.",
+    "Q7_cosmic_infosphere": "Use existing OCS v2.2.0. Infosphere is a Noosphere co-located layer on Physical Earth places (cyber-space associated with people in places). Do not invent RealmClass cyber. EWM-11.",
+    "Q8_timeline": "Timeline.json is the development-path locality source as a local producer input. Public path is sanitised journey.json seven chapters. Never copy Timeline into the repo or packs."
+  },
+  "recommended_defaults": {
+    "v1_bearer": "HTTP Range on static QBDL/HMC; ProtectedSession/QDNF wasm is later-track. Owner-confirmed.",
+    "first_vertical_slice": "Named public GIS places; first place is Canberra public-reference locality plus lush-woodland field studio. Coordinate truth is GIS.",
+    "gis_on_public_page": "Two-phase: sealed HMC members inside a named place; other GIS via EWM-04b ingest job. Live GBIF not streamed in v1.",
+    "same_origin_consent": "Resolved for first paint: PR1 engine bypass in FetchRangeService for same-origin /packages/ and /production/. EWM-07 ewm_static registration is audit, not a PR6a gate.",
+    "candidate_identity": "from_parts of producer InventoryVerifier four-tuple; browser never constructs the pub(crate) struct literal and never calls InventoryVerifier::finish",
+    "gpu_v1": "rebuild-from-resident-set; PR10 unload_scene_parts is not required for v1",
+    "inner_ranges": false,
+    "q42_spine": "Whole-volume bytes() fetch, 16 MiB cap. Knowledge volume for the place. Ranged Q42 later-track.",
+    "cosmic_infosphere": "OCS CoLocatedLayer realm_class noosphere on Physical Earth WGS84. en-AU label infosphere. Public place IRIs only.",
+    "timeline": "Producer-only. Public narrative is webizen.journey/v1. Field studio is the shared artistic setting, not a mapped campsite."
+  },
+  "glob_collision_audit": {
+    "tests_ewm": "EWM-08 owns tests/ewm/qualification/**; EWM-09 owns tests/ewm/rollback/**; neither owns tests/ewm/** wholesale",
+    "packages": "EWM-03 owns packages/qbdl/**; EWM-06 owns packages/download/**; EWM-10 owns packages/current.json",
+    "stream": "EWM-02 owns runtime/stream/** except flag.rs; EWM-09 owns runtime/stream/flag.rs; PR6a/6b must not create flag.rs",
+    "wrangler": "EWM-05 is the sole owner of wrangler.jsonc",
+    "contracts": "EWM catalog lives in schemas/ewm/**; native/contracts/** is A03 and is not created for EWM",
+    "data": "GIS places under data/ewm/gis/places/** (EWM-04); GIS ingest under data/ewm/gis/ingest/** (EWM-04b); OCS frames under data/ewm/frames/** (EWM-11); consent under data/ewm/consent/** (EWM-07); first-paint under data/ewm/first-paint.json (EWM-00); A02 data/catalogue and data/publications untouched; Timeline.json never stored",
+    "ewm09_pr_map": "EWM-09 maps only to PR12, never to PR6a/PR6b",
+    "ewm01b_path_hook": "EWM-01b owns streaming_loader/ewm_wasm_tests.rs; integrator routes a one-line #[path] in streaming_loader.rs and from_parts in descriptor/types.rs",
+    "pr6a_consent": "PR6a does not depend on EWM-07/PR8; PR1 same-origin bypass is the first-paint consent path"
+  },
+  "waves": [
+    {
+      "id": "wave-0",
+      "title": "Programme contract, AAA grant, first-paint fixture",
+      "live_specialists": 0,
+      "integrator": true,
+      "packets": ["EWM-00"]
+    },
+    {
+      "id": "wave-1",
+      "title": "Engine Range, HMC shards, hosting",
+      "live_specialists": 3,
+      "integrator": true,
+      "packets": ["EWM-01", "EWM-01b", "EWM-03", "EWM-05"],
+      "note": "EWM-01b is the same specialist as EWM-01, sequential after EWM-01. Live specialist count remains 3."
+    },
+    {
+      "id": "wave-2",
+      "title": "Host stream (6a then 6b), GIS data, privacy",
+      "live_specialists": 3,
+      "integrator": true,
+      "packets": ["EWM-02", "EWM-04", "EWM-04b", "EWM-11", "EWM-07"],
+      "note": "EWM-04 is named-place catalog. EWM-04b then EWM-11 are the same GIS specialist sequential after EWM-04 (not a fourth live slot). Camera-move SelectionIntent is not claimed until PR6a exists. EWM-07/PR8 is parallel with PR6a; first paint uses PR1 same-origin bypass, not consent.rs."
+    },
+    {
+      "id": "wave-3",
+      "title": "Download UX, evidence, rollback",
+      "live_specialists": 3,
+      "integrator": true,
+      "packets": ["EWM-06", "EWM-08", "EWM-09"]
+    },
+    {
+      "id": "wave-4",
+      "title": "Closeout",
+      "live_specialists": 0,
+      "integrator": true,
+      "packets": ["EWM-10"]
+    }
+  ],
+  "packets": [
+    {
+      "id": "EWM-00",
+      "title": "Programme contract, catalog schema, AAA path-lock grant, first-paint fixture",
+      "role": "ewm-integrator",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": [],
+      "estimated_sequencing": {
+        "wave": "wave-0",
+        "order": 0,
+        "parallel_with": []
+      },
+      "owned_paths": [
+        "webizen-website/plans/ewm/**",
+        "webizen-website/schemas/ewm/**",
+        "webizen-website/data/ewm/first-paint.json"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/native/contracts/**",
+        "webizen-website/data/catalogue/**",
+        "webizen-website/data/publications/**"
+      ],
+      "integrator_routes": [
+        "webizen-website/plans/aaa-overhaul/work-packages.json"
+      ],
+      "integrator_route_scope": "Wave 0 only: apply aaa-path-lock-grant.json as ewm_path_lock plus A02/A03/A06 owned_paths_exclude. A00-A27 ids stay. This is the A00 handshake so later world-host packets can run.",
+      "deliverables": [
+        "Repo-local copy of the explorable-world-model design",
+        "webizen.ewm-catalog/v1 JSON schema with CandidateIdentity four-tuple (descriptor_sha384, context_sha384, generation, entries) recorded by producer-side InventoryVerifier; host binds via from_parts; inner_ranges:false; windowed inventory notes; places[] usri, realm_class, colocated (Noosphere infosphere); epistemic_class",
+        "plans/ewm/aaa-path-lock-grant.json for A00 to merge into work-packages.json (A06 carve-outs including ocs_frames.rs; integrator parents boot.rs/runtime.rs/lib.rs/Cargo.toml exclusive for programme duration, A06 read-only; schemas/ewm; data/ewm including frames)",
+        "data/ewm/first-paint.json id list summing to 14,632,064 bytes (10 ids: 9 woodland heroes + packed Canberra DEM)",
+        "ewm.streaming flag semantics in schema: ewm=1 independent of gpu-timing=1; canvas data-ewm-streaming; catalog streaming.default false. Production helper flag.rs is EWM-09.",
+        "File-ownership board and wasm 23.5 MiB budget contract (today 21,625,218 bytes = 20.63 MiB)"
+      ],
+      "acceptance": [
+        "Schema validates the fixture and rejects a single-hex candidate_sha384 as insufficient",
+        "Grant lists A06 carve-outs, integrator parents as EWM-integrator exclusive (A06 read-only), and data/ewm vs A02; catalog is not under native/contracts",
+        "First-paint fixture ids and byte sum match the design table (14,632,064 including canberra-reference-terrain)",
+        "Fixture and schema contain no Timeline.json, precise personal coordinates, placeIds, or INFERRED_WORK",
+        "No runtime behaviour change",
+        "A00-A27 identifiers untouched",
+        "Wave 0 integrator has applied the grant (ewm_path_lock) into AAA work-packages.json before any later wave starts world-host work"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/ewm-00",
+      "handoff": [
+        "schema and fixture hashes",
+        "first-paint id list and 14,632,064 byte sum (10 ids)",
+        "flag names (schema only; no flag.rs)",
+        "aaa-path-lock-grant.json",
+        "owned-path lock",
+        "owner decisions 2026-11-17 (Q1–Q8 resolved)",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-01",
+      "title": "QualiaDB wasm HTTP Range transport",
+      "role": "wasm-range-engine",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-00"],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 1,
+        "parallel_with": ["EWM-03", "EWM-05"],
+        "then_same_specialist": "EWM-01b"
+      },
+      "owned_paths": [
+        "qualiaDB/crates/qualia-core-db/src/net/fetch_range_wasm.rs",
+        "qualiaDB/crates/qualia-core-db/src/net/fetch_range_wasm_tests.rs"
+      ],
+      "integrator_routes": [
+        "qualiaDB/crates/qualia-core-db/src/net/mod.rs"
+      ],
+      "deliverables": [
+        "NEW async wasm32 module net/fetch_range_wasm.rs. Do not compile the omitted blocking fetch_10d on wasm.",
+        "FetchRangeService is transport only: raw 206/200 bytes. Admit is verify_arrived_range / admission.rs, not the transport.",
+        "Same-origin prefix bypass INSIDE get_range (PR1, not PR8): if endpoint passes world-host same_origin rules AND starts with /packages/ or /production/, skip NetworkDisclosureRegistry. Empty registry cannot black-hole PR6a. Live GIS (https://, other prefixes) still requires check_egress_consent.",
+        "206 exact-length. 200 fallback only if FallbackPolicy is explicit AND body.len() <= LEGACY_FULL_OBJECT_FALLBACK_BYTES (1 MiB). Else full-object GET of a published whole-entry URL.",
+        "Split pins: optional_shard_etag pins the object; never pass entry SHA-256 into a partial-range fetch.",
+        "No website bytes_range. No reqwest::blocking on wasm32. Native fetch_10d remains cfg(not(wasm32))."
+      ],
+      "acceptance": [
+        "Consent deny fails closed for https:// and non-prefix URLs",
+        "Same-origin /packages/ and /production/ succeed with NetworkDisclosureRegistry::new() (empty)",
+        "200 body > 1 MiB on a ranged request is an error",
+        "Website does not reimplement fetch",
+        "q42/volume HttpRangeSource is not wrapped",
+        "Wasm size delta recorded in handoff (GIS types already in portal; risk is new call sites)"
+      ],
+      "reviewer": "Engine reviewer plus integrator",
+      "branch": "codex/ewm-01",
+      "handoff": [
+        "public async API names",
+        "wasm test commands and results",
+        "wasm size delta vs 21,625,218 / 23.5 MiB budget",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-01b",
+      "title": "from_parts, header probe, and whole-entry verify_arrived_range tests",
+      "role": "wasm-range-engine",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-01"],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 1.5,
+        "parallel_with": [],
+        "same_specialist_as": "EWM-01",
+        "note": "Follow-on packet for PR2. Not a fourth live specialist. Sequential after EWM-01 integrator routing of net/mod.rs."
+      },
+      "owned_paths": [
+        "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader/ewm_wasm_tests.rs"
+      ],
+      "integrator_routes": [
+        "qualiaDB/crates/qualia-core-db/src/bundle/streaming_loader.rs",
+        "qualiaDB/crates/qualia-core-db/src/bundle/stream/descriptor/types.rs"
+      ],
+      "integrator_route_scope": {
+        "streaming_loader.rs": "one-line only: #[cfg(test)] #[path = \"streaming_loader/ewm_wasm_tests.rs\"] mod ewm_wasm_tests; sibling of existing #[path = \"streaming_loader/tests.rs\"]",
+        "types.rs": "add CandidateIdentity::from_parts(descriptor, context, generation, entries) -> Result<Self, DescriptorError>; reject StrongDigest::is_zero on descriptor or context. Do not make fields pub."
+      },
+      "deliverables": [
+        "Public CandidateIdentity::from_parts so webizen-world-host (a separate crate) can bind PlanEntrySpec.candidate. Fields stay pub(crate); the crate cannot write the struct literal. InventoryVerifier::finish remains the only in-tree producer of a verified identity and still requires QASD BodyView + sealed entry pages — v1 does not run it in the browser.",
+        "Tests that HmcHeaderProbe + HmcProgressiveRangePlanner::plan_entry_ranges + verify_arrived_range authenticate whole-entry SHA-256",
+        "Tests that expected_crc32c / plan_10d_interior_section_ranges are not v1 policy (CRC ≠ leaf proof)",
+        "Whole-file HMC CRC-32C is not claimed from header+index",
+        "Tests that from_parts rejects zero digests and that a windowed Inventory::compile accepts entries.len() != candidate.entry_count()"
+      ],
+      "acceptance": [
+        "No codec forks",
+        "No HmcPackStreamer interior CRC path in v1 tests as success",
+        "ewm_wasm_tests.rs is actually compiled (the #[path] hook is not omitted)",
+        "webizen-world-host can call from_parts; it cannot construct CandidateIdentity { .. }",
+        "PR2 maps here only"
+      ],
+      "reviewer": "Engine reviewer plus integrator",
+      "branch": "codex/ewm-01b",
+      "handoff": [
+        "test commands and results",
+        "policy note: inner_ranges false",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-02",
+      "title": "Website host streaming runtime (PR6a then PR6b)",
+      "role": "native-stream-host",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-01", "EWM-01b", "EWM-03", "EWM-05", "EWM-00"],
+      "gates": [
+        "A00 has merged the AAA path-lock grant before any native/world-host edit",
+        "Does not depend on EWM-07 / PR8. First-paint Range uses PR1 same-origin prefix bypass."
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 1,
+        "parallel_with": ["EWM-04", "EWM-07"],
+        "internal_split": ["PR6a", "PR6b"]
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/stream/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/native/world-host/src/runtime/stream/flag.rs"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs",
+        "webizen-website/native/world-host/Cargo.toml"
+      ],
+      "deliverables": [
+        "PR6a: catalog load; CandidateIdentity::from_parts after hashing the catalog pointer (no browser InventoryVerifier); whole-entry Range/GET of the first-paint fixture (14,632,064 bytes, 10 ids, all under /packages/ or /production/) via PR1 same-origin bypass so empty NetworkDisclosureRegistry cannot black-hole; dual-boot intact; query parser ewm=1 independent of gpu-timing=1; rebuild-from-resident-set load_scene_assets; triangle/vertex check vs declared subset receipt (not scene.triangle_count); no flag.rs; no bytes_range; no consent.rs",
+        "PR6b: windowed Schedule compile of ≤64 PlanEntry / ≤64 RecordUnit from from_parts identity; RecordUnit leaf 0 with region None = whole inner file; cancel/AbortController; enhancement after base",
+        "web-sys Headers/AbortController/AbortSignal added by integrator with PR6a",
+        "Family re-check on admit vs inner magic; fail closed on mismatch",
+        "All Range calls through QualiaDB FetchRangeService once PR1 exists"
+      ],
+      "acceptance": [
+        "?ewm=1 must not fetch all 77 desktop / 76 mobile whole files; test against first-paint id list",
+        "Flag off is byte-behaviour compatible with current whole-file boot (canvas data-scene selects lush-woodland; boot.rs fallback remains /production/native-world/scene.json)",
+        "GPU check uses declared subset, not full scene.triangle_count",
+        "Partial Q42 is never presented as a complete query (v1 spine stays whole-file bytes())",
+        "No authored JavaScript scheduler",
+        "Does not create or edit runtime/stream/flag.rs",
+        "Does not wait for consent.rs / PR8; empty-registry first paint of /packages/ and /production/ must succeed"
+      ],
+      "reviewer": "Native-runtime specialist plus integrator",
+      "branch": "codex/ewm-02",
+      "handoff": [
+        "receipt schema streaming extension",
+        "first-paint byte counts vs 14,632,064 / 15 MiB budget",
+        "commands/results",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-03",
+      "title": "Production QBDL whole-entry shards",
+      "role": "hmc-pack-producer",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-00"],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 2,
+        "parallel_with": ["EWM-01", "EWM-05"]
+      },
+      "owned_paths": [
+        "webizen-website/production/lush-woodland/qbdl/**",
+        "webizen-website/packages/qbdl/**",
+        "webizen-website/tooling/ewm_pack.py"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/packages/download/**",
+        "webizen-website/packages/current.json"
+      ],
+      "deliverables": [
+        "QBDL-profile HMC shards via QualiaDB bundle/writer.rs BundleWriter (not synth/src/production/package.rs, which does not exist). Optional Synth path is synth/src/host_package.rs SynthHost::save_candidate.",
+        "Native pack helper runs InventoryVerifier (QASD BodyView + context/entry pages) and copies finish() into the catalog four-tuple. That QASD body is a producer artefact; v1 does not ship it as a ranged browser control-shard. Host uses from_parts.",
+        "Whole-entry shards only; inner_ranges:false; outboard optional and not required. Do not emit verify_leaf_span inputs as a v1 acceptance item.",
+        "Catalog instance with scene_id → entry_id, producer four-tuple, family_from: inner-magic, first-paint ids in shard base (9 woodland heroes + packed Canberra DEM)",
+        "Copy (do not edit) A02 publication data/publications/aaa/terrain-model-v2/reference-terrain-model.10d into /packages/qbdl base and /packages/by-sha256/<sha256>; inner SHA-256 unchanged; catalog url under /packages/ so PR1 bypass covers first paint; record source_publication for provenance",
+        "Semantic grouping: control / base (first-paint) / enhancement (near prototype + remaining ecology) / deferred M64/P64"
+      ],
+      "acceptance": [
+        "Magic QBDL; ZIP profile unused",
+        "Each shard < 24 MiB; none survive build_pages MAX_ASSET_BYTES strip",
+        "Entry slice equals standalone .10d; SHA-256 unchanged",
+        "Loose production/lush-woodland and native-world .10d files retained for dual-boot",
+        "Packed Canberra DEM SHA-256 matches A02 publication; first-paint fetch URLs are under /packages/; data/publications/** is not edited",
+        "Host must not need verify_leaf_span for v1",
+        "Host must not need InventoryVerifier::finish or QASD pages for v1"
+      ],
+      "reviewer": "Production specialist plus integrator",
+      "branch": "codex/ewm-03",
+      "handoff": [
+        "shard URLs and SHA-256",
+        "catalog fixture with scene_id map",
+        "producer command (BundleWriter / optional SynthHost::save_candidate)",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-04",
+      "title": "GIS named-place catalog (Canberra public locality, AABB / non-XOR tiles)",
+      "role": "gis-join-agent",
+      "status": "planned; no implementation acceptance implied; place catalog until PR6a",
+      "dependencies": ["EWM-00", "EWM-03"],
+      "gates": [
+        "native/world-host gis_join.rs requires A00 grant merged",
+        "Integrator wires overlap into the stream loop after PR6a; this packet does not claim camera-move SelectionIntent"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 2,
+        "parallel_with": ["EWM-02", "EWM-07"],
+        "then_same_specialist": "EWM-04b"
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/gis_join.rs",
+        "webizen-website/data/ewm/gis/places/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/ingest/**",
+        "webizen-website/data/ewm/frames/**",
+        "webizen-website/data/publications/**",
+        "webizen-website/data/catalogue/**"
+      ],
+      "deliverables": [
+        "Named place canberra-public-reference: CRS EPSG:4326 / WGS84, bbox_wsen [149.06, -35.30, 149.08, -35.28], journey_chapter southern-tablelands, not_personal_campsite",
+        "Label canberra-reference-terrain as measured-gis and habitat-terrain as authored-artwork in the same place",
+        "Catalog AABB {min,max} in the place display frame and non-XOR tiles (ix, iy) = (floor(x/100), floor(z/100)); Y-up horizontal plane is x/z",
+        "Camera.target [x,y,z] → CameraPose {x,y,z}; yaw/pitch copied; zoom unused (framing only, not height)",
+        "Do not use SceneStreamingPlanner::point_to_tile_id XOR as a catalog key",
+        "No query_region / lonlat_to_a5 / query_bbox_hot tree builder in v1",
+        "Q42 mapping predicates only after a named publication pass; until then JSON catalog place/AABB/tile fields are the join."
+      ],
+      "acceptance": [
+        "Fixture overlap tests against catalog JSON (AABB or tile membership of camera target expanded by authored radius, default 80 m)",
+        "Window overlapping entries to ≤64",
+        "No live adapter calls in this packet",
+        "No exact campsite coordinates or raw Timeline.json",
+        "Journey remains the existing seven webizen.journey/v1 chapters (month bands, region names)",
+        "Does not claim camera-move SelectionIntent until PR6a exists"
+      ],
+      "reviewer": "Earth-agent plus integrator",
+      "branch": "codex/ewm-04",
+      "handoff": [
+        "place record and AABB/tile fixture without personal coordinates",
+        "epistemic_class labels",
+        "Camera.target mapping note",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-04b",
+      "title": "GIS ingest job: bounded adapters to new HMC members",
+      "role": "gis-join-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-04", "EWM-03", "EWM-02"],
+      "gates": [
+        "A00 grant merged before native/world-host edit",
+        "PR6a exists so new members can enter the stream loop",
+        "Same specialist as EWM-04, sequential, not a fourth live slot"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 2.5,
+        "parallel_with": [],
+        "same_specialist_as": "EWM-04",
+        "then_same_specialist": "EWM-11"
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/gis_ingest.rs",
+        "webizen-website/data/ewm/gis/ingest/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/places/**",
+        "webizen-website/data/ewm/frames/**"
+      ],
+      "deliverables": [
+        "Native-first ingest helper reusing data-pack-builder / DemAdapter (and the same pattern for StacAdapter / OsmAdapter): consent via NetworkDisclosureRegistry, bounded public extent, compile .10d/.m64 with provenance, BundleWriter pack, append catalog rows with epistemic_class measured-gis",
+        "Explicit action or named-place change, not a camera-tick scrape",
+        "Wasm opt-in fetch_region_dem_async only if the 23.5 MiB budget still holds; otherwise the browser only Ranges the new members",
+        "Live GBIF JSON parse remains deferred; no live occurrence streaming in v1"
+      ],
+      "acceptance": [
+        "Empty registry fails closed",
+        "Output is create-only",
+        "No personal coordinates",
+        "New members schedule through the existing windowed Schedule",
+        "Default public boot path does not call live adapters"
+      ],
+      "reviewer": "Earth-agent plus integrator",
+      "branch": "codex/ewm-04b",
+      "handoff": [
+        "ingest receipt hashes",
+        "new member URLs and SHA-256",
+        "wasm size note if any wasm ingest path is attempted",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-11",
+      "title": "OCS frames and infosphere co-location (Noosphere layer)",
+      "role": "gis-join-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-00", "EWM-04", "EWM-02"],
+      "gates": [
+        "A00 grant merged before native/world-host edit",
+        "Same specialist as EWM-04 / EWM-04b, sequential after EWM-04b, not a fourth live slot",
+        "Integrator wires after PR6a"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 2.7,
+        "parallel_with": [],
+        "same_specialist_as": "EWM-04"
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/ocs_frames.rs",
+        "webizen-website/data/ewm/frames/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/places/**",
+        "webizen-website/data/ewm/gis/ingest/**"
+      ],
+      "deliverables": [
+        "Catalog-backed CoLocatedStack per named place: Physical Earth base USRI urn:omni:v1:physical:observable:standard:earth:wgs84 plus a Noosphere infosphere layer (en-AU label infosphere)",
+        "Bind vibe::cosmic usri::RealmClass, colocated::{CoLocatedLayer, CoLocatedStack}, grounding::GroundingStatus. Do not invent RealmClass cyber.",
+        "Q42 family rows share place_id with TenD/M64; co-located families, not one mashed mesh. SelectionIntent may request both for the same public place.",
+        "Public IRIs only (https://webizen.au/world/…, https://webizen.au/journey/…). No Timeline points, placeIds, or INFERRED_WORK.",
+        "v1 spatialisation reuses Q42 decode + portal rdf_holograph / place markers. No new warp/stardate/FLRW call sites on the public boot path. Nested Microverse is a catalog hook, not a camera-zoom demo.",
+        "Wasm size delta in handoff; if over 23.5 MiB, feature-gate unused Cosmic.* rather than growing the boot path"
+      ],
+      "acceptance": [
+        "Fixture has usri / realm_class / colocated without personal coordinates",
+        "Infosphere layer grounding is EmpiricallyAnchored to the public GIS/Q42 source",
+        "entity_view::ObserverStatus is not confused with cosmic observer.rs",
+        "No Timeline.json in owned paths",
+        "Does not claim camera-zoom as a coordinate demonstration"
+      ],
+      "reviewer": "Earth-agent plus integrator",
+      "branch": "codex/ewm-11",
+      "handoff": [
+        "frames fixture hashes",
+        "usri / colocated catalog fields",
+        "wasm size delta",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-05",
+      "title": "Static hosting Range measurement",
+      "role": "static-hosting-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-00"],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 3,
+        "parallel_with": ["EWM-01", "EWM-03"]
+      },
+      "owned_paths": [
+        "webizen-website/tooling/build_pages.py",
+        "webizen-website/tooling/build_pages.mjs",
+        "webizen-website/.github/workflows/cloudflare.yml",
+        "webizen-website/.github/workflows/pages.yml",
+        "webizen-website/wrangler.jsonc"
+      ],
+      "deliverables": [
+        "Accept-Ranges for .hmc/.10d/.q42 (and wasm if required by the probe)",
+        "/packages/ mount in _site",
+        "Measured 206 vs 200 matrix on: (1) https://webizen.au/ Cloudflare Worker Static Assets project webizen; (2) https://mediaprophet.github.io/webizen-website/ GitHub Pages subpath; (3) local world_server.py. Range support is a gate, not an assumption.",
+        "Sole owner of wrangler.jsonc; edit only if required for the packages mount"
+      ],
+      "acceptance": [
+        "COOP/COEP/CORP unchanged",
+        "Files >= 25 MiB still stripped",
+        "Host limitation recorded honestly if Range is ignored; that host then uses whole-entry GET",
+        "Pages subpath /webizen-website/ is in the probe matrix"
+      ],
+      "reviewer": "Integrator",
+      "branch": "codex/ewm-05",
+      "handoff": [
+        "header diff",
+        "Range probe receipts including Pages subpath",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-06",
+      "title": "Downloadable static packs UX",
+      "role": "download-ux-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-02", "EWM-03"],
+      "gates": [
+        "A00 grant merged before native/world-host edit"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-3",
+        "order": 1,
+        "parallel_with": ["EWM-08", "EWM-09"]
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/ui/download.rs",
+        "webizen-website/packages/download/**"
+      ],
+      "deliverables": [
+        "Download this place control created from Rust DOM",
+        "Sequential shard fetch and SHA-256 verify using the streaming catalog identities",
+        "Wasm offline = browser download-to-disk and later OPFS via QualiaDB; not file:// (native fetch_10d std::fs is unavailable on wasm)",
+        "Accessible reading-view equivalent"
+      ],
+      "acceptance": [
+        "Downloaded entry hashes match streamed entries",
+        "Keyboard and screen-reader operable",
+        "No authored JS downloader/scheduler",
+        "Honest offline status if OPFS is not yet wired"
+      ],
+      "reviewer": "Access specialist plus integrator",
+      "branch": "codex/ewm-06",
+      "handoff": [
+        "pack ids and hashes",
+        "UI evidence",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-07",
+      "title": "Privacy, consent and Commons",
+      "role": "privacy-consent-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-00"],
+      "gates": [
+        "A00 grant merged before native/world-host edit"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 3,
+        "parallel_with": ["EWM-02", "EWM-04"]
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/consent.rs",
+        "webizen-website/data/ewm/consent/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/catalogue/**"
+      ],
+      "deliverables": [
+        "Auditable ewm_static prefix catalog (/packages/ and /production/ only). First paint already works from PR1 engine bypass; this packet is not a PR6a gate.",
+        "Live GIS adapters stay default-deny; ingest prefixes (Terrarium, STAC, OSM) registered only on explicit opt-in. No https:// GIS hosts in ewm_static.",
+        "en-AU copy; sealed packs need no extra live egress",
+        "Regression that journey.json policy and no-geolocation hold",
+        "Regression that Timeline.json, placeIds, and INFERRED_WORK are absent from _site, packages, HMC, and Q42. Infosphere copy uses public place IRIs."
+      ],
+      "acceptance": [
+        "Unregistered https:// egress fails closed",
+        "Same-origin first paint is already not black-holed by an empty registry (PR1); this packet must not regress that",
+        "Browser geolocation is never requested",
+        "Public catalog licences listed",
+        "No precise personal coordinates in published packs",
+        "No Timeline.json in published artefacts"
+      ],
+      "reviewer": "Rights specialist plus integrator",
+      "branch": "codex/ewm-07",
+      "handoff": [
+        "egress catalog under data/ewm/consent",
+        "copy hashes",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-08",
+      "title": "Evidence and qualification",
+      "role": "evidence-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-02", "EWM-04", "EWM-04b", "EWM-05", "EWM-07", "EWM-11"],
+      "estimated_sequencing": {
+        "wave": "wave-3",
+        "order": 2,
+        "parallel_with": ["EWM-06", "EWM-09"]
+      },
+      "owned_paths": [
+        "webizen-website/evidence/ewm/**",
+        "webizen-website/tests/ewm/qualification/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/tests/ewm/rollback/**"
+      ],
+      "deliverables": [
+        "Range 206/200 matrix on Cloudflare, GitHub Pages /webizen-website/, and local",
+        "First-paint transfer bytes vs declared 14,632,064 / 15 MiB budget (authored 12,685,072 + Canberra DEM 1,946,992) vs whole-file 58,637,584 desktop / 47,166,968 mobile (76 assets)",
+        "Wasm size vs 23.5 MiB budget (today 21,625,218 = 20.63 MiB)",
+        "Admit failure cases and reading-view fail-closed",
+        "GIS selection traces without personal coordinates (place_id, usri, realm_class, tiles; no Timeline points)",
+        "Art-gate disclaimer: streaming success is not visual acceptance"
+      ],
+      "acceptance": [
+        "Receipts named and hashed",
+        "Art approval is explicitly not claimed",
+        "Browser qualification gaps remain visible"
+      ],
+      "reviewer": "Independent specialist plus user",
+      "branch": "codex/ewm-08",
+      "handoff": [
+        "evidence index",
+        "commands/results",
+        "inspected images and user-flow evidence",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-09",
+      "title": "Rollback, dual-boot and fail-closed",
+      "role": "rollback-agent",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-02"],
+      "gates": [
+        "A00 grant merged before native/world-host edit",
+        "Not mapped to PR6a or PR6b; production flag.rs lands in PR12"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-3",
+        "order": 3,
+        "parallel_with": ["EWM-06", "EWM-08"]
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/stream/flag.rs",
+        "webizen-website/tests/ewm/rollback/**",
+        "webizen-website/tooling/ewm_flag.md"
+      ],
+      "deliverables": [
+        "Production flag helper flag.rs (schema semantics already in EWM-00). PR6a reads query + catalog + data-attribute inline and must not create this file.",
+        "Documented rollback by streaming.default=false",
+        "Automated test that flag off restores whole-file boot",
+        "Fatal stream errors use existing reading-view fallback"
+      ],
+      "acceptance": [
+        "One-command revert of public behaviour without deleting shards",
+        "Lush-woodland whole-file path remains loadable",
+        "Not double-mapped to PR6"
+      ],
+      "reviewer": "Integrator",
+      "branch": "codex/ewm-09",
+      "handoff": [
+        "rollback procedure",
+        "test commands/results",
+        "limitations and unresolved dependencies"
+      ]
+    },
+    {
+      "id": "EWM-10",
+      "title": "Integrator closeout",
+      "role": "ewm-integrator",
+      "status": "planned; no implementation acceptance implied",
+      "dependencies": ["EWM-06", "EWM-08", "EWM-09"],
+      "estimated_sequencing": {
+        "wave": "wave-4",
+        "order": 1,
+        "parallel_with": []
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs",
+        "webizen-website/native/world-host/Cargo.toml",
+        "webizen-website/packages/current.json",
+        "webizen-website/tooling/native-host/**"
+      ],
+      "deliverables": [
+        "Optional enablement recommendation only after EWM-08 and user accept",
+        "CI wasm budget gate (23.5 MiB; today 20.63 MiB)",
+        "Handoff to AAA A06/A07/A14 without merging programmes",
+        "Residual risk register"
+      ],
+      "acceptance": [
+        "Whole-file lush-woodland still boots",
+        "Streaming path proven or flag remains off with explicit gaps",
+        "No art or complete-overhaul claim",
+        "PR10 not required and not claimed done"
+      ],
+      "reviewer": "Independent specialist plus user",
+      "branch": "codex/ewm-10",
+      "handoff": [
+        "owned diff and contract versions",
+        "actual commands/results",
+        "inspected images and user-flow evidence",
+        "limitations and unresolved dependencies"
+      ]
+    }
+  ],
+  "pr_map": [
+    {"pr": "PR0", "title": "aaa: grant EWM carve-outs in A06/A02/A03 owned_paths", "packets": ["EWM-00"], "repo": "webizen-website", "owner": "A00", "note": "Consumes plans/ewm/aaa-path-lock-grant.json. Also locks boot.rs/runtime.rs/lib.rs/Cargo.toml as EWM-integrator exclusive for the programme duration (A06 read-only). Gate on every native/world-host PR."},
+    {"pr": "PR1", "title": "net: wasm32 async HTTP Range transport", "packets": ["EWM-01"], "repo": "qualiaDB", "note": "get_range same-origin bypass for /packages/ and /production/ so PR6a works with empty registry."},
+    {"pr": "PR2", "title": "bundle: CandidateIdentity::from_parts and whole-entry verify", "packets": ["EWM-01b"], "repo": "qualiaDB", "note": "Same specialist as PR1, sequential. Integrator one-line #[path] in streaming_loader.rs plus from_parts in descriptor/types.rs. EWM-01 follow-on packet."},
+    {"pr": "PR3", "title": "plans/ewm catalog schema, first-paint ids, AAA grant draft", "packets": ["EWM-00"], "repo": "webizen-website"},
+    {"pr": "PR4", "title": "build_pages Accept-Ranges, packages mount, wrangler if required", "packets": ["EWM-05"], "repo": "webizen-website", "note": "EWM-05 is sole wrangler.jsonc owner. Probe includes Pages /webizen-website/."},
+    {"pr": "PR5", "title": "packages/qbdl whole-entry shards for lush-woodland", "packets": ["EWM-03"], "repo": "webizen-website"},
+    {"pr": "PR6a", "title": "world-host: ewm=1 whole-entry first-paint dual-boot", "packets": ["EWM-02"], "repo": "webizen-website", "note": "No flag.rs. No consent.rs. Rebuild GPU. from_parts after catalog hash. Query parser ewm=1 independent of gpu-timing=1. Does not depend on PR8."},
+    {"pr": "PR6b", "title": "world-host: Schedule window and cancel", "packets": ["EWM-02"], "repo": "webizen-website", "depends_on": ["PR6a"]},
+    {"pr": "PR7", "title": "data/ewm/gis Canberra public place, AABB, epistemic labels", "packets": ["EWM-04"], "repo": "webizen-website", "note": "Named-place catalog. Integrator wires after PR6a. No query_region/A5."},
+    {"pr": "PR7b", "title": "data/ewm/gis bounded ingest job to HMC members", "packets": ["EWM-04b"], "repo": "webizen-website", "depends_on": ["PR7", "PR6a"], "note": "Same GIS specialist as PR7, sequential. Native-first. Not a camera-tick scrape."},
+    {"pr": "PR7c", "title": "world-host ocs_frames Noosphere co-location", "packets": ["EWM-11"], "repo": "webizen-website", "depends_on": ["PR7", "PR6a"], "note": "Same GIS specialist as PR7/PR7b, sequential after PR7b. Physical Earth + Noosphere infosphere. No Timeline points."},
+    {"pr": "PR8", "title": "ewm_static prefixes and live GIS deny", "packets": ["EWM-07"], "repo": "webizen-website", "depends_on": ["PR0"], "note": "Parallel with PR6a. Not a first-paint gate. First paint uses PR1 same-origin bypass."},
+    {"pr": "PR9", "title": "download named packs with shared identities", "packets": ["EWM-06"], "repo": "webizen-website"},
+    {"pr": "PR10", "title": "optional portal unload_scene_parts", "packets": [], "repo": "qualiaDB", "optional": true, "v1_required": false, "note": "Out of v1. Do not block streaming. Reopen only if rebuild-from-resident-set is measured unacceptable."},
+    {"pr": "PR11", "title": "evidence/ewm qualification pack", "packets": ["EWM-08"], "repo": "webizen-website"},
+    {"pr": "PR12", "title": "rollback tests and streaming.default recommendation", "packets": ["EWM-09", "EWM-10"], "repo": "webizen-website", "note": "Sole PR mapping for EWM-09. Not PR6."}
+  ],
+  "suggested_merge_order": "PR3 ∥ PR1 → PR2 → PR0 (A00 grant; may start after PR3) → PR4 ∥ PR5 → PR6a ∥ PR8 → PR6b ∥ PR7 → PR7b → PR7c → PR9 → PR11 → PR12. PR8 is parallel with PR6a, not a predecessor. PR7b then PR7c are sequential on the GIS agent after PR7. PR10 is not in the v1 merge train."
+}

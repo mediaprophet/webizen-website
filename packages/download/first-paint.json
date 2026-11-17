@@ -1,0 +1,77 @@
+{
+  "schema": "webizen.ewm-download-pack/v1",
+  "identities": [
+    {
+      "scene_id": "canberra-reference-terrain",
+      "sha256": "bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+      "bytes": 1946992,
+      "url": "/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+      "hmc": "/packages/qbdl/base/canberra-reference-terrain.hmc"
+    },
+    {
+      "scene_id": "habitat-terrain",
+      "sha256": "0d71982db5c21d05a068e9188f7a823670cbadb500f0af5015fdbb008a032d21",
+      "bytes": 8723576,
+      "url": "/production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d",
+      "hmc": "/packages/qbdl/base/habitat-terrain.hmc"
+    },
+    {
+      "scene_id": "prototype-eucalyptus-lush-mid",
+      "sha256": "3dc877492545766c7a63c5fe499e8c96f62c667bf3b2cd75e0c1e179e5759077",
+      "bytes": 1036928,
+      "url": "/production/aaa-proof/assets/prototype-eucalyptus-lush-mid-0973a52d81b0.10d",
+      "hmc": "/packages/qbdl/base/prototype-eucalyptus-lush-mid.hmc"
+    },
+    {
+      "scene_id": "car-passat-b7--gold",
+      "sha256": "867940c9ca9ed32cf7161757d34807ba1d91f45714f95817702e38f84a8964d7",
+      "bytes": 880696,
+      "url": "/production/native-world/assets/car-passat-b7--gold.10d",
+      "hmc": "/packages/qbdl/base/car-passat-b7--gold.hmc"
+    },
+    {
+      "scene_id": "car-passat-b7--glass",
+      "sha256": "6e8db07d9364b72bcfa3db507e55d1e30198e23fd6d4ed24ea4b326616f68046",
+      "bytes": 435736,
+      "url": "/production/native-world/assets/car-passat-b7--glass.10d",
+      "hmc": "/packages/qbdl/base/car-passat-b7--glass.hmc"
+    },
+    {
+      "scene_id": "car-passat-b7--chrome",
+      "sha256": "499456a6fc89bfead47337c0ebca31d3cdb91f0d46bfca33997af9ff8e353a26",
+      "bytes": 1100272,
+      "url": "/production/native-world/assets/car-passat-b7--chrome.10d",
+      "hmc": "/packages/qbdl/base/car-passat-b7--chrome.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--chassis",
+      "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1",
+      "bytes": 97240,
+      "url": "/production/native-world/assets/vintage-windup-camper--chassis.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--chassis.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--enamel",
+      "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6",
+      "bytes": 291320,
+      "url": "/production/native-world/assets/vintage-windup-camper--enamel.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--enamel.hmc"
+    },
+    {
+      "scene_id": "solar-array-three--panel",
+      "sha256": "138d17c22dfac500f26d821f000e8797a9da406c8ab83248830b122f90c9e994",
+      "bytes": 57976,
+      "url": "/production/native-world/assets/solar-array-three--panel.10d",
+      "hmc": "/packages/qbdl/base/solar-array-three--panel.hmc"
+    },
+    {
+      "scene_id": "starlink-mini--dish-front",
+      "sha256": "596be4ffd10787d159d8981ae89668c7990742c59cc8d0e2655cdfcb81a9e8b3",
+      "bytes": 61328,
+      "url": "/production/native-world/assets/starlink-mini--dish-front.10d",
+      "hmc": "/packages/qbdl/base/starlink-mini--dish-front.hmc"
+    }
+  ],
+  "same_as_stream": true,
+  "streaming_default": false
+}

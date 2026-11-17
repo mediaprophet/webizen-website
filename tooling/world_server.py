@@ -3,6 +3,8 @@ import argparse,json,hashlib,time,threading,sys
 from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from urllib.parse import urlsplit,unquote
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from http_range import satisfiable_range
 from synth_bridge import SynthBridge
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT.parent/'qualiaDB'/'docs'
 if not DOCS.exists():DOCS=Path('C:/github/qualiaDB/docs')
@@ -30,16 +32,32 @@ class Handler(SimpleHTTPRequestHandler):
   rel=unquote(urlsplit(path).path)
   if rel.startswith('/source/'):base=DOCS;rel=rel[8:]
   elif rel.startswith('/publication/'):base=ROOT/'publication/generated';rel=rel[13:]
-  elif rel.startswith(('/data/','/plans/','/evidence/','/artifacts/','/recipes/','/production/','/publication/','/migration/','/schemas/')):base=ROOT;rel=rel.lstrip('/')
+  elif rel.startswith(('/data/','/plans/','/evidence/','/artifacts/','/recipes/','/production/','/publication/','/migration/','/schemas/','/packages/')):base=ROOT;rel=rel.lstrip('/')
   else:base=ROOT/'site';rel=rel.lstrip('/') or 'index.html'
   dest=(base/rel).resolve()
   return str(dest if dest.is_relative_to(base.resolve()) else base/'__refused__')
  def end_headers(self):
-  self.send_header('Cache-Control','no-store');self.send_header('Cross-Origin-Resource-Policy','same-origin');self.send_header('Cross-Origin-Opener-Policy','same-origin');self.send_header('Cross-Origin-Embedder-Policy','require-corp');super().end_headers()
+  self.send_header('Cache-Control','no-store');self.send_header('Cross-Origin-Resource-Policy','same-origin');self.send_header('Cross-Origin-Opener-Policy','same-origin');self.send_header('Cross-Origin-Embedder-Policy','require-corp');self.send_header('Accept-Ranges','bytes');super().end_headers()
  def json_response(self,data,status=200):
   raw=json.dumps(data,ensure_ascii=False).encode();self.send_response(status);self.send_header('Content-Type','application/json; charset=utf-8');self.send_header('Content-Length',str(len(raw)));self.end_headers();self.wfile.write(raw)
  def do_GET(self):
   if self.path=='/api/status':return self.json_response({'catalog_count':bridge.catalog.get('count'),'binary':'synth/target-prod/debug/synth.exe','execution':'local native MCP','arbitrary_source_api':False})
+  rng=self.headers.get('Range')
+  if rng and rng.startswith('bytes='):
+   path=self.translate_path(urlsplit(self.path).path)
+   try:data=Path(path).read_bytes()
+   except OSError:return self.send_error(404)
+   window=satisfiable_range(rng,len(data))
+   if window is None:
+    self.send_response(416);self.send_header('Content-Range',f'bytes */{len(data)}');self.end_headers();return
+   start,end=window
+   chunk=data[start:end+1]
+   self.send_response(206)
+   self.send_header('Content-Type','application/octet-stream')
+   self.send_header('Content-Range',f'bytes {start}-{end}/{len(data)}')
+   self.send_header('Content-Length',str(len(chunk)))
+   self.send_header('Accept-Ranges','bytes')
+   self.end_headers();self.wfile.write(chunk);return
   super().do_GET()
  def do_POST(self):
   origin=self.headers.get('Origin');host=self.headers.get('Host')

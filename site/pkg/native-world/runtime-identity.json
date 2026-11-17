@@ -3,11 +3,11 @@
   "identity_kind": "served build identity; browser QA must compare served WASM bytes with this digest",
   "wasm": {
     "url": "/pkg/native-world/webizen_world_bg.wasm",
-    "bytes": 21625060,
-    "sha256": "33773443af31ec31b2d87605435ca99d138125a92fb49df8ffd20ac138473ab1"
+    "bytes": 21726870,
+    "sha256": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c"
   },
-  "generated_loader_sha256": "b00de484f6808fb32de874f2fa20ebdb00520ca4b15b66782bece2f8170157e5",
-  "host_source_fingerprint": "2a24ec5b23e7d2abb57c20281b1d84a986249ee4b31e713165d591e23a3c0577",
+  "generated_loader_sha256": "283f9e890693d85789874ccd6ac46fbd7ea1e3fe3f3294faa32d846edc600d1c",
+  "host_source_fingerprint": "1eddf5af8728e7c0f4ef4d82315ebcdf2adb6d71828e8268a82e13df3921f79c",
   "cargo_lock_sha256": "1af98ef6a549f24cd96be430e6d683d95c2601da5b52dc2d0f25097e2d407f0b",
   "render_provider": {
     "repository": "https://github.com/mediaprophet/etalon.git",
@@ -166,11 +166,24 @@
   },
   "native_core": {
     "repository": "qualiaDB",
-    "revision": "f286b01f9dc194906b021f20679a2b7fd2ea94f2",
-    "tracked_dirty": [],
-    "untracked_source_files": [],
-    "source_fingerprint": "5c963ea8661afb9a039dd6b22198912f38bd9a147b33cbb4e2a68b5aa680e458",
-    "source_file_count": 3874
+    "revision": "5cb8f1f894bd96ceae66a7de6af9bf4405ab0405",
+    "tracked_dirty": [
+      " M crates/qualia-core-db/Cargo.toml",
+      " M crates/qualia-core-db/src/bundle/stream/descriptor/types.rs",
+      " M crates/qualia-core-db/src/bundle/streaming_loader.rs",
+      " M crates/qualia-core-db/src/net/mod.rs",
+      " M crates/qualia-core-db/src/net/qdnf/bearer/local_stream/unix.rs",
+      " M crates/qualia-core-db/src/specialized_libs/computational_geometry/boolean_3.rs",
+      " M crates/qualia-core-db/src/specialized_libs/computational_geometry/boolean_3/bounded.rs",
+      " M crates/qualia-core-db/src/specialized_libs/computational_geometry/boolean_3/conforming.rs"
+    ],
+    "untracked_source_files": [
+      "src/bundle/streaming_loader/ewm_wasm_tests.rs",
+      "src/net/fetch_range_wasm.rs",
+      "src/net/fetch_range_wasm_tests.rs"
+    ],
+    "source_fingerprint": "6f160a91af0cb523789e58ded3d2f3c331d534b06c2dda87d4aaf39e88807a4a",
+    "source_file_count": 3877
   },
   "compiler": "rustc 1.99.1 (58cf8f9c3 2026-10-13)"
 }

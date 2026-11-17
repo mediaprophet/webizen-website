@@ -46,7 +46,7 @@ The material-rich world requires successful native WebGPU initialisation. The ho
 
 Optional Vibe `world_settings` fields bind existing native APIs: `exposure_ev` (-8..8), `sky_colour` (three linear RGB values 0..1), `environment_fallback` (three radiance values 0..16) and `markers_visible` (boolean). Marker picking remains native when visual projection is disabled. `environment_fallback:[0,0,0]` disables the default constant [0.18,0.22,0.26] additive environment contribution; it does not disable direct sun or material-dependent ambient light. Native daylight sky preset1 uses fog density0.0004 per world unit; preset0 uses no fog. A custom clear colour retains the selected atmosphere profile.
 
-Descriptions and camera help are inside a collapsed native HTML details element, while the selected place title, reading link, purpose controls and journey controls remain available. Rust source is ASCII-checked during build receipts to prevent shell-induced mojibake; Q42 public content remains Unicode.
+Descriptions and camera help are inside a collapsed native HTML details element, while the selected place title, reading link, purpose controls and journey controls remain available. Host source and Q42 public content are UTF-8. Build receipts refuse U+FFFD replacement characters (broken encoding). They do not require ASCII, which cannot represent the world's writing systems.
 
 Touch zoom buttons call the same native Vibe input_camera action as wheel/keyboard input. Selecting a place passes its Q42-derived camera and actual viewport aspect to fit_view; Vibe owns portrait fitting and the distance clamp. No world coordinates are changed.
 

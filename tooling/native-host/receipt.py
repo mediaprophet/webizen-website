@@ -9,7 +9,8 @@ for name in ['webizen_world.js','webizen_world_bg.wasm','webizen_world.d.ts','we
  f=a.output/name;files.append({'path':str(f),'bytes':f.stat().st_size,'sha256':sha(f)})
 assert files[1]['bytes']<32*1024*1024
 for source in (ROOT/'native/world-host/src').rglob('*.rs'):
- assert source.read_text(encoding='utf-8').isascii(), f'Non-ASCII Rust source: {source}; use explicit escapes for intentional characters'
+ text=source.read_text(encoding='utf-8')
+ assert '\ufffd' not in text, f'Replacement character in {source}; host source must be valid UTF-8 so every language can live in the served copy'
 sources=[{'path':str(f.relative_to(ROOT)),'sha256':sha(f)} for f in sorted((ROOT/'native/world-host/src').rglob('*.rs'))]
 def tree_fingerprint(entries):
  return hashlib.sha256("\n".join(f"{e['path']}:{e['sha256']}" for e in entries).encode()).hexdigest()

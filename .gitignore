@@ -25,3 +25,4 @@ __pycache__/
 /production/lush-woodland/inputs/*.glb
 /production/lush-woodland/recipes/*.obj
 /production/loader/artifacts/
+/target-production-core-wasm/

@@ -1,0 +1,26 @@
+{
+  "schema": "webizen.ewm-wasm-budget/v1",
+  "id": "EWM-00",
+  "date": "2026-11-17",
+  "locale": "en-AU",
+  "served_file": "site/pkg/native-world/webizen_world_bg.wasm",
+  "identity": "site/pkg/native-world/runtime-identity.json",
+  "bytes_today": 21625218,
+  "mib_today": 20.63,
+  "sha256": "3a8e81600174aa975f5000b694a081accfc5d3e5c2f5214d67d1327cf37f5304",
+  "ci_budget_mib": 23.5,
+  "ci_budget_bytes": 24641536,
+  "cloudflare_static_asset_cap_bytes": 26214400,
+  "headroom_under_ci_budget_bytes": 3016318,
+  "ci_policy": "fail if served wasm exceeds 23.5 MiB (24,641,536 bytes)",
+  "host_crate_features": [
+    "portal"
+  ],
+  "do_not_enable": [
+    "wasm-full",
+    "wasm-llm",
+    "bundle/stream/protection on wasm32",
+    "net/fetch_10d on wasm32"
+  ],
+  "notes": "GIS types are already in the portal binary. Size risk is new call sites and DEM/PNG decode, not compiling the planner. Do not put DEM/PNG decode on the default wasm boot path."
+}

@@ -37,6 +37,7 @@ MOUNT_DIRS = [
     ("migration", "migration"),
     ("recipes", "recipes"),
     ("schemas", "schemas"),
+    ("packages", "packages"),
 ]
 
 HEADERS = """\
@@ -58,6 +59,17 @@ HEADERS = """\
 /*.q42
   Content-Type: application/octet-stream
   Cache-Control: public, max-age=31536000, immutable
+
+/*.hmc
+  Content-Type: application/octet-stream
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+
+/packages/*
+  Accept-Ranges: bytes
+
+/production/*
+  Accept-Ranges: bytes
 """
 
 SUBPATH_SHIM = """<script>(function(){

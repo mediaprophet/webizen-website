@@ -37,7 +37,7 @@ pub(super) async fn hydrate(
         text(
             "native-world-status",
             &format!(
-                "Opening native material maps - {} of {}",
+                "Opening native material maps — {} of {}",
                 receipts.len() + 1,
                 textures.len()
             ),

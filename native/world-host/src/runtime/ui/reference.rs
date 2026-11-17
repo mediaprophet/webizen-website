@@ -3,6 +3,7 @@ pub(super) fn install(state: &Shared) -> Result<(), JsValue> {
     let settings = state.borrow().receipt["presentation_settings"].clone();
     let ui = element("native-world-ui", "aside")?;
     ui.set_class_name("native-panel");
+    ui.set_attribute("hidden", "")?;
     ui.set_attribute("aria-label", "Explore the reference model")?;
     let h = doc().create_element("h1")?;
     h.set_text_content(Some(

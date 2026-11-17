@@ -2,11 +2,16 @@ mod admission;
 mod boot;
 mod frame_telemetry;
 mod graphics;
+mod gis_ingest;
+mod gis_join;
 mod input;
 mod instances;
 mod instruments;
+mod ocs_frames;
+mod stream;
 mod textures;
 mod ui;
+mod consent;
 use crate::{
     graph,
     policy::{self, Camera},
