@@ -1,7 +1,7 @@
 # Handover: Webizen Website, GitHub QualiaDB, WebGPU + WebGL2
 
 **Date:** 2026-11-17  
-**Packet:** I5 retarget + texel-fit WASM. Not qualified. P00 is the only accepted packet. Pixel 10 Pro XL remains `not_executed`.  
+**Packet:** I5 retarget + texel-fit WASM. Not qualified. P00 is the only accepted packet. Pixel phone `user_confirmed` 2026-11-17 (habitat presents; no device `__webizenNativeInit` capture).  
 **Repository:** `C:\github\webizen-website` (`https://github.com/mediaprophet/webizen-website.git`)
 
 ---
@@ -88,7 +88,7 @@ Served identity after texel-fit (not qualified):
 - Etalon `c0bddc9650b9265d1a5578c251af1ab12896601a` via local path patches (`source_kind` records that; 24 wasm providers / 0 git lock providers)
 - QualiaDB HEAD `f286b01f9dc194906b021f20679a2b7fd2ea94f2`
 - `?gl-debug=1` loads `/world/gl-debug.js` before WASM (integer counters after a 64-upload / 32-draw sample cap)
-- Desktop `?webgl2=1` after texel-fit presents the habitat (trees, camper, solar, benches, river). Pixel 10 Pro XL remains `not_executed`.
+- Desktop `?webgl2=1` after texel-fit presents the habitat (trees, camper, solar, benches, river). User confirmed the live world presents on a Google Pixel phone. Device `selected_backend` was not captured. Wave stays not qualified.
 
 This packet does **not** mark the bundle qualified.
 
@@ -100,9 +100,9 @@ GitHub Pages deploy, Synth-authored creativity loader, and lush woodland homepag
 
 ---
 
-## 6. Remaining work — I6 mobile evidence (Pixel 10 Pro XL)
+## 6. I6 mobile evidence (Pixel)
 
-**I6 target device:** **Pixel 10 Pro XL, Chrome** (WebGPU disabled on that device). That is the live WebGL2 evidence target. Desktop Chrome headless has previously kept `navigator.gpu` active despite `--disable-features=WebGPU`, so it is not a substitute for the phone.
+**I6 target device:** **Pixel 10 Pro XL, Chrome** (WebGPU disabled on that device). User confirmed 2026-11-17 that the live world presents on a Google Pixel phone. That is occupancy, not a captured `__webizenNativeInit` receipt. Desktop Chrome headless has previously kept `navigator.gpu` active despite `--disable-features=WebGPU`, so it is not a substitute for the phone.
 
 I6 should:
 
