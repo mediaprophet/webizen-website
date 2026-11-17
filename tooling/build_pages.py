@@ -37,6 +37,27 @@ MOUNT_DIRS = [
     ("schemas", "schemas"),
 ]
 
+HEADERS = """\
+/*
+  X-Content-Type-Options: nosniff
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Resource-Policy: same-origin
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.wasm
+  Content-Type: application/wasm
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.10d
+  Content-Type: application/octet-stream
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.q42
+  Content-Type: application/octet-stream
+  Cache-Control: public, max-age=31536000, immutable
+"""
+
 SUBPATH_SHIM = """<script>(function(){
 var m=location.pathname.match(/^(\\/webizen-website)(?:\\/|$)/);
 if(!m)return;
@@ -192,6 +213,11 @@ def main() -> int:
             )
 
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
+    (OUT / "_headers").write_text(HEADERS, encoding="utf-8")
+    (OUT / "404.html").write_text(
+        "<!doctype html><title>Not found</title><p>This path is not published on webizen.au.</p>\n",
+        encoding="utf-8",
+    )
 
     for html_file in OUT.rglob("*.html"):
         rewrite_html(html_file)

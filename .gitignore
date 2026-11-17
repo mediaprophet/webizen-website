@@ -1,5 +1,6 @@
 /.preview/
 /_site/
+/node_modules/
 /artifacts/
 /imports/generated/
 /site/generated/
