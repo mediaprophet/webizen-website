@@ -8,8 +8,8 @@ ROOT = Path(__file__).resolve().parents[3]
 
 def test_first_paint_ids_and_bytes():
     catalog = json.loads((ROOT / "data/ewm/first-paint.json").read_text(encoding="utf-8"))
-    assert catalog["declared_subset"]["bytes"] == 14_632_064
-    assert len(catalog["first_paint"]) == 10
+    assert catalog["declared_subset"]["bytes"] == 16_644_944
+    assert len(catalog["first_paint"]) == 24
     assert catalog["streaming"]["default"] is False
     total = 0
     for row in catalog["entries"]:
@@ -20,7 +20,7 @@ def test_first_paint_ids_and_bytes():
         raw = src.read_bytes()
         assert hashlib.sha256(raw).hexdigest() == row["sha256"]
         total += len(raw)
-    assert total == 14_632_064
+    assert total == 16_644_944
 
 
 def test_declared_subset_matches_entry_geometry():
@@ -90,12 +90,14 @@ def test_catalog_edges_bind_inside_first_paint():
         assert edge["reason"] == "Geometry"
 
 
-def test_candidate_is_pending_producer_four_tuple():
+def test_candidate_is_inventory_verifier_four_tuple():
     catalog = json.loads((ROOT / "data/ewm/first-paint.json").read_text(encoding="utf-8"))
     cand = catalog["candidate"]
     assert len(cand["descriptor_sha384"]) == 96
     assert len(cand["context_sha384"]) == 96
     assert cand["descriptor_sha384"] != "0" * 96
-    assert catalog["candidate_origin"]["kind"] == "pending-producer"
+    assert cand["context_sha384"] != "0" * 96
+    assert cand["entries"] == 24
+    assert catalog["candidate_origin"]["kind"] == "inventory-verifier-finish"
     assert catalog["candidate_origin"]["browser_inventory_verifier"] is False
     assert catalog["candidate_origin"]["host_bind"] == "CandidateIdentity::from_parts"

@@ -1,4 +1,33 @@
 use super::*;
+use super::stream::selection::unload;
+use std::sync::atomic::AtomicBool;
+
+const WOODLAND_SCENE_VOLUME: &str = "/production/lush-woodland/scene.q42";
+const WOODLAND_LOGIC_VOLUME: &str = "/data/ewm/camp.q42";
+
+/// LW-06: one-line fetch of `/data/ewm/places/<id>.q42` when it is not the woodland scene.
+pub(super) fn place_scene_volume_if_differs(place_id: &str) -> Option<String> {
+    if place_id.is_empty()
+        || !place_id
+            .chars()
+            .all(|c| c.is_ascii_lowercase() || c.is_ascii_digit() || c == '-')
+    {
+        return None;
+    }
+    let url = format!("/data/ewm/places/{place_id}.q42");
+    if url == WOODLAND_SCENE_VOLUME {
+        None
+    } else {
+        Some(url)
+    }
+}
+
+/// LW-06: admit a logic volume only when it is not woodland camp.q42.
+#[allow(dead_code)]
+pub(super) fn place_logic_volume_if_differs(url: Option<&str>) -> Option<String> {
+    let url = url.filter(|u| !u.is_empty() && *u != WOODLAND_LOGIC_VOLUME)?;
+    Some(url.to_string())
+}
 
 pub async fn boot() -> Result<(), JsValue> {
     element("native-world-status", "p")?.set_attribute("role", "status")?;
@@ -13,18 +42,11 @@ pub async fn boot() -> Result<(), JsValue> {
         return Err(err("Unsupported served native build identity"));
     }
     let source = String::from_utf8(source_bytes.clone()).map_err(err)?;
-    let pointer = json_file("/publication/current.json", 65536).await?;
-    let volume = pointer["q42"]
-        .as_str()
-        .ok_or(err("No Q42 publication pointer"))?;
-    let q42 = bytes(&format!("/publication/{volume}"), 16 * 1024 * 1024).await?;
+    let q42 = bytes("/publication/world.q42", 16 * 1024 * 1024).await?;
     let q42_hash = hash(&q42);
-    if Some(q42_hash.as_str()) != pointer["sha256"].as_str() {
-        return Err(err("Q42 publication digest mismatch"));
-    }
-    let graph = graph::decode(&q42).map_err(err)?;
     let mut host = PoetSnapshot::default();
-    host.committed = graph.quins.clone();
+    super::knowledge::admit(&mut host, &q42, "publication", "world.q42").map_err(err)?;
+    let graph = graph::from_host(&host).map_err(err)?;
     let settings = policy::evaluate(&mut host, &source, "world_settings", &[]).map_err(err)?;
     let camera: Camera = serde_json::from_value(settings["camera"].clone()).map_err(err)?;
     camera.validate().map_err(err)?;
@@ -47,11 +69,6 @@ pub async fn boot() -> Result<(), JsValue> {
             480.
         }) * dpr) as u32,
     );
-    let graphics_init = super::graphics::initialise(canvas.clone()).await?;
-    let backend = graphics_init["selected_backend"]
-        .as_str()
-        .unwrap_or("");
-    let mut portal = QualiaPortal::new(canvas.clone())?;
     let location = js_sys::Reflect::get(&web_sys::window().unwrap(), &"location".into())?;
     let query = js_sys::Reflect::get(&location, &"search".into())?
         .as_string()
@@ -61,6 +78,17 @@ pub async fn boot() -> Result<(), JsValue> {
         .split('&')
         .any(|p| p == "gpu-timing=1");
     let ewm_streaming = super::stream::ewm_query_enabled(&query, &canvas);
+    let preview_scene = canvas.get_attribute("data-scene").unwrap_or_default();
+    if preview_scene.ends_with(".q42") && !ewm_streaming {
+        return Err(err(
+            "The woodland streams when you add ?ewm=1. The reading view remains available.",
+        ));
+    }
+    let graphics_init = super::graphics::initialise(canvas.clone()).await?;
+    let backend = graphics_init["selected_backend"]
+        .as_str()
+        .unwrap_or("");
+    let mut portal = QualiaPortal::new(canvas.clone())?;
     portal.set_gpu_pass_timing_enabled(gpu_timing);
     portal.set_preserve_authored_frame(true);
     portal.set_tensor_projection_enabled(false);
@@ -124,36 +152,112 @@ pub async fn boot() -> Result<(), JsValue> {
         .match_media("(max-width: 900px)")?
         .map(|m| m.matches())
         .unwrap_or(false);
-    let scene_url = if (backend == "webgl2" || is_mobile_viewport)
+    let mut scene_url = if (backend == "webgl2" || is_mobile_viewport)
         && canvas.has_attribute("data-scene-mobile")
     {
-        canvas
-            .get_attribute("data-scene-mobile")
-            .unwrap_or("/production/lush-woodland/scene.json".into())
+        canvas.get_attribute("data-scene-mobile").unwrap_or_default()
     } else {
-        canvas
-            .get_attribute("data-scene")
-            .unwrap_or("/production/native-world/scene.json".into())
+        canvas.get_attribute("data-scene").unwrap_or_default()
     };
-    let scene: Scene =
-        serde_json::from_value(json_file(&scene_url, 16 * 1024 * 1024).await?).map_err(err)?;
+    if scene_url.is_empty() {
+        scene_url = if ewm_streaming {
+            "/production/lush-woodland/scene.q42".into()
+        } else {
+            "/production/native-world/scene.json".into()
+        };
+    }
+    let mut scene_graph_receipt = Value::Null;
+    let mut admitted_catalog = None;
+    let mut logic_url = None;
+    let scene: Scene = if scene_url.ends_with(".q42") {
+        if !ewm_streaming {
+            return Err(err(
+                "The woodland streams when you add ?ewm=1. The reading view remains available.",
+            ));
+        }
+        let catalog_bytes = bytes("/data/ewm/catalog.q42", 2 * 1024 * 1024).await?;
+        super::knowledge::admit(&mut host, &catalog_bytes, "catalog", "catalog.q42").map_err(err)?;
+        let q42_bytes = bytes(&scene_url, 16 * 1024 * 1024).await?;
+        let scene_hash = hash(&q42_bytes);
+        super::knowledge::admit(&mut host, &q42_bytes, "scene", "scene.q42").map_err(err)?;
+        let catalog = super::catalog::Catalog::from_host(&mut host).map_err(err)?;
+        let projected = super::scene_q42::from_host(&host).map_err(err)?;
+        let water_raw = bytes(&projected.water_url, 1024 * 1024).await?;
+        if hash(&water_raw) != projected.water_sha256 {
+            return Err(err("Water geometry digest mismatch"));
+        }
+        let mut scene = projected.scene;
+        scene.water = Some(super::scene_q42::water_from_bytes(&water_raw).map_err(err)?);
+        scene_graph_receipt = json!({
+            "format":"q42",
+            "url":scene_url,
+            "sha256":scene_hash,
+            "reader":"PoetSnapshot::admit_q42_slice",
+            "encoding":"q42vol-v4-cbor-ld",
+            "engine":"GraphDatabase.sparql",
+            "catalog_url":"/data/ewm/catalog.q42",
+            "catalog_sha256":hash(&catalog_bytes),
+            "gis_terrain":catalog.join.gis_terrain,
+            "sparql_hits":catalog.join.sparql_hits,
+            "first_paint":catalog.join.first_paint,
+            "water_url":projected.water_url,
+            "water_sha256":projected.water_sha256,
+            "logic_url":projected.logic_url.clone()
+        });
+        logic_url = projected.logic_url;
+        admitted_catalog = Some(catalog);
+        scene
+    } else if scene_url.ends_with(".json") {
+        if ewm_streaming {
+            return Err(err(
+                "Streaming woodland uses a Q42 scene graph, not a JSON catalog",
+            ));
+        }
+        serde_json::from_value(json_file(&scene_url, 16 * 1024 * 1024).await?).map_err(err)?
+    } else {
+        return Err(err("Unsupported native world scene"));
+    };
     if scene.schema != "webizen.native-world/v1"
         || scene.assets.is_empty()
         || scene.assets.len() > 512
     {
         return Err(err("Unsupported native world artifact manifest"));
     }
+    let macros_live = if ewm_streaming {
+        if let Some(url) = logic_url.as_deref() {
+            let logic_bytes = bytes(url, 2 * 1024 * 1024).await?;
+            let logic_name = url.rsplit('/').next().unwrap_or("logic.q42");
+            super::knowledge::admit(&mut host, &logic_bytes, "logic", logic_name).map_err(err)?;
+            Some(super::macros::Live::from_world(&mut host, &source).map_err(err)?)
+        } else {
+            None
+        }
+    } else {
+        None
+    };
     let texture_receipts = super::textures::hydrate(&mut portal, &scene.textures).await?;
     let mut total_bytes = 0usize;
     let mut pointer_sha256 = String::new();
     let mut overlapping = Vec::new();
     let mut infosphere = false;
+    let mut ewm_live = None;
     let (uploaded, upload_receipt, asset_receipts, texture_bindings) = if ewm_streaming {
-        let paint = super::stream::load_first_paint(&mut portal, &scene, &camera).await?;
+        let catalog = admitted_catalog.ok_or(err("Streaming woodland needs the catalog Q42"))?;
+        let paint = super::stream::load_first_paint(&mut portal, &scene, &camera, catalog).await?;
         total_bytes = paint.total_bytes;
         pointer_sha256 = paint.pointer_sha256;
         overlapping = paint.overlapping;
         infosphere = paint.infosphere;
+        ewm_live = Some(EwmLive {
+            catalog: paint.catalog,
+            selection: paint.selection,
+            colours: paint.colours,
+            textures: scene.textures.clone(),
+            enhancement_pending: true,
+            place_volume_pending: false,
+            busy: Rc::new(AtomicBool::new(false)),
+            abort: Rc::new(RefCell::new(None)),
+        });
         (
             paint.uploaded,
             paint.upload_receipt,
@@ -224,9 +328,14 @@ pub async fn boot() -> Result<(), JsValue> {
         return Err(err(format!("Native scene refused {refused} assets")));
     }
     let instance_receipt = if ewm_streaming {
-        super::instances::bind_resident(&mut portal, &scene, &upload_receipt)?
+        super::instances::bind_resident(
+            &mut portal,
+            &scene,
+            &upload_receipt,
+            macros_live.as_ref(),
+        )?
     } else {
-        super::instances::bind(&mut portal, &scene, &upload_receipt)?
+        super::instances::bind(&mut portal, &scene, &upload_receipt, None)?
     };
     let admitted = portal.scene_render_receipt()?;
     let got_indices = js_sys::Reflect::get(&admitted, &"index_count".into())?
@@ -281,7 +390,7 @@ pub async fn boot() -> Result<(), JsValue> {
         settings["scene_mode"] != "reference-model"
             && settings["markers_visible"].as_bool().unwrap_or(true),
     );
-    if let Some(water) = scene.water {
+    if let Some(ref water) = scene.water {
         let admitted = portal.set_water_geometry(&water.positions, &water.indices)?;
         if admitted {
             let cfg = &settings["water"];
@@ -303,7 +412,23 @@ pub async fn boot() -> Result<(), JsValue> {
         .map(|m| m.matches())
         .unwrap_or(false);
     portal.set_animation_reduced_motion(reduced);
-    let receipt = json!({"schema":"webizen.native-world-receipt/v1","gpu_timing_requested":gpu_timing,"ewm_streaming":ewm_streaming,"ewm_catalog_pointer_sha256":pointer_sha256,"ewm_overlapping":overlapping,"ewm_infosphere":infosphere,"streaming":{"enabled":ewm_streaming,"default":false},"served_build_identity":runtime_identity,"renderer":backend,"q42_sha256":q42_hash,"q42_rows":graph.rows,"q42_reader":"WasmSliceQ42Reader","vibe_sha256":hash(&source_bytes),"vibe_evaluator":"PoetSnapshot::eval_fn","assets":asset_receipts,"asset_bytes":total_bytes,"default_language":"en-AU","authority":"anonymous-public","controller":"Rust/WASM","upload":upload_receipt,"instances":instance_receipt,"graphics_initialisation":graphics_init,"presentation_settings":settings,"textures":texture_receipts,"verified_texture_bindings":texture_bindings});
+    let live_place = ewm_live.as_ref().map(|e| {
+        if e.selection.place_id.is_empty() {
+            "field-studio".to_string()
+        } else {
+            e.selection.place_id.clone()
+        }
+    });
+    let live_place_base = match (&ewm_live, &live_place) {
+        (Some(ewm), Some(id)) => ewm.catalog.live_place_base(id),
+        _ => Vec::new(),
+    };
+    let ewm_unload = if ewm_streaming {
+        unload::V1_UNLOAD
+    } else {
+        ""
+    };
+    let receipt = json!({"schema":"webizen.native-world-receipt/v1","gpu_timing_requested":gpu_timing,"ewm_streaming":ewm_streaming,"ewm_catalog_engine":pointer_sha256,"ewm_overlapping":overlapping,"ewm_infosphere":infosphere,"ewm_live_place":live_place,"ewm_live_place_base":live_place_base,"ewm_unload":ewm_unload,"streaming":{"enabled":ewm_streaming,"default":false},"scene_graph":scene_graph_receipt,"served_build_identity":runtime_identity,"renderer":backend,"q42_sha256":q42_hash,"q42_rows":graph.rows,"q42_reader":"PoetSnapshot::admit_q42_slice","q42_engine":"GraphDatabase.sparql","vibe_sha256":hash(&source_bytes),"vibe_evaluator":"PoetSnapshot::eval_fn","assets":asset_receipts,"asset_bytes":total_bytes,"default_language":"en-AU","authority":"anonymous-public","controller":"Rust/WASM","upload":upload_receipt,"instances":instance_receipt,"graphics_initialisation":graphics_init,"presentation_settings":settings,"textures":texture_receipts,"verified_texture_bindings":texture_bindings,"camp":macros_live.as_ref().map(|live| live.receipt()).unwrap_or(serde_json::Value::Null)});
     let state = Rc::new(RefCell::new(World {
         portal,
         canvas: canvas.clone(),
@@ -320,11 +445,21 @@ pub async fn boot() -> Result<(), JsValue> {
         frames: 0,
         timings: frame_telemetry::FrameTelemetry::default(),
         pending_pick: false,
+        pending_pick_age: 0,
         benchmarking: false,
         receipt,
+        scene,
+        ewm: ewm_live,
+        macros: macros_live,
+        upload: upload_receipt,
+        play_mode: false,
+        play_observer: None,
+        play_purpose: String::new(),
+        play_focus_group: None,
     }));
     set_camera(&mut state.borrow_mut())?;
     ui::install_panel_toggle()?;
+    play::install(&state)?;
     ui::install_controls(&state)?;
     input::install_input(&state)?;
     let s = state.clone();

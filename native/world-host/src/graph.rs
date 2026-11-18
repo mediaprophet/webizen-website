@@ -1,4 +1,4 @@
-use qualia_core_db::{q42::q42_volume::WasmSliceQ42Reader, NQuin};
+use qualia_core_db::{q42::q42_volume::WasmSliceQ42Reader, vibe_host::PoetSnapshot, NQuin};
 use serde_json::{json, Value};
 use std::collections::{BTreeMap, BTreeSet};
 
@@ -31,7 +31,7 @@ pub fn decode(bytes: &[u8]) -> Result<Graph, String> {
         return Err("Public world graph exceeds host budget".into());
     }
     let mut names = BTreeMap::new();
-    let mut scratch = vec![0; 65536];
+    let mut scratch = vec![0; 1024 * 1024];
     let mut text = vec![0; 65536];
     for q in &quins {
         for hash in [q.subject, q.predicate, q.object] {
@@ -60,6 +60,10 @@ pub fn decode(bytes: &[u8]) -> Result<Graph, String> {
             ]
         })
         .collect();
+    graph_from_rows(quins, rows)
+}
+
+fn graph_from_rows(quins: Vec<NQuin>, rows: Vec<[String; 3]>) -> Result<Graph, String> {
     let property = |s: &str, p: &str| -> Result<Value, String> {
         let matches: Vec<_> = rows
             .iter()
@@ -129,6 +133,36 @@ pub fn decode(bytes: &[u8]) -> Result<Graph, String> {
         chapters: json!(chapters),
         chapter_method: method,
     })
+}
+
+/// Publication places from volumes already admitted into PoetSnapshot.
+pub fn from_host(host: &PoetSnapshot) -> Result<Graph, String> {
+    if host.committed.is_empty() {
+        return Err("Publication Q42 was not admitted".into());
+    }
+    let mut names = BTreeMap::new();
+    for q in &host.committed {
+        for hash in [q.subject, q.predicate, q.object] {
+            if names.contains_key(&hash) {
+                continue;
+            }
+            if let Some(term) = host.resolve_admitted_lexicon_term(hash) {
+                names.insert(hash, term.to_string());
+            }
+        }
+    }
+    let rows: Vec<[String; 3]> = host
+        .committed
+        .iter()
+        .filter_map(|q| {
+            Some([
+                names.get(&q.subject)?.clone(),
+                names.get(&q.predicate)?.clone(),
+                names.get(&q.object)?.clone(),
+            ])
+        })
+        .collect();
+    graph_from_rows(host.committed.clone(), rows)
 }
 
 fn colour_linear(value: &str) -> Result<[f32; 4], String> {

@@ -42,16 +42,15 @@
     }
   ],
   "candidate": {
-    "descriptor_sha384": "85e7a247fdaebf9c3ee4f3ab07d629c827bd9072379f1f09f98a1dc18c84e351342f1aad32bd0b7e410f33c9f7d91774",
-    "context_sha384": "2e6ba359cb624b8aa8bd36377ee1716becddf2d108d068d7fd303ae8657b4f158255142399abebfa0b30f347914e799a",
-    "generation": 1,
-    "entries": 78
+    "descriptor_sha384": "7c8c1d54ce84c59d999a941c5e90f58a46483b98775a0f9eabb775412b657f5faa079a41710d3ab6a60edc2c34e2df1e",
+    "context_sha384": "f5b6e26c2ebe84e6d3f0256c89b8757eda9bce3d6d2fd4b87e4e5e17685720f329904d7456614ee11d25424485706f55",
+    "generation": 0,
+    "entries": 24
   },
   "candidate_origin": {
-    "kind": "pending-producer",
+    "kind": "inventory-verifier-finish",
     "host_bind": "CandidateIdentity::from_parts",
-    "browser_inventory_verifier": false,
-    "note": "Placeholder non-zero SHA-384 of webizen.ewm-00.pending-producer-inventory-verifier/{descriptor,context}. EWM-03 native InventoryVerifier::finish replaces this four-tuple. v1 host copies via from_parts after hashing the catalog pointer. Browser never calls finish."
+    "browser_inventory_verifier": false
   },
   "first_paint": [
     "canberra-reference-terrain",
@@ -61,16 +60,390 @@
     "car-passat-b7--glass",
     "car-passat-b7--chrome",
     "vintage-windup-camper--chassis",
+    "vintage-windup-camper--rubber",
     "vintage-windup-camper--enamel",
+    "vintage-windup-camper--chrome",
+    "vintage-windup-camper--ochre",
+    "vintage-windup-camper--olive",
+    "vintage-windup-camper--roof",
+    "vintage-windup-camper--canvas",
+    "vintage-windup-camper--screen",
+    "vintage-windup-camper--canvas-seam",
+    "vintage-windup-camper--screen-wire",
+    "vintage-windup-camper--step",
+    "vintage-windup-camper--steel",
+    "vintage-windup-camper--canvas-roof",
+    "vintage-windup-camper--red-lens",
+    "vintage-windup-camper--amber-lens",
     "solar-array-three--panel",
     "starlink-mini--dish-front"
   ],
   "enhancement_not_first_paint": [
     {
+      "id": "field-studio-operator-opt",
+      "bytes": 310960,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "field-studio-operator-desk",
+      "bytes": 357544,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "field-studio-operator-laptop",
+      "bytes": 117952,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "field-studio-operator-laptop-lid",
+      "bytes": 117952,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "field-studio-operator-shirt",
+      "bytes": 277904,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "field-studio-operator-shorts",
+      "bytes": 442224,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "field-studio-operator-hair",
+      "bytes": 202384,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--alloy",
+      "bytes": 934120,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--brake",
+      "bytes": 196408,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--lamp",
+      "bytes": 258648,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--lamp-interior",
+      "bytes": 764504,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--plate",
+      "bytes": 226280,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--projector",
+      "bytes": 389176,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--red",
+      "bytes": 403112,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--roofbox",
+      "bytes": 96400,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--roofbox-base",
+      "bytes": 197592,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--rubber",
+      "bytes": 934328,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "car-passat-b7--trim",
+      "bytes": 2099688,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-three--aluminium",
+      "bytes": 243896,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-three--backing",
+      "bytes": 57976,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-three--cell-line",
+      "bytes": 271992,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-three--rubber",
+      "bytes": 223896,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-two--aluminium",
+      "bytes": 113080,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-two--backing",
+      "bytes": 47544,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-two--cell-line",
+      "bytes": 124856,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-two--panel",
+      "bytes": 47544,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "solar-array-two--rubber",
+      "bytes": 114056,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "starlink-mini--aluminium",
+      "bytes": 62904,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "starlink-mini--backing",
+      "bytes": 44656,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "starlink-mini--dish-back",
+      "bytes": 82576,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "starlink-mini--mount",
+      "bytes": 56712,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "starlink-mini--rubber",
+      "bytes": 66024,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "canopy--bronze",
+      "bytes": 1000184,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "canopy--limestone",
+      "bytes": 322192,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "canopy--timber",
+      "bytes": 2339256,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "tidal-vessel--bronze",
+      "bytes": 1479408,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "tidal-vessel--limestone",
+      "bytes": 289168,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "tidal-vessel--verdigris",
+      "bytes": 2997584,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "memory-frond--bronze",
+      "bytes": 189664,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "memory-frond--leaf",
+      "bytes": 1928312,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "memory-frond--limestone",
+      "bytes": 202640,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "footbridge--bridge-heartwood",
+      "bytes": 237400,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "footbridge--bridge-timber",
+      "bytes": 520472,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "footbridge--pale-limestone",
+      "bytes": 53304,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "footbridge--patinated-bronze",
+      "bytes": 799288,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "observatory--pale-limestone",
+      "bytes": 256144,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "observatory--patinated-bronze",
+      "bytes": 1906616,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "observatory--receiver-ceramic",
+      "bytes": 2397520,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "observatory--shadow-metal",
+      "bytes": 916712,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "biology--helix-gold",
+      "bytes": 893992,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "biology--helix-teal",
+      "bytes": 893992,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "biology--pale-limestone",
+      "bytes": 256144,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "biology--shadow-metal",
+      "bytes": 55640,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-bank-rock-mid",
+      "bytes": 162384,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-bank-rock-near",
+      "bytes": 319968,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-grass-mid",
+      "bytes": 457288,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-grass-near",
+      "bytes": 1118280,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-leaf-litter",
+      "bytes": 276704,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-shrub-branches",
+      "bytes": 465952,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
+      "id": "prototype-shrub-leaves",
+      "bytes": 1694320,
+      "epistemic_class": "authored-artwork",
+      "role": "Enhancement after first paint"
+    },
+    {
       "id": "prototype-eucalyptus-lush-near",
       "bytes": 11470616,
       "epistemic_class": "authored-artwork",
-      "role": "Canopy near LoD waits for enhancement"
+      "role": "Enhancement after first paint"
     }
   ],
   "entries": [
@@ -306,10 +679,10 @@
       "family_from": "inner-magic",
       "role": "Base",
       "obligation": "Mandatory",
-      "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1",
-      "bytes": 97240,
-      "vertices": 180,
-      "triangles": 304,
+      "sha256": "71be390db74238d9cb615fded09c335bac4bc99ca22908857b9c75dd5e596d00",
+      "bytes": 103568,
+      "vertices": 230,
+      "triangles": 384,
       "url": "/production/native-world/assets/vintage-windup-camper--chassis.10d",
       "shard": "base",
       "aabb": {
@@ -334,18 +707,18 @@
     },
     {
       "entry_id": 8,
-      "scene_id": "vintage-windup-camper--enamel",
+      "scene_id": "vintage-windup-camper--rubber",
       "place_id": "canberra-public-reference",
       "epistemic_class": "authored-artwork",
       "family": "TenD",
       "family_from": "inner-magic",
       "role": "Base",
       "obligation": "Mandatory",
-      "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6",
-      "bytes": 291320,
-      "vertices": 808,
-      "triangles": 1568,
-      "url": "/production/native-world/assets/vintage-windup-camper--enamel.10d",
+      "sha256": "3d60b312f59b4b3487a0a49d5aa37de549be2aca98750ad74cffa7ca28b82de4",
+      "bytes": 755320,
+      "vertices": 2344,
+      "triangles": 4608,
+      "url": "/production/native-world/assets/vintage-windup-camper--rubber.10d",
       "shard": "base",
       "aabb": {
         "min": [
@@ -369,6 +742,496 @@
     },
     {
       "entry_id": 9,
+      "scene_id": "vintage-windup-camper--enamel",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "0c67cb69d5345a7f1ae693f0fe8ad55bc73320e91623da636b45e735323e23cc",
+      "bytes": 271032,
+      "vertices": 760,
+      "triangles": 1472,
+      "url": "/production/native-world/assets/vintage-windup-camper--enamel.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 10,
+      "scene_id": "vintage-windup-camper--chrome",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "1a9fbf712f25674d7f4d6857775de38e1c4ad18a8e2023fdd165a7c2f455cfe6",
+      "bytes": 171064,
+      "vertices": 452,
+      "triangles": 832,
+      "url": "/production/native-world/assets/vintage-windup-camper--chrome.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 11,
+      "scene_id": "vintage-windup-camper--ochre",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "44e49cdb762e2d0c23b664891e50eca449056e0ab841d2f00a5d1f9b34d4c454",
+      "bytes": 49328,
+      "vertices": 50,
+      "triangles": 80,
+      "url": "/production/native-world/assets/vintage-windup-camper--ochre.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 12,
+      "scene_id": "vintage-windup-camper--olive",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "3943265e8585c0e4070ecbd1096db33921099ee7a00ec2a00dfa7cbcb22507f0",
+      "bytes": 134296,
+      "vertices": 324,
+      "triangles": 592,
+      "url": "/production/native-world/assets/vintage-windup-camper--olive.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 13,
+      "scene_id": "vintage-windup-camper--roof",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "ecabf9a2e51672a38ec79d428e744ec91e331694230d66b8ef30cb6f4a0ae88e",
+      "bytes": 99344,
+      "vertices": 214,
+      "triangles": 384,
+      "url": "/production/native-world/assets/vintage-windup-camper--roof.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 14,
+      "scene_id": "vintage-windup-camper--canvas",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "68ae6e8c8a6461491c9ed311cfa3cc032d3a92f2002e306c51aa4fe0573ea90d",
+      "bytes": 251896,
+      "vertices": 704,
+      "triangles": 1216,
+      "url": "/production/native-world/assets/vintage-windup-camper--canvas.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 15,
+      "scene_id": "vintage-windup-camper--screen",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "b00a0217b42e3955d3bf69b7664eb12a5a5b4ee0dd6680846f0c61cf8e146fde",
+      "bytes": 83744,
+      "vertices": 166,
+      "triangles": 280,
+      "url": "/production/native-world/assets/vintage-windup-camper--screen.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 16,
+      "scene_id": "vintage-windup-camper--canvas-seam",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "3a0644f3654b8225536762bb5ddd7c30b48b3a4224e3390a0d1133a75111d29e",
+      "bytes": 60912,
+      "vertices": 90,
+      "triangles": 144,
+      "url": "/production/native-world/assets/vintage-windup-camper--canvas-seam.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 17,
+      "scene_id": "vintage-windup-camper--screen-wire",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "539ff7e970aab8687ec45b909dbad51d1a45dfdea27e6b614b0100cd5157e9e2",
+      "bytes": 54496,
+      "vertices": 70,
+      "triangles": 120,
+      "url": "/production/native-world/assets/vintage-windup-camper--screen-wire.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 18,
+      "scene_id": "vintage-windup-camper--step",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "dc1622aacf7009e5a9bc769f92651e4cf87878fa5ee40668019594882dd45968",
+      "bytes": 36784,
+      "vertices": 10,
+      "triangles": 16,
+      "url": "/production/native-world/assets/vintage-windup-camper--step.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 19,
+      "scene_id": "vintage-windup-camper--steel",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "57e7e3e8c811fa7a9df45be29b92fb0b0f04cc8f62c2ad168df41170e1d94b93",
+      "bytes": 104624,
+      "vertices": 234,
+      "triangles": 400,
+      "url": "/production/native-world/assets/vintage-windup-camper--steel.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 20,
+      "scene_id": "vintage-windup-camper--canvas-roof",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "ef252d66b5e8f6fab9d28d6aa9fad54b924864cd7d25dc94ff6bad4164cfd505",
+      "bytes": 145688,
+      "vertices": 384,
+      "triangles": 640,
+      "url": "/production/native-world/assets/vintage-windup-camper--canvas-roof.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 21,
+      "scene_id": "vintage-windup-camper--red-lens",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "b8c2b1a7e3e7f612ecba90624691fbf09c4c5f1184e71fedb90478d0381e4496",
+      "bytes": 39672,
+      "vertices": 20,
+      "triangles": 32,
+      "url": "/production/native-world/assets/vintage-windup-camper--red-lens.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 22,
+      "scene_id": "vintage-windup-camper--amber-lens",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Base",
+      "obligation": "Mandatory",
+      "sha256": "c666569f6533ac37e9938d3569d0a79b2157a580e1b63f6ca74958867cefee98",
+      "bytes": 39672,
+      "vertices": 20,
+      "triangles": 32,
+      "url": "/production/native-world/assets/vintage-windup-camper--amber-lens.10d",
+      "shard": "base",
+      "aabb": {
+        "min": [
+          -30,
+          0,
+          20
+        ],
+        "max": [
+          -10,
+          8,
+          40
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 23,
       "scene_id": "solar-array-three--panel",
       "place_id": "canberra-public-reference",
       "epistemic_class": "authored-artwork",
@@ -403,7 +1266,7 @@
       "planner_region": null
     },
     {
-      "entry_id": 10,
+      "entry_id": 24,
       "scene_id": "starlink-mini--dish-front",
       "place_id": "canberra-public-reference",
       "epistemic_class": "authored-artwork",
@@ -436,6 +1299,2229 @@
         ]
       ],
       "planner_region": null
+    },
+    {
+      "entry_id": 25,
+      "scene_id": "field-studio-operator-opt",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "73b75ab208c25e68abb245b75dcf3c1a3f5f1cac1b34440037e65c9bf078d5b7",
+      "bytes": 678688,
+      "vertices": 14964,
+      "triangles": 4988,
+      "url": "/production/native-world/assets/field-studio-operator-opt.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 26,
+      "scene_id": "field-studio-operator-desk",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "24c2b20ca930836f7f8d023c41d3f688bf833ca12259645ee19a7dfc2bb0739b",
+      "bytes": 365552,
+      "vertices": 18984,
+      "triangles": 6328,
+      "url": "/production/native-world/assets/field-studio-operator-desk.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 27,
+      "scene_id": "field-studio-operator-laptop",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "a0cf742e760bf46e8ceca1908fac4704a809b3473be24a5acc68120b0bbda9f0",
+      "bytes": 117952,
+      "vertices": 272,
+      "triangles": 540,
+      "url": "/production/native-world/assets/field-studio-operator-laptop.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 28,
+      "scene_id": "field-studio-operator-laptop-lid",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "6727050e63acf8fd1c9334926e45b17fe323a958976ebc7534927a6666e12f06",
+      "bytes": 117952,
+      "vertices": 272,
+      "triangles": 540,
+      "url": "/production/native-world/assets/field-studio-operator-laptop-lid.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 29,
+      "scene_id": "field-studio-operator-shirt",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "4d809a5f81538fd2bd4d5ed4882a13d72810f26824f114c76a51e420ced1344a",
+      "bytes": 277904,
+      "vertices": 2256,
+      "triangles": 752,
+      "url": "/production/native-world/assets/field-studio-operator-shirt.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 30,
+      "scene_id": "field-studio-operator-shorts",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "6943fbcdf7701d3a0a8e628de97dcb424c42ae62d7287b88552e7e47c20f660a",
+      "bytes": 442224,
+      "vertices": 3960,
+      "triangles": 1320,
+      "url": "/production/native-world/assets/field-studio-operator-shorts.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 31,
+      "scene_id": "field-studio-operator-hair",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "8be5d9e4b1b131a31c4566d1a4921e9cbc15165678d6527267ff09a5b2290abc",
+      "bytes": 202384,
+      "vertices": 1536,
+      "triangles": 512,
+      "url": "/production/native-world/assets/field-studio-operator-hair.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 32,
+      "scene_id": "car-passat-b7--alloy",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "716d3e0fd9f1fbc939dcaa6bf20b845335f3976e3ec05614842adab133ece362",
+      "bytes": 934120,
+      "vertices": 5380,
+      "triangles": 10656,
+      "url": "/production/native-world/assets/car-passat-b7--alloy.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 33,
+      "scene_id": "car-passat-b7--brake",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "468c85dcfa9d5fe0638a5345adaf0c66d419bd790ef5ddb1e1b2fe81882c0219",
+      "bytes": 196408,
+      "vertices": 520,
+      "triangles": 1024,
+      "url": "/production/native-world/assets/car-passat-b7--brake.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 34,
+      "scene_id": "car-passat-b7--lamp",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "fbf113ca06776e709d2961aeba2ec539607dc2e277233bb3c72addbf11f8af0a",
+      "bytes": 258648,
+      "vertices": 1290,
+      "triangles": 2664,
+      "url": "/production/native-world/assets/car-passat-b7--lamp.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 35,
+      "scene_id": "car-passat-b7--lamp-interior",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "924af626677f93c70a3b956ad4244fee2b059e531f5a894e459e0842bd8c3f28",
+      "bytes": 764504,
+      "vertices": 2320,
+      "triangles": 4624,
+      "url": "/production/native-world/assets/car-passat-b7--lamp-interior.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 36,
+      "scene_id": "car-passat-b7--plate",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "484b0f864ff73891da1c6d76bfa2affdb37559c121d294a2e7188de341f730a9",
+      "bytes": 226280,
+      "vertices": 590,
+      "triangles": 1172,
+      "url": "/production/native-world/assets/car-passat-b7--plate.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 37,
+      "scene_id": "car-passat-b7--projector",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "b325e1e9c31362fc83a23ba1da34143d9813274aaf4fe24c9abd8f21b8b805e3",
+      "bytes": 389176,
+      "vertices": 1128,
+      "triangles": 2240,
+      "url": "/production/native-world/assets/car-passat-b7--projector.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 38,
+      "scene_id": "car-passat-b7--red",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "392c21aa786bf0e4ccb977e01de453d8eaa92da3b6da0c8c58d4bd5ea5993a40",
+      "bytes": 403112,
+      "vertices": 1160,
+      "triangles": 2312,
+      "url": "/production/native-world/assets/car-passat-b7--red.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 39,
+      "scene_id": "car-passat-b7--roofbox",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "7817e6c448f95a8ccc14b688cc670a903d502245339272b0a131c063232e104e",
+      "bytes": 96400,
+      "vertices": 172,
+      "triangles": 340,
+      "url": "/production/native-world/assets/car-passat-b7--roofbox.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 40,
+      "scene_id": "car-passat-b7--roofbox-base",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "2160425a2a8d576e1c1220386c08744f97e6b2bb378d404c880f67009cfd45c7",
+      "bytes": 197592,
+      "vertices": 524,
+      "triangles": 1008,
+      "url": "/production/native-world/assets/car-passat-b7--roofbox-base.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 41,
+      "scene_id": "car-passat-b7--rubber",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "39aa9e607f33bb998a97e08982541c0f1be6aebaab0e54ccd9378779e6e22e79",
+      "bytes": 934328,
+      "vertices": 2824,
+      "triangles": 5632,
+      "url": "/production/native-world/assets/car-passat-b7--rubber.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 42,
+      "scene_id": "car-passat-b7--trim",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "57afc4e963e7b0008df4534176295f21b2f98a48edf84e815a83b044d4a6788e",
+      "bytes": 2099688,
+      "vertices": 6704,
+      "triangles": 13288,
+      "url": "/production/native-world/assets/car-passat-b7--trim.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 43,
+      "scene_id": "solar-array-three--aluminium",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "55fa97a577e3aab5f5dd913ba8c034122b2097ced012ea4467d5781a2bd10060",
+      "bytes": 243896,
+      "vertices": 708,
+      "triangles": 1248,
+      "url": "/production/native-world/assets/solar-array-three--aluminium.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 44,
+      "scene_id": "solar-array-three--backing",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "a742aa791829d94a649ef842e55d04c5cecf9be46f9f4935efaa1ceb7fbdadd7",
+      "bytes": 57976,
+      "vertices": 60,
+      "triangles": 96,
+      "url": "/production/native-world/assets/solar-array-three--backing.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 45,
+      "scene_id": "solar-array-three--cell-line",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "5135fafe7bcb3cd56fedc352e4b771ad7b33d448e98e1b2fa39c4bcf0964f054",
+      "bytes": 271992,
+      "vertices": 840,
+      "triangles": 1344,
+      "url": "/production/native-world/assets/solar-array-three--cell-line.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 46,
+      "scene_id": "solar-array-three--rubber",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "028a155587fbe10bfcefedd1e5acf13c0a77529e4e9e220411c32f76a0c85f96",
+      "bytes": 223896,
+      "vertices": 644,
+      "triangles": 1168,
+      "url": "/production/native-world/assets/solar-array-three--rubber.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 47,
+      "scene_id": "solar-array-two--aluminium",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "b24d54169993b011271508f894b521874e11ff98977f89f4b569aa19da08b90e",
+      "bytes": 113080,
+      "vertices": 236,
+      "triangles": 416,
+      "url": "/production/native-world/assets/solar-array-two--aluminium.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 48,
+      "scene_id": "solar-array-two--backing",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "12e59dc647ff0c80033b5463a555ce8d93a9de55858a37d95387ae4faa00bc54",
+      "bytes": 47544,
+      "vertices": 20,
+      "triangles": 32,
+      "url": "/production/native-world/assets/solar-array-two--backing.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 49,
+      "scene_id": "solar-array-two--cell-line",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "74caee3cd6fae95fd7a116c24d5c8fe11af13437d32b4817b97a3f142a6ea3f7",
+      "bytes": 124856,
+      "vertices": 280,
+      "triangles": 448,
+      "url": "/production/native-world/assets/solar-array-two--cell-line.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 50,
+      "scene_id": "solar-array-two--panel",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "db70b240653101707fde16c2535821dbdc15fa6caf437f7663b1034dadb38ad5",
+      "bytes": 47544,
+      "vertices": 20,
+      "triangles": 32,
+      "url": "/production/native-world/assets/solar-array-two--panel.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 51,
+      "scene_id": "solar-array-two--rubber",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "8171886a63020b2ea8054a001bc4a8c17ede26037347652d596c20be78b4a942",
+      "bytes": 114056,
+      "vertices": 240,
+      "triangles": 440,
+      "url": "/production/native-world/assets/solar-array-two--rubber.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 52,
+      "scene_id": "starlink-mini--aluminium",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "8d7c00889d522216745725f808f9c905e151a5827ecc230ea1405c93fe412ebe",
+      "bytes": 62904,
+      "vertices": 72,
+      "triangles": 128,
+      "url": "/production/native-world/assets/starlink-mini--aluminium.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 53,
+      "scene_id": "starlink-mini--backing",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "1f873f6ca8e525de67a6b9367b6c3f1f4a4355b74372d60fa4f4b8e673c65c27",
+      "bytes": 44656,
+      "vertices": 10,
+      "triangles": 16,
+      "url": "/production/native-world/assets/starlink-mini--backing.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 54,
+      "scene_id": "starlink-mini--dish-back",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "a6f2be1d35e7aab38851c277cfc480efc7f4489411285b954e4d01125e3b61a8",
+      "bytes": 82576,
+      "vertices": 138,
+      "triangles": 256,
+      "url": "/production/native-world/assets/starlink-mini--dish-back.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 55,
+      "scene_id": "starlink-mini--mount",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "efc81d775f815e1d86db8d71b30f5fddc7f47bb1e897f9d4e789b0bfdb4d5447",
+      "bytes": 56712,
+      "vertices": 48,
+      "triangles": 88,
+      "url": "/production/native-world/assets/starlink-mini--mount.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 56,
+      "scene_id": "starlink-mini--rubber",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "8e13f79fd88433ba93b775b9df34f38c0e295434cb2c6c4014110c856d9bb84d",
+      "bytes": 66024,
+      "vertices": 78,
+      "triangles": 148,
+      "url": "/production/native-world/assets/starlink-mini--rubber.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 57,
+      "scene_id": "canopy--bronze",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "97422e8b70694ac7b0f9c23097ac000117c90827325925db94a77da8e553586d",
+      "bytes": 1000184,
+      "vertices": 3092,
+      "triangles": 6144,
+      "url": "/production/native-world/assets/canopy--bronze.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 58,
+      "scene_id": "canopy--limestone",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "ad5d1ac24d71add9373540a41960e1c1126e44bbb3ceff3b83dcb3cd56319188",
+      "bytes": 322192,
+      "vertices": 1024,
+      "triangles": 1792,
+      "url": "/production/native-world/assets/canopy--limestone.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 59,
+      "scene_id": "canopy--timber",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "d63a0fc859720de902e35592da7676e430d78542aa52c8e1f807c290687a40a2",
+      "bytes": 2339256,
+      "vertices": 7632,
+      "triangles": 15168,
+      "url": "/production/native-world/assets/canopy--timber.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 60,
+      "scene_id": "tidal-vessel--bronze",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "78afe807825237b32229beebeca95f17199fca963a46ffe6a3bb77f510aeb7fb",
+      "bytes": 1479408,
+      "vertices": 4638,
+      "triangles": 9216,
+      "url": "/production/native-world/assets/tidal-vessel--bronze.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 61,
+      "scene_id": "tidal-vessel--limestone",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "78cf11cc7b75aff9555bb363db971aee4acb590721cc9b3859580c68dcfe3480",
+      "bytes": 289168,
+      "vertices": 896,
+      "triangles": 1536,
+      "url": "/production/native-world/assets/tidal-vessel--limestone.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 62,
+      "scene_id": "tidal-vessel--verdigris",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "6addef4bceb9c75699ba7471c376ec178838204a20ad7f0fecac6cfb4e0e4bda",
+      "bytes": 2997584,
+      "vertices": 9504,
+      "triangles": 18816,
+      "url": "/production/native-world/assets/tidal-vessel--verdigris.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 63,
+      "scene_id": "memory-frond--bronze",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "7104f41967108a4538427a86a30c3bc13c1647356d94607ee3ed6e7d59150458",
+      "bytes": 189664,
+      "vertices": 494,
+      "triangles": 984,
+      "url": "/production/native-world/assets/memory-frond--bronze.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 64,
+      "scene_id": "memory-frond--leaf",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "9b8080cbf57eb26d8184fb967fd346031518ed3b4514d84771094fdebcdfec0a",
+      "bytes": 1928312,
+      "vertices": 6040,
+      "triangles": 12000,
+      "url": "/production/native-world/assets/memory-frond--leaf.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 65,
+      "scene_id": "memory-frond--limestone",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "04d839d4c89ae698436266c588e52a1e2d1a77604ebeff2ac3430c6533ddd475",
+      "bytes": 202640,
+      "vertices": 640,
+      "triangles": 1024,
+      "url": "/production/native-world/assets/memory-frond--limestone.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 66,
+      "scene_id": "footbridge--bridge-heartwood",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "c6599a1a80e933b53ce69c9f05d99317b6049fff0242b51590f2578bfdbb59a9",
+      "bytes": 237400,
+      "vertices": 624,
+      "triangles": 1200,
+      "url": "/production/native-world/assets/footbridge--bridge-heartwood.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 67,
+      "scene_id": "footbridge--bridge-timber",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "53b7ceb4128c3e680eb51046fb92ffe4c11e6f5b06dbd9fc0e76fb6e1920b34e",
+      "bytes": 520472,
+      "vertices": 1532,
+      "triangles": 2704,
+      "url": "/production/native-world/assets/footbridge--bridge-timber.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 68,
+      "scene_id": "footbridge--pale-limestone",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "cef3713993dbe144b47ad7e3928c78080d709344d7ac13753551c299a47980ed",
+      "bytes": 53304,
+      "vertices": 40,
+      "triangles": 64,
+      "url": "/production/native-world/assets/footbridge--pale-limestone.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 69,
+      "scene_id": "footbridge--patinated-bronze",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "5eeca81394164d0021b26cbca19612d99450d7aebe7ce47d7d7737a5bc25bca2",
+      "bytes": 799288,
+      "vertices": 2428,
+      "triangles": 4704,
+      "url": "/production/native-world/assets/footbridge--patinated-bronze.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 70,
+      "scene_id": "observatory--pale-limestone",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "b4c7b8d2b04d932b20d4eca282c373a4d5053f1e821e188184d32bbfc65cb505",
+      "bytes": 256144,
+      "vertices": 768,
+      "triangles": 1280,
+      "url": "/production/native-world/assets/observatory--pale-limestone.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 71,
+      "scene_id": "observatory--patinated-bronze",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "dfbd0f55ad8f2833f88be7dc689f65c3962afd017f6fb07acf436f1fc46510df",
+      "bytes": 1906616,
+      "vertices": 6062,
+      "triangles": 11748,
+      "url": "/production/native-world/assets/observatory--patinated-bronze.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 72,
+      "scene_id": "observatory--receiver-ceramic",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "36ffd5c9637fc73dc7edc31594b1a3d088e1798587d1f8a9e7723dd8cdd32016",
+      "bytes": 2397520,
+      "vertices": 7920,
+      "triangles": 15680,
+      "url": "/production/native-world/assets/observatory--receiver-ceramic.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 73,
+      "scene_id": "observatory--shadow-metal",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "49392c92c95eb7e91960571f1f14e56f6a8ba5c041fe6fae6f7bae3139256edc",
+      "bytes": 916712,
+      "vertices": 2768,
+      "triangles": 5480,
+      "url": "/production/native-world/assets/observatory--shadow-metal.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 74,
+      "scene_id": "biology--helix-gold",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "b215990b8099111199130ddc00e5f99375e40db2ef7ddcd4f902066a2351a010",
+      "bytes": 893992,
+      "vertices": 2666,
+      "triangles": 5236,
+      "url": "/production/native-world/assets/biology--helix-gold.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 75,
+      "scene_id": "biology--helix-teal",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "2e0db72e8f83bc4711722fc95799588d6be3c21c0676a2cb0520fc0f3c1e74d5",
+      "bytes": 893992,
+      "vertices": 2666,
+      "triangles": 5236,
+      "url": "/production/native-world/assets/biology--helix-teal.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 76,
+      "scene_id": "biology--pale-limestone",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "92633b093eaed90b76dea41410892df488a7c13232868ea0aa0523d1c1a047c7",
+      "bytes": 256144,
+      "vertices": 768,
+      "triangles": 1280,
+      "url": "/production/native-world/assets/biology--pale-limestone.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 77,
+      "scene_id": "biology--shadow-metal",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "65de3b882e409896874ea426267cd5fbed071c10a4bef5b64506099987d0b98e",
+      "bytes": 55640,
+      "vertices": 44,
+      "triangles": 80,
+      "url": "/production/native-world/assets/biology--shadow-metal.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -30.0,
+          0.0,
+          20.0
+        ],
+        "max": [
+          -10.0,
+          8.0,
+          40.0
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 78,
+      "scene_id": "prototype-bank-rock-mid",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "416cbead287c66ea02d468370aeba4427c304d9fce8a97f409536a3e8c13c93f",
+      "bytes": 162384,
+      "vertices": 256,
+      "triangles": 384,
+      "url": "/production/aaa-proof/assets/prototype-bank-rock-mid-c2cc079fe018.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -20.1892,
+          -7.819353308610197,
+          -52.1912
+        ],
+        "max": [
+          24.0034,
+          15.797430139152912,
+          68.2398
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 79,
+      "scene_id": "prototype-bank-rock-near",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "bdc27bd0a169c5897f04554c7c21ad838f23263bfc22775a46b7cb07efc9f0f9",
+      "bytes": 319968,
+      "vertices": 1212,
+      "triangles": 2176,
+      "url": "/production/aaa-proof/assets/prototype-bank-rock-near-1904439a9443.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -24.541,
+          -7.804151615518484,
+          -51.7601
+        ],
+        "max": [
+          14.1304,
+          14.516991031790369,
+          60.5115
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 80,
+      "scene_id": "prototype-grass-mid",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "ffa01f20d815ada5d3aa5d090dcd15aedb5c70c2c98650a589891e210657a569",
+      "bytes": 457288,
+      "vertices": 3057,
+      "triangles": 3268,
+      "url": "/production/aaa-proof/assets/prototype-grass-mid-f5c8c389926f.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -67.22460000000001,
+          -7.470714997191397,
+          -47.4109
+        ],
+        "max": [
+          51.6901,
+          26.243157782695782,
+          73.9712
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 81,
+      "scene_id": "prototype-grass-near",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "589b7b28c94037276c966ecc866c3db151922f22a2b7a42c9b6bc99532d509fb",
+      "bytes": 1118280,
+      "vertices": 8027,
+      "triangles": 9188,
+      "url": "/production/aaa-proof/assets/prototype-grass-near-2b9c0211c3d7.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -66.7529,
+          -7.595585277090554,
+          -46.8911
+        ],
+        "max": [
+          52.4979,
+          24.7357704541801,
+          71.69200000000001
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 82,
+      "scene_id": "prototype-leaf-litter",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "c85f85e4e7822742ec98bedf50da7bfdb1b059405d52c7ac0a0eaa93b3684314",
+      "bytes": 276704,
+      "vertices": 1628,
+      "triangles": 1520,
+      "url": "/production/aaa-proof/assets/prototype-leaf-litter-36d61711a481.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -62.2908,
+          -6.986990718135919,
+          -17.9745
+        ],
+        "max": [
+          37.2083,
+          24.45283094605969,
+          65.0985
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 83,
+      "scene_id": "prototype-shrub-branches",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "ccb5daa02fbbda9e195ab026c7e6ee07a5f4b5fbad5fc57aad488ce79fb2ba4a",
+      "bytes": 465952,
+      "vertices": 2826,
+      "triangles": 3528,
+      "url": "/production/aaa-proof/assets/prototype-shrub-branches-2b91df5f5d65.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -76.3095,
+          -6.81803292979307,
+          -56.6972
+        ],
+        "max": [
+          67.34899999999999,
+          28.38717210607135,
+          76.3398
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 84,
+      "scene_id": "prototype-shrub-leaves",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "a84a4e0ffc694cbf99423d68d6704f9eac208a26e9d0da2de498611553117e60",
+      "bytes": 1694320,
+      "vertices": 13352,
+      "triangles": 14000,
+      "url": "/production/aaa-proof/assets/prototype-shrub-leaves-00d7290859af.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -76.3095,
+          -6.81803292979307,
+          -56.6972
+        ],
+        "max": [
+          67.34899999999999,
+          28.38717210607135,
+          76.3398
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
+    },
+    {
+      "entry_id": 85,
+      "scene_id": "prototype-eucalyptus-lush-near",
+      "place_id": "canberra-public-reference",
+      "epistemic_class": "authored-artwork",
+      "family": "TenD",
+      "family_from": "inner-magic",
+      "role": "Enhancement",
+      "obligation": "Optional",
+      "sha256": "789f60c18729e665dd54593219c15f3fd39fc4ffd24ac0a06ee4fff4d12c6852",
+      "bytes": 11470616,
+      "vertices": 88280,
+      "triangles": 131528,
+      "url": "/production/aaa-proof/assets/prototype-eucalyptus-lush-near-3df762d29532.10d",
+      "shard": "enhancement",
+      "aabb": {
+        "min": [
+          -52.6702,
+          -4.734488255864367,
+          0.048199999999999577
+        ],
+        "max": [
+          2.0294,
+          21.752239687340296,
+          59.6954
+        ]
+      },
+      "tiles": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "planner_region": null
     }
   ],
   "edges": [
@@ -458,8 +3544,8 @@
   "windowed_inventory": {
     "max_plan_entries": 64,
     "max_schedule_items": 64,
-    "first_paint_window": 10,
-    "candidate_entry_count": 78,
+    "first_paint_window": 24,
+    "candidate_entry_count": 24,
     "record_unit_leaf": 0,
     "planner_region": null,
     "means": "fetch and admit the whole inner file",
@@ -468,18 +3554,18 @@
     "host_bind": "CandidateIdentity::from_parts"
   },
   "declared_subset": {
-    "ids": 10,
-    "bytes": 14632064,
-    "authored_subtotal_bytes": 12685072,
+    "ids": 24,
+    "bytes": 16644944,
+    "authored_subtotal_bytes": 14697952,
     "measured_gis_bytes": 1946992,
-    "vertices": 63934,
-    "triangles": 127688,
-    "v1_budget_bytes": 15728640
+    "vertices": 69018,
+    "triangles": 137048,
+    "v1_budget_bytes": 17825792
   },
   "wasm_budget": {
-    "bytes_today": 21726870,
-    "mib_today": 20.72,
-    "sha256": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c",
+    "bytes_today": 20325266,
+    "mib_today": 19.38,
+    "sha256": "8319b643a32fb1154dd9db253f4096fd92d8836bee56677256c5d31be82d59d4",
     "ci_budget_mib": 23.5,
     "ci_budget_bytes": 24641536
   }

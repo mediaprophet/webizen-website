@@ -7,4 +7,4 @@ pub fn streaming_requested(query: &str, canvas: &HtmlCanvasElement) -> bool {
     super::ewm_query_enabled(query, canvas)
 }
 
-pub const ROLLBACK: &str = "Leave streaming.default false and omit ?ewm=1";
+pub const ROLLBACK: &str = "Leave streaming.default false and omit ?ewm=1; woodland then fails closed to the reading view";

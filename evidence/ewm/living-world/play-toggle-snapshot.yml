@@ -1,0 +1,32 @@
+- generic [active]:
+  - link "Skip to world controls" [ref=f38e2] [cursor=pointer]:
+    - /url: "#native-world-ui"
+  - generic "Interactive native world. Use arrow keys to look around, plus and minus to zoom." [ref=f38e105]
+  - banner:
+    - link "W. webizen HUMAN CENTRIC COMPUTING" [ref=f38e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f38e5]: W.
+      - generic [ref=f38e6]:
+        - text: webizen
+        - generic [ref=f38e7]: HUMAN CENTRIC COMPUTING
+    - navigation "Reading routes" [ref=f38e8]:
+      - link "Read the world" [ref=f38e9] [cursor=pointer]:
+        - /url: /publication/reading.html
+      - link "The ecosystem" [ref=f38e10] [cursor=pointer]:
+        - /url: /atlas/
+      - link "Tests & benchmarks" [ref=f38e11] [cursor=pointer]:
+        - /url: /lab/
+      - link "The journey" [ref=f38e12] [cursor=pointer]:
+        - /url: /journey/
+    - generic [ref=f38e13]: English · AU
+  - status [ref=f38e127]: This view of the place now includes nearby enhancement.
+  - button "Show the reading and path panel" [ref=f38e128] [cursor=pointer]: Show panel
+  - button "Enter play mode and act in the world" [ref=f38e129] [cursor=pointer]: Play
+  - group [ref=f38e125]:
+    - generic "Open the proof laboratory" [ref=f38e126] [cursor=pointer]
+    - option "Schema.org 30.0 current HTTPS" [selected]
+    - option "Earth, space, rights and benchmark source graph"
+    - option "The ecosystem - 16 module groups explained"
+    - option "Inspect archiveHeld relationships" [selected]
+    - option "Find declared RDF types"
+    - option "Verify an absent public reference subject"

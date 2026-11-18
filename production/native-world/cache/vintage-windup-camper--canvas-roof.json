@@ -1,45 +1,45 @@
 {
-  "key": "05a975c48ed6ce1eba988712b49b0315ed7ba2d632e06074382c60d7b67a1123",
+  "key": "f6d5daceec52d37404215e08011ad77ea9b3bafd80159cf18aefe87070508dd1",
   "id": "vintage-windup-camper--canvas-roof",
   "native": {
-    "bytes": 35992,
+    "bytes": 118552,
     "key": "vintage-windup-camper--canvas-roof.10d",
     "kind": "10d",
-    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-621ef63f42f8\\vintage-windup-camper--canvas-roof.10d",
-    "sha256": "7df548345d154395197485a2012cf7396b31d1b0b46ebf1cbe6903e09dc5278f",
-    "url": "/artifacts/world-vintage-windup-camper--canvas-roof-621ef63f42f8/vintage-windup-camper--canvas-roof.10d"
+    "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-8fa8e3135a97\\vintage-windup-camper--canvas-roof.10d",
+    "sha256": "4a036bf1ebcd6fa42f0c8c4624cdc6d85eea145836ed711d7e6ade06a23310a0",
+    "url": "/artifacts/world-vintage-windup-camper--canvas-roof-8fa8e3135a97/vintage-windup-camper--canvas-roof.10d"
   },
   "production": {
     "antigravity_embed_hint": null,
-    "document_digest": "51f38666bd2d5a8bcd83b52fef87598369199300faa5194c2136fa6349b567a2",
-    "package_sha256": "2f758e224de3903df9420594d433d89945c770b626c91f00893438fd100df796",
+    "document_digest": "37e29f14e25ae528dc92e046e24faccd2d1daa83540d083a8900f4918246ed28",
+    "package_sha256": "e35cc4a37eb21eca1118f4c8fa78d6b5de2a1a7088f59bfcdc212785e9820ef5",
     "presentation_html": null,
     "producer": "files",
     "producer_version": "2",
     "receipt": {
       "binary": {
         "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
-        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "sha256": "e1d2e3881c31bff67ae5579d215eda37130f560526d53cdf140da466809893b7",
         "version": "0.1.0"
       },
       "catalog": {
         "count": 150,
-        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+        "sha256": "57e0bf32ca98f8be58c79531c9128e4a5f92e8d88d3aa2d6b182873337645132"
       },
       "execution_host": "synth.production",
       "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
       "hmc": {
-        "bytes": 51281,
-        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-621ef63f42f8.hmc",
-        "sha256": "2f758e224de3903df9420594d433d89945c770b626c91f00893438fd100df796"
+        "bytes": 146705,
+        "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-8fa8e3135a97.hmc",
+        "sha256": "e35cc4a37eb21eca1118f4c8fa78d6b5de2a1a7088f59bfcdc212785e9820ef5"
       },
       "inputs": [
         {
-          "bytes": 13900,
+          "bytes": 26768,
           "key": "world.glb",
           "kind": "glb",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--canvas-roof.glb",
-          "sha256": "401da41691da76c4076504bdec3d39ad3cea60155a78be639ed1f3db6cc9da41"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\inputs\\vintage-windup-camper--canvas-roof.glb",
+          "sha256": "3271d37442a9e49aa2d5e461288056e67b2d5e23b3e353403c285e55c390059b"
         }
       ],
       "limits": {
@@ -52,7 +52,7 @@
         "evaluation_workspace_bytes": 44040192,
         "package_bytes": 335544320,
         "resource_bytes": 67108864,
-        "source_available_bytes": 2097043,
+        "source_available_bytes": 2096942,
         "source_bytes": 551,
         "source_reservation_bytes": 70528,
         "source_reservation_kind": "conservative logical estimate, not an allocator bound",
@@ -70,40 +70,40 @@
       "requested_reviews": [],
       "resources": [
         {
-          "bytes": 35992,
+          "bytes": 118552,
           "key": "vintage-windup-camper--canvas-roof.10d",
           "kind": "10d",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-621ef63f42f8\\vintage-windup-camper--canvas-roof.10d",
-          "sha256": "7df548345d154395197485a2012cf7396b31d1b0b46ebf1cbe6903e09dc5278f",
-          "url": "/artifacts/world-vintage-windup-camper--canvas-roof-621ef63f42f8/vintage-windup-camper--canvas-roof.10d"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-8fa8e3135a97\\vintage-windup-camper--canvas-roof.10d",
+          "sha256": "4a036bf1ebcd6fa42f0c8c4624cdc6d85eea145836ed711d7e6ade06a23310a0",
+          "url": "/artifacts/world-vintage-windup-camper--canvas-roof-8fa8e3135a97/vintage-windup-camper--canvas-roof.10d"
         }
       ],
       "review_status": "not_requested",
       "schema": "synth.production-receipt/v1",
-      "source_sha256": "cf134e3e25708f84cb0a451eb7fca215fdae60dd589b74bf048569be5f85f46f",
+      "source_sha256": "29a4c0bae284972fb620f1557a50db00b2a1822bcec05322fa66e9c9a07335e2",
       "strict_replay_verified": true,
       "visual_acceptance": "pending inspection"
     },
     "resources": [
       {
-        "bytes": 35992,
+        "bytes": 118552,
         "key": "vintage-windup-camper--canvas-roof.10d",
         "kind": "10d",
         "modality": "spatial",
-        "sha256": "7df548345d154395197485a2012cf7396b31d1b0b46ebf1cbe6903e09dc5278f"
+        "sha256": "4a036bf1ebcd6fa42f0c8c4624cdc6d85eea145836ed711d7e6ade06a23310a0"
       }
     ],
     "revision": 1,
-    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-621ef63f42f8.hmc",
+    "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--canvas-roof-8fa8e3135a97.hmc",
     "schema": "synth.presentation-html/v1",
     "strict_replay_verified": true,
-    "package_url": "/artifacts/world-vintage-windup-camper--canvas-roof-621ef63f42f8.hmc",
-    "receipt_url": "/artifacts/world-vintage-windup-camper--canvas-roof-621ef63f42f8.json"
+    "package_url": "/artifacts/world-vintage-windup-camper--canvas-roof-8fa8e3135a97.hmc",
+    "receipt_url": "/artifacts/world-vintage-windup-camper--canvas-roof-8fa8e3135a97.json"
   },
-  "vertices": 28,
-  "triangles": 48,
+  "vertices": 384,
+  "triangles": 640,
   "instances": 1,
-  "material": 31,
+  "material": 27,
   "url": "/production/native-world/assets/vintage-windup-camper--canvas-roof.10d",
   "colour": [
     1,
@@ -111,8 +111,8 @@
     1,
     1
   ],
-  "sha256": "7df548345d154395197485a2012cf7396b31d1b0b46ebf1cbe6903e09dc5278f",
-  "bytes": 35992,
+  "sha256": "4a036bf1ebcd6fa42f0c8c4624cdc6d85eea145836ed711d7e6ade06a23310a0",
+  "bytes": 118552,
   "recipe": "/production/native-world/recipes/vintage-windup-camper--canvas-roof.vibe",
-  "input_sha256": "401da41691da76c4076504bdec3d39ad3cea60155a78be639ed1f3db6cc9da41"
+  "input_sha256": "3271d37442a9e49aa2d5e461288056e67b2d5e23b3e353403c285e55c390059b"
 }

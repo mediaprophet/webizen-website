@@ -1,45 +1,45 @@
 {
-  "key": "cad3d095fa6cd8f83883c2d3e9e89fc28b3a0c1c8de3995d689fb4f70968e1bb",
+  "key": "5a0ba3ffe3e9e11dc5e09781b7b9d70e35b6333ebdb7f27bb142e4f9a73311ed",
   "id": "vintage-windup-camper--enamel",
   "native": {
-    "bytes": 245624,
+    "bytes": 229368,
     "key": "vintage-windup-camper--enamel.10d",
     "kind": "10d",
-    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-d967537cf6b2\\vintage-windup-camper--enamel.10d",
-    "sha256": "34e186d68d6d14e377b63a73e88892048d815eb4f2c2bc1e45c002306798b033",
-    "url": "/artifacts/world-vintage-windup-camper--enamel-d967537cf6b2/vintage-windup-camper--enamel.10d"
+    "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-c87ddbf72f79\\vintage-windup-camper--enamel.10d",
+    "sha256": "e61e72f7cfe62b45c15c6950915eb7d7a3f29efac1abaf941e0241891b963447",
+    "url": "/artifacts/world-vintage-windup-camper--enamel-c87ddbf72f79/vintage-windup-camper--enamel.10d"
   },
   "production": {
     "antigravity_embed_hint": null,
-    "document_digest": "39268b09cfd367e9148d3eb98bb5d23d177cb1aa60f8ef598438aed6fba06a67",
-    "package_sha256": "7ca59732db4fd1240e3cef195180560576a663646d9e9057223b0988a1a995af",
+    "document_digest": "aad2241db008fe7fc85be1b2edffe80fe9cec778603754f25cbbfd8c56e94773",
+    "package_sha256": "fb5c1febbf9e700a773d60e5a41999b114e5a0b77fe4a61b1d6fa05304c87908",
     "presentation_html": null,
     "producer": "files",
     "producer_version": "2",
     "receipt": {
       "binary": {
         "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
-        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "sha256": "e1d2e3881c31bff67ae5579d215eda37130f560526d53cdf140da466809893b7",
         "version": "0.1.0"
       },
       "catalog": {
         "count": 150,
-        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+        "sha256": "57e0bf32ca98f8be58c79531c9128e4a5f92e8d88d3aa2d6b182873337645132"
       },
       "execution_host": "synth.production",
       "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
       "hmc": {
-        "bytes": 292237,
-        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-d967537cf6b2.hmc",
-        "sha256": "7ca59732db4fd1240e3cef195180560576a663646d9e9057223b0988a1a995af"
+        "bytes": 271888,
+        "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-c87ddbf72f79.hmc",
+        "sha256": "fb5c1febbf9e700a773d60e5a41999b114e5a0b77fe4a61b1d6fa05304c87908"
       },
       "inputs": [
         {
-          "bytes": 45328,
+          "bytes": 41268,
           "key": "world.glb",
           "kind": "glb",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--enamel.glb",
-          "sha256": "127d747c56aa0a9ef3ac4862d92675f040cf3827bdb4424ff8ccc85db555f505"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\inputs\\vintage-windup-camper--enamel.glb",
+          "sha256": "748a10a25f70318712aaa26b27cabf6c32d213d04af89d353291d65855ca34e9"
         }
       ],
       "limits": {
@@ -52,7 +52,7 @@
         "evaluation_workspace_bytes": 44040192,
         "package_bytes": 335544320,
         "resource_bytes": 67108864,
-        "source_available_bytes": 2096797,
+        "source_available_bytes": 2096829,
         "source_bytes": 541,
         "source_reservation_bytes": 69248,
         "source_reservation_kind": "conservative logical estimate, not an allocator bound",
@@ -70,40 +70,40 @@
       "requested_reviews": [],
       "resources": [
         {
-          "bytes": 245624,
+          "bytes": 229368,
           "key": "vintage-windup-camper--enamel.10d",
           "kind": "10d",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-d967537cf6b2\\vintage-windup-camper--enamel.10d",
-          "sha256": "34e186d68d6d14e377b63a73e88892048d815eb4f2c2bc1e45c002306798b033",
-          "url": "/artifacts/world-vintage-windup-camper--enamel-d967537cf6b2/vintage-windup-camper--enamel.10d"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-c87ddbf72f79\\vintage-windup-camper--enamel.10d",
+          "sha256": "e61e72f7cfe62b45c15c6950915eb7d7a3f29efac1abaf941e0241891b963447",
+          "url": "/artifacts/world-vintage-windup-camper--enamel-c87ddbf72f79/vintage-windup-camper--enamel.10d"
         }
       ],
       "review_status": "not_requested",
       "schema": "synth.production-receipt/v1",
-      "source_sha256": "95e3360bf3287d6d0c622e2d0cda0ffcc333812c5fb878cff8e9be5b4c080e4e",
+      "source_sha256": "3f78487d64d8ca7f82f8956bce7461c9d5339776ab136b47da0b724189766a50",
       "strict_replay_verified": true,
       "visual_acceptance": "pending inspection"
     },
     "resources": [
       {
-        "bytes": 245624,
+        "bytes": 229368,
         "key": "vintage-windup-camper--enamel.10d",
         "kind": "10d",
         "modality": "spatial",
-        "sha256": "34e186d68d6d14e377b63a73e88892048d815eb4f2c2bc1e45c002306798b033"
+        "sha256": "e61e72f7cfe62b45c15c6950915eb7d7a3f29efac1abaf941e0241891b963447"
       }
     ],
     "revision": 1,
-    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-d967537cf6b2.hmc",
+    "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--enamel-c87ddbf72f79.hmc",
     "schema": "synth.presentation-html/v1",
     "strict_replay_verified": true,
-    "package_url": "/artifacts/world-vintage-windup-camper--enamel-d967537cf6b2.hmc",
-    "receipt_url": "/artifacts/world-vintage-windup-camper--enamel-d967537cf6b2.json"
+    "package_url": "/artifacts/world-vintage-windup-camper--enamel-c87ddbf72f79.hmc",
+    "receipt_url": "/artifacts/world-vintage-windup-camper--enamel-c87ddbf72f79.json"
   },
-  "vertices": 808,
-  "triangles": 1568,
+  "vertices": 760,
+  "triangles": 1472,
   "instances": 1,
-  "material": 20,
+  "material": 16,
   "url": "/production/native-world/assets/vintage-windup-camper--enamel.10d",
   "colour": [
     1,
@@ -111,8 +111,8 @@
     1,
     1
   ],
-  "sha256": "34e186d68d6d14e377b63a73e88892048d815eb4f2c2bc1e45c002306798b033",
-  "bytes": 245624,
+  "sha256": "e61e72f7cfe62b45c15c6950915eb7d7a3f29efac1abaf941e0241891b963447",
+  "bytes": 229368,
   "recipe": "/production/native-world/recipes/vintage-windup-camper--enamel.vibe",
-  "input_sha256": "127d747c56aa0a9ef3ac4862d92675f040cf3827bdb4424ff8ccc85db555f505"
+  "input_sha256": "748a10a25f70318712aaa26b27cabf6c32d213d04af89d353291d65855ca34e9"
 }

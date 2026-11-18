@@ -32,14 +32,28 @@ FIRST_PAINT_IDS = [
     "car-passat-b7--glass",
     "car-passat-b7--chrome",
     "vintage-windup-camper--chassis",
+    "vintage-windup-camper--rubber",
     "vintage-windup-camper--enamel",
+    "vintage-windup-camper--chrome",
+    "vintage-windup-camper--ochre",
+    "vintage-windup-camper--olive",
+    "vintage-windup-camper--roof",
+    "vintage-windup-camper--canvas",
+    "vintage-windup-camper--screen",
+    "vintage-windup-camper--canvas-seam",
+    "vintage-windup-camper--screen-wire",
+    "vintage-windup-camper--step",
+    "vintage-windup-camper--steel",
+    "vintage-windup-camper--canvas-roof",
+    "vintage-windup-camper--red-lens",
+    "vintage-windup-camper--amber-lens",
     "solar-array-three--panel",
     "starlink-mini--dish-front",
 ]
-SUM_BYTES = 14632064
-AUTHORED_SUBTOTAL = 12685072
+SUM_BYTES = 16644944
+AUTHORED_SUBTOTAL = 14697952
 DEM_BYTES = 1946992
-BUDGET_BYTES = 15728640
+BUDGET_BYTES = 17825792
 WASM_BYTES = 21625218
 WASM_BUDGET_BYTES = 24641536
 ZERO_SHA384 = "0" * 96
@@ -209,11 +223,29 @@ def semantic_fixture(fixture) -> None:
     ids = fixture["first_paint"]
     if ids != FIRST_PAINT_IDS:
         fail("first_paint", "id list does not match the design table")
-    if len(ids) != 10:
-        fail("first_paint", "expected 10 ids")
+    if len(ids) != 24:
+        fail("first_paint", "expected 24 ids")
     by_id = {row["scene_id"]: row for row in fixture["entries"]}
-    if set(by_id) != set(ids):
-        fail("entries", "entry scene_id set must equal first_paint")
+    if not set(ids).issubset(set(by_id)):
+        fail("entries", "first_paint must be a subset of catalog entries")
+    extra = set(by_id) - set(ids)
+    listed = {row["id"] for row in fixture.get("enhancement_not_first_paint", [])}
+    if extra != listed:
+        fail(
+            "enhancement_not_first_paint",
+            "must name every non-first-paint catalog entry",
+        )
+    for row in fixture["entries"]:
+        if row["scene_id"] in ids:
+            if row["role"] != "Base":
+                fail(row["scene_id"], "first-paint role must be Base")
+        else:
+            if row["role"] != "Enhancement":
+                fail(row["scene_id"], "enhancement role must be Enhancement")
+            if row["obligation"] != "Optional":
+                fail(row["scene_id"], "enhancement obligation must be Optional")
+            if row["shard"] != "enhancement":
+                fail(row["scene_id"], "enhancement shard must be enhancement")
     total = sum(by_id[i]["bytes"] for i in ids)
     if total != SUM_BYTES:
         fail("entries", "byte sum " + str(total) + " != " + str(SUM_BYTES))
@@ -223,7 +255,7 @@ def semantic_fixture(fixture) -> None:
     if authored != AUTHORED_SUBTOTAL:
         fail("entries", "authored subtotal " + str(authored) + " != " + str(AUTHORED_SUBTOTAL))
     declared = fixture["declared_subset"]
-    if declared["bytes"] != SUM_BYTES or declared["ids"] != 10 or declared["v1_budget_bytes"] != BUDGET_BYTES:
+    if declared["bytes"] != SUM_BYTES or declared["ids"] != 24 or declared["v1_budget_bytes"] != BUDGET_BYTES:
         fail("declared_subset", "first-paint budget contract mismatch")
     if declared["authored_subtotal_bytes"] != AUTHORED_SUBTOTAL:
         fail("declared_subset", "authored subtotal mismatch")
@@ -243,8 +275,8 @@ def semantic_fixture(fixture) -> None:
             fail("candidate." + field, "zero digest is rejected by from_parts")
         if len(cand[field]) != 96:
             fail("candidate." + field, "SHA-384 must be 96 hex")
-    if cand["entries"] != 78:
-        fail("candidate.entries", "expected 78 (77 woodland + packed Canberra DEM)")
+    if cand["entries"] != 24:
+        fail("candidate.entries", "expected 24 (InventoryVerifier::finish of the first-paint members)")
     dem = by_id["canberra-reference-terrain"]
     if dem["epistemic_class"] != "measured-gis":
         fail("canberra-reference-terrain", "must be measured-gis")

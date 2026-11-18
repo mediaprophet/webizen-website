@@ -1,29 +1,58 @@
 {
   "schema": "webizen.ewm-qualification/v1",
   "locale": "en-AU",
-  "status": "source-complete pending cargo wasm rebuild and browser dual-boot",
+  "status": "local dual-boot, OPFS, and camera-move measured; streaming.default stays false pending user accept",
   "streaming_default": false,
   "inner_ranges": false,
+  "browser_ran": true,
+  "art_approval": false,
   "first_paint": {
-    "ids": 10,
-    "bytes": 14632064,
-    "authored_subtotal_bytes": 12685072,
+    "ids": 24,
+    "bytes": 16644944,
+    "authored_subtotal_bytes": 14697952,
     "measured_gis_bytes": 1946992,
-    "vertices": 63934,
-    "triangles": 127688,
-    "v1_budget_bytes": 15728640
+    "vertices": 69018,
+    "triangles": 137048,
+    "v1_budget_bytes": 17825792
   },
   "bearer": "HTTP Range on static QBDL/HMC whole entries. FetchRangeService::get_range with FallbackPolicy::FORBIDDEN, then whole-entry GET of the published URL. Host SHA-256s arrived bytes against the catalog.",
   "candidate_origin": {
-    "kind": "pending-producer",
+    "kind": "inventory-verifier-finish",
     "host_bind": "CandidateIdentity::from_parts",
     "browser_inventory_verifier": false,
-    "note": "Placeholder non-zero SHA-384 four-tuple. InventoryVerifier::finish stays producer-side."
+    "descriptor_sha384": "7c8c1d54ce84c59d999a941c5e90f58a46483b98775a0f9eabb775412b657f5faa079a41710d3ab6a60edc2c34e2df1e",
+    "context_sha384": "f5b6e26c2ebe84e6d3f0256c89b8757eda9bce3d6d2fd4b87e4e5e17685720f329904d7456614ee11d25424485706f55",
+    "generation": 0,
+    "entries": 24,
+    "sidecar": "packages/qbdl/inventory-identity.json",
+    "helper": "qualia-core-db --bin ewm-first-paint --no-default-features",
+    "evidence": "evidence/ewm/inventory-identity-run.json",
+    "note": "Native InventoryVerifier::finish on the 24 first-paint .10d shards, including every vintage-windup-camper part. Python copied the four-tuple and did not mint SHA-384. Host binds from_parts. The browser never calls finish."
   },
   "gis": {
     "place_id": "canberra-public-reference",
-    "bbox_wsen": [149.06, -35.3, 149.08, -35.28],
-    "join": "Catalog AABB in the Y-up x/z plane plus non-XOR 100 m tiles, radius 80 m, window ≤64. Recorded on the first-paint receipt. Camera-move SelectionIntent recompile is later.",
+    "bbox_wsen": [
+      149.06,
+      -35.3,
+      149.08,
+      -35.28
+    ],
+    "join": "Catalog AABB in the Y-up x/z plane plus non-XOR 100 m tiles, radius 80 m, window \u226464. First-paint Base then overlapping Enhancement (compose_window). Camera-move SelectionIntent is implemented in stream/selection.rs (prepare_window HTTP then admit_prepared GPU) and wired from the frame loop (take_ewm_tile_job, enhancement_pending after first paint). Live shift+drag pan in the headed browser moved the camera target from [-22, 5.49, 28] (inferred tile -1,0) to [6.76, 5.49, 28] and wrote ewm_live_tile {x:0, z:0}. Evidence: evidence/ewm/camera-move.json.",
+    "live_tile_change": {
+      "method": "shift+drag pan",
+      "before_inferred_tile": {
+        "x": -1,
+        "z": 0
+      },
+      "after": {
+        "x": 0,
+        "z": 0
+      },
+      "ewm_live_bytes": 14632064,
+      "ewm_live_triangles": 127688,
+      "screenshot": "evidence/ewm/camera-tile-change.png",
+      "evidence": "evidence/ewm/camera-move.json"
+    },
     "live_adapters": "default-deny until opt-in",
     "public_boot_calls_live_adapters": false
   },
@@ -31,37 +60,103 @@
     "physical_usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
     "infosphere": "RealmClass::Noosphere as a CoLocatedLayer on the public Earth place. No cyber RealmClass."
   },
+  "enhancement": {
+    "after_base": true,
+    "catalog_entries": 54,
+    "four_tuple_entries": 24,
+    "window": 64,
+    "enhancement_in_origin_window": 40,
+    "bytes": 39205064,
+    "triangles": 275504,
+    "near_eucalyptus_in_origin_window": false,
+    "streaming_default": false,
+    "screenshot": "evidence/ewm/ewm-1-enhancement-window.png",
+    "note": "Remaining woodland identities stream after first paint from the Q42 scene graph. Flag off fails closed; it does not load scene.json. Cloudflare Range is still 200 whole-object."
+  },
   "download": {
     "same_as_stream": true,
-    "opfs_wired": false,
-    "method": "sequential browser save of the same SHA-256 identities, 400 ms pause, in-flight lock"
+    "opfs_wired": true,
+    "method": "Origin Private File System write of the same SHA-256 identities, 400 ms pause, in-flight lock; blob <a download> is fallback only when OPFS is unavailable",
+    "opfs": {
+      "api": "navigator.storage.getDirectory via js_sys::Reflect",
+      "path": "ewm/by-sha256/<sha256>",
+      "blob_save_kept": false,
+      "write_opfs_block": false,
+      "fallback_en_AU": "Saved to your downloads folder. Origin Private File System is unavailable in this browser; the disk save succeeded.",
+      "browser_verified": true,
+      "fallback_used": false,
+      "status_text": "Kept an Origin Private File System offline copy of the same SHA-256 identities. Nothing was sent to the downloads folder.",
+      "identities": 24,
+      "screenshot": "evidence/ewm/opfs-keep-offline.png",
+      "evidence": "evidence/ewm/opfs-browser.json"
+    }
   },
   "dual_boot": {
-    "flag_off": "whole-file lush-woodland scene fetch remains",
+    "flag_off": "fail closed to the reading view; woodland no longer whole-file fetches scene.json",
+    "scene_graph": "q42",
     "query": "ewm=1",
-    "independent_of": "gpu-timing=1"
+    "independent_of": "gpu-timing=1",
+    "browser_run": true,
+    "local_host": "http://127.0.0.1:8800/",
+    "ewm_1": {
+      "ewm_streaming": true,
+      "streaming_enabled": true,
+      "streaming_default": false,
+      "asset_count": 24,
+      "asset_bytes": 16644944,
+      "organs_loaded": 24,
+      "organs_refused": 0,
+      "upload_triangles": 137048,
+      "renderer": "webgpu",
+      "ewm_infosphere": true,
+      "camper_parts": 16,
+      "scene_graph": "q42",
+      "scene_graph_encoding": "q42vol-v4-cbor-ld",
+      "scene_q42_sha256": "58943a2d0845666ceec48701d4eec237db6f4ea5410183c3619fac62bff35dea",
+      "catalog_q42_sha256": "43f4ea363ec790aece74f61e2bcce38406b0301b30c1a3e6e906f45db30e959b",
+      "q42_reader": "PoetSnapshot::admit_q42_slice",
+      "q42_engine": "GraphDatabase.sparql",
+      "sparql_hits": 24,
+      "gis_terrain": "canberra-reference-terrain",
+      "screenshot": "evidence/ewm/ewm-1-scene-q42.png",
+      "local_range": "tooling/world_server.py served first-paint .10d as 206 Partial Content"
+    },
+    "flag_off_measured": {
+      "ewm_streaming": false,
+      "streaming_enabled": false,
+      "streaming_default": false,
+      "fail_closed": true,
+      "fetched_scene_json": false,
+      "asset_count": 0,
+      "status_contains": "streams when you add ?ewm=1",
+      "screenshot": "evidence/ewm/flag-off-fail-closed.png"
+    }
   },
   "timeline": "never stored under data/ewm, packages, HMC, Q42, or _site",
   "utf8": "Host source is UTF-8. Receipts refuse U+FFFD. ASCII is not required.",
   "wasm": {
     "ci_budget_bytes": 24641536,
     "ci_budget_mib": 23.5,
-    "bytes_today": 21726870,
-    "mib_today": 20.72,
-    "sha256_today": "be8fc5ac6f9769bcb97882fc5eb0225ec5544b0e9c6ac75a7d27ddec4fceb36c",
-    "measured_after_ewm_rebuild": true
+    "bytes_today": 22114849,
+    "mib_today": 21.1,
+    "sha256_today": "04842f736350720a8271e0629be642113017fc6487af577f7cf74e8514532743",
+    "measured_after_ewm_rebuild": true,
+    "next_rebuild": "done 2026-11-18; pack-up sides-fold-stow-lid; four-tuple 24"
   },
   "hosting_range": {
-    "local_world_server": "Accept-Ranges plus 206 of the requested window",
-    "cloudflare_and_github_pages": "measurement gate; unmeasured in this file. Hosts that ignore Range use whole-entry GET."
+    "evidence": "evidence/ewm/range-hosts.json",
+    "probe": "GET Range: bytes=0-63",
+    "measured": "2026-11-17",
+    "local_world_server": "Accept-Ranges plus 206 of the requested window (tooling/world_server.py).",
+    "cloudflare_worker_static_assets": "Advertises Accept-Ranges: bytes but returns 200 whole object. DEM /packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de is 1,946,992 bytes; habitat-terrain.hmc is 8,723,745 bytes. Worker Static Assets ignore Range.",
+    "github_pages": "Honours Range with exact 206 windows, including the /webizen-website/ subpath.",
+    "fallback": "Whole-entry GET of the published URL is the designed path when Range is ignored. Do not 200-slice 8\u201311 MiB bodies."
   },
   "python_tests": "python tests/ewm/run.py from C:\\github\\webizen-website",
-  "cargo": "wasm32-unknown-unknown release world-host built into C:\\github\\webizen-website\\target-production-core-wasm; wasm-bindgen 0.2.129; receipt.py wrote site/pkg/native-world; cargo test -p qualia-core-db --lib fetch_range_wasm: 9 passed",
+  "cargo": "wasm32-unknown-unknown release world-host built into C:\\github\\webizen-website\\target-production-core-wasm; wasm-bindgen 0.2.129; receipt.py wrote site/pkg/native-world (22,114,849 bytes, sha256 04842f73\u2026). Four-tuple stays 24. Pack-up folds 2/3-panel arrays then stows them before the lid comes down.",
   "honest_gaps": [
-    "InventoryVerifier::finish is producer-side; the catalog four-tuple is pending-producer",
-    "Cloudflare and GitHub Pages 206 versus 200 is unmeasured",
-    "GPU triangle total versus declared 127688 is a later browser check",
-    "OPFS offline copy is not wired",
-    "Camera-move SelectionIntent recompile is later; overlapping AABBs are receipt diagnostics in v1 first paint"
+    "streaming.default stays false until EWM-08 evidence and user accept",
+    "The InventoryVerifier four-tuple covers the 24 first-paint members including every vintage-windup-camper part; enhancement after base windows remaining woodland identities (\u226464) without expanding that four-tuple; woodland scene, EWM catalog and publication are Q42VOL v4 CBOR-LD SuperBlocks of NQuins with RDF-typed literals; visitors never read those files; SPARQL joins GIS place to scene assets; flag off fails closed to the reading view",
+    "inner_ranges, QDNF, ranged Q42, PR10 unload, live GBIF, and art review are later-track"
   ]
 }

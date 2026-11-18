@@ -1,0 +1,43 @@
+{
+  "schema": "webizen.lw-00-validation/v1",
+  "status": "LW-00 living-world playable contract validated; no runtime change",
+  "id_series": "LW",
+  "packet_ids": [
+    "LW-00",
+    "LW-01",
+    "LW-02",
+    "LW-03",
+    "LW-04",
+    "LW-05",
+    "LW-06",
+    "LW-07",
+    "LW-08",
+    "LW-09",
+    "LW-10"
+  ],
+  "waves": [
+    "wave-0",
+    "wave-1",
+    "wave-2",
+    "wave-3",
+    "wave-4"
+  ],
+  "streaming_default": false,
+  "inner_ranges": false,
+  "first_paint_len": 24,
+  "runtime_behaviour_change": false,
+  "p1_unhitch_done": true,
+  "listed_remainder": [
+    "WASD",
+    "SKL1 walk",
+    "awning pack",
+    "re-hitch",
+    "place unload"
+  ],
+  "file_sha256": {
+    "plans/living-world/LIVING-WORLD-PLAYABLE.md": "dd1b592beba8d41139b269112d8ea1563e86d249fe431f1b0fbd0cb35afffa9c",
+    "plans/living-world/work-packets.json": "2f0bb1804332a986a10660e4247ff538884169a7438f5ce08f743d9c3687eb5b",
+    "plans/living-world/file-ownership.json": "99252e77d0d7b4996aabda52d218fccd10824f27380e221fc83c80a8bed14548",
+    "plans/living-world/validate_lw00.py": "6c80b791ba9793f4380c260c59de8cb90cf0e5357e363bd55d62272a4cba695b"
+  }
+}

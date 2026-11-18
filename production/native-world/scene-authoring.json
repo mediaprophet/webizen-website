@@ -161,12 +161,12 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.386429433787049,
-          0.013702083047289686,
-          0.017641954488384078,
+          0.7529422167760779,
+          0.7758222183174236,
+          0.6866853124353135,
           1
         ],
-        "metallicFactor": 0.2,
+        "metallicFactor": 0.25,
         "roughnessFactor": 0.24
       },
       "doubleSided": true,
@@ -175,12 +175,12 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.7529422167760779,
-          0.7758222183174236,
-          0.6866853124353135,
+          0.386429433787049,
+          0.013702083047289686,
+          0.017641954488384078,
           1
         ],
-        "metallicFactor": 0.25,
+        "metallicFactor": 0.2,
         "roughnessFactor": 0.24
       },
       "doubleSided": true,
@@ -203,65 +203,9 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.02217388479338738,
-          0.033104766570885055,
-          0.04091519690685319,
-          1
-        ],
-        "metallicFactor": 0.5,
-        "roughnessFactor": 0.3
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.007499032043226175,
-          0.019382360956935723,
-          0.0295568344378088,
-          1
-        ],
-        "metallicFactor": 0.4,
-        "roughnessFactor": 0.13
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.012983032342173012,
-          0.018500220128379697,
-          0.02217388479338738,
-          1
-        ],
-        "metallicFactor": 0.05,
-        "roughnessFactor": 0.55
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.0295568344378088,
-          0.03954623527673284,
-          0.046665086336880095,
-          1
-        ],
-        "metallicFactor": 0.2,
-        "roughnessFactor": 0.29
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.05126945837404324,
-          0.06301001765316767,
-          0.05780543019106723,
+          0.02315336617811041,
+          0.027320891639074894,
+          0.02518685962736163,
           1
         ],
         "metallicFactor": 0.35,
@@ -287,13 +231,13 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.7758222183174236,
-          0.7083757798916868,
-          0.5332764040105052,
+          0.8962693533742664,
+          0.8713671191987972,
+          0.8069522576692516,
           1
         ],
         "metallicFactor": 0.08,
-        "roughnessFactor": 0.68
+        "roughnessFactor": 0.58
       },
       "doubleSided": true,
       "alphaMode": "OPAQUE"
@@ -301,9 +245,9 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.45078578283822346,
-          0.4851499400560704,
-          0.4396571738409188,
+          0.5583403896342679,
+          0.5972017883637634,
+          0.5520114015120001,
           1
         ],
         "metallicFactor": 0.8,
@@ -315,9 +259,9 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.5028864580325687,
-          0.2788942634768104,
-          0.042311410620809675,
+          0.5520114015120001,
+          0.35153259950043936,
+          0.06847816984440017,
           1
         ],
         "metallicFactor": 0.02,
@@ -329,9 +273,9 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.09758734714186246,
-          0.14412847085805777,
-          0.04518620438567554,
+          0.028426039504420793,
+          0.10702310297826761,
+          0.07618538148130785,
           1
         ],
         "metallicFactor": 0.02,
@@ -343,13 +287,27 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.8549926081242338,
-          0.7912979403326302,
-          0.6444796819705821,
+          0.25415209433082675,
+          0.2831487404299921,
+          0.26225065752969623,
+          1
+        ],
+        "metallicFactor": 0.7,
+        "roughnessFactor": 0.45
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.938685728457888,
+          0.9215818562772946,
+          0.8796223968878317,
           1
         ],
         "metallicFactor": 0.08,
-        "roughnessFactor": 0.62
+        "roughnessFactor": 0.52
       },
       "doubleSided": true,
       "alphaMode": "OPAQUE"
@@ -357,36 +315,8 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.5583403896342679,
-          0.4793201831008268,
-          0.2704977910130658,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.04518620438567554,
-          0.07036009569659588,
-          0.04817182422688942,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.2581828529215958,
-          0.21586050011389926,
+          0.11443537382697373,
+          0.13286832155381798,
           0.1119324278369056,
           1
         ],
@@ -399,9 +329,37 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.24228112246555486,
-          0.2874408377269175,
-          0.19806931955994886,
+          0.1946178304415758,
+          0.2232279573168085,
+          0.18782077230067787,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9046611743911496,
+          0.8631572134541023,
+          0.7912979403326302,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "doubleSided": true,
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.012983032342173012,
+          0.042311410620809675,
+          0.11443537382697373,
           1
         ],
         "metallicFactor": 0,
@@ -427,23 +385,9 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.1714411007328226,
-          0.19806931955994886,
-          0.184474994500441,
-          1
-        ],
-        "metallicFactor": 0.65,
-        "roughnessFactor": 0.55
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.6724431569576875,
-          0.5906188409193369,
-          0.386429433787049,
+          0.9301108583754237,
+          0.9046611743911496,
+          0.8549926081242338,
           1
         ],
         "metallicFactor": 0,
@@ -756,118 +700,6 @@
         ],
         "metallicFactor": 0.08,
         "roughnessFactor": 0.6
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.4019777798321958,
-          0.2195261997292692,
-          0.09305896284668745,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.83
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.2232279573168085,
-          0.11697066775851084,
-          0.05780543019106723,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.84
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.386429433787049,
-          0.26635560480286247,
-          0.09758734714186246,
-          1
-        ],
-        "metallicFactor": 0.7,
-        "roughnessFactor": 0.36
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.5088813208549338,
-          0.4851499400560704,
-          0.3277780980565422,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.94
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.03560131487502034,
-          0.06480326669290577,
-          0.06662593864377289,
-          1
-        ],
-        "metallicFactor": 0.6,
-        "roughnessFactor": 0.48
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.6514056374198242,
-          0.6724431569576875,
-          0.5711248294648731,
-          1
-        ],
-        "metallicFactor": 0.38,
-        "roughnessFactor": 0.33
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.07227185068231748,
-          0.25015828472995344,
-          0.19806931955994886,
-          1
-        ],
-        "metallicFactor": 0.45,
-        "roughnessFactor": 0.36
-      },
-      "doubleSided": true,
-      "alphaMode": "OPAQUE"
-    },
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.5332764040105052,
-          0.3564001441459435,
-          0.11953842798834562,
-          1
-        ],
-        "metallicFactor": 0.55,
-        "roughnessFactor": 0.34
       },
       "doubleSided": true,
       "alphaMode": "OPAQUE"
@@ -1460,78 +1292,6 @@
           ]
         }
       ]
-    },
-    {
-      "asset": "footbridge",
-      "instances": [
-        {
-          "id": "footbridge",
-          "rotation": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "translation": [
-            2.8636891773821302,
-            1.1,
-            4.0
-          ]
-        }
-      ]
-    },
-    {
-      "asset": "observatory",
-      "instances": [
-        {
-          "id": "observatory",
-          "rotation": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "translation": [
-            -15.0,
-            1.1649886732404902,
-            -32.0
-          ]
-        }
-      ]
-    },
-    {
-      "asset": "biology",
-      "instances": [
-        {
-          "id": "biology",
-          "rotation": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "translation": [
-            17.0,
-            3.825541311079282,
-            -37.0
-          ]
-        }
-      ]
     }
   ],
   "sources": [
@@ -1543,12 +1303,12 @@
     {
       "id": "car-passat-b7",
       "path": "campsite/car/assets/car.json",
-      "sha256": "ccea856c9d2d08bd2313490fea7787018229f9480848f8e359cfc13ae4243688"
+      "sha256": "32bd116a4ceda613efc9ced128bab381a41c1b060185d6a19a87d6c3be015057"
     },
     {
       "id": "vintage-windup-camper",
       "path": "campsite/camper/assets/vintage-windup-camper.mesh.json",
-      "sha256": "6ef2da5cccedea35e2bb779071c46773432d9461dbd84aea9b17bc400664162e"
+      "sha256": "ed444121e1d9bdc4e3cd02a3f1e75996163b940829008aee9e13c73ab1bb57cf"
     },
     {
       "id": "solar-array-three",
@@ -1558,7 +1318,7 @@
     {
       "id": "solar-array-two",
       "path": "campsite/equipment/assets/solar-array-two.mesh.json",
-      "sha256": "f07dcb3fb1d6204a7d229e4c6079895928a80fc67468f29845adcd20f72e10ad"
+      "sha256": "906d6a994b1febb77e3f7828cac61ac4960f4790e36affe35329689202c10f4e"
     },
     {
       "id": "starlink-mini",
@@ -1588,21 +1348,6 @@
       "id": "memory-frond",
       "path": "assets/memory-frond.mesh.json",
       "sha256": "43c30005800f900b28af0c23ac19d766c0fcc45d3eaa93a49e9830f90dba6638"
-    },
-    {
-      "id": "footbridge",
-      "path": "native-world-props/assets/footbridge.mesh.json",
-      "sha256": "ed4f4999cffe95b6aeea1928cfd191dabee4b7964108a6139594747874cc24d6"
-    },
-    {
-      "id": "observatory",
-      "path": "native-world-props/assets/observatory-receiver.mesh.json",
-      "sha256": "b43d2838bc5acca456528417b324282b53f4086860b9961fe4c22d1308d52f17"
-    },
-    {
-      "id": "biology",
-      "path": "native-world-props/assets/biological-helix.mesh.json",
-      "sha256": "e769324321741cae9403d37e63abefa0ff773b709cf2d66c6005cc325ea0b61d"
     }
   ],
   "solar_configuration": [

@@ -45,17 +45,115 @@
     },
     {
       "scene_id": "vintage-windup-camper--chassis",
-      "sha256": "0dc24183a4cc915de1775673379084c404890d94f647f0871cfa1b825bdb55c1",
-      "bytes": 97240,
+      "sha256": "71be390db74238d9cb615fded09c335bac4bc99ca22908857b9c75dd5e596d00",
+      "bytes": 103568,
       "url": "/production/native-world/assets/vintage-windup-camper--chassis.10d",
       "hmc": "/packages/qbdl/base/vintage-windup-camper--chassis.hmc"
     },
     {
+      "scene_id": "vintage-windup-camper--rubber",
+      "sha256": "3d60b312f59b4b3487a0a49d5aa37de549be2aca98750ad74cffa7ca28b82de4",
+      "bytes": 755320,
+      "url": "/production/native-world/assets/vintage-windup-camper--rubber.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--rubber.hmc"
+    },
+    {
       "scene_id": "vintage-windup-camper--enamel",
-      "sha256": "e4e11038990127b14487024fe13ca839b1bfa1668f2f7059b45df389a9227cb6",
-      "bytes": 291320,
+      "sha256": "0c67cb69d5345a7f1ae693f0fe8ad55bc73320e91623da636b45e735323e23cc",
+      "bytes": 271032,
       "url": "/production/native-world/assets/vintage-windup-camper--enamel.10d",
       "hmc": "/packages/qbdl/base/vintage-windup-camper--enamel.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--chrome",
+      "sha256": "1a9fbf712f25674d7f4d6857775de38e1c4ad18a8e2023fdd165a7c2f455cfe6",
+      "bytes": 171064,
+      "url": "/production/native-world/assets/vintage-windup-camper--chrome.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--chrome.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--ochre",
+      "sha256": "44e49cdb762e2d0c23b664891e50eca449056e0ab841d2f00a5d1f9b34d4c454",
+      "bytes": 49328,
+      "url": "/production/native-world/assets/vintage-windup-camper--ochre.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--ochre.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--olive",
+      "sha256": "3943265e8585c0e4070ecbd1096db33921099ee7a00ec2a00dfa7cbcb22507f0",
+      "bytes": 134296,
+      "url": "/production/native-world/assets/vintage-windup-camper--olive.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--olive.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--roof",
+      "sha256": "ecabf9a2e51672a38ec79d428e744ec91e331694230d66b8ef30cb6f4a0ae88e",
+      "bytes": 99344,
+      "url": "/production/native-world/assets/vintage-windup-camper--roof.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--roof.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--canvas",
+      "sha256": "68ae6e8c8a6461491c9ed311cfa3cc032d3a92f2002e306c51aa4fe0573ea90d",
+      "bytes": 251896,
+      "url": "/production/native-world/assets/vintage-windup-camper--canvas.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--canvas.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--screen",
+      "sha256": "b00a0217b42e3955d3bf69b7664eb12a5a5b4ee0dd6680846f0c61cf8e146fde",
+      "bytes": 83744,
+      "url": "/production/native-world/assets/vintage-windup-camper--screen.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--screen.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--canvas-seam",
+      "sha256": "3a0644f3654b8225536762bb5ddd7c30b48b3a4224e3390a0d1133a75111d29e",
+      "bytes": 60912,
+      "url": "/production/native-world/assets/vintage-windup-camper--canvas-seam.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--canvas-seam.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--screen-wire",
+      "sha256": "539ff7e970aab8687ec45b909dbad51d1a45dfdea27e6b614b0100cd5157e9e2",
+      "bytes": 54496,
+      "url": "/production/native-world/assets/vintage-windup-camper--screen-wire.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--screen-wire.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--step",
+      "sha256": "dc1622aacf7009e5a9bc769f92651e4cf87878fa5ee40668019594882dd45968",
+      "bytes": 36784,
+      "url": "/production/native-world/assets/vintage-windup-camper--step.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--step.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--steel",
+      "sha256": "57e7e3e8c811fa7a9df45be29b92fb0b0f04cc8f62c2ad168df41170e1d94b93",
+      "bytes": 104624,
+      "url": "/production/native-world/assets/vintage-windup-camper--steel.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--steel.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--canvas-roof",
+      "sha256": "ef252d66b5e8f6fab9d28d6aa9fad54b924864cd7d25dc94ff6bad4164cfd505",
+      "bytes": 145688,
+      "url": "/production/native-world/assets/vintage-windup-camper--canvas-roof.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--canvas-roof.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--red-lens",
+      "sha256": "b8c2b1a7e3e7f612ecba90624691fbf09c4c5f1184e71fedb90478d0381e4496",
+      "bytes": 39672,
+      "url": "/production/native-world/assets/vintage-windup-camper--red-lens.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--red-lens.hmc"
+    },
+    {
+      "scene_id": "vintage-windup-camper--amber-lens",
+      "sha256": "c666569f6533ac37e9938d3569d0a79b2157a580e1b63f6ca74958867cefee98",
+      "bytes": 39672,
+      "url": "/production/native-world/assets/vintage-windup-camper--amber-lens.10d",
+      "hmc": "/packages/qbdl/base/vintage-windup-camper--amber-lens.hmc"
     },
     {
       "scene_id": "solar-array-three--panel",

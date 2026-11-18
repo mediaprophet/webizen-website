@@ -1,0 +1,16 @@
+{
+  "schema": "webizen.ewm-inventory-identity-run/v1",
+  "locale": "en-AU",
+  "command": "cargo run -p qualia-core-db --offline --locked --bin ewm-first-paint --no-default-features -- --catalog C:\\github\\webizen-website\\data\\ewm\\first-paint.json --root C:\\github\\webizen-website --out C:\\github\\webizen-website\\packages\\qbdl\\inventory-identity.json",
+  "candidate": {
+    "descriptor_sha384": "7c8c1d54ce84c59d999a941c5e90f58a46483b98775a0f9eabb775412b657f5faa079a41710d3ab6a60edc2c34e2df1e",
+    "context_sha384": "f5b6e26c2ebe84e6d3f0256c89b8757eda9bce3d6d2fd4b87e4e5e17685720f329904d7456614ee11d25424485706f55",
+    "generation": 0,
+    "entries": 24
+  },
+  "entries": 24,
+  "sidecar": "packages/qbdl/inventory-identity.json",
+  "catalog_candidate_origin_kind": "inventory-verifier-finish",
+  "streaming_default": false,
+  "note": "InventoryVerifier::finish ran native on the 24 first-paint .10d shards, including every vintage-windup-camper part. The browser never calls finish. Host binds via CandidateIdentity::from_parts. Python copied the four-tuple and did not mint SHA-384."
+}

@@ -2,7 +2,7 @@ mod download;
 mod reference;
 use super::*;
 
-fn button(parent: &Element, label: &str) -> Result<Element, JsValue> {
+pub(super) fn button(parent: &Element, label: &str) -> Result<Element, JsValue> {
     let b = doc().create_element("button")?;
     b.set_attribute("type", "button")?;
     b.set_text_content(Some(label));
@@ -60,6 +60,10 @@ fn routes(state: &Shared, purpose: &str) -> Result<(), JsValue> {
     }
     Ok(())
 }
+pub(super) fn set_purpose(state: &Shared, purpose: &str) -> Result<(), JsValue> {
+    routes(state, purpose)
+}
+
 pub(super) fn install_controls(state: &Shared) -> Result<(), JsValue> {
     if state.borrow().receipt["presentation_settings"]["scene_mode"] == "reference-model" {
         return reference::install(state);
@@ -123,6 +127,33 @@ pub(super) fn install_controls(state: &Shared) -> Result<(), JsValue> {
     reading.set_text_content(Some("Read about this place"));
     ui.append_child(&reading)?;
     download::install(&ui)?;
+    let camp_actions: Vec<(String, String, String)> = state
+        .borrow()
+        .macros
+        .as_ref()
+        .map(|live| {
+            live.actions()
+                .iter()
+                .map(|a| (a.id.clone(), a.label.clone(), live.panel_label().to_string()))
+                .collect()
+        })
+        .unwrap_or_default();
+    if !camp_actions.is_empty() {
+        let camp = doc().create_element("nav")?;
+        camp.set_id("native-camp-controls");
+        camp.set_class_name("native-controls");
+        camp.set_attribute("aria-label", &camp_actions[0].2)?;
+        for (id, label, _) in camp_actions {
+            let b = button(&camp, &label)?;
+            let s = state.clone();
+            event(b.unchecked_ref(), "click", move |_| {
+                if let Err(e) = super::macros::fire(&mut s.borrow_mut(), &id) {
+                    show_error(e)
+                }
+            })?;
+        }
+        ui.append_child(&camp)?;
+    }
     let camera_controls = doc().create_element("nav")?;
     camera_controls.set_id("native-camera-controls");
     camera_controls.set_class_name("native-camera-controls");
@@ -219,6 +250,25 @@ pub(super) fn install_controls(state: &Shared) -> Result<(), JsValue> {
     ui.append_child(&journey)?;
     routes(state, "learn")?;
     initialise_selection(state)?;
+    let canvas = state.borrow().canvas.clone();
+    let s = state.clone();
+    event(canvas.unchecked_ref(), "keydown", move |e| {
+        if let Ok(e) = e.dyn_into::<KeyboardEvent>() {
+            if super::locomotion::keydown(&mut s.borrow_mut(), &e.key()) {
+                e.prevent_default();
+                e.stop_immediate_propagation();
+            }
+        }
+    })?;
+    let s = state.clone();
+    event(canvas.unchecked_ref(), "keyup", move |e| {
+        if let Ok(e) = e.dyn_into::<KeyboardEvent>() {
+            if super::locomotion::keyup(&mut s.borrow_mut(), &e.key()) {
+                e.prevent_default();
+                e.stop_immediate_propagation();
+            }
+        }
+    })?;
     Ok(())
 }
 

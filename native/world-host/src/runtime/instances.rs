@@ -1,19 +1,20 @@
 use super::*;
 
-#[derive(Deserialize)]
-pub(super) struct Placement {
-    id: String,
-    translation: [f64; 3],
-    rotation: [f64; 4],
-    scale: [f64; 3],
+#[derive(Clone, Deserialize)]
+pub(crate) struct Placement {
+    pub(crate) id: String,
+    pub(crate) translation: [f64; 3],
+    pub(crate) rotation: [f64; 4],
+    pub(crate) scale: [f64; 3],
 }
 
 pub(super) fn bind(
     portal: &mut QualiaPortal,
     scene: &Scene,
     upload: &Value,
+    overlay: Option<&super::macros::Live>,
 ) -> Result<Value, JsValue> {
-    bind_parts(portal, scene, upload, false)
+    bind_parts(portal, scene, upload, false, overlay)
 }
 
 /// Rebuild instance groups from the resident uploaded set (EWM first-paint).
@@ -21,8 +22,9 @@ pub(super) fn bind_resident(
     portal: &mut QualiaPortal,
     scene: &Scene,
     upload: &Value,
+    overlay: Option<&super::macros::Live>,
 ) -> Result<Value, JsValue> {
-    bind_parts(portal, scene, upload, true)
+    bind_parts(portal, scene, upload, true, overlay)
 }
 
 fn bind_parts(
@@ -30,6 +32,7 @@ fn bind_parts(
     scene: &Scene,
     upload: &Value,
     resident: bool,
+    overlay: Option<&super::macros::Live>,
 ) -> Result<Value, JsValue> {
     if !resident && scene.assets.iter().all(|a| a.placements.is_empty()) {
         return Ok(Value::Null);
@@ -49,29 +52,13 @@ fn bind_parts(
             }
         }
     }
-    let count: usize = if resident {
-        parts
-            .iter()
-            .map(|part| {
-                part["id"]
-                    .as_str()
-                    .and_then(|id| scene.assets.iter().find(|a| a.id == id))
-                    .map(|a| a.placements.len().max(1))
-                    .unwrap_or(1)
-            })
-            .sum()
-    } else {
-        scene.assets.iter().map(|a| a.placements.len().max(1)).sum()
-    };
-    if count > 10_000 {
-        return Err(err("Native prototype scene exceeds 10,000 source records"));
-    }
-    let mut transforms = Vec::with_capacity(count * 16);
-    let mut ids = Vec::with_capacity(count * 2);
-    let mut groups = Vec::with_capacity(parts.len() * 4);
+    let mut transforms = Vec::new();
+    let mut ids = Vec::new();
+    let mut groups = Vec::with_capacity(parts.len() * 4 + 4);
     let mut semantic_ids = BTreeSet::new();
     let mut first_record = 0u32;
     let mut expanded = 0u64;
+    let mut covered_indices = 0u32;
     for part in parts {
         let part_id = part["id"]
             .as_str()
@@ -85,10 +72,14 @@ fn bind_parts(
             .as_u64()
             .and_then(|n| u32::try_from(n).ok())
             .ok_or(err("Invalid native index count"))?;
+        if index_count == 0 {
+            continue;
+        }
         let placement_count = asset.map(|a| a.placements.len().max(1)).unwrap_or(1) as u32;
         groups.extend([first_index, index_count, first_record, placement_count]);
         first_record += placement_count;
         expanded += u64::from(index_count / 3) * u64::from(placement_count);
+        covered_indices = covered_indices.max(first_index.saturating_add(index_count));
         let identity = Placement {
             id: part_id.to_string(),
             translation: [0.; 3],
@@ -100,34 +91,51 @@ fn bind_parts(
             _ => std::slice::from_ref(&identity),
         };
         for placement in placements {
-            if placement
-                .translation
-                .iter()
-                .chain(placement.scale.iter())
-                .any(|v| !v.is_finite())
-                || placement.scale.iter().any(|v| v.abs() < 1e-8)
-            {
-                return Err(err("Invalid authored prototype placement"));
-            }
-            let rotation = qualia_core_db::audio::qac::spatial_dsp::wigner_rotation::rotation_matrix_from_quaternion_f64(placement.rotation)
-                .map_err(|e| err(format!("Invalid native placement quaternion: {e:?}")))?;
-            for col in 0..3 {
-                for row in 0..3 {
-                    transforms.push((rotation[row][col] * placement.scale[col]) as f32);
-                }
-                transforms.push(0.);
-            }
-            transforms.extend(placement.translation.map(|n| n as f32));
-            transforms.push(1.);
-            let semantic = qualia_core_db::mini_parser::hash_token(&format!(
-                "urn:webizen:placement:{}",
-                placement.id
-            ));
-            if !semantic_ids.insert(semantic) {
-                return Err(err("Duplicate native placement identity"));
-            }
-            ids.extend([semantic as u32, (semantic >> 32) as u32]);
+            push_instance(
+                &mut transforms,
+                &mut ids,
+                &mut semantic_ids,
+                placement,
+                overlay
+                    .map(|live| {
+                        live.overlay(
+                            part_id,
+                            !asset.map(|a| a.placements.is_empty()).unwrap_or(true),
+                        )
+                    })
+                    .unwrap_or([0.; 3]),
+                overlay
+                    .map(|live| live.overlay_scale(part_id))
+                    .unwrap_or([1.; 3]),
+            )?;
         }
+    }
+    if resident {
+        if let Some(remainder) = suffix_indices(portal, covered_indices)? {
+            let identity = Placement {
+                id: "urn:webizen:placement:gpu-suffix".into(),
+                translation: [0.; 3],
+                rotation: [0., 0., 0., 1.],
+                scale: [1.; 3],
+            };
+            groups.extend([covered_indices, remainder, first_record, 1]);
+            expanded += u64::from(remainder / 3);
+            push_instance(
+                &mut transforms,
+                &mut ids,
+                &mut semantic_ids,
+                &identity,
+                [0.; 3],
+                [1.; 3],
+            )?;
+        }
+    }
+    let count = ids.len() / 2;
+    if count == 0 {
+        return Err(err("Native prototype instance groups are empty"));
+    }
+    if count > 10_000 {
+        return Err(err("Native prototype scene exceeds 10,000 source records"));
     }
     if !resident && scene.expanded_triangle_count != Some(expanded) {
         return Err(err(
@@ -166,4 +174,68 @@ fn bind_parts(
         "QualiaDB / Etalon Hamilton quaternion matrix and native ABI inverse-transpose frames"
     );
     Ok(receipt)
+}
+
+fn suffix_indices(portal: &QualiaPortal, covered: u32) -> Result<Option<u32>, JsValue> {
+    let admitted = portal.scene_render_receipt()?;
+    let gpu_indices = js_sys::Reflect::get(&admitted, &"index_count".into())?
+        .as_f64()
+        .unwrap_or(0.) as u64;
+    let gpu_indices = u32::try_from(gpu_indices).unwrap_or(0);
+    if gpu_indices <= covered {
+        return Ok(None);
+    }
+    let remainder = gpu_indices - covered;
+    if remainder % 3 != 0 {
+        return Err(err(
+            "instance group partition leaves unowned geometry or records",
+        ));
+    }
+    Ok(Some(remainder))
+}
+
+fn push_instance(
+    transforms: &mut Vec<f32>,
+    ids: &mut Vec<u32>,
+    semantic_ids: &mut BTreeSet<u64>,
+    placement: &Placement,
+    extra: [f64; 3],
+    extra_scale: [f64; 3],
+) -> Result<(), JsValue> {
+    if placement
+        .translation
+        .iter()
+        .chain(placement.scale.iter())
+        .chain(extra_scale.iter())
+        .any(|v| !v.is_finite())
+        || placement.scale.iter().any(|v| v.abs() < 1e-8)
+        || extra_scale.iter().any(|v| v.abs() < 1e-8)
+    {
+        return Err(err("Invalid authored prototype placement"));
+    }
+    let rotation = qualia_core_db::audio::qac::spatial_dsp::wigner_rotation::rotation_matrix_from_quaternion_f64(
+        placement.rotation,
+    )
+    .map_err(|e| err(format!("Invalid native placement quaternion: {e:?}")))?;
+    for col in 0..3 {
+        for row in 0..3 {
+            transforms.push((rotation[row][col] * placement.scale[col] * extra_scale[col]) as f32);
+        }
+        transforms.push(0.);
+    }
+    transforms.extend([
+        (placement.translation[0] + extra[0]) as f32,
+        (placement.translation[1] + extra[1]) as f32,
+        (placement.translation[2] + extra[2]) as f32,
+    ]);
+    transforms.push(1.);
+    let semantic = qualia_core_db::mini_parser::hash_token(&format!(
+        "urn:webizen:placement:{}",
+        placement.id
+    ));
+    if !semantic_ids.insert(semantic) {
+        return Err(err("Duplicate native placement identity"));
+    }
+    ids.extend([semantic as u32, (semantic >> 32) as u32]);
+    Ok(())
 }

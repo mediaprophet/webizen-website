@@ -48,18 +48,55 @@ pub(super) fn install_input(state: &Shared) -> Result<(), JsValue> {
             if let Some((id, _, _, sx, sy)) = w.drag.take() {
                 let _ = w.canvas.release_pointer_capture(id);
                 if w.receipt["presentation_settings"]["scene_mode"] != "reference-model"
-                    && (p.client_x() as f32 - sx).abs() + (p.client_y() as f32 - sy).abs() < 6.
+                    && (p.client_x() as f32 - sx).abs() + (p.client_y() as f32 - sy).abs() < 12.
                 {
                     let rect = w.canvas.get_bounding_client_rect();
                     let width = w.canvas.width();
                     let height = w.canvas.height();
                     let x = (p.client_x() as f64 - rect.left()) * width as f64 / rect.width();
                     let y = (p.client_y() as f64 - rect.top()) * height as f64 / rect.height();
-                    if let Err(e) = w.portal.select_node_at(x as f32, y as f32, width, height) {
+                    if w.play_mode {
+                        if let Err(e) =
+                            super::play::pick_at(&mut w, x as f32, y as f32, width, height)
+                        {
+                            show_error(e)
+                        }
+                    } else if let Err(e) =
+                        w.portal.select_node_at(x as f32, y as f32, width, height)
+                    {
                         show_error(e)
+                    } else {
+                        w.pending_pick = true;
+                        w.pending_pick_age = 0;
                     }
-                    w.pending_pick = true;
                 }
+            }
+        }
+    })?;
+    let s = state.clone();
+    event(canvas.unchecked_ref(), "click", move |e| {
+        if let Ok(m) = e.dyn_into::<MouseEvent>() {
+            let mut w = s.borrow_mut();
+            if w.receipt["presentation_settings"]["scene_mode"] == "reference-model" {
+                return;
+            }
+            if !w.play_mode && w.pending_pick {
+                return;
+            }
+            let rect = w.canvas.get_bounding_client_rect();
+            let width = w.canvas.width();
+            let height = w.canvas.height();
+            let x = (m.client_x() as f64 - rect.left()) * width as f64 / rect.width();
+            let y = (m.client_y() as f64 - rect.top()) * height as f64 / rect.height();
+            if w.play_mode {
+                if let Err(e) = super::play::pick_at(&mut w, x as f32, y as f32, width, height) {
+                    show_error(e)
+                }
+            } else if let Err(e) = w.portal.select_node_at(x as f32, y as f32, width, height) {
+                show_error(e)
+            } else {
+                w.pending_pick = true;
+                w.pending_pick_age = 0;
             }
         }
     })?;

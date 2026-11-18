@@ -1,5 +1,6 @@
 mod admission;
 mod boot;
+mod catalog;
 mod frame_telemetry;
 mod graphics;
 mod gis_ingest;
@@ -7,7 +8,12 @@ mod gis_join;
 mod input;
 mod instances;
 mod instruments;
+mod knowledge;
+mod locomotion;
+mod macros;
+mod play;
 mod ocs_frames;
+mod scene_q42;
 mod stream;
 mod textures;
 mod ui;
@@ -25,12 +31,17 @@ use qualia_core_db::{
 use serde::Deserialize;
 use serde_json::{json, Value};
 use sha2::{Digest, Sha256};
-use std::{cell::RefCell, collections::BTreeSet, rc::Rc};
+use std::{
+    cell::RefCell,
+    collections::BTreeSet,
+    rc::Rc,
+    sync::atomic::{AtomicBool, Ordering},
+};
 use wasm_bindgen::{prelude::*, JsCast};
-use wasm_bindgen_futures::JsFuture;
+use wasm_bindgen_futures::{spawn_local, JsFuture};
 use web_sys::{
-    Element, Event, HtmlCanvasElement, HtmlInputElement, HtmlSelectElement, KeyboardEvent,
-    PointerEvent, WheelEvent,
+    AbortController, Element, Event, HtmlCanvasElement, HtmlInputElement, HtmlSelectElement,
+    KeyboardEvent, MouseEvent, PointerEvent, WheelEvent,
 };
 type Shared = Rc<RefCell<World>>;
 struct World {
@@ -49,33 +60,64 @@ struct World {
     frames: u64,
     timings: frame_telemetry::FrameTelemetry,
     pending_pick: bool,
+    pending_pick_age: u8,
     benchmarking: bool,
     receipt: Value,
+    scene: Scene,
+    ewm: Option<EwmLive>,
+    macros: Option<macros::Live>,
+    upload: Value,
+    play_mode: bool,
+    play_observer: Option<Camera>,
+    play_purpose: String,
+    play_focus_group: Option<String>,
 }
-#[derive(Deserialize)]
-struct Asset {
-    id: String,
-    url: String,
-    colour: [f32; 4],
-    sha256: String,
-    #[serde(default)]
-    placements: Vec<instances::Placement>,
-}
-#[derive(Deserialize)]
-struct Water {
-    positions: Vec<f32>,
-    indices: Vec<u32>,
-}
-#[derive(Deserialize)]
-struct Scene {
-    schema: String,
-    assets: Vec<Asset>,
-    #[serde(default)]
+struct EwmLive {
+    catalog: catalog::Catalog,
+    selection: stream::selection::LiveSelection,
+    colours: Vec<(String, [f32; 4])>,
     textures: Vec<textures::Texture>,
-    water: Option<Water>,
-    triangle_count: Option<u64>,
-    vertex_count: Option<u64>,
-    expanded_triangle_count: Option<u64>,
+    enhancement_pending: bool,
+    place_volume_pending: bool,
+    busy: Rc<AtomicBool>,
+    abort: Rc<RefCell<Option<Rc<AbortController>>>>,
+}
+struct EwmTileJob {
+    catalog: catalog::Catalog,
+    ids: Vec<String>,
+    place_id: String,
+    omitted: Vec<String>,
+    admit_place_volume: bool,
+    colours: Vec<(String, [f32; 4])>,
+    textures: Vec<textures::Texture>,
+    tile: (i32, i32),
+    busy: Rc<AtomicBool>,
+    controller: Rc<AbortController>,
+}
+#[derive(Clone, Deserialize)]
+pub(crate) struct Asset {
+    pub(crate) id: String,
+    pub(crate) url: String,
+    pub(crate) colour: [f32; 4],
+    pub(crate) sha256: String,
+    #[serde(default)]
+    pub(crate) placements: Vec<instances::Placement>,
+}
+#[derive(Clone, Deserialize)]
+pub(crate) struct Water {
+    pub(crate) positions: Vec<f32>,
+    pub(crate) indices: Vec<u32>,
+}
+#[derive(Clone, Deserialize)]
+pub(crate) struct Scene {
+    pub(crate) schema: String,
+    pub(crate) assets: Vec<Asset>,
+    #[serde(default)]
+    pub(crate) textures: Vec<textures::Texture>,
+    pub(crate) water: Option<Water>,
+    pub(crate) triangle_count: Option<u64>,
+    pub(crate) vertex_count: Option<u64>,
+    pub(crate) expanded_triangle_count: Option<u64>,
 }
 fn err(v: impl ToString) -> JsValue {
     JsValue::from_str(&v.to_string())
@@ -183,6 +225,23 @@ fn place(w: &mut World, id: &str) -> Result<(), JsValue> {
         a.set_attribute("href", route)?;
     }
     w.receipt["selected_place"] = json!(id);
+    if let Some(ewm) = w.ewm.as_mut() {
+        let prev = ewm.abort.borrow_mut().take();
+        stream::selection::abort_in_flight(prev.as_deref());
+        ewm.selection.place_id = id.to_string();
+        ewm.enhancement_pending = true;
+        ewm.place_volume_pending = true;
+        w.receipt["ewm_live_place"] = json!(id);
+        w.receipt["ewm_live_place_base"] = json!(ewm.catalog.live_place_base(id));
+        w.receipt["ewm_unload"] = json!(stream::selection::V1_UNLOAD);
+    }
+    if let Some(pos) = chosen["position"].as_array() {
+        if pos.len() >= 3 {
+            let x = pos[0].as_f64().unwrap_or(0.) as f32;
+            let z = pos[2].as_f64().unwrap_or(0.) as f32;
+            macros::travel_with_place(w, x, z)?;
+        }
+    }
     Ok(())
 }
 fn camera_input(w: &mut World, kind: &str, dx: f32, dy: f32) -> Result<(), JsValue> {
@@ -214,6 +273,185 @@ fn show_error(e: JsValue) {
         "native-world-status",
         "That action could not be completed. The reading view remains available.",
     );
+}
+fn take_ewm_tile_job(w: &mut World) -> Result<Option<EwmTileJob>, JsValue> {
+    let target = w.camera.target;
+    let yaw = w.camera.yaw;
+    let pitch = w.camera.pitch;
+    let ewm = match w.ewm.as_mut() {
+        Some(ewm) => ewm,
+        None => return Ok(None),
+    };
+    let place_id = if ewm.selection.place_id.is_empty() {
+        "field-studio".to_string()
+    } else {
+        ewm.selection.place_id.clone()
+    };
+    let change = stream::selection::plan_place_change(
+        &ewm.catalog,
+        &place_id,
+        target,
+        yaw,
+        pitch,
+        &ewm.selection.ids,
+    );
+    let pending = ewm.enhancement_pending;
+    let tile_moved = stream::selection::tile_changed(ewm.selection.tile, change.window.tile);
+    if !pending && !tile_moved && change.omitted.is_empty() && change.missing.is_empty() {
+        return Ok(None);
+    }
+    if let Some(prev) = ewm.abort.borrow_mut().take() {
+        stream::selection::abort_in_flight(Some(prev.as_ref()));
+    }
+    if ewm.busy.swap(true, Ordering::SeqCst) {
+        ewm.enhancement_pending = true;
+        return Ok(None);
+    }
+    ewm.enhancement_pending = false;
+    let admit_place_volume = ewm.place_volume_pending;
+    ewm.place_volume_pending = false;
+    let controller = match AbortController::new() {
+        Ok(controller) => Rc::new(controller),
+        Err(e) => {
+            ewm.busy.store(false, Ordering::SeqCst);
+            ewm.enhancement_pending = true;
+            ewm.place_volume_pending = admit_place_volume;
+            return Err(e);
+        }
+    };
+    *ewm.abort.borrow_mut() = Some(controller.clone());
+    let job = EwmTileJob {
+        catalog: ewm.catalog.clone(),
+        ids: change.window.ids,
+        place_id: change.place_id,
+        omitted: change.omitted,
+        admit_place_volume,
+        colours: ewm.colours.clone(),
+        textures: ewm.textures.clone(),
+        tile: change.window.tile,
+        busy: ewm.busy.clone(),
+        controller,
+    };
+    ewm.selection.tile = job.tile;
+    Ok(Some(job))
+}
+async fn yield_macrotask() {
+    let promise = js_sys::Promise::new(&mut |resolve, _reject| {
+        let _ = web_sys::window()
+            .unwrap()
+            .set_timeout_with_callback_and_timeout_and_arguments_0(&resolve, 0);
+    });
+    let _ = JsFuture::from(promise).await;
+}
+async fn run_ewm_tile_job(state: Shared, job: EwmTileJob) {
+    let mut place_volume = if job.admit_place_volume {
+        if let Some(url) = boot::place_scene_volume_if_differs(&job.place_id) {
+            bytes(&url, 16 * 1024 * 1024).await.ok().map(|raw| (url, raw))
+        } else {
+            None
+        }
+    } else {
+        None
+    };
+    let prepared = match stream::selection::prepare_window(
+        &job.catalog,
+        &job.ids,
+        job.controller.as_ref(),
+        &job.colours,
+        &job.textures,
+    )
+    .await
+    {
+        Ok(prepared) => prepared,
+        Err(e) => {
+            job.busy.store(false, Ordering::SeqCst);
+            show_error(e);
+            return;
+        }
+    };
+    if prepared.assets.length() == 0 {
+        job.busy.store(false, Ordering::SeqCst);
+        return;
+    }
+    let mut prepared = Some(prepared);
+    for _ in 0..16 {
+        match state.try_borrow_mut() {
+            Ok(mut w) => {
+                if let Some((url, raw)) = place_volume.take() {
+                    let name = url.rsplit('/').next().unwrap_or("place.q42");
+                    match knowledge::admit(&mut w.host, &raw, "place", name).map_err(err) {
+                        Ok(_) => {
+                            w.receipt["ewm_place_volume"] = json!(url);
+                        }
+                        Err(e) => show_error(e),
+                    }
+                }
+                let prepared = prepared.take().expect("prepared window still owned");
+                match stream::selection::admit_prepared(&mut w.portal, prepared) {
+                    Ok(live) => {
+                        let scene = w.scene.clone();
+                        let overlay = w.macros.clone();
+                        // GPU mesh already matches live.upload_receipt parts.
+                        // Pin that receipt before bind so Pack-up rebind cannot
+                        // partition first-paint spans onto an enhanced mesh.
+                        w.upload = live.upload_receipt.clone();
+                        w.receipt["upload"] = live.upload_receipt.clone();
+                        match instances::bind_resident(
+                            &mut w.portal,
+                            &scene,
+                            &live.upload_receipt,
+                            overlay.as_ref(),
+                        )
+                        {
+                            Ok(instance_receipt) => {
+                                w.receipt["ewm_overlapping"] = json!(job.ids);
+                                w.receipt["assets"] = json!(live.asset_receipts);
+                                w.receipt["instances"] = instance_receipt;
+                                w.receipt["ewm_live_tile"] =
+                                    json!({"x": job.tile.0, "z": job.tile.1});
+                                w.receipt["ewm_live_bytes"] = json!(live.total_bytes);
+                                w.receipt["ewm_live_triangles"] = json!(live.declared_triangles);
+                                w.receipt["ewm_triangle_mismatch"] =
+                                    live.upload_receipt["triangle_mismatch"].clone();
+                                let base: BTreeSet<String> = job
+                                    .catalog
+                                    .live_place_base(&job.place_id)
+                                    .into_iter()
+                                    .collect();
+                                w.receipt["ewm_window"] = json!(job.ids.len());
+                                w.receipt["ewm_enhancement"] = json!(job
+                                    .ids
+                                    .iter()
+                                    .filter(|id| !base.contains(*id))
+                                    .count());
+                                w.receipt["ewm_live_place"] = json!(job.place_id);
+                                w.receipt["ewm_live_place_base"] =
+                                    json!(job.catalog.live_place_base(&job.place_id));
+                                w.receipt["ewm_omitted"] = json!(job.omitted);
+                                w.receipt["ewm_unload"] = json!(stream::selection::V1_UNLOAD);
+                                w.receipt["asset_bytes"] = json!(live.total_bytes);
+                                text(
+                                    "native-world-status",
+                                    "This view of the place now includes nearby enhancement.",
+                                );
+                                if let Some(ewm) = w.ewm.as_mut() {
+                                    ewm.selection.ids = job.ids.clone();
+                                    ewm.selection.tile = job.tile;
+                                    ewm.selection.place_id = job.place_id.clone();
+                                }
+                            }
+                            Err(e) => show_error(e),
+                        }
+                    }
+                    Err(e) => show_error(e),
+                }
+                job.busy.store(false, Ordering::SeqCst);
+                return;
+            }
+            Err(_) => yield_macrotask().await,
+        }
+    }
+    job.busy.store(false, Ordering::SeqCst);
 }
 fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
     let mut w = state.borrow_mut();
@@ -251,6 +489,11 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
     }
     let canvas = w.canvas.clone();
     let submission_start = now();
+    locomotion::tick(&mut w, dt)?;
+    macros::tick(&mut w, dt)?;
+    if w.play_mode {
+        play::follow_camera(&mut w)?;
+    }
     w.portal.tick(canvas, dt)?;
     w.timings.record(now() - submission_start, interval);
     if w.portal.graphics_recovery_requested() {
@@ -258,6 +501,18 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
     }
     w.frames += 1;
     if w.pending_pick {
+        if w.play_mode {
+            if play::consume_pick(&mut w)? {
+                w.pending_pick = false;
+                w.pending_pick_age = 0;
+            } else {
+                w.pending_pick_age = w.pending_pick_age.saturating_add(1);
+                if w.pending_pick_age >= 12 {
+                    w.pending_pick = false;
+                    w.pending_pick_age = 0;
+                }
+            }
+        } else {
         let index = w.portal.selected_node_index();
         if index >= 0 {
             let selected = w
@@ -296,6 +551,7 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
             }
             w.pending_pick = false;
         }
+        }
     }
     if stamp - w.last_receipt >= 1000. || w.frames == 2 {
         w.last_receipt = stamp;
@@ -331,6 +587,14 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
             &"__webizenNativeDebug".into(),
             &debug,
         )?;
+    }
+    let job = take_ewm_tile_job(&mut w)?;
+    drop(w);
+    if let Some(job) = job {
+        let state = state.clone();
+        spawn_local(async move {
+            run_ewm_tile_job(state, job).await;
+        });
     }
     Ok(())
 }

@@ -5,11 +5,22 @@
 @media(max-width:650px){.native-panel{left:auto;right:4%;top:85px;width:205px;max-width:205px;max-height:34vh;padding:14px}.native-panel h1{font-size:23px}.native-panel h2{font-size:19px;margin-top:14px}.native-panel select{font-size:11px}.native-panel label{margin:7px 0}.native-panel summary{font-size:12px;padding:8px 0}.native-controls{gap:5px;max-height:22vh}.native-controls button{font-size:10px;padding:8px 10px}}
 /* The world UI is a viewport overlay, not a relatively positioned document box. */
 #native-world-ui.native-panel{position:fixed;left:auto;right:4%;pointer-events:auto;backdrop-filter:none}
+/* Camp and place nav live in the reading panel. A shared .native-controls bottom bar overlays the place buttons. */
+#native-world-ui .native-controls{position:static;left:auto;right:auto;bottom:auto;width:auto;margin:12px 0 0}
 .native-camera-controls{display:flex;gap:8px;margin-top:12px}.native-camera-controls button{min-width:44px;min-height:44px;line-height:1;font-size:20px;border-radius:50%;padding:8px}
 /* Native instrument console. Every control is created and handled in Rust/WASM. */
-#native-panel-toggle{position:fixed;z-index:8;right:4%;top:84px;min-height:44px;padding:10px 16px;border-radius:24px;background:#173e34ed;color:#fff1d2;border-color:#bac49b66;font-size:12px}
+#native-play-toggle{position:fixed;z-index:8;right:4%;top:84px;min-height:44px;padding:10px 18px;border-radius:24px;background:#c4a15a;color:#17382f;border-color:#ead7a3;font-size:12px;font-weight:700;letter-spacing:.04em}
+#native-play-toggle[aria-pressed=true]{background:#173e34ed;color:#fff1d2;border-color:#bac49b66}
+#native-panel-toggle{position:fixed;z-index:8;right:4%;top:136px;min-height:44px;padding:10px 16px;border-radius:24px;background:#173e34ed;color:#fff1d2;border-color:#bac49b66;font-size:12px}
 .native-panel[hidden]{display:none!important}
-@media(max-width:650px){#native-panel-toggle{top:72px;right:4%}#native-world-ui.native-panel{top:126px;max-height:32vh}}
+#native-play-toolbox{position:fixed;z-index:8;left:4%;bottom:70px;width:min(320px,88vw);max-height:42vh;overflow:auto;padding:16px 18px 14px;background:#12372ef2;border:1px solid #e1d8ad66;border-radius:8px;box-shadow:0 16px 48px #09241f55;backdrop-filter:blur(14px)}
+#native-play-toolbox[hidden]{display:none!important}
+#native-play-toolbox h2{font:22px/1.2 Georgia,serif;margin:0 0 8px}
+#native-play-toolbox p{font-size:13px;line-height:1.5;margin:0 0 12px}
+#native-play-toolbox .native-controls{position:static;margin:0 0 12px;padding:0;background:transparent;border:0;display:flex;flex-wrap:wrap;gap:8px}
+#native-play-toolbox button{min-height:44px}
+html.play-mode #native-world{cursor:crosshair}
+@media(max-width:650px){#native-play-toggle{top:72px;right:4%}#native-panel-toggle{top:124px;right:4%}#native-world-ui.native-panel{top:176px;max-height:32vh}#native-play-toolbox{bottom:62px;left:4%;right:4%;width:auto}}
 #native-proof-lab{position:fixed;z-index:9;left:4%;top:84px;width:min(740px,64vw);max-height:calc(100dvh - 270px);padding:0 22px;background:#f5f0e4f5;color:#25372f;border:1px solid #d3c9ab;border-radius:5px;box-shadow:0 18px 60px #061c2840;overscroll-behaviour:contain}
 #native-proof-lab>summary{padding:16px 0;cursor:pointer;font-size:14px;letter-spacing:.03em}
 #native-proof-lab[open]{padding-bottom:22px;background:#f5f0e4;top:110px}

@@ -1,0 +1,280 @@
+{
+  "schema": "webizen.ewm-place-base/v1",
+  "inner_ranges": false,
+  "streaming": {
+    "default": false
+  },
+  "places": [
+    {
+      "id": "field-studio",
+      "title": "Field studio",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "dem_zoom": 13,
+      "elevation_m": [
+        541,
+        677
+      ],
+      "gis_terrain_id": "canberra-reference-terrain",
+      "authored_ground_id": "habitat-terrain",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "base": [
+        "canberra-reference-terrain",
+        "habitat-terrain",
+        "prototype-eucalyptus-lush-mid",
+        "car-passat-b7--gold",
+        "car-passat-b7--glass",
+        "car-passat-b7--chrome",
+        "vintage-windup-camper--chassis",
+        "vintage-windup-camper--rubber",
+        "vintage-windup-camper--enamel",
+        "vintage-windup-camper--chrome",
+        "vintage-windup-camper--ochre",
+        "vintage-windup-camper--olive",
+        "vintage-windup-camper--roof",
+        "vintage-windup-camper--canvas",
+        "vintage-windup-camper--screen",
+        "vintage-windup-camper--canvas-seam",
+        "vintage-windup-camper--screen-wire",
+        "vintage-windup-camper--step",
+        "vintage-windup-camper--steel",
+        "vintage-windup-camper--canvas-roof",
+        "vintage-windup-camper--red-lens",
+        "vintage-windup-camper--amber-lens",
+        "solar-array-three--panel",
+        "starlink-mini--dish-front"
+      ],
+      "enhancement": [
+        "field-studio-operator-opt",
+        "field-studio-operator-desk",
+        "field-studio-operator-laptop",
+        "field-studio-operator-laptop-lid",
+        "field-studio-operator-shirt",
+        "field-studio-operator-shorts",
+        "field-studio-operator-hair",
+        "field-studio-operator-awning"
+      ],
+      "colocated": [
+        {
+          "id": "field-studio-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/field-studio",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/field-studio",
+          "journey_iri": "https://webizen.au/journey/southern-tablelands",
+          "families": [
+            "Q42",
+            "TenD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "title": "River reach",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "dem_zoom": 13,
+      "elevation_m": [
+        541,
+        677
+      ],
+      "gis_terrain_id": "canberra-reference-terrain",
+      "authored_ground_id": "habitat-terrain",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "base": [
+        "canberra-reference-terrain",
+        "habitat-terrain",
+        "prototype-eucalyptus-lush-mid",
+        "tidal-vessel--bronze",
+        "tidal-vessel--limestone",
+        "tidal-vessel--verdigris",
+        "prototype-bank-rock-mid",
+        "prototype-bank-rock-near",
+        "footbridge--bridge-heartwood",
+        "footbridge--bridge-timber",
+        "footbridge--pale-limestone",
+        "footbridge--patinated-bronze"
+      ],
+      "enhancement": [],
+      "colocated": [
+        {
+          "id": "river-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/river",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/river",
+          "journey_iri": "https://webizen.au/journey/southern-tablelands",
+          "families": [
+            "Q42",
+            "TenD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canopy",
+      "title": "Canopy",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "dem_zoom": 13,
+      "elevation_m": [
+        541,
+        677
+      ],
+      "gis_terrain_id": "canberra-reference-terrain",
+      "authored_ground_id": "habitat-terrain",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "base": [
+        "canberra-reference-terrain",
+        "habitat-terrain",
+        "prototype-eucalyptus-lush-mid",
+        "canopy--bronze",
+        "canopy--limestone",
+        "canopy--timber",
+        "memory-frond--bronze",
+        "memory-frond--leaf",
+        "memory-frond--limestone",
+        "prototype-eucalyptus-lush-near"
+      ],
+      "enhancement": [],
+      "colocated": [
+        {
+          "id": "canopy-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/canopy",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/canopy",
+          "journey_iri": "https://webizen.au/journey/southern-tablelands",
+          "families": [
+            "Q42",
+            "TenD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons",
+      "title": "Commons",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "dem_zoom": 13,
+      "elevation_m": [
+        541,
+        677
+      ],
+      "gis_terrain_id": "canberra-reference-terrain",
+      "authored_ground_id": "habitat-terrain",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "base": [
+        "canberra-reference-terrain",
+        "habitat-terrain",
+        "prototype-eucalyptus-lush-mid",
+        "prototype-grass-mid",
+        "prototype-grass-near",
+        "prototype-leaf-litter",
+        "prototype-shrub-branches",
+        "prototype-shrub-leaves"
+      ],
+      "enhancement": [],
+      "colocated": [
+        {
+          "id": "commons-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/commons",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/commons",
+          "journey_iri": "https://webizen.au/journey/southern-tablelands",
+          "families": [
+            "Q42",
+            "TenD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atelier",
+      "title": "Atelier",
+      "journey_chapter": "southern-tablelands",
+      "not_personal_campsite": true,
+      "crs": "EPSG:4326",
+      "datum": "WGS84",
+      "bbox_wsen": [
+        149.06,
+        -35.3,
+        149.08,
+        -35.28
+      ],
+      "dem_zoom": 13,
+      "elevation_m": [
+        541,
+        677
+      ],
+      "gis_terrain_id": "canberra-reference-terrain",
+      "authored_ground_id": "habitat-terrain",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "realm_class": "physical",
+      "base": [
+        "canberra-reference-terrain",
+        "habitat-terrain",
+        "prototype-eucalyptus-lush-mid"
+      ],
+      "enhancement": [],
+      "colocated": [
+        {
+          "id": "atelier-infosphere",
+          "label": "infosphere",
+          "realm_class": "noosphere",
+          "usri": "urn:omni:v1:noosphere:webizen:public:world/atelier",
+          "grounding": "EmpiricallyAnchored",
+          "anchor_iri": "https://webizen.au/world/atelier",
+          "journey_iri": "https://webizen.au/journey/southern-tablelands",
+          "families": [
+            "Q42",
+            "TenD"
+          ]
+        }
+      ]
+    }
+  ]
+}

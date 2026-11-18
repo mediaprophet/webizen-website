@@ -1,0 +1,55 @@
+{
+  "schema": "webizen.ewm-gis-ingest-job/v1",
+  "id": "lw-08-river-osm",
+  "place_id": "river",
+  "scene_id": "river-osm-waterway",
+  "title": "Bounded public river OSM extract",
+  "crs": "EPSG:4326",
+  "datum": "WGS84",
+  "bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+  "not_personal_campsite": true,
+  "epistemic_class": "measured-gis",
+  "opt_in": false,
+  "create_only": true,
+  "public_boot_calls_live_adapters": false,
+  "streaming_default": false,
+  "job_is_explicit_action_only": true,
+  "camera_tick_scrape": false,
+  "wasm_ingest_opt_in_allowed": false,
+  "gbif_live_parse": "deferred",
+  "output_dir": "data/ewm/gis/ingest/out/river",
+  "receipt_name": "ingest-receipt.json",
+  "member_name": "measured-member.json",
+  "catalog_row_name": "catalog-row.json",
+  "consent_fixture": "data/ewm/gis/ingest/fixtures/river-osm-overpass.json",
+  "adapters": [
+    {
+      "id": "OsmAdapter",
+      "required": true,
+      "live": false,
+      "role": "required",
+      "native": "qualia_core_db::domains::geospatial::adapters::osm_adapter::OsmAdapter",
+      "command": "osm",
+      "note": "Consent-fixture OSM extract for the public river place. CI never fetches live Overpass."
+    },
+    {
+      "id": "DemAdapter",
+      "required": false,
+      "live": false,
+      "role": "same-pattern-later",
+      "native": "qualia_core_db::domains::geospatial::adapters::dem_adapter::DemAdapter",
+      "note": "Same NetworkDisclosureRegistry pattern. Not live for this job."
+    },
+    {
+      "id": "StacAdapter",
+      "required": false,
+      "live": false,
+      "role": "same-pattern-later",
+      "native": "qualia_core_db::domains::geospatial::adapters::stac_adapter::StacAdapter",
+      "note": "Same NetworkDisclosureRegistry pattern as OsmAdapter. Not live in v1."
+    }
+  ],
+  "homepage_runs_ingest": false,
+  "timeline_json": "never",
+  "git_out_dir": "ignored"
+}

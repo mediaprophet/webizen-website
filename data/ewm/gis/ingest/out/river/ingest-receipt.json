@@ -1,0 +1,44 @@
+{
+  "schema": "webizen.ewm-gis-ingest-receipt/v1",
+  "place_id": "river",
+  "bbox_wsen": [
+    149.06,
+    -35.3,
+    149.08,
+    -35.28
+  ],
+  "not_personal_campsite": true,
+  "epistemic_class": "measured-gis",
+  "create_only": true,
+  "opt_in": true,
+  "reused_existing": false,
+  "public_boot_calls_live_adapters": false,
+  "wasm_ingest_opt_in_allowed": false,
+  "gbif_live_parse": "deferred",
+  "adapter": "OsmAdapter",
+  "attribution": "OpenStreetMap contributors",
+  "licence_reference": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "output_dir": "data/ewm/gis/ingest/out/river",
+  "paths": {
+    "measured-member.json": {
+      "path": "data/ewm/gis/ingest/out/river/measured-member.json",
+      "sha256": "1724bb0e9926c0ae18778f681b3b0ba40baf243102b9d7e3f2d93f2b1322b9c0",
+      "bytes": 1583
+    },
+    "catalog-row.json": {
+      "path": "data/ewm/gis/ingest/out/river/catalog-row.json",
+      "sha256": "f790545a00fd535da2209355f6b42adbaa6553533e078d08607d6285d2ed0d36",
+      "bytes": 363
+    }
+  },
+  "catalog_row": {
+    "scene_id": "river-osm-waterway",
+    "epistemic_class": "measured-gis",
+    "url": "/packages/by-sha256/1724bb0e9926c0ae18778f681b3b0ba40baf243102b9d7e3f2d93f2b1322b9c0",
+    "sha256": "1724bb0e9926c0ae18778f681b3b0ba40baf243102b9d7e3f2d93f2b1322b9c0",
+    "bytes": 1583,
+    "role": "Enhancement",
+    "obligation": "opt-in-ingest",
+    "inner_ranges": false
+  }
+}

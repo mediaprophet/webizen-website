@@ -19,13 +19,13 @@ class SynthBridge:
   with self.lock:
    self.serial+=1;serial=self.serial
    self.process.stdin.write(json.dumps({'jsonrpc':'2.0','id':serial,'method':method,'params':params})+'\n');self.process.stdin.flush()
-   deadline=time.monotonic()+180
+   deadline=time.monotonic()+600
    while time.monotonic()<deadline:
     result=self.responses.get(timeout=max(.1,deadline-time.monotonic()))
     if result.get('id')==serial:
      if result.get('error'):raise RuntimeError(str(result['error']))
      return result['result']
-   raise TimeoutError('Synth did not return a result within 180 seconds')
+   raise TimeoutError('Synth did not return a result within 600 seconds')
  def call(self,name,args):
   result=self.request('tools/call',{'name':name,'arguments':args})
   data=result.get('structuredContent')

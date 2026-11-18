@@ -1,0 +1,57 @@
+{
+  "schema": "webizen.ewm-camera-move/v1",
+  "locale": "en-AU",
+  "url": "http://127.0.0.1:8800/?ewm=1",
+  "method": "shift+drag pan",
+  "tile_size_m": 100,
+  "radius_m": 80,
+  "streaming_default": false,
+  "streaming": {
+    "default": false,
+    "enabled": true
+  },
+  "before": {
+    "camera_target": [-22, 5.490921497344971, 28],
+    "camera_zoom": 19.173463821411133,
+    "ewm_live_tile": null,
+    "inferred_tile": {"x": -1, "z": 0},
+    "overlapping": [
+      "canberra-reference-terrain",
+      "habitat-terrain",
+      "prototype-eucalyptus-lush-mid",
+      "car-passat-b7--gold",
+      "car-passat-b7--glass",
+      "car-passat-b7--chrome",
+      "vintage-windup-camper--chassis",
+      "vintage-windup-camper--enamel",
+      "solar-array-three--panel",
+      "starlink-mini--dish-front"
+    ]
+  },
+  "after": {
+    "camera_target": [6.760200500488281, 5.490921497344971, 28],
+    "camera_zoom": 19.173463821411133,
+    "ewm_live_tile": {"x": 0, "z": 0},
+    "overlapping": [
+      "canberra-reference-terrain",
+      "habitat-terrain",
+      "prototype-eucalyptus-lush-mid",
+      "car-passat-b7--gold",
+      "car-passat-b7--glass",
+      "car-passat-b7--chrome",
+      "vintage-windup-camper--chassis",
+      "vintage-windup-camper--enamel",
+      "solar-array-three--panel",
+      "starlink-mini--dish-front"
+    ],
+    "ewm_live_bytes": 14632064,
+    "ewm_live_triangles": 127688
+  },
+  "tile_changed": true,
+  "screenshot": "evidence/ewm/camera-tile-change.png",
+  "pan": {
+    "start_css_px": [496.223779296875, 472.0279846191406],
+    "end_css_px": [1496.223779296875, 472.0279846191406],
+    "delta_x_px": 1000
+  }
+}

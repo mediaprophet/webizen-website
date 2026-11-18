@@ -1,0 +1,15 @@
+{
+  "schema": "webizen.ewm-inventory-identity/v1",
+  "status": "inventory-verifier-finish",
+  "inner_ranges": false,
+  "magic": "QBDL",
+  "streaming_default": false,
+  "browser_inventory_verifier": false,
+  "host_bind": "CandidateIdentity::from_parts",
+  "candidate": {
+    "descriptor_sha384": "7c8c1d54ce84c59d999a941c5e90f58a46483b98775a0f9eabb775412b657f5faa079a41710d3ab6a60edc2c34e2df1e",
+    "context_sha384": "f5b6e26c2ebe84e6d3f0256c89b8757eda9bce3d6d2fd4b87e4e5e17685720f329904d7456614ee11d25424485706f55",
+    "generation": 0,
+    "entries": 24
+  }
+}

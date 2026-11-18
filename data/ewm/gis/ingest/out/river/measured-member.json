@@ -1,0 +1,74 @@
+{
+  "schema": "webizen.ewm-gis-measured-member/v1",
+  "scene_id": "river-osm-waterway",
+  "place_id": "river",
+  "epistemic_class": "measured-gis",
+  "adapter": "OsmAdapter",
+  "source": "consent-fixture",
+  "not_personal_campsite": true,
+  "bbox_wsen": [
+    149.06,
+    -35.3,
+    149.08,
+    -35.28
+  ],
+  "inner_ranges": false,
+  "gbif_live_parse": "deferred",
+  "wasm_ingest_opt_in_allowed": false,
+  "public_boot_calls_live_adapters": false,
+  "licence_reference": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "OpenStreetMap contributors",
+  "feature_count": 4,
+  "features": [
+    {
+      "type": "way",
+      "id": 8808,
+      "tags": {
+        "waterway": "river",
+        "name": "Molonglo River",
+        "source": "public-consent-fixture"
+      },
+      "geometry": [
+        {
+          "lat": -35.3,
+          "lon": 149.06
+        },
+        {
+          "lat": -35.29,
+          "lon": 149.07
+        },
+        {
+          "lat": -35.28,
+          "lon": 149.08
+        }
+      ],
+      "nodes": [
+        8801,
+        8802,
+        8803
+      ]
+    },
+    {
+      "type": "node",
+      "id": 8801,
+      "tags": {},
+      "lat": -35.3,
+      "lon": 149.06
+    },
+    {
+      "type": "node",
+      "id": 8802,
+      "tags": {},
+      "lat": -35.29,
+      "lon": 149.07
+    },
+    {
+      "type": "node",
+      "id": 8803,
+      "tags": {},
+      "lat": -35.28,
+      "lon": 149.08
+    }
+  ],
+  "consent_fixture": "data/ewm/gis/ingest/fixtures/river-osm-overpass.json"
+}

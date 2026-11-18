@@ -1,0 +1,99 @@
+{
+  "schema": "webizen.living-world-evidence/v1",
+  "locale": "en-AU",
+  "packet": "LW-09",
+  "date": "2026-11-18",
+  "host": "http://127.0.0.1:8800/?ewm=1",
+  "browser_ran": true,
+  "art_approval": false,
+  "streaming_default": false,
+  "inner_ranges": false,
+  "streaming": {
+    "default": false,
+    "query": "ewm=1",
+    "enabled_on_headed": true
+  },
+  "wasm": {
+    "url": "/pkg/native-world/webizen_world_bg.wasm",
+    "path": "site/pkg/native-world/webizen_world_bg.wasm",
+    "identity": "site/pkg/native-world/runtime-identity.json",
+    "bytes": 22114849,
+    "mib": 21.10,
+    "sha256": "04842f736350720a8271e0629be642113017fc6487af577f7cf74e8514532743",
+    "ci_budget_mib": 23.5,
+    "ci_budget_bytes": 24641536,
+    "under_budget": true
+  },
+  "first_paint": 24,
+  "catalog_entries": 86,
+  "ewm_unload": "omit-and-rebuild",
+  "screenshots": {
+    "hitch_river": "evidence/ewm/living-world/hitch-river.png",
+    "unhitch_river": "evidence/ewm/living-world/unhitch-river.png",
+    "place_unload": "evidence/ewm/living-world/place-unload.png",
+    "unhitch_wasd": "evidence/ewm/living-world/unhitch-wasd.png"
+  },
+  "headed": {
+    "hitch_river": {
+      "sequence": "Pack up (gate settled) then The living river (whole hitched set)",
+      "status": "The field studio is travelling to this place.",
+      "camp": {
+        "gate": true,
+        "unhitched": false,
+        "hitchNear": true,
+        "hitchRadiusM": 4,
+        "stages": 11,
+        "groups": 8
+      },
+      "screenshot": "evidence/ewm/living-world/hitch-river.png"
+    },
+    "unhitch_river": {
+      "sequence": "Pack up (gate true) then Unhitch then The living river",
+      "status": "The car is travelling to this place. The field studio stays put.",
+      "selected_place": "river",
+      "ewm_live_place": "river",
+      "camp": {
+        "gate": false,
+        "unhitched": true,
+        "hitchNear": true,
+        "hitchRadiusM": 4,
+        "stages": 11,
+        "groups": 8
+      },
+      "screenshot": "evidence/ewm/living-world/unhitch-river.png"
+    },
+    "place_unload": {
+      "sequence": "select_place river composes river Base and starts omit-and-rebuild",
+      "status": "Updating this view of the place — 1 of 12",
+      "ewm_live_place": "river",
+      "ewm_live_place_base": [
+        "tidal-vessel--verdigris",
+        "footbridge--bridge-heartwood",
+        "habitat-terrain",
+        "canberra-reference-terrain",
+        "prototype-bank-rock-mid",
+        "footbridge--pale-limestone",
+        "tidal-vessel--bronze",
+        "prototype-bank-rock-near",
+        "prototype-eucalyptus-lush-mid",
+        "footbridge--bridge-timber",
+        "footbridge--patinated-bronze",
+        "tidal-vessel--limestone"
+      ],
+      "camper_in_live_place_base": false,
+      "ewm_unload": "omit-and-rebuild",
+      "gpu_rebuild": "river member Range/admit did not finish; resident GPU still the prior window. Receipt live_place_base already omits vintage-windup-camper.",
+      "screenshot": "evidence/ewm/living-world/place-unload.png"
+    },
+    "unhitch_wasd": {
+      "sequence": "WASD/Arrow nudge while unhitched after canvas focus; hitchNear became false",
+      "hitchNear_after": false,
+      "screenshot": "evidence/ewm/living-world/unhitch-wasd.png"
+    }
+  },
+  "honest_gaps": [
+    "Place-unload GPU rebuild still stalls on browser fetch failed while composing river Base 12. Receipt live_place_base omits the camper; GPU may still hold the prior window.",
+    "Enhancement window reports catalog triangle_mismatch; Pack-up still binds the loaded receipt and hitch follow fires when walk-to-hitch is already at goal 0.",
+    "Does not claim art acceptance."
+  ]
+}

@@ -23,6 +23,11 @@ QBDL = PACKAGES / "qbdl"
 BY_SHA = PACKAGES / "by-sha256"
 DOWNLOAD = PACKAGES / "download"
 WOODLAND_QBDL = ROOT / "production" / "lush-woodland" / "qbdl"
+# Native helper crates/qualia-core-db/src/bundle/stream/publish/ewm_first_paint.rs
+# writes this sidecar after cargo (BundleWriter + PlainPublisher + InventoryVerifier::finish).
+# Python copies inner SHA-256 unchanged and only copies a real four-tuple; it does not mint SHA-384.
+IDENTITY_SIDECAR = QBDL / "inventory-identity.json"
+ZERO_SHA384 = "0" * 96
 
 # CRC-32C Castagnoli
 _CRC32C_TABLE = None
@@ -133,6 +138,42 @@ def write_qbdl(entry_key: str, kind: str, payload: bytes, dest: Path) -> None:
         raise SystemExit(f"{dest} exceeds 24 MiB shard cap")
 
 
+def is_nonzero_sha384(text: object) -> bool:
+    if not isinstance(text, str) or len(text) != 96:
+        return False
+    try:
+        bytes.fromhex(text)
+    except ValueError:
+        return False
+    return text != ZERO_SHA384
+
+
+def candidate_from_sidecar(path: Path) -> dict | None:
+    """Copy a producer four-tuple. Absent or stub sidecars stay pending-producer."""
+    if not path.is_file():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    cand = data.get("candidate")
+    if not isinstance(cand, dict):
+        return None
+    descriptor = cand.get("descriptor_sha384")
+    context = cand.get("context_sha384")
+    generation = cand.get("generation")
+    entries = cand.get("entries")
+    if not is_nonzero_sha384(descriptor) or not is_nonzero_sha384(context):
+        return None
+    if not isinstance(generation, int) or generation < 0:
+        return None
+    if not isinstance(entries, int) or entries < 1:
+        return None
+    return {
+        "descriptor_sha384": descriptor,
+        "context_sha384": context,
+        "generation": generation,
+        "entries": entries,
+    }
+
+
 def resolve_url(url: str) -> Path:
     if not url.startswith("/"):
         raise SystemExit(f"bad url {url}")
@@ -163,6 +204,7 @@ def main() -> int:
         shutil.copyfile(DEM_SRC, dest_dem)
 
     copied = []
+    first_paint = set(catalog["first_paint"])
     for row in catalog["entries"]:
         url = row["url"]
         src = resolve_url(url)
@@ -200,18 +242,38 @@ def main() -> int:
         "entries": copied,
         "source_publication": str(DEM_SRC.relative_to(ROOT).as_posix()),
     }
+    sidecar_candidate = candidate_from_sidecar(IDENTITY_SIDECAR)
+    if sidecar_candidate is not None:
+        origin = {
+            "kind": "inventory-verifier-finish",
+            "host_bind": "CandidateIdentity::from_parts",
+            "browser_inventory_verifier": False,
+        }
+        receipt["candidate"] = sidecar_candidate
+        receipt["candidate_origin"] = origin
+        catalog["candidate"] = sidecar_candidate
+        catalog["candidate_origin"] = origin
+        if catalog.get("streaming", {}).get("default") is not False:
+            raise SystemExit("streaming.default must stay false")
+        CATALOG.write_text(
+            json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        shutil.copyfile(IDENTITY_SIDECAR, WOODLAND_QBDL / "inventory-identity.json")
+    else:
+        receipt["candidate_origin"] = "pending-producer"
     (QBDL / "receipt.json").write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     shutil.copyfile(QBDL / "receipt.json", WOODLAND_QBDL / "receipt.json")
     download = {
         "schema": "webizen.ewm-download-pack/v1",
-        "identities": copied,
+        "identities": [row for row in copied if row["scene_id"] in first_paint],
         "same_as_stream": True,
         "streaming_default": False,
     }
     (DOWNLOAD / "first-paint.json").write_text(
         json.dumps(download, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"packed {len(copied)} first-paint members; DEM {dem_sha[:12]}")
+    print(f"packed {len(copied)} catalog members, {len(download['identities'])} first-paint; DEM {dem_sha[:12]}")
     return 0
 
 

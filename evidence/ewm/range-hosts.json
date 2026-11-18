@@ -1,0 +1,78 @@
+{
+  "schema": "webizen.ewm-range-host-matrix/v1",
+  "measured": "2026-11-17",
+  "probe": "GET Range: bytes=0-63",
+  "hosts": [
+    {
+      "id": "cloudflare-webizen.au",
+      "url_base": "https://webizen.au",
+      "accept_ranges": "bytes (advertised)",
+      "objects": [
+        {
+          "path": "/packages/current.json",
+          "status": 200,
+          "content_range": null,
+          "content_length": 197,
+          "object_bytes": 197,
+          "partial": false
+        },
+        {
+          "path": "/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+          "status": 200,
+          "content_range": null,
+          "content_length": 1946992,
+          "object_bytes": 1946992,
+          "partial": false
+        },
+        {
+          "path": "/packages/qbdl/base/habitat-terrain.hmc",
+          "status": 200,
+          "content_range": null,
+          "content_length": 8723745,
+          "object_bytes": 8723745,
+          "partial": false
+        }
+      ],
+      "policy": "Worker Static Assets ignore Range and return the whole object. Host uses FallbackPolicy::FORBIDDEN then whole-entry GET of the published URL. Do not 200-slice 8–11 MiB bodies."
+    },
+    {
+      "id": "github-pages-webizen-website",
+      "url_base": "https://mediaprophet.github.io/webizen-website",
+      "accept_ranges": "bytes",
+      "objects": [
+        {
+          "path": "/packages/current.json",
+          "status": 206,
+          "content_range": "bytes 0-63/197",
+          "content_length": 64,
+          "object_bytes": 197,
+          "partial": true
+        },
+        {
+          "path": "/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de",
+          "status": 206,
+          "content_range": "bytes 0-63/1946992",
+          "content_length": 64,
+          "object_bytes": 1946992,
+          "partial": true
+        },
+        {
+          "path": "/packages/qbdl/base/habitat-terrain.hmc",
+          "status": 206,
+          "content_range": "bytes 0-63/8723745",
+          "content_length": 64,
+          "object_bytes": 8723745,
+          "partial": true
+        }
+      ],
+      "policy": "GitHub Pages honours Range with exact 206 windows. Pages subpath /webizen-website/ is in the probe matrix."
+    },
+    {
+      "id": "local-world-server",
+      "url_base": "http://127.0.0.1:8800",
+      "accept_ranges": "bytes",
+      "objects": [],
+      "policy": "tooling/world_server.py plus tooling/http_range.py serve Accept-Ranges and 206 of the requested window. Proven by tests/ewm/qualification/test_range.py."
+    }
+  ]
+}

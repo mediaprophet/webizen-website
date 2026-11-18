@@ -43,7 +43,22 @@ def test_camera_origin_overlaps_habitat_and_dem():
             hits.append(row["scene_id"])
     assert "habitat-terrain" in hits
     assert "canberra-reference-terrain" in hits
-    assert len(hits) <= 64
+    first = [row["scene_id"] for row in catalog["entries"] if row["role"] == "Base"]
+    window = []
+    seen = set()
+    for scene_id in catalog["first_paint"]:
+        if scene_id not in seen:
+            seen.add(scene_id)
+            window.append(scene_id)
+    for scene_id in hits:
+        if len(window) >= 64:
+            break
+        if scene_id in seen:
+            continue
+        seen.add(scene_id)
+        window.append(scene_id)
+    assert set(catalog["first_paint"]).issubset(set(first))
+    assert len(window) <= 64
 
 
 def test_frames_noosphere_layer():
@@ -58,3 +73,24 @@ def test_frames_noosphere_layer():
     assert layer["grounding"] == "EmpiricallyAnchored"
     assert layer["label"] == "infosphere"
     assert "cyber" not in json.dumps(frames)
+
+
+def test_camera_move_is_implemented_not_later():
+    selection = (ROOT / "native/world-host/src/runtime/stream/selection.rs").read_text(
+        encoding="utf-8"
+    )
+    assert "prepare_window" in selection
+    assert "admit_prepared" in selection
+    assert "SelectionIntent" in selection
+    evidence = json.loads(
+        (ROOT / "evidence/ewm/qualification.json").read_text(encoding="utf-8")
+    )
+    join = evidence["gis"]["join"]
+    assert evidence["gis"]["place_id"] == "canberra-public-reference"
+    assert evidence["gis"]["bbox_wsen"] == [149.06, -35.3, 149.08, -35.28]
+    assert evidence["gis"]["public_boot_calls_live_adapters"] is False
+    assert "prepare_window" in join
+    assert "admit_prepared" in join
+    assert "recompile is later" not in join
+    assert "Timeline" not in join
+    assert "placeIds" not in json.dumps(evidence["gis"])

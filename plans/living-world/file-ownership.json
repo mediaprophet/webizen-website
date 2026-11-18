@@ -1,0 +1,195 @@
+{
+  "schema": "webizen.living-world-file-ownership/v1",
+  "id": "LW-00",
+  "date": "2026-11-18",
+  "locale": "en-AU",
+  "max_active_specialists": 3,
+  "integrator_slots": 1,
+  "shared_file_owner": "lw-integrator",
+  "id_series": "LW",
+  "id_collision_policy": "LW-00+ must not reuse A00-A27, N01-N09, or EWM-00+",
+  "runtime_behaviour_change": false,
+  "streaming_default": false,
+  "inner_ranges": false,
+  "first_paint_len": 24,
+  "catalog_may_gain_enhancement_rows": true,
+  "single_file_owners": {
+    "webizen-website/native/world-host/src/runtime/macros.rs": "LW-01",
+    "webizen-website/tooling/ewm_camp_q42.py": "LW-02",
+    "webizen-website/site/world/living-world.vibe": "LW-03",
+    "webizen-website/native/world-host/src/runtime/catalog.rs": "LW-04",
+    "webizen-website/native/world-host/src/runtime/stream/selection.rs": "LW-05",
+    "webizen-website/native/world-host/src/runtime/stream/flag.rs": "EWM-09",
+    "webizen-website/wrangler.jsonc": "EWM-05",
+    "webizen-website/packages/current.json": "EWM-10"
+  },
+  "integrator_exclusive_paths": [
+    "webizen-website/native/world-host/src/runtime.rs",
+    "webizen-website/native/world-host/src/runtime/boot.rs",
+    "webizen-website/native/world-host/src/lib.rs",
+    "webizen-website/native/world-host/Cargo.toml"
+  ],
+  "ewm_keeps": {
+    "flag.rs": "EWM-09",
+    "wrangler.jsonc": "EWM-05",
+    "packages/current.json": "EWM-10",
+    "data/ewm/first-paint.json": "EWM-00",
+    "tests/ewm/qualification/**": "EWM-08",
+    "tests/ewm/rollback/**": "EWM-09"
+  },
+  "glob_collision_audit": {
+    "tests_ewm": "EWM-08 keeps tests/ewm/qualification/**; EWM-09 keeps tests/ewm/rollback/**; LW-03 owns tests/ewm/living-world/test_awning_split.py; LW-09 owns tests/ewm/living-world/** in wave-3 after LW-03.",
+    "stream": "flag.rs stays EWM-09. LW-05 inherits selection.rs and may add unload.rs. EWM-02 v1 landed.",
+    "first_paint": "EWM-00 keeps data/ewm/first-paint.json length 24. LW-04 must not shrink it.",
+    "packages": "EWM-03 whole-entry shards. EWM-10 owns packages/current.json. LW-06 adds place members as additional static files.",
+    "operator_working": "LW-03 owns working/field-studio-operator/** except skl1; LW-07 owns skl1/** in wave-2.",
+    "wrangler_flag_current": "wrangler.jsonc EWM-05; flag.rs EWM-09; packages/current.json EWM-10; not LW-owned.",
+    "timeline": "Timeline.json never stored. No exact campsite coordinates. No published personal-place identifiers. No inferred-work locality markers."
+  },
+  "packets": [
+    {
+      "id": "LW-00",
+      "owned_paths": [
+        "webizen-website/plans/living-world/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/plans/ewm/**",
+        "webizen-website/plans/aaa-overhaul/**"
+      ]
+    },
+    {
+      "id": "LW-01",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/macros.rs",
+        "webizen-website/native/world-host/src/runtime/locomotion.rs"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/ui.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ]
+    },
+    {
+      "id": "LW-02",
+      "owned_paths": [
+        "webizen-website/tooling/ewm_camp_q42.py",
+        "webizen-website/data/ewm/camp.q42",
+        "webizen-website/data/ewm/camp-sequence.n3",
+        "webizen-website/data/ewm/camp-sequence.ttl",
+        "webizen-website/data/ewm/camp-triples.json",
+        "webizen-website/data/ewm/camp-*.q42"
+      ]
+    },
+    {
+      "id": "LW-03",
+      "owned_paths": [
+        "webizen-website/site/world/living-world.vibe",
+        "webizen-website/production/native-world/recipes/field-studio-operator.vibe",
+        "webizen-website/production/native-world/working/field-studio-operator/**",
+        "webizen-website/tests/ewm/living-world/test_awning_split.py"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/tests/ewm/qualification/**",
+        "webizen-website/tests/ewm/rollback/**",
+        "webizen-website/production/native-world/working/field-studio-operator/skl1/**"
+      ],
+      "integrator_routes": [
+        "webizen-website/production/native-world/assets/field-studio-operator-*.10d"
+      ]
+    },
+    {
+      "id": "LW-04",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/catalog.rs",
+        "webizen-website/tooling/ewm_catalog_q42.py",
+        "webizen-website/data/ewm/catalog.q42",
+        "webizen-website/data/ewm/catalog.ttl",
+        "webizen-website/data/ewm/place-index.json",
+        "webizen-website/schemas/ewm/place-base.json"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/first-paint.json"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ]
+    },
+    {
+      "id": "LW-05",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/stream/selection.rs",
+        "webizen-website/native/world-host/src/runtime/stream/unload.rs"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/native/world-host/src/runtime/stream/flag.rs"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ]
+    },
+    {
+      "id": "LW-06",
+      "owned_paths": [
+        "webizen-website/tooling/ewm_place_q42.py",
+        "webizen-website/data/ewm/places/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/place-index.json",
+        "webizen-website/production/lush-woodland/scene.q42",
+        "webizen-website/data/ewm/first-paint.json"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ]
+    },
+    {
+      "id": "LW-07",
+      "owned_paths": [
+        "webizen-website/production/native-world/working/field-studio-operator/skl1/**",
+        "webizen-website/tooling/ewm_operator_skl1.py"
+      ],
+      "integrator_routes": [
+        "webizen-website/production/native-world/assets/field-studio-operator-opt.10d"
+      ]
+    },
+    {
+      "id": "LW-08",
+      "owned_paths": [
+        "webizen-website/tooling/ewm_ingest.py",
+        "webizen-website/data/ewm/gis/ingest/**",
+        "webizen-website/native/world-host/src/runtime/gis_ingest.rs"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/places/**"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs"
+      ]
+    },
+    {
+      "id": "LW-09",
+      "owned_paths": [
+        "webizen-website/tests/ewm/living-world/**",
+        "webizen-website/evidence/ewm/living-world/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/tests/ewm/qualification/**",
+        "webizen-website/tests/ewm/rollback/**",
+        "webizen-website/evidence/ewm/qualification.json"
+      ]
+    },
+    {
+      "id": "LW-10",
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs",
+        "webizen-website/native/world-host/Cargo.toml",
+        "webizen-website/tooling/native-host/receipt.py"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/packages/current.json"
+      ]
+    }
+  ]
+}

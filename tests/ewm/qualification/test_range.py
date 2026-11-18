@@ -83,3 +83,32 @@ def test_first_paint_object_serves_exact_206():
     finally:
         httpd.shutdown()
         httpd.server_close()
+
+
+def test_range_host_matrix_records_cloudflare_200_and_pages_206():
+    import json
+
+    matrix = json.loads((ROOT / "evidence/ewm/range-hosts.json").read_text(encoding="utf-8"))
+    assert matrix["schema"] == "webizen.ewm-range-host-matrix/v1"
+    by_id = {h["id"]: h for h in matrix["hosts"]}
+    cf = by_id["cloudflare-webizen.au"]
+    pages = by_id["github-pages-webizen-website"]
+    local = by_id["local-world-server"]
+    assert any(o["status"] == 200 and o["partial"] is False for o in cf["objects"])
+    assert "whole-entry GET" in cf["policy"]
+    assert any(o["status"] == 206 and o["partial"] is True for o in pages["objects"])
+    assert "/webizen-website/" in pages["policy"]
+    assert "206" in local["policy"]
+    dem = next(o for o in cf["objects"] if o["object_bytes"] == 1946992)
+    habitat = next(o for o in cf["objects"] if o["object_bytes"] == 8723745)
+    assert dem["status"] == 200 and dem["partial"] is False
+    assert habitat["status"] == 200 and habitat["partial"] is False
+    evidence = json.loads((ROOT / "evidence/ewm/qualification.json").read_text(encoding="utf-8"))
+    host = evidence["hosting_range"]
+    assert host["evidence"] == "evidence/ewm/range-hosts.json"
+    assert "1946992" in host["cloudflare_worker_static_assets"].replace(",", "") or "1,946,992" in host["cloudflare_worker_static_assets"]
+    assert "8723745" in host["cloudflare_worker_static_assets"].replace(",", "") or "8,723,745" in host["cloudflare_worker_static_assets"]
+    assert "200" in host["cloudflare_worker_static_assets"]
+    assert "206" in host["github_pages"]
+    assert "206" in host["local_world_server"]
+    assert "Whole-entry GET" in host["fallback"]

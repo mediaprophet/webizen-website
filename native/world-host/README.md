@@ -6,8 +6,8 @@ This application owns the world in Rust/WASM. Its page needs only the generated 
 
 - `canvas#native-world`, optional `#native-world-ui` and `#native-world-status`; the host creates missing elements.
 - `/world/living-world.vibe` (override with canvas `data-vibe`). The actual `PoetSnapshot::eval_fn` evaluates `world_settings`, `input_camera`, `select_place` and `observer_path` on load or user actions. The frame loop never evaluates Vibe.
-- `/publication/current.json` identifies a native Q42VOL v4 volume and SHA-256. `WasmSliceQ42Reader` reads the volume and embedded lexicon; the host decodes entity metadata, absolute positions, camera eyes, relationships and seven sanitised journey chapters. It never substitutes the JSON publication projection for Q42.
-- `/production/native-world/scene.json` (override with canvas `data-scene`), schema `webizen.native-world/v1`, `assets:[{id,url,colour:[r,g,b,a],sha256}]`, optional `triangle_count`, `vertex_count` and `water:{positions,indices}`. URLs are same-origin, asset hashes are mandatory, transforms are already authored into the native assets. The host uses existing native `load_scene_assets`; native MAT1 materials survive scene assembly.
+- `/publication/world.q42` is the well-known Q42VOL v4 CBOR-LD publication. `PoetSnapshot::admit_q42_slice` admits it; `GraphDatabase.sparql` and the admitted lexicon supply places, relationships and seven sanitised journey chapters. The host does not fetch `/publication/current.json`.
+- Homepage woodland: `/production/lush-woodland/scene.q42` plus `/data/ewm/catalog.q42` (both Q42VOL v4 CBOR-LD SuperBlocks of NQuins). Turtle is the producer source; visitors never read those files. Literal terms are RDF-typed; vectors are numeric components, not JSON documents. SPARQL joins the catalog GIS place onto woodland scene assets. Water geometry is the WTR1 sidecar `water.bin`. Vibe still owns camera, sky, sun and water appearance. Flag off fails closed to the reading view; `?ewm=1` streams first-paint then enhancement. Laboratory pages may still set `data-scene` to a JSON `webizen.native-world/v1` proof scene.
 
 ## Native behaviour
 

@@ -1,0 +1,8 @@
+# Create-only DEM rasters, QDEM, heightfields. Never Timeline.json.
+# LW-08 packed OSM members and ingest receipts may be kept as Range-able static files.
+*
+!*/
+!.gitignore
+!**/ingest-receipt.json
+!**/catalog-row.json
+!**/measured-member.json

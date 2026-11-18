@@ -1,7 +1,7 @@
 //! Hydrate native content-addressed material dependencies before scene upload.
 use super::*;
-#[derive(Deserialize)]
-pub(super) struct Texture {
+#[derive(Clone, Deserialize)]
+pub(crate) struct Texture {
     pub url: String,
     pub sha256: String,
     pub mime_type: String,
@@ -120,9 +120,16 @@ pub(super) fn verify_asset(
     )
     .map_err(|e| err(format!("Asset {id} MAT1: {e:?}")))?;
     for material in &materials {
-        if let Some((owner, prior)) = registry.iter().find(|(_, prior)| prior.id == material.id) {
+        // QualiaPortal loads each organ from its own bytes. Cross-asset MAT1
+        // integer ids are not a GPU merge: measured-gis DEM and authored
+        // woodland both use producer id 1 with different records. Conflict
+        // only inside one scene_id.
+        if let Some((_, prior)) = registry
+            .iter()
+            .find(|(owner, prior)| owner == id && prior.id == material.id)
+        {
             if prior != material {
-                return Err(err(format!("Asset {id} conflicts with asset {owner}: native material ID {} has different MAT1 records; reseal unique producer IDs before loading", material.id)));
+                return Err(err(format!("Asset {id}: native material ID {} has different MAT1 records; reseal unique producer IDs before loading", material.id)));
             }
         } else {
             registry.push((id.to_string(), *material));

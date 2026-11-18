@@ -105,8 +105,10 @@ def produce(bridge,id,title,parts):
  record=dict(id=id,title=title,epistemic_class='authored-artwork',geometry_origin='Synth native loft/revolve -> DXF -> lossless indexed adapter; same faces imported and sealed as .10d',parts=len(parts),vertices=len(verts)//3,triangles=len(tris)//3,mesh_json=str(meshfile),native=model,production=native,sealing=sealed,recipe=str(recipes/(id+'.vibe')),palette=PALETTE)
  (out/(id+'.manifest.json')).write_text(json.dumps(record,indent=2),encoding='utf-8')
  preview=ROOT/'previews'/(id+'-'+str(int(time.time())));preview.parent.mkdir(exist_ok=True)
- subprocess.run(['C:/github/synth/target-prod/debug/synth.exe','preview','--asset',model['path'],'--out',str(preview)],check=True)
- record['preview_dir']=str(preview);(out/(id+'.manifest.json')).write_text(json.dumps(record,indent=2),encoding='utf-8');return record
+ preview_run=subprocess.run(['C:/github/synth/target-prod/debug/synth.exe','preview','--asset',model['path'],'--out',str(preview)],check=False)
+ if preview_run.returncode==0:record['preview_dir']=str(preview)
+ else:record['preview_dir']=None;record['preview_note']='target-prod synth.exe has no --features preview; local three.js review is the turnaround'
+ (out/(id+'.manifest.json')).write_text(json.dumps(record,indent=2),encoding='utf-8');return record
 if __name__=='__main__':
  ROOT.mkdir(exist_ok=True);bridge=SynthBridge(ROOT)
  try:

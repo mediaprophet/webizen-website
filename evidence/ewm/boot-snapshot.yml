@@ -1,0 +1,31 @@
+- generic [active]:
+  - link "Skip to world controls" [ref=f11e1] [cursor=pointer]:
+    - /url: "#native-world-ui"
+  - generic "Interactive native world. Use arrow keys to look around, plus and minus to zoom." [ref=f11e104]
+  - banner:
+    - link "W. webizen HUMAN CENTRIC COMPUTING" [ref=f11e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f11e4]: W.
+      - generic [ref=f11e5]:
+        - text: webizen
+        - generic [ref=f11e6]: HUMAN CENTRIC COMPUTING
+    - navigation "Reading routes" [ref=f11e7]:
+      - link "Read the world" [ref=f11e8] [cursor=pointer]:
+        - /url: /publication/reading.html
+      - link "The ecosystem" [ref=f11e9] [cursor=pointer]:
+        - /url: /atlas/
+      - link "Tests & benchmarks" [ref=f11e10] [cursor=pointer]:
+        - /url: /lab/
+      - link "The journey" [ref=f11e11] [cursor=pointer]:
+        - /url: /journey/
+    - generic [ref=f11e12]: English · AU
+  - status [ref=f11e105]: This view of the place now includes nearby enhancement.
+  - button "Show the reading and path panel" [ref=f11e106] [cursor=pointer]: Show panel
+  - group [ref=f11e107]:
+    - generic "Open the proof laboratory" [ref=f11e108] [cursor=pointer]
+    - option "Schema.org 30.0 current HTTPS" [selected]
+    - option "Earth, space, rights and benchmark source graph"
+    - option "The ecosystem - 16 module groups explained"
+    - option "Inspect archiveHeld relationships" [selected]
+    - option "Find declared RDF types"
+    - option "Verify an absent public reference subject"

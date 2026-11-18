@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://webizen.au/schemas/ewm/place-base.json",
+  "title": "webizen.ewm-place-base/v1",
+  "description": "Living-world PublicPlace Base lists beside the woodland four-tuple. field-studio base is the current first-paint 24. Other named places use terrain plus place-local organs and omit the camper unless that place lists it. inner_ranges stays false. streaming.default stays false. Operator location-history exports, vendor place identifiers, Timeline.json, and inferred-work labels are forbidden. This snippet does not replace schemas/ewm/catalog.v1.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "inner_ranges",
+    "places",
+    "streaming"
+  ],
+  "propertyNames": {
+    "type": "string",
+    "not": {
+      "enum": [
+        "Timeline.json",
+        "placeIds",
+        "placeId",
+        "INFERRED_WORK"
+      ]
+    }
+  },
+  "properties": {
+    "schema": {
+      "const": "webizen.ewm-place-base/v1"
+    },
+    "inner_ranges": {
+      "const": false,
+      "description": "v1 admits whole entries only. HTTP Range is whole-entry on static files."
+    },
+    "streaming": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "default"
+      ],
+      "properties": {
+        "default": {
+          "const": false
+        }
+      }
+    },
+    "places": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "$ref": "#/$defs/PublicPlaceBase"
+      }
+    }
+  },
+  "$defs": {
+    "SceneId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,127}$"
+    },
+    "BboxWsen": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "Named public place extent, west/south/east/north in the declared CRS. Not a personal campsite pin.",
+      "items": {
+        "type": "number"
+      }
+    },
+    "PublicPlaceBase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "crs",
+        "datum",
+        "bbox_wsen",
+        "not_personal_campsite",
+        "journey_chapter",
+        "usri",
+        "realm_class",
+        "gis_terrain_id",
+        "authored_ground_id",
+        "base",
+        "colocated"
+      ],
+      "propertyNames": {
+        "type": "string",
+        "not": {
+          "enum": [
+            "Timeline.json",
+            "placeIds",
+            "placeId",
+            "INFERRED_WORK"
+          ]
+        }
+      },
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "journey_chapter": {
+          "const": "southern-tablelands"
+        },
+        "not_personal_campsite": {
+          "const": true
+        },
+        "crs": {
+          "const": "EPSG:4326"
+        },
+        "datum": {
+          "const": "WGS84"
+        },
+        "bbox_wsen": {
+          "$ref": "#/$defs/BboxWsen"
+        },
+        "dem_zoom": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 15
+        },
+        "elevation_m": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number"
+          }
+        },
+        "gis_terrain_id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "authored_ground_id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "usri": {
+          "const": "urn:omni:v1:physical:observable:standard:earth:wgs84"
+        },
+        "realm_class": {
+          "const": "physical"
+        },
+        "base": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "Resident Base asset ids for this PublicPlace. field-studio must equal woodland first-paint 24.",
+          "items": {
+            "$ref": "#/$defs/SceneId"
+          }
+        },
+        "enhancement": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "Optional Enhancement ids for this place. Awning is Enhancement, not a 25th four-tuple member.",
+          "items": {
+            "$ref": "#/$defs/SceneId"
+          }
+        },
+        "colocated": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/CoLocatedLayer"
+          }
+        }
+      }
+    },
+    "CoLocatedLayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label",
+        "realm_class",
+        "usri",
+        "grounding",
+        "anchor_iri",
+        "families"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/SceneId"
+        },
+        "label": {
+          "const": "infosphere"
+        },
+        "realm_class": {
+          "const": "noosphere"
+        },
+        "usri": {
+          "type": "string",
+          "pattern": "^urn:omni:v1:noosphere:webizen:public:world/[a-z0-9][a-z0-9._/-]{0,253}$"
+        },
+        "grounding": {
+          "const": "EmpiricallyAnchored"
+        },
+        "anchor_iri": {
+          "type": "string",
+          "pattern": "^https://webizen\\.au/world/[a-z0-9][a-z0-9._/-]{0,253}$"
+        },
+        "journey_iri": {
+          "type": "string",
+          "pattern": "^https://webizen\\.au/journey/[a-z0-9][a-z0-9._/-]{0,253}$"
+        },
+        "families": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "TenD",
+              "Q42"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,15 @@
-//! EWM streaming boot (PR6a/6b). Dual-boot: flag off keeps whole-file scene fetch.
+//! EWM streaming boot (PR6a/6b). Woodland scene graph is Q42 (CBOR-LD).
+//! Flag off fails closed to the reading view; it does not fetch scene.json.
+//! Camera-move SelectionIntent recompile is [`selection`].
 
 #[allow(dead_code)]
 mod flag;
 
+#[allow(dead_code)]
+pub mod selection;
+
 use super::*;
+use super::catalog::{Catalog, CatalogEntry};
 use qualia_core_db::bundle::stream::descriptor::CandidateIdentity;
 use qualia_core_db::bundle::stream::http::FallbackPolicy;
 use qualia_core_db::bundle::stream::plan::{
@@ -26,7 +32,7 @@ pub fn ewm_query_enabled(query: &str, canvas: &HtmlCanvasElement) -> bool {
     from_query || from_attr
 }
 
-fn parse_hex48(hex: &str) -> Result<StrongDigest, JsValue> {
+pub(super) fn parse_hex48(hex: &str) -> Result<StrongDigest, JsValue> {
     if hex.len() != 96 {
         return Err(err("EWM candidate digest must be 96 hex characters"));
     }
@@ -37,7 +43,7 @@ fn parse_hex48(hex: &str) -> Result<StrongDigest, JsValue> {
     StrongDigest::from_bytes(&out).map_err(err)
 }
 
-fn family_from_magic(bytes: &[u8]) -> Result<EntryFamily, JsValue> {
+pub(super) fn family_from_magic(bytes: &[u8]) -> Result<EntryFamily, JsValue> {
     if bytes.len() >= 4 && bytes[..4] == MAGIC_10D {
         Ok(EntryFamily::TenD)
     } else {
@@ -54,94 +60,89 @@ pub struct FirstPaint {
     pub pointer_sha256: String,
     pub overlapping: Vec<String>,
     pub infosphere: bool,
+    pub catalog: Catalog,
+    pub colours: Vec<(String, [f32; 4])>,
+    pub selection: selection::LiveSelection,
 }
 
 pub async fn load_first_paint(
     portal: &mut QualiaPortal,
     scene: &Scene,
     camera: &crate::policy::Camera,
+    catalog: Catalog,
 ) -> Result<FirstPaint, JsValue> {
     text("native-world-status", "Opening the streamed landscape…");
-    let pointer_bytes = bytes("/packages/current.json", 65536).await?;
-    let pointer_sha256 = hash(&pointer_bytes);
-    let pointer: Value = serde_json::from_slice(&pointer_bytes).map_err(err)?;
-    if pointer["streaming"]["default"].as_bool() == Some(true) {
-        return Err(err("EWM catalog pointer must keep streaming.default false"));
-    }
-    let catalog_url = pointer["catalog"]
-        .as_str()
-        .ok_or(err("EWM catalog pointer missing catalog url"))?;
-    same_origin(catalog_url)?;
-    let catalog: Value = json_file(catalog_url, 2 * 1024 * 1024).await?;
-    if catalog["schema"] != "webizen.ewm-catalog/v1" {
+    if catalog.schema != "webizen.ewm-catalog/v1" {
         return Err(err("Unsupported EWM catalog"));
     }
-    if catalog["streaming"]["default"].as_bool() == Some(true) {
+    if catalog.streaming_default {
         return Err(err("EWM catalog must keep streaming.default false"));
     }
-    let place = super::gis_join::place_from_catalog(&catalog)?;
+    let place = catalog.place()?;
     let _stack = super::ocs_frames::colocated_stack(place)?;
     let infosphere = super::ocs_frames::infosphere_layer(place).is_some();
-    let cand = &catalog["candidate"];
     let identity = CandidateIdentity::from_parts(
-        parse_hex48(cand["descriptor_sha384"].as_str().ok_or(err("No descriptor"))?)?,
-        parse_hex48(cand["context_sha384"].as_str().ok_or(err("No context"))?)?,
-        cand["generation"].as_u64().unwrap_or(1),
-        cand["entries"].as_u64().unwrap_or(0) as u32,
+        parse_hex48(&catalog.candidate.descriptor_sha384)?,
+        parse_hex48(&catalog.candidate.context_sha384)?,
+        catalog.candidate.generation,
+        catalog.candidate.entries,
     )
     .map_err(err)?;
 
-    let ids: Vec<String> = catalog["first_paint"]
-        .as_array()
-        .ok_or(err("No first_paint list"))?
-        .iter()
-        .filter_map(|v| v.as_str().map(String::from))
-        .collect();
-    let entries = catalog["entries"].as_array().ok_or(err("No catalog entries"))?;
-    let declared = catalog["declared_subset"].clone();
-    let declared_bytes = declared["bytes"].as_u64().unwrap_or(0);
-    let declared_tri = declared["triangles"].as_u64().unwrap_or(0);
-    let declared_vtx = declared["vertices"].as_u64().unwrap_or(0);
-    if declared_bytes == 0 || declared_bytes > 15 * 1024 * 1024 {
+    let ids = catalog.first_paint.clone();
+    let declared_bytes = catalog.declared_bytes;
+    let declared_tri = catalog.declared_triangles;
+    let declared_vtx = catalog.declared_vertices;
+    if declared_bytes == 0 || declared_bytes > 17 * 1024 * 1024 {
         return Err(err("EWM first-paint byte budget refused"));
     }
 
-    // First paint fetches the sealed first_paint window. overlapping_entries
-    // records the camera-in-place AABB/tile join on the receipt. A later
-    // camera-move SelectionIntent recompile is out of v1 first paint.
+    // First paint fetches the SPARQL firstPaint window. Enhancement after
+    // base is selection.rs (compose_window, tile debounce, window ≤64).
     let pose = super::gis_join::camera_pose(camera.target, camera.yaw, camera.pitch);
     let overlapping: Vec<String> = super::gis_join::overlapping_entries(
-        entries,
+        &catalog.entries,
         &pose,
         super::gis_join::DEFAULT_RADIUS_M,
     )
     .into_iter()
-    .filter_map(|e| e["scene_id"].as_str().map(String::from))
+    .map(|e| e.scene_id.clone())
     .collect();
+    let selection = selection::live_selection_from_catalog(
+        &catalog,
+        camera.target,
+        camera.yaw,
+        camera.pitch,
+    );
+    let colours: Vec<(String, [f32; 4])> = scene
+        .assets
+        .iter()
+        .map(|a| (a.id.clone(), a.colour))
+        .collect();
+    let pointer_sha256 = catalog.join.engine.clone();
 
     let mut plan_specs = Vec::new();
-    let mut selected = Vec::new();
+    let mut selected: Vec<CatalogEntry> = Vec::new();
     for id in &ids {
-        let row = entries
-            .iter()
-            .find(|e| e["scene_id"].as_str() == Some(id.as_str()))
+        let row = catalog
+            .entry(id)
+            .cloned()
             .ok_or_else(|| err(format!("First-paint id missing from catalog: {id}")))?;
-        let url = row["url"].as_str().ok_or(err("catalog url"))?;
+        let url = row.url.as_str();
         if !(url.starts_with("/packages/") || url.starts_with("/production/")) {
             return Err(err("First-paint url must be same-origin /packages/ or /production/"));
         }
-        let entry_id = row["entry_id"].as_u64().ok_or(err("entry_id"))? as u32;
         plan_specs.push(PlanEntrySpec {
             candidate: identity,
-            entry_id,
+            entry_id: row.entry_id,
             family: EntryFamily::TenD,
             role: RepresentationClass::Base,
             interval: None,
             timebase: None,
-            estimate: ResourceEstimate::new(row["bytes"].as_u64().unwrap_or(0), 0, 0),
+            estimate: ResourceEstimate::new(row.bytes, 0, 0),
             obligation: Obligation::Mandatory,
         });
-        selected.push(row.clone());
+        selected.push(row);
     }
     if plan_specs.len() > 64 {
         return Err(err("EWM window exceeds 64"));
@@ -152,30 +153,27 @@ pub async fn load_first_paint(
         .collect::<Result<_, _>>()
         .map_err(err)?;
     let mut edges = Vec::new();
-    if let Some(declared_edges) = catalog["edges"].as_array() {
-        for edge in declared_edges {
-            let from_id = edge["from_entry_id"].as_u64().ok_or(err("edge from_entry_id"))? as u32;
-            let to_id = edge["to_entry_id"].as_u64().ok_or(err("edge to_entry_id"))? as u32;
-            let Some(from) = plan_entries.iter().find(|e| e.entry_id() == from_id) else {
-                continue;
-            };
-            let Some(to) = plan_entries.iter().find(|e| e.entry_id() == to_id) else {
-                continue;
-            };
-            let reason = match edge["reason"].as_str() {
-                Some("Geometry") => DependencyReason::Geometry,
-                Some("Frame") => DependencyReason::Frame,
-                Some("Calibration") => DependencyReason::Calibration,
-                Some("Clock") => DependencyReason::Clock,
-                Some("Query") => DependencyReason::Query,
-                _ => return Err(err("Unsupported catalog dependency reason")),
-            };
-            let obligation = match edge["obligation"].as_str() {
-                Some("Optional") => Obligation::Optional,
-                _ => Obligation::Mandatory,
-            };
-            edges.push(DependencyEdge::bind(from, to, obligation, reason).map_err(err)?);
-        }
+    for edge in &catalog.edges {
+        let Some(from) = plan_entries.iter().find(|e| e.entry_id() == edge.from_entry_id) else {
+            continue;
+        };
+        let Some(to) = plan_entries.iter().find(|e| e.entry_id() == edge.to_entry_id) else {
+            continue;
+        };
+        let reason = match edge.reason.as_str() {
+            "Geometry" => DependencyReason::Geometry,
+            "Frame" => DependencyReason::Frame,
+            "Calibration" => DependencyReason::Calibration,
+            "Clock" => DependencyReason::Clock,
+            "Query" => DependencyReason::Query,
+            _ => return Err(err("Unsupported catalog dependency reason")),
+        };
+        let obligation = if edge.obligation == "Optional" {
+            Obligation::Optional
+        } else {
+            Obligation::Mandatory
+        };
+        edges.push(DependencyEdge::bind(from, to, obligation, reason).map_err(err)?);
     }
     let inventory = Inventory::compile(identity, &plan_entries, &edges).map_err(err)?;
     let intents: Vec<SelectionIntent> = plan_entries
@@ -203,61 +201,57 @@ pub async fn load_first_paint(
                 selected.len()
             ),
         );
-        let url = row["url"].as_str().ok_or(err("catalog url"))?;
+        let url = row.url.as_str();
         fetch.authorize(url).map_err(err)?;
         let limit = 64 * 1024 * 1024;
         let signal = controller.signal();
-        let raw = match row["bytes"].as_u64() {
-            Some(size) if size > 0 => {
-                match fetch
-                    .get_range(
-                        url,
-                        0,
-                        size - 1,
-                        FallbackPolicy::FORBIDDEN,
-                        None,
-                        limit,
-                        Some(&signal),
-                    )
+        let raw = if row.bytes > 0 {
+            match fetch
+                .get_range(
+                    url,
+                    0,
+                    row.bytes - 1,
+                    FallbackPolicy::FORBIDDEN,
+                    None,
+                    limit,
+                    Some(&signal),
+                )
+                .await
+            {
+                Ok(body) => body,
+                Err(_) => fetch
+                    .get_whole_entry(url, limit, None, Some(&signal))
                     .await
-                {
-                    Ok(body) => body,
-                    Err(_) => fetch
-                        .get_whole_entry(url, limit, None, Some(&signal))
-                        .await
-                        .map_err(|e| {
-                            controller.abort();
-                            err(e)
-                        })?,
-                }
+                    .map_err(|e| {
+                        controller.abort();
+                        err(e)
+                    })?,
             }
-            _ => fetch
+        } else {
+            fetch
                 .get_whole_entry(url, limit, None, Some(&signal))
                 .await
                 .map_err(|e| {
                     controller.abort();
                     err(e)
-                })?,
+                })?
         };
         total_bytes += raw.len();
         if total_bytes as u64 > declared_bytes + 64 * 1024 {
             controller.abort();
             return Err(err("Streamed first-paint exceeds declared subset"));
         }
-        let want = row["sha256"].as_str().ok_or(err("catalog sha256"))?;
+        let want = row.sha256.as_str();
         if hash(&raw) != want {
             controller.abort();
-            return Err(err(format!(
-                "Asset digest mismatch: {}",
-                row["scene_id"].as_str().unwrap_or("?")
-            )));
+            return Err(err(format!("Asset digest mismatch: {}", row.scene_id)));
         }
         let family = family_from_magic(&raw)?;
         if family != EntryFamily::TenD {
             controller.abort();
             return Err(err("Family mismatch on admit"));
         }
-        let id = row["scene_id"].as_str().ok_or(err("scene_id"))?;
+        let id = row.scene_id.as_str();
         super::admission::check(id, &raw)?;
         texture_bindings +=
             super::textures::verify_asset(id, &raw, &scene.textures, &mut material_registry)?;
@@ -290,15 +284,27 @@ pub async fn load_first_paint(
     let authored_triangles = js_sys::Reflect::get(&uploaded, &"total_triangles".into())?
         .as_f64()
         .unwrap_or(0.) as u64;
+    let organs_loaded = js_sys::Reflect::get(&uploaded, &"organs_loaded".into())
+        .ok()
+        .and_then(|v| v.as_f64())
+        .unwrap_or(0.) as u64;
+    let organs_refused = js_sys::Reflect::get(&uploaded, &"organs_refused".into())
+        .ok()
+        .and_then(|v| v.as_f64())
+        .unwrap_or(0.) as u64;
     if authored_triangles != declared_tri {
-        return Err(err("Native GPU subset triangle total differs from declared first-paint"));
+        return Err(err(format!(
+            "Native GPU subset triangle total differs from declared first-paint ({authored_triangles} vs {declared_tri}; organs_loaded={organs_loaded} organs_refused={organs_refused})"
+        )));
     }
     let got_vtx = js_sys::Reflect::get(&uploaded, &"total_vertices".into())
         .ok()
         .and_then(|v| v.as_f64())
         .unwrap_or(0.) as u64;
     if got_vtx != 0 && declared_vtx != 0 && got_vtx != declared_vtx {
-        return Err(err("Native GPU subset vertex total differs from declared first-paint"));
+        return Err(err(format!(
+            "Native GPU subset vertex total differs from declared first-paint ({got_vtx} vs {declared_vtx})"
+        )));
     }
     Ok(FirstPaint {
         uploaded,
@@ -309,5 +315,8 @@ pub async fn load_first_paint(
         pointer_sha256,
         overlapping,
         infosphere,
+        catalog,
+        colours,
+        selection,
     })
 }

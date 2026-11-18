@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "webizen.ewm-gis-consent-fixture/v1",
+  "osm3s": {
+    "copyright": "OpenStreetMap contributors. Made available under ODbL 1.0."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 8808,
+      "nodes": [8801, 8802, 8803],
+      "geometry": [
+        {"lat": -35.30, "lon": 149.06},
+        {"lat": -35.29, "lon": 149.07},
+        {"lat": -35.28, "lon": 149.08}
+      ],
+      "tags": {
+        "waterway": "river",
+        "name": "Molonglo River",
+        "source": "public-consent-fixture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8801,
+      "lat": -35.30,
+      "lon": 149.06
+    },
+    {
+      "type": "node",
+      "id": 8802,
+      "lat": -35.29,
+      "lon": 149.07
+    },
+    {
+      "type": "node",
+      "id": 8803,
+      "lat": -35.28,
+      "lon": 149.08
+    }
+  ]
+}

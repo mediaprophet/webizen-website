@@ -1,45 +1,45 @@
 {
-  "key": "a0e40d9135f31a4c1475b5fd8f990c108928f7b851286d342177fe16385218a9",
+  "key": "2601042623869277cbdcf6986cbbcd0de0bc079e6261b68e744a71fdec414c52",
   "id": "vintage-windup-camper--steel",
   "native": {
-    "bytes": 104504,
+    "bytes": 80304,
     "key": "vintage-windup-camper--steel.10d",
     "kind": "10d",
-    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-b850e50b5de8\\vintage-windup-camper--steel.10d",
-    "sha256": "6576f9bee97a1cc2c2072932447f177e7e1173bb30028ae028625004a9e8c985",
-    "url": "/artifacts/world-vintage-windup-camper--steel-b850e50b5de8/vintage-windup-camper--steel.10d"
+    "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-41b37c706ccb\\vintage-windup-camper--steel.10d",
+    "sha256": "04f13517107fe67f80cd8dd22d78e28b0710c6268dcd038df97e67c9136e7582",
+    "url": "/artifacts/world-vintage-windup-camper--steel-41b37c706ccb/vintage-windup-camper--steel.10d"
   },
   "production": {
     "antigravity_embed_hint": null,
-    "document_digest": "c2a332c38bfcbbdb78c09c1e61af0ac6ba460c2bbe6552ee4642105bb148ddc9",
-    "package_sha256": "18c537433e72a96e3999525e063d65d7e5e76ccd7d3131e6ae1d166c57617cfd",
+    "document_digest": "b0bd8f060cf57d2716a521aff4a6b87f1ad7f9081dddc44d06aab59cf707807e",
+    "package_sha256": "ebd012b815be3294a3aff3f136d71bca3ba1c0688ed3082caae150ce6470d549",
     "presentation_html": null,
     "producer": "files",
     "producer_version": "2",
     "receipt": {
       "binary": {
         "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
-        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "sha256": "e1d2e3881c31bff67ae5579d215eda37130f560526d53cdf140da466809893b7",
         "version": "0.1.0"
       },
       "catalog": {
         "count": 150,
-        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+        "sha256": "57e0bf32ca98f8be58c79531c9128e4a5f92e8d88d3aa2d6b182873337645132"
       },
       "execution_host": "synth.production",
       "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
       "hmc": {
-        "bytes": 135115,
-        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-b850e50b5de8.hmc",
-        "sha256": "18c537433e72a96e3999525e063d65d7e5e76ccd7d3131e6ae1d166c57617cfd"
+        "bytes": 105542,
+        "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-41b37c706ccb.hmc",
+        "sha256": "ebd012b815be3294a3aff3f136d71bca3ba1c0688ed3082caae150ce6470d549"
       },
       "inputs": [
         {
-          "bytes": 29344,
+          "bytes": 23992,
           "key": "world.glb",
           "kind": "glb",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--steel.glb",
-          "sha256": "3a1884ed5f33841857490763bbde728c2a5fe59208fb1c3165c1852080bd66bd"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\inputs\\vintage-windup-camper--steel.glb",
+          "sha256": "53db94075aa07f8203d99844d7315a6d92a58d769d55d9eb9471d6de3868e326"
         }
       ],
       "limits": {
@@ -52,7 +52,7 @@
         "evaluation_workspace_bytes": 44040192,
         "package_bytes": 335544320,
         "resource_bytes": 67108864,
-        "source_available_bytes": 2096922,
+        "source_available_bytes": 2096964,
         "source_bytes": 539,
         "source_reservation_bytes": 68992,
         "source_reservation_kind": "conservative logical estimate, not an allocator bound",
@@ -70,40 +70,40 @@
       "requested_reviews": [],
       "resources": [
         {
-          "bytes": 104504,
+          "bytes": 80304,
           "key": "vintage-windup-camper--steel.10d",
           "kind": "10d",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-b850e50b5de8\\vintage-windup-camper--steel.10d",
-          "sha256": "6576f9bee97a1cc2c2072932447f177e7e1173bb30028ae028625004a9e8c985",
-          "url": "/artifacts/world-vintage-windup-camper--steel-b850e50b5de8/vintage-windup-camper--steel.10d"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-41b37c706ccb\\vintage-windup-camper--steel.10d",
+          "sha256": "04f13517107fe67f80cd8dd22d78e28b0710c6268dcd038df97e67c9136e7582",
+          "url": "/artifacts/world-vintage-windup-camper--steel-41b37c706ccb/vintage-windup-camper--steel.10d"
         }
       ],
       "review_status": "not_requested",
       "schema": "synth.production-receipt/v1",
-      "source_sha256": "b71a43fcdde7f5ccf0893036791e6a23017bf36cb29b8249be5e131e43792267",
+      "source_sha256": "a65d00a88f60ca069b437796055fa24c238d868edcc59d5124c223bd0e19be83",
       "strict_replay_verified": true,
       "visual_acceptance": "pending inspection"
     },
     "resources": [
       {
-        "bytes": 104504,
+        "bytes": 80304,
         "key": "vintage-windup-camper--steel.10d",
         "kind": "10d",
         "modality": "spatial",
-        "sha256": "6576f9bee97a1cc2c2072932447f177e7e1173bb30028ae028625004a9e8c985"
+        "sha256": "04f13517107fe67f80cd8dd22d78e28b0710c6268dcd038df97e67c9136e7582"
       }
     ],
     "revision": 1,
-    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-b850e50b5de8.hmc",
+    "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--steel-41b37c706ccb.hmc",
     "schema": "synth.presentation-html/v1",
     "strict_replay_verified": true,
-    "package_url": "/artifacts/world-vintage-windup-camper--steel-b850e50b5de8.hmc",
-    "receipt_url": "/artifacts/world-vintage-windup-camper--steel-b850e50b5de8.json"
+    "package_url": "/artifacts/world-vintage-windup-camper--steel-41b37c706ccb.hmc",
+    "receipt_url": "/artifacts/world-vintage-windup-camper--steel-41b37c706ccb.json"
   },
-  "vertices": 308,
-  "triangles": 544,
+  "vertices": 234,
+  "triangles": 400,
   "instances": 1,
-  "material": 30,
+  "material": 20,
   "url": "/production/native-world/assets/vintage-windup-camper--steel.10d",
   "colour": [
     1,
@@ -111,8 +111,8 @@
     1,
     1
   ],
-  "sha256": "6576f9bee97a1cc2c2072932447f177e7e1173bb30028ae028625004a9e8c985",
-  "bytes": 104504,
+  "sha256": "04f13517107fe67f80cd8dd22d78e28b0710c6268dcd038df97e67c9136e7582",
+  "bytes": 80304,
   "recipe": "/production/native-world/recipes/vintage-windup-camper--steel.vibe",
-  "input_sha256": "3a1884ed5f33841857490763bbde728c2a5fe59208fb1c3165c1852080bd66bd"
+  "input_sha256": "53db94075aa07f8203d99844d7315a6d92a58d769d55d9eb9471d6de3868e326"
 }

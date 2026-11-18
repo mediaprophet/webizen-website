@@ -416,11 +416,25 @@ The first place is the **Canberra public-reference locality** (journey chapter `
 | `car-passat-b7--gold` | 880,696 | authored-artwork | Campsite silhouette (no coordinates) |
 | `car-passat-b7--glass` | 435,736 | authored-artwork | |
 | `car-passat-b7--chrome` | 1,100,272 | authored-artwork | |
-| `vintage-windup-camper--chassis` | 97,240 | authored-artwork | |
+| `vintage-windup-camper--chassis` | 97,240 | authored-artwork | Complete camper (every part; chassis+enamel alone was a beige box) |
+| `vintage-windup-camper--rubber` | 763,128 | authored-artwork | |
 | `vintage-windup-camper--enamel` | 291,320 | authored-artwork | |
+| `vintage-windup-camper--chrome` | 167,640 | authored-artwork | |
+| `vintage-windup-camper--ochre` | 53,368 | authored-artwork | |
+| `vintage-windup-camper--olive` | 154,112 | authored-artwork | |
+| `vintage-windup-camper--roof` | 64,688 | authored-artwork | |
+| `vintage-windup-camper--canvas` | 44,656 | authored-artwork | |
+| `vintage-windup-camper--screen` | 77,328 | authored-artwork | |
+| `vintage-windup-camper--canvas-seam` | 211,256 | authored-artwork | |
+| `vintage-windup-camper--screen-wire` | 133,080 | authored-artwork | |
+| `vintage-windup-camper--step` | 44,656 | authored-artwork | |
+| `vintage-windup-camper--steel` | 134,200 | authored-artwork | |
+| `vintage-windup-camper--canvas-roof` | 50,200 | authored-artwork | |
+| `vintage-windup-camper--red-lens` | 47,544 | authored-artwork | |
+| `vintage-windup-camper--amber-lens` | 47,544 | authored-artwork | |
 | `solar-array-three--panel` | 57,976 | authored-artwork | |
 | `starlink-mini--dish-front` | 61,328 | authored-artwork | |
-| **Sum** | **14,632,064 (~13.96 MiB)** | | **v1 first-paint budget ≤ 15 MiB** |
+| **Sum** | **16,625,464 (~15.85 MiB)** | | **v1 first-paint budget ≤ 17 MiB** |
 
 Authored-only subtotal remains 12,685,072. Enhancement (not first paint): `prototype-eucalyptus-lush-near` (11,470,616) + remaining campsite parts + ecology prototypes. Mobile uses the same **identities** present in `scene-mobile.json` (76 assets) plus the GIS terrain row; omit any authored id missing on mobile.
 

@@ -1,0 +1,52 @@
+{
+  "schema": "webizen.ewm-gis-ingest-job/v1",
+  "id": "ewm-04b-canberra-public-dem",
+  "place_id": "canberra-public-reference",
+  "title": "Bounded public Canberra DEM ingest",
+  "crs": "EPSG:4326",
+  "datum": "WGS84",
+  "bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+  "not_personal_campsite": true,
+  "epistemic_class": "measured-gis",
+  "opt_in": false,
+  "create_only": true,
+  "public_boot_calls_live_adapters": false,
+  "streaming_default": false,
+  "job_is_explicit_action_only": true,
+  "camera_tick_scrape": false,
+  "wasm_ingest_opt_in_allowed": false,
+  "gbif_live_parse": "deferred",
+  "output_dir": "data/ewm/gis/ingest/out/canberra-public-reference",
+  "receipt_name": "ingest-receipt.json",
+  "native_receipt_name": "native-receipt.json",
+  "adapters": [
+    {
+      "id": "DemAdapter",
+      "required": true,
+      "live": false,
+      "role": "required",
+      "native": "qualia_core_db::domains::geospatial::adapters::dem_adapter::DemAdapter",
+      "command": "dem",
+      "note": "Consent-gated data-pack dem job for the public Canberra bbox. Create-only."
+    },
+    {
+      "id": "StacAdapter",
+      "required": false,
+      "live": false,
+      "role": "same-pattern-later",
+      "native": "qualia_core_db::domains::geospatial::adapters::stac_adapter::StacAdapter",
+      "note": "Same NetworkDisclosureRegistry pattern as DemAdapter. Not live in v1."
+    },
+    {
+      "id": "OsmAdapter",
+      "required": false,
+      "live": false,
+      "role": "same-pattern-later",
+      "native": "qualia_core_db::domains::geospatial::adapters::osm_adapter::OsmAdapter",
+      "note": "Same NetworkDisclosureRegistry pattern as DemAdapter. Not live in v1."
+    }
+  ],
+  "homepage_runs_ingest": false,
+  "timeline_json": "never",
+  "git_out_dir": "ignored"
+}

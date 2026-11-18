@@ -1,29 +1,29 @@
 {
   "schema": "webizen.camper-integrity-review/v1",
-  "parts": 169,
-  "triangles": 10488,
+  "parts": 192,
+  "triangles": 11232,
   "exact_native_dxf_correspondence": true,
   "production_strict_replay": true,
   "sealing_strict_replay": true,
   "bounds": {
     "min": [
-      -1.163,
-      0.01105,
-      -2.851
+      -1.151,
+      0.0064,
+      -2.876
     ],
     "max": [
-      1.62,
-      2.72,
-      3.51
+      1.54,
+      2.94,
+      3.48
     ]
   },
   "attachment_points": {
     "starlink_roof_mount": [
       0.7,
-      2.72,
+      2.7,
       -0.65
     ]
   },
-  "native_asset_sha256": "ef94a5253e087db6e4a0a24678cb2ec493dca32c6ff1d9ac37e4a35dc3bd8a9d",
-  "qualification": "Original authored reconstruction of an approximately 1980 Jayco wind-up camper; specific model/serial dimensions not asserted. Deployed canvas sides, raised roof and slide-out beds follow user description."
+  "native_asset_sha256": "06dda9e0a39817c1af0ca0240fb6f8dc026e0db4787eb9ede7e12f1aeccd9b74",
+  "qualification": "Original authored reconstruction of an approximately 1980 Jayco wind-up camper; specific model/serial dimensions not asserted. Silhouette follows Jay Series 1006 and 14SO packed/set-up photographs: thin hard lid, taut white canvas frames, large grey mesh walls, navy hem, shallow barrel-vault bunks, roof air-conditioner, white rims, spare on the rear bumper."
 }

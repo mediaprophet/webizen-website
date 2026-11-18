@@ -383,8 +383,8 @@
           "minimum": 0
         },
         "v1_budget_bytes": {
-          "const": 15728640,
-          "description": "15 MiB whole-entry declared subset. 8 MiB is a later-track inner-range aspiration."
+          "const": 17825792,
+          "description": "17 MiB whole-entry declared subset so the field-studio camper can ship every part. 8 MiB is a later-track inner-range aspiration."
         }
       }
     },

@@ -1,0 +1,674 @@
+{
+  "schema": "webizen.living-world-work-packets/v1",
+  "revision": 1,
+  "date": "2026-11-18",
+  "default_locale": "en-AU",
+  "status": "revision 1; playable camp remainder + place unload over static HTTP Range; EWM v1 and camp P1 are baseline, not in this swarm",
+  "id_series": "LW",
+  "id_collision_policy": "LW-00+ must not reuse A00-A27, N01-N09, or EWM-00+",
+  "related_programmes": [
+    "EWM-00",
+    "EWM-02",
+    "EWM-03",
+    "EWM-04",
+    "EWM-04b",
+    "EWM-08",
+    "A06",
+    "A09"
+  ],
+  "baseline": {
+    "ewm_v1": "HTTP Range whole-entry, Q42VOL v4 scene, catalog 85, four-tuple 24, streaming.default false, compose_window always keeps first_paint",
+    "camp_p1": "macros.rs generic player; Unhitch; travelsHitched/travelsUnhitched; parked freeze; camp-sequence.n3; headed hitch-river and unhitch-river",
+    "camp_q42_sha256": "c8f9c97cf31682375130cbe48b247b7ecc6706c3aed40ae492ca931f0d3f6b32",
+    "wasm_sha256": "04842f736350720a8271e0629be642113017fc6487af577f7cf74e8514532743",
+    "wasm_bytes": 22114849
+  },
+  "repositories": {
+    "webizen-website": "C:/github/webizen-website",
+    "qualiaDB": "C:/github/qualiaDB",
+    "synth": "C:/github/synth"
+  },
+  "max_active_specialists": 3,
+  "integrator_slots": 1,
+  "shared_file_owner": "lw-integrator",
+  "integrator_exclusive_paths": [
+    "webizen-website/native/world-host/src/runtime.rs",
+    "webizen-website/native/world-host/src/runtime/boot.rs",
+    "webizen-website/native/world-host/src/lib.rs",
+    "webizen-website/native/world-host/Cargo.toml"
+  ],
+  "single_file_owners": {
+    "webizen-website/native/world-host/src/runtime/macros.rs": "LW-01",
+    "webizen-website/tooling/ewm_camp_q42.py": "LW-02",
+    "webizen-website/site/world/living-world.vibe": "LW-03",
+    "webizen-website/native/world-host/src/runtime/catalog.rs": "LW-04",
+    "webizen-website/native/world-host/src/runtime/stream/selection.rs": "LW-05",
+    "webizen-website/native/world-host/src/runtime/stream/flag.rs": "EWM-09",
+    "webizen-website/wrangler.jsonc": "EWM-05",
+    "webizen-website/packages/current.json": "EWM-10"
+  },
+  "ewm_handoff": {
+    "stream": "EWM-02 v1 landed. LW-05 inherits selection.rs and may add unload.rs. flag.rs stays EWM-09.",
+    "qualification_tests": "EWM-08 keeps tests/ewm/qualification/**. LW tests live under tests/ewm/living-world/**.",
+    "first_paint_json": "EWM-00 keeps data/ewm/first-paint.json length 24. LW-04 adds place Base beside it, does not shrink the four-tuple.",
+    "gis_ingest": "EWM-04b default-deny stub landed. LW-08 inherits tooling/ewm_ingest.py and data/ewm/gis/ingest/out create-only.",
+    "packages_qbdl": "EWM-03 whole-entry shards. LW-06 adds place members as additional static files, does not rewrite the woodland four-tuple."
+  },
+  "glob_collision_audit": {
+    "tests_ewm": "EWM-08 keeps tests/ewm/qualification/**; EWM-09 keeps tests/ewm/rollback/**; LW-03 owns tests/ewm/living-world/test_awning_split.py; LW-09 owns tests/ewm/living-world/** in wave-3 after LW-03.",
+    "stream": "flag.rs stays EWM-09. LW-05 inherits selection.rs and may add unload.rs. EWM-02 v1 landed.",
+    "first_paint": "EWM-00 keeps data/ewm/first-paint.json length 24. LW-04 must not shrink it.",
+    "packages": "EWM-03 whole-entry shards. EWM-10 owns packages/current.json. LW-06 adds place members as additional static files.",
+    "operator_working": "LW-03 owns working/field-studio-operator/** except skl1; LW-07 owns skl1/** in wave-2.",
+    "wrangler_flag_current": "wrangler.jsonc EWM-05; flag.rs EWM-09; packages/current.json EWM-10; not LW-owned.",
+    "timeline": "Timeline.json never stored. No exact campsite coordinates. No published personal-place identifiers. No inferred-work locality markers."
+  },
+  "scheduling": "Wave graph is authoritative. At most three specialists plus one integrator live. LW-05 is the same specialist as LW-04, sequential after LW-04, not a fourth live slot. Specialists write owned_paths only. Integrator routes parent files then compiles wasm. Production streaming.default stays false. Do not kill world_server 8800 or Synth MCP. Do not rebuild synth target or target-studio. Do not mint camp.rs. Do not call compile_vertebrate_anatomy_10d. Do not commit unless the user asks.",
+  "execution_rules": [
+    "Native Rust/WASM only; generated wasm-bindgen loader; no authored JS scene, camera, scheduler or GIS query",
+    "Generic logic-sequence player only; no per-scene Rust such as camp.rs; no if id == \"car\"",
+    "N3 is the camp producer RDF; triples.json feeds q42_web.exe; visitors never read N3/Turtle",
+    "Synth is the development tool; QualiaPortal + world-host is the visitor runtime",
+    "Operator CAD: loft/extrude/revolve/sweep_assembly_profile/compile_10d_pbr; seal with attest.exe; no compile_vertebrate_anatomy_10d",
+    "inner_ranges stays false; HTTP Range whole-entry on static /packages/ and /production/ and /data/ewm/places/; no streaming server; no QDNF ProtectedSession",
+    "Place unload = omit ids from the new resident list and rebuild GPU via load_scene_assets; do not wait for PR10 unload_scene_parts",
+    "compose_window uses the live place Base, not an immortal global first_paint, once LW-05 lands",
+    "Four-tuple first-paint stays 24 for the field-studio place; catalog may add Enhancement and other-place Base rows",
+    "Wasm served size budget 23.5 MiB; website wasm CARGO_TARGET_DIR=C:\\github\\webizen-website\\target-production-core-wasm; RUSTFLAGS --cfg getrandom_backend=\"wasm_js\"; offline locked -j 1; integrator compiles, specialists do not parallel cargo the host",
+    "Do not kill Synth MCP or python tooling/world_server.py --port 8800",
+    "Do not rebuild synth target or target-studio",
+    "streaming.default stays false; wrangler.jsonc and flag.rs and packages/current.json are not LW-owned",
+    "Timeline.json never copied; no exact campsite coordinates, placeIds, or INFERRED_WORK",
+    "File-disjoint specialists; max 3 live; one rustc into default qualia-core-db target/ at a time"
+  ],
+  "later_track": [
+    "Mechanical hitch as tow/XPBD joint rather than Passat translation",
+    "Live GBIF JSON parse",
+    "inner_ranges / ranged Q42 spine",
+    "QDNF ProtectedSession",
+    "navigator.storage.persist() OPFS durability",
+    "Flora/fauna mass-produced HMC",
+    "Art review gate",
+    "Flipping production streaming.default to true"
+  ],
+  "waves": [
+    {
+      "id": "wave-0",
+      "title": "Programme contract",
+      "live_specialists": 0,
+      "integrator": true,
+      "packets": [
+        "LW-00"
+      ]
+    },
+    {
+      "id": "wave-1",
+      "title": "Camp authored remainder: player, N3 facts, vibe/awning CAD",
+      "live_specialists": 3,
+      "integrator": true,
+      "packets": [
+        "LW-01",
+        "LW-02",
+        "LW-03"
+      ]
+    },
+    {
+      "id": "wave-2",
+      "title": "Place Base catalog, place scene volumes, SKL1 walk; then unload",
+      "live_specialists": 3,
+      "integrator": true,
+      "packets": [
+        "LW-04",
+        "LW-06",
+        "LW-07",
+        "LW-05"
+      ],
+      "note": "LW-05 is the same specialist as LW-04, sequential after LW-04. Live specialist count remains 3."
+    },
+    {
+      "id": "wave-3",
+      "title": "Opt-in GIS second place, headed evidence",
+      "live_specialists": 2,
+      "integrator": true,
+      "packets": [
+        "LW-08",
+        "LW-09"
+      ]
+    },
+    {
+      "id": "wave-4",
+      "title": "Closeout",
+      "live_specialists": 0,
+      "integrator": true,
+      "packets": [
+        "LW-10"
+      ]
+    }
+  ],
+  "packets": [
+    {
+      "id": "LW-00",
+      "title": "Living-world playable contract and file ownership",
+      "role": "lw-integrator",
+      "status": "verified 2026-11-18; no runtime change",
+      "dependencies": [],
+      "estimated_sequencing": {
+        "wave": "wave-0",
+        "order": 0,
+        "parallel_with": []
+      },
+      "owned_paths": [
+        "webizen-website/plans/living-world/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/plans/ewm/**",
+        "webizen-website/plans/aaa-overhaul/**"
+      ],
+      "integrator_routes": [],
+      "deliverables": [
+        "plans/living-world/LIVING-WORLD-PLAYABLE.md",
+        "plans/living-world/work-packets.json schema webizen.living-world-work-packets/v1",
+        "plans/living-world/file-ownership.json",
+        "Wave graph, owned_paths, EWM handoff, later-track"
+      ],
+      "acceptance": [
+        "Design names P1 unhitch as done and lists WASD, SKL1 walk, awning pack, re-hitch, place unload",
+        "Id series LW does not collide with A/N/EWM",
+        "streaming.default remains false in the contract",
+        "No Timeline.json, placeIds, or INFERRED_WORK",
+        "No runtime behaviour change required for this packet"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-00",
+      "handoff": [
+        "packet JSON path",
+        "design path",
+        "wave graph"
+      ]
+    },
+    {
+      "id": "LW-01",
+      "title": "Generic player: continuous unhitched steer, hitch proximity, walk-stage hooks",
+      "role": "logic-player",
+      "status": "planned",
+      "dependencies": [
+        "LW-00"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 1,
+        "parallel_with": [
+          "LW-02",
+          "LW-03"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/macros.rs",
+        "webizen-website/native/world-host/src/runtime/locomotion.rs"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/ui.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ],
+      "integrator_route_scope": {
+        "runtime.rs": "mod locomotion; tick calls locomotion then macros::tick; do not rewrite macros",
+        "ui.rs": "one-line keydown/keyup into locomotion; keep native-camp-controls as generic action buttons",
+        "boot.rs": "no sequence hardcoding"
+      },
+      "deliverables": [
+        "NEW locomotion.rs: unhitched groups accept continuous steer (Arrow/WASD after canvas focus) that accumulates into travel offset. Hitched travel stays named-place spring lerp.",
+        "Hitch/unhitch proximity: permit hitch (pack_up car stage / hitch pose 1) only when gate group parked is within an authored radius of chassis parked. Radius from Q42 (hitchRadiusM), default 4 m. No if id == car.",
+        "Walk-stage hook: stages may name a clip (clipId) that locomotion/player forwards to portal SKL1 when present; missing clip still plays translation goal. Do not mint camp.rs.",
+        "Travel message stays Q42/Vibe; player does not hardcode copy.",
+        "Player stack budgets may grow for a good product (groups 16, stages 32, norms 16, actions 8). Keep stack arrays. Wasm 23.5 MiB may be raised at closeout if measured necessary; do not guess."
+      ],
+      "acceptance": [
+        "macros.rs still has no if id == \"car\" and runtime.rs still has no camp.rs",
+        "Unhitched steer does not move travelsUnhitched false groups",
+        "Hitched named-place travel still moves travelsHitched groups (P1 regression)",
+        "Hitch while car parked far from chassis is refused by deontic/proximity, not a special case id",
+        "locomotion.rs is the only new module; specialists do not cargo-build wasm"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-01",
+      "handoff": [
+        "API: steer, hitch_radius, clipId stage field",
+        "limitations"
+      ]
+    },
+    {
+      "id": "LW-02",
+      "title": "Camp N3: awning group, walk-pack stages, hitch radius, dual travel copy",
+      "role": "camp-n3",
+      "status": "planned",
+      "dependencies": [
+        "LW-00"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 1,
+        "parallel_with": [
+          "LW-01",
+          "LW-03"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/tooling/ewm_camp_q42.py",
+        "webizen-website/data/ewm/camp.q42",
+        "webizen-website/data/ewm/camp-sequence.n3",
+        "webizen-website/data/ewm/camp-sequence.ttl",
+        "webizen-website/data/ewm/camp-triples.json",
+        "webizen-website/data/ewm/camp-*.q42"
+      ],
+      "integrator_routes": [],
+      "deliverables": [
+        "N3 remains the authored dump with @prefix; rebuild camp.q42 via q42_web.exe from triples.json",
+        "Awning group prefixes for the split organ (id awning); travelsHitched true, travelsUnhitched false; pack_up/set_up stages stow/deploy awning in the Allen Meets chain (goal 1 pack, 0 set up)",
+        "Walk-pack stages targeting operator with clipId names (walk_to_panels, walk_to_hitch) that LW-01/LW-07 can play; if SKL1 absent they are no-op translations of 0",
+        "hitchRadiusM on the sequence; permit-hitch-when-near as requiresHitch plus radius, still q42:unless of a forbid-hitch-when-far if needed",
+        "travelMessageHitched and travelMessageUnhitched (or Vibe overlay labels)",
+        "Keep gateGroup car, travelAction urn:webizen:camp:travel, Unhitch, P1 dual travel flags"
+      ],
+      "acceptance": [
+        "camp-sequence.n3 has @prefix, unhitch, travelsHitched, travelsUnhitched, hitchRadiusM, awning group",
+        "q42_web inspect quin count matches triples",
+        "MAX budgets in macros.rs still fit (coordinate with LW-01 if counts exceed 8/8/8/4)",
+        "Four-tuple first-paint stays 24; awning is Enhancement or a split of desk, not a 25th first-paint identity unless catalog is updated by LW-04",
+        "No Timeline leak"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-02",
+      "handoff": [
+        "camp.q42 sha256",
+        "quin count",
+        "group/stage/norm lists"
+      ]
+    },
+    {
+      "id": "LW-03",
+      "title": "Vibe rig + split sail-track awning organ",
+      "role": "camp-vibe-cad",
+      "status": "planned",
+      "dependencies": [
+        "LW-00"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-1",
+        "order": 1,
+        "parallel_with": [
+          "LW-01",
+          "LW-02"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/site/world/living-world.vibe",
+        "webizen-website/production/native-world/recipes/field-studio-operator.vibe",
+        "webizen-website/production/native-world/working/field-studio-operator/**",
+        "webizen-website/tests/ewm/living-world/test_awning_split.py"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/tests/ewm/qualification/**",
+        "webizen-website/tests/ewm/rollback/**",
+        "webizen-website/production/native-world/working/field-studio-operator/skl1/**"
+      ],
+      "integrator_routes": [
+        "webizen-website/production/native-world/assets/field-studio-operator-*.10d"
+      ],
+      "integrator_route_scope": "Copy attested awning/desk .10d into assets only after sha256 match; do not produce from integrator. Catalog pin is LW-04.",
+      "deliverables": [
+        "camp_rig() gains awning group prefixes, hitch_radius_m, travels flags matching N3, Unhitch label already present",
+        "Split sail-track awning out of the desk mesh into field-studio-operator-awning (CAD loft, same ground Y, desk-local). Desk .10d no longer contains the awning.",
+        "Synth produce --profile files --quality-profile production16 from C:/github/synth target-prod. Attest with production/native-world/provenance/attest.exe. Do not call compile_vertebrate_anatomy_10d. Do not rebuild synth target or target-studio.",
+        "tests/ewm/living-world/test_awning_split.py: desk mesh no longer the only awning carrier; vibe prefixes include awning id; no camp.rs"
+      ],
+      "acceptance": [
+        "living-world.vibe camp_rig lists awning and dual travel flags",
+        "Attested awning .10d exists with provenance; desk .10d regenerated without the sail",
+        "No compile_vertebrate_anatomy_10d in the recipe",
+        "tests/ewm/run.py still collects tests/ewm/** including living-world; do not break EWM-08 qualification tests",
+        "Wasm not built by this specialist"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-03",
+      "handoff": [
+        "awning sha256",
+        "desk sha256",
+        "produce run path"
+      ]
+    },
+    {
+      "id": "LW-04",
+      "title": "Per-place Base in the EWM catalog",
+      "role": "place-catalog",
+      "status": "planned",
+      "dependencies": [
+        "LW-00"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 1,
+        "parallel_with": [
+          "LW-06",
+          "LW-07"
+        ],
+        "then_same_specialist": "LW-05"
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/catalog.rs",
+        "webizen-website/tooling/ewm_catalog_q42.py",
+        "webizen-website/data/ewm/catalog.q42",
+        "webizen-website/data/ewm/catalog.ttl",
+        "webizen-website/data/ewm/place-index.json",
+        "webizen-website/schemas/ewm/place-base.json"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/first-paint.json"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ],
+      "integrator_route_scope": "Receipt exposes live_place_base ids; do not change first_paint length 24 assert without LW-05 window change.",
+      "deliverables": [
+        "place-index.json: each PublicPlace has base[] asset ids. field-studio base == current first_paint 24. river/canopy/commons/atelier have their own Base (terrain + place-local organs, not the whole camper unless that place includes it).",
+        "catalog.q42 Place has placeBase / hasBaseAsset. Host catalog.rs decodes per-place Base. first_paint.len()==24 remains the field-studio boot list.",
+        "Awning organ from LW-03 is Enhancement (or field-studio Enhancement), not a 25th four-tuple member.",
+        "Schema snippet schemas/ewm/place-base.json. inner_ranges stays false. streaming.default stays false."
+      ],
+      "acceptance": [
+        "data/ewm/first-paint.json untouched and still length 24",
+        "catalog decode still requires woodland first_paint 24 for boot",
+        "place-index lists at least field-studio, river, canopy, commons",
+        "No Timeline / placeId / INFERRED_WORK"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-04",
+      "handoff": [
+        "place-index",
+        "catalog.q42 sha256",
+        "base id lists"
+      ]
+    },
+    {
+      "id": "LW-05",
+      "title": "Unload resident set on place change (static HTTP Range)",
+      "role": "place-catalog",
+      "status": "planned",
+      "dependencies": [
+        "LW-04",
+        "LW-06"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 2,
+        "parallel_with": [],
+        "same_specialist_as": "LW-04",
+        "note": "Sequential after LW-04. Not a fourth live specialist. Needs LW-06 place volumes on disk."
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime/stream/selection.rs",
+        "webizen-website/native/world-host/src/runtime/stream/unload.rs"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/native/world-host/src/runtime/stream/flag.rs"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ],
+      "integrator_route_scope": {
+        "runtime.rs": "select_place / take_ewm_tile_job uses compose_window(place_base) then load_scene_assets rebuild; abort prior Range fetch",
+        "boot.rs": "mod path for unload if needed; streaming.default false"
+      },
+      "deliverables": [
+        "compose_window(catalog, place_id, camera): start from that place's Base, then overlapping Enhancement for that place, cap 64. Do not always insert global first_paint once a live place is selected.",
+        "NEW unload.rs: omitted ids leave the resident GPU set on rebuild. Document as v1 omit-and-rebuild, not PR10 unload_scene_parts.",
+        "On select_place: abort in-flight Range, compose new window, FetchRangeService whole-entry GET of missing static members under /packages/ or /production/ or /data/ewm/places/, admit, load_scene_assets.",
+        "Field-studio still boots from first_paint 24. Travelling to river may drop camper organs if river Base does not include them, and fetch river members.",
+        "No streaming server. No authored JS scheduler. flag.rs untouched. streaming.default false."
+      ],
+      "acceptance": [
+        "selection.rs no longer comments that first-paint always stays in the window as an invariant for every place",
+        "Headed or unit test: compose_window('river') omits at least one vintage-windup-camper id that field-studio Base includes, unless river Base explicitly keeps it",
+        "Fetch uses existing FetchRangeService; website does not reimplement bytes_range",
+        "flag.rs and packages/current.json untouched",
+        "Specialist does not cargo-build wasm (integrator does)"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-05",
+      "handoff": [
+        "compose_window signature",
+        "omit-and-rebuild note",
+        "wasm left to integrator"
+      ]
+    },
+    {
+      "id": "LW-06",
+      "title": "Per-place static scene Q42 volumes",
+      "role": "place-volumes",
+      "status": "planned",
+      "dependencies": [
+        "LW-00"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 1,
+        "parallel_with": [
+          "LW-04",
+          "LW-07"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/tooling/ewm_place_q42.py",
+        "webizen-website/data/ewm/places/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/place-index.json",
+        "webizen-website/production/lush-woodland/scene.q42",
+        "webizen-website/data/ewm/first-paint.json"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime/boot.rs"
+      ],
+      "integrator_route_scope": "On select_place, admit the place Q42 if hasSceneVolume / hasLogicVolume differ from woodland; one-line fetch hook only.",
+      "deliverables": [
+        "tooling/ewm_place_q42.py writes data/ewm/places/<id>.q42 (and .n3) for river, canopy, commons, field-studio. Static files. HTTP Range whole volume bytes(), 16 MiB cap.",
+        "Each volume: PublicPlace, hasAsset subset, optional hasLogicVolume. Field-studio may point at /data/ewm/camp.q42. Other places may omit camp logic.",
+        "Reuse existing woodland .10d identities; do not duplicate bytes. Place Q42 names URLs already under /production/ or /packages/by-sha256/.",
+        "Visitors never read N3. No Timeline."
+      ],
+      "acceptance": [
+        "At least river and field-studio Q42VOL v4 files exist and inspect",
+        "No copy of Timeline.json",
+        "scene.q42 woodland producer not rewritten except by integrator hook",
+        "Files are static; no new server process"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-06",
+      "handoff": [
+        "place q42 sha256 list",
+        "asset URL reuse"
+      ]
+    },
+    {
+      "id": "LW-07",
+      "title": "Operator SKL1 walk clips for pack-up stages",
+      "role": "operator-skl1",
+      "status": "planned",
+      "dependencies": [
+        "LW-00"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-2",
+        "order": 1,
+        "parallel_with": [
+          "LW-04",
+          "LW-06"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/production/native-world/working/field-studio-operator/skl1/**",
+        "webizen-website/tooling/ewm_operator_skl1.py"
+      ],
+      "integrator_routes": [
+        "webizen-website/production/native-world/assets/field-studio-operator-opt.10d"
+      ],
+      "integrator_route_scope": "Replace attested operator-opt .10d only after SKL1 section verifies; hash-compare; pin catalog via LW-04 if sha changes. Four-tuple stays 24 (operator is Enhancement).",
+      "deliverables": [
+        "Attach SKL1 named clips walk_to_panels and walk_to_hitch on the operator-opt .10d using QualiaDB container_10d skeletal attach. Motor clips only; no compile_vertebrate_anatomy_10d.",
+        "tooling/ewm_operator_skl1.py: read attested opt, attach SKL1, write working copy, attest.",
+        "Player clipId from LW-01/LW-02 plays these names when the section exists.",
+        "If a reduced-motion flag is set, skip clips and keep translation stages."
+      ],
+      "acceptance": [
+        "operator-opt .10d has a SKL1 section readable by qualia_core_db skeletal read",
+        "No compile_vertebrate_anatomy_10d",
+        "Enhancement identity, not first-paint 24",
+        "No wasm rebuild by this specialist"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-07",
+      "handoff": [
+        "opt sha256",
+        "clip names"
+      ]
+    },
+    {
+      "id": "LW-08",
+      "title": "Opt-in GIS members for a second public place",
+      "role": "gis-ingest",
+      "status": "planned",
+      "dependencies": [
+        "LW-04"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-3",
+        "order": 1,
+        "parallel_with": [
+          "LW-09"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/tooling/ewm_ingest.py",
+        "webizen-website/data/ewm/gis/ingest/**",
+        "webizen-website/native/world-host/src/runtime/gis_ingest.rs"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/data/ewm/gis/places/**"
+      ],
+      "integrator_routes": [
+        "webizen-website/native/world-host/src/runtime.rs"
+      ],
+      "integrator_route_scope": "Public boot still does not call live adapters. Receipt may list ingest_opt_in false.",
+      "deliverables": [
+        "Native ingest job with --opt-in produces create-only members under data/ewm/gis/ingest/out/ for one additional public place (OSM extract or DEM/STAC, consent-gated).",
+        "Packed members are static files Range-able. Catalog rows epistemic_class measured-gis. Live GBIF parse stays deferred.",
+        "wasm_ingest_opt_in_allowed remains false. job.json opt_in default false.",
+        "No Timeline, no private campsite pin."
+      ],
+      "acceptance": [
+        "python tooling/ewm_ingest.py without --opt-in still refuses",
+        "gbif_live_parse remains deferred",
+        "At least one create-only measured member with sha256 when --opt-in is documented; do not fetch live hosts in CI without consent fixture",
+        "Public boot path unchanged"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-08",
+      "handoff": [
+        "ingest out paths",
+        "consent notes"
+      ]
+    },
+    {
+      "id": "LW-09",
+      "title": "Headed evidence and living-world tests",
+      "role": "evidence",
+      "status": "planned",
+      "dependencies": [
+        "LW-01",
+        "LW-02",
+        "LW-03",
+        "LW-05"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-3",
+        "order": 1,
+        "parallel_with": [
+          "LW-08"
+        ]
+      },
+      "owned_paths": [
+        "webizen-website/tests/ewm/living-world/**",
+        "webizen-website/evidence/ewm/living-world/**"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/tests/ewm/qualification/**",
+        "webizen-website/tests/ewm/rollback/**",
+        "webizen-website/evidence/ewm/qualification.json"
+      ],
+      "integrator_routes": [],
+      "deliverables": [
+        "tests/ewm/living-world: unhitch P1 regression, hitch proximity refuse, compose_window river omits camper unless Base keeps it, N3 @prefix, no camp.rs",
+        "Headed ?ewm=1 on 127.0.0.1:8800 (do not kill the server): Pack up → river (whole set); Pack up → Unhitch → river (car only); place change unloads camper if river Base omits it; optional WASD nudge while unhitched.",
+        "Evidence PNGs under evidence/ewm/living-world/. Wasm sha recorded, budget 23.5 MiB.",
+        "python tests/ewm/run.py still green (qualification + living-world)."
+      ],
+      "acceptance": [
+        "ran living-world tests plus existing EWM tests, failed=0",
+        "Evidence images exist for hitch-river, unhitch-river, and at least one place-unload still",
+        "Does not flip streaming.default",
+        "Does not claim art acceptance"
+      ],
+      "reviewer": "Independent specialist",
+      "branch": "codex/lw-09",
+      "handoff": [
+        "test counts",
+        "wasm sha",
+        "screenshot paths"
+      ]
+    },
+    {
+      "id": "LW-10",
+      "title": "Integrator closeout",
+      "role": "lw-integrator",
+      "status": "planned",
+      "dependencies": [
+        "LW-05",
+        "LW-09"
+      ],
+      "estimated_sequencing": {
+        "wave": "wave-4",
+        "order": 1,
+        "parallel_with": []
+      },
+      "owned_paths": [
+        "webizen-website/native/world-host/src/runtime.rs",
+        "webizen-website/native/world-host/src/runtime/boot.rs",
+        "webizen-website/native/world-host/Cargo.toml",
+        "webizen-website/tooling/native-host/receipt.py"
+      ],
+      "owned_paths_exclude": [
+        "webizen-website/packages/current.json"
+      ],
+      "deliverables": [
+        "Wasm rebuild once: CARGO_TARGET_DIR target-production-core-wasm, wasm32-unknown-unknown release offline locked, bindgen 0.2.129, receipt.py. Budget 23.5 MiB.",
+        "Residual register: tow physics, SKL1 quality, GIS opt-in, streaming.default still false.",
+        "Do not kill 8800. Do not rebuild synth targets. Do not commit unless the user asks."
+      ],
+      "acceptance": [
+        "Served wasm measured; keep under 23.5 MiB unless a good product requires a documented raise",
+        "streaming.default false",
+        "Whole-file lush-woodland flag-off still fails closed",
+        "P1 unhitch still headed-true",
+        "No art-complete claim"
+      ],
+      "reviewer": "Independent specialist plus user",
+      "branch": "codex/lw-10",
+      "handoff": [
+        "wasm bytes/sha256",
+        "limitations"
+      ]
+    }
+  ],
+  "camp_q42_sha256": "f2b6ad85851e0175c03278626765cafc3b70fda27216f3a1cd2ad53fcd4e2e05"
+}

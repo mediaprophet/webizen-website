@@ -45,7 +45,7 @@ pure fn scene_positions() -> List {
         view("atelier", 20.0, -7.0, 10.0, 5.0, 11.0),
         view("observatory", -15.0, -32.0, 11.0, 7.0, 13.0),
         view("biology", 17.0, -37.0, 9.0, 5.0, 10.0),
-        view("field-studio", -22.0, 28.0, 11.0, 3.3, 15.0)
+        view("field-studio", -22.0, 28.0, -10.0, 3.409078311, 16.0)
     ];
 }
 
@@ -55,8 +55,18 @@ pure fn world_settings() -> Record {
         marker_height: 3.0,
         marker_sigma: 0.42,
         marker_alpha: 1.0,
+        markers_visible: false,
         sky_preset: 1,
-        sun: [-0.5, 0.8, 0.35, 2.2, 0.45],
+        environment_fallback: [0.0, 0.0, 0.0],
+        // Authored skylight probes, not measured environmental observations.
+        // Native IBL multiplies diffuse irradiance by the material albedo.
+        environment_probes: [
+            [0.0,30.0,0.0,260.0, 0.90,1.05,1.125, 0.18,0.23,0.26, 0.16,0.21,0.23, 0.14,0.18,0.19, 0.12,0.15,0.15, 0.09,0.12,0.11, 0.0,1.0,0.0],
+            [-45.0,12.0,40.0,180.0, 0.70,0.775,0.59, 0.11,0.13,0.09, 0.10,0.12,0.08, 0.09,0.11,0.07, 0.08,0.10,0.06, 0.07,0.08,0.05, 0.7,0.5,-0.4],
+            [45.0,16.0,-25.0,200.0, 0.575,0.725,0.825, 0.11,0.15,0.18, 0.10,0.14,0.17, 0.09,0.13,0.15, 0.08,0.11,0.13, 0.07,0.09,0.11, -0.7,0.5,0.4]
+        ],
+        exposure_ev: 0.0,
+        sun: [-0.55, 0.7, 0.35, 1.7, 0.20],
         camera: {yaw: 0.63275, pitch: 0.17555, zoom: 18.8915, target: [-22.0, 5.490921689, 28.0]},
         water: {colour: [0.055, 0.24, 0.25, 0.88], amplitude: 0.035, frequency: 1.4, quality: 1},
         max_dpr: 1.5
@@ -68,6 +78,12 @@ pure fn select_place(places: List, id: String) budget(steps: 10000) -> Record {
         if place.id == id { return place; }
     }
     return {id: ""};
+}
+
+pure fn fit_view(camera: Record, aspect: f64) -> Record {
+    let factor = math.max(1.0, 0.9 / math.max(0.25, aspect));
+    return {yaw: camera.yaw, pitch: camera.pitch,
+        zoom: clamp(camera.zoom * factor, 3.0, 150.0), target: camera.target};
 }
 
 pure fn input_camera(camera: Record, event: Record) -> Record {
@@ -128,6 +144,37 @@ pure fn observer_path(places: List, edges: List, purpose: String) budget(steps: 
         if !contains_id(route, place.id) { route = route.push(place.id); }
     }
     return route;
+}
+
+// Spatial rig overlay for the field-studio sequence. Named by camp.q42
+// `rigFunction`. Logic (Allen Meets, deontic PERMIT/FORBID, holographic
+// presets) lives in the Q42 volume. The host evaluates this once on load;
+// the frame loop never re-evals Vibe. Changing this function or camp.q42
+// must not require a host rebuild.
+pure fn camp_rig() -> Record {
+    return {
+        origin: [-21.0, 4.4909216892549235, 28.0],
+        preset_family: "physical_dynamics",
+        preset: "spring_settle",
+        hitch_radius_m: 4.0,
+        groups: [
+            {id: "panels-three", prefixes: "solar-array-three", delta: [0.2, 0.38, -4.55], scale: [0.36, 1.0, 1.0], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "panels-two", prefixes: "solar-array-two", delta: [-3.4, 0.38, -4.3], scale: [0.52, 1.0, 1.0], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "sides", prefixes: "vintage-windup-camper--canvas,vintage-windup-camper--screen,vintage-windup-camper--canvas-seam,vintage-windup-camper--screen-wire,vintage-windup-camper--canvas-roof", delta: [0.0, -1.18, 0.0], scale: [1.0, 1.0, 0.48], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "roof", prefixes: "vintage-windup-camper--roof", delta: [0.0, -1.24, 0.0], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "chassis", prefixes: "vintage-windup-camper--", delta: [0.0, 0.0, 0.0], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "car", prefixes: "car-passat-b7", delta: [-2.35, 0.0, 1.15], travels: true, travels_hitched: true, travels_unhitched: true},
+            {id: "starlink", prefixes: "starlink-mini", delta: [-0.7, -2.4, 0.65], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "operator", prefixes: "field-studio-operator-opt,field-studio-operator-shirt,field-studio-operator-shorts,field-studio-operator-hair", origin: [-19.35, 4.4909216892549235, 26.55], delta: [0.0, 0.0, 0.0], travels: true, travels_hitched: true, travels_unhitched: true},
+            {id: "desk", prefixes: "field-studio-operator-desk,field-studio-operator-laptop", origin: [-19.35, 4.4909216892549235, 27.12], delta: [0.0, 0.0, 0.0], travels: true, travels_hitched: true, travels_unhitched: false},
+            {id: "awning", prefixes: "field-studio-operator-awning", origin: [-19.35, 4.4909216892549235, 27.12], delta: [-2.2, 0.0, 0.0], travels: true, travels_hitched: true, travels_unhitched: false}
+        ],
+        actions: [
+            {id: "pack_up", label: "Pack up"},
+            {id: "set_up", label: "Set up here"},
+            {id: "unhitch", label: "Unhitch"}
+        ]
+    };
 }
 
 pure fn chapter_settings(chapters: List, id: String) budget(steps: 10000) -> Record {

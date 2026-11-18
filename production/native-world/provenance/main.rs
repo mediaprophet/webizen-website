@@ -5,11 +5,13 @@ use qualia_core_db::render::portal_load_10d::decode_load_10d;
 use std::{fs,env};
 const RIGHTS:&str="User-commissioned artwork for the Webizen website project; local preview and inclusion in this project authorised by the project owner. No general reuse licence or third-party endorsement asserted.";
 fn main(){
- let a:Vec<String>=env::args().collect(); assert_eq!(a.len(),4,"input.10d source.glb output.10d");
+ let a:Vec<String>=env::args().collect();
+ assert!(a.len()==4||a.len()==5,"input.10d source output.10d [media_type]");
+ let media=if a.len()==5 {a[4].as_str()} else {"model/gltf-binary"};
  let mut original=fs::read(&a[1]).unwrap(); verify_whole_file_crc32c(&mut original).unwrap();
  let source=fs::read(&a[2]).unwrap(); let h=Container10dHeader::parse(&original).unwrap();let ds=parse_section_table(&original,&h).unwrap();
  assert!(!ds.iter().any(|d|d.typ()==Some(SectionType::ProvenanceSidecar)),"Already attested; original input required");
- let sidecar=ProvenanceSidecar::new(source.clone(),"model/gltf-binary",RIGHTS);
+ let sidecar=ProvenanceSidecar::new(source.clone(),media,RIGHTS);
  let mut payload=vec![0;encoded_len(&sidecar)];encode_provenance_section(&sidecar,&mut payload).unwrap();validate_provenance(&decode_provenance_section(&payload).unwrap()).unwrap();
  let mut inputs:Vec<SectionInput>=ds.iter().map(|d|SectionInput{section_type:d.typ().unwrap(),alignment_tier:d.tier().unwrap(),stride:d.stride,element_count:d.element_count,payload:&original[d.byte_offset as usize..(d.byte_offset+d.byte_length) as usize]}).collect();
  inputs.push(SectionInput{section_type:SectionType::ProvenanceSidecar,alignment_tier:AlignmentTier::CacheLine,stride:0,element_count:0,payload:&payload});
@@ -19,6 +21,6 @@ fn main(){
  for old in ds {let new=ds2.iter().find(|d|d.section_type==old.section_type).unwrap();assert_eq!(old.stride,new.stride);assert_eq!(old.element_count,new.element_count);assert_eq!(&original[old.byte_offset as usize..(old.byte_offset+old.byte_length) as usize],&out[new.byte_offset as usize..(new.byte_offset+new.byte_length) as usize]);}
  let pd=ds2.iter().find(|d|d.typ()==Some(SectionType::ProvenanceSidecar)).unwrap();let view=decode_provenance_section(&out[pd.byte_offset as usize..(pd.byte_offset+pd.byte_length) as usize]).unwrap();validate_provenance(&view).unwrap();assert_eq!(view.source_bytes(),source.as_slice());
  let gpu=decode_load_10d(&out).unwrap();assert!(!gpu.governance_refused);fs::write(&a[3],&out).unwrap();
- println!("{{\"passed\":true,\"original_sections_unchanged\":true,\"header_flags_preserved\":true,\"native_governance_refused\":false,\"vertices\":{},\"triangles\":{},\"bytes\":{},\"source_bytes\":{}}}",gpu.vertex_count,gpu.triangle_count,out.len(),source.len());
+ println!("{{\"passed\":true,\"original_sections_unchanged\":true,\"header_flags_preserved\":true,\"native_governance_refused\":false,\"vertices\":{},\"triangles\":{},\"bytes\":{},\"source_bytes\":{},\"source_media_type\":\"{}\"}}",gpu.vertex_count,gpu.triangle_count,out.len(),source.len(),media);
 }
 

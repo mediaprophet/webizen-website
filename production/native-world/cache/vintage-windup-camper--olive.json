@@ -1,45 +1,45 @@
 {
-  "key": "514dc46d243e85e550e78e88e0c990f36523f7b3b469b8c3402222dcc3a4c03b",
+  "key": "d9805e2a3ae539a9f4988e3f5dcd79242c03360f959f82dce357abbe32853d92",
   "id": "vintage-windup-camper--olive",
   "native": {
-    "bytes": 119360,
+    "bytes": 107608,
     "key": "vintage-windup-camper--olive.10d",
     "kind": "10d",
-    "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-f611887bc64d\\vintage-windup-camper--olive.10d",
-    "sha256": "51089c0b0defce75b663eba29860bc1c91f2014acf1c003d984aeb4ea348c71c",
-    "url": "/artifacts/world-vintage-windup-camper--olive-f611887bc64d/vintage-windup-camper--olive.10d"
+    "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-8de8007b9be1\\vintage-windup-camper--olive.10d",
+    "sha256": "b5e61a4d0c5c2483a8cc6c44125e8ceefe944339025bb8d8d66be5d54040a2ba",
+    "url": "/artifacts/world-vintage-windup-camper--olive-8de8007b9be1/vintage-windup-camper--olive.10d"
   },
   "production": {
     "antigravity_embed_hint": null,
-    "document_digest": "dc96e2f749a62254cf7343b1a2ac5222ae3da6344598b56c013fd269de1ffccc",
-    "package_sha256": "8a9417cc26744cd6e0ee1d12ea4c1a5e7bc4e30c40523dc0a31321f7d4e75080",
+    "document_digest": "a66cda9c717a4ff8ee89ebf799b109e1d70c1f95e37a86cc3c0690098e5b368c",
+    "package_sha256": "a6e837d68b9d2ef86e4cab5afdba8e853020214017f2e581d8bedb05a147a19f",
     "presentation_html": null,
     "producer": "files",
     "producer_version": "2",
     "receipt": {
       "binary": {
         "path": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
-        "sha256": "62095c5c1c126bfade382c1251a6293be9c87b41abb88902dedc834ff742618e",
+        "sha256": "e1d2e3881c31bff67ae5579d215eda37130f560526d53cdf140da466809893b7",
         "version": "0.1.0"
       },
       "catalog": {
         "count": 150,
-        "sha256": "a7bf6c1b7cb15ccd58358caf3516c1a332d58a8c675cb2612dc35eb7641d414e"
+        "sha256": "57e0bf32ca98f8be58c79531c9128e4a5f92e8d88d3aa2d6b182873337645132"
       },
       "execution_host": "synth.production",
       "handle_lifetime": "one source evaluation; only encoded resources in this receipt are durable",
       "hmc": {
-        "bytes": 154952,
-        "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-f611887bc64d.hmc",
-        "sha256": "8a9417cc26744cd6e0ee1d12ea4c1a5e7bc4e30c40523dc0a31321f7d4e75080"
+        "bytes": 135181,
+        "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-8de8007b9be1.hmc",
+        "sha256": "a6e837d68b9d2ef86e4cab5afdba8e853020214017f2e581d8bedb05a147a19f"
       },
       "inputs": [
         {
-          "bytes": 34344,
+          "bytes": 26304,
           "key": "world.glb",
           "kind": "glb",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\inputs\\vintage-windup-camper--olive.glb",
-          "sha256": "17e062678f99130f2e0c3b119e850652c14e07b8e5c365c4997c7318e467d8f0"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\inputs\\vintage-windup-camper--olive.glb",
+          "sha256": "b8c1f9f13f9666a1544bd908cabd2a8f329d22ea2eb4197099e2808e207837b0"
         }
       ],
       "limits": {
@@ -52,7 +52,7 @@
         "evaluation_workspace_bytes": 44040192,
         "package_bytes": 335544320,
         "resource_bytes": 67108864,
-        "source_available_bytes": 2096883,
+        "source_available_bytes": 2096946,
         "source_bytes": 539,
         "source_reservation_bytes": 68992,
         "source_reservation_kind": "conservative logical estimate, not an allocator bound",
@@ -70,40 +70,40 @@
       "requested_reviews": [],
       "resources": [
         {
-          "bytes": 119360,
+          "bytes": 107608,
           "key": "vintage-windup-camper--olive.10d",
           "kind": "10d",
-          "path": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-f611887bc64d\\vintage-windup-camper--olive.10d",
-          "sha256": "51089c0b0defce75b663eba29860bc1c91f2014acf1c003d984aeb4ea348c71c",
-          "url": "/artifacts/world-vintage-windup-camper--olive-f611887bc64d/vintage-windup-camper--olive.10d"
+          "path": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-8de8007b9be1\\vintage-windup-camper--olive.10d",
+          "sha256": "b5e61a4d0c5c2483a8cc6c44125e8ceefe944339025bb8d8d66be5d54040a2ba",
+          "url": "/artifacts/world-vintage-windup-camper--olive-8de8007b9be1/vintage-windup-camper--olive.10d"
         }
       ],
       "review_status": "not_requested",
       "schema": "synth.production-receipt/v1",
-      "source_sha256": "2beab1727b12b55510e16c31967a0233772b707c0ace1939f08f3ab9d669e41a",
+      "source_sha256": "b3c61c9dafc52073607d70f91a46ed3e2b896821a1cbe0de00f7bf9d197d7a64",
       "strict_replay_verified": true,
       "visual_acceptance": "pending inspection"
     },
     "resources": [
       {
-        "bytes": 119360,
+        "bytes": 107608,
         "key": "vintage-windup-camper--olive.10d",
         "kind": "10d",
         "modality": "spatial",
-        "sha256": "51089c0b0defce75b663eba29860bc1c91f2014acf1c003d984aeb4ea348c71c"
+        "sha256": "b5e61a4d0c5c2483a8cc6c44125e8ceefe944339025bb8d8d66be5d54040a2ba"
       }
     ],
     "revision": 1,
-    "saved_hmc": "\\\\?\\C:\\github\\synth\\production\\webizen-swarm\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-f611887bc64d.hmc",
+    "saved_hmc": "\\\\?\\C:\\github\\webizen-website\\production\\native-world\\artifacts\\world-vintage-windup-camper--olive-8de8007b9be1.hmc",
     "schema": "synth.presentation-html/v1",
     "strict_replay_verified": true,
-    "package_url": "/artifacts/world-vintage-windup-camper--olive-f611887bc64d.hmc",
-    "receipt_url": "/artifacts/world-vintage-windup-camper--olive-f611887bc64d.json"
+    "package_url": "/artifacts/world-vintage-windup-camper--olive-8de8007b9be1.hmc",
+    "receipt_url": "/artifacts/world-vintage-windup-camper--olive-8de8007b9be1.json"
   },
-  "vertices": 362,
-  "triangles": 616,
+  "vertices": 324,
+  "triangles": 592,
   "instances": 1,
-  "material": 23,
+  "material": 19,
   "url": "/production/native-world/assets/vintage-windup-camper--olive.10d",
   "colour": [
     1,
@@ -111,8 +111,8 @@
     1,
     1
   ],
-  "sha256": "51089c0b0defce75b663eba29860bc1c91f2014acf1c003d984aeb4ea348c71c",
-  "bytes": 119360,
+  "sha256": "b5e61a4d0c5c2483a8cc6c44125e8ceefe944339025bb8d8d66be5d54040a2ba",
+  "bytes": 107608,
   "recipe": "/production/native-world/recipes/vintage-windup-camper--olive.vibe",
-  "input_sha256": "17e062678f99130f2e0c3b119e850652c14e07b8e5c365c4997c7318e467d8f0"
+  "input_sha256": "b8c1f9f13f9666a1544bd908cabd2a8f329d22ea2eb4197099e2808e207837b0"
 }
