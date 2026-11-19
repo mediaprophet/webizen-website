@@ -4,7 +4,7 @@
 .native-panel h1{font-size:27px;line-height:1.12;margin-bottom:18px}.native-panel h2{font-size:22px;margin-top:22px;margin-bottom:14px}.native-panel label{display:block;font-size:12px;line-height:1.6;margin:12px 0}.native-panel select{display:block;width:100%;margin-top:7px;font-size:12px}.native-panel input{vertical-align:middle}.native-panel summary{cursor:pointer;padding:12px 0;font-size:13px;color:#e9d7a8}.native-panel p{font-size:13px}.native-reading{display:inline-block;margin-bottom:4px}.native-controls{background:#133b32c9;border-top:1px solid #d5d8b544;padding:12px;backdrop-filter:blur(12px)}.native-controls button{font-size:12px;background:#12372eaa;border-color:#bed3b84d;border-radius:3px}#native-world-status{background:#13382dc9;font-size:11px;max-width:720px}#native-fallback{position:fixed;z-index:12;top:45%;left:8%;background:#f5eedb;color:#17382f;padding:25px;max-width:70%;line-height:1.6}
 @media(max-width:650px){.native-panel{left:auto;right:4%;top:85px;width:205px;max-width:205px;max-height:34vh;padding:14px}.native-panel h1{font-size:23px}.native-panel h2{font-size:19px;margin-top:14px}.native-panel select{font-size:11px}.native-panel label{margin:7px 0}.native-panel summary{font-size:12px;padding:8px 0}.native-controls{gap:5px;max-height:22vh}.native-controls button{font-size:10px;padding:8px 10px}}
 /* The world UI is a viewport overlay, not a relatively positioned document box. */
-#native-world-ui.native-panel{position:fixed;left:auto;right:4%;pointer-events:auto;backdrop-filter:none}
+#native-world-ui.native-panel{position:fixed;left:auto;right:4%;top:188px;width:310px;max-width:310px;max-height:calc(100dvh - 380px);z-index:11;pointer-events:auto;backdrop-filter:blur(14px)}
 /* Camp and place nav live in the reading panel. A shared .native-controls bottom bar overlays the place buttons. */
 #native-world-ui .native-controls{position:static;left:auto;right:auto;bottom:auto;width:auto;margin:12px 0 0}
 .native-camera-controls{display:flex;gap:8px;margin-top:12px}.native-camera-controls button{min-width:44px;min-height:44px;line-height:1;font-size:20px;border-radius:50%;padding:8px}
@@ -12,6 +12,7 @@
 #native-play-toggle{position:fixed;z-index:8;right:4%;top:84px;min-height:44px;padding:10px 18px;border-radius:24px;background:#c4a15a;color:#17382f;border-color:#ead7a3;font-size:12px;font-weight:700;letter-spacing:.04em}
 #native-play-toggle[aria-pressed=true]{background:#173e34ed;color:#fff1d2;border-color:#bac49b66}
 #native-panel-toggle{position:fixed;z-index:8;right:4%;top:136px;min-height:44px;padding:10px 16px;border-radius:24px;background:#173e34ed;color:#fff1d2;border-color:#bac49b66;font-size:12px}
+#native-panel-toggle[aria-expanded=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
 .native-panel[hidden]{display:none!important}
 #native-play-toolbox{position:fixed;z-index:8;left:4%;bottom:70px;width:min(320px,88vw);max-height:42vh;overflow:auto;padding:16px 18px 14px;background:#12372ef2;border:1px solid #e1d8ad66;border-radius:8px;box-shadow:0 16px 48px #09241f55;backdrop-filter:blur(14px)}
 #native-play-toolbox[hidden]{display:none!important}
@@ -20,7 +21,8 @@
 #native-play-toolbox .native-controls{position:static;margin:0 0 12px;padding:0;background:transparent;border:0;display:flex;flex-wrap:wrap;gap:8px}
 #native-play-toolbox button{min-height:44px}
 html.play-mode #native-world{cursor:crosshair}
-@media(max-width:650px){#native-play-toggle{top:72px;right:4%}#native-panel-toggle{top:124px;right:4%}#native-world-ui.native-panel{top:176px;max-height:32vh}#native-play-toolbox{bottom:62px;left:4%;right:4%;width:auto}}
+html.drive-mode #native-play-toolbox{bottom:204px}
+@media(max-width:650px){#native-play-toggle{top:64px;right:4%;padding:8px 14px}#native-panel-toggle{top:114px;right:4%;padding:8px 12px;font-size:11px}#native-world-ui.native-panel{top:164px;left:4%;right:4%;width:auto;max-width:none;max-height:calc(100dvh - 300px);z-index:12}#native-play-toolbox{bottom:62px;left:4%;right:4%;width:auto}html.drive-mode #native-play-toolbox{bottom:278px}}
 #native-proof-lab{position:fixed;z-index:9;left:4%;top:84px;width:min(740px,64vw);max-height:calc(100dvh - 270px);padding:0 22px;background:#f5f0e4f5;color:#25372f;border:1px solid #d3c9ab;border-radius:5px;box-shadow:0 18px 60px #061c2840;overscroll-behaviour:contain}
 #native-proof-lab>summary{padding:16px 0;cursor:pointer;font-size:14px;letter-spacing:.03em}
 #native-proof-lab[open]{padding-bottom:22px;background:#f5f0e4;top:110px}
@@ -57,4 +59,131 @@ html.play-mode #native-world{cursor:crosshair}
 #native-production-output figure>a{display:block;font-size:12px;line-height:1.6;overflow-wrap:anywhere}
 .terrain-source{position:fixed;z-index:5;bottom:95px;left:4%;max-width:540px;padding:18px 22px;background:#16392fe8;color:#f6eed9;font-size:12px;line-height:1.6;border-left:1px solid #cfbd83}.terrain-source b{font:21px Georgia,serif}.terrain-source a{color:#f2d39c}.terrain-source p{margin:9px 0}
 @media(max-width:650px){.terrain-source{bottom:55px;left:4%;right:4%;max-height:24vh;overflow:auto;padding:12px;font-size:10px}.terrain-source b{font-size:17px}}
-@media(max-width:650px){#native-proof-lab{left:4%;right:4%;top:85px;width:92%;max-height:calc(100dvh - 290px);padding:0 15px}#native-proof-lab:not([open]){left:4%;right:auto;top:72px;bottom:auto;width:auto;max-width:calc(100vw - 8% - 140px)}#native-proof-lab h2{font-size:27px}#native-proof-lab table{font-size:10px}#native-lab-tabs{gap:2px}#native-lab-tabs button{font-size:11px;padding:8px}#native-proof-lab td{padding:6px}}
+@media(max-width:650px){#native-proof-lab{left:4%;right:4%;top:64px;width:92%;max-height:calc(100dvh - 210px);z-index:13;padding:0 15px}#native-proof-lab:not([open]){left:4%;right:auto;top:64px;bottom:auto;width:auto;max-width:calc(100vw - 8% - 178px);z-index:9}#native-proof-lab:not([open])>summary{overflow:hidden;text-overflow:ellipsis;font-size:11px;padding:11px 2px}#native-proof-lab h2{font-size:27px}#native-proof-lab table{font-size:10px}#native-lab-tabs{gap:2px}#native-lab-tabs button{font-size:11px;padding:8px}#native-proof-lab td{padding:6px}}
+/* Playable locomotion pills, mobile virtual left thumbstick, and X-Ray lens styling. */
+#native-world-status{bottom:14px;left:4%;max-width:min(540px,46vw)}
+#native-mode-bar{position:fixed;z-index:8;right:4%;bottom:66px;display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;max-width:min(760px,92vw);pointer-events:auto}
+html.drive-mode #native-mode-bar{max-width:min(640px,48vw)}
+#native-mode-bar .native-pill,#native-fly-controls .native-pill,#native-clean-view-toggle{min-width:44px;min-height:44px;padding:10px 14px;border-radius:24px;background:#143c32e6;color:#f5eedb;border:1px solid #d5d8b566;font-size:12px;font-weight:600;letter-spacing:.02em;backdrop-filter:blur(10px);touch-action:manipulation;transition:background-color 140ms ease,color 140ms ease,border-color 140ms ease}
+#native-mode-bar .native-pill{flex-shrink:0}
+#native-mode-bar .native-pill[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
+#native-view-toggle[aria-pressed=true]{background:#275e6b!important;color:#f5fbff!important;border-color:#93d3e6!important}
+#native-rhizosphere-toggle[aria-pressed=true]{background:#2f7d67!important;color:#fff8de!important;border-color:#9ce6cb!important}
+#native-anatomy-toggle[aria-pressed=true]{background:#7f382f!important;color:#fff1e8!important;border-color:#f0a899!important}
+html.rhizosphere-xray #native-world-status{border-left:3px solid #8cd8bc}
+html.anatomy-xray #native-world-status{border-left:3px solid #f0a899}
+html.mode-walk #native-world,html.mode-fly #native-world{cursor:grab}
+#native-fly-controls{position:fixed;z-index:8;right:4%;bottom:176px;display:flex;flex-direction:column;gap:8px;pointer-events:auto}
+#native-fly-controls[hidden]{display:none!important}
+#native-touch-joystick{display:none;position:fixed;z-index:8;left:4%;bottom:64px;width:116px;height:116px;border-radius:50%;background:#12372ecc;border:1.5px solid #e1d8ad77;box-shadow:0 8px 28px #081e1966;align-items:center;justify-content:center;touch-action:none;user-select:none;-webkit-user-select:none}
+#native-touch-joystick[hidden]{display:none!important}
+#native-touch-knob{width:48px;height:48px;border-radius:50%;background:#c4a15ae8;border:2px solid #fff3cf;pointer-events:none;transition:transform 60ms linear}
+@media(pointer:coarse),(hover:none),(max-width:820px){html.mode-walk #native-touch-joystick:not([hidden]),html.mode-fly #native-touch-joystick:not([hidden]){display:flex}}
+@media(max-width:650px){#native-world-status{bottom:6px;left:12px;right:12px;max-width:none;font-size:10px;padding:6px 10px}#native-mode-bar{bottom:42px;left:0;right:0;max-width:none;gap:6px;flex-wrap:wrap;overflow:visible;justify-content:center;padding-inline:12px}html.mode-walk #native-mode-bar,html.mode-fly #native-mode-bar{left:0;right:0}html.drive-mode #native-mode-bar{bottom:224px;left:0;right:0;max-width:none;padding-inline:12px}#native-mode-bar .native-pill,#native-fly-controls .native-pill{font-size:11.5px;padding:8px 11px;min-width:44px;min-height:44px}#native-touch-joystick{bottom:148px;left:12px;width:104px;height:104px}#native-fly-controls{bottom:148px;right:12px}}
+@media(prefers-reduced-motion:reduce){#native-touch-knob,#native-mode-bar .native-pill,#native-fly-controls .native-pill,#native-clean-view-toggle,.veh-action-pill,.drive-touch-btn,#native-explore-dock .native-pill,#native-tour-drawer .native-pill,#native-field-guide-drawer .native-pill,#native-stats-drawer .native-pill,#native-debug-drawer .native-pill,.stats-bar-fill,html.orbital-starfield body::before{transition:none!important;animation:none!important}}
+/* WEB-WP-12, WEB-WP-20 & WEB-WP-23: Clean HUD, Compass/OCS Scale pill, Stats/Debug Drawers, Vehicle Cluster & Touch Drive. */
+#native-clean-view-toggle[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
+html.clean-view header,html.clean-view #native-stream-status,html.clean-view #native-explore-dock>:not(#native-clean-view-toggle),html.clean-view #native-tour-drawer,html.clean-view #native-field-guide-drawer,html.clean-view #native-stats-drawer,html.clean-view #native-debug-drawer,html.clean-view #native-world-ui,html.clean-view #native-proof-lab,html.clean-view #native-play-toggle,html.clean-view #native-panel-toggle,html.clean-view #native-play-toolbox,html.clean-view #native-compass-scale,html.clean-view #native-mode-bar,html.clean-view #native-fly-controls,html.clean-view #native-touch-joystick,html.clean-view #native-vehicle-cluster,html.clean-view #native-drive-touch,html.clean-view #native-world-status,html.clean-view .terrain-source{display:none!important}
+html.clean-view #native-explore-dock{top:16px;right:4%;left:auto;padding:0;background:transparent;border:0;box-shadow:none;backdrop-filter:none}
+html.clean-view #native-clean-view-toggle{opacity:.9}
+#native-compass-scale{position:fixed;z-index:8;top:78px;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:8px 14px;border-radius:999px;background:#102d28d9;border:1px solid #d5d8b555;color:#f5eedb;font-size:12px;font-weight:600;letter-spacing:.02em;backdrop-filter:blur(12px);pointer-events:none;max-width:min(540px,calc(100vw - 440px));white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:0 8px 24px #061c1744}
+#native-compass-scale[data-ocs-regime=PlanetaryWgs84]{border-color:#86c7e888}
+#native-compass-scale[data-ocs-regime=HeliocentricIcrf]{border-color:#ffd48499}
+#native-compass-scale[data-ocs-regime=GalacticCosmos]{border-color:#d0b3ff88}
+.compass-sep{opacity:.55}
+.compass-ocs{color:#ead7a3}
+#native-vehicle-cluster{position:fixed;z-index:8;left:4%;bottom:66px;width:min(440px,44vw);padding:12px 14px;border-radius:14px;background:linear-gradient(180deg,#0c221ee8,#091916f5);border:1px solid #d5d8b566;box-shadow:0 16px 44px #04120f88;backdrop-filter:blur(14px);color:#f5eedb;display:flex;flex-direction:column;gap:10px;pointer-events:auto}
+#native-vehicle-cluster[hidden]{display:none!important}
+.veh-telemetry-row{display:grid;grid-template-columns:auto auto 1fr auto;gap:8px 14px;align-items:center}
+.veh-metric{display:flex;flex-direction:column;gap:2px}
+.veh-speed-box{flex-direction:row;align-items:baseline;gap:4px}
+.veh-speed-val{font:700 28px/1 ui-monospace,Consolas,monospace;color:#fff5d6;font-variant-numeric:tabular-nums}
+.veh-speed-unit{font-size:11px;color:#d6dec7;font-weight:600}
+.veh-label{font-size:9px;letter-spacing:.08em;color:#c7d4ba;font-weight:700}
+.veh-gear-val{display:inline-flex;align-items:center;justify-content:center;min-width:30px;padding:3px 8px;border-radius:6px;background:#1c4a3f;border:1px solid #e1d8ad66;font:700 13px/1.1 ui-monospace,Consolas,monospace;color:#ffd484}
+.veh-incline-vals{font:600 12px/1.2 ui-monospace,Consolas,monospace;color:#eef2e6;font-variant-numeric:tabular-nums}
+.veh-traction-val{font-size:12px;font-weight:700;color:#9ce6cb}
+.veh-traction-val[data-surface=Gravel]{color:#f2d39c}
+.veh-traction-val[data-surface=Grass]{color:#b5e48c}
+.veh-traction-val[data-surface=Silt]{color:#e5989b}
+.veh-actions-row{display:flex;flex-wrap:wrap;gap:6px}
+.veh-action-pill{min-width:44px;min-height:44px;padding:8px 12px;border-radius:22px;background:#143c32e6;color:#f5eedb;border:1px solid #d5d8b566;font-size:11px;font-weight:600;touch-action:manipulation;transition:background-color 140ms ease,color 140ms ease,border-color 140ms ease}
+#native-veh-hitch[aria-pressed=true]{background:#2f7d67;color:#fff8de;border-color:#9ce6cb}
+#native-veh-lights[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
+.veh-exit-pill{border-color:#e69d8c88}
+#native-drive-touch{display:none;position:fixed;z-index:9;left:4%;right:4%;bottom:48px;justify-content:space-between;align-items:center;gap:12px;pointer-events:none}
+#native-drive-touch[hidden]{display:none!important}
+@media(pointer:coarse),(hover:none),(max-width:820px){html.drive-mode #native-drive-touch:not([hidden]){display:flex}}
+.drive-touch-steer,.drive-touch-pedals{display:flex;gap:8px;pointer-events:auto}
+.drive-touch-btn{min-width:58px;min-height:48px;padding:10px 14px;border-radius:24px;background:#12372ee8;color:#f5eedb;border:1.5px solid #e1d8ad88;font-size:12px;font-weight:700;touch-action:none;user-select:none;-webkit-user-select:none;backdrop-filter:blur(10px)}
+.drive-touch-btn[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#fff3cf}
+.drive-pedal-brake[aria-pressed=true]{background:#b84a39;color:#fff5f0;border-color:#ffb4a2}
+.drive-pedal-accel[aria-pressed=true]{background:#2f7d67;color:#fff8de;border-color:#9ce6cb}
+#native-stream-status{position:fixed;z-index:8;right:4%;bottom:14px;left:auto;top:auto;padding:6px 12px;border-radius:999px;background:#102d28cc;border:1px solid #d5d8b544;color:#e7dfbf;font-size:11px;letter-spacing:.03em;backdrop-filter:blur(10px);pointer-events:none;max-width:min(360px,42vw);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#native-explore-dock{position:fixed;z-index:9;left:4%;top:132px;display:inline-flex;flex-wrap:nowrap;align-items:center;gap:6px;padding:4px;border-radius:999px;background:#0f2b25d9;border:1px solid #d5d8b544;box-shadow:0 10px 28px #061c1744;backdrop-filter:blur(14px);max-width:calc(100vw - 8%);overflow-x:auto;scrollbar-width:none;pointer-events:auto}
+#native-explore-dock::-webkit-scrollbar{display:none}
+#native-explore-dock .native-pill,#native-tour-drawer .native-pill,#native-field-guide-drawer .native-pill,#native-stats-drawer .native-pill,#native-debug-drawer .native-pill{min-width:44px;min-height:44px;padding:8px 13px;border-radius:999px;background:#143c32e6;color:#f5eedb;border:1px solid #d5d8b555;font-size:12px;font-weight:600;letter-spacing:.02em;white-space:nowrap;flex-shrink:0;backdrop-filter:blur(10px);touch-action:manipulation;transition:background-color 140ms ease,color 140ms ease,border-color 140ms ease}
+#native-explore-dock .native-pill{background:transparent;border-color:transparent}
+#native-explore-dock .native-pill:hover{background:#184539cc;border-color:#d5d8b544}
+#native-explore-dock .native-pill[aria-pressed=true],#native-explore-dock .native-pill[aria-expanded=true],#native-field-guide-drawer .native-pill[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
+#native-sound-toggle[aria-pressed=true]{background:#2f7d67!important;color:#fff8de!important;border-color:#9ce6cb!important}
+#native-time-bar{display:inline-flex;flex-wrap:wrap;gap:4px;padding:3px;border-radius:26px;background:#0c241fd9;border:1px solid #d5d8b544;margin-bottom:8px}
+#native-time-bar .native-time-pill{min-height:44px;padding:8px 12px;border-radius:20px;border-color:transparent;background:transparent;font-size:11px}
+#native-time-bar .native-time-pill[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
+#native-tour-drawer{position:fixed;z-index:11;left:4%;top:192px;display:flex;flex-direction:column;gap:6px;padding:12px 14px;border-radius:12px;background:#102d28f2;border:1px solid #d5d8b555;box-shadow:0 18px 50px #061c1777;backdrop-filter:blur(14px);max-width:min(680px,92vw);max-height:calc(100dvh - 300px);overflow-y:auto;pointer-events:auto}
+#native-tour-drawer[hidden]{display:none!important}
+.tour-stops-grid{display:flex;flex-wrap:wrap;gap:8px}
+#native-tour-drawer .native-tour-stop{display:inline-flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:2px;min-width:44px;min-height:44px;padding:8px 14px;border-radius:14px;text-align:left}
+#native-tour-drawer .native-tour-stop[aria-pressed=true]{background:#c4a15a;color:#17382f;border-color:#f0dfad}
+#native-tour-drawer .tour-stop-title{font-size:12px;font-weight:700;line-height:1.2}
+#native-tour-drawer .tour-stop-zone{font-size:10px;opacity:.82;line-height:1.2}
+#native-field-guide-drawer{position:fixed;z-index:11;left:4%;top:192px;width:min(540px,92vw);max-height:calc(100dvh - 300px);display:flex;flex-direction:column;gap:10px;padding:16px 18px;background:#12372ef7;color:#f5eedb;border:1px solid #e1d8ad77;border-radius:12px;box-shadow:0 20px 60px #061c1780;backdrop-filter:blur(14px);overscroll-behavior:contain}
+#native-field-guide-drawer[hidden]{display:none!important}
+#native-stats-drawer,#native-debug-drawer{position:fixed;z-index:12;left:4%;top:192px;width:min(440px,92vw);max-height:calc(100dvh - 280px);overflow-y:auto;display:flex;flex-direction:column;gap:12px;padding:16px 18px;border-radius:12px;background:linear-gradient(180deg,#0b221ef5,#081815f7);color:#f2edda;border:1px solid #d5d8b566;box-shadow:0 20px 60px #04120f99;backdrop-filter:blur(16px);overscroll-behavior:contain;pointer-events:auto}
+#native-stats-drawer[hidden],#native-debug-drawer[hidden]{display:none!important}
+.hud-drawer-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:10px;border-bottom:1px solid #d5d8b538}
+.hud-drawer-head h2{font:20px/1.15 Georgia,serif;margin:0;color:#fff6dc}
+.hud-drawer-close{min-height:44px;padding:8px 14px;font-size:11.5px}
+.stats-fps-badge{display:inline-block;margin-top:4px;padding:2px 9px;border-radius:999px;background:#163d33;border:1px solid #8cd8bc66;color:#9ce6cb;font:700 11px/1.3 ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+.stats-sections{display:grid;gap:10px}
+.stats-section{padding:10px 12px;border-radius:8px;background:#113028b8;border:1px solid #d5d8b530;display:flex;flex-direction:column;gap:6px}
+.stats-section h3{margin:0 0 2px;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:#ead7a3}
+.stats-row{display:flex;align-items:baseline;justify-content:space-between;gap:10px;font-size:11.5px;line-height:1.35}
+.stats-k{color:#c9d6be;flex-shrink:0}
+.stats-v{color:#f8f4e6;font:600 11.5px/1.35 ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums;text-align:right;overflow-wrap:anywhere}
+.stats-v[data-health=ok]{color:#8ce5be}
+.stats-v[data-health=warn]{color:#ffd484}
+.stats-v[data-health=error]{color:#ff9b85}
+.stats-bar-wrap{display:flex;flex-direction:column;gap:4px}
+.stats-bar-track{width:100%;height:5px;border-radius:999px;background:#081815;border:1px solid #d5d8b528;overflow:hidden}
+.stats-bar-fill{height:100%;border-radius:999px;background:#6fd6b1;transition:width 180ms ease}
+.stats-bar-fill[data-level=mid]{background:#ffd484}
+.stats-bar-fill[data-level=high]{background:#ff8e72}
+.debug-actions-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.debug-action-btn{width:100%;justify-content:center;text-align:center}
+#native-debug-output{margin:0;padding:10px 12px;border-radius:8px;background:#071512e8;border:1px solid #d5d8b535;color:#dbe8d2;font:11px/1.45 ui-monospace,Consolas,monospace;max-height:160px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+.fg-drawer-header{position:static;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:0 0 10px;background:transparent;border-bottom:1px solid #d5d8b538}
+.fg-drawer-header h2{font:22px/1.15 Georgia,serif;margin:0 0 4px}
+#native-field-guide-count{margin:0;font-size:12px;color:#ead7a3;font-weight:600}
+#native-fg-filters{display:flex;flex-wrap:wrap;gap:6px}
+#native-field-guide-list{overflow:auto;display:grid;gap:10px;padding-right:4px}
+.fg-card{padding:12px 14px;border-radius:8px;background:#173e34c9;border:1px solid #d5d8b540}
+.fg-card.is-discovered{border-color:#8cd8bc88;background:#19463ae6}
+.fg-card-head{position:static;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:0;background:transparent}
+.fg-card-head h4{font:16px/1.25 Georgia,serif;margin:0 0 2px;color:#fff6dc}
+.fg-sci{margin:0;font-size:11px;color:#d6dec7}
+.fg-kingdom{text-transform:capitalize}
+.fg-badge{flex-shrink:0;padding:3px 9px;border-radius:999px;font-size:10px;font-weight:700;letter-spacing:.03em;border:1px solid #d5d8b555;background:#102d28}
+.fg-badge.is-discovered{background:#2f7d67;color:#fff8de;border-color:#9ce6cb}
+.fg-summary{margin:8px 0;font-size:12px;line-height:1.45;color:#f0ead6}
+.fg-meta{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin:0 0 10px;font-size:11px;line-height:1.4}
+.fg-meta dt{color:#d8c897;font-weight:600}
+.fg-meta dd{margin:0;overflow-wrap:anywhere;color:#eef2e6}
+.fg-actions{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.fg-links{font-size:11px;line-height:1.5;color:#f2d39c;overflow-wrap:anywhere}
+.fg-links a{text-decoration:underline;text-underline-offset:2px}
+.fg-empty{font-size:12px;line-height:1.5;margin:8px 0}
+html.orbital-starfield body::before{content:"";position:fixed;inset:0;z-index:1;pointer-events:none;background-image:radial-gradient(1.5px 1.5px at 14% 18%,#fff8e1aa,transparent),radial-gradient(1px 1px at 32% 44%,#dcecff88,transparent),radial-gradient(1.5px 1.5px at 64% 22%,#fff5d6aa,transparent),radial-gradient(1px 1px at 81% 37%,#d2e6ff88,transparent),radial-gradient(1.5px 1.5px at 48% 12%,#ffffff99,transparent),radial-gradient(1px 1px at 91% 62%,#e2eeff88,transparent)}
+#native-explore-dock button:focus-visible,#native-tour-drawer button:focus-visible,#native-field-guide-drawer button:focus-visible,#native-field-guide-drawer a:focus-visible,#native-stats-drawer button:focus-visible,#native-debug-drawer button:focus-visible,#native-mode-bar button:focus-visible,#native-fly-controls button:focus-visible,#native-clean-view-toggle:focus-visible,#native-vehicle-cluster button:focus-visible,#native-drive-touch button:focus-visible{outline:3px solid #ffd484;outline-offset:3px}
+@media(max-width:650px){#native-stream-status{display:none}#native-compass-scale{top:114px;left:12px;right:12px;transform:none;max-width:none;justify-content:space-between;font-size:10.5px;padding:6px 10px;min-height:36px}#native-explore-dock{top:158px;left:12px;right:12px;gap:4px;max-width:none;padding:3px}#native-explore-dock .native-pill,#native-tour-drawer .native-pill{font-size:11px;padding:8px 11px}#native-time-bar{max-width:100%;overflow-x:auto}#native-tour-drawer{top:214px;left:12px;right:12px;max-width:none;max-height:calc(100dvh - 360px)}#native-field-guide-drawer,#native-stats-drawer,#native-debug-drawer{top:214px;left:12px;right:12px;width:auto;max-height:calc(100dvh - 360px);z-index:12;padding:14px}.debug-actions-grid{grid-template-columns:1fr}.fg-meta{grid-template-columns:1fr}#native-vehicle-cluster{left:12px;right:12px;bottom:108px;width:auto;padding:10px 12px;gap:8px}.veh-telemetry-row{grid-template-columns:1fr 1fr;gap:6px 10px}.veh-speed-val{font-size:22px}.veh-action-pill{font-size:10.5px;padding:8px 10px}}
+@media(prefers-reduced-motion:reduce){#native-explore-dock .native-pill,#native-tour-drawer .native-pill,#native-field-guide-drawer .native-pill,#native-stats-drawer .native-pill,#native-debug-drawer .native-pill,.stats-bar-fill,html.orbital-starfield body::before{transition:none!important;animation:none!important}}

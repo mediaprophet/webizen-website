@@ -137,9 +137,9 @@
   "wasm": {
     "ci_budget_bytes": 24641536,
     "ci_budget_mib": 23.5,
-    "bytes_today": 22114849,
-    "mib_today": 21.1,
-    "sha256_today": "04842f736350720a8271e0629be642113017fc6487af577f7cf74e8514532743",
+    "bytes_today": 21317822,
+    "mib_today": 20.33,
+    "sha256_today": "bc0bc55e1fbee2c8619a97a8736e29f22908cc3921da508836a178996e81376e",
     "measured_after_ewm_rebuild": true,
     "next_rebuild": "done 2026-11-18; pack-up sides-fold-stow-lid; four-tuple 24"
   },

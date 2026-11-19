@@ -1,0 +1,331 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ewm: <https://webizen.org/ns/ewm#> .
+@prefix ds: <https://webizen.org/data/ewm/datasets/> .
+
+ds:nsw-ecopunk-registry a ewm:DatasetRegistry ;
+    rdfs:label "Talbingo-Tumut Montane Forest-to-Town-Outskirts Corridor Source Registry" ;
+    ewm:crs "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    ewm:projectedCrs "EPSG:7855 (GDA2020 / MGA Zone 55)" ;
+    ewm:verticalDatum "EPSG:5711 (AHD)" ;
+    ewm:bboxWest "148.2"^^xsd:double ;
+    ewm:bboxSouth "-35.64"^^xsd:double ;
+    ewm:bboxEast "148.42"^^xsd:double ;
+    ewm:bboxNorth "-35.5"^^xsd:double ;
+    prov:generatedAtTime "2026-11-19T04:02:20Z"^^xsd:dateTime .
+
+ds:nsw-fsdf-roads-talbingo a ewm:DatasetSource ;
+    dcterms:identifier "nsw-fsdf-roads-talbingo" ;
+    dcterms:publisher "NSW Spatial Services (DCS) — FSDF Transport Theme (RoadSegment)" ;
+    ewm:sourceUrl "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer/5/query?where=1%3D1&geometry=148.2%2C-35.64%2C148.42%2C-35.5&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326&resultRecordCount=80&f=geojson" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "124434"^^xsd:integer ;
+    ewm:sha256 "7d39817d4a6c911d5f7ae3ca664820ef81177186702bee97c613cd84adfa679a" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:01:58Z"^^xsd:dateTime .
+
+ds:nsw-fsdf-hydrology-talbingo a ewm:DatasetSource ;
+    dcterms:identifier "nsw-fsdf-hydrology-talbingo" ;
+    dcterms:publisher "NSW Spatial Services (DCS) — FSDF Water Theme (HydroLine)" ;
+    ewm:sourceUrl "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Water_Theme/MapServer/5/query?where=1%3D1&geometry=148.2%2C-35.64%2C148.42%2C-35.5&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326&resultRecordCount=80&f=geojson" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "102122"^^xsd:integer ;
+    ewm:sha256 "4283d72cf59eaca51e56142d7c12ae73ce375837191a4790f909a35bf7bd12ec" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:01:59Z"^^xsd:dateTime .
+
+ds:nsw-fsdf-elevation-metadata a ewm:DatasetSource ;
+    dcterms:identifier "nsw-fsdf-elevation-metadata" ;
+    dcterms:publisher "NSW Spatial Services (DCS) / Geoscience Australia ELVIS" ;
+    ewm:sourceUrl "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Elevation_and_Depth_Theme/MapServer?f=json" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:5711 (AHD)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "2671"^^xsd:integer ;
+    ewm:sha256 "751efa6486141c968772caf878f516f03b1bc72106c52466ee0b65c2581de700" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:01:59Z"^^xsd:dateTime .
+
+ds:nsw-seed-svtm-pct-metadata a ewm:DatasetSource ;
+    dcterms:identifier "nsw-seed-svtm-pct-metadata" ;
+    dcterms:publisher "NSW Department of Climate Change, Energy, the Environment and Water (SEED / SVTM)" ;
+    ewm:sourceUrl "https://datasets.seed.nsw.gov.au/api/3/action/package_search?q=State+Vegetation+Type+Map+Plant+Community+Type&rows=5" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:3308 (NSW Lambert)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "92802"^^xsd:integer ;
+    ewm:sha256 "1b0aa1c9dd1a60c46eb7b7f2b47d6bc09defc80b933a6878eec4e76ce7526907" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:01:59Z"^^xsd:dateTime .
+
+ds:ala-biocache-corridor-species-facets a ewm:DatasetSource ;
+    dcterms:identifier "ala-biocache-corridor-species-facets" ;
+    dcterms:publisher "Atlas of Living Australia (ALA / CSIRO)" ;
+    ewm:sourceUrl "https://biocache-ws.ala.org.au/ws/occurrences/search?q=%2A%3A%2A&fq=decimalLatitude%3A%5B-35.64+TO+-35.5%5D&fq=decimalLongitude%3A%5B148.2+TO+148.42%5D&facets=species&flimit=60&pageSize=0" ;
+    ewm:crsDatum "EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0 / provider-specific DwC" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "8292"^^xsd:integer ;
+    ewm:sha256 "31977f6dbeed25f3df77cdecc151b61e95b051df022951c05b011fe8ec9797ba" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:00Z"^^xsd:dateTime .
+
+ds:ala-biocache-corridor-target-taxa a ewm:DatasetSource ;
+    dcterms:identifier "ala-biocache-corridor-target-taxa" ;
+    dcterms:publisher "Atlas of Living Australia (ALA / CSIRO)" ;
+    ewm:sourceUrl "https://biocache-ws.ala.org.au/ws/occurrences/search?q=%28scientificName%3A%22Eucalyptus+pauciflora%22+OR+scientificName%3A%22Eucalyptus+delegatensis%22+OR+scientificName%3A%22Eucalyptus+viminalis%22+OR+scientificName%3A%22Eucalyptus+blakelyi%22+OR+scientificName%3A%22Banksia+marginata%22+OR+scientificName%3A%22Acacia+dealbata%22+OR+scientificName%3A%22Dicksonia+antarctica%22+OR+scientificName%3A%22Poa+sieberiana%22+OR+scientificName%3A%22Themeda+triandra%22+OR+scientificName%3A%22Lomandra+longifolia%22+OR+scientificName%3A%22Bursaria+spinosa%22+OR+scientificName%3A%22Macropus+giganteus%22+OR+scientificName%3A%22Wallabia+bicolor%22+OR+scientificName%3A%22Phascolarctos+cinereus%22+OR+scientificName%3A%22Vombatus+ursinus%22+OR+scientificName%3A%22Ornithorhynchus+anatinus%22+OR+scientificName%3A%22Dacelo+novaeguineae%22%29&fq=decimalLatitude%3A%5B-35.64+TO+-35.5%5D&fq=decimalLongitude%3A%5B148.2+TO+148.42%5D&facets=species&flimit=50&pageSize=60&fields=uuid%2CscientificName%2CvernacularName%2CdecimalLatitude%2CdecimalLongitude%2CeventDate%2CdataResourceName" ;
+    ewm:crsDatum "EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0 / provider-specific DwC" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "148003"^^xsd:integer ;
+    ewm:sha256 "0368582cade46d37e4ca79853cfd9351cde39049b4d99fac384522cc4ac2ec20" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:00Z"^^xsd:dateTime .
+
+ds:ala-biocache-regional-target-taxa a ewm:DatasetSource ;
+    dcterms:identifier "ala-biocache-regional-target-taxa" ;
+    dcterms:publisher "Atlas of Living Australia (ALA / CSIRO)" ;
+    ewm:sourceUrl "https://biocache-ws.ala.org.au/ws/occurrences/search?q=%28scientificName%3A%22Eucalyptus+pauciflora%22+OR+scientificName%3A%22Eucalyptus+delegatensis%22+OR+scientificName%3A%22Eucalyptus+viminalis%22+OR+scientificName%3A%22Eucalyptus+blakelyi%22+OR+scientificName%3A%22Banksia+marginata%22+OR+scientificName%3A%22Acacia+dealbata%22+OR+scientificName%3A%22Dicksonia+antarctica%22+OR+scientificName%3A%22Poa+sieberiana%22+OR+scientificName%3A%22Themeda+triandra%22+OR+scientificName%3A%22Lomandra+longifolia%22+OR+scientificName%3A%22Bursaria+spinosa%22+OR+scientificName%3A%22Macropus+giganteus%22+OR+scientificName%3A%22Wallabia+bicolor%22+OR+scientificName%3A%22Phascolarctos+cinereus%22+OR+scientificName%3A%22Vombatus+ursinus%22+OR+scientificName%3A%22Ornithorhynchus+anatinus%22+OR+scientificName%3A%22Dacelo+novaeguineae%22%29&fq=decimalLatitude%3A%5B-36.20+TO+-35.10%5D&fq=decimalLongitude%3A%5B148.00+TO+149.25%5D&facets=species&flimit=50&pageSize=40&fields=uuid%2CscientificName%2CvernacularName%2CdecimalLatitude%2CdecimalLongitude%2CeventDate" ;
+    ewm:crsDatum "EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0 / provider-specific DwC" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "95899"^^xsd:integer ;
+    ewm:sha256 "e55cbf9783cac547703e62c0265b67c7e0ab18d3146210a1a80c5ac36c0bd18e" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:01Z"^^xsd:dateTime .
+
+ds:csiro-slga-soil-wcs-capabilities a ewm:DatasetSource ;
+    dcterms:identifier "csiro-slga-soil-wcs-capabilities" ;
+    dcterms:publisher "CSIRO / TERN Soil and Landscape Grid of Australia (SLGA)" ;
+    ewm:sourceUrl "https://www.asris.csiro.au/arcgis/services/TERN/CLY_ACLEP_AU_NAT_C/MapServer/WCSServer?SERVICE=WCS&REQUEST=GetCapabilities" ;
+    ewm:crsDatum "EPSG:4283 (GDA94) / EPSG:7844 (GDA2020)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "error" ;
+    ewm:byteLength "0"^^xsd:integer ;
+    ewm:fetchError "URLError: <urlopen error [Errno 11001] getaddrinfo failed>" ;
+    prov:generatedAtTime "2026-11-19T04:02:02Z"^^xsd:dateTime .
+
+ds:bom-geofabric-wfs-capabilities a ewm:DatasetSource ;
+    dcterms:identifier "bom-geofabric-wfs-capabilities" ;
+    dcterms:publisher "Bureau of Meteorology (BoM) — Australian Hydrological Geospatial Fabric" ;
+    ewm:sourceUrl "http://geofabric.bom.gov.au/simplefeatures/ahgf_shcat/wfs?service=WFS&version=2.0.0&request=GetCapabilities" ;
+    ewm:crsDatum "EPSG:4283 (GDA94) / EPSG:7844 (GDA2020)" ;
+    dcterms:license "CC BY 3.0 AU" ;
+    ewm:admissionStatus "error" ;
+    ewm:byteLength "0"^^xsd:integer ;
+    ewm:fetchError "URLError: <urlopen error [Errno 11001] getaddrinfo failed>" ;
+    prov:generatedAtTime "2026-11-19T04:02:02Z"^^xsd:dateTime .
+
+ds:actmapi-road-centrelines-canberra a ewm:DatasetSource ;
+    dcterms:identifier "actmapi-road-centrelines-canberra" ;
+    dcterms:publisher "ACT Government — ACTmapi OpenData (EPSDD / Transport Canberra and City Services)" ;
+    ewm:sourceUrl "https://services1.arcgis.com/E5n4f1VY84i0xSjy/arcgis/rest/services/ACTGOV_ROAD_CENTRELINES/FeatureServer/0/query?where=1%3D1&geometry=148.95%2C-35.38%2C149.08%2C-35.28&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326&resultRecordCount=40&f=geojson" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "34944"^^xsd:integer ;
+    ewm:sha256 "8dca383c830cee259501bcda638644495e58d41fa11cdbd96fe651d82444ad69" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:02Z"^^xsd:dateTime .
+
+ds:actmapi-water-body-line-canberra a ewm:DatasetSource ;
+    dcterms:identifier "actmapi-water-body-line-canberra" ;
+    dcterms:publisher "ACT Government — ACTmapi OpenData (EPSDD Watercourses)" ;
+    ewm:sourceUrl "https://services1.arcgis.com/E5n4f1VY84i0xSjy/arcgis/rest/services/ACTGOV_WATER_BODY_LINE/FeatureServer/0/query?where=1%3D1&geometry=148.95%2C-35.38%2C149.08%2C-35.28&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326&resultRecordCount=40&f=geojson" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "91507"^^xsd:integer ;
+    ewm:sha256 "6cd0b371c8498ca6e70ad180ef2aafb455655aae2e591781f1e797887a822466" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:03Z"^^xsd:dateTime .
+
+ds:actmapi-vegetation-map-2026-canberra a ewm:DatasetSource ;
+    dcterms:identifier "actmapi-vegetation-map-2026-canberra" ;
+    dcterms:publisher "ACT Government — ACTmapi OpenData (EPSDD ACTGOV Vegetation Map 2026)" ;
+    ewm:sourceUrl "https://services1.arcgis.com/E5n4f1VY84i0xSjy/arcgis/rest/services/ACTGOV_Vegetation_Map_2026/FeatureServer/0/query?where=1%3D1&geometry=148.95%2C-35.38%2C149.08%2C-35.28&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326&resultRecordCount=30&f=geojson" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "137602"^^xsd:integer ;
+    ewm:sha256 "1fe873143ca828a6339489cfb00609f986ee0b602edb735023cbbdd4806a3479" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:04Z"^^xsd:dateTime .
+
+ds:actmapi-sportsground-assets-canberra a ewm:DatasetSource ;
+    dcterms:identifier "actmapi-sportsground-assets-canberra" ;
+    dcterms:publisher "ACT Government — ACTmapi OpenData (TCCS Community Sportsground Assets)" ;
+    ewm:sourceUrl "https://services1.arcgis.com/E5n4f1VY84i0xSjy/arcgis/rest/services/ACTGOV_Sportsground_Assets/FeatureServer/0/query?where=1%3D1&geometry=148.95%2C-35.38%2C149.08%2C-35.28&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326&resultRecordCount=30&f=geojson" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "error" ;
+    ewm:byteLength "0"^^xsd:integer ;
+    ewm:httpStatus "400"^^xsd:integer ;
+    ewm:fetchError "HTTPError 400: Bad Request" ;
+    prov:generatedAtTime "2026-11-19T04:02:05Z"^^xsd:dateTime .
+
+ds:data-act-tree-assets a ewm:DatasetSource ;
+    dcterms:identifier "data-act-tree-assets" ;
+    dcterms:publisher "ACT Government — data.act.gov.au (TCCS Urban & Peri-Urban Tree Assets)" ;
+    ewm:sourceUrl "https://www.data.act.gov.au/resource/9qch-rvqr.json?$limit=50" ;
+    ewm:crsDatum "EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "41973"^^xsd:integer ;
+    ewm:sha256 "1d274bf1f4cd9e39c90a79a019606467f77f8b5a7c8e84fc4536e8039623fea7" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:06Z"^^xsd:dateTime .
+
+ds:data-act-sportsground-assets a ewm:DatasetSource ;
+    dcterms:identifier "data-act-sportsground-assets" ;
+    dcterms:publisher "ACT Government — data.act.gov.au (TCCS Public Sportsground Assets)" ;
+    ewm:sourceUrl "https://www.data.act.gov.au/resource/269w-trei.json?$limit=40" ;
+    ewm:crsDatum "EPSG:4326 (WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "161"^^xsd:integer ;
+    ewm:sha256 "cfecf86b8335dd84b1e0ea7736e96d190392c9e60b268f271934fe4c107d9a06" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:12Z"^^xsd:dateTime .
+
+ds:data-act-threatened-native-species a ewm:DatasetSource ;
+    dcterms:identifier "data-act-threatened-native-species" ;
+    dcterms:publisher "ACT Government — data.act.gov.au (ACT Nature Conservation Threatened Native Species List)" ;
+    ewm:sourceUrl "https://www.data.act.gov.au/resource/9ikf-qahj.json?$limit=50" ;
+    ewm:crsDatum "Jurisdictional ACT (GDA2020 / WGS84)" ;
+    dcterms:license "CC BY 4.0" ;
+    ewm:admissionStatus "admitted" ;
+    ewm:byteLength "23413"^^xsd:integer ;
+    ewm:sha256 "cf73005c5b1ee975b572838f65ea8d92a79af1ef28b3c676518147ba863963c0" ;
+    ewm:httpStatus "200"^^xsd:integer ;
+    prov:generatedAtTime "2026-11-19T04:02:16Z"^^xsd:dateTime .
+
+ds:ecopunk-local-sectors-terrain a ewm:DatasetSource ;
+    dcterms:identifier "ecopunk-local-sectors-terrain" ;
+    dcterms:publisher "EcoPunk Local Terrain & SLGA Strata Registry (Talbingo / East Coast)" ;
+    ewm:sourceUrl "file:///C:/github/ecopunk/data/geospatial/sectors_terrain.json" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:5711 (AHD)" ;
+    dcterms:license "Project Internal / Derived from CSIRO SLGA & GSNSW" ;
+    ewm:admissionStatus "local_verified" ;
+    ewm:byteLength "39690"^^xsd:integer ;
+    ewm:sha256 "c5b82dd9d2ed437a28f47911edc9b0c341147a5d19c2ce906802df7cdb828b4e" ;
+    prov:generatedAtTime "2026-11-19T04:02:20Z"^^xsd:dateTime .
+
+ds:ecopunk-local-talbingo-dem-mm a ewm:DatasetSource ;
+    dcterms:identifier "ecopunk-local-talbingo-dem-mm" ;
+    dcterms:publisher "EcoPunk Local Talbingo 64x64 Elevation Grid (30m, mm AHD)" ;
+    ewm:sourceUrl "file:///C:/github/ecopunk/data/geospatial/talbingo_64x64_elev_mm.bin" ;
+    ewm:crsDatum "EPSG:7844 (GDA2020) / EPSG:5711 (AHD)" ;
+    dcterms:license "Project Internal / ELVIS-aligned frame" ;
+    ewm:admissionStatus "local_verified" ;
+    ewm:byteLength "16384"^^xsd:integer ;
+    ewm:sha256 "dc8a12e0e82a5e2db85cdb83b6ec0b500dcadc20b21a2e8cbb7dfa8a2026b8a8" ;
+    prov:generatedAtTime "2026-11-19T04:02:20Z"^^xsd:dateTime .
+
+ds:slga-stratum-1 a ewm:SoilStratum ;
+    rdfs:label "CSIRO SLGA Horizon 0-5cm" ;
+    ewm:stratumIndex "1"^^xsd:integer ;
+    ewm:horizonInterval "0-5cm" ;
+    ewm:clayPct "14.5"^^xsd:double ;
+    ewm:siltPct "32.0"^^xsd:double ;
+    ewm:sandPct "53.5"^^xsd:double ;
+    ewm:bulkDensityGcm3 "1.15"^^xsd:double ;
+    ewm:organicCarbonPct "4.8"^^xsd:double ;
+    ewm:cohesionKpa "12.0"^^xsd:double ;
+    ewm:frictionAngleDeg "28.0"^^xsd:double .
+
+ds:slga-stratum-2 a ewm:SoilStratum ;
+    rdfs:label "CSIRO SLGA Horizon 5-15cm" ;
+    ewm:stratumIndex "2"^^xsd:integer ;
+    ewm:horizonInterval "5-15cm" ;
+    ewm:clayPct "18.2"^^xsd:double ;
+    ewm:siltPct "28.4"^^xsd:double ;
+    ewm:sandPct "53.4"^^xsd:double ;
+    ewm:bulkDensityGcm3 "1.3"^^xsd:double ;
+    ewm:organicCarbonPct "2.4"^^xsd:double ;
+    ewm:cohesionKpa "16.0"^^xsd:double ;
+    ewm:frictionAngleDeg "30.0"^^xsd:double .
+
+ds:slga-stratum-3 a ewm:SoilStratum ;
+    rdfs:label "CSIRO SLGA Horizon 15-30cm" ;
+    ewm:stratumIndex "3"^^xsd:integer ;
+    ewm:horizonInterval "15-30cm" ;
+    ewm:clayPct "24.5"^^xsd:double ;
+    ewm:siltPct "25.0"^^xsd:double ;
+    ewm:sandPct "50.5"^^xsd:double ;
+    ewm:bulkDensityGcm3 "1.42"^^xsd:double ;
+    ewm:organicCarbonPct "1.2"^^xsd:double ;
+    ewm:cohesionKpa "22.0"^^xsd:double ;
+    ewm:frictionAngleDeg "26.0"^^xsd:double .
+
+ds:slga-stratum-4 a ewm:SoilStratum ;
+    rdfs:label "CSIRO SLGA Horizon 30-60cm" ;
+    ewm:stratumIndex "4"^^xsd:integer ;
+    ewm:horizonInterval "30-60cm" ;
+    ewm:clayPct "36.8"^^xsd:double ;
+    ewm:siltPct "22.1"^^xsd:double ;
+    ewm:sandPct "41.1"^^xsd:double ;
+    ewm:bulkDensityGcm3 "1.55"^^xsd:double ;
+    ewm:organicCarbonPct "0.6"^^xsd:double ;
+    ewm:cohesionKpa "38.0"^^xsd:double ;
+    ewm:frictionAngleDeg "22.0"^^xsd:double .
+
+ds:slga-stratum-5 a ewm:SoilStratum ;
+    rdfs:label "CSIRO SLGA Horizon 60-100cm" ;
+    ewm:stratumIndex "5"^^xsd:integer ;
+    ewm:horizonInterval "60-100cm" ;
+    ewm:clayPct "28.0"^^xsd:double ;
+    ewm:siltPct "20.0"^^xsd:double ;
+    ewm:sandPct "52.0"^^xsd:double ;
+    ewm:bulkDensityGcm3 "1.68"^^xsd:double ;
+    ewm:organicCarbonPct "0.25"^^xsd:double ;
+    ewm:cohesionKpa "45.0"^^xsd:double ;
+    ewm:frictionAngleDeg "34.0"^^xsd:double .
+
+ds:slga-stratum-6 a ewm:SoilStratum ;
+    rdfs:label "CSIRO SLGA Horizon 100-200cm" ;
+    ewm:stratumIndex "6"^^xsd:integer ;
+    ewm:horizonInterval "100-200cm" ;
+    ewm:clayPct "19.0"^^xsd:double ;
+    ewm:siltPct "16.0"^^xsd:double ;
+    ewm:sandPct "65.0"^^xsd:double ;
+    ewm:bulkDensityGcm3 "1.95"^^xsd:double ;
+    ewm:organicCarbonPct "0.08"^^xsd:double ;
+    ewm:cohesionKpa "80.0"^^xsd:double ;
+    ewm:frictionAngleDeg "38.0"^^xsd:double .
+
+ds:pct-3376 a ewm:PlantCommunityType ;
+    ewm:pctCode "PCT 3376" ;
+    rdfs:label "Southern Tableland Wet Sclerophyll Alpine Ash - Ribbon Gum Forest" ;
+    ewm:corridorZone "ForestCampsite" ;
+    ewm:indicatorSpecies "Eucalyptus delegatensis, Eucalyptus viminalis, Dicksonia antarctica, Poa sieberiana" ;
+    dcterms:source ds:nsw-seed-svtm-pct-metadata .
+
+ds:pct-3391 a ewm:PlantCommunityType ;
+    ewm:pctCode "PCT 3391" ;
+    rdfs:label "Snowy Mountains Montane Snow Gum - Black Sallee Woodland" ;
+    ewm:corridorZone "MontaneSlope" ;
+    ewm:indicatorSpecies "Eucalyptus pauciflora, Acacia dealbata, Poa sieberiana, Lomandra longifolia" ;
+    dcterms:source ds:nsw-seed-svtm-pct-metadata .
+
+ds:pct-3355 a ewm:PlantCommunityType ;
+    ewm:pctCode "PCT 3355" ;
+    rdfs:label "Southern Tableland Riparian Ribbon Gum - Silver Wattle Gallery Forest" ;
+    ewm:corridorZone "RiparianCreek" ;
+    ewm:indicatorSpecies "Eucalyptus viminalis, Acacia dealbata, Dicksonia antarctica, Lomandra longifolia" ;
+    dcterms:source ds:nsw-seed-svtm-pct-metadata .
+
+ds:pct-3373 a ewm:PlantCommunityType ;
+    ewm:pctCode "PCT 3373" ;
+    rdfs:label "South Western Slopes Blakely's Red Gum - Yellow Box Grassy Woodland" ;
+    ewm:corridorZone "TownOutskirtsCommunityGrounds" ;
+    ewm:indicatorSpecies "Eucalyptus blakelyi, Themeda triandra, Bursaria spinosa, Banksia marginata" ;
+    dcterms:source ds:nsw-seed-svtm-pct-metadata .
+

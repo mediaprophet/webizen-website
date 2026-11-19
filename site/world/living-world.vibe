@@ -7,22 +7,89 @@ pure fn clamp(v: f64, lo: f64, hi: f64) -> f64 {
     return math.min(hi, math.max(lo, v));
 }
 
-pure fn river_x(z: f64) -> f64 {
-    return math.sin(z * 0.044) * 10.0 + math.sin(z * 0.095) * 3.0;
+pure fn smoothstep(edge0: f64, edge1: f64, x: f64) -> f64 {
+    let t = clamp((x - edge0) / (edge1 - edge0), 0.0, 1.0);
+    return t * t * (3.0 - 2.0 * t);
 }
 
-pure fn natural_height(x: f64, z: f64) -> f64 {
-    let d = math.abs(x - river_x(z));
-    let bank = 1.0 - math.exp(-math.pow(d / 9.0, 2.0));
-    let noise = math.sin(x * 0.11 + z * 0.07) * 0.5
+pure fn river_x(z: f64) -> f64 {
+    let oz = smoothstep(65.0, 125.0, math.abs(z));
+    return math.sin(z * 0.044) * 10.0
+        + math.sin(z * 0.095) * 3.0
+        + oz * (math.sin(z * 0.0175) * 26.0 + math.sin(z * 0.0085 + 0.7) * 14.0);
+}
+
+pure fn core_noise(x: f64, z: f64) -> f64 {
+    return math.sin(x * 0.11 + z * 0.07) * 0.5
         + math.sin(x * 0.28 - z * 0.16) * 0.22
         + math.cos(z * 0.39 + x * 0.2) * 0.12
         + math.sin(x * 0.73 + z * 0.61) * 0.05;
+}
+
+pure fn core_height(x: f64, z: f64) -> f64 {
+    let d = math.abs(x - river_x(z));
+    let bank = 1.0 - math.exp(-math.pow(d / 9.0, 2.0));
+    let bank_ch = 1.0 - math.exp(-math.pow(d / 6.5, 2.0));
     let valley = 0.35 + bank * (2.4 + math.max(0.0, math.abs(x) - 15.0) * 0.22);
     let mountain = math.pow(math.max(0.0, (-z - 25.0) / 65.0), 1.4)
         * (7.0 + 12.0 * math.pow(math.sin(x * 0.055 + 1.2), 2.0));
-    return valley + mountain + noise * bank * (1.4 + mountain * 0.17)
+    let channel_gap = 1.0 - smoothstep(-34.0, -48.0, z) * (1.0 - bank_ch);
+    let m_masked = mountain * channel_gap;
+    return valley + m_masked + core_noise(x, z) * bank * (1.4 + m_masked * 0.17)
         - math.exp(-d * d / 16.0) * 1.4;
+}
+
+pure fn outer_height(x: f64, z: f64) -> f64 {
+    let rx = river_x(z);
+    let dx = x - rx;
+    let d = math.abs(dx);
+    let bend = -math.sin(z * 0.044) * 0.45 - math.sin(z * 0.0175) * 0.55;
+    let bend_mag = clamp(math.abs(bend), 0.0, 1.0);
+    let w_ch = 4.8 + 2.0 * math.pow(math.sin(z * 0.023 + 0.4), 2.0);
+    let cut_side = (dx * (-bend)) / (math.abs(dx) + 3.0);
+    let bank_scale = w_ch + 3.2 - 1.6 * cut_side;
+    let channel_t = smoothstep(2.0, bank_scale + 4.8, d);
+    let bed_y = -0.50 - 0.95 * bend_mag + 0.12 * math.sin(z * 0.19);
+    let point_bar = math.max(0.0, -cut_side) * math.exp(-math.pow((d - (w_ch + 1.8)) / 3.4, 2.0)) * 0.95;
+
+    let t1 = 1.95 + 0.55 * smoothstep(w_ch + 2.0, w_ch + 9.0, d);
+    let t2 = t1 + 2.15 * smoothstep(24.0, 35.0, d);
+    let flood_micro = 0.20 * math.sin(x * 0.07 + z * 0.05) + 0.10 * math.cos(x * 0.15 - z * 0.11);
+    let floodplain_y = t2 + flood_micro;
+
+    let slope_d = clamp((d - 46.0) / 220.0, 0.0, 1.25);
+    let woodland_base = 21.0 * math.pow(slope_d, 1.15);
+    let woodland_undulation = (2.5 * math.sin(x * 0.021 + 0.4) * math.cos(z * 0.019 - 0.3)
+        + 1.3 * math.sin(x * 0.047 - z * 0.039)
+        + 0.55 * core_noise(x * 0.55, z * 0.55)) * smoothstep(32.0, 75.0, d);
+
+    let n_rise = smoothstep(-95.0, -280.0, z);
+    let n_ridge_profile = 40.0 * math.pow(n_rise, 1.22) * (0.78 + 0.22 * math.sin(x * 0.018 + 1.1) * math.cos(x * 0.009));
+    let n_terrace = n_ridge_profile + 1.9 * math.sin(n_ridge_profile * 0.55) * n_rise * smoothstep(45.0, 90.0, d);
+
+    let e_headland_x = smoothstep(115.0, 275.0, x);
+    let e_headland_z = smoothstep(-140.0, 40.0, z) * (1.0 - 0.35 * smoothstep(200.0, 300.0, z));
+    let e_headland = 30.0 * e_headland_x * e_headland_z * (0.82 + 0.18 * math.cos(z * 0.025 - 0.5));
+    let e_bench = e_headland + 1.5 * math.sin(e_headland * 0.6) * e_headland_x;
+
+    let g_z_line = -55.0 + (x + 75.0) * 0.72;
+    let g_dist = math.abs(z - g_z_line);
+    let g_along = smoothstep(-68.0, -120.0, x) * (1.0 - smoothstep(-245.0, -295.0, x));
+    let g_carve = 10.5 * g_along * math.exp(-math.pow(g_dist / 26.0, 2.0));
+    let g_flank = 5.0 * g_along * math.exp(-math.pow((g_dist - 42.0) / 18.0, 2.0));
+
+    let slope_y = woodland_base + woodland_undulation + n_terrace + e_bench - g_carve + g_flank;
+    let land_y = floodplain_y + math.max(0.0, slope_y) * smoothstep(38.0, 72.0, d);
+    return bed_y + point_bar + (land_y - bed_y - point_bar) * channel_t;
+}
+
+pure fn natural_height(x: f64, z: f64) -> f64 {
+    let r = math.sqrt(x * x + z * z);
+    let s_outer = smoothstep(68.0, 112.0, r);
+    let c = core_height(x, z);
+    if s_outer <= 0.0 { return c; }
+    let o = outer_height(x, z);
+    return c + (o - c) * s_outer;
 }
 
 pure fn terrain_height(x: f64, z: f64) -> f64 {

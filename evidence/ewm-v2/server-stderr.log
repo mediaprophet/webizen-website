@@ -1,0 +1,568 @@
+127.0.0.1 - - [19/Nov/2026 19:12:35] "GET /publication/reading.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:36] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:36] "GET /intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:36] "GET /intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod1.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:36] "OPTIONS /intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod1.10d HTTP/1.1" 204 -
+127.0.0.1 - - [19/Nov/2026 19:12:37] "GET /?ewm=1 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /world/native.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /world/gl-debug.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /world/loader.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /world/loader.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /world/loader-art.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /pkg/native-world/webizen_world.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /pkg/native-world/webizen_world_bg.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /world/living-world.vibe HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /pkg/native-world/runtime-identity.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:38] "GET /publication/world.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:48] "GET /data/ewm/catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:48] "GET /data/ewm/species-catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:48] "GET /data/ewm/cosmos-catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:48] "GET /production/lush-woodland/scene.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:48] "GET /production/lush-woodland/water.bin HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:48] "GET /data/ewm/camp.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:49] "GET /production/aaa-proof/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/aaa-proof/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/solar-array-three--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/car-passat-b7--gold.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/vintage-windup-camper--ochre.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/vintage-windup-camper--enamel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/vintage-windup-camper--canvas-seam.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/vintage-windup-camper--amber-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/native-world/assets/vintage-windup-camper--canvas-roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:50] "GET /production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:52] "GET /production/native-world/assets/car-passat-b7--glass.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:52] "GET /production/native-world/assets/vintage-windup-camper--chassis.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:52] "GET /packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:52] "GET /production/native-world/assets/vintage-windup-camper--steel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/vintage-windup-camper--roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/car-passat-b7--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/starlink-mini--dish-front.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/vintage-windup-camper--step.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/vintage-windup-camper--olive.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/aaa-proof/assets/prototype-eucalyptus-lush-mid-0973a52d81b0.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/vintage-windup-camper--red-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/vintage-windup-camper--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:53] "GET /production/native-world/assets/vintage-windup-camper--screen-wire.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:54] "GET /production/native-world/assets/vintage-windup-camper--screen.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:54] "GET /production/native-world/assets/vintage-windup-camper--canvas.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:54] "GET /production/native-world/assets/vintage-windup-camper--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:59] "GET /world/asset-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:59] "GET /data/publications/aaa/catalogue.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:59] "GET /data/ewm/places/field-studio.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:59] "GET /data/publications/aaa/schemaorg-30-current-https.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:12:59] "GET /production/native-world/assets/solar-array-three--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:12:59] "GET /production/native-world/assets/car-passat-b7--gold.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /data/publications/aaa/rights-fixtures.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /production/native-world/assets/vintage-windup-camper--ochre.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /data/publications/aaa/space/vectors.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /production/native-world/assets/vintage-windup-camper--enamel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /data/ewm/places/se-australia-catchment.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /production/native-world/assets/vintage-windup-camper--canvas-seam.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:00] "GET /data/publications/aaa-production/catalogue.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:01] "GET /production/native-world/assets/vintage-windup-camper--amber-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:01] "GET /production/native-world/assets/vintage-windup-camper--canvas-roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:01] "GET /production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:02] "GET /production/native-world/assets/car-passat-b7--glass.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:02] "GET /production/native-world/assets/vintage-windup-camper--chassis.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:02] "GET /packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/vintage-windup-camper--steel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/vintage-windup-camper--roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/car-passat-b7--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/starlink-mini--dish-front.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/vintage-windup-camper--step.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/vintage-windup-camper--olive.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/aaa-proof/assets/prototype-eucalyptus-lush-mid-0973a52d81b0.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/vintage-windup-camper--red-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:03] "GET /production/native-world/assets/vintage-windup-camper--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/vintage-windup-camper--screen-wire.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/vintage-windup-camper--screen.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/vintage-windup-camper--canvas.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/vintage-windup-camper--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-opt.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-desk.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-laptop.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-laptop-lid.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-shirt.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-shorts.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/field-studio-operator-hair.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/car-passat-b7--alloy.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/car-passat-b7--brake.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/car-passat-b7--lamp.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/car-passat-b7--lamp-interior.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:04] "GET /production/native-world/assets/car-passat-b7--plate.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/car-passat-b7--projector.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/car-passat-b7--red.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/car-passat-b7--roofbox.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/car-passat-b7--roofbox-base.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/car-passat-b7--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/car-passat-b7--trim.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/solar-array-three--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/solar-array-three--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/solar-array-three--cell-line.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/solar-array-three--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/solar-array-two--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:05] "GET /production/native-world/assets/solar-array-two--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/solar-array-two--cell-line.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/solar-array-two--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/solar-array-two--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/starlink-mini--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/starlink-mini--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/starlink-mini--dish-back.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/starlink-mini--mount.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/starlink-mini--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/canopy--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/canopy--limestone.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/canopy--timber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:06] "GET /production/native-world/assets/tidal-vessel--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:07] "GET /production/native-world/assets/tidal-vessel--limestone.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:07] "GET /production/native-world/assets/tidal-vessel--verdigris.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:07] "GET /production/native-world/assets/memory-frond--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:07] "GET /production/native-world/assets/memory-frond--leaf.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:13:15] "GET /data/ewm/places/se-australia-catchment.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/terrain-v2/catchment-600m-lod0.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-three--backing.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-three--aluminium.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-three--rubber.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-three--cell-line.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-two--aluminium.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-two--backing.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-two--cell-line.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-two--rubber.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/solar-array-two--panel.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/starlink-mini--aluminium.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/starlink-mini--backing.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/starlink-mini--dish-back.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/starlink-mini--mount.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/starlink-mini--rubber.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/canopy--bronze.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/canopy--limestone.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/canopy--timber.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/terrain-v2/catchment-600m-water.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-opt.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-desk.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-laptop.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-shirt.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-laptop-lid.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-shorts.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/field-studio-operator-hair.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--alloy.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--brake.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--lamp.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--lamp-interior.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--plate.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--projector.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--red.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/tidal-vessel--bronze.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/tidal-vessel--limestone.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/tidal-vessel--verdigris.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/memory-frond--bronze.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/memory-frond--leaf.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--roofbox.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--roofbox-base.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--rubber.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /production/native-world/assets/car-passat-b7--trim.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod2.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:17] "GET /intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-aboveground-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:19] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:19] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:19] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:19] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:19] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:19] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:19] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:19] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:23] "GET /production/terrain-v2/textures/sha256/cbfbdc9f89885b2390146928156051a8d1262f89218f100f7f422e329bf016b0 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:23] "GET /production/terrain-v2/textures/sha256/46fdc63a6bcabd92f1866ba468aa4dd823fadb75a07e9c662fd5caa897460e4d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:23] "GET /production/terrain-v2/textures/sha256/76f910055e78df16e951bff7f51bffee7906e21783c547f4e2e618572392f5ba HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:23] "GET /production/terrain-v2/textures/sha256/7e878f0e92d3170e8b772ebc1a1c154cfc08ebb05ad46fafa09dc4ca541667e1 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:23] "GET /production/terrain-v2/textures/sha256/0d401a9d9964c6f46d70708bb77b88243c52568a39be5b525f8b37a311b7df5d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:23] "GET /production/terrain-v2/textures/sha256/0c5a7cb018dc82971a19d7e2d530d9626491770e8e273879f8854d155877baca HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:34] "GET /intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-rhizosphere.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:36] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:55] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/themeda-triandra/dist/lods/themeda-triandra-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:56] code 404, message File not found
+127.0.0.1 - - [19/Nov/2026 19:13:56] "GET /intenteco/poa-labillardierei/dist/lods/poa-labillardierei-rhizosphere.10d HTTP/1.1" 404 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /?ewm=1&backend=webgl2 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /world/native.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /world/loader.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /world/gl-debug.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /world/loader.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /world/loader-art.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:57] "GET /pkg/native-world/webizen_world.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:58] "GET /pkg/native-world/webizen_world_bg.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:58] "GET /world/living-world.vibe HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:58] "GET /pkg/native-world/runtime-identity.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:13:58] "GET /publication/world.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:08] "GET /data/ewm/catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:08] "GET /data/ewm/species-catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:08] "GET /data/ewm/cosmos-catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:08] "GET /production/lush-woodland/scene.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:09] "GET /production/lush-woodland/water.bin HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:09] "GET /data/ewm/camp.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:09] "GET /production/aaa-proof/textures/6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:09] "GET /production/aaa-proof/textures/7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:09] "GET /production/aaa-proof/textures/ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:10] "GET /production/aaa-proof/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:17] "GET /world/asset-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:17] "GET /data/publications/aaa/catalogue.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:17] "GET /data/ewm/places/field-studio.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:17] "GET /data/publications/aaa/schemaorg-30-current-https.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:17] "GET /production/native-world/assets/solar-array-three--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:18] "GET /data/publications/aaa/rights-fixtures.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:18] "GET /production/native-world/assets/car-passat-b7--gold.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:18] "GET /data/publications/aaa/space/vectors.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:18] "GET /production/native-world/assets/vintage-windup-camper--ochre.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:19] "GET /data/ewm/places/se-australia-catchment.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:19] "GET /production/native-world/assets/vintage-windup-camper--enamel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:19] "GET /data/publications/aaa-production/catalogue.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:20] "GET /production/native-world/assets/vintage-windup-camper--canvas-seam.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:20] "GET /production/native-world/assets/vintage-windup-camper--amber-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:20] "GET /production/native-world/assets/vintage-windup-camper--canvas-roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:20] "GET /production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:21] "GET /production/native-world/assets/car-passat-b7--glass.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:21] "GET /production/native-world/assets/vintage-windup-camper--chassis.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/vintage-windup-camper--steel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/vintage-windup-camper--roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/car-passat-b7--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/starlink-mini--dish-front.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/vintage-windup-camper--step.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/vintage-windup-camper--olive.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/aaa-proof/assets/prototype-eucalyptus-lush-mid-0973a52d81b0.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/vintage-windup-camper--red-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:22] "GET /production/native-world/assets/vintage-windup-camper--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/vintage-windup-camper--screen-wire.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/vintage-windup-camper--screen.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/vintage-windup-camper--canvas.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/vintage-windup-camper--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-opt.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-desk.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-laptop.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-laptop-lid.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-shirt.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-shorts.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/field-studio-operator-hair.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/car-passat-b7--alloy.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/car-passat-b7--brake.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:23] "GET /production/native-world/assets/car-passat-b7--lamp.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--lamp-interior.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--plate.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--projector.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--red.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--roofbox.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--roofbox-base.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/car-passat-b7--trim.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-three--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-three--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-three--cell-line.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-three--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-two--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-two--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-two--cell-line.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-two--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:24] "GET /production/native-world/assets/solar-array-two--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/starlink-mini--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/starlink-mini--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/starlink-mini--dish-back.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/starlink-mini--mount.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/starlink-mini--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/canopy--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/canopy--limestone.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/canopy--timber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/tidal-vessel--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/tidal-vessel--limestone.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:25] "GET /production/native-world/assets/tidal-vessel--verdigris.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:26] "GET /production/native-world/assets/memory-frond--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:26] "GET /production/native-world/assets/memory-frond--leaf.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:14:30] "GET /data/ewm/places/se-australia-catchment.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:36] "GET /production/terrain-v2/textures/sha256/cbfbdc9f89885b2390146928156051a8d1262f89218f100f7f422e329bf016b0 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:36] "GET /production/terrain-v2/textures/sha256/46fdc63a6bcabd92f1866ba468aa4dd823fadb75a07e9c662fd5caa897460e4d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:36] "GET /production/terrain-v2/textures/sha256/76f910055e78df16e951bff7f51bffee7906e21783c547f4e2e618572392f5ba HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:36] "GET /production/terrain-v2/textures/sha256/7e878f0e92d3170e8b772ebc1a1c154cfc08ebb05ad46fafa09dc4ca541667e1 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:36] "GET /production/terrain-v2/textures/sha256/0d401a9d9964c6f46d70708bb77b88243c52568a39be5b525f8b37a311b7df5d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:36] "GET /production/terrain-v2/textures/sha256/0c5a7cb018dc82971a19d7e2d530d9626491770e8e273879f8854d155877baca HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:46] "GET /?ewm=1&backend=webgl2 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:46] "GET /world/native.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:46] "GET /world/loader.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:46] "GET /world/gl-debug.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:46] "GET /world/loader.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:47] "GET /world/loader-art.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:47] "GET /pkg/native-world/webizen_world.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:47] "GET /pkg/native-world/webizen_world_bg.wasm HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:47] "GET /world/living-world.vibe HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:47] "GET /pkg/native-world/runtime-identity.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:47] "GET /publication/world.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:50] "GET /data/ewm/catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:50] "GET /data/ewm/species-catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:50] "GET /data/ewm/cosmos-catalog.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:50] "GET /production/lush-woodland/scene.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:50] "GET /production/lush-woodland/water.bin HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:50] "GET /data/ewm/camp.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/6db9a283cfb80f45cabeb29d41c95ab801439cd93c9559a998f9e3e41ff9571d.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/7aeeb8f212b1c7414aca532ff82403c2de824fd5fe186d7b0405af2ea76a3112.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/ce751beab59466c30bce318cd67227f4505ce7ad615c41b94766e961beb4c382.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/4e72c3e1ff7ad973e3b646f3c562321d63c0e884f37eb2c821885879c52a3182.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/c58b0f6364fe86fef0f2093c58781c5bc29f62070be34d6dda4bc106276b8af6.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/f95ea8ba2c3106d9ffc0478c56501149f0c2b5ad4bb4efc3e8b84b4c2fd59573.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:51] "GET /production/aaa-proof/textures/fbb08ae36713324a60163524d7d34a8fcb56cb08767cc5a749b5ded89a4df37e.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/002b9fe98b22ffa670b92c95ffe5d98e23ae3967ee2ef01b900f93b7f5f9c789.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/10dfb1394995650797cf12375dcec2afa48739d57d7a46c588128ded95638ac5.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/0e5c183727fbe034b05cc9e8f86f89a18443d22f593a677774d744dff1b813db.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/29d21ed68653800c2941c298092c90ea6e6f8d42b590233e34fbbcb9a4d8dc72.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/e1cbd060c122e0f2ca9aa19d53160463a3a7df413b4120ed47197a985ac9b58f.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/10375a5438fda98f05824377eff9ed836a6be98f6c256fc8c18c14919813bc4e.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/b76d2b524a7104cc82ebdc99f0da05057e03d0df8db3ea9ae87e467e5f5cbbda.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/6eff3d0e194bba15f3a466e78a1acfff502e5756c0996ddc513d130ddcfe8f32.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/3ef70d57430c96395506e88d157ab2564436e9b4a40592fd4ede24a8bdf4ddb7.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/5101ff8a4b8333e241ee2fc7a349d3301d1bc0cb06703175605709d250a1efb4.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:14:52] "GET /production/aaa-proof/textures/f2d43a6ba1b5852e8a254e20f428ef80652ed6513efe0401e50c3ff92b81a352.png HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:00] "GET /world/asset-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:00] "GET /data/publications/aaa/catalogue.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:00] "GET /data/ewm/places/field-studio.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:00] "GET /data/publications/aaa/schemaorg-30-current-https.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:00] "GET /production/native-world/assets/solar-array-three--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:01] "GET /data/publications/aaa/rights-fixtures.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:01] "GET /production/native-world/assets/car-passat-b7--gold.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:01] "GET /data/publications/aaa/space/vectors.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:01] "GET /production/native-world/assets/vintage-windup-camper--ochre.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:02] "GET /data/ewm/places/se-australia-catchment.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:02] "GET /production/native-world/assets/vintage-windup-camper--enamel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:02] "GET /data/publications/aaa-production/catalogue.json HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:02] "GET /production/native-world/assets/vintage-windup-camper--canvas-seam.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:02] "GET /production/native-world/assets/vintage-windup-camper--amber-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:03] "GET /production/native-world/assets/vintage-windup-camper--canvas-roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:03] "GET /production/aaa-proof/assets/habitat-terrain-943e1673baf4.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:04] "GET /production/native-world/assets/car-passat-b7--glass.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:04] "GET /production/native-world/assets/vintage-windup-camper--chassis.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:04] "GET /packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/vintage-windup-camper--steel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/vintage-windup-camper--roof.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/car-passat-b7--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/starlink-mini--dish-front.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/vintage-windup-camper--step.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/vintage-windup-camper--olive.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/aaa-proof/assets/prototype-eucalyptus-lush-mid-0973a52d81b0.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/vintage-windup-camper--red-lens.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:05] "GET /production/native-world/assets/vintage-windup-camper--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/vintage-windup-camper--screen-wire.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/vintage-windup-camper--screen.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/vintage-windup-camper--canvas.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/vintage-windup-camper--chrome.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-opt.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-desk.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-laptop.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-laptop-lid.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-shirt.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-shorts.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/field-studio-operator-hair.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/car-passat-b7--alloy.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:06] "GET /production/native-world/assets/car-passat-b7--brake.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--lamp.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--lamp-interior.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--plate.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--projector.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--red.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--roofbox.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--roofbox-base.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/car-passat-b7--trim.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/solar-array-three--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/solar-array-three--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/solar-array-three--cell-line.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:07] "GET /production/native-world/assets/solar-array-three--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/solar-array-two--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/solar-array-two--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/solar-array-two--cell-line.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/solar-array-two--panel.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/solar-array-two--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/starlink-mini--aluminium.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/starlink-mini--backing.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/starlink-mini--dish-back.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/starlink-mini--mount.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/starlink-mini--rubber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/canopy--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/canopy--limestone.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:08] "GET /production/native-world/assets/canopy--timber.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:09] "GET /production/native-world/assets/tidal-vessel--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:09] "GET /production/native-world/assets/tidal-vessel--limestone.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:09] "GET /production/native-world/assets/tidal-vessel--verdigris.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:09] "GET /production/native-world/assets/memory-frond--bronze.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:09] "GET /production/native-world/assets/memory-frond--leaf.10d HTTP/1.1" 206 -
+127.0.0.1 - - [19/Nov/2026 19:15:14] "GET /data/ewm/places/se-australia-catchment.q42 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:15] "GET /production/terrain-v2/catchment-600m-lod1.10d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:23] "GET /production/terrain-v2/textures/sha256/cbfbdc9f89885b2390146928156051a8d1262f89218f100f7f422e329bf016b0 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:24] "GET /production/terrain-v2/textures/sha256/46fdc63a6bcabd92f1866ba468aa4dd823fadb75a07e9c662fd5caa897460e4d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:24] "GET /production/terrain-v2/textures/sha256/76f910055e78df16e951bff7f51bffee7906e21783c547f4e2e618572392f5ba HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:24] "GET /production/terrain-v2/textures/sha256/7e878f0e92d3170e8b772ebc1a1c154cfc08ebb05ad46fafa09dc4ca541667e1 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:24] "GET /production/terrain-v2/textures/sha256/0d401a9d9964c6f46d70708bb77b88243c52568a39be5b525f8b37a311b7df5d HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:24] "GET /production/terrain-v2/textures/sha256/0c5a7cb018dc82971a19d7e2d530d9626491770e8e273879f8854d155877baca HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 19:15:34] "GET /publication/reading.html HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59188)
+Exception occurred during processing of request from ('127.0.0.1', 60087)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 687, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 687, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 451, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 419, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 723, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 451, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 419, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+----------------------------------------
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 723, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------

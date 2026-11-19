@@ -1,0 +1,578 @@
+{
+  "schema": "webizen.ewm-v2-work-packages/v1",
+  "version": "2026-11-19.1",
+  "repository": "C:\\github\\webizen-website",
+  "upstream_species_root": "C:\\github\\eco-intent",
+  "upstream_species_org": "https://github.com/intenteco",
+  "governing_plan": "C:\\github\\webizen-website\\plans\\ewm-v2\\EXTENSIBLE-WORLD-COSMOS-PLAN.md",
+  "status": "completed",
+  "gate_verdict": "PASS",
+  "gate_report": "C:\\github\\webizen-website\\plans\\ewm-v2\\gate-reports\\wave10-streaming-hud-diagnostics-gate.md",
+  "verified_wasm_build": {
+    "webizen_world_bg_wasm_bytes": 21286792,
+    "webizen_world_bg_wasm_sha256": "61fb1171a267867b35fd74aca13e19eb82d9ecfb73d731343414004783422a79",
+    "webizen_world_js_sha256": "aadf9e3ca0f5797b78beb1974b8107dd25c89ef397306154a14651d3afc9c185",
+    "qualified_bundle_id": "d52422bf2078a69117cec76594b66a4e1eea1d1b0fddcf45889ae7a7cc4656b6"
+  },
+  "verified_tests": {
+    "ewm_contract_suite": { "ran": 72, "passed": 72, "failed": 0 },
+    "pure_rust_unit_tests": { "ran": 67, "failed": 0 },
+    "intenteco_publish_verifier": { "repos": 17, "lods": 73, "passed": true },
+    "q42_catalog_quins": {
+      "species_catalog_17_taxa": 1664,
+      "human_anatomy": 693,
+      "nsw_act_ecopunk_sources": 232,
+      "corridor_gis_botany": 260,
+      "cosmos_catalog": 147,
+      "se_australia_catchment": 7332
+    }
+  },
+  "graphics_backends": ["webgpu", "webgl2", "html-reading-fallback"],
+  "subagent_roles": [
+    {
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "recommended_model": "Strong (Pro / Neon)",
+      "responsibility": "Rust/WASM runtime architecture in native/world-host: WebGPU+WebGL2 capability tiering, remote content-addressed web asset resolver, incremental add/drop GPU eviction, and hierarchical World-to-Cosmos OCS floating-origin frames."
+    },
+    {
+      "role": "asset-lod-pipeline-engineer",
+      "model_tier": "flash",
+      "recommended_model": "Fast (Hydrogen / Flash)",
+      "responsibility": "Deterministic Synth CLI multi-LOD (.10d) & mobile texture compilation for all 13 eco-intent species, above-ground vs subterranean root/mycelium split, and .q42 species catalog generation."
+    },
+    {
+      "role": "terrain-geodesy-specialist",
+      "model_tier": "flash",
+      "recommended_model": "Fast (Hydrogen / Flash)",
+      "responsibility": "Upgraded 600m x 600m SE Australian catchment terrain (.10d/.m64), PBR soil/rock/water shaders, upgraded campsite/bridge/station assets, and 4-bioregion regional DEM tile packs."
+    },
+    {
+      "role": "gameplay-ux-engineer",
+      "model_tier": "flash",
+      "recommended_model": "Medium/Fast (Hydrogen / Flash)",
+      "responsibility": "Terrain-conforming walk/fly/observe locomotion, mobile touch joysticks, ecological placement of all 13 species, fauna behavioral loops + spatial .qac audio, rhizosphere/mycelium X-ray lens, and Q42 SPARQL species inspection cards."
+    },
+    {
+      "role": "dual-backend-qa-gate",
+      "model_tier": "inherit",
+      "recommended_model": "Strong (Pro / Neon)",
+      "responsibility": "Independent build, unit test, and 3-profile browser verification (Desktop WebGPU, Desktop WebGL2 forced, Mobile WebGL2 touch emulation) plus HTML no-GPU fallback audit and screenshot review."
+    }
+  ],
+  "waves": [
+    {
+      "wave": 1,
+      "name": "Foundation — Dual-Backend Parity, 13-Species Multi-LOD Pipeline & Upgraded Terrain",
+      "packages": ["WEB-WP-01", "WEB-WP-02", "WEB-WP-03"],
+      "parallel": true
+    },
+    {
+      "wave": 2,
+      "name": "Extensibility & Scale — Remote Web Asset Resolver, Incremental Add/Drop & World-to-Cosmos OCS",
+      "packages": ["WEB-WP-04", "WEB-WP-05", "WEB-WP-06"],
+      "parallel": true
+    },
+    {
+      "wave": 3,
+      "name": "Playable Living World — Locomotion, Mobile Touch, Fauna AI, Spatial Audio & Rhizosphere Lens",
+      "packages": ["WEB-WP-07", "WEB-WP-08"],
+      "parallel": true
+    },
+    {
+      "wave": 4,
+      "name": "Dual-Backend Qualification & Release Gate",
+      "packages": ["WEB-WP-09"],
+      "parallel": false
+    },
+    {
+      "wave": 5,
+      "name": "Live GPU Scene Integration, Engine Fixes & Experience Polish",
+      "packages": ["WEB-WP-10", "WEB-WP-11", "WEB-WP-12", "WEB-WP-13"],
+      "parallel": true
+    },
+    {
+      "wave": 6,
+      "name": "Final Live-World Dual-Backend Visual & Publishing Gate",
+      "packages": ["WEB-WP-14"],
+      "parallel": false
+    },
+    {
+      "wave": 7,
+      "name": "NSW/EcoPunk Multi-Tile World, New Forest + Groundcover, Slope Roots & Human Anatomy",
+      "packages": ["WEB-WP-15", "WEB-WP-15B", "WEB-WP-15C", "WEB-WP-16", "WEB-WP-17"],
+      "parallel": true
+    },
+    {
+      "wave": 8,
+      "name": "Playable Human Character, Drivable Passat + Towed Camper & Unified HUD",
+      "packages": ["WEB-WP-18", "WEB-WP-19", "WEB-WP-20"],
+      "parallel": true
+    },
+    {
+      "wave": 9,
+      "name": "Full Interactive World, Character, Vehicle & Dual-Backend QA Gate",
+      "packages": ["WEB-WP-21"],
+      "parallel": false
+    }
+  ],
+  "packets": [
+    {
+      "id": "WEB-WP-01",
+      "wave": 1,
+      "title": "WebGPU + WebGL2 Capability Tiering & Backend Parity",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": [],
+      "owned_paths": [
+        "native/world-host/src/runtime/graphics.rs",
+        "native/world-host/src/runtime/boot.rs",
+        "native/world-host/src/runtime/frame_telemetry.rs"
+      ],
+      "deliverables": [
+        "Automatic GPU capability probing assigning TierA (Desktop WebGPU), TierB (Desktop WebGL2 / Mobile WebGPU), and TierC (Mobile WebGL2)",
+        "Query flag ?backend=webgl2 for deterministic WebGL2 fallback testing on desktop",
+        "Tier-aware triangle, texture resolution, shadow map, and DPR caps published to window.__webizenNativeInit",
+        "Unit tests verifying tier selection and safe fallback to /publication/reading.html when neither API is available"
+      ],
+      "acceptance": "Both WebGPU and forced WebGL2 initialize cleanly with honest selected_backend telemetry and zero unhandled shader/buffer errors."
+    },
+    {
+      "id": "WEB-WP-02",
+      "wave": 1,
+      "title": "13-Species intenteco Multi-LOD & Mobile Pack Pipeline",
+      "role": "asset-lod-pipeline-engineer",
+      "model_tier": "flash",
+      "depends_on": [],
+      "owned_paths": [
+        "production/species-cohort/",
+        "data/ewm/species-catalog.ttl",
+        "data/ewm/species-catalog.q42"
+      ],
+      "deliverables": [
+        "Deterministic Python + Synth CLI pipeline generating LOD0/LOD1/LOD2 .10d assets inside each species repo (C:\\github\\eco-intent\\<species-slug>\\dist\\lods\\) without duplicating binaries into webizen-website Git history",
+        "Split above-ground vs subterranean root+mycelium .10d layers for the 7 flora species so rhizosphere X-ray toggles cleanly",
+        "Lightweight data/ewm/species-catalog.ttl & data/ewm/species-catalog.q42 committed to webizen-website with did:q42 taxon IRIs, pinned intenteco repo/ref, SHA-256 digests, AABBs, and logical /intenteco/<slug>/... + remote raw.githubusercontent.com/intenteco/... URLs",
+        "Local dev mount in tooling/world_server.py mapping /intenteco/<species-slug>/ directly to C:\\github\\eco-intent\\<species-slug>\\ for zero-copy local testing"
+      ],
+      "acceptance": "All 13 species compile to verified LOD0/LOD1/LOD2 .10d packages within TierA/B/C triangle and byte budgets and query cleanly via SPARQL."
+    },
+    {
+      "id": "WEB-WP-03",
+      "wave": 1,
+      "title": "Upgraded 600m Catchment Terrain, Water & Regional Bioregion Tiles",
+      "role": "terrain-geodesy-specialist",
+      "model_tier": "flash",
+      "depends_on": [],
+      "owned_paths": [
+        "production/terrain-v2/",
+        "production/campsite/",
+        "site/world/living-world.vibe",
+        "data/ewm/gis/"
+      ],
+      "deliverables": [
+        "High-detail 600m x 600m SE Australian river catchment heightfield (.10d + .m64) with floodplain, creek banks, pebble bars, and sandstone/granite ridges",
+        "Multi-material PBR terrain splatting (alluvial silt, mossy bank, leaf litter, rocky outcrop) compatible with WebGPU and WebGL2",
+        "Upgraded campsite, footbridge, and field station assets re-anchored to the new heightfield",
+        "4-bioregion regional DEM tile pack (Northern Rivers, Sydney Basin, Snowy Mountains, Victorian Highlands) via native/data-pack-builder"
+      ],
+      "acceptance": "Terrain renders without winding/seam artifacts on WebGPU and WebGL2, with deterministic heightAt(x, z) parity between VibeScript and rendered mesh."
+    },
+    {
+      "id": "WEB-WP-04",
+      "wave": 2,
+      "title": "Content-Addressed Web Asset Resolver & OPFS/Cache Layer",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-01", "WEB-WP-02"],
+      "owned_paths": [
+        "native/world-host/src/runtime/admission.rs",
+        "native/world-host/src/runtime/stream/mod.rs",
+        "native/world-host/src/runtime/catalog.rs",
+        "data/ewm/origins-allowlist.json"
+      ],
+      "deliverables": [
+        "Multi-source content-addressed URL resolver supporting: (1) zero-CORS same-origin static/GitHub-Pages paths (/production/, /packages/), (2) CORS-enabled remote mirrors (raw.githubusercontent.com/intenteco/* and future Cloudflare R2/Webizen Host CORS+Range endpoints, explicitly avoiding non-CORS github.com/releases redirects), and (3) digest-addressed mirror fallback",
+        "Mandatory SHA-256/SHA-384 + binary magic (.10d/.q42/.emf/.m64/.qac) admission gate and NetworkDisclosureRegistry logging",
+        "Browser Cache API / OPFS local persistence layer with graceful fallback in private browsing",
+        "EWM streaming enabled by default (with ?ewm=0 fallback)"
+      ],
+      "acceptance": "Remote and local catalog assets fetch, verify cryptographically, cache locally, and reject tampered hashes or non-allowlisted origins."
+    },
+    {
+      "id": "WEB-WP-05",
+      "wave": 2,
+      "title": "Dynamic Scene Add/Drop, LOD Switching & Incremental GPU Eviction",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-01", "WEB-WP-02", "WEB-WP-04"],
+      "owned_paths": [
+        "native/world-host/src/runtime/stream/selection.rs",
+        "native/world-host/src/runtime/stream/unload.rs",
+        "native/world-host/src/runtime/instances.rs"
+      ],
+      "deliverables": [
+        "Incremental GPU add/drop scene-part eviction replacing full omit-and-rebuild stalls",
+        "Tier-bounded LRU GPU memory manager (TierA 384 MiB, TierB 192 MiB, TierC 96 MiB)",
+        "Camera-distance + frustum hysteresis LOD switching (LOD2 <-> LOD1 <-> LOD0) and in-flight fetch cancellation on rapid travel",
+        "InstanceState64 seed-driven GPU instancing for diverse woodland stands from shared species prototypes"
+      ],
+      "acceptance": "Moving across tiles and switching places dynamically adds entering assets, drops exiting assets, and keeps GPU memory flat without frame stalls."
+    },
+    {
+      "id": "WEB-WP-06",
+      "wave": 2,
+      "title": "Hierarchical World-to-Cosmos OCS Frame Tree & Floating Origin",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-01", "WEB-WP-03", "WEB-WP-04"],
+      "owned_paths": [
+        "native/world-host/src/runtime/ocs_frames.rs",
+        "native/world-host/src/runtime/gis_join.rs",
+        "data/ewm/frames/",
+        "data/ewm/cosmos-catalog.q42"
+      ],
+      "deliverables": [
+        "Generalized OCS Frame Tree supporting Local ENU -> Planetary WGS84/ECEF -> Heliocentric ICRF -> Extensible Cosmos frames",
+        "f64 world-space camera and object coordinates with camera-relative f32 floating-origin rebasing",
+        "Earth planetary globe handoff + JPL Horizons Earth/Moon/Mars orbital ephemeris integration (data/ewm/cosmos-catalog.q42)",
+        "Unit tests verifying continuous frame transforms without f32 jitter across 10 orders of magnitude"
+      ],
+      "acceptance": "Smooth camera scale transition from 1m leaf inspection to 600m catchment to Earth globe to Solar System orbit with zero jitter."
+    },
+    {
+      "id": "WEB-WP-07",
+      "wave": 3,
+      "title": "Playable Locomotion, Ground Physics & Mobile Touch Controls",
+      "role": "gameplay-ux-engineer",
+      "model_tier": "flash",
+      "depends_on": ["WEB-WP-03", "WEB-WP-05", "WEB-WP-06"],
+      "owned_paths": [
+        "native/world-host/src/runtime/locomotion.rs",
+        "native/world-host/src/runtime/input.rs",
+        "native/world-host/src/runtime/play.rs",
+        "native/world-host/src/runtime/ui.rs",
+        "site/world/native.css"
+      ],
+      "deliverables": [
+        "Three movement modes: Walk/Explore (terrain-conforming height + slope/water clamping), Fly/Glide (catchment-to-orbit), and Observe/Orbit",
+        "Desktop controls (WASD/Arrows, mouse look, Shift sprint, Space jump/ascend, E interact) and mobile touch controls (virtual thumbstick, drag-look, tap-to-walk/inspect)",
+        "Full keyboard-only accessibility and prefers-reduced-motion compliance"
+      ],
+      "acceptance": "Visitors can smoothly walk the entire catchment, climb ridges, wade creeks, fly into orbit, and interact via desktop or mobile touch."
+    },
+    {
+      "id": "WEB-WP-08",
+      "wave": 3,
+      "title": "Living Biosphere Ecology, Fauna Behaviors, Spatial Audio & Rhizosphere Lens",
+      "role": "gameplay-ux-engineer",
+      "model_tier": "flash",
+      "depends_on": ["WEB-WP-02", "WEB-WP-03", "WEB-WP-05", "WEB-WP-07"],
+      "owned_paths": [
+        "production/lush-woodland/assemble_world.py",
+        "data/ewm/places/",
+        "native/world-host/src/runtime/instruments/",
+        "native/world-host/src/runtime/macros.rs"
+      ],
+      "deliverables": [
+        "Ecologically zoned placement of all 13 SE Australian species across the 600m catchment",
+        "Deterministic fauna behavioral state machines (grazing/alert/foraging/perching) + WebAudio spatial playback of species .qac vocalizations",
+        "Rhizosphere & Mycelium X-Ray Lens toggling subterranean ground transparency to display 5-order root plates, 3D mycelial cords, and .emf bio-electric fields",
+        "Click-to-inspect Q42 SPARQL Species Cards showing taxonomy, Country provenance, InstanceState64 state, and direct .hmc/.q42 downloads"
+      ],
+      "acceptance": "All 13 species inhabit their authentic ecological niches, fauna animate and vocalize on opt-in audio, and the Rhizosphere Lens cleanly reveals subterranean root+mycelium networks."
+    },
+    {
+      "id": "WEB-WP-09",
+      "wave": 4,
+      "title": "Dual-Backend (WebGPU + WebGL2 + Mobile) Visual & Streaming QA Gate",
+      "role": "dual-backend-qa-gate",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-07", "WEB-WP-08"],
+      "owned_paths": [
+        "tests/ewm-v2/",
+        "evidence/ewm-v2/",
+        "plans/ewm-v2/gate-reports/"
+      ],
+      "deliverables": [
+        "Full Rust/WASM build and cargo test pass across native/world-host",
+        "Automated Chromium verification across 3 profiles: Desktop WebGPU (TierA), Desktop WebGL2 forced (?backend=webgl2, TierB), and Mobile WebGL2 touch emulation (TierC)",
+        "Visual screenshot inspection of catchment, species closeups, Rhizosphere X-Ray Lens, dynamic add/drop streaming telemetry, and Earth-to-Orbit transition",
+        "Verification of /publication/reading.html no-GPU fallback and formal PASS/REJECT gate report"
+      ],
+      "acceptance": "All 3 GPU profiles + HTML fallback pass visual, performance, memory-eviction, and cryptographic integrity gates."
+    },
+    {
+      "id": "WEB-WP-10",
+      "wave": 5,
+      "title": "Live GPU Scene Activation — 600m Catchment + 13-Species Streaming Loop",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-09"],
+      "owned_paths": [
+        "native/world-host/src/runtime/boot.rs",
+        "native/world-host/src/runtime/stream/mod.rs",
+        "native/world-host/src/runtime/stream/unload.rs",
+        "native/world-host/src/runtime/play.rs"
+      ],
+      "deliverables": [
+        "Wire se-australia-catchment.q42 (317 instances) and species-catalog.q42 into the active boot + streaming GPU upload loop so all 13 intenteco species render live from /intenteco/<slug>/dist/lods/ (or remote raw.githubusercontent.com/intenteco/*) under TierA/B/C budgets",
+        "Activate catchment-600m-lod0.10d / lod1.10d + catchment-600m-water.10d + 1024px PBR maps in the live first-paint scene",
+        "Connect live Observe/Walk/Fly buttons, mobile touch thumbstick, Rhizosphere X-Ray root+mycelium layer toggle, OcsFrameTree floating-origin cosmos zoom, and click-to-inspect Species Cards + opt-in .qac audio into the active frame loop",
+        "Non-intrusive progressive streaming HUD badge showing active tier, backend, and loaded species count"
+      ],
+      "acceptance": "Live / boots with the 600m catchment and streams all 13 SE Australian species in real time, with working Walk/Fly/Rhizosphere/Inspect interactions."
+    },
+    {
+      "id": "WEB-WP-11",
+      "wave": 5,
+      "title": "qualia-core-db Forced WebGL2 Backend Switch & Host x86_64 Test Fix",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-09"],
+      "owned_paths": [
+        "C:\\github\\qualiaDB\\crates\\qualia-core-db\\src\\wasm_bridge\\engine\\mod.rs",
+        "native/world-host/src/runtime/graphics.rs"
+      ],
+      "deliverables": [
+        "Expose backend preference (force_webgl2) on QualiaPortal canvas init so ?backend=webgl2 deterministically creates a true WebGL2 context even on WebGPU-capable desktops",
+        "Fix the 9 non-wasm32 cfg import errors in qualia-core-db/src/wasm_bridge/engine/mod.rs under features = [\"portal\"] so host x86_64 cargo test --lib runs ocs_frames.rs (6 tests) and locomotion.rs (10 tests)"
+      ],
+      "acceptance": "?backend=webgl2 reports selected_backend === \"webgl2\" on desktop Chrome, and cargo test --lib passes all native/world-host unit tests on Windows x86_64."
+    },
+    {
+      "id": "WEB-WP-12",
+      "wave": 5,
+      "title": "Atmospheric, Tour, Field-Guide & Soundscape Polish",
+      "role": "gameplay-ux-engineer",
+      "model_tier": "flash",
+      "depends_on": ["WEB-WP-09"],
+      "owned_paths": [
+        "native/world-host/src/runtime/ui.rs",
+        "native/world-host/src/runtime/instruments/species.rs",
+        "site/world/native.css"
+      ],
+      "deliverables": [
+        "Guided Ecological Tour teleport pills (Campsite Clearing, River Red Gum & Platypus Creek, Mountain Ash Canopy, Rhizosphere X-Ray, Kangaroo Meadow, Earth & Solar Orbit)",
+        "Interactive Species Field Guide drawer with 'Discovered X / 13 species' tracker and direct .hmc/.q42 provenance links",
+        "SE Australian Time-of-Day lighting control (Dawn / Midday / Golden Hour / Dusk + starfield fade at orbital altitude)",
+        "Opt-in Sound pill mixing ambient creek/canopy soundscape with spatialized .qac fauna vocalizations (disabled cleanly when muted or prefers-reduced-motion)"
+      ],
+      "acceptance": "Visitors can jump to any ecological highlight in one click, track discovered species, adjust lighting, and toggle opt-in spatial bush audio on desktop and mobile."
+    },
+    {
+      "id": "WEB-WP-13",
+      "wave": 5,
+      "title": "Website Polish, Mobile Framing & Anti-Monolith Publish Verifier",
+      "role": "asset-lod-pipeline-engineer",
+      "model_tier": "flash",
+      "depends_on": ["WEB-WP-09"],
+      "owned_paths": [
+        "tooling/world_server.py",
+        "site/favicon.ico",
+        "site/publication/reading.html",
+        "production/species-cohort/verify_intenteco_publish.py"
+      ],
+      "deliverables": [
+        "Add /favicon.ico (eliminating the 404 console error on page load)",
+        "Remove duplicate Accept-Ranges: bytes header on 206 responses in tooling/world_server.py",
+        "Fix duplicate adjacent 'Explore the source demonstration' links in site/publication/reading.html",
+        "Adjust mobile portrait (390x844) initial camera offset so the foreground eucalyptus trunk no longer bisects the Jayco camper",
+        "Create production/species-cohort/verify_intenteco_publish.py to cross-check all 13 C:\\github\\eco-intent\\<slug>\\dist\\lods\\ SHA-256 digests against species-catalog.q42 before GitHub push"
+      ],
+      "acceptance": "Zero 404 console errors, clean single Accept-Ranges header, clean portrait mobile framing, clean reading.html, and 13/13 intenteco repos verified ready for GitHub push."
+    },
+    {
+      "id": "WEB-WP-14",
+      "wave": 6,
+      "title": "Final Live-World Dual-Backend (True WebGPU + True WebGL2 + Mobile) Visual Gate",
+      "role": "dual-backend-qa-gate",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-10", "WEB-WP-11", "WEB-WP-12", "WEB-WP-13"],
+      "owned_paths": [
+        "tests/ewm-v2/",
+        "evidence/ewm-v2/",
+        "plans/ewm-v2/gate-reports/"
+      ],
+      "deliverables": [
+        "Fresh WASM release build + full host x86_64 cargo test --lib + 72/72 EWM contract tests",
+        "Live browser verification proving true selected_backend === \"webgpu\" (TierA) AND true selected_backend === \"webgl2\" (TierB & TierC mobile) with 0 console errors",
+        "Visual screenshot inspection of live 600m catchment, 13-species woodland & fauna, Rhizosphere X-Ray root+mycelium view, Species Field Guide card, and Earth-to-Orbit transition",
+        "Final PASS gate report at plans/ewm-v2/gate-reports/wave6-live-world-gate.md"
+      ],
+      "acceptance": "All 4 profiles pass with true WebGPU and true WebGL2 backends, zero console errors, and visually verified live 13-species catchment + cosmos scenes."
+    },
+    {
+      "id": "WEB-WP-15",
+      "wave": 7,
+      "title": "Live Forest Replacement, Local terrain-v2 Serving & Ledger Refresh",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-14"],
+      "owned_paths": [
+        "native/world-host/src/runtime/stream/mod.rs",
+        "tooling/world_server.py",
+        "tests/ewm/"
+      ],
+      "deliverables": [
+        "Replace legacy generic white-trunk trees (lush-near/lush-mid) in the active GPU scene with the live streamed 13 intenteco species (.10d LODs from /intenteco/<slug>/dist/lods/)",
+        "Expose production/terrain-v2/*.10d cleanly from world_server.py and verify local-first resolution so window.__webizenEwmState reaches streaming_phase === \"active\" with catchment_terrain_active === true and streamed_species_count > 0 offline (0 DNS errors)",
+        "Refresh the 2 stale pre-Wave-5 WASM SHA-256/byte assertions in legacy EWM qualification ledgers so tests/ewm/run.py passes 72/72"
+      ],
+      "acceptance": "Live / replaces legacy trees with the 13 intenteco species, streams the 600m catchment cleanly with 0 network/console errors, and tests/ewm/run.py passes 72/72."
+    },
+    {
+      "id": "WEB-WP-15B",
+      "wave": 7,
+      "title": "NSW/EcoPunk Dataset-Driven Multi-Tile World, Slope-Conforming Roots & Community Grounds Corridor",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-14"],
+      "owned_paths": [
+        "data/ewm/datasets/",
+        "native/world-host/src/runtime/gis_join.rs",
+        "native/world-host/src/runtime/instances.rs",
+        "native/world-host/src/runtime/stream/selection.rs"
+      ],
+      "deliverables": [
+        "Download real bounded public GIS & botanical dataset slices for the SE Australian Forest-to-Town corridor (NSW Spatial Services FSDF REST roads/hydro/elevation, NSW SEED/SVTM Plant Community Types, Atlas of Living Australia species occurrences for our 17 taxa, plus any existing local ecopunk geospatial datasets), record raw source receipts (URL, SHA-256, custodian, licence, CRS/datum), and compile them into sealed local .q42 vaults (data/ewm/datasets/nsw-ecopunk-sources.q42 & data/ewm/datasets/corridor-gis-botany.q42) verifiable via query_sparql",
+        "Replace single-tile streaming with a continuous 3x3 geospatial tile grid (gis_join.rs) that dynamically loads entering tiles, queries per-tile bioregion/PCT/soil/slope/hydrology datasets to deterministically generate location-appropriate flora/fauna/groundcover placements, and evicts departing tiles via GpuResidencyLedger LRU",
+        "Connect Forest Campsite tiles -> winding dirt forestry track & rural bitumen road corridor -> open Town-Outskirts Community Grounds tiles (cleared paddock/oval perimeter, gravel access loop, shelter/pavilion pad, fencing) ready for driving with the camper",
+        "Implement slope-conforming subterranean root-plate alignment & soil-line burial (sampling terrain heightAt + surface normal / downhill gradient) so 5-order flora roots and mycorrhizal plates stay strictly below the soil line on hillsides"
+      ],
+      "acceptance": "Moving across tiles dynamically generates and streams dataset-driven bioregion assets, transitions cleanly from Forest Campsite to Town-Outskirts Community Grounds, and keeps all flora root plates buried below sloped soil lines."
+    },
+    {
+      "id": "WEB-WP-15C",
+      "wave": 7,
+      "title": "Native Long Grasses, Tussocks & Understorey Shrubs Cohort",
+      "role": "botanical-cad-producer",
+      "model_tier": "flash",
+      "depends_on": [],
+      "owned_paths": [
+        "C:\\github\\eco-intent\\poa-labillardierei\\",
+        "C:\\github\\eco-intent\\themeda-triandra\\",
+        "C:\\github\\eco-intent\\lomandra-longifolia\\",
+        "C:\\github\\eco-intent\\bursaria-spinosa\\",
+        "data/ewm/species-catalog.ttl",
+        "data/ewm/species-catalog.q42"
+      ],
+      "deliverables": [
+        "Produce lightweight, wind-swaying multi-LOD .10d groundcover & shrub packs (LOD0/LOD1/LOD2 + slope-safe root tuft) via Synth CLI in anti-monolith eco-intent repos: Poa labillardierei (long river/snow tussock grass), Themeda triandra (Kangaroo Grass), Lomandra longifolia (Spiny-headed Mat-rush), and Bursaria spinosa (Sweet Bursaria native shrub)",
+        "Register all 4 groundcover/shrub taxa in data/ewm/species-catalog.ttl & .q42 (expanding the catalog from 13 to 17 taxa) for dense instanced forest understorey and town-outskirts meadow coverage"
+      ],
+      "acceptance": "All 4 native grass/shrub packs verify cleanly via Synth CLI previews and SPARQL, within TierA/B/C mobile WebGL2 triangle budgets."
+    },
+    {
+      "id": "WEB-WP-16",
+      "wave": 7,
+      "title": "Human Anatomy System — Ontology, Biomechanics & .q42 Knowledge Vault",
+      "role": "species-ontology-researcher",
+      "model_tier": "flash",
+      "depends_on": [],
+      "owned_paths": [
+        "C:\\github\\eco-intent\\homo-sapiens\\ontology\\",
+        "C:\\github\\eco-intent\\homo-sapiens\\dossier\\",
+        "data/ewm/human-anatomy.ttl",
+        "data/ewm/human-anatomy.q42"
+      ],
+      "deliverables": [
+        "Anti-monolith Homo sapiens anatomy repository under C:\\github\\eco-intent\\homo-sapiens\\ with FMA/UBERON-aligned IRIs, osteology kinematic chains (28-joint SKL2 rig), myology muscle groups, cardiopulmonary/neural organs, joint ROM limits, and anthropometric ratios",
+        "Sealed data/ewm/human-anatomy.q42 queryable via SPARQL for anatomy inspection cards and character rig constraints"
+      ],
+      "acceptance": "human-anatomy.q42 compiles cleanly, passes query_sparql checks, and provides complete biomechanical parameters for WEB-WP-17 and WEB-WP-18."
+    },
+    {
+      "id": "WEB-WP-17",
+      "wave": 7,
+      "title": "Human Anatomy System — Layered CAD (Osteology/Myology/Integument), SKL2 Rig & .emf Field",
+      "role": "zoological-cad-producer",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-16"],
+      "owned_paths": [
+        "C:\\github\\eco-intent\\homo-sapiens\\recipes\\",
+        "C:\\github\\eco-intent\\homo-sapiens\\dist\\"
+      ],
+      "deliverables": [
+        "Multi-layer articulated human anatomy produced via Synth CLI (production16): Layer 1 Osteology (cranium, spine, ribcage, pelvis, articulated limbs), Layer 2 Myology & Major Organs (heart, lungs, major muscle groups), Layer 3 Clothed Explorer Integument",
+        "28-joint SKL2 skeletal rig + multi-LOD .10d exports (LOD0/LOD1/LOD2 + anatomy-xray.10d) + cardiac/neural bio-electric .emf volume, verified with deterministic --reopen and visual preview inspection"
+      ],
+      "acceptance": "Bit-exact --reopen verified .hmc + multi-LOD .10d + .emf assets under C:\\github\\eco-intent\\homo-sapiens\\dist\\ within TierA/B/C budgets, visually reviewed via front/side/3/4 previews."
+    },
+    {
+      "id": "WEB-WP-18",
+      "wave": 8,
+      "title": "Playable Human Character, Foot-IK/NLA Locomotion & 1st/3rd-Person Camera",
+      "role": "gameplay-ux-engineer",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-17"],
+      "owned_paths": [
+        "native/world-host/src/runtime/character.rs",
+        "native/world-host/src/runtime/locomotion.rs"
+      ],
+      "deliverables": [
+        "Instantiate the playable Webizen Explorer character from homo-sapiens LOD0/LOD1/LOD2 + SKL2 rig in the live world",
+        "Procedural + NLA/two-bone foot-IK locomotion states: idle breathing, terrain-conforming walk/jog/sprint, slope lean, jump/land, inspect reach, and seated driver pose",
+        "Seamless 1st-person <-> 3rd-person camera toggle (V) and toggleable Anatomical X-Ray layer (showing osteology/myology/cardiac .emf)"
+      ],
+      "acceptance": "Character walks smoothly over the 600m terrain with grounded foot placement, transitions between 1st/3rd-person views, and seats cleanly inside the Passat."
+    },
+    {
+      "id": "WEB-WP-19",
+      "wave": 8,
+      "title": "Drivable VW Passat B7 + Articulated Jayco Camper Towing Dynamics & Forest-to-Community-Grounds Drive",
+      "role": "world-architect-rust",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-15", "WEB-WP-15B"],
+      "owned_paths": [
+        "native/world-host/src/runtime/vehicle.rs",
+        "native/world-host/src/runtime/play.rs"
+      ],
+      "deliverables": [
+        "4-wheel spring-damper suspension sampling terrain heightAt(x, z) at FL/FR/RL/RR contact patches with realistic body pitch, roll, and bush-track articulation",
+        "Slip-angle tyre friction model with surface-dependent grip (gravel track, bitumen road, grass clearing, alluvial silt, creek bank), Ackermann steering, rotating/steering wheel sub-parts, automatic/manual gear curve, handbrake (Space), and headlights/brake lights",
+        "Articulated tow-hitch & 2-wheel Jayco wind-up camper trailer dynamics (hitch/unhitch toggle, ball-hitch pivot constraint, trailer yaw/jackknife damping, ground-conforming trailer axle) supporting the full drive from Forest Campsite to Town-Outskirts Community Grounds",
+        "Enter/Exit vehicle interaction (F / Drive button) switching between character locomotion and seated driving with chase + bonnet/cockpit cameras and tree/campsite/fence collision clamping",
+        "Comprehensive pure-Rust unit tests for suspension equilibrium, steering radius, braking distance, slope traction, trailer hitch articulation, and collision response"
+      ],
+      "acceptance": "Player can hitch the Jayco camper to the gold VW Passat, drive smoothly from the Forest Campsite along the road corridor to the Town-Outskirts Community Grounds with realistic vehicle + trailer dynamics, and unhitch/exit cleanly."
+    },
+    {
+      "id": "WEB-WP-20",
+      "wave": 8,
+      "title": "Unified Playable HUD — Mode Strip, Vehicle Cluster, Compass/Scale & Drawer Manager",
+      "role": "gameplay-ux-engineer",
+      "model_tier": "flash",
+      "depends_on": ["WEB-WP-18", "WEB-WP-19"],
+      "owned_paths": [
+        "native/world-host/src/runtime/ui.rs",
+        "site/world/native.css"
+      ],
+      "deliverables": [
+        "Cohesive HUD layout with mutual-exclusion drawer manager (opening Field Guide auto-collapses Explore Places so panels never overlap) and collapsible clean-view toggle (H)",
+        "Context-sensitive mode strip (Observe | Walk | Drive | Fly | 1st/3rd Person | Anatomy/Rhizosphere X-Ray) + live heading compass & OCS altitude/scale readout",
+        "Contextual Vehicle Instrument Cluster (visible only in Drive mode): km/h speedometer, gear (P/R/N/D), pitch/roll inclinometer, traction indicator, headlights (L), Exit (F), plus mobile touch steering & pedal controls (>= 44x44 px)"
+      ],
+      "acceptance": "Zero overlapping UI panels on desktop or mobile, responsive vehicle instruments in Drive mode, and full keyboard + mobile touch accessibility."
+    },
+    {
+      "id": "WEB-WP-21",
+      "wave": 9,
+      "title": "Full Interactive World, Character, Vehicle & Dual-Backend QA Gate",
+      "role": "dual-backend-qa-gate",
+      "model_tier": "inherit",
+      "depends_on": ["WEB-WP-18", "WEB-WP-19", "WEB-WP-20"],
+      "owned_paths": [
+        "tests/ewm-v2/",
+        "evidence/ewm-v2/",
+        "plans/ewm-v2/gate-reports/"
+      ],
+      "deliverables": [
+        "Fresh WASM release build + full unit tests (vehicle dynamics, character/anatomy, streaming, graphics) + 72/72 tests/ewm/run.py",
+        "Live multi-profile verification (Desktop WebGPU TierA, Desktop WebGL2 TierB, Mobile WebGL2 TierC, HTML Reading Fallback) with 0 console/network errors",
+        "Visual screenshot inspection of: live streamed 600m catchment + 13 species, human anatomy + Explorer character, driving the Passat with active Vehicle HUD, and clean non-overlapping Unified HUD"
+      ],
+      "acceptance": "Formal PASS gate report at plans/ewm-v2/gate-reports/wave9-character-vehicle-hud-gate.md with all visual, physics, and dual-backend checks green."
+    }
+  ]
+}

@@ -1,0 +1,1683 @@
+{
+  "schema": "webizen.species-lod-pipeline-receipt/v1",
+  "synth_exe": "C:\\Users\\Hp\\AppData\\Local\\Programs\\Webizen AI Synth\\synth.exe",
+  "species_count": 13,
+  "species": [
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "eucalyptus-camaldulensis",
+      "did": "did:q42:taxon:eucalyptus_camaldulensis",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "eucalyptus-camaldulensis.10d",
+        "bytes": 5304808,
+        "sha256": "cc3a64a0353469776de571c27994425226ed92f7507b1b5c1de3bfd473777340",
+        "vertices": 142200,
+        "triangles": 266628,
+        "bounds_min": [
+          -11.438711166381836,
+          -5.423186302185059,
+          -13.223689079284668
+        ],
+        "bounds_max": [
+          11.620329856872559,
+          20.711299896240234,
+          12.636215209960938
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-camaldulensis-comb-1795074726-d3492c.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-camaldulensis-comb-1795074726-d3492c",
+      "lods": {
+        "lod0": {
+          "bytes": 943564,
+          "sha256": "bc87c0d730f28981672646bee589f1f78f533580d2784b160b9b6df5fd2ed65b",
+          "vertices": 39521,
+          "triangles": 65000,
+          "bounds_min": [
+            -11.442601203918457,
+            -5.4055399894714355,
+            -13.212915420532227
+          ],
+          "bounds_max": [
+            11.619769096374512,
+            20.69574737548828,
+            12.639382362365723
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-camaldulensis-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 307192,
+          "sha256": "470b04eba74321f4981fbe06eb264818da74fd222acf88d4957469c0042f8409",
+          "vertices": 14296,
+          "triangles": 17798,
+          "bounds_min": [
+            -11.503885269165039,
+            -5.405365943908691,
+            -13.28002643585205
+          ],
+          "bounds_max": [
+            11.6170072555542,
+            20.69574737548828,
+            12.68998908996582
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-camaldulensis-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 68212,
+          "sha256": "b88bb80ee73f1960b6c1be5a21d75c777a7f074ee205204b5a711997e2876ffc",
+          "vertices": 3183,
+          "triangles": 3898,
+          "bounds_min": [
+            -11.29268741607666,
+            -2.1654980182647705,
+            -13.333840370178223
+          ],
+          "bounds_max": [
+            11.622310638427734,
+            20.69574737548828,
+            12.748291969299316
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-camaldulensis-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 374760,
+          "sha256": "99079f19d9a224ccf1be0d820912f83a860696d7e314bac33e0b9b0c25a19593",
+          "vertices": 17560,
+          "triangles": 21443,
+          "bounds_min": [
+            -11.489089012145996,
+            -0.30000001192092896,
+            -13.268610954284668
+          ],
+          "bounds_max": [
+            11.615188598632812,
+            20.69574737548828,
+            12.677621841430664
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-camaldulensis-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 91252,
+          "sha256": "dc1b3efbf8ba44a07b54e6f3702049e13a41af1527e26836c71dd3e311720967",
+          "vertices": 3951,
+          "triangles": 5945,
+          "bounds_min": [
+            -7.798208236694336,
+            -5.405540466308594,
+            -7.923069477081299
+          ],
+          "bounds_max": [
+            9.22839641571045,
+            0.15000009536743164,
+            9.28707504272461
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-camaldulensis-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "eucalyptus-dalrympleana",
+      "did": "did:q42:taxon:eucalyptus_dalrympleana",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "eucalyptus-dalrympleana.10d",
+        "bytes": 4520768,
+        "sha256": "14b186043659a9ee2b59dc4f7bb36846679f754c1f96b7df51cc78013ad5d21c",
+        "vertices": 120082,
+        "triangles": 224940,
+        "bounds_min": [
+          -7.996429920196533,
+          -4.4045000076293945,
+          -7.249527931213379
+        ],
+        "bounds_max": [
+          8.884699821472168,
+          22.179960250854492,
+          8.466099739074707
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-dalrympleana-comb-1795075160-3cc06b.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-dalrympleana-comb-1795075160-3cc06b",
+      "lods": {
+        "lod0": {
+          "bytes": 934092,
+          "sha256": "36c2c31ec4628a3d315f693be1dc0595f5ff5eab444f346065ba196c964e147f",
+          "vertices": 38845,
+          "triangles": 64999,
+          "bounds_min": [
+            -7.992068767547607,
+            -4.403688907623291,
+            -7.247983932495117
+          ],
+          "bounds_max": [
+            8.879676818847656,
+            22.177745819091797,
+            8.459025382995605
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-dalrympleana-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 308312,
+          "sha256": "6b4665d39c490c725949ab8fd7fe9ae7c8a0e6cae0eaf1d18dc42bd6a7d44346",
+          "vertices": 14376,
+          "triangles": 17798,
+          "bounds_min": [
+            -8.101144790649414,
+            -4.39953088760376,
+            -7.331676006317139
+          ],
+          "bounds_max": [
+            8.840136528015137,
+            22.36760711669922,
+            8.421316146850586
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-dalrympleana-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 68296,
+          "sha256": "9dd047612669f419f26ba0a40bb299edc4ed2982b316026e9a6f82d0e0debaeb",
+          "vertices": 3188,
+          "triangles": 3900,
+          "bounds_min": [
+            -8.209132194519043,
+            -3.269279956817627,
+            -7.4163899421691895
+          ],
+          "bounds_max": [
+            8.724349975585938,
+            22.525163650512695,
+            7.50480318069458
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-dalrympleana-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 346684,
+          "sha256": "be1a2b5de7c1f8d2136e8cba1606faf385546919c9b6251ce6b2b014e59a42f4",
+          "vertices": 16125,
+          "triangles": 20112,
+          "bounds_min": [
+            -8.078237533569336,
+            -0.30000001192092896,
+            -7.313705921173096
+          ],
+          "bounds_max": [
+            7.80128812789917,
+            22.334186553955078,
+            7.434743881225586
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-dalrympleana-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 84336,
+          "sha256": "6f9f4a44dcb569fe173073191259b0f5036976405d236c25d4a1a4f1d91747e8",
+          "vertices": 3674,
+          "triangles": 5440,
+          "bounds_min": [
+            -6.953578472137451,
+            -4.403688907623291,
+            -6.887661933898926
+          ],
+          "bounds_max": [
+            8.879676818847656,
+            0.15000002086162567,
+            8.459025382995605
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-dalrympleana-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "eucalyptus-regnans",
+      "did": "did:q42:taxon:eucalyptus_regnans",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "eucalyptus-regnans.10d",
+        "bytes": 3689408,
+        "sha256": "f61aa4c3dd1c913e9d01f4faa212919830b0af970c957a3efd0e63c7628da946",
+        "vertices": 100916,
+        "triangles": 176312,
+        "bounds_min": [
+          -11.24470043182373,
+          -5.222965717315674,
+          -11.676985740661621
+        ],
+        "bounds_max": [
+          12.140600204467773,
+          37.265499114990234,
+          10.978985786437988
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-regnans-comb-1795075366-698a7f.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-regnans-comb-1795075366-698a7f",
+      "lods": {
+        "lod0": {
+          "bytes": 971864,
+          "sha256": "9d7d090913577e56618ebde7300b1f85527c5174bdc2b030d58db5ccf06c0647",
+          "vertices": 41544,
+          "triangles": 64998,
+          "bounds_min": [
+            -11.207589149475098,
+            -5.2052178382873535,
+            -11.676985740661621
+          ],
+          "bounds_max": [
+            12.10348892211914,
+            37.092811584472656,
+            10.978985786437988
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-regnans-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 309636,
+          "sha256": "ad190e28c025d6f6ca56ddf042377e24f8b4bfb523ed06efef27a7e4cb2e70e1",
+          "vertices": 14471,
+          "triangles": 17797,
+          "bounds_min": [
+            -10.515389442443848,
+            -1.5374120473861694,
+            -10.336356163024902
+          ],
+          "bounds_max": [
+            11.805750846862793,
+            37.307987213134766,
+            9.844977378845215
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-regnans-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 67152,
+          "sha256": "5a84b11ae5e8cb97ede0deffb96a432acda1d4f15551a1e113a59b7d74e90176",
+          "vertices": 3106,
+          "triangles": 3900,
+          "bounds_min": [
+            -10.515389442443848,
+            -1.5374120473861694,
+            -10.42015552520752
+          ],
+          "bounds_max": [
+            11.889522552490234,
+            37.477352142333984,
+            9.939287185668945
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-regnans-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 379556,
+          "sha256": "941e1b66504815f7e7f52b982e1ad285f91c86291c804fa2b8d564142802671c",
+          "vertices": 17751,
+          "triangles": 21797,
+          "bounds_min": [
+            -9.39622974395752,
+            0.0,
+            -10.308422088623047
+          ],
+          "bounds_max": [
+            11.777826309204102,
+            37.272064208984375,
+            9.813541412353516
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-regnans-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 50652,
+          "sha256": "4f2eac958f5ecfefe73420b5ac573d55956edd9343443ea2eb40f2cd7619f1c1",
+          "vertices": 2241,
+          "triangles": 3169,
+          "bounds_min": [
+            -11.207589149475098,
+            -5.2052178382873535,
+            -11.676985740661621
+          ],
+          "bounds_max": [
+            12.10348892211914,
+            0.15000009536743164,
+            10.978985786437988
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-regnans-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "eucalyptus-melliodora",
+      "did": "did:q42:taxon:eucalyptus_melliodora",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "eucalyptus-melliodora.10d",
+        "bytes": 4340944,
+        "sha256": "12abd3cfe20c0f6519c682aac6b8a1a6e9582d12e9d99a914f4763595cd6b7a6",
+        "vertices": 117556,
+        "triangles": 210868,
+        "bounds_min": [
+          -10.284207344055176,
+          -4.799124717712402,
+          -9.699504852294922
+        ],
+        "bounds_max": [
+          9.377443313598633,
+          21.50143814086914,
+          9.313104629516602
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-melliodora-comb-1795075407-e8fde7.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-eucalyptus-melliodora-comb-1795075407-e8fde7",
+      "lods": {
+        "lod0": {
+          "bytes": 958020,
+          "sha256": "ce03a6df13e5f728730be9fd4cb7c604d3010ae91520120172402df72758e2fc",
+          "vertices": 40555,
+          "triangles": 64999,
+          "bounds_min": [
+            -10.270406723022461,
+            -4.7991251945495605,
+            -9.699552536010742
+          ],
+          "bounds_max": [
+            9.36334228515625,
+            21.50143814086914,
+            9.31314754486084
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-melliodora-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 314652,
+          "sha256": "5f67b20deb39c58e2f15c210242eb1fe27bfa71c1dcdb374395c68b8840a41b7",
+          "vertices": 14829,
+          "triangles": 17797,
+          "bounds_min": [
+            -10.508868217468262,
+            -4.798323154449463,
+            -9.944857597351074
+          ],
+          "bounds_max": [
+            9.606731414794922,
+            21.671913146972656,
+            9.528630256652832
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-melliodora-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 68232,
+          "sha256": "d8b8c1f61a72c664a17f5fd51ec4debef95360688f26e4227c060130bc6b935c",
+          "vertices": 3184,
+          "triangles": 3899,
+          "bounds_min": [
+            -10.628520965576172,
+            -4.798323154449463,
+            -10.057997703552246
+          ],
+          "bounds_max": [
+            9.728877067565918,
+            21.847715377807617,
+            9.628035545349121
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-melliodora-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 363236,
+          "sha256": "ffa0cbf89eb0c919efa641bb42c43e5ddfe8653b962d693700f32ca64bf1a8eb",
+          "vertices": 17135,
+          "triangles": 20513,
+          "bounds_min": [
+            -10.483487129211426,
+            -0.30000001192092896,
+            -9.920858383178711
+          ],
+          "bounds_max": [
+            9.58082103729248,
+            21.63462257385254,
+            9.507543563842773
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-melliodora-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 75968,
+          "sha256": "b568509edf806bcd26d09e3da5a100a3dd088b07ba4020e5861cb104db96622e",
+          "vertices": 3510,
+          "triangles": 4427,
+          "bounds_min": [
+            -9.61171817779541,
+            -4.7991251945495605,
+            -7.225704193115234
+          ],
+          "bounds_max": [
+            8.467340469360352,
+            0.15000009536743164,
+            7.901265621185303
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "eucalyptus-melliodora-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "banksia-integrifolia",
+      "did": "did:q42:taxon:banksia_integrifolia",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "banksia-integrifolia.10d",
+        "bytes": 5684208,
+        "sha256": "81fcce6f3a96ed51b613a4b169b663f096965af02015cdde76fab2ee8df49000",
+        "vertices": 156350,
+        "triangles": 282752,
+        "bounds_min": [
+          -7.917491436004639,
+          -3.7997663021087646,
+          -7.9954094886779785
+        ],
+        "bounds_max": [
+          9.432467460632324,
+          15.756688117980957,
+          7.329585552215576
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-banksia-integrifolia-comb-1795075433-898368.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-banksia-integrifolia-comb-1795075433-898368",
+      "lods": {
+        "lod0": {
+          "bytes": 1018360,
+          "sha256": "45ba40b321e48dd5489b73499dce9d957aa8d7236a56eac34cf9b976f237b984",
+          "vertices": 44864,
+          "triangles": 64999,
+          "bounds_min": [
+            -7.892076015472412,
+            -3.799280881881714,
+            -7.995903015136719
+          ],
+          "bounds_max": [
+            9.408291816711426,
+            15.758110046386719,
+            7.305383205413818
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "banksia-integrifolia-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 309048,
+          "sha256": "1eb94096399cea5dc98038e2e4d9c2928b11ce3af9ef9cf951ddde89ed1ffd0a",
+          "vertices": 14428,
+          "triangles": 17800,
+          "bounds_min": [
+            -7.848392963409424,
+            -3.7988429069519043,
+            -8.153300285339355
+          ],
+          "bounds_max": [
+            9.520198822021484,
+            15.80843734741211,
+            7.2638750076293945
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "banksia-integrifolia-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 64804,
+          "sha256": "63d54b8ae22611dbb0cc26bbfea60671a35e47104d270d0d78ffb3ad7e171d3b",
+          "vertices": 2939,
+          "triangles": 3898,
+          "bounds_min": [
+            -7.710163116455078,
+            -3.7988429069519043,
+            -8.262939453125
+          ],
+          "bounds_max": [
+            9.59692096710205,
+            15.854917526245117,
+            6.956370830535889
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "banksia-integrifolia-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 435896,
+          "sha256": "8022833280bc8472d744ceaf5575261627a67c9bfdfce7d10157986e02ee53e1",
+          "vertices": 20488,
+          "triangles": 24800,
+          "bounds_min": [
+            -7.583611011505127,
+            -0.30000001192092896,
+            -8.130043029785156
+          ],
+          "bounds_max": [
+            9.503924369812012,
+            15.798578262329102,
+            5.775206089019775
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "banksia-integrifolia-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 145288,
+          "sha256": "138894bf86639a92c3e6cf94634a2061a2eea32a5f15ffe1da71f5b15d65f698",
+          "vertices": 6252,
+          "triangles": 9584,
+          "bounds_min": [
+            -7.892076015472412,
+            -3.799281358718872,
+            -6.5662689208984375
+          ],
+          "bounds_max": [
+            7.877099990844727,
+            0.15000009536743164,
+            7.30538272857666
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "banksia-integrifolia-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "acacia-pycnantha",
+      "did": "did:q42:taxon:acacia_pycnantha",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "acacia-pycnantha.10d",
+        "bytes": 4324960,
+        "sha256": "18f7f8f8e3f8d3bd5d573f1605618809badab0f0a3f872f910d1bb40fa02bb00",
+        "vertices": 118668,
+        "triangles": 211248,
+        "bounds_min": [
+          -3.576200008392334,
+          -2.4073398113250732,
+          -3.7992000579833984
+        ],
+        "bounds_max": [
+          3.4851999282836914,
+          7.357141971588135,
+          3.653599977493286
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-acacia-pycnantha-comb-1795075467-166876.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-acacia-pycnantha-comb-1795075467-166876",
+      "lods": {
+        "lod0": {
+          "bytes": 964736,
+          "sha256": "a1ada816fbb09e4599310754db93f23c2ba1df65fc07dab12e26f1d7e241723b",
+          "vertices": 41034,
+          "triangles": 65000,
+          "bounds_min": [
+            -3.576200008392334,
+            -2.401007890701294,
+            -3.797379970550537
+          ],
+          "bounds_max": [
+            3.4840149879455566,
+            7.357141971588135,
+            3.652179002761841
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "acacia-pycnantha-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 309348,
+          "sha256": "71ff8d02d077581df0afcaf19b53768f7113bcdeb25922ba9297dd192a937d34",
+          "vertices": 14451,
+          "triangles": 17796,
+          "bounds_min": [
+            -3.571190118789673,
+            -2.4005610942840576,
+            -3.710724115371704
+          ],
+          "bounds_max": [
+            3.4798190593719482,
+            7.393616199493408,
+            3.5885510444641113
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "acacia-pycnantha-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 69248,
+          "sha256": "346d0b3d4a01d0c65543c6f23fb6526672d72111877da01ef6146d1bd40d610e",
+          "vertices": 3258,
+          "triangles": 3896,
+          "bounds_min": [
+            -3.4723830223083496,
+            -1.1937639713287354,
+            -3.710724115371704
+          ],
+          "bounds_max": [
+            3.42561411857605,
+            7.425804138183594,
+            3.5885510444641113
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "acacia-pycnantha-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 401020,
+          "sha256": "ae8403df93e1c6a808301f420f84aa65fba36aa86740b2530fa6ea7767a3c19f",
+          "vertices": 18813,
+          "triangles": 22896,
+          "bounds_min": [
+            -2.9747109413146973,
+            -0.30000001192092896,
+            -3.198730945587158
+          ],
+          "bounds_max": [
+            3.3003640174865723,
+            7.3867878913879395,
+            3.226839065551758
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "acacia-pycnantha-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 142044,
+          "sha256": "ed4090872e3bf7e8b106e6d4e7a1e13fa6956db5591c96eeb5674650959fc44f",
+          "vertices": 6321,
+          "triangles": 8882,
+          "bounds_min": [
+            -3.576200008392334,
+            -2.401007652282715,
+            -3.7973804473876953
+          ],
+          "bounds_max": [
+            3.4840145111083984,
+            0.15000002086162567,
+            3.6521785259246826
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "acacia-pycnantha-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "dicksonia-antarctica",
+      "did": "did:q42:taxon:dicksonia_antarctica",
+      "kingdom": "flora",
+      "source_10d": {
+        "file": "dicksonia-antarctica.10d",
+        "bytes": 4483208,
+        "sha256": "cd90153a7aab6a5ebf04e3089fb847a87c720dda568e01222d6c492d3fe648d2",
+        "vertices": 121662,
+        "triangles": 221064,
+        "bounds_min": [
+          -2.955430030822754,
+          -2.117994546890259,
+          -3.167907953262329
+        ],
+        "bounds_max": [
+          3.2745299339294434,
+          5.462699890136719,
+          3.076080083847046
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-dicksonia-antarctica-comb-1795075505-f61fa2.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-dicksonia-antarctica-comb-1795075505-f61fa2",
+      "lods": {
+        "lod0": {
+          "bytes": 930176,
+          "sha256": "83b308175f1974cf0d709a0dbb55f540b5f13b61df9790ef2697871b783ac1da",
+          "vertices": 38566,
+          "triangles": 64999,
+          "bounds_min": [
+            -2.9497220516204834,
+            -2.1082780361175537,
+            -3.1323330402374268
+          ],
+          "bounds_max": [
+            3.271569013595581,
+            5.462820053100586,
+            3.0545709133148193
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dicksonia-antarctica-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 254672,
+          "sha256": "cfc94342ed2f438a018478e0c7970d60e5ce24ca1a02c9e31fe59a5a325fbe64",
+          "vertices": 11822,
+          "triangles": 14816,
+          "bounds_min": [
+            -3.515002965927124,
+            -2.103749990463257,
+            -3.723201036453247
+          ],
+          "bounds_max": [
+            3.8828890323638916,
+            6.404713153839111,
+            3.558379888534546
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dicksonia-antarctica-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 69708,
+          "sha256": "b334b613e97be17e3116beebff3e8069afad54407079fcac1a7324ad4fadc2c1",
+          "vertices": 3289,
+          "triangles": 3899,
+          "bounds_min": [
+            -2.986707925796509,
+            -1.3941069841384888,
+            -3.2108969688415527
+          ],
+          "bounds_max": [
+            3.305238962173462,
+            5.113962173461914,
+            3.041611909866333
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dicksonia-antarctica-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-lod2.10d"
+        },
+        "aboveground_lod1": {
+          "bytes": 273068,
+          "sha256": "18f7f40c086fc936da802a6529965b062c6c4f742f4262a91a12212ed3e869bc",
+          "vertices": 12837,
+          "triangles": 15515,
+          "bounds_min": [
+            -3.41237211227417,
+            -0.30000001192092896,
+            -3.6182949542999268
+          ],
+          "bounds_max": [
+            3.7736289501190186,
+            6.307762145996094,
+            3.454782009124756
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dicksonia-antarctica-aboveground-lod1.10d",
+          "distance_band_m": "25-90m (y >= -0.30m)",
+          "local_url": "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-aboveground-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-aboveground-lod1.10d"
+        },
+        "rhizosphere": {
+          "bytes": 128376,
+          "sha256": "30b02747178c6f20357dc0c6afa665a846b1a6d9134ff9545d9935b2bf360ffa",
+          "vertices": 5716,
+          "triangles": 8016,
+          "bounds_min": [
+            -2.81473708152771,
+            -2.1082780361175537,
+            -2.713578939437866
+          ],
+          "bounds_max": [
+            2.720454454421997,
+            0.15000003576278687,
+            3.0545711517333984
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dicksonia-antarctica-rhizosphere.10d",
+          "distance_band_m": "xray-subterranean (y <= 0.15m)",
+          "local_url": "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-rhizosphere.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-rhizosphere.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "wallabia-bicolor",
+      "did": "did:q42:taxon:wallabia_bicolor",
+      "kingdom": "fauna",
+      "source_10d": {
+        "file": "wallabia-bicolor.10d",
+        "bytes": 414568,
+        "sha256": "013603b6b1e7221f52cd031a7b5a6aa51cdada04e1897e8bb6ad5b1faebebe8b",
+        "vertices": 14524,
+        "triangles": 28000,
+        "bounds_min": [
+          -0.2800000011920929,
+          -0.00800000037997961,
+          -1.0
+        ],
+        "bounds_max": [
+          0.2800000011920929,
+          0.9401400089263916,
+          0.4045799970626831
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-wallabia-bicolor-1795047587-47d70d.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-wallabia-bicolor-1795047587-47d70d",
+      "lods": {
+        "lod0": {
+          "bytes": 371592,
+          "sha256": "1eb4c74320d504c1f0e8cef571f1f22de553d0ab7c48e4229074081bc550520f",
+          "vertices": 14524,
+          "triangles": 28000,
+          "bounds_min": [
+            -0.2800000011920929,
+            -0.00800000037997961,
+            -1.0
+          ],
+          "bounds_max": [
+            0.2800000011920929,
+            0.9401400089263916,
+            0.4045799970626831
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "wallabia-bicolor-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/lods/wallabia-bicolor-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 100604,
+          "sha256": "856d0515617036ee030c0d52a075db1ca8a24d6758ed491700ad502a3e16bcd1",
+          "vertices": 4081,
+          "triangles": 7200,
+          "bounds_min": [
+            -0.2800000011920929,
+            -0.00800000037997961,
+            -1.0
+          ],
+          "bounds_max": [
+            0.2800000011920929,
+            0.9400240182876587,
+            0.4032563865184784
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "wallabia-bicolor-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/lods/wallabia-bicolor-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 35080,
+          "sha256": "4b48089a04f60954781b9f176b752b6e2c968fcd54961bb2e70568ccd252ee0a",
+          "vertices": 1544,
+          "triangles": 2199,
+          "bounds_min": [
+            -0.2800000011920929,
+            -0.00800000037997961,
+            -1.0
+          ],
+          "bounds_max": [
+            0.2800000011920929,
+            0.9331520199775696,
+            0.39553526043891907
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "wallabia-bicolor-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/lods/wallabia-bicolor-lod2.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "phascolarctos-cinereus",
+      "did": "did:q42:taxon:phascolarctos_cinereus",
+      "kingdom": "fauna",
+      "source_10d": {
+        "file": "phascolarctos-cinereus.10d",
+        "bytes": 376944,
+        "sha256": "2667fd4ed50596073e6b37ceaef264a83d593bdf2f2131052bb6616b68663ea4",
+        "vertices": 12698,
+        "triangles": 24932,
+        "bounds_min": [
+          -0.22907625138759613,
+          -0.00953999999910593,
+          -0.18468999862670898
+        ],
+        "bounds_max": [
+          0.2556000053882599,
+          0.853380024433136,
+          0.1850000023841858
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-phascolarctos-cinereus-1795048112-7b9973.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-phascolarctos-cinereus-1795048112-7b9973",
+      "lods": {
+        "lod0": {
+          "bytes": 327632,
+          "sha256": "6b4d4a97e95b30cb1a9a961b4bc8173a61e80bd2ec75ef3de597253064a475c8",
+          "vertices": 12698,
+          "triangles": 24932,
+          "bounds_min": [
+            -0.22907599806785583,
+            -0.00953999999910593,
+            -0.18468999862670898
+          ],
+          "bounds_max": [
+            0.2556000053882599,
+            0.853380024433136,
+            0.1850000023841858
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "phascolarctos-cinereus-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/lods/phascolarctos-cinereus-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 96552,
+          "sha256": "aab0e9bc5cd52bc0325290d49de701369faab1bc7cc04035b4ad4f50b1f0821c",
+          "vertices": 3792,
+          "triangles": 7199,
+          "bounds_min": [
+            -0.22898200154304504,
+            -0.00953999999910593,
+            -0.18468999862670898
+          ],
+          "bounds_max": [
+            0.2556000053882599,
+            0.8533210158348083,
+            0.1850000023841858
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "phascolarctos-cinereus-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/lods/phascolarctos-cinereus-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 30512,
+          "sha256": "22f7d751acf80989699adf5c79910b64f9b03fd52e3d136ac3bc06a5f3bd2de5",
+          "vertices": 1218,
+          "triangles": 2200,
+          "bounds_min": [
+            -0.2167898714542389,
+            -0.00953999999910593,
+            -0.18468999862670898
+          ],
+          "bounds_max": [
+            0.25544852018356323,
+            0.8531432151794434,
+            0.1850000023841858
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "phascolarctos-cinereus-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/lods/phascolarctos-cinereus-lod2.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "vombatus-ursinus",
+      "did": "did:q42:taxon:vombatus_ursinus",
+      "kingdom": "fauna",
+      "source_10d": {
+        "file": "vombatus-ursinus.10d",
+        "bytes": 413176,
+        "sha256": "e2082353c35b107a7cac79fd8938f44678965d8a27c8edd34e98fa869eda81d0",
+        "vertices": 14162,
+        "triangles": 27799,
+        "bounds_min": [
+          -0.41999998688697815,
+          -0.01600000075995922,
+          -0.6600000262260437
+        ],
+        "bounds_max": [
+          0.41999998688697815,
+          0.3947024941444397,
+          0.699999988079071
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-vombatus-ursinus-1795048114-63b798.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-vombatus-ursinus-1795048114-63b798",
+      "lods": {
+        "lod0": {
+          "bytes": 365328,
+          "sha256": "6c853a4858745e0fdf74fb799b4c04c2be57831b6d89959b2e0995723c6c80cc",
+          "vertices": 14162,
+          "triangles": 27799,
+          "bounds_min": [
+            -0.41999998688697815,
+            -0.01600000075995922,
+            -0.6600000262260437
+          ],
+          "bounds_max": [
+            0.41999998688697815,
+            0.3947019875049591,
+            0.699999988079071
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "vombatus-ursinus-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/lods/vombatus-ursinus-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 97024,
+          "sha256": "dc47216f44d164f89113c6e6a5dcb42ac865d30aec07946c9edcca7a786b8f36",
+          "vertices": 3826,
+          "triangles": 7200,
+          "bounds_min": [
+            -0.41999998688697815,
+            -0.01600000075995922,
+            -0.6600000262260437
+          ],
+          "bounds_max": [
+            0.41999998688697815,
+            0.3928914964199066,
+            0.699999988079071
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "vombatus-ursinus-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/lods/vombatus-ursinus-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 31092,
+          "sha256": "c6e90c5f839da4d1031b9518bff6d5166d8a94d3126dd7882da23fa9cebf8c5b",
+          "vertices": 1259,
+          "triangles": 2200,
+          "bounds_min": [
+            -0.41999998688697815,
+            -0.01600000075995922,
+            -0.6600000262260437
+          ],
+          "bounds_max": [
+            0.41999998688697815,
+            0.3859311044216156,
+            0.699999988079071
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "vombatus-ursinus-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/lods/vombatus-ursinus-lod2.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "macropus-giganteus",
+      "did": "did:q42:taxon:macropus_giganteus",
+      "kingdom": "fauna",
+      "source_10d": {
+        "file": "macropus-giganteus.10d",
+        "bytes": 657856,
+        "sha256": "d90d0da775548e19106c7d04aa16f93ba268779f4439bd47d31c8dde9b72d634",
+        "vertices": 23600,
+        "triangles": 46152,
+        "bounds_min": [
+          -0.36000001430511475,
+          -0.009999999776482582,
+          -1.2799999713897705
+        ],
+        "bounds_max": [
+          0.36000001430511475,
+          1.7400000095367432,
+          0.4399999976158142
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-macropus-giganteus-1795048117-3873b4.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-macropus-giganteus-1795048117-3873b4",
+      "lods": {
+        "lod0": {
+          "bytes": 607576,
+          "sha256": "cab28a21c360447610f83e063a28974b524662265dd8d3f0b2a9ccf3d53de6a7",
+          "vertices": 23600,
+          "triangles": 46152,
+          "bounds_min": [
+            -0.36000001430511475,
+            -0.009999999776482582,
+            -1.2799999713897705
+          ],
+          "bounds_max": [
+            0.36000001430511475,
+            1.7400000095367432,
+            0.4399999976158142
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "macropus-giganteus-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/lods/macropus-giganteus-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 100788,
+          "sha256": "8ee1eb5f4af0292fb2517f3403795a93c62ee3b5e429461b95e0329ccd3c47e1",
+          "vertices": 4095,
+          "triangles": 7199,
+          "bounds_min": [
+            -0.36000001430511475,
+            -0.009999999776482582,
+            -1.2799999713897705
+          ],
+          "bounds_max": [
+            0.36000001430511475,
+            1.7400000095367432,
+            0.4399999976158142
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "macropus-giganteus-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/lods/macropus-giganteus-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 34724,
+          "sha256": "9c2d66bea94b42b8f46909558ff9e3fccbbba446864ecdee6e54ec74ad15701a",
+          "vertices": 1519,
+          "triangles": 2200,
+          "bounds_min": [
+            -0.36000001430511475,
+            -0.009999999776482582,
+            -1.2799999713897705
+          ],
+          "bounds_max": [
+            0.36000001430511475,
+            1.7400000095367432,
+            0.4399999976158142
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "macropus-giganteus-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/lods/macropus-giganteus-lod2.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "ornithorhynchus-anatinus",
+      "did": "did:q42:taxon:ornithorhynchus_anatinus",
+      "kingdom": "fauna",
+      "source_10d": {
+        "file": "ornithorhynchus-anatinus.10d",
+        "bytes": 617416,
+        "sha256": "5f000c52462798107a8e4e5d8f2b29a196327ad998812efeafc406c52360ec2c",
+        "vertices": 21847,
+        "triangles": 43095,
+        "bounds_min": [
+          -0.2150000035762787,
+          -0.009999999776482582,
+          -0.3149999976158142
+        ],
+        "bounds_max": [
+          0.2150000035762787,
+          0.11522222310304642,
+          0.32499998807907104
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-ornithorhynchus-anatinus-1795048120-8df9b6.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-ornithorhynchus-anatinus-1795048120-8df9b6",
+      "lods": {
+        "lod0": {
+          "bytes": 564692,
+          "sha256": "1dd7badd1a870f9dedca6143eb79d62849d1f75fca046462fe66da9a81b08b35",
+          "vertices": 21847,
+          "triangles": 43095,
+          "bounds_min": [
+            -0.2150000035762787,
+            -0.009999999776482582,
+            -0.3149999976158142
+          ],
+          "bounds_max": [
+            0.2150000035762787,
+            0.11522199958562851,
+            0.32499998807907104
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "ornithorhynchus-anatinus-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/lods/ornithorhynchus-anatinus-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 97584,
+          "sha256": "6ece87aebea37fea98560c16a17e6118f94e517628b19116da820fb334d78857",
+          "vertices": 3866,
+          "triangles": 7199,
+          "bounds_min": [
+            -0.2150000035762787,
+            -0.009999999776482582,
+            -0.3149999976158142
+          ],
+          "bounds_max": [
+            0.2150000035762787,
+            0.11522199958562851,
+            0.32499998807907104
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "ornithorhynchus-anatinus-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/lods/ornithorhynchus-anatinus-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 30668,
+          "sha256": "ad4995bd7bb4a5fd846cb775cbb55bd3b4ecb74a51bd8bae202606377ca53aba",
+          "vertices": 1229,
+          "triangles": 2200,
+          "bounds_min": [
+            -0.2150000035762787,
+            -0.009999999776482582,
+            -0.3149999976158142
+          ],
+          "bounds_max": [
+            0.2150000035762787,
+            0.11405624449253082,
+            0.32499998807907104
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "ornithorhynchus-anatinus-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/lods/ornithorhynchus-anatinus-lod2.10d"
+        }
+      }
+    },
+    {
+      "schema": "intenteco.lod-manifest/v1",
+      "slug": "dacelo-novaeguineae",
+      "did": "did:q42:taxon:dacelo_novaeguineae",
+      "kingdom": "fauna",
+      "source_10d": {
+        "file": "dacelo-novaeguineae.10d",
+        "bytes": 346248,
+        "sha256": "81eaf882df7cb1aeef8251bf5df1443ae3d402ca3e30473dbd7d7c7f350fc065",
+        "vertices": 11767,
+        "triangles": 23046,
+        "bounds_min": [
+          -0.2343900054693222,
+          0.0,
+          -0.15724000334739685
+        ],
+        "bounds_max": [
+          0.24264000356197357,
+          0.4404900074005127,
+          0.16599999368190765
+        ]
+      },
+      "synth_hmc": "C:\\github\\synth\\production\\intenteco-lod-dacelo-novaeguineae-1795048126-bc14dd.hmc",
+      "synth_export_dir": "C:\\github\\synth\\production\\intenteco-lod-dacelo-novaeguineae-1795048126-bc14dd",
+      "lods": {
+        "lod0": {
+          "bytes": 303284,
+          "sha256": "2d2d7fb69c4dd3448a467f7470509ef4b9eecf5ff3fa1366a16c5e40d3ab52d5",
+          "vertices": 11767,
+          "triangles": 23046,
+          "bounds_min": [
+            -0.2343900054693222,
+            0.0,
+            -0.15724000334739685
+          ],
+          "bounds_max": [
+            0.24264000356197357,
+            0.4404900074005127,
+            0.16599999368190765
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dacelo-novaeguineae-lod0.10d",
+          "distance_band_m": "0-25m",
+          "local_url": "/intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod0.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/lods/dacelo-novaeguineae-lod0.10d"
+        },
+        "lod1": {
+          "bytes": 96800,
+          "sha256": "5d6a9ac51f86da6ac3c0fb884282673e93fed1dce06dd774688b00d156ed31f6",
+          "vertices": 3810,
+          "triangles": 7200,
+          "bounds_min": [
+            -0.2343900054693222,
+            0.0,
+            -0.15724000334739685
+          ],
+          "bounds_max": [
+            0.24204443395137787,
+            0.4403589963912964,
+            0.16599999368190765
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dacelo-novaeguineae-lod1.10d",
+          "distance_band_m": "25-90m",
+          "local_url": "/intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod1.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/lods/dacelo-novaeguineae-lod1.10d"
+        },
+        "lod2": {
+          "bytes": 30648,
+          "sha256": "61de981d706ad712fd5eb43cd7ffe28b076a9b401b8bc8d359435e956addab87",
+          "vertices": 1228,
+          "triangles": 2200,
+          "bounds_min": [
+            -0.23181301355361938,
+            0.0,
+            -0.15465550124645233
+          ],
+          "bounds_max": [
+            0.1733037531375885,
+            0.4388197660446167,
+            0.16599999368190765
+          ],
+          "sections": [
+            "QuantizedMesh",
+            "FieldSidecar",
+            "SurfaceReading"
+          ],
+          "file": "dacelo-novaeguineae-lod2.10d",
+          "distance_band_m": ">90m",
+          "local_url": "/intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod2.10d",
+          "remote_url": "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/lods/dacelo-novaeguineae-lod2.10d"
+        }
+      }
+    }
+  ]
+}

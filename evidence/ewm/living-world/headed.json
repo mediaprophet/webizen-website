@@ -17,9 +17,9 @@
     "url": "/pkg/native-world/webizen_world_bg.wasm",
     "path": "site/pkg/native-world/webizen_world_bg.wasm",
     "identity": "site/pkg/native-world/runtime-identity.json",
-    "bytes": 22114849,
-    "mib": 21.10,
-    "sha256": "04842f736350720a8271e0629be642113017fc6487af577f7cf74e8514532743",
+    "bytes": 21317822,
+    "mib": 20.33,
+    "sha256": "bc0bc55e1fbee2c8619a97a8736e29f22908cc3921da508836a178996e81376e",
     "ci_budget_mib": 23.5,
     "ci_budget_bytes": 24641536,
     "under_budget": true

@@ -1,0 +1,194 @@
+{
+  "schema": "webizen.ewm-cosmos-frames/v1",
+  "title": "Hierarchical World-to-Cosmos OCS Frame Tree (LocalEnu -> PlanetaryWgs84 -> HeliocentricIcrf -> GalacticCosmos)",
+  "epoch_tdb": "2026-11-16T00:00:00Z",
+  "jd_tdb": 2461360.5,
+  "catalog_q42": "/data/ewm/cosmos-catalog.q42",
+  "jpl_vectors_source": "/data/publications/aaa/space/vectors.json",
+  "bioregions_source": "/data/ewm/gis/bioregions-se-au.json",
+  "wgs84_ellipsoid": {
+    "a_m": 6378137.0,
+    "inv_f": 298.257223563,
+    "f": 0.0033528106647474805,
+    "e2": 0.0066943799901413165
+  },
+  "floating_origin": {
+    "world_precision": "f64",
+    "render_precision": "f32",
+    "hysteresis_band_fraction": 0.15
+  },
+  "regimes": [
+    {
+      "id": "LocalEnu",
+      "min_altitude_m": 0.01,
+      "max_altitude_m": 10000.0,
+      "zoom_out_hysteresis_m": 11500.0,
+      "zoom_in_hysteresis_m": 0.01,
+      "tile_size_m": 100.0,
+      "query_radius_m": 80.0
+    },
+    {
+      "id": "PlanetaryWgs84",
+      "min_altitude_m": 10000.0,
+      "max_altitude_m": 10000000.0,
+      "zoom_out_hysteresis_m": 11500000.0,
+      "zoom_in_hysteresis_m": 8500.0,
+      "tile_size_m": 100000.0,
+      "query_radius_m": 250000.0
+    },
+    {
+      "id": "HeliocentricIcrf",
+      "min_altitude_m": 10000000.0,
+      "max_altitude_m": 1000000000000.0,
+      "zoom_out_hysteresis_m": 1150000000000.0,
+      "zoom_in_hysteresis_m": 8500000.0,
+      "tile_size_m": 1000000000.0,
+      "query_radius_m": 50000000000.0
+    },
+    {
+      "id": "GalacticCosmos",
+      "min_altitude_m": 1000000000000.0,
+      "max_altitude_m": null,
+      "zoom_out_hysteresis_m": null,
+      "zoom_in_hysteresis_m": 850000000000.0,
+      "tile_size_m": 100000000000000.0,
+      "query_radius_m": 10000000000000000.0
+    }
+  ],
+  "nodes": [
+    {
+      "id": "did:q42:cosmos:milky-way",
+      "label": "Milky Way Galactic Cosmos",
+      "usri": "urn:omni:v1:physical:observable:standard:cosmos:galactic",
+      "regime": "GalacticCosmos",
+      "parent_id": null,
+      "origin_world_m": [0.0, 0.0, 0.0],
+      "radius_m": 5.0e20,
+      "min_altitude_m": 1.0e12,
+      "max_altitude_m": null
+    },
+    {
+      "id": "did:q42:cosmos:sun",
+      "label": "Sun (Sol)",
+      "usri": "urn:omni:v1:physical:observable:standard:sun:icrf",
+      "regime": "HeliocentricIcrf",
+      "parent_id": "did:q42:cosmos:milky-way",
+      "jpl_target_id": "10",
+      "origin_world_m": [0.0, 0.0, 0.0],
+      "velocity_m_s": [0.0, 0.0, 0.0],
+      "radius_m": 695700000.0,
+      "min_altitude_m": 1.0e7,
+      "max_altitude_m": 1.0e12
+    },
+    {
+      "id": "did:q42:cosmos:earth",
+      "label": "Earth (WGS84 / JPL 399)",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "regime": "HeliocentricIcrf",
+      "parent_id": "did:q42:cosmos:sun",
+      "jpl_target_id": "399",
+      "jpl_source_sha256": "7ceb3ecd61475b9626ad8e9457d55d9ab923f2dbb777baefbbee02373642d1b7",
+      "origin_world_m": [88500030005.58998, 108798923991.0766, 47161666865.26002],
+      "velocity_m_s": [-24365.72794155198, 16238.3864436891, 7038.046127295474],
+      "radius_m": 6371010.0,
+      "min_altitude_m": 1.0e4,
+      "max_altitude_m": 1.0e12
+    },
+    {
+      "id": "did:q42:cosmos:moon",
+      "label": "Moon (Luna / JPL 301)",
+      "usri": "urn:omni:v1:physical:observable:standard:moon:icrf",
+      "regime": "HeliocentricIcrf",
+      "parent_id": "did:q42:cosmos:earth",
+      "jpl_target_id": "301",
+      "origin_world_m": [384400000.0, 0.0, 0.0],
+      "velocity_m_s": [0.0, 1022.0, 0.0],
+      "radius_m": 1737400.0,
+      "min_altitude_m": 1.0e7,
+      "max_altitude_m": 1.0e12
+    },
+    {
+      "id": "did:q42:cosmos:mars",
+      "label": "Mars (JPL 499)",
+      "usri": "urn:omni:v1:physical:observable:standard:mars:icrf",
+      "regime": "HeliocentricIcrf",
+      "parent_id": "did:q42:cosmos:sun",
+      "jpl_target_id": "499",
+      "jpl_source_sha256": "8afe9824efcfb2b96d5bcca71f270a1ffda3e52a9947143e582029a6aa810966",
+      "origin_world_m": [-72391939208.30978, 208026428048.8652, 97369318095.56712],
+      "velocity_m_s": [-22190.85039662503, -4969.05040433935, -1680.704404674567],
+      "radius_m": 3389920.0,
+      "min_altitude_m": 1.0e7,
+      "max_altitude_m": 1.0e12
+    },
+    {
+      "id": "did:q42:bioregion:northern-rivers-coastal",
+      "slug": "northern-rivers-coastal",
+      "ibra7_code": "NNC",
+      "label": "Northern Rivers & Far North Coast (NSW)",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "regime": "PlanetaryWgs84",
+      "parent_id": "did:q42:cosmos:earth",
+      "geodetic_deg": [-28.59, 153.41, 575.0],
+      "origin_world_m": [-5012379.078, 2508918.365, -3034354.038],
+      "radius_m": 55000.0,
+      "min_altitude_m": 1.0e4,
+      "max_altitude_m": 1.0e7
+    },
+    {
+      "id": "did:q42:bioregion:sydney-basin-sandstone",
+      "slug": "sydney-basin-sandstone",
+      "ibra7_code": "SYB",
+      "label": "Sydney Basin Sandstone Plateaus & Coastal Gorges",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "regime": "PlanetaryWgs84",
+      "parent_id": "did:q42:cosmos:earth",
+      "geodetic_deg": [-33.80, 150.80, 625.0],
+      "origin_world_m": [-4631856.158, 2588656.909, -3528381.169],
+      "radius_m": 75000.0,
+      "min_altitude_m": 1.0e4,
+      "max_altitude_m": 1.0e7
+    },
+    {
+      "id": "did:q42:bioregion:snowy-mountains-alpine",
+      "slug": "snowy-mountains-alpine",
+      "ibra7_code": "AUA",
+      "label": "Snowy Mountains, Australian Alps & Monaro Tablelands",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "regime": "PlanetaryWgs84",
+      "parent_id": "did:q42:cosmos:earth",
+      "geodetic_deg": [-35.95, 148.625, 1339.0],
+      "origin_world_m": [-4414324.310, 2691872.005, -3724487.985],
+      "radius_m": 95000.0,
+      "min_altitude_m": 1.0e4,
+      "max_altitude_m": 1.0e7
+    },
+    {
+      "id": "did:q42:bioregion:victorian-central-highlands",
+      "slug": "victorian-central-highlands",
+      "ibra7_code": "SEH",
+      "label": "Victorian Central Highlands & Yarra-Goulburn Catchments",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "regime": "PlanetaryWgs84",
+      "parent_id": "did:q42:cosmos:earth",
+      "geodetic_deg": [-37.575, 145.825, 845.0],
+      "origin_world_m": [-4187925.234, 2843440.554, -3868679.998],
+      "radius_m": 65000.0,
+      "min_altitude_m": 1.0e4,
+      "max_altitude_m": 1.0e7
+    },
+    {
+      "id": "canberra-public-reference",
+      "slug": "canberra-public-reference",
+      "label": "Canberra Southern Tablelands Catchment (Local ENU)",
+      "usri": "urn:omni:v1:physical:observable:standard:earth:wgs84",
+      "regime": "LocalEnu",
+      "parent_id": "did:q42:bioregion:snowy-mountains-alpine",
+      "geodetic_deg": [-35.29, 149.07, 541.0],
+      "origin_world_m": [-4471130.585, 2679097.073, -3664487.658],
+      "radius_m": 300.0,
+      "min_altitude_m": 0.01,
+      "max_altitude_m": 1.0e4
+    }
+  ]
+}

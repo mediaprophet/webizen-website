@@ -8,6 +8,30 @@ from http_range import satisfiable_range
 from synth_bridge import SynthBridge
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT.parent/'qualiaDB'/'docs'
 if not DOCS.exists():DOCS=Path('C:/github/qualiaDB/docs')
+INTENTECO_ROOT=ROOT.parent/'eco-intent'
+if not INTENTECO_ROOT.exists():INTENTECO_ROOT=Path('C:/github/eco-intent')
+INTENTECO_SLUGS=frozenset({
+ 'eucalyptus-camaldulensis','eucalyptus-dalrympleana','eucalyptus-regnans','eucalyptus-melliodora',
+ 'banksia-integrifolia','acacia-pycnantha','dicksonia-antarctica',
+ 'poa-labillardierei','themeda-triandra','lomandra-longifolia','bursaria-spinosa',
+ 'wallabia-bicolor','phascolarctos-cinereus','vombatus-ursinus','macropus-giganteus',
+ 'ornithorhynchus-anatinus','dacelo-novaeguineae',
+ 'homo-sapiens',
+})
+def _resolve_intenteco(raw_path):
+ """Resolve a read-only /intenteco/<slug>/<subpath> URL to an allowlisted eco-intent file."""
+ if '\\' in raw_path:return None
+ unq=unquote(raw_path)
+ if '\\' in unq or not unq.startswith('/intenteco/'):return None
+ rest=unq[11:]
+ slug,sep,sub=rest.partition('/')
+ if not sep or not sub or slug not in INTENTECO_SLUGS:return None
+ parts=sub.split('/')
+ if any(p in ('','.','..') for p in parts):return None
+ base=(INTENTECO_ROOT/slug).resolve()
+ dest=(base/sub).resolve()
+ if not dest.is_relative_to(base) or not dest.is_file():return None
+ return dest
 sys.path.insert(0,str(ROOT/'adapters/qualiadb'))
 from graph_paths import GraphPaths
 public_graph=GraphPaths(ROOT/'publication/generated')
@@ -29,7 +53,11 @@ def recipe(kind,value):
  raise ValueError('Unknown production recipe')
 class Handler(SimpleHTTPRequestHandler):
  def translate_path(self,path):
-  rel=unquote(urlsplit(path).path)
+  raw=urlsplit(path).path
+  if raw.startswith('/intenteco/') or unquote(raw).startswith('/intenteco/'):
+   dest=_resolve_intenteco(raw)
+   return str(dest) if dest is not None else str(INTENTECO_ROOT/'__refused__')
+  rel=unquote(raw)
   if rel.startswith('/source/'):base=DOCS;rel=rel[8:]
   elif rel.startswith('/publication/'):base=ROOT/'publication/generated';rel=rel[13:]
   elif rel.startswith(('/data/','/plans/','/evidence/','/artifacts/','/recipes/','/production/','/publication/','/migration/','/schemas/','/packages/')):base=ROOT;rel=rel.lstrip('/')
@@ -37,7 +65,19 @@ class Handler(SimpleHTTPRequestHandler):
   dest=(base/rel).resolve()
   return str(dest if dest.is_relative_to(base.resolve()) else base/'__refused__')
  def end_headers(self):
-  self.send_header('Cache-Control','no-store');self.send_header('Cross-Origin-Resource-Policy','same-origin');self.send_header('Cross-Origin-Opener-Policy','same-origin');self.send_header('Cross-Origin-Embedder-Policy','require-corp');self.send_header('Accept-Ranges','bytes');super().end_headers()
+  clean_path=unquote(urlsplit(self.path).path)
+  is_cors_asset=clean_path.startswith(('/intenteco/','/production/terrain-v2/'))
+  self.send_header('Cache-Control','no-store')
+  self.send_header('Cross-Origin-Resource-Policy','cross-origin' if is_cors_asset else 'same-origin')
+  self.send_header('Cross-Origin-Opener-Policy','same-origin')
+  self.send_header('Cross-Origin-Embedder-Policy','require-corp')
+  self.send_header('Accept-Ranges','bytes')
+  if is_cors_asset:self.send_header('Access-Control-Allow-Origin','*')
+  super().end_headers()
+ def do_OPTIONS(self):
+  if unquote(urlsplit(self.path).path).startswith(('/intenteco/','/production/terrain-v2/')):
+   self.send_response(204);self.send_header('Access-Control-Allow-Methods','GET, HEAD, OPTIONS');self.send_header('Access-Control-Allow-Headers','Range');self.end_headers();return
+  self.send_error(405)
  def json_response(self,data,status=200):
   raw=json.dumps(data,ensure_ascii=False).encode();self.send_response(status);self.send_header('Content-Type','application/json; charset=utf-8');self.send_header('Content-Length',str(len(raw)));self.end_headers();self.wfile.write(raw)
  def do_GET(self):
@@ -56,7 +96,6 @@ class Handler(SimpleHTTPRequestHandler):
    self.send_header('Content-Type','application/octet-stream')
    self.send_header('Content-Range',f'bytes {start}-{end}/{len(data)}')
    self.send_header('Content-Length',str(len(chunk)))
-   self.send_header('Accept-Ranges','bytes')
    self.end_headers();self.wfile.write(chunk);return
   super().do_GET()
  def do_POST(self):

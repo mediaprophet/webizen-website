@@ -1,0 +1,1764 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dwc:  <http://rs.tdwg.org/dwc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix ewm:  <https://webizen.au/relation/> .
+
+<https://webizen.au/catalog/se-australia-species>
+    a <https://webizen.au/catalog/SpeciesCatalog> ;
+    ewm:schema "webizen.species-catalog/v1" ;
+    ewm:speciesCount 17 ;
+    ewm:hasSpecies <did:q42:taxon:eucalyptus-camaldulensis> , <did:q42:taxon:eucalyptus-dalrympleana> , <did:q42:taxon:eucalyptus-regnans> , <did:q42:taxon:eucalyptus-melliodora> , <did:q42:taxon:banksia-integrifolia> , <did:q42:taxon:acacia-pycnantha> , <did:q42:taxon:dicksonia-antarctica> , <did:q42:taxon:wallabia-bicolor> , <did:q42:taxon:phascolarctos-cinereus> , <did:q42:taxon:vombatus-ursinus> , <did:q42:taxon:macropus-giganteus> , <did:q42:taxon:ornithorhynchus-anatinus> , <did:q42:taxon:dacelo-novaeguineae> , <did:q42:taxon:poa-labillardierei> , <did:q42:taxon:themeda-triandra> , <did:q42:taxon:lomandra-longifolia> , <did:q42:taxon:bursaria-spinosa> .
+
+<did:q42:taxon:eucalyptus-camaldulensis>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:eucalyptus_camaldulensis> ;
+    ewm:slug "eucalyptus-camaldulensis" ;
+    dwc:scientificName "Eucalyptus camaldulensis Dehnh." ;
+    dwc:vernacularName "River Red Gum"@en ;
+    rdfs:label "River Red Gum"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Riverine floodplains & riparian corridors (Murray-Darling / SE Australia)" ;
+    ewm:aabbMinX -11.438711 ;
+    ewm:aabbMinY -5.423186 ;
+    ewm:aabbMinZ -13.223689 ;
+    ewm:aabbMaxX 11.620330 ;
+    ewm:aabbMaxY 20.711300 ;
+    ewm:aabbMaxZ 12.636215 ;
+    ewm:canonicalUrl "/intenteco/eucalyptus-camaldulensis/dist/eucalyptus-camaldulensis.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/eucalyptus-camaldulensis.10d" ;
+    ewm:canonicalSha256 "cc3a64a0353469776de571c27994425226ed92f7507b1b5c1de3bfd473777340" ;
+    ewm:canonicalBytes 5304808 ;
+    ewm:canonicalTriangles 266628 ;
+    ewm:canonicalVertices 142200 ;
+    ewm:sidecarTaxonQ42 "/intenteco/eucalyptus-camaldulensis/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "e9f91d6885ec4d825f3cabab63b3e11c2311190b9a6994c5ef6f19a2209f1a0d" ;
+    ewm:sidecarFieldEmf "/intenteco/eucalyptus-camaldulensis/dist/eucalyptus-camaldulensis-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "a92dce4867d5d41a58f3930fa3a6b4c52f06c407861f48e9a44352a12a8ad56d" ;
+    ewm:sidecarSubstrateM64 "/intenteco/eucalyptus-camaldulensis/dist/eucalyptus-camaldulensis-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "bcdd39343c64e67535815e279b8a69c9b04cc860aa94cceada5c5a9f291decc0" ;
+    ewm:hasLod <https://webizen.au/species/eucalyptus-camaldulensis/lod/lod0> , <https://webizen.au/species/eucalyptus-camaldulensis/lod/lod1> , <https://webizen.au/species/eucalyptus-camaldulensis/lod/lod2> , <https://webizen.au/species/eucalyptus-camaldulensis/lod/aboveground_lod1> , <https://webizen.au/species/eucalyptus-camaldulensis/lod/rhizosphere> .
+
+<https://webizen.au/species/eucalyptus-camaldulensis/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-camaldulensis> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-lod0.10d" ;
+    ewm:sha256 "bc87c0d730f28981672646bee589f1f78f533580d2784b160b9b6df5fd2ed65b" ;
+    ewm:bytes 943564 ;
+    ewm:triangles 65000 ;
+    ewm:vertices 39521 ;
+    ewm:aabbMinX -11.442601 ;
+    ewm:aabbMinY -5.405540 ;
+    ewm:aabbMinZ -13.212915 ;
+    ewm:aabbMaxX 11.619769 ;
+    ewm:aabbMaxY 20.695747 ;
+    ewm:aabbMaxZ 12.639382 .
+
+<https://webizen.au/species/eucalyptus-camaldulensis/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-camaldulensis> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-lod1.10d" ;
+    ewm:sha256 "470b04eba74321f4981fbe06eb264818da74fd222acf88d4957469c0042f8409" ;
+    ewm:bytes 307192 ;
+    ewm:triangles 17798 ;
+    ewm:vertices 14296 ;
+    ewm:aabbMinX -11.503885 ;
+    ewm:aabbMinY -5.405366 ;
+    ewm:aabbMinZ -13.280026 ;
+    ewm:aabbMaxX 11.617007 ;
+    ewm:aabbMaxY 20.695747 ;
+    ewm:aabbMaxZ 12.689989 .
+
+<https://webizen.au/species/eucalyptus-camaldulensis/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-camaldulensis> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-lod2.10d" ;
+    ewm:sha256 "b88bb80ee73f1960b6c1be5a21d75c777a7f074ee205204b5a711997e2876ffc" ;
+    ewm:bytes 68212 ;
+    ewm:triangles 3898 ;
+    ewm:vertices 3183 ;
+    ewm:aabbMinX -11.292687 ;
+    ewm:aabbMinY -2.165498 ;
+    ewm:aabbMinZ -13.333840 ;
+    ewm:aabbMaxX 11.622311 ;
+    ewm:aabbMaxY 20.695747 ;
+    ewm:aabbMaxZ 12.748292 .
+
+<https://webizen.au/species/eucalyptus-camaldulensis/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-camaldulensis> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-aboveground-lod1.10d" ;
+    ewm:sha256 "99079f19d9a224ccf1be0d820912f83a860696d7e314bac33e0b9b0c25a19593" ;
+    ewm:bytes 374760 ;
+    ewm:triangles 21443 ;
+    ewm:vertices 17560 ;
+    ewm:aabbMinX -11.489089 ;
+    ewm:aabbMinY -0.300000 ;
+    ewm:aabbMinZ -13.268611 ;
+    ewm:aabbMaxX 11.615189 ;
+    ewm:aabbMaxY 20.695747 ;
+    ewm:aabbMaxZ 12.677622 .
+
+<https://webizen.au/species/eucalyptus-camaldulensis/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-camaldulensis> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/eucalyptus-camaldulensis/dist/lods/eucalyptus-camaldulensis-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-camaldulensis/main/dist/lods/eucalyptus-camaldulensis-rhizosphere.10d" ;
+    ewm:sha256 "dc1b3efbf8ba44a07b54e6f3702049e13a41af1527e26836c71dd3e311720967" ;
+    ewm:bytes 91252 ;
+    ewm:triangles 5945 ;
+    ewm:vertices 3951 ;
+    ewm:aabbMinX -7.798208 ;
+    ewm:aabbMinY -5.405540 ;
+    ewm:aabbMinZ -7.923069 ;
+    ewm:aabbMaxX 9.228396 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 9.287075 .
+
+<did:q42:taxon:eucalyptus-dalrympleana>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:eucalyptus_dalrympleana> ;
+    ewm:slug "eucalyptus-dalrympleana" ;
+    dwc:scientificName "Eucalyptus dalrympleana Maiden subsp. dalrympleana" ;
+    dwc:vernacularName "Mountain White Gum"@en ;
+    rdfs:label "Mountain White Gum"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Montane & subalpine wet sclerophyll forests (SE Australian highlands)" ;
+    ewm:aabbMinX -7.996430 ;
+    ewm:aabbMinY -4.404500 ;
+    ewm:aabbMinZ -7.249528 ;
+    ewm:aabbMaxX 8.884700 ;
+    ewm:aabbMaxY 22.179960 ;
+    ewm:aabbMaxZ 8.466100 ;
+    ewm:canonicalUrl "/intenteco/eucalyptus-dalrympleana/dist/eucalyptus-dalrympleana.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/eucalyptus-dalrympleana.10d" ;
+    ewm:canonicalSha256 "14b186043659a9ee2b59dc4f7bb36846679f754c1f96b7df51cc78013ad5d21c" ;
+    ewm:canonicalBytes 4520768 ;
+    ewm:canonicalTriangles 224940 ;
+    ewm:canonicalVertices 120082 ;
+    ewm:sidecarTaxonQ42 "/intenteco/eucalyptus-dalrympleana/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "e18f944b511a6c8a63170427fc64e5896a89d0d4f134e237beaab1c26d20eb25" ;
+    ewm:sidecarFieldEmf "/intenteco/eucalyptus-dalrympleana/dist/eucalyptus-dalrympleana-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "df2a76eb6341237035f06750ea80494dee84063e7503001df3a5407e445e9e33" ;
+    ewm:sidecarSubstrateM64 "/intenteco/eucalyptus-dalrympleana/dist/eucalyptus-dalrympleana-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "0b3021cf7c0559cac7c801c4636fb3432e94397f47e0ad2e9ef100a0b9f91d22" ;
+    ewm:hasLod <https://webizen.au/species/eucalyptus-dalrympleana/lod/lod0> , <https://webizen.au/species/eucalyptus-dalrympleana/lod/lod1> , <https://webizen.au/species/eucalyptus-dalrympleana/lod/lod2> , <https://webizen.au/species/eucalyptus-dalrympleana/lod/aboveground_lod1> , <https://webizen.au/species/eucalyptus-dalrympleana/lod/rhizosphere> .
+
+<https://webizen.au/species/eucalyptus-dalrympleana/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-dalrympleana> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-lod0.10d" ;
+    ewm:sha256 "36c2c31ec4628a3d315f693be1dc0595f5ff5eab444f346065ba196c964e147f" ;
+    ewm:bytes 934092 ;
+    ewm:triangles 64999 ;
+    ewm:vertices 38845 ;
+    ewm:aabbMinX -7.992069 ;
+    ewm:aabbMinY -4.403689 ;
+    ewm:aabbMinZ -7.247984 ;
+    ewm:aabbMaxX 8.879677 ;
+    ewm:aabbMaxY 22.177746 ;
+    ewm:aabbMaxZ 8.459025 .
+
+<https://webizen.au/species/eucalyptus-dalrympleana/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-dalrympleana> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-lod1.10d" ;
+    ewm:sha256 "6b4665d39c490c725949ab8fd7fe9ae7c8a0e6cae0eaf1d18dc42bd6a7d44346" ;
+    ewm:bytes 308312 ;
+    ewm:triangles 17798 ;
+    ewm:vertices 14376 ;
+    ewm:aabbMinX -8.101145 ;
+    ewm:aabbMinY -4.399531 ;
+    ewm:aabbMinZ -7.331676 ;
+    ewm:aabbMaxX 8.840137 ;
+    ewm:aabbMaxY 22.367607 ;
+    ewm:aabbMaxZ 8.421316 .
+
+<https://webizen.au/species/eucalyptus-dalrympleana/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-dalrympleana> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-lod2.10d" ;
+    ewm:sha256 "9dd047612669f419f26ba0a40bb299edc4ed2982b316026e9a6f82d0e0debaeb" ;
+    ewm:bytes 68296 ;
+    ewm:triangles 3900 ;
+    ewm:vertices 3188 ;
+    ewm:aabbMinX -8.209132 ;
+    ewm:aabbMinY -3.269280 ;
+    ewm:aabbMinZ -7.416390 ;
+    ewm:aabbMaxX 8.724350 ;
+    ewm:aabbMaxY 22.525164 ;
+    ewm:aabbMaxZ 7.504803 .
+
+<https://webizen.au/species/eucalyptus-dalrympleana/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-dalrympleana> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-aboveground-lod1.10d" ;
+    ewm:sha256 "be1a2b5de7c1f8d2136e8cba1606faf385546919c9b6251ce6b2b014e59a42f4" ;
+    ewm:bytes 346684 ;
+    ewm:triangles 20112 ;
+    ewm:vertices 16125 ;
+    ewm:aabbMinX -8.078238 ;
+    ewm:aabbMinY -0.300000 ;
+    ewm:aabbMinZ -7.313706 ;
+    ewm:aabbMaxX 7.801288 ;
+    ewm:aabbMaxY 22.334187 ;
+    ewm:aabbMaxZ 7.434744 .
+
+<https://webizen.au/species/eucalyptus-dalrympleana/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-dalrympleana> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/eucalyptus-dalrympleana/dist/lods/eucalyptus-dalrympleana-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-dalrympleana/main/dist/lods/eucalyptus-dalrympleana-rhizosphere.10d" ;
+    ewm:sha256 "6f9f4a44dcb569fe173073191259b0f5036976405d236c25d4a1a4f1d91747e8" ;
+    ewm:bytes 84336 ;
+    ewm:triangles 5440 ;
+    ewm:vertices 3674 ;
+    ewm:aabbMinX -6.953578 ;
+    ewm:aabbMinY -4.403689 ;
+    ewm:aabbMinZ -6.887662 ;
+    ewm:aabbMaxX 8.879677 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 8.459025 .
+
+<did:q42:taxon:eucalyptus-regnans>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:eucalyptus_regnans> ;
+    ewm:slug "eucalyptus-regnans" ;
+    dwc:scientificName "Eucalyptus regnans F.Muell." ;
+    dwc:vernacularName "Mountain Ash"@en ;
+    rdfs:label "Mountain Ash"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Cool temperate tall wet sclerophyll mountain gullies (Victoria & Tasmania)" ;
+    ewm:aabbMinX -11.244700 ;
+    ewm:aabbMinY -5.222966 ;
+    ewm:aabbMinZ -11.676986 ;
+    ewm:aabbMaxX 12.140600 ;
+    ewm:aabbMaxY 37.265499 ;
+    ewm:aabbMaxZ 10.978986 ;
+    ewm:canonicalUrl "/intenteco/eucalyptus-regnans/dist/eucalyptus-regnans.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/eucalyptus-regnans.10d" ;
+    ewm:canonicalSha256 "f61aa4c3dd1c913e9d01f4faa212919830b0af970c957a3efd0e63c7628da946" ;
+    ewm:canonicalBytes 3689408 ;
+    ewm:canonicalTriangles 176312 ;
+    ewm:canonicalVertices 100916 ;
+    ewm:sidecarTaxonQ42 "/intenteco/eucalyptus-regnans/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "5d47d5bb85d43f9f9f020b32fb1763aeb667fa6e9522a15830dfb2f2d18b67fc" ;
+    ewm:sidecarFieldEmf "/intenteco/eucalyptus-regnans/dist/eucalyptus-regnans-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "24bee3ce67de763b9b9f87ab2ffea069df156c6dd878b385350963d270dbafa4" ;
+    ewm:sidecarSubstrateM64 "/intenteco/eucalyptus-regnans/dist/eucalyptus-regnans-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "011533ef649008e652039a34b5dd156cb3d685a3d60a8db9c28a4464b94da767" ;
+    ewm:hasLod <https://webizen.au/species/eucalyptus-regnans/lod/lod0> , <https://webizen.au/species/eucalyptus-regnans/lod/lod1> , <https://webizen.au/species/eucalyptus-regnans/lod/lod2> , <https://webizen.au/species/eucalyptus-regnans/lod/aboveground_lod1> , <https://webizen.au/species/eucalyptus-regnans/lod/rhizosphere> .
+
+<https://webizen.au/species/eucalyptus-regnans/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-regnans> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-lod0.10d" ;
+    ewm:sha256 "9d7d090913577e56618ebde7300b1f85527c5174bdc2b030d58db5ccf06c0647" ;
+    ewm:bytes 971864 ;
+    ewm:triangles 64998 ;
+    ewm:vertices 41544 ;
+    ewm:aabbMinX -11.207589 ;
+    ewm:aabbMinY -5.205218 ;
+    ewm:aabbMinZ -11.676986 ;
+    ewm:aabbMaxX 12.103489 ;
+    ewm:aabbMaxY 37.092812 ;
+    ewm:aabbMaxZ 10.978986 .
+
+<https://webizen.au/species/eucalyptus-regnans/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-regnans> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-lod1.10d" ;
+    ewm:sha256 "ad190e28c025d6f6ca56ddf042377e24f8b4bfb523ed06efef27a7e4cb2e70e1" ;
+    ewm:bytes 309636 ;
+    ewm:triangles 17797 ;
+    ewm:vertices 14471 ;
+    ewm:aabbMinX -10.515389 ;
+    ewm:aabbMinY -1.537412 ;
+    ewm:aabbMinZ -10.336356 ;
+    ewm:aabbMaxX 11.805751 ;
+    ewm:aabbMaxY 37.307987 ;
+    ewm:aabbMaxZ 9.844977 .
+
+<https://webizen.au/species/eucalyptus-regnans/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-regnans> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-lod2.10d" ;
+    ewm:sha256 "5a84b11ae5e8cb97ede0deffb96a432acda1d4f15551a1e113a59b7d74e90176" ;
+    ewm:bytes 67152 ;
+    ewm:triangles 3900 ;
+    ewm:vertices 3106 ;
+    ewm:aabbMinX -10.515389 ;
+    ewm:aabbMinY -1.537412 ;
+    ewm:aabbMinZ -10.420156 ;
+    ewm:aabbMaxX 11.889523 ;
+    ewm:aabbMaxY 37.477352 ;
+    ewm:aabbMaxZ 9.939287 .
+
+<https://webizen.au/species/eucalyptus-regnans/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-regnans> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-aboveground-lod1.10d" ;
+    ewm:sha256 "941e1b66504815f7e7f52b982e1ad285f91c86291c804fa2b8d564142802671c" ;
+    ewm:bytes 379556 ;
+    ewm:triangles 21797 ;
+    ewm:vertices 17751 ;
+    ewm:aabbMinX -9.396230 ;
+    ewm:aabbMinY 0.000000 ;
+    ewm:aabbMinZ -10.308422 ;
+    ewm:aabbMaxX 11.777826 ;
+    ewm:aabbMaxY 37.272064 ;
+    ewm:aabbMaxZ 9.813541 .
+
+<https://webizen.au/species/eucalyptus-regnans/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-regnans> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/eucalyptus-regnans/dist/lods/eucalyptus-regnans-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-regnans/main/dist/lods/eucalyptus-regnans-rhizosphere.10d" ;
+    ewm:sha256 "4f2eac958f5ecfefe73420b5ac573d55956edd9343443ea2eb40f2cd7619f1c1" ;
+    ewm:bytes 50652 ;
+    ewm:triangles 3169 ;
+    ewm:vertices 2241 ;
+    ewm:aabbMinX -11.207589 ;
+    ewm:aabbMinY -5.205218 ;
+    ewm:aabbMinZ -11.676986 ;
+    ewm:aabbMaxX 12.103489 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 10.978986 .
+
+<did:q42:taxon:eucalyptus-melliodora>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:eucalyptus_melliodora> ;
+    ewm:slug "eucalyptus-melliodora" ;
+    dwc:scientificName "Eucalyptus melliodora A.Cunn. ex Schauer" ;
+    dwc:vernacularName "Yellow Box"@en ;
+    rdfs:label "Yellow Box"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Grassy box-gum woodlands on tablelands, foothills & western slopes" ;
+    ewm:aabbMinX -10.284207 ;
+    ewm:aabbMinY -4.799125 ;
+    ewm:aabbMinZ -9.699505 ;
+    ewm:aabbMaxX 9.377443 ;
+    ewm:aabbMaxY 21.501438 ;
+    ewm:aabbMaxZ 9.313105 ;
+    ewm:canonicalUrl "/intenteco/eucalyptus-melliodora/dist/eucalyptus-melliodora.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/eucalyptus-melliodora.10d" ;
+    ewm:canonicalSha256 "12abd3cfe20c0f6519c682aac6b8a1a6e9582d12e9d99a914f4763595cd6b7a6" ;
+    ewm:canonicalBytes 4340944 ;
+    ewm:canonicalTriangles 210868 ;
+    ewm:canonicalVertices 117556 ;
+    ewm:sidecarTaxonQ42 "/intenteco/eucalyptus-melliodora/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "b61dc5cc0d84ca87e777d7d34555dc2c6229453890abe58dee9fa9a32710185d" ;
+    ewm:sidecarFieldEmf "/intenteco/eucalyptus-melliodora/dist/eucalyptus-melliodora-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "b500232eb91387435aab741fd4640b033217249659b1ae149e3e1eb16764f921" ;
+    ewm:sidecarSubstrateM64 "/intenteco/eucalyptus-melliodora/dist/eucalyptus-melliodora-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "e29081f82d5fa6875466cd6461670861fcba122e2280dfc2d30fab8d07918c63" ;
+    ewm:hasLod <https://webizen.au/species/eucalyptus-melliodora/lod/lod0> , <https://webizen.au/species/eucalyptus-melliodora/lod/lod1> , <https://webizen.au/species/eucalyptus-melliodora/lod/lod2> , <https://webizen.au/species/eucalyptus-melliodora/lod/aboveground_lod1> , <https://webizen.au/species/eucalyptus-melliodora/lod/rhizosphere> .
+
+<https://webizen.au/species/eucalyptus-melliodora/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-melliodora> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-lod0.10d" ;
+    ewm:sha256 "ce03a6df13e5f728730be9fd4cb7c604d3010ae91520120172402df72758e2fc" ;
+    ewm:bytes 958020 ;
+    ewm:triangles 64999 ;
+    ewm:vertices 40555 ;
+    ewm:aabbMinX -10.270407 ;
+    ewm:aabbMinY -4.799125 ;
+    ewm:aabbMinZ -9.699553 ;
+    ewm:aabbMaxX 9.363342 ;
+    ewm:aabbMaxY 21.501438 ;
+    ewm:aabbMaxZ 9.313148 .
+
+<https://webizen.au/species/eucalyptus-melliodora/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-melliodora> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-lod1.10d" ;
+    ewm:sha256 "5f67b20deb39c58e2f15c210242eb1fe27bfa71c1dcdb374395c68b8840a41b7" ;
+    ewm:bytes 314652 ;
+    ewm:triangles 17797 ;
+    ewm:vertices 14829 ;
+    ewm:aabbMinX -10.508868 ;
+    ewm:aabbMinY -4.798323 ;
+    ewm:aabbMinZ -9.944858 ;
+    ewm:aabbMaxX 9.606731 ;
+    ewm:aabbMaxY 21.671913 ;
+    ewm:aabbMaxZ 9.528630 .
+
+<https://webizen.au/species/eucalyptus-melliodora/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-melliodora> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-lod2.10d" ;
+    ewm:sha256 "d8b8c1f61a72c664a17f5fd51ec4debef95360688f26e4227c060130bc6b935c" ;
+    ewm:bytes 68232 ;
+    ewm:triangles 3899 ;
+    ewm:vertices 3184 ;
+    ewm:aabbMinX -10.628521 ;
+    ewm:aabbMinY -4.798323 ;
+    ewm:aabbMinZ -10.057998 ;
+    ewm:aabbMaxX 9.728877 ;
+    ewm:aabbMaxY 21.847715 ;
+    ewm:aabbMaxZ 9.628036 .
+
+<https://webizen.au/species/eucalyptus-melliodora/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-melliodora> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-aboveground-lod1.10d" ;
+    ewm:sha256 "ffa0cbf89eb0c919efa641bb42c43e5ddfe8653b962d693700f32ca64bf1a8eb" ;
+    ewm:bytes 363236 ;
+    ewm:triangles 20513 ;
+    ewm:vertices 17135 ;
+    ewm:aabbMinX -10.483487 ;
+    ewm:aabbMinY -0.300000 ;
+    ewm:aabbMinZ -9.920858 ;
+    ewm:aabbMaxX 9.580821 ;
+    ewm:aabbMaxY 21.634623 ;
+    ewm:aabbMaxZ 9.507544 .
+
+<https://webizen.au/species/eucalyptus-melliodora/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:eucalyptus-melliodora> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/eucalyptus-melliodora/dist/lods/eucalyptus-melliodora-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/eucalyptus-melliodora/main/dist/lods/eucalyptus-melliodora-rhizosphere.10d" ;
+    ewm:sha256 "b568509edf806bcd26d09e3da5a100a3dd088b07ba4020e5861cb104db96622e" ;
+    ewm:bytes 75968 ;
+    ewm:triangles 4427 ;
+    ewm:vertices 3510 ;
+    ewm:aabbMinX -9.611718 ;
+    ewm:aabbMinY -4.799125 ;
+    ewm:aabbMinZ -7.225704 ;
+    ewm:aabbMaxX 8.467340 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 7.901266 .
+
+<did:q42:taxon:banksia-integrifolia>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:banksia_integrifolia> ;
+    ewm:slug "banksia-integrifolia" ;
+    dwc:scientificName "Banksia integrifolia L.f." ;
+    dwc:vernacularName "Coast Banksia"@en ;
+    rdfs:label "Coast Banksia"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Coastal dunes, headlands & littoral sclerophyll woodlands" ;
+    ewm:aabbMinX -7.917491 ;
+    ewm:aabbMinY -3.799766 ;
+    ewm:aabbMinZ -7.995409 ;
+    ewm:aabbMaxX 9.432467 ;
+    ewm:aabbMaxY 15.756688 ;
+    ewm:aabbMaxZ 7.329586 ;
+    ewm:canonicalUrl "/intenteco/banksia-integrifolia/dist/banksia-integrifolia.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/banksia-integrifolia.10d" ;
+    ewm:canonicalSha256 "81fcce6f3a96ed51b613a4b169b663f096965af02015cdde76fab2ee8df49000" ;
+    ewm:canonicalBytes 5684208 ;
+    ewm:canonicalTriangles 282752 ;
+    ewm:canonicalVertices 156350 ;
+    ewm:sidecarTaxonQ42 "/intenteco/banksia-integrifolia/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "c803943a74f62aa61b88eb57098edfc9ee441d12a83427802af62057451d8b06" ;
+    ewm:sidecarFieldEmf "/intenteco/banksia-integrifolia/dist/banksia-integrifolia-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "a9bb9f6cac3937c5ca4ed609950477df9b6e88dfda33fe92ac8c116f61b278c2" ;
+    ewm:sidecarSubstrateM64 "/intenteco/banksia-integrifolia/dist/banksia-integrifolia-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "4683814e78f8e0a6787f87ccd357e68a05b8d65fe0106afdb28a51bfabf6893f" ;
+    ewm:hasLod <https://webizen.au/species/banksia-integrifolia/lod/lod0> , <https://webizen.au/species/banksia-integrifolia/lod/lod1> , <https://webizen.au/species/banksia-integrifolia/lod/lod2> , <https://webizen.au/species/banksia-integrifolia/lod/aboveground_lod1> , <https://webizen.au/species/banksia-integrifolia/lod/rhizosphere> .
+
+<https://webizen.au/species/banksia-integrifolia/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:banksia-integrifolia> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-lod0.10d" ;
+    ewm:sha256 "45ba40b321e48dd5489b73499dce9d957aa8d7236a56eac34cf9b976f237b984" ;
+    ewm:bytes 1018360 ;
+    ewm:triangles 64999 ;
+    ewm:vertices 44864 ;
+    ewm:aabbMinX -7.892076 ;
+    ewm:aabbMinY -3.799281 ;
+    ewm:aabbMinZ -7.995903 ;
+    ewm:aabbMaxX 9.408292 ;
+    ewm:aabbMaxY 15.758110 ;
+    ewm:aabbMaxZ 7.305383 .
+
+<https://webizen.au/species/banksia-integrifolia/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:banksia-integrifolia> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-lod1.10d" ;
+    ewm:sha256 "1eb94096399cea5dc98038e2e4d9c2928b11ce3af9ef9cf951ddde89ed1ffd0a" ;
+    ewm:bytes 309048 ;
+    ewm:triangles 17800 ;
+    ewm:vertices 14428 ;
+    ewm:aabbMinX -7.848393 ;
+    ewm:aabbMinY -3.798843 ;
+    ewm:aabbMinZ -8.153300 ;
+    ewm:aabbMaxX 9.520199 ;
+    ewm:aabbMaxY 15.808437 ;
+    ewm:aabbMaxZ 7.263875 .
+
+<https://webizen.au/species/banksia-integrifolia/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:banksia-integrifolia> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-lod2.10d" ;
+    ewm:sha256 "63d54b8ae22611dbb0cc26bbfea60671a35e47104d270d0d78ffb3ad7e171d3b" ;
+    ewm:bytes 64804 ;
+    ewm:triangles 3898 ;
+    ewm:vertices 2939 ;
+    ewm:aabbMinX -7.710163 ;
+    ewm:aabbMinY -3.798843 ;
+    ewm:aabbMinZ -8.262939 ;
+    ewm:aabbMaxX 9.596921 ;
+    ewm:aabbMaxY 15.854918 ;
+    ewm:aabbMaxZ 6.956371 .
+
+<https://webizen.au/species/banksia-integrifolia/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:banksia-integrifolia> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-aboveground-lod1.10d" ;
+    ewm:sha256 "8022833280bc8472d744ceaf5575261627a67c9bfdfce7d10157986e02ee53e1" ;
+    ewm:bytes 435896 ;
+    ewm:triangles 24800 ;
+    ewm:vertices 20488 ;
+    ewm:aabbMinX -7.583611 ;
+    ewm:aabbMinY -0.300000 ;
+    ewm:aabbMinZ -8.130043 ;
+    ewm:aabbMaxX 9.503924 ;
+    ewm:aabbMaxY 15.798578 ;
+    ewm:aabbMaxZ 5.775206 .
+
+<https://webizen.au/species/banksia-integrifolia/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:banksia-integrifolia> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/banksia-integrifolia/dist/lods/banksia-integrifolia-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/banksia-integrifolia/main/dist/lods/banksia-integrifolia-rhizosphere.10d" ;
+    ewm:sha256 "138894bf86639a92c3e6cf94634a2061a2eea32a5f15ffe1da71f5b15d65f698" ;
+    ewm:bytes 145288 ;
+    ewm:triangles 9584 ;
+    ewm:vertices 6252 ;
+    ewm:aabbMinX -7.892076 ;
+    ewm:aabbMinY -3.799281 ;
+    ewm:aabbMinZ -6.566269 ;
+    ewm:aabbMaxX 7.877100 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 7.305383 .
+
+<did:q42:taxon:acacia-pycnantha>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:acacia_pycnantha> ;
+    ewm:slug "acacia-pycnantha" ;
+    dwc:scientificName "Acacia pycnantha Benth." ;
+    dwc:vernacularName "Golden Wattle"@en ;
+    rdfs:label "Golden Wattle"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Open sclerophyll forests, dry ridges & mallee-woodland margins" ;
+    ewm:aabbMinX -3.576200 ;
+    ewm:aabbMinY -2.407340 ;
+    ewm:aabbMinZ -3.799200 ;
+    ewm:aabbMaxX 3.485200 ;
+    ewm:aabbMaxY 7.357142 ;
+    ewm:aabbMaxZ 3.653600 ;
+    ewm:canonicalUrl "/intenteco/acacia-pycnantha/dist/acacia-pycnantha.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/acacia-pycnantha.10d" ;
+    ewm:canonicalSha256 "18f7f8f8e3f8d3bd5d573f1605618809badab0f0a3f872f910d1bb40fa02bb00" ;
+    ewm:canonicalBytes 4324960 ;
+    ewm:canonicalTriangles 211248 ;
+    ewm:canonicalVertices 118668 ;
+    ewm:sidecarTaxonQ42 "/intenteco/acacia-pycnantha/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "70433f41c05b8b3eff427fd04612ca7d279ffab03d1c9d0201e7f22b6cfd8c31" ;
+    ewm:sidecarFieldEmf "/intenteco/acacia-pycnantha/dist/acacia-pycnantha-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "8055be852925416d8fd856c21dc41ca38527752d5c8e7caf2494b69eaf3ff7dc" ;
+    ewm:sidecarSubstrateM64 "/intenteco/acacia-pycnantha/dist/acacia-pycnantha-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "03f448fae7737984cd44807ab589d9f318a9d53e54729723567907a9908622d5" ;
+    ewm:hasLod <https://webizen.au/species/acacia-pycnantha/lod/lod0> , <https://webizen.au/species/acacia-pycnantha/lod/lod1> , <https://webizen.au/species/acacia-pycnantha/lod/lod2> , <https://webizen.au/species/acacia-pycnantha/lod/aboveground_lod1> , <https://webizen.au/species/acacia-pycnantha/lod/rhizosphere> .
+
+<https://webizen.au/species/acacia-pycnantha/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:acacia-pycnantha> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-lod0.10d" ;
+    ewm:sha256 "a1ada816fbb09e4599310754db93f23c2ba1df65fc07dab12e26f1d7e241723b" ;
+    ewm:bytes 964736 ;
+    ewm:triangles 65000 ;
+    ewm:vertices 41034 ;
+    ewm:aabbMinX -3.576200 ;
+    ewm:aabbMinY -2.401008 ;
+    ewm:aabbMinZ -3.797380 ;
+    ewm:aabbMaxX 3.484015 ;
+    ewm:aabbMaxY 7.357142 ;
+    ewm:aabbMaxZ 3.652179 .
+
+<https://webizen.au/species/acacia-pycnantha/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:acacia-pycnantha> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-lod1.10d" ;
+    ewm:sha256 "71ff8d02d077581df0afcaf19b53768f7113bcdeb25922ba9297dd192a937d34" ;
+    ewm:bytes 309348 ;
+    ewm:triangles 17796 ;
+    ewm:vertices 14451 ;
+    ewm:aabbMinX -3.571190 ;
+    ewm:aabbMinY -2.400561 ;
+    ewm:aabbMinZ -3.710724 ;
+    ewm:aabbMaxX 3.479819 ;
+    ewm:aabbMaxY 7.393616 ;
+    ewm:aabbMaxZ 3.588551 .
+
+<https://webizen.au/species/acacia-pycnantha/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:acacia-pycnantha> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-lod2.10d" ;
+    ewm:sha256 "346d0b3d4a01d0c65543c6f23fb6526672d72111877da01ef6146d1bd40d610e" ;
+    ewm:bytes 69248 ;
+    ewm:triangles 3896 ;
+    ewm:vertices 3258 ;
+    ewm:aabbMinX -3.472383 ;
+    ewm:aabbMinY -1.193764 ;
+    ewm:aabbMinZ -3.710724 ;
+    ewm:aabbMaxX 3.425614 ;
+    ewm:aabbMaxY 7.425804 ;
+    ewm:aabbMaxZ 3.588551 .
+
+<https://webizen.au/species/acacia-pycnantha/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:acacia-pycnantha> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-aboveground-lod1.10d" ;
+    ewm:sha256 "ae8403df93e1c6a808301f420f84aa65fba36aa86740b2530fa6ea7767a3c19f" ;
+    ewm:bytes 401020 ;
+    ewm:triangles 22896 ;
+    ewm:vertices 18813 ;
+    ewm:aabbMinX -2.974711 ;
+    ewm:aabbMinY -0.300000 ;
+    ewm:aabbMinZ -3.198731 ;
+    ewm:aabbMaxX 3.300364 ;
+    ewm:aabbMaxY 7.386788 ;
+    ewm:aabbMaxZ 3.226839 .
+
+<https://webizen.au/species/acacia-pycnantha/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:acacia-pycnantha> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/acacia-pycnantha/dist/lods/acacia-pycnantha-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/acacia-pycnantha/main/dist/lods/acacia-pycnantha-rhizosphere.10d" ;
+    ewm:sha256 "ed4090872e3bf7e8b106e6d4e7a1e13fa6956db5591c96eeb5674650959fc44f" ;
+    ewm:bytes 142044 ;
+    ewm:triangles 8882 ;
+    ewm:vertices 6321 ;
+    ewm:aabbMinX -3.576200 ;
+    ewm:aabbMinY -2.401008 ;
+    ewm:aabbMinZ -3.797380 ;
+    ewm:aabbMaxX 3.484015 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 3.652179 .
+
+<did:q42:taxon:dicksonia-antarctica>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:dicksonia_antarctica> ;
+    ewm:slug "dicksonia-antarctica" ;
+    dwc:scientificName "Dicksonia antarctica Labill." ;
+    dwc:vernacularName "Soft Tree Fern"@en ;
+    rdfs:label "Soft Tree Fern"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Cool temperate fern gullies, rainforest understorey & riparian slopes" ;
+    ewm:aabbMinX -2.955430 ;
+    ewm:aabbMinY -2.117995 ;
+    ewm:aabbMinZ -3.167908 ;
+    ewm:aabbMaxX 3.274530 ;
+    ewm:aabbMaxY 5.462700 ;
+    ewm:aabbMaxZ 3.076080 ;
+    ewm:canonicalUrl "/intenteco/dicksonia-antarctica/dist/dicksonia-antarctica.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/dicksonia-antarctica.10d" ;
+    ewm:canonicalSha256 "cd90153a7aab6a5ebf04e3089fb847a87c720dda568e01222d6c492d3fe648d2" ;
+    ewm:canonicalBytes 4483208 ;
+    ewm:canonicalTriangles 221064 ;
+    ewm:canonicalVertices 121662 ;
+    ewm:sidecarTaxonQ42 "/intenteco/dicksonia-antarctica/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "0432c9d8951a3371b137779da61d2440845b4096f19e8bbd7f3fc6d357e4e92f" ;
+    ewm:sidecarFieldEmf "/intenteco/dicksonia-antarctica/dist/dicksonia-antarctica-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "4ef8207a8f28307189b5ee7cd5bab26d3fd7083006c9d84c627b0c1ce3238c27" ;
+    ewm:sidecarSubstrateM64 "/intenteco/dicksonia-antarctica/dist/dicksonia-antarctica-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "8260ccee887c29a975376efa5ba6825125b5e58f4d3d8db7eeae306ee9fedbb0" ;
+    ewm:hasLod <https://webizen.au/species/dicksonia-antarctica/lod/lod0> , <https://webizen.au/species/dicksonia-antarctica/lod/lod1> , <https://webizen.au/species/dicksonia-antarctica/lod/lod2> , <https://webizen.au/species/dicksonia-antarctica/lod/aboveground_lod1> , <https://webizen.au/species/dicksonia-antarctica/lod/rhizosphere> .
+
+<https://webizen.au/species/dicksonia-antarctica/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:dicksonia-antarctica> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-lod0.10d" ;
+    ewm:sha256 "83b308175f1974cf0d709a0dbb55f540b5f13b61df9790ef2697871b783ac1da" ;
+    ewm:bytes 930176 ;
+    ewm:triangles 64999 ;
+    ewm:vertices 38566 ;
+    ewm:aabbMinX -2.949722 ;
+    ewm:aabbMinY -2.108278 ;
+    ewm:aabbMinZ -3.132333 ;
+    ewm:aabbMaxX 3.271569 ;
+    ewm:aabbMaxY 5.462820 ;
+    ewm:aabbMaxZ 3.054571 .
+
+<https://webizen.au/species/dicksonia-antarctica/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:dicksonia-antarctica> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-lod1.10d" ;
+    ewm:sha256 "cfc94342ed2f438a018478e0c7970d60e5ce24ca1a02c9e31fe59a5a325fbe64" ;
+    ewm:bytes 254672 ;
+    ewm:triangles 14816 ;
+    ewm:vertices 11822 ;
+    ewm:aabbMinX -3.515003 ;
+    ewm:aabbMinY -2.103750 ;
+    ewm:aabbMinZ -3.723201 ;
+    ewm:aabbMaxX 3.882889 ;
+    ewm:aabbMaxY 6.404713 ;
+    ewm:aabbMaxZ 3.558380 .
+
+<https://webizen.au/species/dicksonia-antarctica/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:dicksonia-antarctica> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-lod2.10d" ;
+    ewm:sha256 "b334b613e97be17e3116beebff3e8069afad54407079fcac1a7324ad4fadc2c1" ;
+    ewm:bytes 69708 ;
+    ewm:triangles 3899 ;
+    ewm:vertices 3289 ;
+    ewm:aabbMinX -2.986708 ;
+    ewm:aabbMinY -1.394107 ;
+    ewm:aabbMinZ -3.210897 ;
+    ewm:aabbMaxX 3.305239 ;
+    ewm:aabbMaxY 5.113962 ;
+    ewm:aabbMaxZ 3.041612 .
+
+<https://webizen.au/species/dicksonia-antarctica/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:dicksonia-antarctica> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.30m)" ;
+    ewm:url "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-aboveground-lod1.10d" ;
+    ewm:sha256 "18f7f40c086fc936da802a6529965b062c6c4f742f4262a91a12212ed3e869bc" ;
+    ewm:bytes 273068 ;
+    ewm:triangles 15515 ;
+    ewm:vertices 12837 ;
+    ewm:aabbMinX -3.412372 ;
+    ewm:aabbMinY -0.300000 ;
+    ewm:aabbMinZ -3.618295 ;
+    ewm:aabbMaxX 3.773629 ;
+    ewm:aabbMaxY 6.307762 ;
+    ewm:aabbMaxZ 3.454782 .
+
+<https://webizen.au/species/dicksonia-antarctica/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:dicksonia-antarctica> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/dicksonia-antarctica/dist/lods/dicksonia-antarctica-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dicksonia-antarctica/main/dist/lods/dicksonia-antarctica-rhizosphere.10d" ;
+    ewm:sha256 "30b02747178c6f20357dc0c6afa665a846b1a6d9134ff9545d9935b2bf360ffa" ;
+    ewm:bytes 128376 ;
+    ewm:triangles 8016 ;
+    ewm:vertices 5716 ;
+    ewm:aabbMinX -2.814737 ;
+    ewm:aabbMinY -2.108278 ;
+    ewm:aabbMinZ -2.713579 ;
+    ewm:aabbMaxX 2.720454 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 3.054571 .
+
+<did:q42:taxon:wallabia-bicolor>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:wallabia_bicolor> ;
+    ewm:slug "wallabia-bicolor" ;
+    dwc:scientificName "Wallabia bicolor (Desmarest, 1804)" ;
+    dwc:vernacularName "Swamp Wallaby"@en ;
+    rdfs:label "Swamp Wallaby"@en ;
+    ewm:kingdom "fauna" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalZone "Dense coastal & montane sclerophyll understorey, heath & damp gullies" ;
+    ewm:aabbMinX -0.280000 ;
+    ewm:aabbMinY -0.008000 ;
+    ewm:aabbMinZ -1.000000 ;
+    ewm:aabbMaxX 0.280000 ;
+    ewm:aabbMaxY 0.940140 ;
+    ewm:aabbMaxZ 0.404580 ;
+    ewm:canonicalUrl "/intenteco/wallabia-bicolor/dist/wallabia-bicolor.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/wallabia-bicolor.10d" ;
+    ewm:canonicalSha256 "013603b6b1e7221f52cd031a7b5a6aa51cdada04e1897e8bb6ad5b1faebebe8b" ;
+    ewm:canonicalBytes 414568 ;
+    ewm:canonicalTriangles 28000 ;
+    ewm:canonicalVertices 14524 ;
+    ewm:sidecarTaxonQ42 "/intenteco/wallabia-bicolor/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "5302ac52b7a57b9675c769b77a5b77a8782978442ccc1e68531a083fd851ca57" ;
+    ewm:sidecarFieldEmf "/intenteco/wallabia-bicolor/dist/wallabia-bicolor-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "ce28d87ad6a0886b8e710317c1c05187fcfb4abfeacdff7648d7cb4a757505d0" ;
+    ewm:sidecarCallQac "/intenteco/wallabia-bicolor/dist/wallabia-bicolor-call.qac" ;
+    ewm:sidecarCallQacSha256 "67120f65e943d8996244ea61b0377cb80a5327b2c699e3e30039d1cb95cdd062" ;
+    ewm:hasLod <https://webizen.au/species/wallabia-bicolor/lod/lod0> , <https://webizen.au/species/wallabia-bicolor/lod/lod1> , <https://webizen.au/species/wallabia-bicolor/lod/lod2> .
+
+<https://webizen.au/species/wallabia-bicolor/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:wallabia-bicolor> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/lods/wallabia-bicolor-lod0.10d" ;
+    ewm:sha256 "1eb4c74320d504c1f0e8cef571f1f22de553d0ab7c48e4229074081bc550520f" ;
+    ewm:bytes 371592 ;
+    ewm:triangles 28000 ;
+    ewm:vertices 14524 ;
+    ewm:aabbMinX -0.280000 ;
+    ewm:aabbMinY -0.008000 ;
+    ewm:aabbMinZ -1.000000 ;
+    ewm:aabbMaxX 0.280000 ;
+    ewm:aabbMaxY 0.940140 ;
+    ewm:aabbMaxZ 0.404580 .
+
+<https://webizen.au/species/wallabia-bicolor/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:wallabia-bicolor> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/lods/wallabia-bicolor-lod1.10d" ;
+    ewm:sha256 "856d0515617036ee030c0d52a075db1ca8a24d6758ed491700ad502a3e16bcd1" ;
+    ewm:bytes 100604 ;
+    ewm:triangles 7200 ;
+    ewm:vertices 4081 ;
+    ewm:aabbMinX -0.280000 ;
+    ewm:aabbMinY -0.008000 ;
+    ewm:aabbMinZ -1.000000 ;
+    ewm:aabbMaxX 0.280000 ;
+    ewm:aabbMaxY 0.940024 ;
+    ewm:aabbMaxZ 0.403256 .
+
+<https://webizen.au/species/wallabia-bicolor/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:wallabia-bicolor> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/wallabia-bicolor/dist/lods/wallabia-bicolor-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/wallabia-bicolor/main/dist/lods/wallabia-bicolor-lod2.10d" ;
+    ewm:sha256 "4b48089a04f60954781b9f176b752b6e2c968fcd54961bb2e70568ccd252ee0a" ;
+    ewm:bytes 35080 ;
+    ewm:triangles 2199 ;
+    ewm:vertices 1544 ;
+    ewm:aabbMinX -0.280000 ;
+    ewm:aabbMinY -0.008000 ;
+    ewm:aabbMinZ -1.000000 ;
+    ewm:aabbMaxX 0.280000 ;
+    ewm:aabbMaxY 0.933152 ;
+    ewm:aabbMaxZ 0.395535 .
+
+<did:q42:taxon:phascolarctos-cinereus>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:phascolarctos_cinereus> ;
+    ewm:slug "phascolarctos-cinereus" ;
+    dwc:scientificName "Phascolarctos cinereus (Goldfuss, 1817)" ;
+    dwc:vernacularName "Koala"@en ;
+    rdfs:label "Koala"@en ;
+    ewm:kingdom "fauna" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalZone "Arboreal eucalypt open forest & riparian woodland canopy" ;
+    ewm:aabbMinX -0.229076 ;
+    ewm:aabbMinY -0.009540 ;
+    ewm:aabbMinZ -0.184690 ;
+    ewm:aabbMaxX 0.255600 ;
+    ewm:aabbMaxY 0.853380 ;
+    ewm:aabbMaxZ 0.185000 ;
+    ewm:canonicalUrl "/intenteco/phascolarctos-cinereus/dist/phascolarctos-cinereus.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/phascolarctos-cinereus.10d" ;
+    ewm:canonicalSha256 "2667fd4ed50596073e6b37ceaef264a83d593bdf2f2131052bb6616b68663ea4" ;
+    ewm:canonicalBytes 376944 ;
+    ewm:canonicalTriangles 24932 ;
+    ewm:canonicalVertices 12698 ;
+    ewm:sidecarTaxonQ42 "/intenteco/phascolarctos-cinereus/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "867e58e24eecb20b8f68f39f1d300ed202d17c414ac5668132535a7ae0795e24" ;
+    ewm:sidecarFieldEmf "/intenteco/phascolarctos-cinereus/dist/phascolarctos-cinereus-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "f7745dee8a134e29c51484b0df4744fd5346f79307d4eba297717c941ad9d302" ;
+    ewm:sidecarCallQac "/intenteco/phascolarctos-cinereus/dist/phascolarctos-cinereus-call.qac" ;
+    ewm:sidecarCallQacSha256 "7f7294daf91efc23fbad4248095d0bfc5afd2a6cff7b1bace95d5c65fe6b3c36" ;
+    ewm:hasLod <https://webizen.au/species/phascolarctos-cinereus/lod/lod0> , <https://webizen.au/species/phascolarctos-cinereus/lod/lod1> , <https://webizen.au/species/phascolarctos-cinereus/lod/lod2> .
+
+<https://webizen.au/species/phascolarctos-cinereus/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:phascolarctos-cinereus> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/lods/phascolarctos-cinereus-lod0.10d" ;
+    ewm:sha256 "6b4d4a97e95b30cb1a9a961b4bc8173a61e80bd2ec75ef3de597253064a475c8" ;
+    ewm:bytes 327632 ;
+    ewm:triangles 24932 ;
+    ewm:vertices 12698 ;
+    ewm:aabbMinX -0.229076 ;
+    ewm:aabbMinY -0.009540 ;
+    ewm:aabbMinZ -0.184690 ;
+    ewm:aabbMaxX 0.255600 ;
+    ewm:aabbMaxY 0.853380 ;
+    ewm:aabbMaxZ 0.185000 .
+
+<https://webizen.au/species/phascolarctos-cinereus/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:phascolarctos-cinereus> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/lods/phascolarctos-cinereus-lod1.10d" ;
+    ewm:sha256 "aab0e9bc5cd52bc0325290d49de701369faab1bc7cc04035b4ad4f50b1f0821c" ;
+    ewm:bytes 96552 ;
+    ewm:triangles 7199 ;
+    ewm:vertices 3792 ;
+    ewm:aabbMinX -0.228982 ;
+    ewm:aabbMinY -0.009540 ;
+    ewm:aabbMinZ -0.184690 ;
+    ewm:aabbMaxX 0.255600 ;
+    ewm:aabbMaxY 0.853321 ;
+    ewm:aabbMaxZ 0.185000 .
+
+<https://webizen.au/species/phascolarctos-cinereus/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:phascolarctos-cinereus> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/phascolarctos-cinereus/dist/lods/phascolarctos-cinereus-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/phascolarctos-cinereus/main/dist/lods/phascolarctos-cinereus-lod2.10d" ;
+    ewm:sha256 "22f7d751acf80989699adf5c79910b64f9b03fd52e3d136ac3bc06a5f3bd2de5" ;
+    ewm:bytes 30512 ;
+    ewm:triangles 2200 ;
+    ewm:vertices 1218 ;
+    ewm:aabbMinX -0.216790 ;
+    ewm:aabbMinY -0.009540 ;
+    ewm:aabbMinZ -0.184690 ;
+    ewm:aabbMaxX 0.255449 ;
+    ewm:aabbMaxY 0.853143 ;
+    ewm:aabbMaxZ 0.185000 .
+
+<did:q42:taxon:vombatus-ursinus>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:vombatus_ursinus> ;
+    ewm:slug "vombatus-ursinus" ;
+    dwc:scientificName "Vombatus ursinus (Shaw, 1800)" ;
+    dwc:vernacularName "Bare-Nosed Wombat"@en ;
+    rdfs:label "Bare-Nosed Wombat"@en ;
+    ewm:kingdom "fauna" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalZone "Burrowing temperate sclerophyll forests, coastal heath & subalpine slopes" ;
+    ewm:aabbMinX -0.420000 ;
+    ewm:aabbMinY -0.016000 ;
+    ewm:aabbMinZ -0.660000 ;
+    ewm:aabbMaxX 0.420000 ;
+    ewm:aabbMaxY 0.394702 ;
+    ewm:aabbMaxZ 0.700000 ;
+    ewm:canonicalUrl "/intenteco/vombatus-ursinus/dist/vombatus-ursinus.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/vombatus-ursinus.10d" ;
+    ewm:canonicalSha256 "e2082353c35b107a7cac79fd8938f44678965d8a27c8edd34e98fa869eda81d0" ;
+    ewm:canonicalBytes 413176 ;
+    ewm:canonicalTriangles 27799 ;
+    ewm:canonicalVertices 14162 ;
+    ewm:sidecarTaxonQ42 "/intenteco/vombatus-ursinus/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "d885c7be96215ec0b4457e445bdc21e80a8a9e9b6a7b7279173173d3a408a500" ;
+    ewm:sidecarFieldEmf "/intenteco/vombatus-ursinus/dist/vombatus-ursinus-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "4910673fc9877e62a756664eba1476a973d2572719e9e7f5387c6c3c557ee2e0" ;
+    ewm:sidecarCallQac "/intenteco/vombatus-ursinus/dist/vombatus-ursinus-call.qac" ;
+    ewm:sidecarCallQacSha256 "e9c48f2b8fde55de3249588a2d76751952fac23922652fd241adf55cb9bc7486" ;
+    ewm:hasLod <https://webizen.au/species/vombatus-ursinus/lod/lod0> , <https://webizen.au/species/vombatus-ursinus/lod/lod1> , <https://webizen.au/species/vombatus-ursinus/lod/lod2> .
+
+<https://webizen.au/species/vombatus-ursinus/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:vombatus-ursinus> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/lods/vombatus-ursinus-lod0.10d" ;
+    ewm:sha256 "6c853a4858745e0fdf74fb799b4c04c2be57831b6d89959b2e0995723c6c80cc" ;
+    ewm:bytes 365328 ;
+    ewm:triangles 27799 ;
+    ewm:vertices 14162 ;
+    ewm:aabbMinX -0.420000 ;
+    ewm:aabbMinY -0.016000 ;
+    ewm:aabbMinZ -0.660000 ;
+    ewm:aabbMaxX 0.420000 ;
+    ewm:aabbMaxY 0.394702 ;
+    ewm:aabbMaxZ 0.700000 .
+
+<https://webizen.au/species/vombatus-ursinus/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:vombatus-ursinus> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/lods/vombatus-ursinus-lod1.10d" ;
+    ewm:sha256 "dc47216f44d164f89113c6e6a5dcb42ac865d30aec07946c9edcca7a786b8f36" ;
+    ewm:bytes 97024 ;
+    ewm:triangles 7200 ;
+    ewm:vertices 3826 ;
+    ewm:aabbMinX -0.420000 ;
+    ewm:aabbMinY -0.016000 ;
+    ewm:aabbMinZ -0.660000 ;
+    ewm:aabbMaxX 0.420000 ;
+    ewm:aabbMaxY 0.392891 ;
+    ewm:aabbMaxZ 0.700000 .
+
+<https://webizen.au/species/vombatus-ursinus/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:vombatus-ursinus> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/vombatus-ursinus/dist/lods/vombatus-ursinus-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/vombatus-ursinus/main/dist/lods/vombatus-ursinus-lod2.10d" ;
+    ewm:sha256 "c6e90c5f839da4d1031b9518bff6d5166d8a94d3126dd7882da23fa9cebf8c5b" ;
+    ewm:bytes 31092 ;
+    ewm:triangles 2200 ;
+    ewm:vertices 1259 ;
+    ewm:aabbMinX -0.420000 ;
+    ewm:aabbMinY -0.016000 ;
+    ewm:aabbMinZ -0.660000 ;
+    ewm:aabbMaxX 0.420000 ;
+    ewm:aabbMaxY 0.385931 ;
+    ewm:aabbMaxZ 0.700000 .
+
+<did:q42:taxon:macropus-giganteus>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:macropus_giganteus> ;
+    ewm:slug "macropus-giganteus" ;
+    dwc:scientificName "Macropus giganteus Shaw, 1790" ;
+    dwc:vernacularName "Eastern Grey Kangaroo"@en ;
+    rdfs:label "Eastern Grey Kangaroo"@en ;
+    ewm:kingdom "fauna" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalZone "Grassy open woodlands, riverine plains & subalpine grasslands" ;
+    ewm:aabbMinX -0.360000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -1.280000 ;
+    ewm:aabbMaxX 0.360000 ;
+    ewm:aabbMaxY 1.740000 ;
+    ewm:aabbMaxZ 0.440000 ;
+    ewm:canonicalUrl "/intenteco/macropus-giganteus/dist/macropus-giganteus.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/macropus-giganteus.10d" ;
+    ewm:canonicalSha256 "d90d0da775548e19106c7d04aa16f93ba268779f4439bd47d31c8dde9b72d634" ;
+    ewm:canonicalBytes 657856 ;
+    ewm:canonicalTriangles 46152 ;
+    ewm:canonicalVertices 23600 ;
+    ewm:sidecarTaxonQ42 "/intenteco/macropus-giganteus/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "f8acd0df7c0e10e2bdb1ad8f0c3c6f4de6089b0a46d8f00acac7fdf38dc520b4" ;
+    ewm:sidecarFieldEmf "/intenteco/macropus-giganteus/dist/macropus-giganteus-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "2d1b6d75e56beea4049514200877f766311cbaccb16009598ee171ed63c3d4b9" ;
+    ewm:sidecarCallQac "/intenteco/macropus-giganteus/dist/macropus-giganteus-call.qac" ;
+    ewm:sidecarCallQacSha256 "d8e5b3e1fb3e70e1aeb27ebab9f75e55cdfcda94d681a04b435c9bbfefe9899d" ;
+    ewm:hasLod <https://webizen.au/species/macropus-giganteus/lod/lod0> , <https://webizen.au/species/macropus-giganteus/lod/lod1> , <https://webizen.au/species/macropus-giganteus/lod/lod2> .
+
+<https://webizen.au/species/macropus-giganteus/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:macropus-giganteus> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/lods/macropus-giganteus-lod0.10d" ;
+    ewm:sha256 "cab28a21c360447610f83e063a28974b524662265dd8d3f0b2a9ccf3d53de6a7" ;
+    ewm:bytes 607576 ;
+    ewm:triangles 46152 ;
+    ewm:vertices 23600 ;
+    ewm:aabbMinX -0.360000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -1.280000 ;
+    ewm:aabbMaxX 0.360000 ;
+    ewm:aabbMaxY 1.740000 ;
+    ewm:aabbMaxZ 0.440000 .
+
+<https://webizen.au/species/macropus-giganteus/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:macropus-giganteus> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/lods/macropus-giganteus-lod1.10d" ;
+    ewm:sha256 "8ee1eb5f4af0292fb2517f3403795a93c62ee3b5e429461b95e0329ccd3c47e1" ;
+    ewm:bytes 100788 ;
+    ewm:triangles 7199 ;
+    ewm:vertices 4095 ;
+    ewm:aabbMinX -0.360000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -1.280000 ;
+    ewm:aabbMaxX 0.360000 ;
+    ewm:aabbMaxY 1.740000 ;
+    ewm:aabbMaxZ 0.440000 .
+
+<https://webizen.au/species/macropus-giganteus/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:macropus-giganteus> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/macropus-giganteus/dist/lods/macropus-giganteus-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/macropus-giganteus/main/dist/lods/macropus-giganteus-lod2.10d" ;
+    ewm:sha256 "9c2d66bea94b42b8f46909558ff9e3fccbbba446864ecdee6e54ec74ad15701a" ;
+    ewm:bytes 34724 ;
+    ewm:triangles 2200 ;
+    ewm:vertices 1519 ;
+    ewm:aabbMinX -0.360000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -1.280000 ;
+    ewm:aabbMaxX 0.360000 ;
+    ewm:aabbMaxY 1.740000 ;
+    ewm:aabbMaxZ 0.440000 .
+
+<did:q42:taxon:ornithorhynchus-anatinus>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:ornithorhynchus_anatinus> ;
+    ewm:slug "ornithorhynchus-anatinus" ;
+    dwc:scientificName "Ornithorhynchus anatinus (Shaw, 1799)" ;
+    dwc:vernacularName "Platypus"@en ;
+    rdfs:label "Platypus"@en ;
+    ewm:kingdom "fauna" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalZone "Freshwater lotic creeks, river pools & riparian earth banks" ;
+    ewm:aabbMinX -0.215000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -0.315000 ;
+    ewm:aabbMaxX 0.215000 ;
+    ewm:aabbMaxY 0.115222 ;
+    ewm:aabbMaxZ 0.325000 ;
+    ewm:canonicalUrl "/intenteco/ornithorhynchus-anatinus/dist/ornithorhynchus-anatinus.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/ornithorhynchus-anatinus.10d" ;
+    ewm:canonicalSha256 "5f000c52462798107a8e4e5d8f2b29a196327ad998812efeafc406c52360ec2c" ;
+    ewm:canonicalBytes 617416 ;
+    ewm:canonicalTriangles 43095 ;
+    ewm:canonicalVertices 21847 ;
+    ewm:sidecarTaxonQ42 "/intenteco/ornithorhynchus-anatinus/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "2b8e66134daafa6a75486e94b3cbac9b99d1f274a01affb7d809b4865386364f" ;
+    ewm:sidecarFieldEmf "/intenteco/ornithorhynchus-anatinus/dist/ornithorhynchus-anatinus-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "727987e1e26960418bcdf96ab661722957f93ff4de20dabc3c1721ffb8236789" ;
+    ewm:sidecarCallQac "/intenteco/ornithorhynchus-anatinus/dist/ornithorhynchus-anatinus-call.qac" ;
+    ewm:sidecarCallQacSha256 "d157a4a5e51d1f72a7fe380c39a1c8ccef2c1f80a21f3e2c279b94aee63be317" ;
+    ewm:hasLod <https://webizen.au/species/ornithorhynchus-anatinus/lod/lod0> , <https://webizen.au/species/ornithorhynchus-anatinus/lod/lod1> , <https://webizen.au/species/ornithorhynchus-anatinus/lod/lod2> .
+
+<https://webizen.au/species/ornithorhynchus-anatinus/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:ornithorhynchus-anatinus> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/lods/ornithorhynchus-anatinus-lod0.10d" ;
+    ewm:sha256 "1dd7badd1a870f9dedca6143eb79d62849d1f75fca046462fe66da9a81b08b35" ;
+    ewm:bytes 564692 ;
+    ewm:triangles 43095 ;
+    ewm:vertices 21847 ;
+    ewm:aabbMinX -0.215000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -0.315000 ;
+    ewm:aabbMaxX 0.215000 ;
+    ewm:aabbMaxY 0.115222 ;
+    ewm:aabbMaxZ 0.325000 .
+
+<https://webizen.au/species/ornithorhynchus-anatinus/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:ornithorhynchus-anatinus> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/lods/ornithorhynchus-anatinus-lod1.10d" ;
+    ewm:sha256 "6ece87aebea37fea98560c16a17e6118f94e517628b19116da820fb334d78857" ;
+    ewm:bytes 97584 ;
+    ewm:triangles 7199 ;
+    ewm:vertices 3866 ;
+    ewm:aabbMinX -0.215000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -0.315000 ;
+    ewm:aabbMaxX 0.215000 ;
+    ewm:aabbMaxY 0.115222 ;
+    ewm:aabbMaxZ 0.325000 .
+
+<https://webizen.au/species/ornithorhynchus-anatinus/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:ornithorhynchus-anatinus> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/ornithorhynchus-anatinus/dist/lods/ornithorhynchus-anatinus-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/ornithorhynchus-anatinus/main/dist/lods/ornithorhynchus-anatinus-lod2.10d" ;
+    ewm:sha256 "ad4995bd7bb4a5fd846cb775cbb55bd3b4ecb74a51bd8bae202606377ca53aba" ;
+    ewm:bytes 30668 ;
+    ewm:triangles 2200 ;
+    ewm:vertices 1229 ;
+    ewm:aabbMinX -0.215000 ;
+    ewm:aabbMinY -0.010000 ;
+    ewm:aabbMinZ -0.315000 ;
+    ewm:aabbMaxX 0.215000 ;
+    ewm:aabbMaxY 0.114056 ;
+    ewm:aabbMaxZ 0.325000 .
+
+<did:q42:taxon:dacelo-novaeguineae>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:dacelo_novaeguineae> ;
+    ewm:slug "dacelo-novaeguineae" ;
+    dwc:scientificName "Dacelo novaeguineae (Hermann, 1783)" ;
+    dwc:vernacularName "Laughing Kookaburra"@en ;
+    rdfs:label "Laughing Kookaburra"@en ;
+    ewm:kingdom "fauna" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalZone "Open eucalypt woodlands, forest edges & riparian corridor perches" ;
+    ewm:aabbMinX -0.234390 ;
+    ewm:aabbMinY 0.000000 ;
+    ewm:aabbMinZ -0.157240 ;
+    ewm:aabbMaxX 0.242640 ;
+    ewm:aabbMaxY 0.440490 ;
+    ewm:aabbMaxZ 0.166000 ;
+    ewm:canonicalUrl "/intenteco/dacelo-novaeguineae/dist/dacelo-novaeguineae.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/dacelo-novaeguineae.10d" ;
+    ewm:canonicalSha256 "81eaf882df7cb1aeef8251bf5df1443ae3d402ca3e30473dbd7d7c7f350fc065" ;
+    ewm:canonicalBytes 346248 ;
+    ewm:canonicalTriangles 23046 ;
+    ewm:canonicalVertices 11767 ;
+    ewm:sidecarTaxonQ42 "/intenteco/dacelo-novaeguineae/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "11245719ea105417692219c7c30107f93002807711c9765f0d0af9c749ad5a9a" ;
+    ewm:sidecarFieldEmf "/intenteco/dacelo-novaeguineae/dist/dacelo-novaeguineae-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "ac30af0671bb346069ceade2de550506d19665ad9d00c6a180e694f91c58dc93" ;
+    ewm:sidecarCallQac "/intenteco/dacelo-novaeguineae/dist/dacelo-novaeguineae-call.qac" ;
+    ewm:sidecarCallQacSha256 "774c48e077d89ecb3988ade7781b25c1c636f8a45740a61af3a35aebbbb60513" ;
+    ewm:hasLod <https://webizen.au/species/dacelo-novaeguineae/lod/lod0> , <https://webizen.au/species/dacelo-novaeguineae/lod/lod1> , <https://webizen.au/species/dacelo-novaeguineae/lod/lod2> .
+
+<https://webizen.au/species/dacelo-novaeguineae/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:dacelo-novaeguineae> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/lods/dacelo-novaeguineae-lod0.10d" ;
+    ewm:sha256 "2d2d7fb69c4dd3448a467f7470509ef4b9eecf5ff3fa1366a16c5e40d3ab52d5" ;
+    ewm:bytes 303284 ;
+    ewm:triangles 23046 ;
+    ewm:vertices 11767 ;
+    ewm:aabbMinX -0.234390 ;
+    ewm:aabbMinY 0.000000 ;
+    ewm:aabbMinZ -0.157240 ;
+    ewm:aabbMaxX 0.242640 ;
+    ewm:aabbMaxY 0.440490 ;
+    ewm:aabbMaxZ 0.166000 .
+
+<https://webizen.au/species/dacelo-novaeguineae/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:dacelo-novaeguineae> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/lods/dacelo-novaeguineae-lod1.10d" ;
+    ewm:sha256 "5d6a9ac51f86da6ac3c0fb884282673e93fed1dce06dd774688b00d156ed31f6" ;
+    ewm:bytes 96800 ;
+    ewm:triangles 7200 ;
+    ewm:vertices 3810 ;
+    ewm:aabbMinX -0.234390 ;
+    ewm:aabbMinY 0.000000 ;
+    ewm:aabbMinZ -0.157240 ;
+    ewm:aabbMaxX 0.242044 ;
+    ewm:aabbMaxY 0.440359 ;
+    ewm:aabbMaxZ 0.166000 .
+
+<https://webizen.au/species/dacelo-novaeguineae/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:dacelo-novaeguineae> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/dacelo-novaeguineae/dist/lods/dacelo-novaeguineae-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/dacelo-novaeguineae/main/dist/lods/dacelo-novaeguineae-lod2.10d" ;
+    ewm:sha256 "61de981d706ad712fd5eb43cd7ffe28b076a9b401b8bc8d359435e956addab87" ;
+    ewm:bytes 30648 ;
+    ewm:triangles 2200 ;
+    ewm:vertices 1228 ;
+    ewm:aabbMinX -0.231813 ;
+    ewm:aabbMinY 0.000000 ;
+    ewm:aabbMinZ -0.154656 ;
+    ewm:aabbMaxX 0.173304 ;
+    ewm:aabbMaxY 0.438820 ;
+    ewm:aabbMaxZ 0.166000 .
+
+<did:q42:taxon:poa-labillardierei>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:poa_labillardierei> ;
+    ewm:slug "poa-labillardierei" ;
+    dwc:scientificName "Poa labillardierei Steud." ;
+    dwc:vernacularName "River Tussock-grass"@en ;
+    rdfs:label "River Tussock-grass"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Riparian floodplains, moist grassy valleys & damp sclerophyll understorey (SE Australia)" ;
+    ewm:aabbMinX -1.018300 ;
+    ewm:aabbMinY -0.678300 ;
+    ewm:aabbMinZ -0.919800 ;
+    ewm:aabbMaxX 0.964500 ;
+    ewm:aabbMaxY 1.205000 ;
+    ewm:aabbMaxZ 0.972300 ;
+    ewm:canonicalUrl "/intenteco/poa-labillardierei/dist/poa-labillardierei.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/poa-labillardierei/main/dist/poa-labillardierei.10d" ;
+    ewm:canonicalSha256 "385813a658080831cdd8179df29eb05a33c93e200cc2bb63a820ca56252f37e2" ;
+    ewm:canonicalBytes 290392 ;
+    ewm:canonicalTriangles 14584 ;
+    ewm:canonicalVertices 7918 ;
+    ewm:sidecarTaxonQ42 "/intenteco/poa-labillardierei/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "3fbf91866e02ceb69f89583a90d3588d4748363b75219dd7ffe7260ea120ba53" ;
+    ewm:sidecarFieldEmf "/intenteco/poa-labillardierei/dist/poa-labillardierei-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "9cd8f7a26bd84cc4ae266fd17880575a9d5d160c84ff8cc6023accece52b7912" ;
+    ewm:sidecarSubstrateM64 "/intenteco/poa-labillardierei/dist/poa-labillardierei-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "51d7c3d014b1db992ad507715b3de0bd3d9e90225ba6df3b6294fef5fa2c5358" ;
+    ewm:hasLod <https://webizen.au/species/poa-labillardierei/lod/lod0> , <https://webizen.au/species/poa-labillardierei/lod/lod1> , <https://webizen.au/species/poa-labillardierei/lod/lod2> , <https://webizen.au/species/poa-labillardierei/lod/aboveground_lod1> , <https://webizen.au/species/poa-labillardierei/lod/rhizosphere> .
+
+<https://webizen.au/species/poa-labillardierei/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:poa-labillardierei> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/poa-labillardierei/dist/lods/poa-labillardierei-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/poa-labillardierei/main/dist/lods/poa-labillardierei-lod0.10d" ;
+    ewm:sha256 "3b8b155bf215d4f6ad68b4c63aabb2ad3df62ad8e8f993645da55cdbf359737c" ;
+    ewm:bytes 105232 ;
+    ewm:triangles 7400 ;
+    ewm:vertices 4326 ;
+    ewm:aabbMinX -1.017827 ;
+    ewm:aabbMinY -0.678056 ;
+    ewm:aabbMinZ -0.919353 ;
+    ewm:aabbMaxX 0.964251 ;
+    ewm:aabbMaxY 1.205000 ;
+    ewm:aabbMaxZ 0.972026 .
+
+<https://webizen.au/species/poa-labillardierei/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:poa-labillardierei> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/poa-labillardierei/dist/lods/poa-labillardierei-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/poa-labillardierei/main/dist/lods/poa-labillardierei-lod1.10d" ;
+    ewm:sha256 "8976d233b881c1cfca18afcf4a43395e91b477b8d9fb7fb7ff22922ea82c8b7d" ;
+    ewm:bytes 38384 ;
+    ewm:triangles 2700 ;
+    ewm:vertices 1566 ;
+    ewm:aabbMinX -0.743227 ;
+    ewm:aabbMinY -0.675703 ;
+    ewm:aabbMinZ -0.731177 ;
+    ewm:aabbMaxX 0.772237 ;
+    ewm:aabbMaxY 1.027379 ;
+    ewm:aabbMaxZ 0.767416 .
+
+<https://webizen.au/species/poa-labillardierei/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:poa-labillardierei> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/poa-labillardierei/dist/lods/poa-labillardierei-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/poa-labillardierei/main/dist/lods/poa-labillardierei-lod2.10d" ;
+    ewm:sha256 "024ae72c7d386848bcf7db42adc8ae0fc472f168c3564e0deaee5be691504fe2" ;
+    ewm:bytes 13720 ;
+    ewm:triangles 880 ;
+    ewm:vertices 584 ;
+    ewm:aabbMinX -0.527035 ;
+    ewm:aabbMinY -0.525500 ;
+    ewm:aabbMinZ -0.550378 ;
+    ewm:aabbMaxX 0.598882 ;
+    ewm:aabbMaxY 1.027333 ;
+    ewm:aabbMaxZ 0.580889 .
+
+<https://webizen.au/species/poa-labillardierei/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:poa-labillardierei> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.20m)" ;
+    ewm:url "/intenteco/poa-labillardierei/dist/lods/poa-labillardierei-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/poa-labillardierei/main/dist/lods/poa-labillardierei-aboveground-lod1.10d" ;
+    ewm:sha256 "7d265c0a12a4d4eac28d50ddb80a4874920df0fa329c320b274f46f9b79eea3c" ;
+    ewm:bytes 36764 ;
+    ewm:triangles 2440 ;
+    ewm:vertices 1561 ;
+    ewm:aabbMinX -0.743227 ;
+    ewm:aabbMinY -0.200000 ;
+    ewm:aabbMinZ -0.731177 ;
+    ewm:aabbMaxX 0.772237 ;
+    ewm:aabbMaxY 1.027379 ;
+    ewm:aabbMaxZ 0.767416 .
+
+<https://webizen.au/species/poa-labillardierei/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:poa-labillardierei> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/poa-labillardierei/dist/lods/poa-labillardierei-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/poa-labillardierei/main/dist/lods/poa-labillardierei-rhizosphere.10d" ;
+    ewm:sha256 "7f6b156f0fe4ab1660fe5b6d71216cefbedc6c3d8124a8f629ea8b6f91704c97" ;
+    ewm:bytes 18408 ;
+    ewm:triangles 1111 ;
+    ewm:vertices 820 ;
+    ewm:aabbMinX -0.695458 ;
+    ewm:aabbMinY -0.675703 ;
+    ewm:aabbMinZ -0.655345 ;
+    ewm:aabbMaxX 0.703493 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 0.698514 .
+
+<did:q42:taxon:themeda-triandra>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:themeda_triandra> ;
+    ewm:slug "themeda-triandra" ;
+    dwc:scientificName "Themeda triandra Forssk." ;
+    dwc:vernacularName "Kangaroo Grass"@en ;
+    rdfs:label "Kangaroo Grass"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Grassy box-gum woodlands, basalt plains & open sclerophyll understorey (SE Australia)" ;
+    ewm:aabbMinX -0.606300 ;
+    ewm:aabbMinY -0.572100 ;
+    ewm:aabbMinZ -0.533900 ;
+    ewm:aabbMaxX 0.676300 ;
+    ewm:aabbMaxY 0.742900 ;
+    ewm:aabbMaxZ 0.670100 ;
+    ewm:canonicalUrl "/intenteco/themeda-triandra/dist/themeda-triandra.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/themeda-triandra.10d" ;
+    ewm:canonicalSha256 "791ab64e45e4915d8e3c6681aa24d504e57626e7a5252da5878387c0a318a6d8" ;
+    ewm:canonicalBytes 225968 ;
+    ewm:canonicalTriangles 11932 ;
+    ewm:canonicalVertices 6440 ;
+    ewm:sidecarTaxonQ42 "/intenteco/themeda-triandra/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "4bff701b455da2d92acab5270e1471ae714c4931619e5adba2ed0e6cb49b8648" ;
+    ewm:sidecarFieldEmf "/intenteco/themeda-triandra/dist/themeda-triandra-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "bf6fbe3c594358cd8b0563d02d6b78bdf4623d0f75e444ab715e85d5837c08a3" ;
+    ewm:sidecarSubstrateM64 "/intenteco/themeda-triandra/dist/themeda-triandra-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "84d4f035bb7521f45e1bcfc95be211974ab19113a9b82047562b1d458d62471d" ;
+    ewm:hasLod <https://webizen.au/species/themeda-triandra/lod/lod0> , <https://webizen.au/species/themeda-triandra/lod/lod1> , <https://webizen.au/species/themeda-triandra/lod/lod2> , <https://webizen.au/species/themeda-triandra/lod/aboveground_lod1> , <https://webizen.au/species/themeda-triandra/lod/rhizosphere> .
+
+<https://webizen.au/species/themeda-triandra/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:themeda-triandra> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/themeda-triandra/dist/lods/themeda-triandra-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-lod0.10d" ;
+    ewm:sha256 "a9af59287478986af0ce97357573157af8322ca7731481bbeeb91c99ecc08663" ;
+    ewm:bytes 100496 ;
+    ewm:triangles 7200 ;
+    ewm:vertices 4074 ;
+    ewm:aabbMinX -0.605947 ;
+    ewm:aabbMinY -0.572100 ;
+    ewm:aabbMinZ -0.533648 ;
+    ewm:aabbMaxX 0.675928 ;
+    ewm:aabbMaxY 0.742900 ;
+    ewm:aabbMaxZ 0.669976 .
+
+<https://webizen.au/species/themeda-triandra/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:themeda-triandra> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/themeda-triandra/dist/lods/themeda-triandra-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-lod1.10d" ;
+    ewm:sha256 "ba167ee5b458c9814821986fd6a0a868599aa276c4b7a01af74c4d792312a0de" ;
+    ewm:bytes 35996 ;
+    ewm:triangles 2490 ;
+    ewm:vertices 1485 ;
+    ewm:aabbMinX -0.480509 ;
+    ewm:aabbMinY -0.450075 ;
+    ewm:aabbMinZ -0.461538 ;
+    ewm:aabbMaxX 0.507228 ;
+    ewm:aabbMaxY 0.701806 ;
+    ewm:aabbMaxZ 0.475410 .
+
+<https://webizen.au/species/themeda-triandra/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:themeda-triandra> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/themeda-triandra/dist/lods/themeda-triandra-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-lod2.10d" ;
+    ewm:sha256 "18cdd076e89791fd449775553bd7b1697b6215d63254fbd16d5efe91337bb6d1" ;
+    ewm:bytes 13320 ;
+    ewm:triangles 860 ;
+    ewm:vertices 564 ;
+    ewm:aabbMinX -0.408344 ;
+    ewm:aabbMinY -0.328849 ;
+    ewm:aabbMinZ -0.355882 ;
+    ewm:aabbMaxX 0.388691 ;
+    ewm:aabbMaxY 0.543903 ;
+    ewm:aabbMaxZ 0.384268 .
+
+<https://webizen.au/species/themeda-triandra/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:themeda-triandra> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.20m)" ;
+    ewm:url "/intenteco/themeda-triandra/dist/lods/themeda-triandra-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-aboveground-lod1.10d" ;
+    ewm:sha256 "3b3e7d4880f208c8cf1690f2ed35c7b0d8b905479243b779047f5686805feae5" ;
+    ewm:bytes 35344 ;
+    ewm:triangles 2268 ;
+    ewm:vertices 1534 ;
+    ewm:aabbMinX -0.480509 ;
+    ewm:aabbMinY -0.200000 ;
+    ewm:aabbMinZ -0.461538 ;
+    ewm:aabbMaxX 0.507228 ;
+    ewm:aabbMaxY 0.701806 ;
+    ewm:aabbMaxZ 0.475410 .
+
+<https://webizen.au/species/themeda-triandra/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:themeda-triandra> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/themeda-triandra/dist/lods/themeda-triandra-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/themeda-triandra/main/dist/lods/themeda-triandra-rhizosphere.10d" ;
+    ewm:sha256 "bbd87c367ae9a43e85266ed82e1e660ba0e56153b468a13617bbb90f8b5aeea8" ;
+    ewm:bytes 28524 ;
+    ewm:triangles 1582 ;
+    ewm:vertices 1341 ;
+    ewm:aabbMinX -0.478812 ;
+    ewm:aabbMinY -0.450075 ;
+    ewm:aabbMinZ -0.461538 ;
+    ewm:aabbMaxX 0.479095 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 0.425789 .
+
+<did:q42:taxon:lomandra-longifolia>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:lomandra_longifolia> ;
+    ewm:slug "lomandra-longifolia" ;
+    dwc:scientificName "Lomandra longifolia Labill." ;
+    dwc:vernacularName "Spiny-headed Mat-rush"@en ;
+    rdfs:label "Spiny-headed Mat-rush"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Riparian banks, damp gullies, coastal dunes & dry-to-wet sclerophyll understorey (SE Australia)" ;
+    ewm:aabbMinX -0.962500 ;
+    ewm:aabbMinY -0.724300 ;
+    ewm:aabbMinZ -0.871400 ;
+    ewm:aabbMaxX 0.891000 ;
+    ewm:aabbMaxY 0.909400 ;
+    ewm:aabbMaxZ 0.882100 ;
+    ewm:canonicalUrl "/intenteco/lomandra-longifolia/dist/lomandra-longifolia.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/lomandra-longifolia/main/dist/lomandra-longifolia.10d" ;
+    ewm:canonicalSha256 "40a87cd0c9a31108d99ca1a20536a01d35d8972fe207e1268aded6999bb63de8" ;
+    ewm:canonicalBytes 255416 ;
+    ewm:canonicalTriangles 12664 ;
+    ewm:canonicalVertices 6870 ;
+    ewm:sidecarTaxonQ42 "/intenteco/lomandra-longifolia/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "bab7b4f7be4401ab8a104de091cb10f8f9a6c5add53a9ef863cabe60a7908662" ;
+    ewm:sidecarFieldEmf "/intenteco/lomandra-longifolia/dist/lomandra-longifolia-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "7f9b27167eb2504c8687debd7b854583e046382d3a305937ac72a75cb1191698" ;
+    ewm:sidecarSubstrateM64 "/intenteco/lomandra-longifolia/dist/lomandra-longifolia-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "0a018f37ef2af9f229e268ce5d52c9d22540d869b785185a1892178b494b7d24" ;
+    ewm:hasLod <https://webizen.au/species/lomandra-longifolia/lod/lod0> , <https://webizen.au/species/lomandra-longifolia/lod/lod1> , <https://webizen.au/species/lomandra-longifolia/lod/lod2> , <https://webizen.au/species/lomandra-longifolia/lod/aboveground_lod1> , <https://webizen.au/species/lomandra-longifolia/lod/rhizosphere> .
+
+<https://webizen.au/species/lomandra-longifolia/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:lomandra-longifolia> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/lomandra-longifolia/main/dist/lods/lomandra-longifolia-lod0.10d" ;
+    ewm:sha256 "26f4fd549aa48eabd3d2080023cde98d3b1317b17af4007f59bb3cec01b9c925" ;
+    ewm:bytes 103824 ;
+    ewm:triangles 7400 ;
+    ewm:vertices 4226 ;
+    ewm:aabbMinX -0.962500 ;
+    ewm:aabbMinY -0.724300 ;
+    ewm:aabbMinZ -0.871400 ;
+    ewm:aabbMaxX 0.891000 ;
+    ewm:aabbMaxY 0.909400 ;
+    ewm:aabbMaxZ 0.882100 .
+
+<https://webizen.au/species/lomandra-longifolia/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:lomandra-longifolia> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/lomandra-longifolia/main/dist/lods/lomandra-longifolia-lod1.10d" ;
+    ewm:sha256 "e91b0d290a27353af2548e91323ef411b25cf8a03dbae4bf564629e0b4de1131" ;
+    ewm:bytes 29720 ;
+    ewm:triangles 2064 ;
+    ewm:vertices 1220 ;
+    ewm:aabbMinX -0.825845 ;
+    ewm:aabbMinY -0.563789 ;
+    ewm:aabbMinZ -0.705771 ;
+    ewm:aabbMaxX 0.649483 ;
+    ewm:aabbMaxY 0.775381 ;
+    ewm:aabbMaxZ 0.671291 .
+
+<https://webizen.au/species/lomandra-longifolia/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:lomandra-longifolia> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/lomandra-longifolia/main/dist/lods/lomandra-longifolia-lod2.10d" ;
+    ewm:sha256 "ff5b9a8a1a59c9bb5c1a59c73075d471cb34ac68f9e3c97eb8e5ed7fb537baff" ;
+    ewm:bytes 12872 ;
+    ewm:triangles 832 ;
+    ewm:vertices 544 ;
+    ewm:aabbMinX -0.687962 ;
+    ewm:aabbMinY -0.397518 ;
+    ewm:aabbMinZ -0.537668 ;
+    ewm:aabbMaxX 0.473642 ;
+    ewm:aabbMaxY 0.656918 ;
+    ewm:aabbMaxZ 0.507588 .
+
+<https://webizen.au/species/lomandra-longifolia/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:lomandra-longifolia> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.20m)" ;
+    ewm:url "/intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/lomandra-longifolia/main/dist/lods/lomandra-longifolia-aboveground-lod1.10d" ;
+    ewm:sha256 "4bcc5f9c9feddcd8c68f487f28809d6377a265a39dc437e60b8624df7be0330e" ;
+    ewm:bytes 28340 ;
+    ewm:triangles 1806 ;
+    ewm:vertices 1231 ;
+    ewm:aabbMinX -0.825845 ;
+    ewm:aabbMinY -0.200000 ;
+    ewm:aabbMinZ -0.705771 ;
+    ewm:aabbMaxX 0.649483 ;
+    ewm:aabbMaxY 0.775381 ;
+    ewm:aabbMaxZ 0.671291 .
+
+<https://webizen.au/species/lomandra-longifolia/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:lomandra-longifolia> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/lomandra-longifolia/dist/lods/lomandra-longifolia-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/lomandra-longifolia/main/dist/lods/lomandra-longifolia-rhizosphere.10d" ;
+    ewm:sha256 "30ae7a2bdaab263ef5356f5293e9a45ada1d27b2469ab0c872fef0bf12bbc5be" ;
+    ewm:bytes 20240 ;
+    ewm:triangles 1103 ;
+    ewm:vertices 954 ;
+    ewm:aabbMinX -0.650677 ;
+    ewm:aabbMinY -0.563789 ;
+    ewm:aabbMinZ -0.636693 ;
+    ewm:aabbMaxX 0.649483 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 0.671291 .
+
+<did:q42:taxon:bursaria-spinosa>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:bursaria_spinosa> ;
+    ewm:slug "bursaria-spinosa" ;
+    dwc:scientificName "Bursaria spinosa Cav." ;
+    dwc:vernacularName "Sweet Bursaria"@en ;
+    rdfs:label "Sweet Bursaria"@en ;
+    ewm:kingdom "flora" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalZone "Dry & damp sclerophyll woodland understorey, grassy box-gum plains & rocky slopes (SE Australia)" ;
+    ewm:aabbMinX -1.150800 ;
+    ewm:aabbMinY -1.349924 ;
+    ewm:aabbMinZ -1.155700 ;
+    ewm:aabbMaxX 1.220000 ;
+    ewm:aabbMaxY 2.242600 ;
+    ewm:aabbMaxZ 1.176800 ;
+    ewm:canonicalUrl "/intenteco/bursaria-spinosa/dist/bursaria-spinosa.10d" ;
+    ewm:canonicalRemoteUrl "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/bursaria-spinosa.10d" ;
+    ewm:canonicalSha256 "b7f789a6e5f1b206056cbd118b92782a2e288a574d7d4fc0bbe13162087677a9" ;
+    ewm:canonicalBytes 1135360 ;
+    ewm:canonicalTriangles 78236 ;
+    ewm:canonicalVertices 42632 ;
+    ewm:sidecarTaxonQ42 "/intenteco/bursaria-spinosa/dist/taxon.q42" ;
+    ewm:sidecarTaxonQ42Sha256 "35e119895daa7247459ee59e40f97507a454eefb019d2fc3ae4bd858f96d7efe" ;
+    ewm:sidecarFieldEmf "/intenteco/bursaria-spinosa/dist/bursaria-spinosa-field.emf" ;
+    ewm:sidecarFieldEmfSha256 "260e507ddb6d02427b41687d81ed84f349c6cc22f6a2750df26693626e5ab2d0" ;
+    ewm:sidecarSubstrateM64 "/intenteco/bursaria-spinosa/dist/bursaria-spinosa-substrate.m64" ;
+    ewm:sidecarSubstrateM64Sha256 "b028c6a79f8dbb1c2e1df5eedcacb2b7d0e74033aee7883e0cad43cc9b049690" ;
+    ewm:hasLod <https://webizen.au/species/bursaria-spinosa/lod/lod0> , <https://webizen.au/species/bursaria-spinosa/lod/lod1> , <https://webizen.au/species/bursaria-spinosa/lod/lod2> , <https://webizen.au/species/bursaria-spinosa/lod/aboveground_lod1> , <https://webizen.au/species/bursaria-spinosa/lod/rhizosphere> .
+
+<https://webizen.au/species/bursaria-spinosa/lod/lod0>
+    ewm:forSpecies <did:q42:taxon:bursaria-spinosa> ;
+    ewm:tier "lod0" ;
+    ewm:distanceBand "0-25m" ;
+    ewm:url "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-lod0.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-lod0.10d" ;
+    ewm:sha256 "c2ce2981b36440e774667e79ec21e90e18b1abff178f573ca168104c59b32448" ;
+    ewm:bytes 208320 ;
+    ewm:triangles 13000 ;
+    ewm:vertices 9290 ;
+    ewm:aabbMinX -1.131494 ;
+    ewm:aabbMinY -1.295960 ;
+    ewm:aabbMinZ -1.136243 ;
+    ewm:aabbMaxX 1.194324 ;
+    ewm:aabbMaxY 2.113902 ;
+    ewm:aabbMaxZ 1.163365 .
+
+<https://webizen.au/species/bursaria-spinosa/lod/lod1>
+    ewm:forSpecies <did:q42:taxon:bursaria-spinosa> ;
+    ewm:tier "lod1" ;
+    ewm:distanceBand "25-90m" ;
+    ewm:url "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-lod1.10d" ;
+    ewm:sha256 "f9ea98fe5889a67a7819fabec9f938197adccf4da7ada12acbedd6fe6058d07b" ;
+    ewm:bytes 59400 ;
+    ewm:triangles 4388 ;
+    ewm:vertices 2344 ;
+    ewm:aabbMinX -0.951717 ;
+    ewm:aabbMinY -1.227635 ;
+    ewm:aabbMinZ -1.016581 ;
+    ewm:aabbMaxX 1.009042 ;
+    ewm:aabbMaxY 1.985696 ;
+    ewm:aabbMaxZ 0.990418 .
+
+<https://webizen.au/species/bursaria-spinosa/lod/lod2>
+    ewm:forSpecies <did:q42:taxon:bursaria-spinosa> ;
+    ewm:tier "lod2" ;
+    ewm:distanceBand ">90m" ;
+    ewm:url "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-lod2.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-lod2.10d" ;
+    ewm:sha256 "6c2474da52a3b19e3383fcb55e4f4af4268e7050a84771bdf1b8100b9ef1f3db" ;
+    ewm:bytes 12824 ;
+    ewm:triangles 900 ;
+    ewm:vertices 512 ;
+    ewm:aabbMinX -0.656827 ;
+    ewm:aabbMinY -1.099003 ;
+    ewm:aabbMinZ -0.897652 ;
+    ewm:aabbMaxX 0.763720 ;
+    ewm:aabbMaxY 1.665942 ;
+    ewm:aabbMaxZ 0.724721 .
+
+<https://webizen.au/species/bursaria-spinosa/lod/aboveground_lod1>
+    ewm:forSpecies <did:q42:taxon:bursaria-spinosa> ;
+    ewm:tier "aboveground_lod1" ;
+    ewm:distanceBand "25-90m (y >= -0.20m)" ;
+    ewm:url "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-aboveground-lod1.10d" ;
+    ewm:sha256 "ad58517185e878fe61dbc046f7283647e2a1143e6937c73b6ac6d9e534d56f61" ;
+    ewm:bytes 43292 ;
+    ewm:triangles 3082 ;
+    ewm:vertices 1753 ;
+    ewm:aabbMinX -0.951717 ;
+    ewm:aabbMinY -0.200000 ;
+    ewm:aabbMinZ -0.966195 ;
+    ewm:aabbMaxX 1.009042 ;
+    ewm:aabbMaxY 1.985696 ;
+    ewm:aabbMaxZ 0.990418 .
+
+<https://webizen.au/species/bursaria-spinosa/lod/rhizosphere>
+    ewm:forSpecies <did:q42:taxon:bursaria-spinosa> ;
+    ewm:tier "rhizosphere" ;
+    ewm:distanceBand "xray-subterranean (y <= 0.15m)" ;
+    ewm:url "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-rhizosphere.10d" ;
+    ewm:remoteUrl "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-rhizosphere.10d" ;
+    ewm:sha256 "fe25245e8baf16950389c5f8134f21bc0a4ccbc5b2b9b87baaa67e848900ddeb" ;
+    ewm:bytes 28140 ;
+    ewm:triangles 2020 ;
+    ewm:vertices 1125 ;
+    ewm:aabbMinX -0.784641 ;
+    ewm:aabbMinY -1.227635 ;
+    ewm:aabbMinZ -1.016581 ;
+    ewm:aabbMaxX 0.878797 ;
+    ewm:aabbMaxY 0.150000 ;
+    ewm:aabbMaxZ 0.848744 .

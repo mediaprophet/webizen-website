@@ -1,0 +1,500 @@
+# Webizen EWM — Human Anatomy, SKL2 28-Joint Biomechanics & Bioelectric EMF Knowledge Vault
+# Work-Packet: WEB-WP-16
+# Taxon Reference: did:q42:taxon:homo-sapiens (urn:qualia:taxon:homo_sapiens)
+
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix dwc:    <http://rs.tdwg.org/dwc/terms/> .
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix odrl:   <http://www.w3.org/ns/odrl/2/> .
+@prefix fma:    <http://purl.obolibrary.org/obo/FMA_> .
+@prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> .
+@prefix ewm:    <https://webizen.au/relation/> .
+@prefix human:  <https://webizen.au/anatomy/homo-sapiens/> .
+@prefix layer:  <https://webizen.au/anatomy/homo-sapiens/layer/> .
+@prefix joint:  <https://webizen.au/anatomy/homo-sapiens/joint/> .
+@prefix ik:     <https://webizen.au/anatomy/homo-sapiens/ik/> .
+@prefix emf:    <https://webizen.au/anatomy/homo-sapiens/emf/> .
+
+<https://webizen.au/catalog/human-anatomy>
+    a <https://webizen.au/catalog/AnatomyCatalog> , dcat:Dataset ;
+    ewm:schema "webizen.human-anatomy/v1" ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:layerCount 3 ;
+    ewm:skl2JointCount 28 ;
+    ewm:hasLayer layer:osteology ,
+                 layer:myology_viscera ,
+                 layer:integument_anthropometry ;
+    ewm:hasJoint joint:pelvis_root ,
+                 joint:spine_lumbar ,
+                 joint:spine_thoracic ,
+                 joint:spine_cervical ,
+                 joint:neck ,
+                 joint:head ,
+                 joint:jaw ,
+                 joint:ribcage_sternum ,
+                 joint:clavicle_l ,
+                 joint:shoulder_l ,
+                 joint:elbow_l ,
+                 joint:wrist_l ,
+                 joint:hand_l ,
+                 joint:thumb_l ,
+                 joint:clavicle_r ,
+                 joint:shoulder_r ,
+                 joint:elbow_r ,
+                 joint:wrist_r ,
+                 joint:hand_r ,
+                 joint:thumb_r ,
+                 joint:hip_l ,
+                 joint:knee_l ,
+                 joint:ankle_l ,
+                 joint:toe_l ,
+                 joint:hip_r ,
+                 joint:knee_r ,
+                 joint:ankle_r ,
+                 joint:toe_r ;
+    ewm:hasIkChain ik:leg_l , ik:leg_r , ik:arm_l , ik:arm_r ;
+    ewm:hasEmfProfile emf:cardiac , emf:neural , emf:respiratory .
+
+<did:q42:taxon:homo-sapiens>
+    a dwc:Taxon , dcat:Dataset ;
+    owl:sameAs <urn:qualia:taxon:homo_sapiens> , <did:q42:taxon:homo_sapiens> ;
+    ewm:slug "homo-sapiens" ;
+    dwc:scientificName "Homo sapiens Linnaeus, 1758" ;
+    dwc:vernacularName "Human"@en ;
+    rdfs:label "Human (Homo sapiens)"@en ;
+    dwc:kingdom "Animalia" ;
+    dwc:phylum "Chordata" ;
+    dwc:class "Mammalia" ;
+    dwc:order "Primates" ;
+    dwc:family "Hominidae" ;
+    ewm:taxonOntologyUrl "/intenteco/homo-sapiens/ontology/taxon.ttl" ;
+    ewm:biomechanicsJsonUrl "/intenteco/homo-sapiens/ontology/biomechanics.json" ;
+    odrl:hasPolicy "SocialPermissiveCommons" ;
+    ewm:statureM 1.74 ;
+    ewm:massKg 72.0 ;
+    ewm:headHeightM 0.22 ;
+    ewm:shoulderWidthM 0.44 ;
+    ewm:hipHeightM 0.92 ;
+    ewm:kneeHeightM 0.49 ;
+    ewm:ankleHeightM 0.08 ;
+    ewm:armSpanM 1.74 ;
+    ewm:comStandingM 0.96 ;
+    ewm:comSeatedM 0.78 .
+
+# ============================================================================
+# Three Anatomical Layers (FMA + UBERON)
+# ============================================================================
+
+layer:osteology
+    a ewm:AnatomicalLayer , fma:23881 , uberon:0001434 ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:layerIndex 1 ;
+    ewm:layerId "osteology" ;
+    ewm:fmaCurie "FMA:23881" ;
+    ewm:uberonCurie "UBERON:0001434" ;
+    rdfs:label "Layer 1 — Osteology"@en ;
+    ewm:subsystemsSummary "Cranium (FMA:50185/UBERON:0003128), Mandible (FMA:52748/UBERON:0001684), Cervical/Thoracic/Lumbar/Sacral Spine (FMA:24138,24139,24140,16202), Ribcage+Sternum (FMA:7480,7485), Clavicles+Scapulae (FMA:13321,13394), Pelvis (FMA:9578), Humeri/Radii/Ulnae/Hands (FMA:13303,23463,23466,9712), Femora/Patellae/Tibiae/Fibulae/Feet (FMA:24474,24485,24476,24479,9664)" ;
+    ewm:corticalBoneYoungsModulusGPa 17.5 ;
+    ewm:corticalBoneBmdMgCm3 1150.0 ;
+    ewm:trabecularBvTv 0.24 .
+
+layer:myology_viscera
+    a ewm:AnatomicalLayer , fma:72954 , uberon:0001630 , uberon:0002075 ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:layerIndex 2 ;
+    ewm:layerId "myology_and_viscera" ;
+    ewm:fmaCurie "FMA:72954" ;
+    ewm:uberonCurie "UBERON:0001630" ;
+    ewm:visceraUberonCurie "UBERON:0002075" ;
+    rdfs:label "Layer 2 — Myology & Major Viscera"@en ;
+    ewm:visceraSummary "4-chambered Heart (FMA:7088/UBERON:0000948, 60-75 bpm), Lungs (FMA:7195/UBERON:0002048), Diaphragm (FMA:13296/UBERON:0001103), Brain/CNS (FMA:50801/UBERON:0000955)" ;
+    ewm:myologySummary "Trapezius (FMA:9604), Deltoids (FMA:9603), Pectoralis major (FMA:13427), Latissimus dorsi (FMA:13345), Rectus abdominis (FMA:9629), Gluteals (FMA:22312), Quadriceps (FMA:22432), Hamstrings (FMA:75148), Gastrocnemius/Soleus (FMA:22541,22542), Biceps/Triceps (FMA:37402,37441)" .
+
+layer:integument_anthropometry
+    a ewm:AnatomicalLayer , fma:72979 , uberon:0002199 ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:layerIndex 3 ;
+    ewm:layerId "integument_and_anthropometry" ;
+    ewm:fmaCurie "FMA:72979" ;
+    ewm:uberonCurie "UBERON:0002199" ;
+    rdfs:label "Layer 3 — Integument & Standard 1.74 m Adult Anthropometry"@en ;
+    ewm:statureM 1.74 ;
+    ewm:headHeightM 0.22 ;
+    ewm:shoulderWidthM 0.44 ;
+    ewm:hipHeightM 0.92 ;
+    ewm:kneeHeightM 0.49 ;
+    ewm:ankleHeightM 0.08 ;
+    ewm:armSpanM 1.74 ;
+    ewm:comStandingM 0.96 ;
+    ewm:comSeatedM 0.78 .
+
+# ============================================================================
+# Cardiac, Neural & Respiratory .emf Bioelectric Parameters
+# ============================================================================
+
+emf:cardiac
+    a ewm:BioelectricFieldProfile ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:anatomyFma fma:7088 ;
+    ewm:anatomyUberon uberon:0000948 ;
+    ewm:chambers 4 ;
+    ewm:restingBpmMin 60.0 ;
+    ewm:restingBpmMax 75.0 ;
+    ewm:restingBpmNominal 68.0 ;
+    ewm:fundamentalHz 1.1333 ;
+    ewm:qrsPeakMv 1.20 ;
+    ewm:dipoleOriginRelThoracic "[0.032, 0.015, 0.065]" ;
+    ewm:dipoleAxisDeg "[0.0, -58.0, 18.0]" ;
+    ewm:spectralBandMinHz 0.8 ;
+    ewm:spectralBandMaxHz 45.0 .
+
+emf:neural
+    a ewm:BioelectricFieldProfile ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:anatomyFma fma:50801 ;
+    ewm:anatomyUberon uberon:0000955 ;
+    ewm:alphaHz 10.0 ;
+    ewm:betaBandHz "13.0-30.0" ;
+    ewm:thetaBandHz "4.0-8.0" ;
+    ewm:deltaBandHz "0.5-4.0" ;
+    ewm:scalpPotentialUv 50.0 ;
+    ewm:corticalDipoleNAm 10.0 ;
+    ewm:dipoleOriginRelHead "[0.000, 0.090, 0.010]" .
+
+emf:respiratory
+    a ewm:BioelectricFieldProfile ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:anatomyFma fma:7195 ;
+    ewm:anatomyUberon uberon:0002048 ;
+    ewm:diaphragmFma fma:13296 ;
+    ewm:diaphragmUberon uberon:0001103 ;
+    ewm:restingBreathsPerMinMin 12.0 ;
+    ewm:restingBreathsPerMinMax 16.0 ;
+    ewm:restingHz 0.2333 ;
+    ewm:tidalVolumeL 0.50 .
+
+# ============================================================================
+# SKL2 28-Joint Kinematic Hierarchy (Indices 0..27)
+# ============================================================================
+
+joint:pelvis_root a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 0 ; ewm:jointName "pelvis_root" ; ewm:parentIndex -1 ;
+    ewm:fmaCurie "FMA:9578" ; ewm:uberonCurie "UBERON:0002355" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.920 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 6 ;
+    ewm:romPitchMinDeg -30.0 ; ewm:romPitchMaxDeg 45.0 ;
+    ewm:romYawMinDeg -45.0 ; ewm:romYawMaxDeg 45.0 ;
+    ewm:romRollMinDeg -25.0 ; ewm:romRollMaxDeg 25.0 .
+
+joint:spine_lumbar a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 1 ; ewm:jointName "spine_lumbar" ; ewm:parentIndex 0 ; ewm:parentJoint joint:pelvis_root ;
+    ewm:fmaCurie "FMA:24140" ; ewm:uberonCurie "UBERON:0002414" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.130 ; ewm:restLocalZ -0.010 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -25.0 ; ewm:romPitchMaxDeg 50.0 ;
+    ewm:romYawMinDeg -20.0 ; ewm:romYawMaxDeg 20.0 ;
+    ewm:romRollMinDeg -25.0 ; ewm:romRollMaxDeg 25.0 .
+
+joint:spine_thoracic a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 2 ; ewm:jointName "spine_thoracic" ; ewm:parentIndex 1 ; ewm:parentJoint joint:spine_lumbar ;
+    ewm:fmaCurie "FMA:24139" ; ewm:uberonCurie "UBERON:0002347" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.220 ; ewm:restLocalZ -0.010 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -15.0 ; ewm:romPitchMaxDeg 30.0 ;
+    ewm:romYawMinDeg -35.0 ; ewm:romYawMaxDeg 35.0 ;
+    ewm:romRollMinDeg -20.0 ; ewm:romRollMaxDeg 20.0 .
+
+joint:spine_cervical a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 3 ; ewm:jointName "spine_cervical" ; ewm:parentIndex 2 ; ewm:parentJoint joint:spine_thoracic ;
+    ewm:fmaCurie "FMA:24138" ; ewm:uberonCurie "UBERON:0002412" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.170 ; ewm:restLocalZ 0.005 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -30.0 ; ewm:romPitchMaxDeg 30.0 ;
+    ewm:romYawMinDeg -35.0 ; ewm:romYawMaxDeg 35.0 ;
+    ewm:romRollMinDeg -22.0 ; ewm:romRollMaxDeg 22.0 .
+
+joint:neck a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 4 ; ewm:jointName "neck" ; ewm:parentIndex 3 ; ewm:parentJoint joint:spine_cervical ;
+    ewm:fmaCurie "FMA:7155" ; ewm:uberonCurie "UBERON:0000974" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.075 ; ewm:restLocalZ 0.010 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -35.0 ; ewm:romPitchMaxDeg 30.0 ;
+    ewm:romYawMinDeg -45.0 ; ewm:romYawMaxDeg 45.0 ;
+    ewm:romRollMinDeg -23.0 ; ewm:romRollMaxDeg 23.0 .
+
+joint:head a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 5 ; ewm:jointName "head" ; ewm:parentIndex 4 ; ewm:parentJoint joint:neck ;
+    ewm:fmaCurie "FMA:50185" ; ewm:uberonCurie "UBERON:0003128" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.075 ; ewm:restLocalZ 0.010 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -25.0 ; ewm:romPitchMaxDeg 20.0 ;
+    ewm:romYawMinDeg -30.0 ; ewm:romYawMaxDeg 30.0 ;
+    ewm:romRollMinDeg -15.0 ; ewm:romRollMaxDeg 15.0 .
+
+joint:jaw a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 6 ; ewm:jointName "jaw" ; ewm:parentIndex 5 ; ewm:parentJoint joint:head ;
+    ewm:fmaCurie "FMA:52748" ; ewm:uberonCurie "UBERON:0001684" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.025 ; ewm:restLocalZ 0.030 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg 0.0 ; ewm:romPitchMaxDeg 38.0 ;
+    ewm:romYawMinDeg -8.0 ; ewm:romYawMaxDeg 8.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:ribcage_sternum a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 7 ; ewm:jointName "ribcage_sternum" ; ewm:parentIndex 2 ; ewm:parentJoint joint:spine_thoracic ;
+    ewm:fmaCurie "FMA:7480" ; ewm:uberonCurie "UBERON:0001443" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY 0.050 ; ewm:restLocalZ 0.105 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg -6.0 ; ewm:romPitchMaxDeg 8.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:clavicle_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 8 ; ewm:jointName "clavicle_l" ; ewm:parentIndex 2 ; ewm:parentJoint joint:spine_thoracic ;
+    ewm:fmaCurie "FMA:13321" ; ewm:uberonCurie "UBERON:0001105" ;
+    ewm:restLocalX 0.045 ; ewm:restLocalY 0.160 ; ewm:restLocalZ 0.040 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -10.0 ; ewm:romPitchMaxDeg 15.0 ;
+    ewm:romYawMinDeg -25.0 ; ewm:romYawMaxDeg 20.0 ;
+    ewm:romRollMinDeg -15.0 ; ewm:romRollMaxDeg 35.0 .
+
+joint:shoulder_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 9 ; ewm:jointName "shoulder_l" ; ewm:parentIndex 8 ; ewm:parentJoint joint:clavicle_l ;
+    ewm:fmaCurie "FMA:13303" ; ewm:uberonCurie "UBERON:0000976" ;
+    ewm:restLocalX 0.175 ; ewm:restLocalY 0.000 ; ewm:restLocalZ -0.020 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -60.0 ; ewm:romPitchMaxDeg 180.0 ;
+    ewm:romYawMinDeg -90.0 ; ewm:romYawMaxDeg 135.0 ;
+    ewm:romRollMinDeg -90.0 ; ewm:romRollMaxDeg 90.0 .
+
+joint:elbow_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 10 ; ewm:jointName "elbow_l" ; ewm:parentIndex 9 ; ewm:parentJoint joint:shoulder_l ;
+    ewm:fmaCurie "FMA:23463" ; ewm:uberonCurie "UBERON:0001423" ;
+    ewm:restLocalX 0.265 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg 0.0 ; ewm:romPitchMaxDeg 145.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg -85.0 ; ewm:romRollMaxDeg 85.0 .
+
+joint:wrist_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 11 ; ewm:jointName "wrist_l" ; ewm:parentIndex 10 ; ewm:parentJoint joint:elbow_l ;
+    ewm:fmaCurie "FMA:24922" ; ewm:uberonCurie "UBERON:0004452" ;
+    ewm:restLocalX 0.225 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg -70.0 ; ewm:romPitchMaxDeg 80.0 ;
+    ewm:romYawMinDeg -20.0 ; ewm:romYawMaxDeg 35.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:hand_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 12 ; ewm:jointName "hand_l" ; ewm:parentIndex 11 ; ewm:parentJoint joint:wrist_l ;
+    ewm:fmaCurie "FMA:9712" ; ewm:uberonCurie "UBERON:0002398" ;
+    ewm:restLocalX 0.075 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg -15.0 ; ewm:romPitchMaxDeg 90.0 ;
+    ewm:romYawMinDeg -10.0 ; ewm:romYawMaxDeg 10.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:thumb_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 13 ; ewm:jointName "thumb_l" ; ewm:parentIndex 12 ; ewm:parentJoint joint:hand_l ;
+    ewm:fmaCurie "FMA:24938" ; ewm:uberonCurie "UBERON:0001463" ;
+    ewm:restLocalX -0.030 ; ewm:restLocalY -0.020 ; ewm:restLocalZ 0.035 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg -15.0 ; ewm:romPitchMaxDeg 65.0 ;
+    ewm:romYawMinDeg -25.0 ; ewm:romYawMaxDeg 50.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:clavicle_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 14 ; ewm:jointName "clavicle_r" ; ewm:parentIndex 2 ; ewm:parentJoint joint:spine_thoracic ;
+    ewm:fmaCurie "FMA:13321" ; ewm:uberonCurie "UBERON:0001105" ;
+    ewm:restLocalX -0.045 ; ewm:restLocalY 0.160 ; ewm:restLocalZ 0.040 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -10.0 ; ewm:romPitchMaxDeg 15.0 ;
+    ewm:romYawMinDeg -20.0 ; ewm:romYawMaxDeg 25.0 ;
+    ewm:romRollMinDeg -35.0 ; ewm:romRollMaxDeg 15.0 .
+
+joint:shoulder_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 15 ; ewm:jointName "shoulder_r" ; ewm:parentIndex 14 ; ewm:parentJoint joint:clavicle_r ;
+    ewm:fmaCurie "FMA:13303" ; ewm:uberonCurie "UBERON:0000976" ;
+    ewm:restLocalX -0.175 ; ewm:restLocalY 0.000 ; ewm:restLocalZ -0.020 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -60.0 ; ewm:romPitchMaxDeg 180.0 ;
+    ewm:romYawMinDeg -135.0 ; ewm:romYawMaxDeg 90.0 ;
+    ewm:romRollMinDeg -90.0 ; ewm:romRollMaxDeg 90.0 .
+
+joint:elbow_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 16 ; ewm:jointName "elbow_r" ; ewm:parentIndex 15 ; ewm:parentJoint joint:shoulder_r ;
+    ewm:fmaCurie "FMA:23463" ; ewm:uberonCurie "UBERON:0001423" ;
+    ewm:restLocalX -0.265 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg 0.0 ; ewm:romPitchMaxDeg 145.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg -85.0 ; ewm:romRollMaxDeg 85.0 .
+
+joint:wrist_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 17 ; ewm:jointName "wrist_r" ; ewm:parentIndex 16 ; ewm:parentJoint joint:elbow_r ;
+    ewm:fmaCurie "FMA:24922" ; ewm:uberonCurie "UBERON:0004452" ;
+    ewm:restLocalX -0.225 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg -70.0 ; ewm:romPitchMaxDeg 80.0 ;
+    ewm:romYawMinDeg -35.0 ; ewm:romYawMaxDeg 20.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:hand_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 18 ; ewm:jointName "hand_r" ; ewm:parentIndex 17 ; ewm:parentJoint joint:wrist_r ;
+    ewm:fmaCurie "FMA:9712" ; ewm:uberonCurie "UBERON:0002398" ;
+    ewm:restLocalX -0.075 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg -15.0 ; ewm:romPitchMaxDeg 90.0 ;
+    ewm:romYawMinDeg -10.0 ; ewm:romYawMaxDeg 10.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:thumb_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 19 ; ewm:jointName "thumb_r" ; ewm:parentIndex 18 ; ewm:parentJoint joint:hand_r ;
+    ewm:fmaCurie "FMA:24938" ; ewm:uberonCurie "UBERON:0001463" ;
+    ewm:restLocalX 0.030 ; ewm:restLocalY -0.020 ; ewm:restLocalZ 0.035 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg -15.0 ; ewm:romPitchMaxDeg 65.0 ;
+    ewm:romYawMinDeg -50.0 ; ewm:romYawMaxDeg 25.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:hip_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 20 ; ewm:jointName "hip_l" ; ewm:parentIndex 0 ; ewm:parentJoint joint:pelvis_root ;
+    ewm:fmaCurie "FMA:24474" ; ewm:uberonCurie "UBERON:0000981" ;
+    ewm:restLocalX 0.100 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -30.0 ; ewm:romPitchMaxDeg 125.0 ;
+    ewm:romYawMinDeg -45.0 ; ewm:romYawMaxDeg 45.0 ;
+    ewm:romRollMinDeg -30.0 ; ewm:romRollMaxDeg 45.0 .
+
+joint:knee_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 21 ; ewm:jointName "knee_l" ; ewm:parentIndex 20 ; ewm:parentJoint joint:hip_l ;
+    ewm:fmaCurie "FMA:24476" ; ewm:uberonCurie "UBERON:0000979" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.430 ; ewm:restLocalZ 0.010 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg 0.0 ; ewm:romPitchMaxDeg 140.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:ankle_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 22 ; ewm:jointName "ankle_l" ; ewm:parentIndex 21 ; ewm:parentJoint joint:knee_l ;
+    ewm:fmaCurie "FMA:9664" ; ewm:uberonCurie "UBERON:0002387" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.410 ; ewm:restLocalZ -0.020 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg -50.0 ; ewm:romPitchMaxDeg 20.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg -30.0 ; ewm:romRollMaxDeg 20.0 .
+
+joint:toe_l a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 23 ; ewm:jointName "toe_l" ; ewm:parentIndex 22 ; ewm:parentJoint joint:ankle_l ;
+    ewm:fmaCurie "FMA:25046" ; ewm:uberonCurie "UBERON:0001466" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.055 ; ewm:restLocalZ 0.140 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg -40.0 ; ewm:romPitchMaxDeg 70.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:hip_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 24 ; ewm:jointName "hip_r" ; ewm:parentIndex 0 ; ewm:parentJoint joint:pelvis_root ;
+    ewm:fmaCurie "FMA:24474" ; ewm:uberonCurie "UBERON:0000981" ;
+    ewm:restLocalX -0.100 ; ewm:restLocalY 0.000 ; ewm:restLocalZ 0.000 ;
+    ewm:dof 3 ;
+    ewm:romPitchMinDeg -30.0 ; ewm:romPitchMaxDeg 125.0 ;
+    ewm:romYawMinDeg -45.0 ; ewm:romYawMaxDeg 45.0 ;
+    ewm:romRollMinDeg -45.0 ; ewm:romRollMaxDeg 30.0 .
+
+joint:knee_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 25 ; ewm:jointName "knee_r" ; ewm:parentIndex 24 ; ewm:parentJoint joint:hip_r ;
+    ewm:fmaCurie "FMA:24476" ; ewm:uberonCurie "UBERON:0000979" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.430 ; ewm:restLocalZ 0.010 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg 0.0 ; ewm:romPitchMaxDeg 140.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+joint:ankle_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 26 ; ewm:jointName "ankle_r" ; ewm:parentIndex 25 ; ewm:parentJoint joint:knee_r ;
+    ewm:fmaCurie "FMA:9664" ; ewm:uberonCurie "UBERON:0002387" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.410 ; ewm:restLocalZ -0.020 ;
+    ewm:dof 2 ;
+    ewm:romPitchMinDeg -50.0 ; ewm:romPitchMaxDeg 20.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg -20.0 ; ewm:romRollMaxDeg 30.0 .
+
+joint:toe_r a ewm:Skl2Joint ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:jointIndex 27 ; ewm:jointName "toe_r" ; ewm:parentIndex 26 ; ewm:parentJoint joint:ankle_r ;
+    ewm:fmaCurie "FMA:25046" ; ewm:uberonCurie "UBERON:0001466" ;
+    ewm:restLocalX 0.000 ; ewm:restLocalY -0.055 ; ewm:restLocalZ 0.140 ;
+    ewm:dof 1 ;
+    ewm:romPitchMinDeg -40.0 ; ewm:romPitchMaxDeg 70.0 ;
+    ewm:romYawMinDeg 0.0 ; ewm:romYawMaxDeg 0.0 ;
+    ewm:romRollMinDeg 0.0 ; ewm:romRollMaxDeg 0.0 .
+
+# ============================================================================
+# IK Chains & Seated Driver Posture
+# ============================================================================
+
+ik:leg_l a ewm:IkChain ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:solver "two_bone_ik" ;
+    ewm:rootJoint joint:hip_l ; ewm:midJoint joint:knee_l ; ewm:endJoint joint:ankle_l ;
+    ewm:upperLengthM 0.4301 ; ewm:lowerLengthM 0.4105 .
+
+ik:leg_r a ewm:IkChain ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:solver "two_bone_ik" ;
+    ewm:rootJoint joint:hip_r ; ewm:midJoint joint:knee_r ; ewm:endJoint joint:ankle_r ;
+    ewm:upperLengthM 0.4301 ; ewm:lowerLengthM 0.4105 .
+
+ik:arm_l a ewm:IkChain ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:solver "two_bone_ik" ;
+    ewm:rootJoint joint:shoulder_l ; ewm:midJoint joint:elbow_l ; ewm:endJoint joint:wrist_l ;
+    ewm:upperLengthM 0.2650 ; ewm:lowerLengthM 0.2250 ;
+    ewm:reachMode "steering_wheel_10_oclock_and_inspect" .
+
+ik:arm_r a ewm:IkChain ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:solver "two_bone_ik" ;
+    ewm:rootJoint joint:shoulder_r ; ewm:midJoint joint:elbow_r ; ewm:endJoint joint:wrist_r ;
+    ewm:upperLengthM 0.2650 ; ewm:lowerLengthM 0.2250 ;
+    ewm:reachMode "steering_wheel_2_oclock_and_inspect" .
+
+human:posture_seated_driver a ewm:PostureProfile ;
+    ewm:forTaxon <did:q42:taxon:homo-sapiens> ;
+    ewm:hipFlexionDeg 95.0 ;
+    ewm:kneeFlexionDeg 65.0 ;
+    ewm:comSeatedM 0.78 ;
+    ewm:steeringWheelGrip "10_and_2_oclock" ;
+    rdfs:label "Seated Driver Posture (Hip 95 deg, Knee 65 deg, Hands on Steering Wheel Rim)"@en .

@@ -1816,6 +1816,16 @@ export function portal_init_webgl2(canvas: HTMLCanvasElement): boolean;
 export function portal_init_webgpu(canvas: HTMLCanvasElement): Promise<boolean>;
 
 /**
+ * Create the portal GPU device + surface asynchronously with an explicit backend preference.
+ *
+ * When `prefer_webgl2` is `true`, forces `Backends::GL` (WebGL2) directly without attempting
+ * `Backends::BROWSER_WEBGPU`, even on WebGPU-capable browsers. When `false`, behaves identically
+ * to [`portal_init_webgpu`] (prefers WebGPU and retries WebGL2 once on failure).
+ * The armed backend is reported by [`portal_gpu_backend`].
+ */
+export function portal_init_with_backend(canvas: HTMLCanvasElement, prefer_webgl2: boolean): Promise<boolean>;
+
+/**
  * True once WebGPU has called `getContext("webgpu")` on the init canvas.
  * A 2d tick on that same element cannot paint; replace it.
  */
@@ -2538,6 +2548,7 @@ export interface InitOutput {
     readonly portal_gpu_backend: () => [number, number];
     readonly portal_init_webgl2: (a: any) => [number, number, number];
     readonly portal_init_webgpu: (a: any) => any;
+    readonly portal_init_with_backend: (a: any, b: number) => any;
     readonly portal_webgpu_canvas_claimed: () => number;
     readonly predict_receptor_binding_wasm: () => number;
     readonly probe_portal_graphics: () => any;
@@ -2814,15 +2825,16 @@ export interface InitOutput {
     readonly xform_z_geometric: (a: any) => [number, number, number];
     readonly xform_z_transform: (a: any) => [number, number, number];
     readonly xform_z_unit_step: (a: any) => [number, number, number];
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___f64______true_: (a: number, b: number, c: number) => void;
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___js_sys_39ec4474943eca9c___Function_fn_wasm_bindgen_169716e839161e07___JsValue_____wasm_bindgen_169716e839161e07___sys__Undefined___js_sys_39ec4474943eca9c___Function_fn_wasm_bindgen_169716e839161e07___JsValue_____wasm_bindgen_169716e839161e07___sys__Undefined_______true_: (a: number, b: number, c: any, d: any) => void;
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___JsValue__core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true_: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___sys__JsNullable_etalon_5907650d5aacf89___backend__webgpu__webgpu_sys__gen_GpuError__GpuError___core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true_: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___sys__JsNullable_etalon_5907650d5aacf89___backend__webgpu__webgpu_sys__gen_GpuError__GpuError___core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true__425: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___wasm_bindgen_169716e839161e07___sys__JsNullable_etalon_5907650d5aacf89___backend__webgpu__webgpu_sys__gen_GpuError__GpuError___core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_169716e839161e07___JsError___true__426: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___etalon_5907650d5aacf89___backend__webgpu__webgpu_sys__gen_GpuDeviceLostInfo__GpuDeviceLostInfo______true_: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke___web_sys_87475d591447d77b___features__gen_ErrorEvent__ErrorEvent______true_: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen_169716e839161e07___convert__closures_____invoke_______true_: (a: number, b: number) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h170f2c80ef5e98a9: (a: number, b: number, c: number) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h33d0fc2e72de1da9: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h33d0fc2e72de1da9_426: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h33d0fc2e72de1da9_427: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h4d620e5c0561b6a1: (a: number, b: number, c: any, d: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__hf7f459f49ff6c97b: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h6684e16679d7ae17: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h94c638b6cb5a43aa: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h060e7fc439e14654: (a: number, b: number) => any;
+    readonly wasm_bindgen__convert__closures_____invoke__h67be73560d0c4b04: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_exn_store: (a: number) => void;

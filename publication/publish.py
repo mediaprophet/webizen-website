@@ -30,6 +30,32 @@ def validate_journey(value):
  if [c['relative_order'] for c in chapters]!=list(range(1,len(chapters)+1)):raise ValueError('Chapters must use contiguous reading order')
  return value
 
+SOURCE_LINK_LABELS={
+ '/source/domains-solvers.html':'Domains & solvers',
+ '/source/playground/living-world-showcase.html':'Living-world showcase',
+ '/source/graph.html':'Knowledge graph',
+ '/source/agreement-instruments.html':'Agreement instruments',
+ '/source/agreement-ledger.html':'Agreement ledger',
+ '/source/hypermedia-studio.html':'Hypermedia studio',
+ '/source/audio-showcase.html':'Audio showcase',
+ '/source/emf-qac-showcase.html':'EMF & QAC showcase',
+ '/source/vision-showcase.html':'Vision showcase',
+ '/source/benchmark.html':'Benchmarks',
+ '/source/playground/anatomy.html':'Living anatomy',
+}
+def render_reading_html(entities):
+ def link_label(href,idx):
+  if idx==0:return 'Explore the source demonstration'
+  if href in SOURCE_LINK_LABELS:return SOURCE_LINK_LABELS[href]
+  stem=href.rstrip('/').rsplit('/',1)[-1].removesuffix('.html').replace('-',' ').strip()
+  return stem[:1].upper()+stem[1:] if stem else 'Related demonstration'
+ sections=[]
+ for e in entities:
+  links=list(dict.fromkeys(e.get('source_links',[])))
+  anchors=' · '.join('<a href="'+html.escape(link)+'">'+html.escape(link_label(link,i))+'</a>' for i,link in enumerate(links))
+  links_html='<p>'+anchors+'</p>' if anchors else ''
+  sections.append('<section id="'+html.escape(e['id'])+'"><h2>'+html.escape(e['title'])+'</h2><p>'+html.escape(e['description'])+'</p>'+links_html+'</section>')
+ return '<!doctype html><html lang="en-AU"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Living-world publication</title><style>body{font:18px/1.7 system-ui;max-width:850px;margin:auto;padding:2rem;color:#203c32;background:#f3efdf}section{margin:3rem 0}a{color:#15594e}</style><main><a href="/">Return to the world</a><h1>A living world, shared understanding</h1>'+''.join(sections)+'</main></html>'
 def decoded_journey(rows):
  """Project allowlisted chapter data exclusively from real native decoded terms."""
  index={}
@@ -119,7 +145,7 @@ def publish(website,baseline,out,helper,journey_path=None):
  journey_projection={**decoded,'graph':{'format':'q42','uri':graph_uri,'sha256':digest(q42),'receipt_uri':'/publication/q42-receipt.json','reader':loaded['reader'],'verified_blocks':loaded['verified_blocks']},'projection':{'schema':'webizen.journey-q42-projection/v1','source_sha256':digest(journey_path),'semantic_roundtrip_equal':True,'method':receipt['journey']['method']}}
  save(out/'journey.json',journey_projection)
  projection={'schema':'webizen.public-entities/v1','default_locale':'en-AU','graph':{'uri':graph_uri,'sha256':digest(q42),'receipt_uri':'/publication/q42-receipt.json'},'entities':entities,'modules':[{k:m[k] for k in ('id','name','purpose','publication_status')} for m in modules],'relationships':world['relationships'],'purposes':list(policies)};save(out/'entities.json',projection)
- (out/'reading.html').write_text('<!doctype html><html lang="en-AU"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Living-world publication</title><style>body{font:18px/1.7 system-ui;max-width:850px;margin:auto;padding:2rem;color:#203c32;background:#f3efdf}section{margin:3rem 0}a{color:#15594e}</style><a href="/">Return to the world</a><h1>A living world, shared understanding</h1>'+''.join('<section id="'+html.escape(e['id'])+'"><h2>'+html.escape(e['title'])+'</h2><p>'+html.escape(e['description'])+'</p><p>'+''.join('<a href="'+html.escape(link)+'">Explore the source demonstration</a> ' for link in e['source_links'])+'</p></section>' for e in entities)+'</html>',encoding='utf-8')
+ (out/'reading.html').write_text(render_reading_html(entities),encoding='utf-8')
  # The source identity is the combined reviewed input snapshot; each input keeps its own byte hash.
  module_ids={m['name'].casefold():m['id'] for m in modules};module_ids.update({'hypermedia':'hypermedia','webcivics':'web-civics','webizen host':'webizen-host','vibe':'vibescript','webizen':'webizen','web civics':'web-civics','ecopunk':'ecopunk'})
  def rec(kind,id,**kwargs):return {'schema':'webizen.'+kind+'/v1','id':id,**kwargs}

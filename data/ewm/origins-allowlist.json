@@ -1,0 +1,49 @@
+{
+  "schema": "webizen.ewm-origins-allowlist/v1",
+  "description": "Trusted multi-source content-addressed resolution chain for Webizen living-world and IntentEco species assets. All admitted payloads require mandatory SHA-256 verification and container binary magic checks.",
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "same-origin",
+      "cors_mode": "same-origin",
+      "prefixes": [
+        "/production/",
+        "/packages/",
+        "/data/ewm/",
+        "/intenteco/"
+      ]
+    },
+    {
+      "tier": 2,
+      "name": "cors-remote-mirrors",
+      "cors_mode": "cors",
+      "prefixes": [
+        "https://raw.githubusercontent.com/intenteco/",
+        "https://assets.webizen.au/",
+        "https://r2.intenteco.org/"
+      ]
+    }
+  ],
+  "allowed_prefixes": [
+    "/production/",
+    "/packages/",
+    "/data/ewm/",
+    "/intenteco/",
+    "https://raw.githubusercontent.com/intenteco/",
+    "https://assets.webizen.au/",
+    "https://r2.intenteco.org/"
+  ],
+  "rejected_patterns": [
+    "http://",
+    "//",
+    "..",
+    "\\",
+    "github.com/",
+    "/releases/download/"
+  ],
+  "cache": {
+    "name": "webizen-ewm-v2-content-addressed",
+    "verify_sha256_on_read": true,
+    "self_heal_on_mismatch": true
+  }
+}

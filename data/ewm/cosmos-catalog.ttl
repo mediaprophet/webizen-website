@@ -1,0 +1,161 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ocs:  <https://webizen.au/ontology/ocs#> .
+
+<did:q42:cosmos:milky-way>
+    a ocs:OcsFrameNode, ocs:GalacticCatalogRoot ;
+    rdfs:label "Milky Way Galactic Cosmos" ;
+    ocs:scaleRegime "GalacticCosmos" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:cosmos:galactic" ;
+    ocs:radiusM "5.0e20"^^xsd:double ;
+    ocs:minAltitudeM "1.0e12"^^xsd:double .
+
+<did:q42:cosmos:sun>
+    a ocs:OcsFrameNode, ocs:CelestialBody ;
+    rdfs:label "Sun (Sol)" ;
+    ocs:scaleRegime "HeliocentricIcrf" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:sun:icrf" ;
+    ocs:parentFrame <did:q42:cosmos:milky-way> ;
+    ocs:jplTargetId "10" ;
+    ocs:epochTdb "2026-11-16T00:00:00Z" ;
+    ocs:jdTdb "2461360.5"^^xsd:double ;
+    ocs:icrfX_m "0.0"^^xsd:double ;
+    ocs:icrfY_m "0.0"^^xsd:double ;
+    ocs:icrfZ_m "0.0"^^xsd:double ;
+    ocs:icrfVx_m_s "0.0"^^xsd:double ;
+    ocs:icrfVy_m_s "0.0"^^xsd:double ;
+    ocs:icrfVz_m_s "0.0"^^xsd:double ;
+    ocs:radiusM "695700000.0"^^xsd:double .
+
+<did:q42:cosmos:earth>
+    a ocs:OcsFrameNode, ocs:CelestialBody ;
+    rdfs:label "Earth (WGS84 / JPL 399)" ;
+    ocs:scaleRegime "HeliocentricIcrf" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:earth:wgs84" ;
+    ocs:parentFrame <did:q42:cosmos:sun> ;
+    ocs:jplTargetId "399" ;
+    ocs:jplSourceSha256 "7ceb3ecd61475b9626ad8e9457d55d9ab923f2dbb777baefbbee02373642d1b7" ;
+    ocs:epochTdb "2026-11-16T00:00:00Z" ;
+    ocs:jdTdb "2461360.5"^^xsd:double ;
+    ocs:icrfX_m "88500030005.58998"^^xsd:double ;
+    ocs:icrfY_m "108798923991.0766"^^xsd:double ;
+    ocs:icrfZ_m "47161666865.26002"^^xsd:double ;
+    ocs:icrfVx_m_s "-24365.72794155198"^^xsd:double ;
+    ocs:icrfVy_m_s "16238.3864436891"^^xsd:double ;
+    ocs:icrfVz_m_s "7038.046127295474"^^xsd:double ;
+    ocs:radiusM "6371010.0"^^xsd:double .
+
+<did:q42:cosmos:moon>
+    a ocs:OcsFrameNode, ocs:CelestialBody ;
+    rdfs:label "Moon (Luna / JPL 301)" ;
+    ocs:scaleRegime "HeliocentricIcrf" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:moon:icrf" ;
+    ocs:parentFrame <did:q42:cosmos:earth> ;
+    ocs:jplTargetId "301" ;
+    ocs:epochTdb "2026-11-16T00:00:00Z" ;
+    ocs:jdTdb "2461360.5"^^xsd:double ;
+    ocs:icrfX_m "384400000.0"^^xsd:double ;
+    ocs:icrfY_m "0.0"^^xsd:double ;
+    ocs:icrfZ_m "0.0"^^xsd:double ;
+    ocs:icrfVx_m_s "0.0"^^xsd:double ;
+    ocs:icrfVy_m_s "1022.0"^^xsd:double ;
+    ocs:icrfVz_m_s "0.0"^^xsd:double ;
+    ocs:radiusM "1737400.0"^^xsd:double .
+
+<did:q42:cosmos:mars>
+    a ocs:OcsFrameNode, ocs:CelestialBody ;
+    rdfs:label "Mars (JPL 499)" ;
+    ocs:scaleRegime "HeliocentricIcrf" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:mars:icrf" ;
+    ocs:parentFrame <did:q42:cosmos:sun> ;
+    ocs:jplTargetId "499" ;
+    ocs:jplSourceSha256 "8afe9824efcfb2b96d5bcca71f270a1ffda3e52a9947143e582029a6aa810966" ;
+    ocs:epochTdb "2026-11-16T00:00:00Z" ;
+    ocs:jdTdb "2461360.5"^^xsd:double ;
+    ocs:icrfX_m "-72391939208.30978"^^xsd:double ;
+    ocs:icrfY_m "208026428048.8652"^^xsd:double ;
+    ocs:icrfZ_m "97369318095.56712"^^xsd:double ;
+    ocs:icrfVx_m_s "-22190.85039662503"^^xsd:double ;
+    ocs:icrfVy_m_s "-4969.05040433935"^^xsd:double ;
+    ocs:icrfVz_m_s "-1680.704404674567"^^xsd:double ;
+    ocs:radiusM "3389920.0"^^xsd:double .
+
+<did:q42:bioregion:northern-rivers-coastal>
+    a ocs:OcsFrameNode, ocs:BioregionAnchor ;
+    rdfs:label "Northern Rivers & Far North Coast (NSW)" ;
+    ocs:slug "northern-rivers-coastal" ;
+    ocs:ibra7Code "NNC" ;
+    ocs:scaleRegime "PlanetaryWgs84" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:earth:wgs84" ;
+    ocs:parentFrame <did:q42:cosmos:earth> ;
+    ocs:wgs84LatDeg "-28.59"^^xsd:double ;
+    ocs:wgs84LonDeg "153.41"^^xsd:double ;
+    ocs:wgs84AltM "575.0"^^xsd:double ;
+    ocs:ecefX_m "-5012379.078"^^xsd:double ;
+    ocs:ecefY_m "2508918.365"^^xsd:double ;
+    ocs:ecefZ_m "-3034354.038"^^xsd:double ;
+    ocs:radiusM "55000.0"^^xsd:double .
+
+<did:q42:bioregion:sydney-basin-sandstone>
+    a ocs:OcsFrameNode, ocs:BioregionAnchor ;
+    rdfs:label "Sydney Basin Sandstone Plateaus & Coastal Gorges" ;
+    ocs:slug "sydney-basin-sandstone" ;
+    ocs:ibra7Code "SYB" ;
+    ocs:scaleRegime "PlanetaryWgs84" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:earth:wgs84" ;
+    ocs:parentFrame <did:q42:cosmos:earth> ;
+    ocs:wgs84LatDeg "-33.80"^^xsd:double ;
+    ocs:wgs84LonDeg "150.80"^^xsd:double ;
+    ocs:wgs84AltM "625.0"^^xsd:double ;
+    ocs:ecefX_m "-4631856.158"^^xsd:double ;
+    ocs:ecefY_m "2588656.909"^^xsd:double ;
+    ocs:ecefZ_m "-3528381.169"^^xsd:double ;
+    ocs:radiusM "75000.0"^^xsd:double .
+
+<did:q42:bioregion:snowy-mountains-alpine>
+    a ocs:OcsFrameNode, ocs:BioregionAnchor ;
+    rdfs:label "Snowy Mountains, Australian Alps & Monaro Tablelands" ;
+    ocs:slug "snowy-mountains-alpine" ;
+    ocs:ibra7Code "AUA" ;
+    ocs:scaleRegime "PlanetaryWgs84" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:earth:wgs84" ;
+    ocs:parentFrame <did:q42:cosmos:earth> ;
+    ocs:wgs84LatDeg "-35.95"^^xsd:double ;
+    ocs:wgs84LonDeg "148.625"^^xsd:double ;
+    ocs:wgs84AltM "1339.0"^^xsd:double ;
+    ocs:ecefX_m "-4414324.310"^^xsd:double ;
+    ocs:ecefY_m "2691872.005"^^xsd:double ;
+    ocs:ecefZ_m "-3724487.985"^^xsd:double ;
+    ocs:radiusM "95000.0"^^xsd:double .
+
+<did:q42:bioregion:victorian-central-highlands>
+    a ocs:OcsFrameNode, ocs:BioregionAnchor ;
+    rdfs:label "Victorian Central Highlands & Yarra-Goulburn Catchments" ;
+    ocs:slug "victorian-central-highlands" ;
+    ocs:ibra7Code "SEH" ;
+    ocs:scaleRegime "PlanetaryWgs84" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:earth:wgs84" ;
+    ocs:parentFrame <did:q42:cosmos:earth> ;
+    ocs:wgs84LatDeg "-37.575"^^xsd:double ;
+    ocs:wgs84LonDeg "145.825"^^xsd:double ;
+    ocs:wgs84AltM "845.0"^^xsd:double ;
+    ocs:ecefX_m "-4187925.234"^^xsd:double ;
+    ocs:ecefY_m "2843440.554"^^xsd:double ;
+    ocs:ecefZ_m "-3868679.998"^^xsd:double ;
+    ocs:radiusM "65000.0"^^xsd:double .
+
+<did:q42:place:canberra-public-reference>
+    a ocs:OcsFrameNode, ocs:LocalEnuAnchor ;
+    rdfs:label "Canberra Southern Tablelands Catchment (Local ENU)" ;
+    ocs:slug "canberra-public-reference" ;
+    ocs:scaleRegime "LocalEnu" ;
+    ocs:usri "urn:omni:v1:physical:observable:standard:earth:wgs84" ;
+    ocs:parentFrame <did:q42:bioregion:snowy-mountains-alpine> ;
+    ocs:wgs84LatDeg "-35.29"^^xsd:double ;
+    ocs:wgs84LonDeg "149.07"^^xsd:double ;
+    ocs:wgs84AltM "541.0"^^xsd:double ;
+    ocs:ecefX_m "-4471130.585"^^xsd:double ;
+    ocs:ecefY_m "2679097.073"^^xsd:double ;
+    ocs:ecefZ_m "-3664487.658"^^xsd:double ;
+    ocs:radiusM "300.0"^^xsd:double .

@@ -7,8 +7,11 @@
 //! Changing a sequence, including the woodland camp, must not require a new
 //! per-scene Rust file or a host rebuild of the sequence.
 
-use super::knowledge::QuinIndex;
 use super::err;
+use super::instruments::species::{
+    evaluate_fauna_behavior, evaluate_flora_wind_sway, FaunaBehaviorState, LocomotionClass,
+};
+use super::knowledge::QuinIndex;
 use qualia_core_db::modalities::holographic_scene::{
     evaluate_predicate_triggers_zero_heap, pack_preset_command_quin, AssetStateNode,
     PredicateTriggerRule, ScheduledPresetCommand,
@@ -128,6 +131,7 @@ pub struct Live {
     pending_clips: [u64; MAX_STAGES],
     pending_joints: [u64; MAX_STAGES],
     pending_clip_n: usize,
+    biosphere_clock_s: f64,
     dirty: bool,
 }
 
@@ -254,6 +258,7 @@ impl Live {
             pending_clips: [0; MAX_STAGES],
             pending_joints: [0; MAX_STAGES],
             pending_clip_n: 0,
+            biosphere_clock_s: 0.0,
             dirty: true,
         };
         if let Some(o) = vec3(rig.get("origin")) {
@@ -703,6 +708,9 @@ impl Live {
     pub fn tick(&mut self, dt_ms: f32, reduced: bool) -> bool {
         let mut changed = false;
         let dt_s = (dt_ms as f64 / 1000.).max(0.);
+        if !reduced {
+            self.biosphere_clock_s += dt_s;
+        }
         for i in 0..self.group_n {
             if advance_channel(
                 &mut self.poses[i],
@@ -770,9 +778,32 @@ impl Live {
             "hitchNear": self.hitch_near(),
             "hitchRadiusM": self.hitch_radius_m,
             "travel": self.pose_travel,
+            "biosphereClockS": self.biosphere_clock_s,
             "party": self.party,
             "contract": self.contract
         })
+    }
+
+    /// Evaluate the generic fauna behavioral loop at `self.biosphere_clock_s`.
+    #[allow(dead_code)]
+    pub fn step_biosphere_fauna(
+        &self,
+        actors: &[FaunaLoopActor],
+        reduced: bool,
+    ) -> Vec<FaunaLoopStep> {
+        step_fauna_behavioral_loop(actors, self.biosphere_clock_s, reduced)
+    }
+
+    /// Sample deterministic flora wind sway at `self.biosphere_clock_s`.
+    #[allow(dead_code)]
+    pub fn sample_flora_wind(
+        &self,
+        seed: u64,
+        world_xz: [f32; 2],
+        cfg: &FloraWindConfig,
+        reduced: bool,
+    ) -> [f64; 3] {
+        flora_wind_sway_offset(self.biosphere_clock_s, seed, world_xz, cfg, reduced)
     }
 
     fn gate_ready(&self) -> bool {
@@ -1306,6 +1337,88 @@ pub fn tick(w: &mut super::World, dt_ms: f32) -> Result<(), JsValue> {
     Ok(())
 }
 
+#[allow(dead_code)]
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct FloraWindConfig {
+    pub natural_freq_hz: f32,
+    pub crown_height_m: f32,
+    pub wind_stress: f32,
+}
+
+#[allow(dead_code)]
+#[derive(Clone, Debug, PartialEq)]
+pub struct FaunaLoopActor {
+    pub id: String,
+    pub locomotion_class: LocomotionClass,
+    pub seed: u64,
+    pub site_vigor: f32,
+    pub base_translation: [f64; 3],
+}
+
+#[allow(dead_code)]
+#[derive(Clone, Debug, PartialEq)]
+pub struct FaunaLoopStep {
+    pub id: String,
+    pub state: FaunaBehaviorState,
+    pub translation: [f64; 3],
+    pub yaw_offset_rad: f64,
+    pub pitch_offset_rad: f64,
+    pub should_vocalize: bool,
+}
+
+/// Generic flora wind-sway offset helper driven by seed, world position, and natural sway frequency.
+#[allow(dead_code)]
+pub fn flora_wind_sway_offset(
+    time_s: f64,
+    seed: u64,
+    world_xz: [f32; 2],
+    cfg: &FloraWindConfig,
+    reduced_motion: bool,
+) -> [f64; 3] {
+    evaluate_flora_wind_sway(
+        time_s,
+        seed,
+        world_xz,
+        cfg.natural_freq_hz,
+        cfg.crown_height_m,
+        cfg.wind_stress,
+        reduced_motion,
+    )
+}
+
+/// Generic data-driven fauna behavioral loop over placed actors (zero per-species branching).
+#[allow(dead_code)]
+pub fn step_fauna_behavioral_loop(
+    actors: &[FaunaLoopActor],
+    time_s: f64,
+    reduced_motion: bool,
+) -> Vec<FaunaLoopStep> {
+    actors
+        .iter()
+        .map(|actor| {
+            let sample = evaluate_fauna_behavior(
+                actor.locomotion_class,
+                actor.seed,
+                time_s,
+                actor.site_vigor,
+                reduced_motion,
+            );
+            FaunaLoopStep {
+                id: actor.id.clone(),
+                state: sample.state,
+                translation: [
+                    actor.base_translation[0] + sample.translation_offset[0],
+                    actor.base_translation[1] + sample.translation_offset[1],
+                    actor.base_translation[2] + sample.translation_offset[2],
+                ],
+                yaw_offset_rad: sample.yaw_offset_rad,
+                pitch_offset_rad: sample.pitch_offset_rad,
+                should_vocalize: sample.should_vocalize,
+            }
+        })
+        .collect()
+}
+
 fn rebind(w: &mut super::World) -> Result<(), JsValue> {
     let upload = w.upload.clone();
     if upload.is_null() {
@@ -1413,6 +1526,7 @@ mod tests {
             pending_clips: [0; MAX_STAGES],
             pending_joints: [0; MAX_STAGES],
             pending_clip_n: 0,
+            biosphere_clock_s: 0.0,
             dirty: true,
         };
         live.groups[0] = Group {
@@ -1666,5 +1780,52 @@ mod tests {
         let packed = live.overlay("solar-array-three--panel", true);
         assert!((packed[2] + 4.).abs() < 0.01);
         assert!((live.overlay_scale("solar-array-three--panel")[0] - 0.4).abs() < 0.01);
+    }
+
+    #[test]
+    fn generic_fauna_loop_and_flora_wind_sway_advance_deterministically() {
+        let mut live = test_live();
+        live.tick(500., false);
+        assert!(live.biosphere_clock_s > 0.49);
+        let actors = vec![
+            FaunaLoopActor {
+                id: "inst-1".into(),
+                locomotion_class: LocomotionClass::Saltatorial,
+                seed: 101,
+                site_vigor: 1.0,
+                base_translation: [10.0, 4.0, -12.0],
+            },
+            FaunaLoopActor {
+                id: "inst-2".into(),
+                locomotion_class: LocomotionClass::Avian,
+                seed: 202,
+                site_vigor: 1.1,
+                base_translation: [18.0, 9.5, -6.0],
+            },
+        ];
+        let steps = live.step_biosphere_fauna(&actors, false);
+        assert_eq!(steps.len(), 2);
+        let wind = live.sample_flora_wind(
+            42,
+            [12.0, -8.0],
+            &FloraWindConfig {
+                natural_freq_hz: 0.66,
+                crown_height_m: 20.0,
+                wind_stress: 0.25,
+            },
+            false,
+        );
+        assert!(wind.iter().all(|v| v.is_finite()));
+        let reduced_wind = live.sample_flora_wind(
+            42,
+            [12.0, -8.0],
+            &FloraWindConfig {
+                natural_freq_hz: 0.66,
+                crown_height_m: 20.0,
+                wind_stress: 0.25,
+            },
+            true,
+        );
+        assert_eq!(reduced_wind, [0.0, 0.0, 0.0]);
     }
 }

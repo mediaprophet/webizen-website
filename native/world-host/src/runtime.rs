@@ -1,6 +1,7 @@
 mod admission;
 mod boot;
 mod catalog;
+pub mod character;
 mod frame_telemetry;
 mod graphics;
 mod gis_ingest;
@@ -17,6 +18,7 @@ mod scene_q42;
 mod stream;
 mod textures;
 mod ui;
+pub mod vehicle;
 mod consent;
 use crate::{
     graph,

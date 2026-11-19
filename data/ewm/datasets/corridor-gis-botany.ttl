@@ -1,0 +1,871 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix ewm: <https://webizen.org/ns/ewm#> .
+@prefix cor: <https://webizen.org/data/ewm/corridor/> .
+
+cor:talbingo-tumut-corridor a ewm:GeospatialCorridor ;
+    rdfs:label "Talbingo-Tumut Montane Forest-to-Town-Outskirts Corridor" ;
+    ewm:crs "EPSG:7844 (GDA2020) / EPSG:4326 (WGS84)" ;
+    ewm:roadFeatureCount "80"^^xsd:integer ;
+    ewm:hydroFeatureCount "80"^^xsd:integer .
+
+cor:road-1 a ewm:RoadSegment ;
+    rdfs:label "SNOWY MOUNTAINS HIGHWAY" ;
+    ewm:surfaceClass "1" ;
+    ewm:startLon "148.392599"^^xsd:double ;
+    ewm:startLat "-35.659868"^^xsd:double ;
+    ewm:endLon "148.390132"^^xsd:double ;
+    ewm:endLat "-35.628560"^^xsd:double ;
+    ewm:vertexCount "190"^^xsd:integer .
+
+cor:road-2 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.224106"^^xsd:double ;
+    ewm:startLat "-35.565208"^^xsd:double ;
+    ewm:endLon "148.223772"^^xsd:double ;
+    ewm:endLat "-35.558295"^^xsd:double ;
+    ewm:vertexCount "17"^^xsd:integer .
+
+cor:road-3 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.223772"^^xsd:double ;
+    ewm:startLat "-35.558295"^^xsd:double ;
+    ewm:endLon "148.226534"^^xsd:double ;
+    ewm:endLat "-35.550164"^^xsd:double ;
+    ewm:vertexCount "22"^^xsd:integer .
+
+cor:road-4 a ewm:RoadSegment ;
+    rdfs:label "FORESHORE ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.237288"^^xsd:double ;
+    ewm:startLat "-35.560469"^^xsd:double ;
+    ewm:endLon "148.235167"^^xsd:double ;
+    ewm:endLat "-35.543483"^^xsd:double ;
+    ewm:vertexCount "55"^^xsd:integer .
+
+cor:road-5 a ewm:RoadSegment ;
+    rdfs:label "FORESHORE ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.227308"^^xsd:double ;
+    ewm:startLat "-35.550437"^^xsd:double ;
+    ewm:endLon "148.226534"^^xsd:double ;
+    ewm:endLat "-35.550164"^^xsd:double ;
+    ewm:vertexCount "8"^^xsd:integer .
+
+cor:road-6 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.226534"^^xsd:double ;
+    ewm:startLat "-35.550164"^^xsd:double ;
+    ewm:endLon "148.227034"^^xsd:double ;
+    ewm:endLat "-35.549505"^^xsd:double ;
+    ewm:vertexCount "2"^^xsd:integer .
+
+cor:road-7 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.227034"^^xsd:double ;
+    ewm:startLat "-35.549505"^^xsd:double ;
+    ewm:endLon "148.227991"^^xsd:double ;
+    ewm:endLat "-35.547789"^^xsd:double ;
+    ewm:vertexCount "6"^^xsd:integer .
+
+cor:road-8 a ewm:RoadSegment ;
+    rdfs:label "FORESHORE ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.235167"^^xsd:double ;
+    ewm:startLat "-35.543483"^^xsd:double ;
+    ewm:endLon "148.227308"^^xsd:double ;
+    ewm:endLat "-35.550437"^^xsd:double ;
+    ewm:vertexCount "32"^^xsd:integer .
+
+cor:road-9 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.232220"^^xsd:double ;
+    ewm:startLat "-35.532575"^^xsd:double ;
+    ewm:endLon "148.230565"^^xsd:double ;
+    ewm:endLat "-35.527930"^^xsd:double ;
+    ewm:vertexCount "12"^^xsd:integer .
+
+cor:road-10 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.230565"^^xsd:double ;
+    ewm:startLat "-35.527930"^^xsd:double ;
+    ewm:endLon "148.230071"^^xsd:double ;
+    ewm:endLat "-35.523824"^^xsd:double ;
+    ewm:vertexCount "16"^^xsd:integer .
+
+cor:road-11 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.230071"^^xsd:double ;
+    ewm:startLat "-35.523824"^^xsd:double ;
+    ewm:endLon "148.230079"^^xsd:double ;
+    ewm:endLat "-35.523767"^^xsd:double ;
+    ewm:vertexCount "2"^^xsd:integer .
+
+cor:road-12 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.230079"^^xsd:double ;
+    ewm:startLat "-35.523767"^^xsd:double ;
+    ewm:endLon "148.235047"^^xsd:double ;
+    ewm:endLat "-35.517704"^^xsd:double ;
+    ewm:vertexCount "58"^^xsd:integer .
+
+cor:road-13 a ewm:RoadSegment ;
+    rdfs:label "YELLOWIN ACCESS ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.236191"^^xsd:double ;
+    ewm:startLat "-35.583848"^^xsd:double ;
+    ewm:endLon "148.238960"^^xsd:double ;
+    ewm:endLat "-35.585621"^^xsd:double ;
+    ewm:vertexCount "7"^^xsd:integer .
+
+cor:road-14 a ewm:RoadSegment ;
+    rdfs:label "YELLOWIN ACCESS ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.233668"^^xsd:double ;
+    ewm:startLat "-35.584736"^^xsd:double ;
+    ewm:endLon "148.225520"^^xsd:double ;
+    ewm:endLat "-35.581884"^^xsd:double ;
+    ewm:vertexCount "78"^^xsd:integer .
+
+cor:road-15 a ewm:RoadSegment ;
+    rdfs:label "YELLOWIN ACCESS ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.212482"^^xsd:double ;
+    ewm:startLat "-35.579277"^^xsd:double ;
+    ewm:endLon "148.225520"^^xsd:double ;
+    ewm:endLat "-35.581884"^^xsd:double ;
+    ewm:vertexCount "69"^^xsd:integer .
+
+cor:road-16 a ewm:RoadSegment ;
+    rdfs:label "YELLOWIN ACCESS ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.212482"^^xsd:double ;
+    ewm:startLat "-35.579277"^^xsd:double ;
+    ewm:endLon "148.191121"^^xsd:double ;
+    ewm:endLat "-35.568499"^^xsd:double ;
+    ewm:vertexCount "110"^^xsd:integer .
+
+cor:road-17 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.228342"^^xsd:double ;
+    ewm:startLat "-35.575164"^^xsd:double ;
+    ewm:endLon "148.228890"^^xsd:double ;
+    ewm:endLat "-35.575963"^^xsd:double ;
+    ewm:vertexCount "4"^^xsd:integer .
+
+cor:road-18 a ewm:RoadSegment ;
+    rdfs:label "BLOWERING CAMP ROAD" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.224106"^^xsd:double ;
+    ewm:startLat "-35.565208"^^xsd:double ;
+    ewm:endLon "148.228342"^^xsd:double ;
+    ewm:endLat "-35.575164"^^xsd:double ;
+    ewm:vertexCount "29"^^xsd:integer .
+
+cor:road-19 a ewm:RoadSegment ;
+    rdfs:label "Forestry Track" ;
+    ewm:surfaceClass "1" ;
+    ewm:startLon "148.288707"^^xsd:double ;
+    ewm:startLat "-35.608706"^^xsd:double ;
+    ewm:endLon "148.290109"^^xsd:double ;
+    ewm:endLat "-35.609600"^^xsd:double ;
+    ewm:vertexCount "3"^^xsd:integer .
+
+cor:road-20 a ewm:RoadSegment ;
+    rdfs:label "MILES FRANKLIN DRIVE" ;
+    ewm:surfaceClass "1" ;
+    ewm:startLon "148.282099"^^xsd:double ;
+    ewm:startLat "-35.597123"^^xsd:double ;
+    ewm:endLon "148.286363"^^xsd:double ;
+    ewm:endLat "-35.607103"^^xsd:double ;
+    ewm:vertexCount "18"^^xsd:integer .
+
+cor:road-21 a ewm:RoadSegment ;
+    rdfs:label "Forestry Track" ;
+    ewm:surfaceClass "2" ;
+    ewm:startLon "148.287983"^^xsd:double ;
+    ewm:startLat "-35.596462"^^xsd:double ;
+    ewm:endLon "148.282940"^^xsd:double ;
+    ewm:endLat "-35.599657"^^xsd:double ;
+    ewm:vertexCount "33"^^xsd:integer .
+
+cor:road-22 a ewm:RoadSegment ;
+    rdfs:label "MILES FRANKLIN DRIVE" ;
+    ewm:surfaceClass "1" ;
+    ewm:startLon "148.282403"^^xsd:double ;
+    ewm:startLat "-35.596459"^^xsd:double ;
+    ewm:endLon "148.282099"^^xsd:double ;
+    ewm:endLat "-35.597123"^^xsd:double ;
+    ewm:vertexCount "2"^^xsd:integer .
+
+cor:road-23 a ewm:RoadSegment ;
+    rdfs:label "Forestry Track" ;
+    ewm:surfaceClass "1" ;
+    ewm:startLon "148.283539"^^xsd:double ;
+    ewm:startLat "-35.595255"^^xsd:double ;
+    ewm:endLon "148.287983"^^xsd:double ;
+    ewm:endLat "-35.596462"^^xsd:double ;
+    ewm:vertexCount "22"^^xsd:integer .
+
+cor:road-24 a ewm:RoadSegment ;
+    rdfs:label "MILES FRANKLIN DRIVE" ;
+    ewm:surfaceClass "1" ;
+    ewm:startLon "148.282403"^^xsd:double ;
+    ewm:startLat "-35.596459"^^xsd:double ;
+    ewm:endLon "148.285274"^^xsd:double ;
+    ewm:endLat "-35.586982"^^xsd:double ;
+    ewm:vertexCount "29"^^xsd:integer .
+
+cor:hydro-1 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 1" ;
+    ewm:startLon "148.246201"^^xsd:double ;
+    ewm:startLat "-35.560247"^^xsd:double ;
+    ewm:endLon "148.238415"^^xsd:double ;
+    ewm:endLat "-35.558480"^^xsd:double ;
+    ewm:vertexCount "17"^^xsd:integer .
+
+cor:hydro-2 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 2" ;
+    ewm:startLon "148.247929"^^xsd:double ;
+    ewm:startLat "-35.564799"^^xsd:double ;
+    ewm:endLon "148.244123"^^xsd:double ;
+    ewm:endLat "-35.565152"^^xsd:double ;
+    ewm:vertexCount "6"^^xsd:integer .
+
+cor:hydro-3 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 3" ;
+    ewm:startLon "148.249866"^^xsd:double ;
+    ewm:startLat "-35.623935"^^xsd:double ;
+    ewm:endLon "148.252921"^^xsd:double ;
+    ewm:endLat "-35.616296"^^xsd:double ;
+    ewm:vertexCount "29"^^xsd:integer .
+
+cor:hydro-4 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 4" ;
+    ewm:startLon "148.214329"^^xsd:double ;
+    ewm:startLat "-35.623445"^^xsd:double ;
+    ewm:endLon "148.213780"^^xsd:double ;
+    ewm:endLat "-35.621191"^^xsd:double ;
+    ewm:vertexCount "7"^^xsd:integer .
+
+cor:hydro-5 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 5" ;
+    ewm:startLon "148.210050"^^xsd:double ;
+    ewm:startLat "-35.623153"^^xsd:double ;
+    ewm:endLon "148.212086"^^xsd:double ;
+    ewm:endLat "-35.621044"^^xsd:double ;
+    ewm:vertexCount "10"^^xsd:integer .
+
+cor:hydro-6 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 6" ;
+    ewm:startLon "148.208083"^^xsd:double ;
+    ewm:startLat "-35.623230"^^xsd:double ;
+    ewm:endLon "148.205845"^^xsd:double ;
+    ewm:endLat "-35.620738"^^xsd:double ;
+    ewm:vertexCount "8"^^xsd:integer .
+
+cor:hydro-7 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 7" ;
+    ewm:startLon "148.233222"^^xsd:double ;
+    ewm:startLat "-35.622674"^^xsd:double ;
+    ewm:endLon "148.243089"^^xsd:double ;
+    ewm:endLat "-35.622986"^^xsd:double ;
+    ewm:vertexCount "19"^^xsd:integer .
+
+cor:hydro-8 a ewm:HydrologyReach ;
+    rdfs:label "POISON ROCK" ;
+    ewm:startLon "148.243089"^^xsd:double ;
+    ewm:startLat "-35.622986"^^xsd:double ;
+    ewm:endLon "148.245036"^^xsd:double ;
+    ewm:endLat "-35.621284"^^xsd:double ;
+    ewm:vertexCount "10"^^xsd:integer .
+
+cor:hydro-9 a ewm:HydrologyReach ;
+    rdfs:label "YELLOWIN" ;
+    ewm:startLon "148.203493"^^xsd:double ;
+    ewm:startLat "-35.622816"^^xsd:double ;
+    ewm:endLon "148.205845"^^xsd:double ;
+    ewm:endLat "-35.620738"^^xsd:double ;
+    ewm:vertexCount "10"^^xsd:integer .
+
+cor:hydro-10 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 10" ;
+    ewm:startLon "148.247855"^^xsd:double ;
+    ewm:startLat "-35.622496"^^xsd:double ;
+    ewm:endLon "148.249859"^^xsd:double ;
+    ewm:endLat "-35.615264"^^xsd:double ;
+    ewm:vertexCount "21"^^xsd:integer .
+
+cor:hydro-11 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 11" ;
+    ewm:startLon "148.216470"^^xsd:double ;
+    ewm:startLat "-35.622223"^^xsd:double ;
+    ewm:endLon "148.213780"^^xsd:double ;
+    ewm:endLat "-35.621191"^^xsd:double ;
+    ewm:vertexCount "8"^^xsd:integer .
+
+cor:hydro-12 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 12" ;
+    ewm:startLon "148.221992"^^xsd:double ;
+    ewm:startLat "-35.622018"^^xsd:double ;
+    ewm:endLon "148.222503"^^xsd:double ;
+    ewm:endLat "-35.620380"^^xsd:double ;
+    ewm:vertexCount "7"^^xsd:integer .
+
+cor:hydro-13 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 13" ;
+    ewm:startLon "148.199367"^^xsd:double ;
+    ewm:startLat "-35.621755"^^xsd:double ;
+    ewm:endLon "148.202322"^^xsd:double ;
+    ewm:endLat "-35.617513"^^xsd:double ;
+    ewm:vertexCount "15"^^xsd:integer .
+
+cor:hydro-14 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 14" ;
+    ewm:startLon "148.225561"^^xsd:double ;
+    ewm:startLat "-35.621306"^^xsd:double ;
+    ewm:endLon "148.224595"^^xsd:double ;
+    ewm:endLat "-35.617626"^^xsd:double ;
+    ewm:vertexCount "13"^^xsd:integer .
+
+cor:hydro-15 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 15" ;
+    ewm:startLon "148.213780"^^xsd:double ;
+    ewm:startLat "-35.621191"^^xsd:double ;
+    ewm:endLon "148.213076"^^xsd:double ;
+    ewm:endLat "-35.619419"^^xsd:double ;
+    ewm:vertexCount "8"^^xsd:integer .
+
+cor:hydro-16 a ewm:HydrologyReach ;
+    rdfs:label "POISON ROCK" ;
+    ewm:startLon "148.245036"^^xsd:double ;
+    ewm:startLat "-35.621284"^^xsd:double ;
+    ewm:endLon "148.249859"^^xsd:double ;
+    ewm:endLat "-35.615264"^^xsd:double ;
+    ewm:vertexCount "26"^^xsd:integer .
+
+cor:hydro-17 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 17" ;
+    ewm:startLon "148.220903"^^xsd:double ;
+    ewm:startLat "-35.621104"^^xsd:double ;
+    ewm:endLon "148.222503"^^xsd:double ;
+    ewm:endLat "-35.620380"^^xsd:double ;
+    ewm:vertexCount "4"^^xsd:integer .
+
+cor:hydro-18 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 18" ;
+    ewm:startLon "148.212086"^^xsd:double ;
+    ewm:startLat "-35.621044"^^xsd:double ;
+    ewm:endLon "148.213076"^^xsd:double ;
+    ewm:endLat "-35.619419"^^xsd:double ;
+    ewm:vertexCount "5"^^xsd:integer .
+
+cor:hydro-19 a ewm:HydrologyReach ;
+    rdfs:label "Montane Creek Reach 19" ;
+    ewm:startLon "148.237617"^^xsd:double ;
+    ewm:startLat "-35.620908"^^xsd:double ;
+    ewm:endLon "148.240721"^^xsd:double ;
+    ewm:endLat "-35.618573"^^xsd:double ;
+    ewm:vertexCount "9"^^xsd:integer .
+
+cor:hydro-20 a ewm:HydrologyReach ;
+    rdfs:label "YELLOWIN" ;
+    ewm:startLon "148.205845"^^xsd:double ;
+    ewm:startLat "-35.620738"^^xsd:double ;
+    ewm:endLon "148.207107"^^xsd:double ;
+    ewm:endLat "-35.617446"^^xsd:double ;
+    ewm:vertexCount "12"^^xsd:integer .
+
+cor:taxon-eucalyptus-pauciflora a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Eucalyptus pauciflora" ;
+    dwc:vernacularName "Snow Gum" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "canopy" ;
+    ewm:corridorOccurrenceCount "13"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "2533"^^xsd:integer ;
+    ewm:speciesSlug "eucalyptus-pauciflora" .
+
+cor:taxon-eucalyptus-delegatensis a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Eucalyptus delegatensis" ;
+    dwc:vernacularName "Alpine Ash" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "canopy" ;
+    ewm:corridorOccurrenceCount "2"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "105"^^xsd:integer ;
+    ewm:speciesSlug "eucalyptus-delegatensis" .
+
+cor:taxon-eucalyptus-viminalis a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Eucalyptus viminalis" ;
+    dwc:vernacularName "Ribbon Gum" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "canopy" ;
+    ewm:corridorOccurrenceCount "18"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "1196"^^xsd:integer ;
+    ewm:speciesSlug "eucalyptus-viminalis" .
+
+cor:taxon-eucalyptus-blakelyi a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Eucalyptus blakelyi" ;
+    dwc:vernacularName "Blakely's Red Gum" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "canopy" ;
+    ewm:corridorOccurrenceCount "0"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "2595"^^xsd:integer ;
+    ewm:speciesSlug "eucalyptus-blakelyi" .
+
+cor:taxon-banksia-marginata a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Banksia marginata" ;
+    dwc:vernacularName "Silver Banksia" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "shrub" ;
+    ewm:corridorOccurrenceCount "4"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "390"^^xsd:integer ;
+    ewm:speciesSlug "banksia-marginata" .
+
+cor:taxon-acacia-dealbata a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Acacia dealbata" ;
+    dwc:vernacularName "Silver Wattle" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "subcanopy" ;
+    ewm:corridorOccurrenceCount "27"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "1902"^^xsd:integer ;
+    ewm:speciesSlug "acacia-dealbata" .
+
+cor:taxon-dicksonia-antarctica a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Dicksonia antarctica" ;
+    dwc:vernacularName "Soft Tree Fern" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "understorey" ;
+    ewm:corridorOccurrenceCount "0"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "130"^^xsd:integer ;
+    ewm:speciesSlug "dicksonia-antarctica" .
+
+cor:taxon-poa-sieberiana a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Poa sieberiana" ;
+    dwc:vernacularName "Snowgrass Tussock" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "grass" ;
+    ewm:corridorOccurrenceCount "11"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "2246"^^xsd:integer ;
+    ewm:speciesSlug "poa-sieberiana" .
+
+cor:taxon-themeda-triandra a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Themeda triandra" ;
+    dwc:vernacularName "Kangaroo Grass" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "grass" ;
+    ewm:corridorOccurrenceCount "27"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "4026"^^xsd:integer ;
+    ewm:speciesSlug "themeda-triandra" .
+
+cor:taxon-lomandra-longifolia a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Lomandra longifolia" ;
+    dwc:vernacularName "Spiny-headed Mat-rush" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "grass" ;
+    ewm:corridorOccurrenceCount "23"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "2004"^^xsd:integer ;
+    ewm:speciesSlug "lomandra-longifolia" .
+
+cor:taxon-bursaria-spinosa a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Bursaria spinosa" ;
+    dwc:vernacularName "Sweet Bursaria" ;
+    dwc:kingdom "Plantae" ;
+    ewm:ecologicalStratum "shrub" ;
+    ewm:corridorOccurrenceCount "4"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "1130"^^xsd:integer ;
+    ewm:speciesSlug "bursaria-spinosa" .
+
+cor:taxon-macropus-giganteus a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Macropus giganteus" ;
+    dwc:vernacularName "Eastern Grey Kangaroo" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalStratum "fauna" ;
+    ewm:corridorOccurrenceCount "366"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "14926"^^xsd:integer ;
+    ewm:speciesSlug "macropus-giganteus" .
+
+cor:taxon-wallabia-bicolor a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Wallabia bicolor" ;
+    dwc:vernacularName "Swamp Wallaby" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalStratum "fauna" ;
+    ewm:corridorOccurrenceCount "84"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "24658"^^xsd:integer ;
+    dwc:decimalLatitude "-35.542789"^^xsd:double ;
+    dwc:decimalLongitude "148.299680"^^xsd:double ;
+    ewm:speciesSlug "wallabia-bicolor" .
+
+cor:taxon-phascolarctos-cinereus a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Phascolarctos cinereus" ;
+    dwc:vernacularName "Koala" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalStratum "fauna" ;
+    ewm:corridorOccurrenceCount "1"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "2388"^^xsd:integer ;
+    ewm:speciesSlug "phascolarctos-cinereus" .
+
+cor:taxon-vombatus-ursinus a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Vombatus ursinus" ;
+    dwc:vernacularName "Common Wombat" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalStratum "fauna" ;
+    ewm:corridorOccurrenceCount "100"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "8440"^^xsd:integer ;
+    ewm:speciesSlug "vombatus-ursinus" .
+
+cor:taxon-ornithorhynchus-anatinus a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Ornithorhynchus anatinus" ;
+    dwc:vernacularName "Platypus" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalStratum "fauna" ;
+    ewm:corridorOccurrenceCount "13"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "2212"^^xsd:integer ;
+    ewm:speciesSlug "ornithorhynchus-anatinus" .
+
+cor:taxon-dacelo-novaeguineae a ewm:TaxonOccurrenceProfile ;
+    dwc:scientificName "Dacelo novaeguineae" ;
+    dwc:vernacularName "Laughing Kookaburra" ;
+    dwc:kingdom "Animalia" ;
+    ewm:ecologicalStratum "fauna" ;
+    ewm:corridorOccurrenceCount "0"^^xsd:integer ;
+    ewm:regionalOccurrenceCount "0"^^xsd:integer ;
+    ewm:speciesSlug "dacelo-novaeguineae" .
+
+cor:tile-0-0 a ewm:CorridorTileDescriptor ;
+    ewm:tileX "0"^^xsd:integer ;
+    ewm:tileY "0"^^xsd:integer ;
+    ewm:corridorZone "ForestCampsite" ;
+    ewm:meanElevationM "442.0"^^xsd:double ;
+    ewm:meanSlopeDeg "6.5"^^xsd:double ;
+    ewm:roadCentrelineDistanceM "18.0"^^xsd:double ;
+    ewm:dominantPct "pct-3376" ;
+    rdfs:comment "Forest Campsite clearing beside Jounama Creek timber track" .
+
+cor:tile-0-1 a ewm:CorridorTileDescriptor ;
+    ewm:tileX "0"^^xsd:integer ;
+    ewm:tileY "1"^^xsd:integer ;
+    ewm:corridorZone "RiparianCreek" ;
+    ewm:meanElevationM "418.0"^^xsd:double ;
+    ewm:meanSlopeDeg "11.0"^^xsd:double ;
+    ewm:roadCentrelineDistanceM "32.0"^^xsd:double ;
+    ewm:dominantPct "pct-3355" ;
+    rdfs:comment "Jounama Creek riparian gully with Soft Tree Fern and Ribbon Gum" .
+
+cor:tile-1-0 a ewm:CorridorTileDescriptor ;
+    ewm:tileX "1"^^xsd:integer ;
+    ewm:tileY "0"^^xsd:integer ;
+    ewm:corridorZone "RoadCorridor" ;
+    ewm:meanElevationM "435.0"^^xsd:double ;
+    ewm:meanSlopeDeg "8.0"^^xsd:double ;
+    ewm:roadCentrelineDistanceM "4.0"^^xsd:double ;
+    ewm:dominantPct "pct-3376" ;
+    rdfs:comment "Dirt forestry track transitioning to sealed Snowy Mountains country road" .
+
+cor:tile-1-1 a ewm:CorridorTileDescriptor ;
+    ewm:tileX "1"^^xsd:integer ;
+    ewm:tileY "1"^^xsd:integer ;
+    ewm:corridorZone "MontaneSlope" ;
+    ewm:meanElevationM "488.0"^^xsd:double ;
+    ewm:meanSlopeDeg "22.5"^^xsd:double ;
+    ewm:roadCentrelineDistanceM "45.0"^^xsd:double ;
+    ewm:dominantPct "pct-3391" ;
+    rdfs:comment "Steep montane Snow Gum and Silver Wattle slope requiring slope-conforming roots" .
+
+cor:tile-2-0 a ewm:CorridorTileDescriptor ;
+    ewm:tileX "2"^^xsd:integer ;
+    ewm:tileY "0"^^xsd:integer ;
+    ewm:corridorZone "RoadCorridor" ;
+    ewm:meanElevationM "412.0"^^xsd:double ;
+    ewm:meanSlopeDeg "5.5"^^xsd:double ;
+    ewm:roadCentrelineDistanceM "3.5"^^xsd:double ;
+    ewm:dominantPct "pct-3373" ;
+    rdfs:comment "Country bitumen road approach with roadside Poa and Themeda verges" .
+
+cor:tile-3-0 a ewm:CorridorTileDescriptor ;
+    ewm:tileX "3"^^xsd:integer ;
+    ewm:tileY "0"^^xsd:integer ;
+    ewm:corridorZone "TownOutskirtsCommunityGrounds" ;
+    ewm:meanElevationM "396.0"^^xsd:double ;
+    ewm:meanSlopeDeg "2.0"^^xsd:double ;
+    ewm:roadCentrelineDistanceM "2.5"^^xsd:double ;
+    ewm:dominantPct "pct-3373" ;
+    rdfs:comment "Talbingo Town-Outskirts Community Grounds: cleared oval paddock, gravel loop, shelter pad, Blakely's Red Gum perimeter" .
+
+cor:act-road-1 a ewm:ActRoadSegment ;
+    rdfs:label "UNNAMED" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 3" ;
+    ewm:divisionName "WESTON" ;
+    ewm:startLon "149.054065"^^xsd:double ;
+    ewm:startLat "-35.335705"^^xsd:double ;
+    ewm:endLon "149.053108"^^xsd:double ;
+    ewm:endLat "-35.336104"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-2 a ewm:ActRoadSegment ;
+    rdfs:label "NANGOR STREET" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 2" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.061272"^^xsd:double ;
+    ewm:startLat "-35.356370"^^xsd:double ;
+    ewm:endLon "149.065634"^^xsd:double ;
+    ewm:endLat "-35.357624"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-3 a ewm:ActRoadSegment ;
+    rdfs:label "LIARDET STREET" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 2" ;
+    ewm:divisionName "WESTON" ;
+    ewm:startLon "149.051266"^^xsd:double ;
+    ewm:startLat "-35.340608"^^xsd:double ;
+    ewm:endLon "149.050941"^^xsd:double ;
+    ewm:endLat "-35.341173"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-4 a ewm:ActRoadSegment ;
+    rdfs:label "MACLEOD COURT" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 3" ;
+    ewm:divisionName "WESTON" ;
+    ewm:startLon "149.051266"^^xsd:double ;
+    ewm:startLat "-35.340608"^^xsd:double ;
+    ewm:endLon "149.051898"^^xsd:double ;
+    ewm:endLat "-35.340608"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-5 a ewm:ActRoadSegment ;
+    rdfs:label "NANGOR STREET" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 2" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.066331"^^xsd:double ;
+    ewm:startLat "-35.357370"^^xsd:double ;
+    ewm:endLon "149.066485"^^xsd:double ;
+    ewm:endLat "-35.356734"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-6 a ewm:ActRoadSegment ;
+    rdfs:label "NANGOR STREET" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 2" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.065634"^^xsd:double ;
+    ewm:startLat "-35.357624"^^xsd:double ;
+    ewm:endLon "149.066331"^^xsd:double ;
+    ewm:endLat "-35.357370"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-7 a ewm:ActRoadSegment ;
+    rdfs:label "IORA PLACE" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 3" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.066331"^^xsd:double ;
+    ewm:startLat "-35.357370"^^xsd:double ;
+    ewm:endLon "149.067091"^^xsd:double ;
+    ewm:endLat "-35.357660"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-8 a ewm:ActRoadSegment ;
+    rdfs:label "BOLALI PLACE" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 3" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.065634"^^xsd:double ;
+    ewm:startLat "-35.357624"^^xsd:double ;
+    ewm:endLon "149.066480"^^xsd:double ;
+    ewm:endLat "-35.358239"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-9 a ewm:ActRoadSegment ;
+    rdfs:label "WARAMANGA PLACE" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 3" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.059997"^^xsd:double ;
+    ewm:startLat "-35.352502"^^xsd:double ;
+    ewm:endLon "149.059482"^^xsd:double ;
+    ewm:endLat "-35.353044"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-road-10 a ewm:ActRoadSegment ;
+    rdfs:label "WARAMANGA PLACE" ;
+    ewm:roadHierarchy "URBAN RESIDENTIAL 3" ;
+    ewm:divisionName "WARAMANGA" ;
+    ewm:startLon "149.059628"^^xsd:double ;
+    ewm:startLat "-35.352286"^^xsd:double ;
+    ewm:endLon "149.059093"^^xsd:double ;
+    ewm:endLat "-35.352545"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-road-centrelines-canberra> .
+
+cor:act-hydro-1 a ewm:ActHydrologyReach ;
+    rdfs:label "DEEP CREEK" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.043757"^^xsd:double ;
+    ewm:startLat "-35.258351"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-2 a ewm:ActHydrologyReach ;
+    rdfs:label "ACT Creek Reach 2" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.052670"^^xsd:double ;
+    ewm:startLat "-35.302072"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-3 a ewm:ActHydrologyReach ;
+    rdfs:label "ACT Creek Reach 3" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.053791"^^xsd:double ;
+    ewm:startLat "-35.300604"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-4 a ewm:ActHydrologyReach ;
+    rdfs:label "ACT Creek Reach 4" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.060676"^^xsd:double ;
+    ewm:startLat "-35.291444"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-5 a ewm:ActHydrologyReach ;
+    rdfs:label "ACT Creek Reach 5" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.053099"^^xsd:double ;
+    ewm:startLat "-35.289591"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-6 a ewm:ActHydrologyReach ;
+    rdfs:label "COPPINS CREEK" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.040661"^^xsd:double ;
+    ewm:startLat "-35.287018"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-7 a ewm:ActHydrologyReach ;
+    rdfs:label "ACT Creek Reach 7" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.055915"^^xsd:double ;
+    ewm:startLat "-35.296082"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-hydro-8 a ewm:ActHydrologyReach ;
+    rdfs:label "ACT Creek Reach 8" ;
+    ewm:waterBodyType "CREEK" ;
+    ewm:startLon "149.051244"^^xsd:double ;
+    ewm:startLat "-35.283151"^^xsd:double ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-water-body-line-canberra> .
+
+cor:act-veg-1 a ewm:ActVegetationCommunity ;
+    rdfs:label "Urban Open Space_UOS" ;
+    ewm:umcId "UOS" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-2 a ewm:ActVegetationCommunity ;
+    rdfs:label "Natural Temperate Grassland_NTG" ;
+    ewm:umcId "NTG" ;
+    ewm:tecActStatus "Natural Temperate Grassland" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-3 a ewm:ActVegetationCommunity ;
+    rdfs:label "Urban and developed areas_URB" ;
+    ewm:umcId "URB" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-4 a ewm:ActVegetationCommunity ;
+    rdfs:label "Blakely’s Red Gum – Yellow Box tall grassy woodland_u19" ;
+    ewm:umcId "u19" ;
+    ewm:tecActStatus "Potential Yellow Box - Blakely's Red Gum Grassy Woodland" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-5 a ewm:ActVegetationCommunity ;
+    rdfs:label "Native grassland_NG (Secondary)" ;
+    ewm:umcId "NG" ;
+    ewm:tecActStatus "Potential Yellow Box - Blakely's Red Gum Grassy Woodland" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-6 a ewm:ActVegetationCommunity ;
+    rdfs:label "Apple Box – Broad-leaved Peppermint tall shrub-grass open forest primarily on granitoids_u29" ;
+    ewm:umcId "u29" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-7 a ewm:ActVegetationCommunity ;
+    rdfs:label "Exotic forest_EXF" ;
+    ewm:umcId "EXF" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-8 a ewm:ActVegetationCommunity ;
+    rdfs:label "Red Box tall grass-shrub woodlands primarily on hillslopes and footslopes in the Australian Capital Territory_q6" ;
+    ewm:umcId "q6" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-9 a ewm:ActVegetationCommunity ;
+    rdfs:label "Mealy Bundy – Red Stringybark grass-forb mid-high open forest_u66" ;
+    ewm:umcId "u66" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-veg-10 a ewm:ActVegetationCommunity ;
+    rdfs:label "Environmental planting native_EPN" ;
+    ewm:umcId "EPN" ;
+    ewm:tecActStatus "None" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/actmapi-vegetation-map-2026-canberra> .
+
+cor:act-tree-1 a ewm:ActTreeAsset ;
+    dwc:scientificName "Eucalyptus sp." ;
+    ewm:divisionName "BONNER" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-2 a ewm:ActTreeAsset ;
+    dwc:scientificName "Celtis australis" ;
+    ewm:divisionName "WATSON" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-3 a ewm:ActTreeAsset ;
+    dwc:scientificName "Eucalyptus mannifera" ;
+    ewm:divisionName "KAMBAH" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-4 a ewm:ActTreeAsset ;
+    dwc:scientificName "Eucalyptus sp." ;
+    ewm:divisionName "DUFFY" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-5 a ewm:ActTreeAsset ;
+    dwc:scientificName "Pinus radiata" ;
+    ewm:divisionName "COOMBS" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-6 a ewm:ActTreeAsset ;
+    dwc:scientificName "Unknown sp." ;
+    ewm:divisionName "FLOREY" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-7 a ewm:ActTreeAsset ;
+    dwc:scientificName "Casuarina cunninghamiana subsp. Cunninghamiana" ;
+    ewm:divisionName "NGUNNAWAL" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-8 a ewm:ActTreeAsset ;
+    dwc:scientificName "Populus nigra 'Italica'" ;
+    ewm:divisionName "PHILLIP" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-9 a ewm:ActTreeAsset ;
+    dwc:scientificName "Eucalyptus mannifera" ;
+    ewm:divisionName "CANBERRA CENTRAL (RURAL DISTRICT)" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+
+cor:act-tree-10 a ewm:ActTreeAsset ;
+    dwc:scientificName "Eucalyptus mannifera" ;
+    ewm:divisionName "BRUCE" ;
+    dcterms:source <https://webizen.org/data/ewm/datasets/data-act-tree-assets> .
+

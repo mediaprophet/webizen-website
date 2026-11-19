@@ -1,0 +1,311 @@
+{
+  "schema": "webizen.ewm-bioregions-se-au/v1",
+  "title": "South-Eastern Australian Bioregion DEM Tile Envelopes & Species Ranges",
+  "epistemic_class": "regional-reference-metadata",
+  "not_personal_campsite": true,
+  "crs": "EPSG:4326",
+  "datum": "WGS84",
+  "vertical_datum": "EPSG:5711 (AHD)",
+  "consent_governance": {
+    "opt_in": false,
+    "public_boot_calls_live_adapters": false,
+    "streaming_default": false,
+    "job_is_explicit_action_only": true,
+    "gbif_live_parse": "deferred",
+    "timeline_json": "never",
+    "note": "Regional tile envelopes are static reference descriptors. Any live DEM acquisition uses consent-gated native/data-pack-builder (data-pack.exe dem) with NetworkDisclosureRegistry."
+  },
+  "native_dem_proof": {
+    "builder_dir": "native/data-pack-builder",
+    "binaries": [
+      "native/data-pack-builder/data-pack.exe",
+      "native/data-pack-builder/terrain-admit.exe"
+    ],
+    "reference_place_id": "canberra-public-reference",
+    "reference_place_manifest": "data/ewm/gis/places/canberra-public-reference.json",
+    "ingest_job_manifest": "data/ewm/gis/ingest/job.json",
+    "publication_manifest": "data/publications/aaa/terrain-model-v2/model-manifest.json",
+    "reference_bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+    "dem_zoom": 13,
+    "terrarium_tiles": ["z13/x7487/y4954", "z13/x7488/y4954", "z13/x7487/y4955", "z13/x7488/y4955"],
+    "elevation_range_m": [541.0, 677.0],
+    "mesh_vertices": 16992,
+    "mesh_triangles": 33462,
+    "adapter": "qualia_core_db::domains::geospatial::adapters::dem_adapter::DemAdapter",
+    "mesh_generator": "qualia_core_db::domains::geospatial::dem::generate_terrain_mesh"
+  },
+  "authored_catchment_bridge": {
+    "manifest": "production/terrain-v2/terrain-manifest.json",
+    "span_m": [600.0, 600.0],
+    "bounds_xz_m": [-300.0, 300.0],
+    "elevation_range_m": [-1.54, 59.35],
+    "m64_container": "production/terrain-v2/catchment-600m.m64",
+    "m64_origin_lat_lon": [-35.30, 149.06],
+    "epistemic_class": "authored-artwork",
+    "note": "Synthesizes the five SE Australian geomorphic habitat zones (meandering creek, terraced alluvial floodplain, wet-sclerophyll gully, Box-Gum woodland slopes, sandstone/granite coastal headland & ridge) inside one walkable 600 m x 600 m catchment."
+  },
+  "bioregions": [
+    {
+      "id": "northern-rivers-coastal",
+      "title": "Northern Rivers & Far North Coast (NSW)",
+      "ibra7_code": "NNC",
+      "journey_chapter": "northern-rivers",
+      "bbox_wsen": [153.18, -29.02, 153.64, -28.16],
+      "tile_envelope": {
+        "zoom": 13,
+        "tile_grid": "terrarium-256",
+        "max_tiles_per_job": 4,
+        "representative_tile_bbox_wsen": [153.54, -28.66, 153.58, -28.62],
+        "target_cell_spacing_m": 9.375
+      },
+      "elevation_range_m": [0.0, 1150.0],
+      "geomorphology": [
+        "Coastal sandstone headlands and littoral dunes",
+        "Tidal estuarine and meandering riverine floodplains",
+        "Subtropical to warm-temperate escarpment gullies"
+      ],
+      "catchment_zone_mapping": [
+        "Elevated coastal headland bluff (east/southeast promontory)",
+        "Meandering creek channel and terraced alluvial floodplain"
+      ],
+      "species_ids": [
+        "intenteco-bint-08",
+        "intenteco-wbic-03",
+        "intenteco-pcin-06",
+        "intenteco-dant-10",
+        "intenteco-mgig-11",
+        "intenteco-oana-12",
+        "intenteco-dnov-13",
+        "intenteco-emel-05"
+      ]
+    },
+    {
+      "id": "sydney-basin-sandstone",
+      "title": "Sydney Basin Sandstone Plateaus & Coastal Gorges",
+      "ibra7_code": "SYB",
+      "journey_chapter": "south-coast",
+      "bbox_wsen": [150.25, -34.25, 151.35, -33.35],
+      "tile_envelope": {
+        "zoom": 13,
+        "tile_grid": "terrarium-256",
+        "max_tiles_per_job": 4,
+        "representative_tile_bbox_wsen": [150.32, -33.74, 150.36, -33.70],
+        "target_cell_spacing_m": 9.375
+      },
+      "elevation_range_m": [0.0, 1250.0],
+      "geomorphology": [
+        "Hawkesbury & Narrabeen stepped sandstone benches and cliffs",
+        "Deeply incised sheltered fern gullies",
+        "Cumberland & Hawkesbury grassy Box-Gum woodland plains"
+      ],
+      "catchment_zone_mapping": [
+        "Elevated stepped sandstone escarpment & coastal headland",
+        "Shaded wet-sclerophyll gully & Box-Gum woodland slopes"
+      ],
+      "species_ids": [
+        "intenteco-bint-08",
+        "intenteco-emel-05",
+        "intenteco-apyc-09",
+        "intenteco-dant-10",
+        "intenteco-wbic-03",
+        "intenteco-pcin-06",
+        "intenteco-vurs-07",
+        "intenteco-mgig-11",
+        "intenteco-oana-12",
+        "intenteco-dnov-13"
+      ]
+    },
+    {
+      "id": "snowy-mountains-alpine",
+      "title": "Snowy Mountains, Australian Alps & Monaro Tablelands",
+      "ibra7_code": "AUA",
+      "journey_chapter": "high-country",
+      "bbox_wsen": [148.10, -36.65, 149.15, -35.25],
+      "tile_envelope": {
+        "zoom": 13,
+        "tile_grid": "terrarium-256",
+        "max_tiles_per_job": 4,
+        "representative_tile_bbox_wsen": [149.06, -35.30, 149.08, -35.28],
+        "target_cell_spacing_m": 9.375,
+        "canberra_seh_proof_linked": true
+      },
+      "elevation_range_m": [450.0, 2228.0],
+      "geomorphology": [
+        "Granite & metamorphic highland ridges and blockstreams",
+        "Subalpine frost-hollow valleys and montane snowgum slopes",
+        "Incised upland streams and alluvial tableland terraces"
+      ],
+      "catchment_zone_mapping": [
+        "Elevated northern granite ridge & terraced tableland valley",
+        "Incised creek channel & montane wet-sclerophyll gully"
+      ],
+      "species_ids": [
+        "intenteco-edal-02",
+        "intenteco-emel-05",
+        "intenteco-wbic-03",
+        "intenteco-vurs-07",
+        "intenteco-dant-10",
+        "intenteco-mgig-11",
+        "intenteco-oana-12",
+        "intenteco-dnov-13"
+      ]
+    },
+    {
+      "id": "victorian-central-highlands",
+      "title": "Victorian Central Highlands & Yarra–Goulburn Catchments",
+      "ibra7_code": "SEH",
+      "journey_chapter": "central-victoria",
+      "bbox_wsen": [145.30, -37.95, 146.35, -37.20],
+      "tile_envelope": {
+        "zoom": 13,
+        "tile_grid": "terrarium-256",
+        "max_tiles_per_job": 4,
+        "representative_tile_bbox_wsen": [145.66, -37.68, 145.70, -37.64],
+        "target_cell_spacing_m": 9.375
+      },
+      "elevation_range_m": [120.0, 1570.0],
+      "geomorphology": [
+        "Tall wet-sclerophyll Mountain Ash ranges and deep fern gullies",
+        "Grassy Box-Gum & Golden Wattle foothills",
+        "Terraced alluvial river flats with River Red Gums"
+      ],
+      "catchment_zone_mapping": [
+        "Shaded wet-sclerophyll gully (Mountain Ash & Soft Tree Fern)",
+        "Terraced alluvial floodplain & grassy Box-Gum woodland slopes"
+      ],
+      "species_ids": [
+        "intenteco-ereg-04",
+        "intenteco-edal-02",
+        "intenteco-ecam-01",
+        "intenteco-emel-05",
+        "intenteco-apyc-09",
+        "intenteco-dant-10",
+        "intenteco-wbic-03",
+        "intenteco-pcin-06",
+        "intenteco-vurs-07",
+        "intenteco-mgig-11",
+        "intenteco-oana-12",
+        "intenteco-dnov-13"
+      ]
+    }
+  ],
+  "intenteco_species_ranges": [
+    {
+      "species_id": "intenteco-ecam-01",
+      "binomial": "Eucalyptus camaldulensis",
+      "common_name": "River Red Gum",
+      "guild": "flora-tree",
+      "elevation_range_m": [5.0, 750.0],
+      "preferred_habitat": "Terraced alluvial floodplain and riparian creek banks",
+      "bioregions": ["victorian-central-highlands", "snowy-mountains-alpine"]
+    },
+    {
+      "species_id": "intenteco-edal-02",
+      "binomial": "Eucalyptus dalrympleana",
+      "common_name": "Mountain White Gum",
+      "guild": "flora-tree",
+      "elevation_range_m": [450.0, 1550.0],
+      "preferred_habitat": "Elevated granite/sandstone ridges and montane slopes",
+      "bioregions": ["snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-wbic-03",
+      "binomial": "Wallabia bicolor",
+      "common_name": "Swamp Wallaby",
+      "guild": "fauna-marsupial",
+      "elevation_range_m": [0.0, 1800.0],
+      "preferred_habitat": "Dense forest understorey, fern gullies, and Box-Gum woodland",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-ereg-04",
+      "binomial": "Eucalyptus regnans",
+      "common_name": "Mountain Ash",
+      "guild": "flora-tree",
+      "elevation_range_m": [150.0, 1150.0],
+      "preferred_habitat": "Deep shaded wet-sclerophyll gullies and cool south/west slopes",
+      "bioregions": ["victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-emel-05",
+      "binomial": "Eucalyptus melliodora",
+      "common_name": "Yellow Box",
+      "guild": "flora-tree",
+      "elevation_range_m": [100.0, 1200.0],
+      "preferred_habitat": "Grassy Box-Gum woodland slopes and upper alluvial terraces",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-pcin-06",
+      "binomial": "Phascolarctos cinereus",
+      "common_name": "Koala",
+      "guild": "fauna-marsupial",
+      "elevation_range_m": [0.0, 1100.0],
+      "preferred_habitat": "Eucalypt woodland canopy (River Red Gum, Yellow Box, coastal gums)",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-vurs-07",
+      "binomial": "Vombatus ursinus",
+      "common_name": "Common Wombat",
+      "guild": "fauna-marsupial",
+      "elevation_range_m": [0.0, 1850.0],
+      "preferred_habitat": "Grassy woodland slopes, creek-bank soils, and montane heath",
+      "bioregions": ["sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-bint-08",
+      "binomial": "Banksia integrifolia",
+      "common_name": "Coast Banksia",
+      "guild": "flora-tree",
+      "elevation_range_m": [0.0, 1300.0],
+      "preferred_habitat": "Coastal sandstone headlands, dunes, and escarpment lookouts",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone"]
+    },
+    {
+      "species_id": "intenteco-apyc-09",
+      "binomial": "Acacia pycnantha",
+      "common_name": "Golden Wattle",
+      "guild": "flora-shrub",
+      "elevation_range_m": [20.0, 900.0],
+      "preferred_habitat": "Open grassy Box-Gum woodland slopes and dry ridges",
+      "bioregions": ["sydney-basin-sandstone", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-dant-10",
+      "binomial": "Dicksonia antarctica",
+      "common_name": "Soft Tree Fern",
+      "guild": "flora-fern",
+      "elevation_range_m": [50.0, 1300.0],
+      "preferred_habitat": "Shaded wet-sclerophyll gullies and damp creek margins",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-mgig-11",
+      "binomial": "Macropus giganteus",
+      "common_name": "Eastern Grey Kangaroo",
+      "guild": "fauna-marsupial",
+      "elevation_range_m": [0.0, 1600.0],
+      "preferred_habitat": "Open grassy Box-Gum woodland slopes and alluvial terraces",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-oana-12",
+      "binomial": "Ornithorhynchus anatinus",
+      "common_name": "Platypus",
+      "guild": "fauna-monotreme",
+      "elevation_range_m": [0.0, 1500.0],
+      "preferred_habitat": "Pool-riffle freshwater creek channels with undercut alluvial banks",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    },
+    {
+      "species_id": "intenteco-dnov-13",
+      "binomial": "Dacelo novaeguineae",
+      "common_name": "Laughing Kookaburra",
+      "guild": "fauna-avian",
+      "elevation_range_m": [0.0, 1500.0],
+      "preferred_habitat": "Open Box-Gum woodland and riparian eucalypt perches",
+      "bioregions": ["northern-rivers-coastal", "sydney-basin-sandstone", "snowy-mountains-alpine", "victorian-central-highlands"]
+    }
+  ]
+}

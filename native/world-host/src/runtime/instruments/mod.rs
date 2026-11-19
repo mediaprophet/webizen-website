@@ -5,6 +5,7 @@ mod measures;
 mod production;
 mod references;
 mod science;
+pub mod species;
 use super::*;
 use crate::proof;
 type Lab = Rc<RefCell<LabState>>;
@@ -179,6 +180,7 @@ pub(super) async fn install(world: Shared) -> Result<(), JsValue> {
         ("space", "Earth and sky"),
         ("checks", "Tests and benchmarks"),
         ("fields", "Light and fields"),
+        ("species", "Living biosphere"),
         ("production", "Make with Synth"),
     ] {
         let b = button(&nav, &format!("native-lab-tab-{id}"), label)?;
@@ -190,7 +192,7 @@ pub(super) async fn install(world: Shared) -> Result<(), JsValue> {
         }
         let selected = id.to_string();
         event(b.unchecked_ref(), "click", move |_| {
-            for key in ["data", "rights", "space", "checks", "fields", "production"] {
+            for key in ["data", "rights", "space", "checks", "fields", "species", "production"] {
                 if let Some(tab) = doc().get_element_by_id(&format!("native-lab-tab-{key}")) {
                     let _ = tab.set_attribute(
                         "aria-current",
@@ -213,6 +215,7 @@ pub(super) async fn install(world: Shared) -> Result<(), JsValue> {
     science::controls(&state)?;
     measures::controls(&state)?;
     fields::controls(&state)?;
+    species::controls(&state)?;
     let catalogue = json_file("/data/publications/aaa/catalogue.json", 1024 * 1024).await?;
     if catalogue["schema"] != "webizen.proof-data/v1" {
         return Err(err("Unsupported proof dataset catalogue"));
@@ -235,6 +238,9 @@ pub(super) async fn install(world: Shared) -> Result<(), JsValue> {
     state.borrow_mut().catalogue = catalogue;
     data::load(&state, first).await?;
     references::install(&state).await?;
+    if let Err(e) = species::install(&state).await {
+        error(e);
+    }
     if let Err(e) = production::install(&state).await {
         error(e);
     }

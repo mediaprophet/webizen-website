@@ -1,0 +1,201 @@
+{
+  "schema": "webizen.terrain-v2-manifest/v1",
+  "id": "catchment-600m",
+  "epistemic_class": "authored-artwork",
+  "frame": {
+    "up": "+Y",
+    "units": "metres",
+    "bounds_xz_m": [
+      -300.0,
+      300.0
+    ]
+  },
+  "heightfield_parity": {
+    "samples_checked": 632,
+    "max_height_error_m": 1.4210854715202004e-14,
+    "max_river_x_error_m": 0.0,
+    "campsite_ground_y": 4.4909216892549235
+  },
+  "heightfield_parameters": {
+    "span_m": 600.0,
+    "inner_core_preserved_radius_m": 68.0,
+    "outer_blend_end_radius_m": 112.0,
+    "campsite_clearing": {
+      "centre": [
+        -22.0,
+        28.0
+      ],
+      "flat_radius_m": 8.0,
+      "blend_radius_m": 13.0,
+      "ground_y_m": 4.4909216892549235
+    },
+    "water_datum_y_m": 0.24,
+    "elevation_bounds_m": {
+      "min": -1.539,
+      "max": 59.345
+    },
+    "geomorphic_zones": [
+      "Meandering creek/river channel (river_x(z)) with incised banks, sandy/pebble point bars, and pool-riffle depth variations",
+      "Terraced alluvial floodplain (two fluvial benches at +1.95..+5.0 m)",
+      "Shaded wet-sclerophyll gully (NW/W tributary carving at x in [-245,-68])",
+      "Grassy Box-Gum woodland slopes (+7..+32 m)",
+      "Elevated sandstone/granite northern ridge & eastern coastal headland (+35..+59.3 m)"
+    ]
+  },
+  "landmarks_m": {
+    "campsite-field-studio": {
+      "x": -22.0,
+      "z": 28.0,
+      "y": 4.490922
+    },
+    "river-view": {
+      "x": 0.0,
+      "z": 16.0,
+      "y": 2.356903
+    },
+    "commons": {
+      "x": -17.0,
+      "z": 6.0,
+      "y": 2.688931
+    },
+    "atelier": {
+      "x": 20.0,
+      "z": -7.0,
+      "y": 4.666177
+    },
+    "canopy": {
+      "x": -20.0,
+      "z": -16.0,
+      "y": 2.978423
+    },
+    "observatory": {
+      "x": -15.0,
+      "z": -32.0,
+      "y": 1.164989
+    },
+    "biology": {
+      "x": 17.0,
+      "z": -37.0,
+      "y": 3.825541
+    },
+    "footbridge-west-anchor": {
+      "x": -5.13631082261787,
+      "z": 4.0,
+      "y": 1.422837
+    },
+    "footbridge-east-anchor": {
+      "x": 10.863689177382131,
+      "z": 4.0,
+      "y": 2.022071
+    },
+    "wet-sclerophyll-gully": {
+      "x": -160.0,
+      "z": -116.0,
+      "y": 4.866479
+    },
+    "north-granite-ridge": {
+      "x": 165.0,
+      "z": -265.0,
+      "y": 39.437526
+    },
+    "east-coastal-headland": {
+      "x": 255.0,
+      "z": 80.0,
+      "y": 49.43122
+    }
+  },
+  "assets": {
+    "lod0": {
+      "path": "production/terrain-v2/catchment-600m-lod0.10d",
+      "tier": "TierA/TierB Desktop WebGPU",
+      "sha256": "7b36d3fb49b746eb780781d464986e4e64e551cddb889697331d0d2cb30b9b2f",
+      "bytes": 7375288,
+      "vertices": 58081,
+      "triangles": 115200,
+      "grid_side": 240,
+      "cell_spacing_m": 2.5,
+      "hmc_sha256": "b8390bd07088ab9eba1a6294f6f63852206015245c15637251e11789b1c9f57e",
+      "hmc_path": "C:\\github\\synth\\production\\webizen-terrain-lod0-20261119-112510-1f5a7c\\lod0.hmc",
+      "preview_dir": "C:\\github\\webizen-website\\production\\terrain-v2\\previews\\catchment-600m-lod0"
+    },
+    "lod1": {
+      "path": "production/terrain-v2/catchment-600m-lod1.10d",
+      "tier": "TierC Mobile WebGL2 (<= 32k tris)",
+      "sha256": "5cfe9b46cd0bfc18ff2ae256d0b1f78d211da179a6b993d7e77d24d4ec6a362f",
+      "bytes": 1851896,
+      "vertices": 14641,
+      "triangles": 28800,
+      "grid_side": 120,
+      "cell_spacing_m": 5.0,
+      "hmc_sha256": "0413954dccefb7eff0e4670bea577f22072e591cf13cfd68179a44af926c0316",
+      "hmc_path": "C:\\github\\synth\\production\\webizen-terrain-lod1-20261119-112513-1d983f\\lod1.hmc",
+      "preview_dir": "C:\\github\\webizen-website\\production\\terrain-v2\\previews\\catchment-600m-lod1"
+    },
+    "water": {
+      "path": "production/terrain-v2/catchment-600m-water.10d",
+      "sha256": "77ecb761d87db501cfb311d0b73b8778add76835df6d840c6ffc4837bd8d0f7d",
+      "bytes": 352728,
+      "vertices": 2905,
+      "triangles": 4640,
+      "z_range_m": [
+        -290.0,
+        290.0
+      ],
+      "water_datum_y_m": 0.24,
+      "hmc_sha256": "40f0f4fbc6b8384071da86bc5354804afe94f461b5e544481e4c6a77c8f6376e",
+      "hmc_path": "C:\\github\\synth\\production\\webizen-terrain-water-20261119-112514-4e6a0e\\water.hmc",
+      "preview_dir": "C:\\github\\webizen-website\\production\\terrain-v2\\previews\\catchment-600m-water"
+    },
+    "m64": {
+      "path": "production/terrain-v2/catchment-600m.m64",
+      "sha256": "9010dc9ae5a3badfbec0ab2204eb5fe08c9ef766e3d55e056f75c6c2e1c3ec73",
+      "bytes": 262400,
+      "origin_lat_lon": [
+        -35.3,
+        149.06
+      ],
+      "record_mode": "strata",
+      "hmc_sha256": "b9c6fe42b98d38f5f04b4f8796275df5794500b9f3fc72b0de5d90cb72145686",
+      "hmc_path": "C:\\github\\synth\\production\\webizen-terrain-m64-20261119-112501-12c06e\\m64.hmc",
+      "relief_preview": "production/terrain-v2/previews/catchment-sculpt-relief.png"
+    }
+  },
+  "pbr_textures": {
+    "albedo": {
+      "path": "production/terrain-v2/terrain-albedo.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "cbfbdc9f89885b2390146928156051a8d1262f89218f100f7f422e329bf016b0"
+    },
+    "normal": {
+      "path": "production/terrain-v2/terrain-normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "46fdc63a6bcabd92f1866ba468aa4dd823fadb75a07e9c662fd5caa897460e4d"
+    },
+    "orm": {
+      "path": "production/terrain-v2/terrain-orm.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "76f910055e78df16e951bff7f51bffee7906e21783c547f4e2e618572392f5ba"
+    },
+    "hmc_sha256": "70adf0bcf6bbe963c25c4da941aff97ab49531c65ec53fc09421924d3e9907fc",
+    "hmc_path": "C:\\github\\synth\\production\\webizen-terrain-maps-20261119-112451-0e28bb\\maps.hmc",
+    "mobile_webgl2_compatible": true,
+    "webgpu_compatible": true
+  },
+  "previews": {
+    "lod0_front": "production/terrain-v2/previews/catchment-600m-lod0/front-view-assumed.png",
+    "lod0_side": "production/terrain-v2/previews/catchment-600m-lod0/side-view-assumed.png",
+    "lod0_three_quarter": "production/terrain-v2/previews/catchment-600m-lod0/three-quarter-view-assumed.png",
+    "lod1_three_quarter": "production/terrain-v2/previews/catchment-600m-lod1/three-quarter-view-assumed.png",
+    "water_three_quarter": "production/terrain-v2/previews/catchment-600m-water/three-quarter-view-assumed.png",
+    "sculpt_relief": "production/terrain-v2/previews/catchment-sculpt-relief.png"
+  }
+}

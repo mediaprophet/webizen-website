@@ -13,11 +13,53 @@ use wasm_bindgen::JsValue;
 const GIS_PLACE_ID: &str = "canberra-public-reference";
 const FIELD_STUDIO_ID: &str = "field-studio";
 const REQUIRED_NAMED_PLACES: [&str; 4] = ["field-studio", "river", "canopy", "commons"];
+const SPECIES_CATALOG_SCHEMA: &str = "webizen.species-catalog/v1";
+const DWC_SCIENTIFIC_NAME: &str = "http://rs.tdwg.org/dwc/terms/scientificName";
+const DWC_VERNACULAR_NAME: &str = "http://rs.tdwg.org/dwc/terms/vernacularName";
+const RDFS_LABEL: &str = "http://www.w3.org/2000/01/rdf-schema#label";
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct Aabb {
     pub min: [f32; 3],
     pub max: [f32; 3],
+}
+
+#[derive(Clone, Debug, PartialEq)]
+pub struct SpeciesLodAsset {
+    pub tier: String,
+    pub distance_band: String,
+    pub url: String,
+    pub remote_url: String,
+    pub sha256: String,
+    pub bytes: u64,
+    pub triangles: u64,
+    pub vertices: u64,
+    pub aabb: Option<Aabb>,
+}
+
+#[derive(Clone, Debug, PartialEq)]
+pub struct SpeciesCatalogEntry {
+    pub taxon_iri: String,
+    pub slug: String,
+    pub scientific_name: String,
+    pub vernacular_name: String,
+    pub kingdom: String,
+    pub ecological_zone: String,
+    pub url: String,
+    pub remote_url: String,
+    pub sha256: String,
+    pub bytes: u64,
+    pub triangles: u64,
+    pub vertices: u64,
+    pub aabb: Option<Aabb>,
+    pub sidecar_taxon_q42: Option<(String, String)>,
+    pub sidecar_field_emf: Option<(String, String)>,
+    pub sidecar_substrate_m64: Option<(String, String)>,
+    pub lod0: Option<SpeciesLodAsset>,
+    pub lod1: Option<SpeciesLodAsset>,
+    pub lod2: Option<SpeciesLodAsset>,
+    pub aboveground_lod1: Option<SpeciesLodAsset>,
+    pub rhizosphere: Option<SpeciesLodAsset>,
 }
 
 #[derive(Clone, Debug)]
@@ -102,6 +144,7 @@ pub struct Catalog {
     pub declared_triangles: u64,
     pub declared_vertices: u64,
     pub join: SparqlJoin,
+    pub species: Vec<SpeciesCatalogEntry>,
 }
 
 impl Catalog {
@@ -229,6 +272,7 @@ impl Catalog {
                 obligation: index.text(&uri, "obligation")?,
             });
         }
+        let species = species_from_index(&index);
         Ok(Self {
             schema,
             pack_id: index.text(&pack, "packId")?,
@@ -248,7 +292,19 @@ impl Catalog {
             declared_triangles: index.u64(&pack, "declaredTriangles").unwrap_or(0),
             declared_vertices: index.u64(&pack, "declaredVertices").unwrap_or(0),
             join,
+            species,
         })
+    }
+
+    #[allow(dead_code)]
+    pub fn species_from_host(host: &PoetSnapshot) -> Result<Vec<SpeciesCatalogEntry>, String> {
+        let index = QuinIndex::from_host(host)?;
+        Ok(species_from_index(&index))
+    }
+
+    #[allow(dead_code)]
+    pub fn species_by_slug(&self, slug: &str) -> Option<&SpeciesCatalogEntry> {
+        self.species.iter().find(|s| s.slug == slug)
     }
 
     pub fn place(&self) -> Result<&Place, JsValue> {
@@ -397,6 +453,159 @@ fn entry_from_index(index: &QuinIndex, uri: &str) -> Result<CatalogEntry, String
         aabb,
         tiles,
     })
+}
+
+fn strip_rdf_literal(raw: &str) -> String {
+    let t = raw.trim();
+    let without_lang = if let Some(idx) = t.rfind("\"@") {
+        &t[..idx + 1]
+    } else if let Some(idx) = t.rfind("\"^^") {
+        &t[..idx + 1]
+    } else {
+        t
+    };
+    if without_lang.starts_with('"') {
+        if let Ok(s) = serde_json::from_str::<String>(without_lang) {
+            return s;
+        }
+        if without_lang.len() >= 2 && without_lang.ends_with('"') {
+            return without_lang[1..without_lang.len() - 1].to_string();
+        }
+    }
+    without_lang.to_string()
+}
+
+fn first_pred_text(index: &QuinIndex, subject: &str, pred: &str) -> Option<String> {
+    index
+        .many(subject, pred)
+        .into_iter()
+        .next()
+        .map(|v| strip_rdf_literal(&v))
+}
+
+fn optional_aabb(index: &QuinIndex, uri: &str) -> Option<Aabb> {
+    if index.rel(uri, "aabbMinX").len() == 1 {
+        let min = index.f32x3(uri, "aabbMin").ok()?;
+        let max = index.f32x3(uri, "aabbMax").ok()?;
+        Some(Aabb { min, max })
+    } else {
+        None
+    }
+}
+
+fn species_lod_from_index(index: &QuinIndex, uri: &str) -> Option<SpeciesLodAsset> {
+    let tier = index.text(uri, "tier").ok()?;
+    let url = index.text(uri, "url").ok()?;
+    let sha256 = index.text(uri, "sha256").ok()?;
+    Some(SpeciesLodAsset {
+        tier,
+        distance_band: index.text(uri, "distanceBand").unwrap_or_default(),
+        url,
+        remote_url: index.text(uri, "remoteUrl").unwrap_or_default(),
+        sha256,
+        bytes: index.u64(uri, "bytes").unwrap_or(0),
+        triangles: index.u64(uri, "triangles").unwrap_or(0),
+        vertices: index.u64(uri, "vertices").unwrap_or(0),
+        aabb: optional_aabb(index, uri),
+    })
+}
+
+fn optional_sidecar(
+    index: &QuinIndex,
+    uri: &str,
+    url_pred: &str,
+    sha_pred: &str,
+) -> Option<(String, String)> {
+    let url = index.text(uri, url_pred).ok()?;
+    let sha = index.text(uri, sha_pred).ok()?;
+    Some((url, sha))
+}
+
+fn species_entry_from_index(index: &QuinIndex, taxon_iri: &str) -> Option<SpeciesCatalogEntry> {
+    let slug = index.text(taxon_iri, "slug").ok()?;
+    let url = index.text(taxon_iri, "canonicalUrl").ok()?;
+    let sha256 = index.text(taxon_iri, "canonicalSha256").ok()?;
+    let scientific_name = first_pred_text(index, taxon_iri, DWC_SCIENTIFIC_NAME).unwrap_or_default();
+    let vernacular_name = first_pred_text(index, taxon_iri, DWC_VERNACULAR_NAME)
+        .or_else(|| first_pred_text(index, taxon_iri, RDFS_LABEL))
+        .unwrap_or_else(|| slug.clone());
+
+    let mut lod0 = None;
+    let mut lod1 = None;
+    let mut lod2 = None;
+    let mut aboveground_lod1 = None;
+    let mut rhizosphere = None;
+    for lod_iri in index.rel(taxon_iri, "hasLod") {
+        let Some(lod) = species_lod_from_index(index, &lod_iri) else {
+            continue;
+        };
+        match lod.tier.as_str() {
+            "lod0" => lod0 = Some(lod),
+            "lod1" => lod1 = Some(lod),
+            "lod2" => lod2 = Some(lod),
+            "aboveground_lod1" => aboveground_lod1 = Some(lod),
+            "rhizosphere" => rhizosphere = Some(lod),
+            _ => {}
+        }
+    }
+
+    Some(SpeciesCatalogEntry {
+        taxon_iri: taxon_iri.to_string(),
+        slug,
+        scientific_name,
+        vernacular_name,
+        kingdom: index.text(taxon_iri, "kingdom").unwrap_or_default(),
+        ecological_zone: index.text(taxon_iri, "ecologicalZone").unwrap_or_default(),
+        url,
+        remote_url: index
+            .text(taxon_iri, "canonicalRemoteUrl")
+            .unwrap_or_default(),
+        sha256,
+        bytes: index.u64(taxon_iri, "canonicalBytes").unwrap_or(0),
+        triangles: index.u64(taxon_iri, "canonicalTriangles").unwrap_or(0),
+        vertices: index.u64(taxon_iri, "canonicalVertices").unwrap_or(0),
+        aabb: optional_aabb(index, taxon_iri),
+        sidecar_taxon_q42: optional_sidecar(
+            index,
+            taxon_iri,
+            "sidecarTaxonQ42",
+            "sidecarTaxonQ42Sha256",
+        ),
+        sidecar_field_emf: optional_sidecar(
+            index,
+            taxon_iri,
+            "sidecarFieldEmf",
+            "sidecarFieldEmfSha256",
+        ),
+        sidecar_substrate_m64: optional_sidecar(
+            index,
+            taxon_iri,
+            "sidecarSubstrateM64",
+            "sidecarSubstrateM64Sha256",
+        ),
+        lod0,
+        lod1,
+        lod2,
+        aboveground_lod1,
+        rhizosphere,
+    })
+}
+
+/// Parse optional `species-catalog.q42` (`webizen.species-catalog/v1`) entries if admitted
+/// into the graph. Returns an empty `Vec` when no species catalog is present so existing
+/// woodland `Catalog::from_host` callers and tests remain unaffected.
+pub fn species_from_index(index: &QuinIndex) -> Vec<SpeciesCatalogEntry> {
+    let Ok(pack) = index.subject_of_schema(SPECIES_CATALOG_SCHEMA) else {
+        return Vec::new();
+    };
+    let mut out = Vec::new();
+    for taxon_iri in index.rel(&pack, "hasSpecies") {
+        if let Some(entry) = species_entry_from_index(index, &taxon_iri) {
+            out.push(entry);
+        }
+    }
+    out.sort_by(|a, b| a.slug.cmp(&b.slug));
+    out
 }
 
 
