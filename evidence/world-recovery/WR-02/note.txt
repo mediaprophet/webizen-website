@@ -1,0 +1,30 @@
+WR-02. These frames are the site-root canvas, the same homepage as /, element #native-world, viewport 1440×900. They are not a side page and they are not a joint plot.
+
+Served wasm: site/pkg/native-world/webizen_world_bg.wasm
+sha256 cc8daac28f2ee4077cbc492761d0c6a5ee32bafeacf552dfeff9d1635e3fe12f
+23,728,402 bytes, under the 23.5 MiB budget.
+Qualified bundle: site/pkg/native-world/qualified/d6ce2bae1ee0424af42442486817aa883ddd15c08c6896391febd437254313ab
+The browser decodedBodySize of that file was 23728402. WebGPU. Console errors 0. The one warning is Chrome ignoring powerPreference on Windows.
+
+The eight lods are the existing eco-intent meshes, fetched from /production/woody/<slug>/dist/lods/. That prefix is a proof-server mount of C:\github\eco-intent on http://127.0.0.1:8895. The .10d files were not copied into this repository. Public webizen.au will 404 /production/woody/ until a later same-origin pack. This boot did not request /intenteco/ or raw.githubusercontent.com.
+
+receipt: woody true, resident_ground true, streaming.default false, streaming.enabled false, ewm_streaming false.
+
+canvas-gum-normal.png
+http://127.0.0.1:8895/?gum=1
+River red gum at the contour site, trunk (5, −60), camera target (5, 13.78, −60), yaw −2.376, pitch 0.38, zoom 36. The mesh is the aboveground lod: bole, bark and leaves. The slope falls to the creek on the right. The basal wood of that lod, authored at or below 1.45 m, is fitted once with fit_soil_joint and held at least 0.20 m under the soil. The grey buttress fins that stood on the surface in the previous wasm are not in this frame. The bole meets the slope.
+
+canvas-gum-roots.png
+http://127.0.0.1:8895/?roots=1
+Same canvas, rhizosphere lens on (terrain_cutaway true, Rhizosphere button pressed). Camera target (5, 9.78, −60), pitch 0.72, zoom 26. The soil around the trunk is dropped and the rhizosphere lod’s laterals are in that cut, under the surrounding surface.
+
+canvas-wind-a.png and canvas-wind-b.png
+Same ?gum=1 view, two frames apart. woody_tip_m read 4.75 m then 5.30 m (6.35 m earlier in that view). Crown samples changed on 36% of a stride-4 grid (mean channel delta 42.6). The creek bank changed on 1.4% (mean 2.8), so the camera stayed put. The bole and the soil beside it changed less than the crown (means 12 and 15.5); that remainder is the crown shadow crossing the fitted base. Collar vertices are not in the wind write.
+
+canvas-camp.png
+http://127.0.0.1:8895/?bootcheck=1
+Default campsite camera, target (−22, 5.49, 28). Ochre soil, the creek, the camper, the Passat and the solar array are on that canvas. The three flora lods loaded (Themeda, Poa, Lomandra) and understorey_tip_m was 0.177. A gum stands at the right of the camp. This is not the rise-and-gully picture.
+
+normal-uneven.png, rhizosphere-contour.png and wind-crown.png are the earlier software joint plots. They are not these pictures.
+
+streaming.default stayed false. art_approval stayed false. Nothing was deployed. The packet status stays proposed.

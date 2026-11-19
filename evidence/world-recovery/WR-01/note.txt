@@ -1,0 +1,19 @@
+WR-01 homepage canvas, 20 November 2026. This note replaces the earlier account of the side pages on port 8891. Those pages, and the stills camp-day.png, creek-bank.png, and understorey-foreground.png, are not the acceptance picture. homepage-camp.png is the same homepage before the soil maps were bound; the ground in that frame is white, so it is not the acceptance picture either.
+
+Wasm sha256: 4b91f008e6bec03b487a90dd4db2864ecbda5c91692768a7864853266d778878
+Wasm bytes: 23638200
+wasm-bindgen 0.2.129 wrote site/pkg/native-world/webizen_world_bg.wasm. receipt.py exited 0. Qualified bundle site/pkg/native-world/qualified/2394e466371a94b0b75028a0f941ed282e495d0a46c2894aa4b870fd9fd13ecb.
+Local URL: http://127.0.0.1:8895/?bootcheck=1
+The page is site/index.html. The canvas is #native-world. Viewport 1440 by 900, CSS pixels.
+
+This navigation fetched /publication/world.q42 (200), /pkg/native-world/webizen_world_bg.wasm (200, decoded 23638200 bytes), /production/ground/catchment-ground.10d (200), the three soil PNGs under /production/ground/textures/sha256/ (albedo c7c59690…, normal 3d090ede…, ORM e5c3b6a0…, all 200), and the three flora lods themeda-triandra, poa-labillardierei, and lomandra-longifolia (all 200). It did not fetch /intenteco/ or raw.githubusercontent.com. Console errors: 0.
+
+window.__webizenNativeWorld: resident_ground true, ewm_streaming false, streaming.default false, streaming.enabled false. WebGPU. material_pipeline true. organs_refused 0. frames advanced from 25 to 691. understorey_tip_m moved from 0.140 m to 0.112 m. The upload parts are the campsite props (Passat gold, glass, and chrome; the vintage-windup-camper parts; solar-array-three--panel; starlink-mini--dish-front), then catchment-ground, wr-themeda-triandra, wr-poa-labillardierei, and wr-lomandra-longifolia. Habitat terrain, the Canberra DEM, and the prototype eucalypt are not in that upload.
+
+homepage-camp-soil.png
+The campsite is in frame: gold Passat, white camper with a blue stripe, two solar arrays. The foreground soil is ochre (sampled about 112, 94, 61 and 105, 85, 51). The hills carry pale rock (sampled about 179, 157, 129). A blue creek sits in the cut between those slopes. The near plant at the bottom right has blades and seed heads; it is the Themeda triandra lod, not a spike card. Smaller clumps of the same three loaded meshes stand on the slopes and at the bottom edge. Poa labillardierei and Lomandra longifolia are in the upload and on the canvas, and at this camera they read as small tussocks rather than as a named close study.
+
+homepage-camp-soil-b.png
+The same view about two seconds later. Flat soil samples stay within one level. homepage-camp-diff.png marks what moved: the foreground blade tips, and also a crawl of highlights along the ridge edges. The tuft bases are not a moving patch. The ridge crawl is still there; the soil colour is not a flat white fill.
+
+streaming.default stayed false. Nothing was deployed.

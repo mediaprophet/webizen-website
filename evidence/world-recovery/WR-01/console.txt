@@ -1,0 +1,197 @@
+Total messages: 195 (Errors: 182, Warnings: 13)
+
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8877/production/native-world/assets/solar-array-three--panel.10d:1
+[ERROR] browser fetch failed @ http://127.0.0.1:8877/world/gl-debug.js:248
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8879/pkg/native-world/webizen_world.js:7667
+[ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8879/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de:1
+[ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8879/packages/by-sha256/bb895e81beaa7fc65804b6294e44d7fc334c1277baec8bbd025db287b7e665de:1
+[ERROR] HTTP 404 from range fetch @ http://127.0.0.1:8879/world/gl-debug.js:248
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8879/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[ERROR] Asset catchment-ground requires embedded source provenance for native scene admission @ http://127.0.0.1:8891/world/gl-debug.js:248
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[ERROR] Expanded prototype triangle count differs from its actual source geometry @ http://127.0.0.1:8891/world/gl-debug.js:248
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[ERROR] E600@0..0: no function observer_path @ http://127.0.0.1:8891/world/gl-debug.js:248
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8891/pkg/native-world/webizen_world.js:7667
+[WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ http://127.0.0.1:8895/pkg/native-world/webizen_world.js:7667

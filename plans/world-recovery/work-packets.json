@@ -1,0 +1,247 @@
+{
+  "schema": "webizen.world-recovery-work-packets/v1",
+  "version": "2026-11-20.1",
+  "repository": "C:\\github\\webizen-website",
+  "governing_plan": "plans/world-recovery/WORLD-RECOVERY.md",
+  "review": "plans/world-recovery/REVIEW-2026-11-19.md",
+  "status": "proposed",
+  "locale": "en-AU",
+  "max_live_specialists": 3,
+  "agent_budget": 48,
+  "invariants": [
+    "streaming.default stays false",
+    "art_approval stays false until the user accepts the pictures",
+    "no commit, push, or wrangler deploy unless the user asks",
+    "bare https://webizen.au/ must draw the resident world without ?ewm=1",
+    "?ewm=1 remains an opt-in stream and must not be required to see the camp",
+    "public bare-URL boot must not fetch /intenteco/ or any third-party host",
+    "Cross-Origin-Embedder-Policy require-corp stays; public bytes are same-origin",
+    "do not use tooling/native-host/build.ps1",
+    "wasm builds use CARGO_TARGET_DIR target-production-core-wasm, one cargo at a time",
+    "a screenshot that disagrees with a PASS note fails the wave",
+    "root placement uses ground::fit_soil_joint per joint; compute_slope_conforming_root_transform is not the placement path",
+    "fitted root joints stay fixed while wind moves only the crown",
+    "use the eco-intent meshes and lofted root parts; Synth produces the terrain and revises a mesh only when a camp still fails",
+    "packet ids WR-* do not collide with WEB-WP-*, EWM-*, LW-*, A00–A27, or N01–N09"
+  ],
+  "roles": [
+    {"role": "site-boot", "model": "grok-4.7", "capability": "all"},
+    {"role": "ground", "model": "grok-4.7", "capability": "all"},
+    {"role": "flora", "model": "grok-4.7", "capability": "all"},
+    {"role": "road", "model": "grok-4.6", "capability": "all"},
+    {"role": "character", "model": "grok-4.7", "capability": "all"},
+    {"role": "drive", "model": "grok-4.7", "capability": "all"},
+    {"role": "packer", "model": "grok-4.6", "capability": "all"},
+    {"role": "integrator", "model": "grok-4.7", "capability": "all"},
+    {"role": "visitor-review", "model": "grok-4.7", "capability": "read-only"},
+    {"role": "supervisor", "model": "grok-4.7", "capability": "read-only"}
+  ],
+  "waves": [
+    {"wave": 0, "name": "Public boot of the world that already exists", "packets": ["WR-00"], "then": ["integrator", "supervisor"]},
+    {"wave": 1, "name": "Soil mesh, contour fit, and grasses", "packets": ["WR-01"], "then": ["integrator", "supervisor"]},
+    {"wave": 2, "name": "Woody roots fitted once, then the road", "packets": ["WR-02", "WR-03"], "parallel": true, "then": ["integrator", "supervisor"]},
+    {"wave": 3, "name": "A person, and a drive along the road", "packets": ["WR-04", "WR-05"], "parallel": true, "then": ["integrator", "supervisor"]},
+    {"wave": 4, "name": "Same-origin bundle and a visitor proof", "packets": ["WR-06"], "then": ["WR-08", "WR-07", "supervisor"]}
+  ],
+  "integrator_routes": [
+    "native/world-host/src/lib.rs",
+    "native/world-host/src/runtime.rs",
+    "native/world-host/Cargo.toml",
+    "native/world-host/src/runtime/locomotion.rs",
+    "native/world-host/src/runtime/play.rs"
+  ],
+  "packets": [
+    {
+      "id": "WR-00",
+      "wave": 0,
+      "role": "site-boot",
+      "model": "grok-4.7",
+      "title": "Bare-URL boot, and a publication volume Cloudflare actually has",
+      "owned_paths": [
+        "native/world-host/src/runtime/boot.rs",
+        "tooling/build_pages.py",
+        "tests/world-recovery/test_public_boot.py",
+        "site/index.html"
+      ],
+      "task": [
+        "Boot currently dies on https://webizen.au/?ewm=1 because it fetches /publication/world.q42. That alias is untracked. current.json points at world-d8d19492c1e6e4a0.q42, which is tracked and returns HTTP 200.",
+        "build_pages.py must always write _site/publication/world.q42 as a byte copy of the volume named by publication/generated/current.json. Add a test that fails when the alias is absent from a fresh _site tree built without the untracked file.",
+        "site/index.html data-scene ends in scene.q42, and boot.rs then refuses to draw unless the query contains ewm=1. Change boot so the resident homepage scene draws on the bare URL. Keep ?ewm=1 as the opt-in for extra streaming. Leave streaming.default false and do not edit catalog.rs to allow true.",
+        "The failure string must name the missing resource. Do not tell a visitor to add ?ewm=1 in order to see the camp.",
+        "Prove it on a static server rooted at _site, with no eco-intent mount: GET /publication/world.q42 is 200, the bare URL does not show the reading-fallback sentence, and the document request list contains no /intenteco/ URL."
+      ],
+      "acceptance": "Bare URL draws the current resident camp from _site alone. /publication/world.q42 is produced by build_pages from current.json. streaming.default is still false."
+    },
+    {
+      "id": "WR-01",
+      "wave": 1,
+      "role": "ground",
+      "model": "grok-4.7",
+      "title": "Soil mesh, contour fit, and grasses",
+      "owned_paths": [
+        "native/world-host/src/runtime/ground.rs",
+        "native/world-host/src/runtime/understorey.rs",
+        "production/ground/",
+        "site/world/ground-catchment.vibe"
+      ],
+      "task": [
+        "The camp ground is the smoothstep in catchment_height_at: one olive shade and a beige pad. Replace that look with a 600 m mesh. Floodplain silt, leaf litter under canopy, sandstone or granite on the steep ground, pebble and wet bank at the creek. The campsite pad meets the surrounding soil.",
+        "height_at and normal_at sample that mesh, within 5 cm, checked against the mesh rather than against a second formula. Document the metre frame in ground.rs.",
+        "Add fit_soil_joint(trunk_xz, yaw, joint_xyz). World xz is the joint xz yawed about the trunk. World y is height_at at that xz plus the joint's authored y. Authored y is 0 at the soil collar and negative below it. This is the only placement fit. Do not call compute_slope_conforming_root_transform from the new path.",
+        "Place the existing tufts from C:\\github\\eco-intent: themeda-triandra, poa-labillardierei, lomandra-longifolia. Fit each below-zero joint with fit_soil_joint, freeze that base, and sway the blades about it. They are absent from evidence/ewm-v2/profile1-desktop-webgpu.png. A bare hill is a failed ground.",
+        "Synth may produce the terrain mesh through synth_produce_present. Do not rebuild the grass species. Do not edit locomotion.rs, vehicle.rs, play.rs, or instances.rs. The integrator points the callers at ground::height_at.",
+        "Save a day-lit camp screenshot, a creek-bank screenshot, and a foreground frame of the three understorey species under evidence/world-recovery/WR-01/. Name the materials and species visible in each picture."
+      ],
+      "acceptance": "The picture is the site root, the same homepage canvas as /, with the campsite props still in frame. It is not production/ground/camp.html or any other side page. Soil, rock, and the creek bank are on that canvas. The tufts are the eco-intent Themeda, Poa, and Lomandra meshes, fitted once, and the frame loop sways their blades while the bases stay put. The note names the wasm sha256. An offline plot or a stand-in spike tuft is not this picture."
+    },
+    {
+      "id": "WR-02",
+      "wave": 2,
+      "role": "flora",
+      "model": "grok-4.7",
+      "title": "Fit the existing root skeleton once, then let it anchor the wind",
+      "owned_paths": [
+        "native/world-host/src/runtime/instances.rs",
+        "native/world-host/src/runtime/instruments/rhizosphere.rs",
+        "native/world-host/src/runtime/wind.rs"
+      ],
+      "reads": [
+        "native/world-host/src/runtime/ground.rs",
+        "C:\\github\\eco-intent\\eucalyptus-camaldulensis\\source\\eucalyptus-camaldulensis.vibe",
+        "C:\\github\\eco-intent\\eucalyptus-camaldulensis\\source\\actuation.vibe",
+        "C:\\github\\eco-intent\\eucalyptus-melliodora\\source\\",
+        "C:\\github\\eco-intent\\eucalyptus-dalrympleana\\source\\",
+        "C:\\github\\eco-intent\\eucalyptus-regnans\\source\\"
+      ],
+      "task": [
+        "The camp draws root wood on the surface because placement tilts one disc. Retire that call. Fit the lofted parts that already exist: taproot_sinker, primary_lateral_root_1 through primary_lateral_root_7, and the deeper orders parented to them. Use ground::fit_soil_joint. Do not edit ground.rs.",
+        "The flat-soil anchors are taproot_deep_anchor at about (0, -5.2, 0) and lignotuber_root_plate at about (0, -0.15, 0), both inv_mass 0. Move each root joint to the contour, store the pose, and do not integrate it again. A test plants one gum where the ground rises under one lateral and falls under the opposite lateral. Both laterals stay under the soil by their authored depth. The two tip heights differ by the contour, not by a shared plane.",
+        "Wind is a runtime pose in wind.rs, because the frame loop does not evaluate Vibe. Joints at and below the collar stay at the fitted positions. bole_collar, bole_mid, crown_fork, the boughs, and the sprigs move, with amplitude and damping from wind_and_root_mechanics applied to the fitted plate. Sample the root joints twice. They match.",
+        "Normal view draws from the collar upward. Rhizosphere view draws the fitted root parts. Save three PNGs under evidence/world-recovery/WR-02/: normal view on uneven ground, rhizosphere of that tree with laterals under the rise and the gully, and a wind frame whose crown has moved while the root joints have not.",
+        "Do not rebuild the four eucalypt HMCs and do not copy .10d files into webizen-website. The other taxa wait until these four hold the contour."
+      ],
+      "acceptance": "The browser canvas shows the existing eucalypt meshes, not joint sticks. Root joints follow the soil contour and then stay fixed. Normal view shows no root wood above the soil on a slope, a rise, and a gully. Rhizosphere of that same canvas shows those laterals under the surface. A wind frame moves the crown and leaves the root base where it was fitted. The note names the wasm sha256. A schematic plot is not acceptance."
+    },
+    {
+      "id": "WR-03",
+      "wave": 2,
+      "role": "road",
+      "model": "grok-4.6",
+      "title": "A visible road from the camp to the community grounds",
+      "owned_paths": [
+        "production/corridor/",
+        "native/world-host/src/runtime/gis_join.rs"
+      ],
+      "task": [
+        "gis_join.rs already keeps plants off a centreline. The drive capture is still Surface Grass, and no track is visible.",
+        "Author a road mesh draped on ground::height_at: a dirt forestry track from the camp clearing, joining a short gravel then sealed approach into the community-grounds pad. Crown, shoulders, and a drain on the cut side. The mesh is the surface the vehicle will query.",
+        "Add surface_at(x, z) in gis_join.rs returning a small enum the drive packet can read: dirt, gravel, sealed, grass, creek. On the centreline of the new mesh, surface_at is never grass.",
+        "Keep the existing plant-clearance half-widths so trees are not in the carriageway.",
+        "Do not edit vehicle.rs. Save a screenshot that shows the track leaving the camp, under evidence/world-recovery/WR-03/, and state the surface_at samples along the centreline."
+      ],
+      "acceptance": "The browser canvas of the served camp shows the track leaving the pad. Centreline samples are dirt, gravel, or sealed, never grass. The note names the wasm sha256. An offline road plot is not this picture."
+    },
+    {
+      "id": "WR-04",
+      "wave": 3,
+      "role": "character",
+      "model": "grok-4.7",
+      "title": "A person who stands and walks on the ground",
+      "owned_paths": [
+        "native/world-host/src/runtime/character.rs",
+        "C:\\github\\eco-intent\\homo-sapiens\\"
+      ],
+      "task": [
+        "The explorer already exists at C:\\github\\eco-intent\\homo-sapiens, including previews/explorer-turnaround.png and the LOD0 three-quarter still. The camp never draws it, and webizen.au 404s the /intenteco/ URL. Start from that mesh and the 28-joint SKL2 rest pose. Send it back through Synth only when the camp still fails the person test.",
+        "Feet use ground::height_at. Idle and a walk cycle stay on the mesh on the flat and on the camp slope. The anatomy x-ray mesh stays a separate lens.",
+        "Third person is the default view when Walk is on. The figure is in frame, not a capsule and not a missing asset.",
+        "Save walk-on-flat and walk-on-slope PNGs under evidence/world-recovery/WR-04/. Do not commit the .10d into webizen-website; WR-06 publishes the public LOD.",
+        "Do not edit play.rs. The integrator binds the walk mode to this character."
+      ],
+      "acceptance": "Walk mode shows the person on the ground in both PNGs. Feet meet the mesh. The figure is recognisable as a person at camp distance."
+    },
+    {
+      "id": "WR-05",
+      "wave": 3,
+      "role": "drive",
+      "model": "grok-4.7",
+      "title": "Drive the Passat and Jayco along the road",
+      "owned_paths": [
+        "native/world-host/src/runtime/vehicle.rs"
+      ],
+      "task": [
+        "Profile 7 shows about 8 km/h on Grass beside the camper. The HUD updates. The sought drive does not happen.",
+        "Enter, drive, hitch, and exit stay on the existing keys. The driven surface comes from gis_join::surface_at. While the car is on the WR-03 centreline the HUD must not say Grass.",
+        "Suspension samples ground::height_at at the four contact patches. The body follows the track's crown and the slope. Trees and the camp props stop the body. Hitch attaches the Jayco so both vehicles are visible and the trailer follows without crossing the car.",
+        "A scripted or headed run starts at the camp, follows the track, and stops on the community-grounds pad. Record speed, surface, and position at start, mid-track, and pad under evidence/world-recovery/WR-05/, plus a PNG at mid-track that shows the road under the car.",
+        "Do not edit play.rs or boot.rs. If the chase camera cannot be aimed from vehicle.rs, stop and hand the camera lines to the integrator instead of editing play.rs."
+      ],
+      "acceptance": "The car and the hitched camper travel the authored road onto the community grounds. Mid-track surface is dirt, gravel, or sealed. A tree stops the car."
+    },
+    {
+      "id": "WR-06",
+      "wave": 4,
+      "role": "packer",
+      "model": "grok-4.6",
+      "title": "Same-origin public bytes for everything the bare URL draws",
+      "owned_paths": [
+        "production/public-world/",
+        "data/ewm/public-world-manifest.json",
+        "tests/world-recovery/test_public_assets.py"
+      ],
+      "task": [
+        "Cloudflare has no /intenteco mount. COEP require-corp blocks raw.githubusercontent.com. Bare-URL boot must not request either.",
+        "Copy the accepted public LODs into production/public-world/: ground mesh, road mesh, the four hero above-ground eucalypt LODs, their root LODs, the person LOD and anatomy lens, and the Passat and Jayco parts the drive uses if they are not already under production/.",
+        "Each file under 25 MiB. Record path, byte length, and sha256 in data/ewm/public-world-manifest.json. Point the resident scene and character URLs at these /production/public-world/ paths.",
+        "The test builds a file list and fails if any bare-URL asset URL starts with /intenteco/ or http.",
+        "Leave the eco-intent repositories as the authoring source. Do not add .hmc monoliths to webizen-website."
+      ],
+      "acceptance": "Every mesh the bare URL draws is a same-origin file under production/public-world/ or an existing production path, under 25 MiB, with a sha256 in the manifest."
+    },
+    {
+      "id": "WR-07",
+      "wave": 4,
+      "role": "visitor-review",
+      "model": "grok-4.7",
+      "title": "Independent visitor review against the static bundle",
+      "owned_paths": [
+        "evidence/world-recovery/WR-07/"
+      ],
+      "read_only_source": true,
+      "task": [
+        "Serve _site with a static file server that has no eco-intent mount. Open the bare URL and ?backend=webgl2.",
+        "Open the PNGs. Fail the packet if the ground is a single shade, if root wood shows in the normal view, if rhizosphere matches the normal view, if the person is missing, if the road is missing, or if a drive along the track reports Grass.",
+        "Fail if the console contains the world.q42 404, the ?ewm=1 instruction, or any /intenteco/ request.",
+        "Write evidence/world-recovery/WR-07/verdict.md with PASS or FAIL per check and the PNG names. Do not edit source to make a check pass."
+      ],
+      "acceptance": "verdict.md exists, each check is PASS, and the supervisor can see the same pixels."
+    },
+    {
+      "id": "WR-08",
+      "wave": 4,
+      "role": "packer",
+      "model": "grok-4.6",
+      "title": "Assemble _site and probe it the way Cloudflare will",
+      "owned_paths": [
+        "tests/world-recovery/test_site_bundle.py"
+      ],
+      "task": [
+        "Run tooling/build_pages.py. Do not deploy.",
+        "Assert _site/publication/world.q42 exists and matches the bytes named by current.json.",
+        "Assert every path in data/ewm/public-world-manifest.json exists under _site and is at most 25 MiB.",
+        "Assert _site/pkg/native-world/webizen_world_bg.wasm exists and is under 23.5 MiB.",
+        "HEAD those paths on the local static server and record status codes in evidence/world-recovery/WR-08/probe.json.",
+        "Do not run wrangler deploy. Do not commit."
+      ],
+      "acceptance": "probe.json shows 200 for world.q42, the wasm, the ground, the road, the person, and the hero trees. No file exceeds the Workers per-file cap."
+    }
+  ],
+  "supervisor_checks": [
+    "Open the packet PNGs. Refuse a note that contradicts them.",
+    "Confirm streaming.default is false and art_approval is false.",
+    "Refuse a root placement that is still one tilted disc, a wind frame that moves the root joints, or a camp with no Themeda, Poa, and Lomandra.",
+    "Confirm no commit and no deploy were made.",
+    "Confirm tests/ewm/run.py still passes after the integrator wasm, or record the exact failing test and stop.",
+    "A failed check stops the swarm. Restart at that wave."
+  ]
+}

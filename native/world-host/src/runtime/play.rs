@@ -17,9 +17,8 @@ use super::ocs_frames::{
     enu_to_ecef, rebase_to_camera_f32, FloatingOrigin, OcsFrameTree, ScaleRegime, WorldPos64,
 };
 use crate::runtime::vehicle::{
-    corridor_height_at, corridor_zone_at, default_corridor_obstacles, CircleObstacle,
-    DriveCameraMode, VehicleInput, VehicleRig, CAMPSITE_SPAWN_X, CAMPSITE_SPAWN_YAW_RAD,
-    CAMPSITE_SPAWN_Z,
+    corridor_zone_at, default_corridor_obstacles, CircleObstacle, DriveCameraMode, VehicleInput,
+    VehicleRig, CAMPSITE_SPAWN_X, CAMPSITE_SPAWN_YAW_RAD, CAMPSITE_SPAWN_Z,
 };
 use qualia_core_db::mini_parser::hash_token;
 use qualia_core_db::render::camera::{orbit_view_projection_with_near, CAMERA_NEAR_PLANE};
@@ -126,7 +125,12 @@ impl LivePlayBridge {
             last_publish_ms: 0.0,
             last_inspected_slug: None,
             last_inspected_placement: None,
-            vehicle: VehicleRig::spawn_campsite(),
+            vehicle: VehicleRig::spawn_at(
+                CAMPSITE_SPAWN_X,
+                CAMPSITE_SPAWN_Z,
+                CAMPSITE_SPAWN_YAW_RAD,
+                super::ground::height_at,
+            ),
             vehicle_keys: VehicleKeyState::default(),
             vehicle_pedal: VehicleInput::default(),
             vehicle_obstacles: default_corridor_obstacles(),
@@ -195,6 +199,14 @@ pub(super) fn register_catchment_biosphere(
     entries: Vec<InstrumentSpeciesEntry>,
     placements: Vec<CatchmentPlacementRef>,
 ) {
+    let placements: Vec<CatchmentPlacementRef> = placements
+        .into_iter()
+        .map(|mut placement| {
+            placement.pos[1] =
+                super::ground::height_at(placement.pos[0] as f64, placement.pos[2] as f64) as f32;
+            placement
+        })
+        .collect();
     PLAY_BRIDGE.with(|b| {
         let mut br = b.borrow_mut();
         br.telemetry.catchment_placements = placements.len();
@@ -801,14 +813,14 @@ fn install_vehicle_controls(state: &Shared) -> Result<(), JsValue> {
         };
         let rig = PLAY_BRIDGE.with(|b| {
             let mut br = b.borrow_mut();
-            br.vehicle.teleport_to(x, z, yaw, corridor_height_at);
+            br.vehicle.teleport_to(x, z, yaw, super::ground::height_at);
             br.vehicle.clone()
         });
         if let Ok(mut w) = s.try_borrow_mut() {
             if rig.active {
                 apply_vehicle_camera(&mut w, &rig);
             } else {
-                w.camera.target = [x as f32, corridor_height_at(x, z) as f32 + 1.5, z as f32];
+                w.camera.target = [x as f32, super::ground::height_at(x, z) as f32 + 1.5, z as f32];
                 w.goal.target = w.camera.target;
                 let _ = set_camera(&mut w);
             }
@@ -867,7 +879,7 @@ fn start_ewm_state_loop(state: &Shared) -> Result<(), JsValue> {
                 br.vehicle.step_with_terrain(
                     input,
                     dt_s,
-                    corridor_height_at,
+                    super::ground::height_at,
                     None,
                     &obstacles,
                 );

@@ -1,0 +1,56 @@
+{
+  "schema": "webizen.wr01-soil/v1",
+  "frame": {
+    "units": "metres",
+    "up": "+Y",
+    "origin": "basin centre",
+    "bounds_xz_m": [
+      -300.0,
+      300.0
+    ],
+    "cell_m": 2.5,
+    "vertices_side": 241,
+    "note": "Runtime height_at samples catchment-soil.bin. This script's smoothstep is not compiled into the host."
+  },
+  "campsite_pad": {
+    "centre_xz": [
+      -22.0,
+      28.0
+    ],
+    "flat_radius_m": 8.0,
+    "blend_radius_m": 13.0,
+    "mesh_y_m": 4.4909216892549235
+  },
+  "bin": {
+    "path": "production/ground/catchment-soil.bin",
+    "bytes": 464672,
+    "sha256": "a0014d5a76984df09f1a1f3f3284759d7a443a114f1102f6dc034db74855d448"
+  },
+  "glb": {
+    "path": "production/ground/inputs/catchment-ground.glb",
+    "bytes": 4390832,
+    "sha256": "65e42b379e8aa00335d4dc187df41f3dce859cf16fcf044b2afa844d8161c99d"
+  },
+  "native": {
+    "path": "production/ground/catchment-ground.10d",
+    "bytes": 7375288,
+    "sha256": "b782bfa73ce391ebbd504f7b27151048c53feb0fd93b201b2963f2fb42aeff5e",
+    "source": "site/world/ground-catchment.vibe via synth_produce_present preview",
+    "host_admission": "FLAG_DEFAULT_DISPOSITION_REFUSE cleared and the whole-file CRC-32C resealed. Mesh sections are the Synth bytes. The unpatched file remains at synth/production/wr01-catchment-ground/catchment-ground.10d."
+  },
+  "material_counts": {
+    "silt": 33227,
+    "litter": 2669,
+    "sandstone": 17407,
+    "granite": 2967,
+    "pebble": 482,
+    "wet": 1298,
+    "pad": 31
+  },
+  "tufts": 70,
+  "species_sources": [
+    "C:/github/eco-intent/themeda-triandra",
+    "C:/github/eco-intent/poa-labillardierei",
+    "C:/github/eco-intent/lomandra-longifolia"
+  ]
+}

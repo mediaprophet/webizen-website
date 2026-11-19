@@ -1,0 +1,84 @@
+// Day-lit WR-01 camera. The host samples this record; it does not evaluate the soil Vibe.
+module wr01_ground;
+import "vibe:0.1/math" as math;
+
+pure fn clamp(v: f64, lo: f64, hi: f64) -> f64 {
+    return math.min(hi, math.max(lo, v));
+}
+
+pure fn contains_id(ids: List, id: String) budget(steps: 10000) -> bool {
+    for candidate in ids { if candidate == id { return true; } }
+    return false;
+}
+
+pure fn is_place(places: List, id: String) budget(steps: 10000) -> bool {
+    for place in places { if place.id == id { return true; } }
+    return false;
+}
+
+// Every public place, once. Purpose does not drop a place.
+pure fn observer_path(places: List, edges: List, purpose: String) budget(steps: 200000) -> List {
+    let mut route = [];
+    let mut seen = len(edges) >= 0 && purpose == purpose;
+    for place in places {
+        if seen && !contains_id(route, place.id) { route = route.push(place.id); }
+    }
+    return route;
+}
+
+pure fn select_place(places: List, id: String) budget(steps: 10000) -> Record {
+    for place in places {
+        if place.id == id { return place; }
+    }
+    return {id: ""};
+}
+
+pure fn fit_view(camera: Record, aspect: f64) -> Record {
+    let factor = math.max(1.0, 0.9 / math.max(0.25, aspect));
+    return {yaw: camera.yaw, pitch: camera.pitch, zoom: clamp(camera.zoom * factor, 0.8, 150.0), target: camera.target};
+}
+
+pure fn input_camera(camera: Record, event: Record) -> Record {
+    let orbit = event.kind == "orbit";
+    let pan = event.kind == "pan";
+    let zoom = event.kind == "zoom";
+    let yaw = camera.yaw + if orbit { event.dx * 0.005 } else { 0.0 };
+    let pitch = clamp(camera.pitch + if orbit { event.dy * 0.005 } else { 0.0 }, 0.04, 1.45);
+    let distance = clamp(camera.zoom * if zoom { math.exp(event.dy * 0.001) } else { 1.0 }, 3.0, 150.0);
+    let px = if pan { event.dx * camera.zoom * 0.0015 } else { 0.0 };
+    let pz = if pan { event.dy * camera.zoom * 0.0015 } else { 0.0 };
+    return {yaw: yaw, pitch: pitch, zoom: distance, target: [camera.target[0] + px, camera.target[1], camera.target[2] + pz]};
+}
+
+pure fn chapter_settings(chapters: List, id: String) budget(steps: 10000) -> Record {
+    for chapter in chapters {
+        if chapter.id == id { return {id: chapter.id}; }
+    }
+    return {id: ""};
+}
+
+pure fn world_settings() -> Record {
+    return {
+        default_locale: "en-AU",
+        scene_mode: "reference-model",
+        scene_title: "camp",
+        scene_description: "WR-01 soil mesh and understorey. The camera stays on this view.",
+        marker_height: 0.0,
+        marker_sigma: 0.42,
+        marker_alpha: 0.0,
+        markers_visible: false,
+        sky_preset: 1,
+        sky_colour: [0.64, 0.76, 0.88],
+        environment_fallback: [0.16, 0.17, 0.15],
+        environment_probes: [
+            [0.0,30.0,0.0,260.0, 1.8,2.1,2.25, 0.18,0.23,0.26, 0.16,0.21,0.23, 0.14,0.18,0.19, 0.12,0.15,0.15, 0.09,0.12,0.11, 0.0,1.0,0.0],
+            [-45.0,12.0,40.0,180.0, 1.4,1.55,1.18, 0.11,0.13,0.09, 0.10,0.12,0.08, 0.09,0.11,0.07, 0.08,0.10,0.06, 0.07,0.08,0.05, 0.7,0.5,-0.4],
+            [45.0,16.0,-25.0,200.0, 1.15,1.45,1.65, 0.11,0.15,0.18, 0.10,0.14,0.17, 0.09,0.13,0.15, 0.08,0.11,0.13, 0.07,0.09,0.11, -0.7,0.5,0.4]
+        ],
+        exposure_ev: 0.35,
+        sun: [-0.42, 0.84, 0.32, 2.3, 0.42],
+        camera: {yaw: 0.493941, pitch: 0.200457, zoom: 30.1330, target: [-22.00000, 4.89092, 26.00000]},
+        water: {colour: [0.05, 0.32, 0.38, 0.86], amplitude: 0.02, frequency: 1.1, quality: 1},
+        max_dpr: 1.0
+    };
+}

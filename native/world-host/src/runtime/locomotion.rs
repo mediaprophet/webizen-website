@@ -106,6 +106,7 @@ pub fn catchment_river_x(z: f64) -> f64 {
         + oz * ((z * 0.0175).sin() * 26.0 + (z * 0.0085 + 0.7).sin() * 14.0)
 }
 
+#[allow(dead_code)]
 fn core_noise(x: f64, z: f64) -> f64 {
     (x * 0.11 + z * 0.07).sin() * 0.5
         + (x * 0.28 - z * 0.16).sin() * 0.22
@@ -113,6 +114,7 @@ fn core_noise(x: f64, z: f64) -> f64 {
         + (x * 0.73 + z * 0.61).sin() * 0.05
 }
 
+#[allow(dead_code)]
 fn core_height(x: f64, z: f64) -> f64 {
     let d = (x - catchment_river_x(z)).abs();
     let bank = 1.0 - (-(d / 9.0).powi(2)).exp();
@@ -126,6 +128,7 @@ fn core_height(x: f64, z: f64) -> f64 {
         - (-d * d / 16.0).exp() * 1.4
 }
 
+#[allow(dead_code)]
 fn outer_height(x: f64, z: f64) -> f64 {
     let rx = catchment_river_x(z);
     let dx = x - rx;
@@ -175,6 +178,7 @@ fn outer_height(x: f64, z: f64) -> f64 {
     bed_y + point_bar + (land_y - bed_y - point_bar) * channel_t
 }
 
+#[allow(dead_code)]
 fn natural_height(x: f64, z: f64) -> f64 {
     let r = (x * x + z * z).sqrt();
     let s_outer = smoothstep(68.0, 112.0, r);
@@ -186,21 +190,14 @@ fn natural_height(x: f64, z: f64) -> f64 {
     c + (o - c) * s_outer
 }
 
-/// Deterministic `600 m x 600 m` catchment heightfield matching `site/world/living-world.vibe`.
+/// Soil height under `(x, z)`, sampled from the catchment mesh.
 pub fn catchment_height_at(x: f64, z: f64) -> f64 {
-    let d = ((x + 22.0) * (x + 22.0) + (z - 28.0) * (z - 28.0)).sqrt();
-    let level = natural_height(-22.0, 28.0);
-    let t = ((d - 8.0) / 5.0).clamp(0.0, 1.0);
-    level + (natural_height(x, z) - level) * t * t * (3.0 - 2.0 * t)
+    super::ground::height_at(x, z)
 }
 
-/// Ground datum under `(x, z)` — catchment heightfield inside the 600 m basin, 0 m beyond.
+/// Ground datum under `(x, z)`. Same mesh sample as [`catchment_height_at`].
 pub fn terrain_datum_at(x: f64, z: f64) -> f64 {
-    if x.abs() <= 300.0 && z.abs() <= 300.0 {
-        catchment_height_at(x, z)
-    } else {
-        0.0
-    }
+    super::ground::height_at(x, z)
 }
 
 /// Directional uphill slope angle in degrees between two planar samples.
@@ -933,6 +930,11 @@ pub fn set_rhizosphere_xray(w: &mut super::World, active: bool) -> bool {
     });
     sync_locomotion_receipt(w);
     super::ui::sync_mode_ui(current_mode(), active);
+    let mut wood = w.wood.take();
+    if let Some(wood) = wood.as_mut() {
+        wood.set_lens(&mut w.portal, active);
+    }
+    w.wood = wood;
     let msg = if active {
         "Rhizosphere X-Ray Lens active: subterranean root systems & bio-electric fields revealed."
     } else {

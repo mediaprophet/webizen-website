@@ -1,0 +1,14 @@
+{
+  "schema": "webizen.wr03-road/v1",
+  "frame": "metres, +Y up, same axes as ground::height_at",
+  "mesh": "production/corridor/forestry-road.bin",
+  "bytes": 25256,
+  "centreline": "production/corridor/centreline.json",
+  "samples": 59,
+  "max_grade": 0.1277,
+  "drain_vertices": 59,
+  "half_width_m": {"dirt": 4.5, "gravel": 5.0, "sealed": 6.5},
+  "pad": {"x": -22, "z": 154, "sealed_radius_m": 9, "gravel_loop_outer_m": 13.5},
+  "sha256": "09b7b5c85d7e70b35d5dab5e6cb9ddc94be68453bf719cdb41e8ec90566c5af1",
+  "note": "Vertex y is ground::height_at plus crown 0.12 m, shoulder, or cut-side drain -0.26 m. Tile clearance half-widths in gis_join.rs are unchanged."
+}

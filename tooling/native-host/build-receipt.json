@@ -1,6 +1,6 @@
 {
   "schema": "webizen.native-world-build/v1",
-  "compiler": "rustc 1.96.1 (31fca3adb 2026-06-26)",
+  "compiler": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
   "binding_generator": "wasm-bindgen 0.2.129",
   "binding_generator_sha256": "7923ed91d8ece7a2986dc5de9395bff2a8e5cae483330b13d0ec97a955b0e351",
   "source_files": [
@@ -26,7 +26,7 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\boot.rs",
-      "sha256": "63886704b8991cb62e997962e9112506f805af4b438099a1fe5bc18b5c02b3af"
+      "sha256": "55500f82b4a879878b6f35b8ff46b6689443d5e079b8e37cdd5e5734cc3a76d8"
     },
     {
       "path": "native\\world-host\\src\\runtime\\catalog.rs",
@@ -50,11 +50,15 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\gis_join.rs",
-      "sha256": "a477e98371dbbbc2f58f8eeb8b8160336ff1455f4ed41c4c30029143da4e4196"
+      "sha256": "295726e8b201e87fa44b3cd8127794f830a4cb7e8fa4455c73956553e70c1ebe"
     },
     {
       "path": "native\\world-host\\src\\runtime\\graphics.rs",
       "sha256": "62377c4436dacc1961d1cce109bb09965b81dc08810dbaa9ac136aacf6ec553a"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\ground.rs",
+      "sha256": "3bcfcc8ed810b8b8b8f0f16397d66b75d53a450efd83cb4f7db26f5b8e667bf7"
     },
     {
       "path": "native\\world-host\\src\\runtime\\input.rs",
@@ -62,7 +66,7 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\instances.rs",
-      "sha256": "25ff22adf899402b2dafd54223673bfdbcf306ca98ee4ea059c2a364b23b52f2"
+      "sha256": "7d45a22de2ea9fe8d588bb4177411373b2f9ed0583e240eb4790e81cdbbaedb2"
     },
     {
       "path": "native\\world-host\\src\\runtime\\instruments\\data.rs",
@@ -89,6 +93,14 @@
       "sha256": "97a22a9ba7364c989959b820081a4f42b34da0a24630b3d8e9315c67858fb673"
     },
     {
+      "path": "native\\world-host\\src\\runtime\\instruments\\rhizosphere.rs",
+      "sha256": "74727b69bf27f5c0dd25c717e0561b42902a021b911755720023342a558d8ab4"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\instruments\\rhizosphere_joints.inc.rs",
+      "sha256": "2fbfcb8084dce7a809d1c0f3ece132ac81d3827ceec18999e765c2e71eb4073f"
+    },
+    {
       "path": "native\\world-host\\src\\runtime\\instruments\\science.rs",
       "sha256": "279f716aa8d4e790c23ed85bcdc120085f43a313cb347f01ba0c1df0f6de854b"
     },
@@ -102,7 +114,7 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\locomotion.rs",
-      "sha256": "778698d802af6c00f868c3d23f3d947214d07e33aaae189a09db53e6b9a937ce"
+      "sha256": "f6cf8e985a4c69856ccac11e7423bea3a5a4161fef85a6c519338c0aeb05dd2f"
     },
     {
       "path": "native\\world-host\\src\\runtime\\macros.rs",
@@ -114,7 +126,11 @@
     },
     {
       "path": "native\\world-host\\src\\runtime\\play.rs",
-      "sha256": "9d440876c9f20a94742fdfdc8f1bc22df2fadf2f70e7e4fdbefb10d2385d60db"
+      "sha256": "22c8a298c9e69c98f6749dcb312d726dd407d08cbb102cf51effb4cd77b75ea6"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\resident_ground.rs",
+      "sha256": "1407aa5bf4dfc30875cdc57a521d6bb9248da7039ea28a202b0c9a5c7d6dc2f8"
     },
     {
       "path": "native\\world-host\\src\\runtime\\scene_q42.rs",
@@ -137,6 +153,10 @@
       "sha256": "dd174c0d33df214356718f00846e11995baf12b5cec74e2698c289a057ae6729"
     },
     {
+      "path": "native\\world-host\\src\\runtime\\surface_field.rs",
+      "sha256": "74597a726a348c2790917a80e321a8cac6abf0a25b0c54ddf9332c554c722d26"
+    },
+    {
       "path": "native\\world-host\\src\\runtime\\textures.rs",
       "sha256": "f255bef965d4d23b6e5b0d95c3866d38d59f7cbb40845aab730d0543d921bbe9"
     },
@@ -153,12 +173,24 @@
       "sha256": "819a73da6663dec90c35b519787757abc770190b1c31461ea600df92556bf113"
     },
     {
+      "path": "native\\world-host\\src\\runtime\\understorey.rs",
+      "sha256": "6d18773e93a98df5d41e220f9c0bc6da1ac9562912b9f9d8341d5e22ecdee3f0"
+    },
+    {
       "path": "native\\world-host\\src\\runtime\\vehicle.rs",
       "sha256": "162bc9ddb7691ef1cc21c0b0cbfe21c121511721d2901ad6795c91fabbc4d7dd"
     },
     {
+      "path": "native\\world-host\\src\\runtime\\wind.rs",
+      "sha256": "0e30ee5ffa9aa8c086c3cae4476716662e4bfc65cd316ab2b05df8d9cd2b8a6e"
+    },
+    {
+      "path": "native\\world-host\\src\\runtime\\woody.rs",
+      "sha256": "29e6d6308a12fb70853228c4cc43a159ac4e78581c7cda6a23a03fd0593234a6"
+    },
+    {
       "path": "native\\world-host\\src\\runtime.rs",
-      "sha256": "89766876666dad61f45298c251e5c61235cf562f7b1eb66eee5a8803074a3a57"
+      "sha256": "e7a40ff6d02377ad7490ae33296c4e31168c7efdadc58b3f35cd1db34f8c693c"
     }
   ],
   "cargo_lock_sha256": "1af98ef6a549f24cd96be430e6d683d95c2601da5b52dc2d0f25097e2d407f0b",
@@ -169,24 +201,24 @@
   "authored_javascript_world_logic": false,
   "outputs": [
     {
-      "path": "C:\\github\\webizen-website\\site\\pkg\\native-world\\webizen_world.js",
-      "bytes": 363625,
-      "sha256": "746b7660162e845e1a851243c9a016dce2e3e85a9b622c7bf665e3aa5640baa5"
+      "path": "site\\pkg\\native-world\\webizen_world.js",
+      "bytes": 367862,
+      "sha256": "f2406c13b8013f45f5ef2a28558ab3c2c90b03bddb6b966859ae140f28499d2c"
     },
     {
-      "path": "C:\\github\\webizen-website\\site\\pkg\\native-world\\webizen_world_bg.wasm",
-      "bytes": 21317822,
-      "sha256": "bc0bc55e1fbee2c8619a97a8736e29f22908cc3921da508836a178996e81376e"
+      "path": "site\\pkg\\native-world\\webizen_world_bg.wasm",
+      "bytes": 23875777,
+      "sha256": "0ee6bae8c937a5120cb5cab0d3e4cf30eaa50501e9650d2afc710d67be752edf"
     },
     {
-      "path": "C:\\github\\webizen-website\\site\\pkg\\native-world\\webizen_world.d.ts",
-      "bytes": 128754,
-      "sha256": "e049a003a8ce435f2915da26cd938b1b2758a29bbd16a041f2f982488431b1d6"
+      "path": "site\\pkg\\native-world\\webizen_world.d.ts",
+      "bytes": 130075,
+      "sha256": "bf48251f70a243b23f032400d9c16357e3913c8ba2c15f8f76f1e656c81b5e51"
     },
     {
-      "path": "C:\\github\\webizen-website\\site\\pkg\\native-world\\webizen_world_bg.wasm.d.ts",
-      "bytes": 37721,
-      "sha256": "5092f9de60e36cff6b6eb767f6ad93ce9b0d6611c9568f96ff2887f2fb8ba364"
+      "path": "site\\pkg\\native-world\\webizen_world_bg.wasm.d.ts",
+      "bytes": 39042,
+      "sha256": "73cfbb72e29613b5fc6d601f4baee7dc11acc3b3bb43419419d8fa9aa51f4b51"
     }
   ],
   "runtime_visual_acceptance": "pending browser QA",
@@ -195,11 +227,11 @@
     "identity_kind": "served build identity; browser QA must compare served WASM bytes with this digest",
     "wasm": {
       "url": "/pkg/native-world/webizen_world_bg.wasm",
-      "bytes": 21317822,
-      "sha256": "bc0bc55e1fbee2c8619a97a8736e29f22908cc3921da508836a178996e81376e"
+      "bytes": 23875777,
+      "sha256": "0ee6bae8c937a5120cb5cab0d3e4cf30eaa50501e9650d2afc710d67be752edf"
     },
-    "generated_loader_sha256": "746b7660162e845e1a851243c9a016dce2e3e85a9b622c7bf665e3aa5640baa5",
-    "host_source_fingerprint": "fb34942b8093d15b674ec84c436e25e27ee88e087c825e010690b7387de896d1",
+    "generated_loader_sha256": "f2406c13b8013f45f5ef2a28558ab3c2c90b03bddb6b966859ae140f28499d2c",
+    "host_source_fingerprint": "b749e6694716c3bf793f1937725f3b2f11e8b0b9f7b9632871b7bad2ee680a45",
     "cargo_lock_sha256": "1af98ef6a549f24cd96be430e6d683d95c2601da5b52dc2d0f25097e2d407f0b",
     "render_provider": {
       "repository": "https://github.com/mediaprophet/etalon.git",
@@ -358,7 +390,7 @@
     },
     "native_core": {
       "repository": "qualiaDB",
-      "revision": "4b7fc106238b23c7cfe8613886b716245f8a2976",
+      "revision": "972df30ad879ec383a6419981f2a0d08c3bead3c",
       "tracked_dirty": [
         " M crates/qualia-core-db/Cargo.toml",
         " M crates/qualia-core-db/src/bundle/stream/publish/mod.rs",
@@ -367,26 +399,22 @@
         " M crates/qualia-core-db/src/container_10d/skeletal_container.rs",
         " M crates/qualia-core-db/src/container_10d/skeletal_section/skl2.rs",
         " M crates/qualia-core-db/src/net/qdnf/bearer/local_stream/unix.rs",
-        " M crates/qualia-core-db/src/render/gpu/mesh_upload.rs",
-        " M crates/qualia-core-db/src/render/gpu/portal_gpu/constructors.rs",
-        " M crates/qualia-core-db/src/render/portal/mod.rs",
         " M crates/qualia-core-db/src/render/portal/scene_mesh.rs",
-        " M crates/qualia-core-db/src/render/vertebrate_skin_seal.rs",
-        " M crates/qualia-core-db/src/wasm_bridge/engine/mod.rs"
+        " M crates/qualia-core-db/src/render/vertebrate_skin_seal.rs"
       ],
       "untracked_source_files": [
         "src/bin/ewm-first-paint.rs",
         "src/bundle/stream/publish/ewm_first_paint.rs",
         "src/bundle/stream/publish/tests/ewm_first_paint.rs"
       ],
-      "source_fingerprint": "ebfc4d2ad1ea7f2923135f3e0c915dc97c95b5776d28af37de0edd7d112a7bb5",
+      "source_fingerprint": "22c837dc17d85484517f601394534ed5429c882d9ff5720e2344e138cb2f2ed9",
       "source_file_count": 3880
     },
-    "compiler": "rustc 1.96.1 (31fca3adb 2026-06-26)"
+    "compiler": "rustc 1.99.1 (58cf8f9c3 2026-10-13)"
   },
   "qualified_bundle": {
-    "path": "C:\\github\\webizen-website\\site\\pkg\\native-world\\qualified\\d9ace464d8a89e6f60597022d95419b5787146533ebe73e9420496a470694a11",
-    "identity_sha256": "d9ace464d8a89e6f60597022d95419b5787146533ebe73e9420496a470694a11",
+    "path": "site\\pkg\\native-world\\qualified\\1e03c6b71cc1539f32bd557d3dfcd49b4e0a706132e2a86f4254c1d8ec6dc8ce",
+    "identity_sha256": "1e03c6b71cc1539f32bd557d3dfcd49b4e0a706132e2a86f4254c1d8ec6dc8ce",
     "publication": "complete directory renamed into place after checksum verification"
   }
 }

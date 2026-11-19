@@ -1,0 +1,632 @@
+[
+  {
+    "species": "PoaLabillardierei",
+    "x": -16.8,
+    "z": 24.95,
+    "yaw": 0.6,
+    "foreground": true,
+    "material": 3,
+    "y": 4.157506959473551
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -16.8,
+    "z": 26.2,
+    "yaw": 1.4,
+    "foreground": true,
+    "material": 3,
+    "y": 4.029543253561217
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -16.8,
+    "z": 27.45,
+    "yaw": 2.1,
+    "foreground": true,
+    "material": 1,
+    "y": 3.100056837372598
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -9.0,
+    "z": 28.0,
+    "yaw": 0.0,
+    "foreground": false,
+    "material": 3,
+    "y": 3.014180371514339
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -33.87163893706095,
+    "z": 38.87539373761054,
+    "yaw": 2.399963229728653,
+    "foreground": false,
+    "material": 2,
+    "y": 6.170665644561426
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -20.32142608543437,
+    "z": 8.873516015395307,
+    "yaw": 4.799926459457306,
+    "foreground": false,
+    "material": 2,
+    "y": 3.1388871886282925
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -8.431813400171364,
+    "z": 45.69729675380482,
+    "yaw": 7.199889689185959,
+    "foreground": false,
+    "material": 2,
+    "y": 3.007435919574025
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -47.011722527011884,
+    "z": 23.575778460365484,
+    "yaw": 9.599852918914612,
+    "foreground": false,
+    "material": 2,
+    "y": 10.424789635236795
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 2.047025902153319,
+    "z": 12.703250500149803,
+    "yaw": 11.999816148643266,
+    "foreground": false,
+    "material": 5,
+    "y": 1.207533179911895
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -30.20349603488704,
+    "z": 58.5165963502746,
+    "yaw": 14.399779378371917,
+    "foreground": false,
+    "material": 2,
+    "y": 6.8053778374564
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -37.993473757553915,
+    "z": -2.7944604948103375,
+    "yaw": 16.799742608100573,
+    "foreground": false,
+    "material": 3,
+    "y": 8.593287722399088
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -9.788823147786465,
+    "z": 32.45950220136333,
+    "yaw": 19.199705837829224,
+    "foreground": false,
+    "material": 2,
+    "y": 3.03683079554661
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -36.881963453818656,
+    "z": 34.14305817644647,
+    "yaw": 21.599669067557876,
+    "foreground": false,
+    "material": 2,
+    "y": 7.061926162487094
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -13.862156895080116,
+    "z": 10.60990196693222,
+    "yaw": 23.99963229728653,
+    "foreground": false,
+    "material": 2,
+    "y": 2.4780864000767195
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -15.325969822879333,
+    "z": 49.2778598828661,
+    "yaw": 26.399595527015183,
+    "foreground": false,
+    "material": 2,
+    "y": 3.46579103731046
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -43.97636472773204,
+    "z": 15.264247436696369,
+    "yaw": 28.799558756743835,
+    "foreground": false,
+    "material": 2,
+    "y": 9.180245662678814
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": 5.835259548403016,
+    "z": 21.88049627232415,
+    "yaw": 31.19952198647249,
+    "foreground": false,
+    "material": 5,
+    "y": 0.6688909214183154
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -40.17408996081576,
+    "z": 53.85077279495094,
+    "yaw": 33.599485216201145,
+    "foreground": false,
+    "material": 1,
+    "y": 7.7364934224421615
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -26.459320936025065,
+    "z": -6.412271892299245,
+    "yaw": 35.999448445929794,
+    "foreground": false,
+    "material": 3,
+    "y": 5.438361302895021
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -12.05956305907144,
+    "z": 36.377810777489714,
+    "yaw": 38.39941167565845,
+    "foreground": false,
+    "material": 2,
+    "y": 3.5289702945807893
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -38.08625146951725,
+    "z": 28.665217001777744,
+    "yaw": 40.799374905387104,
+    "foreground": false,
+    "material": 2,
+    "y": 7.035748157011588
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -8.390475245374429,
+    "z": 14.4567051293552,
+    "yaw": 43.19933813511575,
+    "foreground": false,
+    "material": 2,
+    "y": 2.928794830741885
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -23.030069244470102,
+    "z": 50.27619710254865,
+    "yaw": 45.59930136484441,
+    "foreground": false,
+    "material": 2,
+    "y": 4.763227102335146
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -38.2740122820778,
+    "z": 8.498294324783256,
+    "yaw": 47.99926459457306,
+    "foreground": false,
+    "material": 2,
+    "y": 8.308527800883226
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -47.93912344812199,
+    "z": 46.04776647519265,
+    "yaw": 52.799191054030366,
+    "foreground": false,
+    "material": 3,
+    "y": 9.001269876888832
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -14.383996487150547,
+    "z": -5.853899191854765,
+    "yaw": 55.19915428375902,
+    "foreground": false,
+    "material": 3,
+    "y": 1.6053798159131571
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -15.536648625451162,
+    "z": 39.27940995837626,
+    "yaw": 57.59911751348767,
+    "foreground": false,
+    "material": 2,
+    "y": 3.915143291459529
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -37.33835371286672,
+    "z": 23.106646816447057,
+    "yaw": 59.999080743216325,
+    "foreground": false,
+    "material": 2,
+    "y": 6.917464782002991
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -4.570410235179665,
+    "z": 19.947087444280164,
+    "yaw": 62.39904397294498,
+    "foreground": false,
+    "material": 2,
+    "y": 3.540534866317196
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -30.60916213315926,
+    "z": 48.571152796208985,
+    "yaw": 64.79900720267364,
+    "foreground": false,
+    "material": 2,
+    "y": 6.565365882453353
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -30.596687898659795,
+    "z": 4.09901765255168,
+    "yaw": 67.19897043240229,
+    "foreground": false,
+    "material": 2,
+    "y": 6.00806711763081
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -52.556252164786855,
+    "z": 36.05453000751494,
+    "yaw": 71.99889689185959,
+    "foreground": false,
+    "material": 2,
+    "y": 10.689486809036541
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -19.798109757449666,
+    "z": 40.81216919025665,
+    "yaw": 76.7988233513169,
+    "foreground": false,
+    "material": 2,
+    "y": 4.463816736609785
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -34.72903311657835,
+    "z": 18.141921286728756,
+    "yaw": 79.19878658104555,
+    "foreground": false,
+    "material": 2,
+    "y": 6.786353040920916
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -2.8655550500483784,
+    "z": 26.414750348597774,
+    "yaw": 81.59874981077421,
+    "foreground": false,
+    "material": 2,
+    "y": 3.2999477447534304
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -37.14346942589721,
+    "z": 44.36964672028436,
+    "yaw": 83.99871304050286,
+    "foreground": false,
+    "material": 2,
+    "y": 7.176895388906095
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -21.876091760048496,
+    "z": 2.600302231166765,
+    "yaw": 86.3986762702315,
+    "foreground": false,
+    "material": 2,
+    "y": 3.4270890755300987
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -2.851272742356773,
+    "z": 49.10867699341651,
+    "yaw": 88.79863949996016,
+    "foreground": false,
+    "material": 5,
+    "y": 1.6606011722403897
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -53.46515334034652,
+    "z": 25.083816660688036,
+    "yaw": 91.19860272968882,
+    "foreground": false,
+    "material": 2,
+    "y": 11.898636156824955
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -24.326786580557233,
+    "z": 40.7900767866553,
+    "yaw": 95.99852918914613,
+    "foreground": false,
+    "material": 2,
+    "y": 4.763640901370452
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -30.57495006316726,
+    "z": 14.37354663112269,
+    "yaw": 98.39849241887478,
+    "foreground": false,
+    "material": 2,
+    "y": 6.064715017627756
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -3.482806495158247,
+    "z": 33.07479504061459,
+    "yaw": 100.79845564860342,
+    "foreground": false,
+    "material": 2,
+    "y": 3.143757017937174
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -41.84000453079739,
+    "z": 38.18156275912196,
+    "yaw": 103.19841887833208,
+    "foreground": false,
+    "material": 2,
+    "y": 8.356728228656175
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -13.170532804186891,
+    "z": 4.184028278525769,
+    "yaw": 105.59838210806073,
+    "foreground": false,
+    "material": 2,
+    "y": 2.329251122295314
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -11.25428434477894,
+    "z": 54.39658301858665,
+    "yaw": 107.99834533778939,
+    "foreground": false,
+    "material": 2,
+    "y": 3.2666595978397757
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -50.555525084595956,
+    "z": 14.467003763282442,
+    "yaw": 110.39830856751804,
+    "foreground": false,
+    "material": 2,
+    "y": 11.405863701563284
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -28.573090616787333,
+    "z": 39.21581382439555,
+    "yaw": 115.19823502697534,
+    "foreground": false,
+    "material": 2,
+    "y": 5.013078453634286
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -25.38023330191955,
+    "z": 12.258843027763362,
+    "yaw": 117.598198256704,
+    "foreground": false,
+    "material": 2,
+    "y": 4.484623141263421
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -6.3472565354466575,
+    "z": 39.11897576366108,
+    "yaw": 119.99816148643265,
+    "foreground": false,
+    "material": 2,
+    "y": 2.9404478332722266
+  },
+  {
+    "species": "ThemedaTriandra",
+    "x": -44.128808123992926,
+    "z": 30.757870738723007,
+    "yaw": 122.3981247161613,
+    "foreground": false,
+    "material": 2,
+    "y": 8.94837691271886
+  },
+  {
+    "species": "PoaLabillardierei",
+    "x": -5.536495095506634,
+    "z": 8.657998907565876,
+    "yaw": 124.79808794588996,
+    "foreground": false,
+    "material": 5,
+    "y": 2.1571391426132207
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -20.96136813925802,
+    "z": 56.48106816567545,
+    "yaw": 127.19805117561862,
+    "foreground": false,
+    "material": 2,
+    "y": 4.651518150607868
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -7.5,
+    "z": -52.5,
+    "yaw": 0.2,
+    "foreground": false,
+    "material": 6,
+    "y": 0.6128554515609204
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -15.0,
+    "z": -37.5,
+    "yaw": 0.55,
+    "foreground": false,
+    "material": 6,
+    "y": 2.3492016693399123
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -15.0,
+    "z": -30.0,
+    "yaw": 0.8999999999999999,
+    "foreground": false,
+    "material": 6,
+    "y": 0.8230441402178545
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": -30.0,
+    "yaw": 1.2499999999999998,
+    "foreground": false,
+    "material": 5,
+    "y": 2.0164017914724224
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": -22.5,
+    "yaw": 1.5999999999999999,
+    "foreground": false,
+    "material": 5,
+    "y": 1.3991802961376933
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -15.0,
+    "z": -15.0,
+    "yaw": 1.95,
+    "foreground": false,
+    "material": 6,
+    "y": 0.7478637874450937
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": -15.0,
+    "yaw": 2.3,
+    "foreground": false,
+    "material": 5,
+    "y": 1.7084745368240193
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": -7.5,
+    "yaw": 2.65,
+    "foreground": false,
+    "material": 5,
+    "y": 0.7284595929623503
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -7.5,
+    "z": 0.0,
+    "yaw": 3.0,
+    "foreground": false,
+    "material": 5,
+    "y": 1.1506918517699107
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 7.5,
+    "z": 0.0,
+    "yaw": 3.35,
+    "foreground": false,
+    "material": 5,
+    "y": 1.881077013446447
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": 7.5,
+    "yaw": 3.7,
+    "foreground": false,
+    "material": 5,
+    "y": 0.7253022221875933
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": 15.0,
+    "yaw": 4.05,
+    "foreground": false,
+    "material": 5,
+    "y": 2.243866986984251
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 15.0,
+    "z": 15.0,
+    "yaw": 4.3999999999999995,
+    "foreground": false,
+    "material": 6,
+    "y": 1.2129403601644544
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": 37.5,
+    "yaw": 4.75,
+    "foreground": false,
+    "material": 5,
+    "y": 1.9867438473607626
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 15.0,
+    "z": 37.5,
+    "yaw": 5.1,
+    "foreground": false,
+    "material": 6,
+    "y": 0.8304979332749878
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": 0.0,
+    "z": 45.0,
+    "yaw": 5.45,
+    "foreground": false,
+    "material": 5,
+    "y": 1.1502306114447896
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -7.5,
+    "z": 60.0,
+    "yaw": 5.8,
+    "foreground": false,
+    "material": 5,
+    "y": 2.071741852879321
+  },
+  {
+    "species": "LomandraLongifolia",
+    "x": -7.5,
+    "z": 67.5,
+    "yaw": 6.1499999999999995,
+    "foreground": false,
+    "material": 5,
+    "y": 1.6734882405058906
+  }
+]

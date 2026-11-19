@@ -19,6 +19,15 @@ mod instances;
 #[cfg(not(target_arch = "wasm32"))]
 pub use instances::InstanceState64;
 
+#[path = "../../../../production/corridor/mesh.rs"]
+mod corridor_mesh;
+
+/// Authored forestry-track mesh. Vertex y is `ground::height_at` plus crown,
+/// shoulder, or cut-side drain. `surface_at` reads this mesh.
+const ROAD_MESH: &[u8] = include_bytes!("../../../../production/corridor/forestry-road.bin");
+
+pub use corridor_mesh::{road_vertices, RoadSurface, RoadVertex};
+
 pub const DEFAULT_RADIUS_M: f32 = 80.0;
 pub const TILE_METRES: f32 = 100.0;
 pub const MAX_WINDOW: usize = 64;
@@ -541,6 +550,21 @@ fn is_position_clear_for_stratum(
     stratum: EcologicalStratum,
     profile: &DatasetTileProfile,
 ) -> bool {
+    // The authored track uses the same half-widths as the tile clearances
+    // (4.5 / 5.0 / 6.5). Those tile fields stay as they are; this is an
+    // extra keep-out so the new carriageway and pad are not planted.
+    let (ox, oz) = profile.tile.world_origin_xz();
+    let extra = match stratum {
+        EcologicalStratum::CanopyTree | EcologicalStratum::SubcanopyTree => 3.0,
+        EcologicalStratum::Shrub => 1.5,
+        EcologicalStratum::GrassTussock => 0.5,
+        EcologicalStratum::Fauna => 1.0,
+    };
+    if corridor_mesh::plant_blocked(ROAD_MESH, ox as f64 + lx as f64, oz as f64 + lz as f64, extra)
+    {
+        return false;
+    }
+
     // 1. Road centreline clearance
     if let Some(rz) = profile.road_centreline_z_local {
         let dist_road = (lz - rz).abs();
@@ -718,6 +742,49 @@ pub fn generate_tile_placements(
     }
 
     out
+}
+
+/// Driving surface at world `(x, z)`.
+///
+/// On the forestry-track mesh this is dirt, gravel, or sealed. Off the mesh,
+/// wet bank, open water, and low pebble are creek. Everything else is grass.
+/// Centreline samples of the mesh are never grass.
+pub fn surface_at(x: f64, z: f64) -> RoadSurface {
+    corridor_mesh::surface_at_with(ROAD_MESH, x, z, off_road_is_creek(x, z))
+}
+
+/// Centreline of the authored track, in the same metre frame as `ground::height_at`.
+pub fn road_centreline() -> Vec<corridor_mesh::CentrelineSample> {
+    corridor_mesh::centreline(ROAD_MESH)
+}
+
+/// Bytes of `production/corridor/forestry-road.bin`.
+pub fn road_mesh_bytes() -> &'static [u8] {
+    ROAD_MESH
+}
+
+/// `road=1` framing. The eye sits south of a centreline sample so the camp stays in frame.
+/// Gum and root framing win when those queries are present. The default camera is unchanged.
+pub fn road_proof_view() -> Option<([f32; 3], f32, f32, f32)> {
+    let samples = road_centreline();
+    let sample = samples.iter().find(|sample| sample.chainage_m >= 8.0)?;
+    Some((
+        [sample.x, sample.y + 1.2, sample.z],
+        std::f32::consts::PI,
+        0.55,
+        48.0,
+    ))
+}
+
+fn off_road_is_creek(x: f64, z: f64) -> bool {
+    if !x.is_finite() || !z.is_finite() {
+        return false;
+    }
+    let y = super::ground::height_at(x, z);
+    let mat = super::ground::material_at(x, z);
+    y < 0.24
+        || mat == super::ground::GroundMaterial::WetBank
+        || (mat == super::ground::GroundMaterial::Pebble && y < 1.2)
 }
 
 #[cfg(test)]
@@ -954,5 +1021,103 @@ mod tests {
         assert!(has_tree, "Community Grounds perimeter must still include trees");
         assert!(has_grass, "Community Grounds must include native grass tussocks");
         assert!(has_fauna, "Community Grounds must include native fauna");
+    }
+
+    #[test]
+    fn centreline_is_dirt_gravel_or_sealed_and_old_half_widths_stay() {
+        assert_eq!(
+            corridor_tile_profile(TileCoord::new(0, 0, 0)).road_half_width_m,
+            4.5
+        );
+        assert_eq!(
+            corridor_tile_profile(TileCoord::new(1, 0, 0)).road_half_width_m,
+            6.5
+        );
+        assert_eq!(
+            corridor_tile_profile(TileCoord::new(2, 0, 0)).road_half_width_m,
+            6.5
+        );
+        assert_eq!(
+            corridor_tile_profile(TileCoord::new(3, 0, 0)).road_half_width_m,
+            5.0
+        );
+        let samples = road_centreline();
+        assert!(samples.len() >= 40, "authored centreline missing");
+        let mut dirt = false;
+        let mut gravel = false;
+        let mut sealed = false;
+        let mut prev = 0u8;
+        for sample in &samples {
+            let surface = surface_at(sample.x as f64, sample.z as f64);
+            assert_eq!(surface, sample.surface);
+            assert!(
+                matches!(
+                    surface,
+                    RoadSurface::Dirt | RoadSurface::Gravel | RoadSurface::Sealed
+                ),
+                "centreline surface {}",
+                surface.as_str()
+            );
+            dirt |= surface == RoadSurface::Dirt;
+            gravel |= surface == RoadSurface::Gravel;
+            sealed |= surface == RoadSurface::Sealed;
+            let rank = match surface {
+                RoadSurface::Dirt => 0,
+                RoadSurface::Gravel => 1,
+                RoadSurface::Sealed => 2,
+                _ => 9,
+            };
+            assert!(rank >= prev, "surface order");
+            prev = rank;
+            let half = sample.half_width_m;
+            assert!(
+                (half - 4.5).abs() < 1e-3
+                    || (half - 5.0).abs() < 1e-3
+                    || (half - 6.5).abs() < 1e-3,
+                "{half}"
+            );
+        }
+        assert!(dirt && gravel && sealed);
+        assert_eq!(surface_at(-22.0, 28.0), RoadSurface::Grass);
+        assert_ne!(surface_at(0.0, 56.0).as_str(), "grass");
+    }
+
+    #[test]
+    fn authored_track_keeps_trees_off_the_carriageway() {
+        let mut checked = 0usize;
+        for (tx, ty) in [(-1, 0), (-1, 1)] {
+            let tile = TileCoord::new(tx, ty, 0);
+            let profile = corridor_tile_profile(tile);
+            let placed = generate_tile_placements(tile, &profile, 0xB0A3_2026);
+            let (ox, oz) = tile.world_origin_xz();
+            for sample in road_centreline() {
+                if sample.x < ox
+                    || sample.x >= ox + TILE_METRES
+                    || sample.z < oz
+                    || sample.z >= oz + TILE_METRES
+                {
+                    continue;
+                }
+                checked += 1;
+                for inst in &placed {
+                    if !matches!(
+                        inst.stratum,
+                        EcologicalStratum::CanopyTree | EcologicalStratum::SubcanopyTree
+                    ) {
+                        continue;
+                    }
+                    let dx = inst.world_pos[0] - sample.x;
+                    let dz = inst.world_pos[2] - sample.z;
+                    let dist = (dx * dx + dz * dz).sqrt();
+                    assert!(
+                        dist + 1e-3 >= sample.half_width_m + 3.0,
+                        "tree {} on the carriageway at {:.1} m",
+                        inst.species_slug,
+                        dist
+                    );
+                }
+            }
+        }
+        assert!(checked > 10, "centreline did not cross the camp tiles");
     }
 }

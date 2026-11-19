@@ -157,159 +157,24 @@ pub fn derive_placement_from_state64(base_pos: [f32; 3], state: &InstanceState64
     }
 }
 
-/// Default topsoil cover depth (metres) above the uppermost subterranean root plate
-/// so lateral roots remain buried on steep montane slopes.
-pub const DEFAULT_ROOT_SOIL_COVER_M: f64 = 0.08;
+// Slope-disc root placement is retired. `wind::fit_tree` fits each lofted
+// joint with `ground::fit_soil_joint`. The frame loop does not evaluate Vibe.
 
-/// Subterranean 5-order root plate & mycorrhizal network transform aligned to the
-/// terrain surface normal and sunk below the downhill slope face.
-///
-/// Above-ground tree trunks remain vertical (geotropic) via
-/// [`derive_placement_from_state64`], while subterranean root plates use
-/// [`compute_slope_conforming_root_transform`] so no root crown or lateral root
-/// ever pokes into mid-air on the downhill side of a slope.
-#[derive(Clone, Debug, PartialEq)]
-pub struct SlopeRootPlacement {
-    /// World-space `[x, y, z]` origin for the subterranean root plate.
-    pub root_translation: [f64; 3],
-    /// Unit quaternion `[x, y, z, w]` pitching local `+Y` onto `terrain_normal`.
-    pub root_rotation: [f64; 4],
-    /// Vertical burial sink applied (`sin(slope_rad) * root_radius_m + soil_cover_m`).
-    pub sink_depth_m: f64,
-    /// Topsoil cover margin applied (metres).
-    pub soil_cover_m: f64,
-    /// Effective slope angle in radians (`[0, FRAC_PI_2)`).
-    pub slope_rad: f64,
-    /// Normalized upward-facing terrain surface normal `[nx, ny, nz]`.
-    pub terrain_normal: [f64; 3],
-}
+#[cfg(any(target_arch = "wasm32", test))]
+#[path = "wind.rs"]
+mod wind;
 
-/// Normalize a terrain surface normal, guaranteeing a finite unit vector with `ny > 0`.
-fn normalize_upward_normal(n: [f32; 3]) -> [f64; 3] {
-    if !n.iter().all(|v| v.is_finite()) {
-        return [0.0, 1.0, 0.0];
-    }
-    let mut nx = n[0] as f64;
-    let mut ny = n[1] as f64;
-    let mut nz = n[2] as f64;
-    if ny < 0.0 {
-        nx = -nx;
-        ny = -ny;
-        nz = -nz;
-    }
-    let len = (nx * nx + ny * ny + nz * nz).sqrt();
-    if len < 1e-9 || !len.is_finite() {
-        return [0.0, 1.0, 0.0];
-    }
-    [nx / len, ny / len, nz / len]
-}
+#[cfg(any(target_arch = "wasm32", test))]
+pub use wind::{
+    contour_demonstration_site, fit_tree, pose_wind, wind_and_root_mechanics, ContourSite, DrawView,
+    FittedJoint, FittedTree, GumSeed, WindMechanics, WoodySpecies,
+};
 
-/// Shortest-arc unit quaternion `[x, y, z, w]` rotating `+Y = [0, 1, 0]` to unit `normal` (`ny >= 0`).
-fn quat_from_up_to_normal(normal: [f64; 3]) -> [f64; 4] {
-    let [nx, ny, nz] = normal;
-    let x = nz;
-    let y = 0.0;
-    let z = -nx;
-    let w = 1.0 + ny.max(0.0);
-    let norm = (x * x + y * y + z * z + w * w).sqrt();
-    if norm > 1e-12 && norm.is_finite() {
-        [x / norm, y / norm, z / norm, w / norm]
-    } else {
-        [0.0, 0.0, 0.0, 1.0]
-    }
-}
-
-/// Rotate a 3D vector by a unit quaternion `[x, y, z, w]`.
-pub fn rotate_vec_by_quat(q: [f64; 4], v: [f64; 3]) -> [f64; 3] {
-    let [qx, qy, qz, qw] = q;
-    let [vx, vy, vz] = v;
-    let tx = 2.0 * (qy * vz - qz * vy);
-    let ty = 2.0 * (qz * vx - qx * vz);
-    let tz = 2.0 * (qx * vy - qy * vx);
-    [
-        vx + qw * tx + (qy * tz - qz * ty),
-        vy + qw * ty + (qz * tx - qx * tz),
-        vz + qw * tz + (qx * ty - qy * tx),
-    ]
-}
-
-/// Compute a slope-conforming subterranean root plate transform for a flora individual
-/// at `pos` on terrain with `terrain_normal`.
-///
-/// The root plate pitches to match `terrain_normal` and sinks vertically by
-/// `sin(effective_slope) * root_radius_m + soil_cover_m`, guaranteeing that every
-/// point on the top of the root disc (`|r| <= root_radius_m`) lies at or below both
-/// the sloped terrain surface `ground_y(x, z)` and `pos[1]`.
-pub fn compute_slope_conforming_root_transform(
-    pos: [f32; 3],
-    terrain_normal: [f32; 3],
-    root_radius_m: f32,
-    slope_rad: f32,
-) -> SlopeRootPlacement {
-    compute_slope_conforming_root_transform_with_cover(
-        pos,
-        terrain_normal,
-        root_radius_m,
-        slope_rad,
-        DEFAULT_ROOT_SOIL_COVER_M as f32,
-    )
-}
-
-/// Variant of [`compute_slope_conforming_root_transform`] accepting an explicit `soil_cover_m`.
-pub fn compute_slope_conforming_root_transform_with_cover(
-    pos: [f32; 3],
-    terrain_normal: [f32; 3],
-    root_radius_m: f32,
-    slope_rad: f32,
-    soil_cover_m: f32,
-) -> SlopeRootPlacement {
-    let normal = normalize_upward_normal(terrain_normal);
-    let normal_slope = normal[1].clamp(0.0, 1.0).acos();
-    let caller_slope = if slope_rad.is_finite() {
-        (slope_rad as f64).abs().clamp(0.0, std::f64::consts::FRAC_PI_2 - 1e-4)
-    } else {
-        0.0
-    };
-    // Use the steeper of caller-supplied slope_rad and the normal's geometric slope
-    // so roots never under-sink if either estimate is steeper.
-    let eff_slope = caller_slope.max(normal_slope);
-    let radius = if root_radius_m.is_finite() {
-        (root_radius_m as f64).max(0.0)
-    } else {
-        0.0
-    };
-    let cover = if soil_cover_m.is_finite() {
-        (soil_cover_m as f64).max(0.0)
-    } else {
-        DEFAULT_ROOT_SOIL_COVER_M
-    };
-
-    let sink_depth_m = eff_slope.sin() * radius + cover;
-    let px = if pos[0].is_finite() { pos[0] as f64 } else { 0.0 };
-    let py = if pos[1].is_finite() { pos[1] as f64 } else { 0.0 };
-    let pz = if pos[2].is_finite() { pos[2] as f64 } else { 0.0 };
-
-    SlopeRootPlacement {
-        root_translation: [px, py - sink_depth_m, pz],
-        root_rotation: quat_from_up_to_normal(normal),
-        sink_depth_m,
-        soil_cover_m: cover,
-        slope_rad: eff_slope,
-        terrain_normal: normal,
-    }
-}
-
-impl SlopeRootPlacement {
-    /// Convert this subterranean root transform into a renderable [`Placement`].
-    pub fn to_placement(&self, id: impl Into<String>, scale: [f64; 3]) -> Placement {
-        Placement {
-            id: id.into(),
-            translation: self.root_translation,
-            rotation: self.root_rotation,
-            scale,
-        }
-    }
-}
+// Native `rustc --test` of this file, and of `gis_join.rs` which includes it,
+// has no `runtime::ground` parent. The wasm crate uses `runtime::ground`.
+#[cfg(all(test, not(target_arch = "wasm32")))]
+#[path = "ground.rs"]
+mod ground;
 
 #[cfg(target_arch = "wasm32")]
 pub(super) fn bind(
@@ -614,74 +479,5 @@ mod tests {
         assert!(p.translation.iter().all(|v| v.is_finite()));
         assert!(p.rotation.iter().all(|v| v.is_finite()));
         assert!(p.scale.iter().all(|v| v.is_finite() && *v >= 0.15));
-    }
-
-    #[test]
-    fn slope_conforming_root_burial_keeps_root_top_below_ground_on_25_deg_slope() {
-        let slope_deg = 25.0_f64;
-        let slope_rad = slope_deg.to_radians();
-        // Sloped terrain normal tilting downhill toward +X: n = (sin(25°), cos(25°), 0)
-        let normal = [slope_rad.sin() as f32, slope_rad.cos() as f32, 0.0_f32];
-        let ground_pos = [42.0_f32, 488.5_f32, -15.0_f32];
-        let root_radius_m = 3.2_f32;
-
-        let root = compute_slope_conforming_root_transform(
-            ground_pos,
-            normal,
-            root_radius_m,
-            slope_rad as f32,
-        );
-
-        // 1. Verify quaternion aligns local +Y directly onto the terrain normal.
-        let rotated_up = rotate_vec_by_quat(root.root_rotation, [0.0, 1.0, 0.0]);
-        for i in 0..3 {
-            assert!(
-                (rotated_up[i] - root.terrain_normal[i]).abs() < 1e-9,
-                "rotated up[{i}] = {}, expected normal[{i}] = {}",
-                rotated_up[i],
-                root.terrain_normal[i]
-            );
-        }
-
-        // 2. Verify sink depth equals sin(slope_rad) * root_radius_m + soil_cover_m.
-        let expected_sink = slope_rad.sin() * (root_radius_m as f64) + DEFAULT_ROOT_SOIL_COVER_M;
-        assert!((root.sink_depth_m - expected_sink).abs() < 1e-6);
-
-        // 3. Verify EVERY point on the perimeter of the root plate (downhill, uphill, cross-slope)
-        //    has world root_top_y <= local sloped ground_y(x, z) AND <= ground_pos[1].
-        let [nx, ny, nz] = root.terrain_normal;
-        for step in 0..32 {
-            let theta = (step as f64) * std::f64::consts::TAU / 32.0;
-            let local_pt = [
-                (root_radius_m as f64) * theta.cos(),
-                0.0,
-                (root_radius_m as f64) * theta.sin(),
-            ];
-            let offset = rotate_vec_by_quat(root.root_rotation, local_pt);
-            let root_top_y = root.root_translation[1] + offset[1];
-            // Local terrain tangent plane height at (px + offset[0], pz + offset[2]):
-            let local_ground_y =
-                (ground_pos[1] as f64) - (nx * offset[0] + nz * offset[2]) / ny;
-            assert!(
-                root_top_y <= local_ground_y - DEFAULT_ROOT_SOIL_COVER_M + 1e-6,
-                "step {step}: root_top_y ({root_top_y}) poked above sloped ground_y ({local_ground_y})"
-            );
-            assert!(
-                root_top_y <= (ground_pos[1] as f64) - DEFAULT_ROOT_SOIL_COVER_M + 1e-6,
-                "step {step}: root_top_y ({root_top_y}) exceeded stem base ground_y ({})",
-                ground_pos[1]
-            );
-        }
-
-        // 4. Above-ground trunk remains vertical (geotropic) with only slight natural lean,
-        //    independent of the 25-degree slope pitch applied to the subterranean root plate.
-        let trunk_state = InstanceState64::new(0xBEEF, 0.9, 1.1, 1.0, [0.0; 4]);
-        let trunk = derive_placement_from_state64(ground_pos, &trunk_state);
-        let trunk_up = rotate_vec_by_quat(trunk.rotation, [0.0, 1.0, 0.0]);
-        assert!(
-            trunk_up[1] > 0.99,
-            "above-ground trunk must stay nearly vertical (geotropic), got up.y={}",
-            trunk_up[1]
-        );
     }
 }

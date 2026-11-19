@@ -1,0 +1,11 @@
+WR-00 bare URL, 19 November 2026. Server: 127.0.0.1:8877 rooted at _site only. No eco-intent mount. COEP require-corp. Query string empty.
+
+bare-url.png is the viewport after the loader finished. It is not a reading page. There is no sentence telling the visitor to add ?ewm=1, and no "living world could not start" line.
+
+What is in the picture: dusk camp, olive hills, a pale clearing, a gold wagon in the left foreground, a white Jayco-style camper with a blue stripe on the pad, two grey solar arrays to the right of the camper, pale eucalypt trunks and thin canopy, a timber dome left of the camper, and a blue vessel further up the slope. HUD reads Forest Campsite, Observe, WebGPU · Tier A, and "600 m catchment & 17 living species active (871 instances)". Discovered 0 / 17 species.
+
+GET /publication/world.q42 returned 200 (17,092 bytes, sha256 71d716c6301ed57f3f2370e08ca19b7a64bc8312f6d0a97f7594d0a3ec863423, the volume named by current.json). streaming.default in that receipt was false. streaming.enabled was true.
+
+That enabled flag is the previously built wasm, not the boot.rs edited in this packet. The same session then requested /intenteco/... (404) and https://raw.githubusercontent.com/intenteco/... (200). Those trees in the picture came from that third-party fetch. The new boot keeps the catchment loop behind ?ewm=1, so this picture does not prove a bare URL that stays inside _site. The integrator wasm has not been built.
+
+Follow-up, 20 November 2026. wasm-bindgen 0.2.129 wrote site/pkg/native-world/webizen_world_bg.wasm at 19,622,885 bytes, sha256 07e7430d21b38cc814936e46c56ffa710b63075ce0153f567ec8281d07e8d1e0, from target-production-core-wasm. receipt.py exited 0. A server on 127.0.0.1:8879 mapped site, publication/generated, production, data, and packages, and refused /intenteco/. Bare URL http://127.0.0.1:8879/?bootcheck=1 drew the camp in bare-url-bound.png. Console errors: 0. This navigation's requests include /publication/world.q42 200 and the new wasm 200, and include no /intenteco/ or raw.githubusercontent.com URL. window.__webizenNativeWorld.ewm_streaming is false. streamed_species_count is 0. The ground, roots, grasses, and road in that picture are still the old first paint. Those belong to later packets.

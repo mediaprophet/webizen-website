@@ -5,6 +5,13 @@ use std::sync::atomic::AtomicBool;
 const WOODLAND_SCENE_VOLUME: &str = "/production/lush-woodland/scene.q42";
 const WOODLAND_LOGIC_VOLUME: &str = "/data/ewm/camp.q42";
 
+fn query_has_token(query: &str, token: &str) -> bool {
+    query
+        .trim_start_matches('?')
+        .split('&')
+        .any(|part| part == token)
+}
+
 /// LW-06: one-line fetch of `/data/ewm/places/<id>.q42` when it is not the woodland scene.
 pub(super) fn place_scene_volume_if_differs(place_id: &str) -> Option<String> {
     if place_id.is_empty()
@@ -58,9 +65,21 @@ pub async fn boot() -> Result<(), JsValue> {
         .trim_start_matches('?')
         .split('&')
         .any(|p| p == "gpu-timing=1");
-    let ewm_streaming = super::stream::ewm_query_enabled(&query, &canvas);
+    // Query flag defaults on. Catchment streaming stays an explicit ?ewm=1 opt-in.
+    let query_flag = super::stream::ewm_query_enabled(&query, &canvas);
+    let canvas_stream = canvas.get_attribute("data-ewm-streaming");
+    let extra_streaming = if query_has_token(&query, "ewm=0") {
+        false
+    } else if query_has_token(&query, "ewm=1") {
+        true
+    } else {
+        canvas_stream.as_deref() == Some("1")
+    };
     let preview_scene = canvas.get_attribute("data-scene").unwrap_or_default();
-    if preview_scene.ends_with(".q42") && !ewm_streaming {
+    if preview_scene.ends_with(".q42")
+        && preview_scene != WOODLAND_SCENE_VOLUME
+        && !extra_streaming
+    {
         return Err(err(
             "The woodland streams when you add ?ewm=1. The reading view remains available.",
         ));
@@ -167,17 +186,20 @@ pub async fn boot() -> Result<(), JsValue> {
         canvas.get_attribute("data-scene").unwrap_or_default()
     };
     if scene_url.is_empty() {
-        scene_url = if ewm_streaming {
-            "/production/lush-woodland/scene.q42".into()
+        scene_url = if query_flag {
+            WOODLAND_SCENE_VOLUME.into()
         } else {
             "/production/native-world/scene.json".into()
         };
     }
+    let resident_scene = scene_url == WOODLAND_SCENE_VOLUME;
+    // First-paint Q42 draws the camp. The catchment loop is the ?ewm=1 extra.
+    let ewm_streaming = extra_streaming || resident_scene;
     let mut scene_graph_receipt = Value::Null;
     let mut admitted_catalog = None;
     let mut logic_url = None;
-    let scene: Scene = if scene_url.ends_with(".q42") {
-        if !ewm_streaming {
+    let mut scene: Scene = if scene_url.ends_with(".q42") {
+        if !resident_scene && !extra_streaming {
             return Err(err(
                 "The woodland streams when you add ?ewm=1. The reading view remains available.",
             ));
@@ -264,25 +286,27 @@ pub async fn boot() -> Result<(), JsValue> {
     let mut overlapping = Vec::new();
     let mut infosphere = false;
     let mut ewm_live = None;
-    let (uploaded, upload_receipt, asset_receipts, texture_bindings) = if ewm_streaming {
+    let (uploaded, mut upload_receipt, mut asset_receipts, texture_bindings) = if ewm_streaming {
         let catalog = admitted_catalog.ok_or(err("Streaming woodland needs the catalog Q42"))?;
         let paint = super::stream::load_first_paint(&mut portal, &scene, &camera, catalog).await?;
         total_bytes = paint.total_bytes;
         pointer_sha256 = paint.pointer_sha256;
         overlapping = paint.overlapping;
         infosphere = paint.infosphere;
-        ewm_live = Some(EwmLive {
-            catalog: paint.catalog,
-            selection: paint.selection,
-            colours: paint.colours,
-            textures: scene.textures.clone(),
-            // Catchment streaming loop replaces legacy 64-asset white-trunk enhancement
-            // immediately after first paint without stalling `ewm.busy` for 30+ seconds.
-            enhancement_pending: false,
-            place_volume_pending: false,
-            busy: Rc::new(AtomicBool::new(false)),
-            abort: Rc::new(RefCell::new(None)),
-        });
+        if extra_streaming {
+            ewm_live = Some(EwmLive {
+                catalog: paint.catalog,
+                selection: paint.selection,
+                colours: paint.colours,
+                textures: scene.textures.clone(),
+                // Catchment streaming loop replaces legacy 64-asset white-trunk enhancement
+                // immediately after first paint without stalling `ewm.busy` for 30+ seconds.
+                enhancement_pending: false,
+                place_volume_pending: false,
+                busy: Rc::new(AtomicBool::new(false)),
+                abort: Rc::new(RefCell::new(None)),
+            });
+        }
         (
             paint.uploaded,
             paint.upload_receipt,
@@ -352,7 +376,7 @@ pub async fn boot() -> Result<(), JsValue> {
     if refused != 0. {
         return Err(err(format!("Native scene refused {refused} assets")));
     }
-    let instance_receipt = if ewm_streaming {
+    let mut instance_receipt = if ewm_streaming {
         super::instances::bind_resident(
             &mut portal,
             &scene,
@@ -384,6 +408,44 @@ pub async fn boot() -> Result<(), JsValue> {
                 .unwrap_or(0.) as u64;
             if expected != got {
                 return Err(err("Native vertex total differs from published manifest"));
+            }
+        }
+    }
+    // Bare homepage: keep the van, the car, and the dishes, and draw the
+    // catchment soil plus the eco-intent tufts. ?ewm=1 keeps the catchment loop.
+    let (tufts, wood, road_field) = if resident_scene && !extra_streaming {
+        let mounted = super::resident_ground::mount(
+            &mut portal,
+            &mut scene,
+            &upload_receipt,
+            macros_live.as_ref(),
+            &mut host,
+        )
+        .await?;
+        upload_receipt = mounted.upload;
+        instance_receipt = mounted.instances;
+        asset_receipts = mounted.asset_receipts;
+        total_bytes = mounted.total_bytes;
+        (Some(mounted.tufts), Some(mounted.wood), mounted.road)
+    } else {
+        (None, None, serde_json::Value::Null)
+    };
+    let mut camera = camera;
+    let show_roots = query_has_token(&query, "roots=1");
+    let show_road = query_has_token(&query, "road=1");
+    if let Some(wood) = wood.as_ref() {
+        if query_has_token(&query, "gum=1") || show_roots {
+            let (target, yaw, pitch, zoom) = wood.proof_view(show_roots);
+            camera.target = target;
+            camera.yaw = yaw;
+            camera.pitch = pitch;
+            camera.zoom = zoom;
+        } else if show_road {
+            if let Some((target, yaw, pitch, zoom)) = super::gis_join::road_proof_view() {
+                camera.target = target;
+                camera.yaw = yaw;
+                camera.pitch = pitch;
+                camera.zoom = zoom;
             }
         }
     }
@@ -448,7 +510,7 @@ pub async fn boot() -> Result<(), JsValue> {
         (Some(ewm), Some(id)) => ewm.catalog.live_place_base(id),
         _ => Vec::new(),
     };
-    let ewm_unload = if ewm_streaming {
+    let ewm_unload = if extra_streaming {
         unload::V1_UNLOAD
     } else {
         ""
@@ -469,7 +531,7 @@ pub async fn boot() -> Result<(), JsValue> {
         is_mobile: graphics_init.is_mobile,
         reading_fallback: super::graphics::READING_FALLBACK_URL,
     };
-    let receipt = json!({"schema":"webizen.native-world-receipt/v1","gpu_timing_requested":gpu_timing,"ewm_streaming":ewm_streaming,"ewm_catalog_engine":pointer_sha256,"ewm_overlapping":overlapping,"ewm_infosphere":infosphere,"ewm_live_place":live_place,"ewm_live_place_base":live_place_base,"ewm_unload":ewm_unload,"streaming":{"enabled":ewm_streaming,"default":false},"scene_graph":scene_graph_receipt,"served_build_identity":runtime_identity,"renderer":backend,"requested_backend":graphics_init.requested_backend,"device_tier":graphics_init.device_tier.as_str(),"tier_budget":super::graphics::tier_budget_json(&graphics_init.tier_budget),"is_mobile":graphics_init.is_mobile,"reading_fallback":super::graphics::READING_FALLBACK_URL,"q42_sha256":q42_hash,"q42_rows":graph.rows,"q42_reader":"PoetSnapshot::admit_q42_slice","q42_engine":"GraphDatabase.sparql","vibe_sha256":hash(&source_bytes),"vibe_evaluator":"PoetSnapshot::eval_fn","assets":asset_receipts,"asset_bytes":total_bytes,"default_language":"en-AU","authority":"anonymous-public","controller":"Rust/WASM","upload":upload_receipt,"instances":instance_receipt,"graphics_initialisation":graphics_init.report,"presentation_settings":settings,"textures":texture_receipts,"verified_texture_bindings":texture_bindings,"camp":macros_live.as_ref().map(|live| live.receipt()).unwrap_or(serde_json::Value::Null)});
+    let receipt = json!({"schema":"webizen.native-world-receipt/v1","gpu_timing_requested":gpu_timing,"ewm_streaming":extra_streaming,"ewm_catalog_engine":pointer_sha256,"ewm_overlapping":overlapping,"ewm_infosphere":infosphere,"ewm_live_place":live_place,"ewm_live_place_base":live_place_base,"ewm_unload":ewm_unload,"streaming":{"enabled":extra_streaming,"default":false},"resident_ground":resident_scene && !extra_streaming,"woody":wood.is_some(),"road_field":road_field,"scene_graph":scene_graph_receipt,"served_build_identity":runtime_identity,"renderer":backend,"requested_backend":graphics_init.requested_backend,"device_tier":graphics_init.device_tier.as_str(),"tier_budget":super::graphics::tier_budget_json(&graphics_init.tier_budget),"is_mobile":graphics_init.is_mobile,"reading_fallback":super::graphics::READING_FALLBACK_URL,"q42_sha256":q42_hash,"q42_rows":graph.rows,"q42_reader":"PoetSnapshot::admit_q42_slice","q42_engine":"GraphDatabase.sparql","vibe_sha256":hash(&source_bytes),"vibe_evaluator":"PoetSnapshot::eval_fn","assets":asset_receipts,"asset_bytes":total_bytes,"default_language":"en-AU","authority":"anonymous-public","controller":"Rust/WASM","upload":upload_receipt,"instances":instance_receipt,"graphics_initialisation":graphics_init.report,"presentation_settings":settings,"textures":texture_receipts,"verified_texture_bindings":texture_bindings,"camp":macros_live.as_ref().map(|live| live.receipt()).unwrap_or(serde_json::Value::Null)});
     let state = Rc::new(RefCell::new(World {
         portal,
         canvas: canvas.clone(),
@@ -497,19 +559,55 @@ pub async fn boot() -> Result<(), JsValue> {
         play_observer: None,
         play_purpose: String::new(),
         play_focus_group: None,
+        tufts,
+        tuft_shift: 0.0,
+        wood,
+        woody_shift: 0.0,
     }));
     set_camera(&mut state.borrow_mut())?;
     ui::install_panel_toggle()?;
     play::install(&state)?;
     ui::install_controls(&state)?;
     input::install_input(&state)?;
+    if show_roots {
+        super::locomotion::set_rhizosphere_xray(&mut state.borrow_mut(), true);
+    }
+    // Place selection writes the campsite goal after the first proof-camera
+    // assignment. Put the gum framing back on both camera and goal so the
+    // frame blend does not walk back to the camp.
+    if query_has_token(&query, "gum=1") || show_roots {
+        let framed = state
+            .borrow()
+            .wood
+            .as_ref()
+            .map(|wood| wood.proof_view(show_roots));
+        if let Some((target, yaw, pitch, zoom)) = framed {
+            let mut w = state.borrow_mut();
+            w.camera.target = target;
+            w.camera.yaw = yaw;
+            w.camera.pitch = pitch;
+            w.camera.zoom = zoom;
+            w.goal = w.camera.clone();
+            set_camera(&mut w)?;
+        }
+    } else if show_road {
+        if let Some((target, yaw, pitch, zoom)) = super::gis_join::road_proof_view() {
+            let mut w = state.borrow_mut();
+            w.camera.target = target;
+            w.camera.yaw = yaw;
+            w.camera.pitch = pitch;
+            w.camera.zoom = zoom;
+            w.goal = w.camera.clone();
+            set_camera(&mut w)?;
+        }
+    }
     play::init_ewm_bridge(
         &state,
         graphics_init.device_tier.as_str(),
         graphics_init.tier_budget.max_resident_triangles,
         graphics_init.tier_budget.max_gpu_memory_bytes as u64,
     );
-    if ewm_streaming {
+    if extra_streaming {
         super::stream::spawn_catchment_streaming_loop(
             state.clone(),
             graphics_init.device_tier.as_str().to_string(),

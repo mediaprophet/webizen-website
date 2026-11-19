@@ -1,0 +1,27 @@
+WR-03 frames from production/corridor/author_road.rs. Each ground pixel is ground::colour_at on catchment-soil.bin. The track is production/corridor/forestry-road.bin, draped on ground::height_at: crown +0.12 m, shoulders, and a cut-side drain at -0.26 m. These are not wasm captures. No person, tree, or vehicle is drawn.
+
+canvas-road-viewport.png is an earlier wasm frame. The ribbon in it is a vertex colour written for that build: dirt 0.36, 0.22, 0.11, gravel 0.62, 0.60, 0.56, sealed 0.14, 0.15, 0.16, with the drain darkened and the crown lightened. That build is not what site/pkg serves. Its sha256 was 13a04a3089d366196802e46e2c777b4683d16de65e244fe5db7a286c0d070a2e, 23739657 bytes.
+
+canvas-road-field.png is the homepage canvas at ?road=1, WebGPU, campsite props in frame. The served wasm is sha256 0ee6bae8c937a5120cb5cab0d3e4cf30eaa50501e9650d2afc710d67be752edf, 23875777 bytes. The browser decodedBodySize matched that length. streaming.default is false. The page did not fetch /intenteco/.
+
+The track colour is the normal-incidence Fresnel factor of a volume-weighted index queried from production/corridor/surface.q42 (sha256 114a17ce397e7c61d5895210796e97fcb18de32fdf7d8c83ced79101923e4d57). Dirt n_eff 1.3222, Fresnel R 0.0193. Gravel n_eff 1.3672, R 0.0241. Sealed n_eff 1.3549, R 0.0227. Extinction and spectral sigma are 0. The scene sun lights those factors. A column through the ribbon read about 20, 28, 28. Soil beside it read about 50, 35, 18. The three surfaces are the same dark grey. Pigment extinction is not in the ontology, so this frame does not separate dirt, gravel, and sealed by eye.
+
+The refractive index is stored per vertex in a Q42EMF64 version-2 record, emf sha256 0ffc62bddc826f2b09439f0cb026416c032e51755641882f17b0194b86341909. portal.load_emf refused it as Storage(Version): that reader admits the version-4 electric-field envelope and does not shade this mesh. No substitute colour was written.
+
+track-leaving-camp.png
+Eye is on the west side of the campsite pad, looking north. The broad brown earth in the foreground is the packed pad (the lit colour matches the pad swatch, about 112, 79, 48). A pale buff dirt track leaves that clearing and runs up the middle of the frame. The crown is the lighter band. Two darker stripes are the wheel ruts. A darker groove runs along the formation; that is the cut-side drain. Left of the track is the teal creek, with a pale pebble bank and orange-brown silt. The far hills are pale. Gravel and sealed are only a few hundred pixels at the vanishing point and are not a readable surface in this frame. Pixel counts: dirt 110367, gravel 1361, sealed 914, grass 406151, creek 12028, water 10211.
+
+track-surfaces.png
+A higher view, still looking north. The pale dirt track enters from the lower left, joins a short grey gravel section, then a dark sealed approach with a broken pale centre line. The seal widens into a dark pad. A grey gravel ring sits around that pad. The surrounding ground is orange-brown floodplain silt. The teal creek is to the left of the road, with pale banks. Pixel counts: dirt 32023, gravel 17093, sealed 24500, grass 739995, creek 30422, water 55308.
+
+surface_at along the centreline (gis_join::surface_at, same answers as the mesh). Never grass.
+s=0.0 m (-19.00, 38.00) y=4.51 dirt, half-width 4.5 m
+s=20 m (-18.20, 57.98) y=4.06 dirt, half-width 4.5 m
+s=40 m (-18.81, 77.97) y=3.62 dirt, half-width 4.5 m
+s=53.4 m end of dirt; s=60 m (-19.91, 97.94) y=4.34 gravel, half-width 5.0 m
+s=72 m (-20.62, 109.92) y=4.53 sealed, half-width 6.5 m
+s=100 m (-21.93, 137.89) y=4.77 sealed, half-width 6.5 m
+s=116.1 m (-22.00, 154.00) y=4.76 sealed, the community-grounds pad, half-width 6.5 m
+The pad centre is sealed out to 9 m. The ring from 9 m to 13.5 m is gravel, except where the sealed approach crosses it. Camp centre (-22, 28) is grass. (0, 56) on the creek is creek.
+
+The track stays on the west bank. The old east line toward x=354 climbs the headland at grades the soil mesh will not carry, and that point is outside the 600 m mesh. The drive should follow gis_join::road_centreline, not vehicle.rs corridor_road_centreline_z. Steepest drape is 12.8% between s=40 m and s=42 m, a short dirt wrinkle. Tile clearance half-widths are still 4.5, 6.5, and 5.0. Mesh sha256 09b7b5c85d7e70b35d5dab5e6cb9ddc94be68453bf719cdb41e8ec90566c5af1, 25256 bytes.

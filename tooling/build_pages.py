@@ -18,6 +18,8 @@ domain (e.g. webizen.au or localhost) and under the GitHub Pages project subpath
 (/webizen-website/).
 """
 from pathlib import Path
+import hashlib
+import json
 import os
 import posixpath
 import re
@@ -202,6 +204,40 @@ def rewrite_js_imports(js_path: Path) -> None:
         js_path.write_text(updated, encoding="utf-8")
 
 
+def write_world_q42_alias(generated: Path, publication_out: Path) -> Path:
+    """Write publication/world.q42 as a byte copy of the volume named by current.json.
+
+    The content-addressed volume is tracked. The well-known alias is not, so a
+    checkout that Cloudflare builds does not contain it unless this step runs.
+    """
+    pointer_path = generated / "current.json"
+    pointer = json.loads(pointer_path.read_text(encoding="utf-8"))
+    name = pointer.get("q42")
+    if (
+        not isinstance(name, str)
+        or not name
+        or name != Path(name).name
+        or "/" in name
+        or "\\" in name
+    ):
+        raise SystemExit(f"publication current.json names no local q42 volume: {name!r}")
+    named = generated / name
+    if not named.is_file():
+        raise SystemExit(f"Missing publication volume named by current.json: {named}")
+    data = named.read_bytes()
+    expect = pointer.get("sha256")
+    if isinstance(expect, str) and expect:
+        digest = hashlib.sha256(data).hexdigest()
+        if digest != expect:
+            raise SystemExit(
+                f"Publication volume {name} sha256 {digest} does not match current.json {expect}"
+            )
+    publication_out.mkdir(parents=True, exist_ok=True)
+    alias = publication_out / "world.q42"
+    alias.write_bytes(data)
+    return alias
+
+
 def main() -> int:
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -216,6 +252,7 @@ def main() -> int:
         dirs_exist_ok=True,
         ignore=ignore_filter,
     )
+    write_world_q42_alias(ROOT / "publication" / "generated", OUT / "publication")
     for src_name, dst_name in MOUNT_DIRS:
         src_dir = ROOT / src_name
         if src_dir.exists():

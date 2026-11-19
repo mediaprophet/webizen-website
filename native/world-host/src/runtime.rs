@@ -6,6 +6,7 @@ mod frame_telemetry;
 mod graphics;
 mod gis_ingest;
 mod gis_join;
+mod ground;
 mod input;
 mod instances;
 mod instruments;
@@ -18,6 +19,10 @@ mod scene_q42;
 mod stream;
 mod textures;
 mod ui;
+mod understorey;
+mod resident_ground;
+mod surface_field;
+mod woody;
 pub mod vehicle;
 mod consent;
 use crate::{
@@ -73,6 +78,10 @@ struct World {
     play_observer: Option<Camera>,
     play_purpose: String,
     play_focus_group: Option<String>,
+    tufts: Option<understorey::ResidentTufts>,
+    tuft_shift: f32,
+    wood: Option<woody::ResidentWood>,
+    woody_shift: f32,
 }
 struct EwmLive {
     catalog: catalog::Catalog,
@@ -455,6 +464,35 @@ async fn run_ewm_tile_job(state: Shared, job: EwmTileJob) {
     }
     job.busy.store(false, Ordering::SeqCst);
 }
+/// Pose grass blades into the buffers allocated at boot, then upload that span.
+/// Frozen base vertices are copied from the rest pose. No per-frame heap allocation.
+fn sway_tufts(w: &mut World, t_s: f64) {
+    let Some(mut tufts) = w.tufts.take() else {
+        return;
+    };
+    let wind = if w.reduced { 0.0 } else { 8.5 };
+    tufts.pose(t_s, wind);
+    w.tuft_shift = tufts.tip_shift_m;
+    for span in tufts.spans() {
+        let start = span.scratch_at;
+        let end = start + span.vertex_count * 3;
+        w.portal
+            .write_part_vertices(span.vertex_start, &tufts.scratch()[start..end]);
+    }
+    w.tufts = Some(tufts);
+}
+/// Pose eucalypt crowns into the buffers allocated at boot. Root vertices stay
+/// at the soil fit written once. No per-frame heap allocation.
+fn sway_wood(w: &mut World, t_s: f64) {
+    let Some(mut wood) = w.wood.take() else {
+        return;
+    };
+    let wind = if w.reduced { 0.0 } else { 8.5 };
+    wood.pose(&mut w.portal, t_s, wind);
+    w.woody_shift = wood.tip_shift_m;
+    w.wood = Some(wood);
+}
+
 fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
     let mut w = state.borrow_mut();
     let interval = stamp - w.last_frame;
@@ -496,6 +534,8 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
     if w.play_mode {
         play::follow_camera(&mut w)?;
     }
+    sway_tufts(&mut w, stamp * 0.001);
+    sway_wood(&mut w, stamp * 0.001);
     w.portal.tick(canvas, dt)?;
     w.timings.record(now() - submission_start, interval);
     if w.portal.graphics_recovery_requested() {
@@ -558,6 +598,8 @@ fn frame(state: &Shared, stamp: f64) -> Result<(), JsValue> {
     if stamp - w.last_receipt >= 1000. || w.frames == 2 {
         w.last_receipt = stamp;
         let timing = w.timings.summary();
+        w.receipt["understorey_tip_m"] = json!(w.tuft_shift);
+        w.receipt["woody_tip_m"] = json!(w.woody_shift);
         w.receipt["frame_timing"] = json!({"sample_count":timing.sample_count,"total_frames":timing.total_frames,"window_capacity":64,"quantile_method":"nearest rank","tick_cpu_submission_ms":{"p50":timing.tick_p50_ms,"p95":timing.tick_p95_ms},"raf_interval_ms":{"p50":timing.interval_p50_ms,"p95":timing.interval_p95_ms},"gpu_duration_measured":false,"scope":"Elapsed successful portal.tick CPU/submission call, not GPU execution duration; raw RAF intervals exclude benchmark-paused frames"});
         w.receipt["gpu_pass_timing"] = match w.portal.gpu_pass_timings() {
             Ok(snapshot) => js_sys::JSON::stringify(&snapshot)

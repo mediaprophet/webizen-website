@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WR-01 creek</title>
+<link rel="stylesheet" href="/world/native.css">
+<style>
+html,body{margin:0;height:100%;background:#87a0b0}
+header,.skip,main{display:none}
+#native-world{position:fixed;inset:0;width:100%;height:100%;display:block}
+#native-world-status{position:fixed;left:8px;bottom:8px;z-index:2;color:#fff;font:12px sans-serif}
+</style>
+</head>
+<body>
+<canvas id="native-world" data-scene="/production/ground/scene.json" data-vibe="/production/ground/view-creek.vibe" data-ewm-streaming="0" aria-label="Soil catchment rendered by the world host" tabindex="0"></canvas>
+<div id="native-world-status" role="status">Opening the native living world…</div>
+<script src="/world/gl-debug.js"></script>
+<script type="module">import init from '/pkg/native-world/webizen_world.js';await init();</script>
+</body>
+</html>
