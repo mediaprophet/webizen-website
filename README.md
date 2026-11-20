@@ -28,6 +28,12 @@ The earlier review index remains at `/inventory.html`; original QualiaDB sources
 
 The language layer accepts Unicode locales and supports region/script fallback, RTL, locale-aware formatting and explicit English fallback. Six draft language families are provided; this is not a claim of complete reviewed translations. A remembered explicit locale overrides the Australian-English default.
 
+## Licensing
+
+Copyright (c) 2026 Timothy Charles Holborn  
+https://www.linkedin.com/in/ubiquitous/ | timothy.holborn@gmail.com  
+**License:** Attribution-NonCommercial-NoDerivatives 4.0 International (`CC BY-NC-ND 4.0`) — see [`LICENSE`](LICENSE) and [Creative Commons Legal Code](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
+
 ## Ownership
 
 Keep source-generated capability facts and human-authored explanations separate. Every module explains its purpose, distinctive approach, human significance, ecosystem relationships and actual availability. Every demo identifies its workload, runtime profile, evidence and accessible route. Every existing page gets a migration disposition.

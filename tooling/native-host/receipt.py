@@ -22,7 +22,7 @@ core_dirty=subprocess.check_output(['git','-C',str(core),'status','--porcelain',
 core_untracked=subprocess.check_output(['git','-C',str(core),'ls-files','--others','--exclude-standard','--','src','Cargo.toml'],text=True).splitlines()
 metadata=json.loads(subprocess.check_output(['cargo','metadata','--offline','--locked','--format-version','1','--filter-platform','wasm32-unknown-unknown'],cwd=ROOT/'native/world-host'))
 resolved=[{k:p[k] for k in ['name','version','source','manifest_path']} for p in metadata['packages'] if p['name'].startswith('etalon') or p['name'] in ['naga','naga-types']]
-expected='c0bddc9650b9265d1a5578c251af1ab12896601a'
+expected='c110aaf319798c1f547360995dd0461a5396c6f2'
 etalon_root=Path('C:/github/etalon')
 etalon_head=subprocess.check_output(['git','-C',str(etalon_root),'rev-parse','HEAD'],text=True).strip()
 assert etalon_head==expected, f'Local etalon HEAD {etalon_head} must be {expected}'
