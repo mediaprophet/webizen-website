@@ -10,7 +10,7 @@ $oldFlags = $env:RUSTFLAGS
 $oldToolchain = $env:RUSTUP_TOOLCHAIN
 try {
   $env:CARGO_TARGET_DIR = 'C:/github/qualiaDB/target'
-  $env:RUSTUP_TOOLCHAIN = '1.96.1'
+  $env:RUSTUP_TOOLCHAIN = '1.99.1'
   $env:RUSTFLAGS = '-C target-feature=+simd128 -C link-arg=-zstack-size=8388608 -C link-arg=--max-memory=1073741824 --cfg getrandom_backend="wasm_js"'
   if (-not (Test-Path -LiteralPath $Bindgen)) { throw 'Matching wasm-bindgen CLI required; pass its path using -Bindgen' }
   $version = & $Bindgen --version
